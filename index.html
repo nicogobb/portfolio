@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nicolas Gobbi - Full Stack Developer Portfolio showcasing web development projects and skills">
+    <title>Nicolas Gobbi - Developer Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav__container">
+            <a href="#" class="nav__logo">nicogob</a>
+            <button class="nav__toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav__menu">
+                <a href="#about">~/about</a>
+                <a href="#skills">~/skills</a>
+                <a href="#portfolio">~/projects</a>
+                <a href="#contact">~/contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero__container">
+            <h1 class="hero__title">Hello, World!</h1>
+            <p class="hero__subtitle">Full Stack Developer</p>
+            <div class="hero__terminal">
+                <div class="terminal__line">const developer = {</div>
+                <div class="terminal__line">&nbsp;&nbsp;name: "Nicolas Gobbi",</div>
+                <div class="terminal__line">&nbsp;&nbsp;skills: ["PHP", "JavaScript", "HTML", "CSS"],</div>
+                <div class="terminal__line">&nbsp;&nbsp;passion: "Building awesome web applications"</div>
+                <div class="terminal__line">}</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Sections -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section__title">About Me</h2>
+            <div class="about__content">
+                <div class="about__terminal">
+                    <div class="terminal__header">
+                        <span class="terminal__dot"></span>
+                        <span class="terminal__dot"></span>
+                        <span class="terminal__dot"></span>
+                        <span class="terminal__title">about.txt</span>
+                    </div>
+                    <div class="terminal__body">
+                        <p>$ cat about.txt</p>
+                        <p>Hi, I'm Nicolas Gobbi, a passionate full-stack developer with a focus on PHP and modern web technologies. I specialize in building efficient, scalable, and user-friendly applications using technologies like CodeIgniter, JavaScript, and various databases.</p>
+                        <p>With a strong foundation in both frontend and backend development, I enjoy creating seamless web experiences that solve real-world problems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section__title">Tech Stack</h2>
+            <div class="skills__content">
+                <div class="skills__grid">
+                    <div class="skill__card">
+                        <div class="skill__icon">⚡</div>
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>PHP</li>
+                            <li>CodeIgniter</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="skill__card">
+                        <div class="skill__icon">🎨</div>
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill__card">
+                        <div class="skill__icon">🛠️</div>
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>VS Code</li>
+                            <li>Command Line</li>
+                            <li>DevTools</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section">
+            <h2 class="section__title">Projects</h2>
+            <div class="portfolio__grid">
+                <div class="project__card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Project 1">
+                    <div class="project__content">
+                        <h3>E-commerce Platform</h3>
+                        <p>A full-featured online store built with PHP and MySQL</p>
+                        <div class="project__tags">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project__link">View Project →</a>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Project 2">
+                    <div class="project__content">
+                        <h3>Task Management System</h3>
+                        <p>A collaborative task tracker with real-time updates</p>
+                        <div class="project__tags">
+                            <span>CodeIgniter</span>
+                            <span>MongoDB</span>
+                            <span>WebSockets</span>
+                        </div>
+                        <a href="#" class="project__link">View Project →</a>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Project 3">
+                    <div class="project__content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Real-time data visualization platform</p>
+                        <div class="project__tags">
+                            <span>JavaScript</span>
+                            <span>Chart.js</span>
+                            <span>API Integration</span>
+                        </div>
+                        <a href="#" class="project__link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section__title">Contact</h2>
+            <div class="contact__content">
+                <div class="contact__terminal">
+                    <div class="terminal__header">
+                        <span class="terminal__dot"></span>
+                        <span class="terminal__dot"></span>
+                        <span class="terminal__dot"></span>
+                        <span class="terminal__title">contact.sh</span>
+                    </div>
+                    <div class="terminal__body">
+                        <p>$ ./contact.sh</p>
+                        <form class="contact__form" id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+                            <div class="form__group">
+                                <label>Name:</label>
+                                <input type="text" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form__group">
+                                <label>Email:</label>
+                                <input type="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form__group">
+                                <label>Message:</label>
+                                <textarea name="message" placeholder="Your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="social__links">
+                <a href="https://github.com/nicogob" target="_blank" rel="noopener noreferrer" class="social__link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/nicolas-gobbi" target="_blank" rel="noopener noreferrer" class="social__link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/nicogob" target="_blank" rel="noopener noreferrer" class="social__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <p>$ echo "© 2024 Nicolas Gobbi. All rights reserved."</p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="js/main.js"></script>
+</body>
+</html>
