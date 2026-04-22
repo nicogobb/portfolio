@@ -9,7 +9,7 @@ Personal portfolio as a Full Stack Developer, built with vanilla HTML, CSS and J
 - Vanilla JavaScript (Intersection Observer, scroll behavior, form validation)
 - Google Fonts: JetBrains Mono + Inter
 - Font Awesome (icons)
-- Formspree (contact form)
+
 
 ## Featured projects
 
@@ -30,8 +30,6 @@ Then open `http://localhost:8000` in the browser.
 ## Deploy
 
 Compatible with GitHub Pages, Netlify or Vercel — just upload the files, no build step needed.
-
-To enable the contact form, replace the form `action` in `index.html` with a real [Formspree](https://formspree.io) endpoint.
 
 ## Author
 
