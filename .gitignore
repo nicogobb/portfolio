@@ -27,4 +27,7 @@ Thumbs.db
 # Build/Distribution
 dist/
 build/
-*.log 
+*.log
+
+# Claude Code
+CLAUDE.md
