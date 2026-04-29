@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Nicolas Gobbi - Full Stack Developer Portfolio showcasing web development projects and skills">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nicolas Gobbi — Full Stack Developer">
+    <meta property="og:description" content="PHP developer with 10+ years of experience building production systems across health, logistics, and fleet tracking industries.">
+    <meta property="og:url" content="https://nicogobb.github.io/portfolio/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Nicolas Gobbi — Full Stack Developer">
+    <meta name="twitter:description" content="PHP developer with 10+ years of experience building production systems across health, logistics, and fleet tracking industries.">
     <title>Nicolas Gobbi - Developer Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='10' fill='%230a0a0a'/><text x='8' y='78' font-size='65' font-family='monospace' fill='%2300ff00'>%3E_</text></svg>">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
@@ -14,7 +22,7 @@
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav__container">
-            <a href="#" class="nav__logo">nicogob</a>
+            <a href="#hero" class="nav__logo">nicogobb</a>
             <button class="nav__toggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
@@ -22,6 +30,7 @@
             </button>
             <div class="nav__menu">
                 <a href="#about">~/about</a>
+                <a href="#experience">~/experience</a>
                 <a href="#skills">~/skills</a>
                 <a href="#portfolio">~/projects</a>
 
@@ -34,11 +43,12 @@
         <div class="hero__container">
             <h1 class="hero__title">Hello, World!</h1>
             <p class="hero__subtitle">Full Stack Developer</p>
+            <a href="CV_NicolasGobbi.pdf" download class="hero__cta">download cv</a>
             <div class="hero__terminal">
                 <div class="terminal__line">const developer = {</div>
                 <div class="terminal__line">&nbsp;&nbsp;name: "Nicolas Gobbi",</div>
-                <div class="terminal__line">&nbsp;&nbsp;skills: ["PHP", "JavaScript", "HTML", "CSS"],</div>
-                <div class="terminal__line">&nbsp;&nbsp;passion: "Building awesome web applications"</div>
+                <div class="terminal__line">&nbsp;&nbsp;skills: ["PHP", "CodeIgniter", "Kohana", "JavaScript", "MySQL"],</div>
+                <div class="terminal__line">&nbsp;&nbsp;passion: "Building efficient, real-world web systems"</div>
                 <div class="terminal__line">}</div>
             </div>
         </div>
@@ -59,10 +69,58 @@
                     </div>
                     <div class="terminal__body">
                         <p>$ cat about.txt</p>
-                        <p>Hi, I'm Nicolas Gobbi, a passionate full-stack developer with a focus on PHP and modern web technologies. I specialize in building efficient, scalable, and user-friendly applications using technologies like CodeIgniter, JavaScript, and various databases.</p>
-                        <p>With a strong foundation in both frontend and backend development, I enjoy creating seamless web experiences that solve real-world problems.</p>
+                        <p>Hi, I'm Nicolas Gobbi, a full-stack developer with a strong focus on PHP and its ecosystem. I've built production systems across several industries — from health insurance management and corporate intranets to real-time GPS fleet tracking — working primarily with CodeIgniter and Kohana, with experience in Symfony for larger architectures.</p>
+                        <p>I'm comfortable across the full stack: PHP backends, relational and document databases, and frontend work with vanilla JavaScript and TypeScript. I integrate AI-assisted development — primarily Claude Code — into my daily workflow to ship faster and maintain higher code quality.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section__title">Experience</h2>
+            <div class="timeline">
+
+                <div class="timeline__item">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <span class="timeline__date">Aug 2025 — Present</span>
+                        <h3 class="timeline__role">Software Engineer</h3>
+                        <span class="timeline__company">Maxtracker S.A. — Argentina</span>
+                        <p>Develop and maintain the PHP backend using Kohana for a fleet management and telematics platform. Work on real-time GPS tracking, driving behavior analytics, and asset maintenance solutions serving oil & gas, mining, construction, and logistics industries across Argentina and Latin America.</p>
+                    </div>
+                </div>
+
+                <div class="timeline__item">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <span class="timeline__date">Apr 2022 — Aug 2025</span>
+                        <h3 class="timeline__role">PHP Web Developer</h3>
+                        <span class="timeline__company">mydigitalnomads — Cyprus (remote)</span>
+                        <p>Part of the development and maintenance of a large-scale platform with thousands of users. Primary focus on backend architecture, code optimization, and scalability. Also contributed to frontend tasks, maintaining a full-stack perspective across the project.</p>
+                    </div>
+                </div>
+
+                <div class="timeline__item">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <span class="timeline__date">Nov 2019 — Present</span>
+                        <h3 class="timeline__role">Web Developer</h3>
+                        <span class="timeline__company">OSPL — Argentina</span>
+                        <p>Built a CRUD management system for a provincial health insurance provider, covering the central office and all branches across Argentina. Continuously integrating new technologies to keep solutions scalable and maintainable.</p>
+                    </div>
+                </div>
+
+                <div class="timeline__item">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <span class="timeline__date">Jan 2014 — Nov 2019</span>
+                        <h3 class="timeline__role">DBA</h3>
+                        <span class="timeline__company">Mutual Senderos — Argentina</span>
+                        <p>Started as a web developer before transitioning into the primary database administrator role, responsible for maintenance, optimization, and security of company databases. This is where I built my SQL foundations.</p>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -77,7 +135,10 @@
                         <ul>
                             <li>PHP</li>
                             <li>CodeIgniter</li>
+                            <li>Kohana</li>
+                            <li>Symfony</li>
                             <li>MySQL</li>
+                            <li>PostgreSQL</li>
                             <li>MongoDB</li>
                         </ul>
                     </div>
@@ -88,6 +149,7 @@
                             <li>HTML5</li>
                             <li>CSS3</li>
                             <li>JavaScript</li>
+                            <li>TypeScript</li>
                             <li>Responsive Design</li>
                         </ul>
                     </div>
@@ -99,6 +161,7 @@
                             <li>VS Code</li>
                             <li>Command Line</li>
                             <li>DevTools</li>
+                            <li>Claude Code</li>
                         </ul>
                     </div>
                 </div>
@@ -110,38 +173,80 @@
             <h2 class="section__title">Projects</h2>
             <div class="portfolio__grid">
                 <div class="project__card">
-                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="OSPL - Obra Social">
+                    <div class="project__visual">
+                        <div class="project__visual-header">
+                            <span class="terminal__dot"></span>
+                            <span class="terminal__dot"></span>
+                            <span class="terminal__dot"></span>
+                        </div>
+                        <div class="project__visual-body">
+                            <span class="pv__accent">$</span> php index.php members/auth<br>
+                            <span class="pv__accent">✓</span> 2 847 affiliates loaded<br>
+                            <span class="pv__accent">✓</span> 14 branches synced<br>
+                            <span class="pv__dim">_</span> awaiting authorization...
+                        </div>
+                    </div>
                     <div class="project__content">
                         <h3>OSPL — Health Insurance System</h3>
                         <p>Web system for managing members and medical authorizations for a provincial health insurance provider</p>
                         <div class="project__tags">
                             <span>PHP</span>
-                            <span>CodeIgniter</span>
-                            <span>MySQL</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project__card">
-                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Intranet Corporativa">
-                    <div class="project__content">
-                        <h3>Corporate Intranet</h3>
-                        <p>Intranet for a company with 100+ employees: HR, internal communications and resource management</p>
-                        <div class="project__tags">
-                            <span>PHP</span>
                             <span>JavaScript</span>
                             <span>MySQL</span>
+                            <span>CSS</span>
                         </div>
                     </div>
                 </div>
                 <div class="project__card">
-                    <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="MaxTracker - Telemetría de Flotas">
+                    <div class="project__visual">
+                        <div class="project__visual-header">
+                            <span class="terminal__dot"></span>
+                            <span class="terminal__dot"></span>
+                            <span class="terminal__dot"></span>
+                        </div>
+                        <div class="project__visual-body">
+                            <span class="pv__accent">$</span> GET /api/employees<br>
+                            <span class="pv__accent">✓</span> 104 records returned<br>
+                            <span class="pv__accent">$</span> POST /api/announcements<br>
+                            <span class="pv__accent">✓</span> published to all departments
+                        </div>
+                    </div>
+                    <div class="project__content">
+                        <h3>Corporate Intranet & Internal Tools</h3>
+                        <p>Intranet and multiple internal systems for a company with 100+ employees: HR, communications, resource management and other proprietary tools.</p>
+                        <div class="project__tags">
+                            <span>PHP</span>
+                            <span>CodeIgniter</span>
+                            <span>TypeScript</span>
+                            <span>MySQL</span>
+                            <span>MongoDB</span>
+                            <span>SASS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <div class="project__visual">
+                        <div class="project__visual-header">
+                            <span class="terminal__dot"></span>
+                            <span class="terminal__dot"></span>
+                            <span class="terminal__dot"></span>
+                        </div>
+                        <div class="project__visual-body">
+                            <span class="pv__accent">$</span> tracker --live<br>
+                            <span class="pv__accent">[GPS]</span> 38 units online<br>
+                            <span class="pv__dim">[-34.603, -58.381]</span> → moving<br>
+                            <span class="pv__accent">[WS]</span> streaming telemetry...
+                        </div>
+                    </div>
                     <div class="project__content">
                         <h3>MaxTracker</h3>
                         <p>Real-time GPS telemetry and tracking platform for vehicle fleets</p>
                         <div class="project__tags">
+                            <span>PHP</span>
+                            <span>Kohana</span>
                             <span>JavaScript</span>
-                            <span>GPS / WebSockets</span>
-                            <span>MySQL</span>
+                            <span>PostgreSQL</span>
+                            <span>CSS</span>
                         </div>
                     </div>
                 </div>

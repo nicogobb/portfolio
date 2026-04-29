@@ -55,26 +55,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Navbar scroll behavior
     const nav = document.querySelector('.nav');
-    let lastScroll = 0;
 
     window.addEventListener('scroll', () => {
-        const currentScroll = window.pageYOffset;
-
-        // Add/remove background color based on scroll position
-        if (currentScroll > 50) {
+        if (window.pageYOffset > 50) {
             nav.style.backgroundColor = 'rgba(10, 10, 10, 0.95)';
         } else {
             nav.style.backgroundColor = 'rgba(10, 10, 10, 0.9)';
         }
-
-        // Hide/show navbar based on scroll direction
-        if (currentScroll > lastScroll && currentScroll > 100) {
-            nav.style.transform = 'translateY(-100%)';
-        } else {
-            nav.style.transform = 'translateY(0)';
-        }
-
-        lastScroll = currentScroll;
     });
 
     // Add transition effect for navbar
