@@ -254,6 +254,43 @@
         </section>
 
 
+        <!-- Jobs Section (password-protected, no nav link — access via /#jobs) -->
+        <section id="jobs" class="section">
+            <h2 class="section__title">Job Board</h2>
+
+            <!-- Password gate -->
+            <div class="jobs__gate" id="jobs-gate">
+                <div class="jobs__gate-terminal">
+                    <div class="terminal__header">
+                        <span class="terminal__dot"></span>
+                        <span class="terminal__dot"></span>
+                        <span class="terminal__dot"></span>
+                        <span class="terminal__title">jobs.sh — restricted</span>
+                    </div>
+                    <div class="terminal__body">
+                        <p class="jobs__line">$ access --user nicogobb --restricted</p>
+                        <div class="jobs__auth-row">
+                            <span class="jobs__prompt">&gt; passphrase:&nbsp;</span>
+                            <input type="password" id="jobs-password" class="jobs__input"
+                                   placeholder="••••••••" autocomplete="off">
+                            <button id="jobs-submit" class="jobs__btn">enter</button>
+                        </div>
+                        <p class="jobs__error" id="jobs-error">! access denied</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jobs list (shown after unlock) -->
+            <div class="jobs__content" id="jobs-content">
+                <div class="jobs__toolbar">
+                    <span id="jobs-meta" class="jobs__meta"></span>
+                    <button id="jobs-lock" class="jobs__btn">$ lock</button>
+                </div>
+                <div id="jobs-filters" class="jobs__filters"></div>
+                <div id="jobs-list" class="jobs__list"></div>
+            </div>
+        </section>
+
     </main>
 
     <!-- Footer -->
