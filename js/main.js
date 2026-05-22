@@ -104,7 +104,6 @@ document.addEventListener('DOMContentLoaded', function() {
     //   python3 -c "import hashlib; print(hashlib.sha256(b'YOUR_PASSWORD').hexdigest())"
     // Then replace the string below with the output.
     const JOBS_HASH = '3200a02125577bd480a8d07e60594d898e35a20e7834056150dccf335244de99';
-    const LS_KEY    = 'jobs_auth_v1';
 
     const jobsGate    = document.getElementById('jobs-gate');
     const jobsContent = document.getElementById('jobs-content');
@@ -123,17 +122,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function lockJobs() {
-        localStorage.removeItem(LS_KEY);
         jobsGate.style.display = '';
         jobsContent.classList.remove('visible');
         document.getElementById('jobs-password').value = '';
         document.getElementById('jobs-error').classList.remove('visible');
     }
 
-    const APPLIED_KEY  = 'jobs_applied_v1';
-    let appliedJobs    = new Set(JSON.parse(localStorage.getItem(APPLIED_KEY) || '[]'));
-    let allJobsData    = [];
-    let currentFilter  = 'all';
+    const APPLIED_KEY = 'jobs_applied_v1';
+    let appliedJobs   = new Set(JSON.parse(localStorage.getItem(APPLIED_KEY) || '[]'));
+    let allJobsData   = [];
+    let currentView   = 'remote';   // 'remote' | 'denmark'
+    let currentFilter = 'all';      // 'all' | 'pending' | 'applied'
 
     function saveApplied() {
         localStorage.setItem(APPLIED_KEY, JSON.stringify([...appliedJobs]));
@@ -145,16 +144,26 @@ document.addEventListener('DOMContentLoaded', function() {
         const list      = document.getElementById('jobs-list');
         const filtersEl = document.getElementById('jobs-filters');
 
-        meta.textContent = `$ jobs --list · ${jobs.length} listing(s)`;
+        const byRemote  = jobs.filter(j => !j.denmark);
+        const byDenmark = jobs.filter(j =>  j.denmark);
+        const byView    = currentView === 'denmark' ? byDenmark : byRemote;
 
-        // Filter buttons
-        filtersEl.innerHTML = ['all', 'pending', 'applied'].map(f =>
-            `<button class="jobs__filter${f === currentFilter ? ' jobs__filter--active' : ''}" data-filter="${f}">${f}</button>`
-        ).join('');
+        const filtered  = currentFilter === 'applied' ? byView.filter(j =>  appliedJobs.has(j.id))
+                        : currentFilter === 'pending'  ? byView.filter(j => !appliedJobs.has(j.id))
+                        : byView;
 
-        const filtered = currentFilter === 'applied' ? jobs.filter(j =>  appliedJobs.has(j.id))
-                       : currentFilter === 'pending'  ? jobs.filter(j => !appliedJobs.has(j.id))
-                       : jobs;
+        meta.textContent = `$ jobs --${currentView} · ${filtered.length} listing(s)`;
+
+        filtersEl.innerHTML = `
+            <div class="jobs__views">
+                <button class="jobs__view${currentView === 'remote'  ? ' jobs__view--active' : ''}" data-view="remote">remote <span class="jobs__view-count">(${byRemote.length})</span></button>
+                <button class="jobs__view${currentView === 'denmark' ? ' jobs__view--active' : ''}" data-view="denmark">denmark <span class="jobs__view-count">(${byDenmark.length})</span></button>
+            </div>
+            <div class="jobs__statuses">
+                ${['all', 'pending', 'applied'].map(f =>
+                    `<button class="jobs__filter${f === currentFilter ? ' jobs__filter--active' : ''}" data-filter="${f}">${f}</button>`
+                ).join('')}
+            </div>`;
 
         if (!filtered.length) {
             list.innerHTML = `<p style="font-family:var(--font-main);color:var(--light-text);padding:1rem 0">No ${currentFilter} listings.</p>`;
@@ -196,7 +205,6 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!pw) return;
         const hash = await sha256(pw);
         if (hash === JOBS_HASH) {
-            localStorage.setItem(LS_KEY, JOBS_HASH);
             errEl.classList.remove('visible');
             showJobs();
         } else {
@@ -215,16 +223,13 @@ document.addEventListener('DOMContentLoaded', function() {
         renderJobs(allJobsData);
     });
 
-    // Filter toggle (event delegation)
+    // View + filter toggles (event delegation)
     document.getElementById('jobs-filters').addEventListener('click', e => {
-        const btn = e.target.closest('.jobs__filter');
-        if (!btn) return;
-        currentFilter = btn.dataset.filter;
-        renderJobs(allJobsData);
+        const viewBtn   = e.target.closest('.jobs__view');
+        const filterBtn = e.target.closest('.jobs__filter');
+        if (viewBtn)   { currentView   = viewBtn.dataset.view;     renderJobs(allJobsData); }
+        if (filterBtn) { currentFilter = filterBtn.dataset.filter; renderJobs(allJobsData); }
     });
-
-    // Auto-unlock if already authenticated in this browser
-    if (localStorage.getItem(LS_KEY) === JOBS_HASH) showJobs();
 
     document.getElementById('jobs-submit').addEventListener('click', tryUnlock);
     document.getElementById('jobs-password').addEventListener('keydown', e => {

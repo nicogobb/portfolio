@@ -125,14 +125,15 @@ def fetch_getonbrd() -> list:
             print(f"  [!] GetOnBrd ({keyword}): {e}")
     return out
 
-def fetch_linkedin() -> list:
+def _linkedin_search(params: dict, denmark: bool = False) -> list:
     out = []
     seen_urls: set = set()
-    for keyword in ["PHP Developer", "Backend PHP", "Full Stack PHP"]:
+    keywords = ["PHP Developer", "Backend PHP", "Full Stack PHP"]
+    for keyword in keywords:
         try:
             r = requests.get(
                 "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search",
-                params={"keywords": keyword, "f_WT": "2", "start": "0"},
+                params={"keywords": keyword, "start": "0", **params},
                 headers=HEADERS, timeout=15,
             )
             soup = BeautifulSoup(r.text, "html.parser")
@@ -150,13 +151,23 @@ def fetch_linkedin() -> list:
                     continue
                 seen_urls.add(url)
                 if matches(f"{title} {clean(company_el.text) if company_el else ''}"):
-                    out.append(make_job(
-                        "LinkedIn", uid, title,
-                        company_el.text if company_el else "", url,
-                    ))
+                    j = make_job("LinkedIn", uid, title,
+                                 company_el.text if company_el else "", url)
+                    if denmark:
+                        j["denmark"] = True
+                    out.append(j)
         except Exception as e:
-            print(f"  [!] LinkedIn ({keyword}): {e}")
+            label = "LinkedIn Denmark" if denmark else "LinkedIn"
+            print(f"  [!] {label} ({keyword}): {e}")
     return out
+
+def fetch_linkedin() -> list:
+    # Remote jobs worldwide (f_WT=2)
+    return _linkedin_search({"f_WT": "2"})
+
+def fetch_linkedin_denmark() -> list:
+    # On-site + hybrid jobs in Denmark (f_WT=1,3)
+    return _linkedin_search({"location": "Denmark", "f_WT": "1,3"}, denmark=True)
 
 # ── Merge & save ──────────────────────────────────────────────────────────────
 
@@ -177,10 +188,11 @@ def main():
     all_new: list = []
 
     for name, fetcher in [
-        ("RemoteOK",       fetch_remoteok),
-        ("WeWorkRemotely", fetch_weworkremotely),
-        ("GetOnBrd",       fetch_getonbrd),
-        ("LinkedIn",       fetch_linkedin),
+        ("RemoteOK",          fetch_remoteok),
+        ("WeWorkRemotely",    fetch_weworkremotely),
+        ("GetOnBrd",          fetch_getonbrd),
+        ("LinkedIn remote",   fetch_linkedin),
+        ("LinkedIn Denmark",  fetch_linkedin_denmark),
     ]:
         print(f"Fetching {name}...")
         jobs = fetcher()

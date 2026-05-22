@@ -906,6 +906,7 @@ body.menu-open {
 .jobs__badge--WeWorkRemotely { background: #0d1827; color: #64b5f6; }
 .jobs__badge--LinkedIn       { background: #071524; color: #0a85c2; }
 .jobs__badge--GetOnBrd       { background: #1f0d0d; color: #ef5350; }
+.jobs__badge--denmark        { background: #1a1a2e; color: #c0392b; border: 1px solid rgba(192,57,43,0.4); }
 
 .jobs__date {
     font-family: var(--font-main);
@@ -948,10 +949,50 @@ body.menu-open {
 }
 
 .jobs__filters {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+/* Tab switcher: remote / denmark */
+.jobs__views {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 255, 0, 0.15);
+    margin-bottom: 0.75rem;
+}
+
+.jobs__view {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: var(--light-text);
+    font-family: var(--font-main);
+    font-size: 0.88rem;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    margin-bottom: -1px;
+    transition: all 0.2s;
+    letter-spacing: 0.5px;
+}
+
+.jobs__view:hover {
+    color: var(--text-color);
+}
+
+.jobs__view--active {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+.jobs__view-count {
+    opacity: 0.5;
+    font-size: 0.78rem;
+}
+
+/* Status filter: all / pending / applied */
+.jobs__statuses {
     display: flex;
     gap: 0.5rem;
-    max-width: 860px;
-    margin: 0 auto 1rem;
+    margin-bottom: 1.25rem;
 }
 
 .jobs__filter {
@@ -959,8 +1000,8 @@ body.menu-open {
     border: 1px solid rgba(0, 255, 0, 0.15);
     color: var(--light-text);
     font-family: var(--font-main);
-    font-size: 0.75rem;
-    padding: 0.2rem 0.8rem;
+    font-size: 0.72rem;
+    padding: 0.18rem 0.7rem;
     cursor: pointer;
     border-radius: 3px;
     transition: all 0.2s;
