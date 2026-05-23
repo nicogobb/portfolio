@@ -36,6 +36,17 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     background-color: var(--background);
+    scroll-behavior: smooth;
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    html { scroll-behavior: auto; }
 }
 
 /* Container */
@@ -251,6 +262,45 @@ body {
     line-height: 1.6;
 }
 
+/* Available badge */
+.hero__available {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.4rem;
+    font-family: var(--font-main);
+    font-size: 0.82rem;
+    color: var(--primary-color);
+    border: 1px solid rgba(0, 255, 0, 0.25);
+    padding: 0.3rem 0.9rem;
+    border-radius: 20px;
+    background: rgba(0, 255, 0, 0.05);
+    letter-spacing: 0.3px;
+}
+
+.available__dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    flex-shrink: 0;
+    animation: dotPulse 2s ease-in-out infinite;
+}
+
+@keyframes dotPulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.25; }
+}
+
+/* Language level label */
+.skill__lang-level {
+    font-size: 0.7rem;
+    color: var(--light-text);
+    opacity: 0.65;
+    margin-left: 0.3rem;
+}
+
 /* Hero CTA */
 .hero__cta {
     display: inline-block;
@@ -322,6 +372,10 @@ body {
     box-shadow: 0 4px 6px rgba(0, 255, 0, 0.1);
 }
 
+.hero__terminal .terminal__line {
+    white-space: pre-wrap;
+}
+
 .terminal__line {
     color: var(--text-color);
     margin-bottom: 0.5rem;
@@ -329,6 +383,49 @@ body {
 
 .terminal__line:last-child {
     margin-bottom: 0;
+}
+
+/* Currently Section */
+.currently__terminal {
+    max-width: 700px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 255, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.currently__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.currently__row {
+    display: flex;
+    gap: 1.5rem;
+    align-items: baseline;
+}
+
+.currently__key {
+    font-family: var(--font-main);
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    opacity: 0.75;
+    white-space: nowrap;
+    min-width: 110px;
+}
+
+.currently__val {
+    font-family: var(--font-main);
+    font-size: 0.85rem;
+    color: var(--text-color);
+}
+
+@media (max-width: 600px) {
+    .currently__row {
+        flex-direction: column;
+        gap: 0.1rem;
+    }
 }
 
 /* Experience Timeline */
@@ -410,10 +507,29 @@ body {
     line-height: 1.6;
 }
 
+.timeline__content strong {
+    color: var(--primary-color);
+    font-weight: 600;
+    opacity: 1;
+}
+
+.timeline__tag {
+    display: inline-block;
+    font-size: 0.65rem;
+    padding: 0.1rem 0.45rem;
+    border: 1px solid rgba(0, 255, 0, 0.25);
+    border-radius: 3px;
+    color: var(--light-text);
+    margin-left: 0.4rem;
+    vertical-align: middle;
+    opacity: 0.8;
+    font-family: var(--font-main);
+}
+
 /* Skills Grid */
 .skills__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 2rem;
     padding: 1rem;
 }
@@ -461,6 +577,24 @@ body {
     opacity: 0.7;
 }
 
+
+/* Active nav link (current section) */
+.nav__menu a.active {
+    color: var(--primary-color);
+    background: var(--accent-color);
+}
+
+/* CV link in nav */
+.nav__menu a.nav__cv {
+    color: var(--primary-color);
+    border: 1px solid rgba(0, 255, 0, 0.35);
+    border-radius: 4px;
+}
+
+.nav__menu a.nav__cv:hover {
+    background: var(--accent-color);
+    box-shadow: 0 0 8px rgba(0, 255, 0, 0.15);
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -676,6 +810,8 @@ body.menu-open {
     .nav__menu a:nth-child(2) { transition-delay: 0.2s; }
     .nav__menu a:nth-child(3) { transition-delay: 0.3s; }
     .nav__menu a:nth-child(4) { transition-delay: 0.4s; }
+    .nav__menu a:nth-child(5) { transition-delay: 0.5s; }
+    .nav__menu a:nth-child(6) { transition-delay: 0.6s; }
 
     /* Hamburger Animation */
     .nav__toggle span {
@@ -699,6 +835,14 @@ body.menu-open {
     .nav__toggle.active span:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
     }
+}
+
+/* Keyboard focus accessibility */
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 3px;
+    border-radius: 3px;
 }
 
 /* Animations */
@@ -731,13 +875,10 @@ body.menu-open {
 }
 
 /* Stagger animation delays for cards */
-.skill__card:nth-child(2) {
-    transition-delay: 0.1s;
-}
-
-.skill__card:nth-child(3) {
-    transition-delay: 0.2s;
-}
+.skill__card:nth-child(2) { transition-delay: 0.1s; }
+.skill__card:nth-child(3) { transition-delay: 0.2s; }
+.skill__card:nth-child(4) { transition-delay: 0.3s; }
+.skill__card:nth-child(5) { transition-delay: 0.4s; }
 
 .project__card:nth-child(2) {
     transition-delay: 0.1s;
@@ -831,6 +972,20 @@ body.menu-open {
     align-items: center;
     max-width: 860px;
     margin: 0 auto 1.25rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.jobs__toolbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.jobs__updated {
+    font-family: var(--font-main);
+    font-size: 0.72rem;
+    opacity: 0.9;
 }
 
 .jobs__meta {
@@ -1031,6 +1186,45 @@ body.menu-open {
         align-items: flex-start;
     }
     .jobs__input { width: 100%; }
+}
+
+/* Typewriter cursor */
+.typewriter-cursor {
+    color: var(--primary-color);
+    animation: blink 1s infinite;
+    margin-left: 1px;
+}
+
+/* Scroll to top button */
+.scroll-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--secondary-color);
+    border: 1px solid rgba(0, 255, 0, 0.3);
+    color: var(--primary-color);
+    font-family: var(--font-main);
+    font-size: 1.1rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, background 0.3s ease;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.scroll-top.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.scroll-top:hover {
+    background: var(--accent-color);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
 }
 
 /* Social Links */

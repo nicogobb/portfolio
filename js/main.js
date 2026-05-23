@@ -97,6 +97,82 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
 
+    // ── Active nav link on scroll ─────────────────────────────────────────────
+    const navAnchors = document.querySelectorAll('.nav__menu a[href^="#"]');
+    const pageSections = document.querySelectorAll('section[id]');
+
+    const activeSectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                navAnchors.forEach(a => {
+                    a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id);
+                });
+            }
+        });
+    }, { threshold: 0.25, rootMargin: '-70px 0px -55% 0px' });
+
+    pageSections.forEach(s => activeSectionObserver.observe(s));
+
+    // ── Scroll to top button ──────────────────────────────────────────────────
+    const scrollTopBtn = document.getElementById('scrollTop');
+
+    window.addEventListener('scroll', () => {
+        scrollTopBtn.classList.toggle('visible', window.pageYOffset > 400);
+    });
+
+    scrollTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // ── Typewriter effect for hero terminal ───────────────────────────────────
+    (function runTypewriter() {
+        const terminal = document.getElementById('hero-terminal');
+        if (!terminal) return;
+
+        const lines = terminal.querySelectorAll('.terminal__line');
+        if (!lines.length) return;
+
+        const texts = Array.from(lines).map(el => el.textContent);
+
+        const CHAR_DELAY = 22;   // ms per character
+        const LINE_PAUSE = 130;  // ms pause between lines
+
+        // Wait for fonts so offsetHeight is accurate, then lock size and start
+        document.fonts.ready.then(() => {
+            terminal.style.minHeight = terminal.offsetHeight + 'px';
+            terminal.style.width     = terminal.offsetWidth  + 'px';
+            lines.forEach(el => { el.textContent = ''; });
+
+            let lineIdx = 0;
+            let charIdx = 0;
+
+            function tick() {
+                if (lineIdx >= lines.length) {
+                    // Typing complete — append blinking cursor to last line
+                    const cursor = document.createElement('span');
+                    cursor.className = 'typewriter-cursor';
+                    cursor.textContent = '▋';
+                    lines[lines.length - 1].appendChild(cursor);
+                    return;
+                }
+                const line = lines[lineIdx];
+                const text = texts[lineIdx];
+
+                if (charIdx < text.length) {
+                    line.textContent = text.substring(0, charIdx + 1);
+                    charIdx++;
+                    setTimeout(tick, CHAR_DELAY);
+                } else {
+                    lineIdx++;
+                    charIdx = 0;
+                    setTimeout(tick, LINE_PAUSE);
+                }
+            }
+
+            setTimeout(tick, 500);
+        });
+    })();
+
     // ── Jobs Section (password-gated) ─────────────────────────────────────────
     //
     // Password hash — SHA-256 of your chosen passphrase.
@@ -187,12 +263,39 @@ document.addEventListener('DOMContentLoaded', function() {
         }).join('');
     }
 
+    function showUpdateStatus(updatedAt) {
+        const el = document.getElementById('jobs-updated');
+        if (!el || !updatedAt) return;
+
+        const diffMs = Date.now() - new Date(updatedAt).getTime();
+        const diffH  = Math.floor(diffMs / 36e5);
+        const diffD  = Math.floor(diffH / 24);
+
+        let dot, label;
+        if (diffH < 24) {
+            dot   = '●';
+            label = diffH < 1 ? 'updated just now' : `updated ${diffH}h ago`;
+            el.style.color = 'var(--primary-color)';
+        } else if (diffD === 1) {
+            dot   = '●';
+            label = 'updated yesterday';
+            el.style.color = '#ffbd2e';
+        } else {
+            dot   = '⚠';
+            label = `last update ${diffD}d ago — scraper may have failed`;
+            el.style.color = '#ff5f56';
+        }
+
+        el.textContent = `${dot} ${label}`;
+    }
+
     async function loadJobs() {
         const list = document.getElementById('jobs-list');
         list.innerHTML = '<p style="font-family:var(--font-main);color:var(--light-text);padding:1rem 0">Loading...</p>';
         try {
             const r    = await fetch('jobs.json?t=' + Date.now());
             const data = await r.json();
+            showUpdateStatus(data.updated_at);
             renderJobs(data.jobs || []);
         } catch {
             list.innerHTML = '<p style="font-family:var(--font-main);color:#ff4444;padding:1rem 0">[!] Could not load jobs.json</p>';

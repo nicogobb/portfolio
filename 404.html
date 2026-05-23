@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — nicogobb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: #0a0a0a;
+            color: #e0e0e0;
+            font-family: 'JetBrains Mono', 'Courier New', monospace;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        .terminal {
+            width: 100%;
+            max-width: 520px;
+            border: 1px solid rgba(0, 255, 0, 0.15);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 24px rgba(0, 255, 0, 0.05);
+        }
+
+        .terminal__header {
+            background: #111;
+            padding: 0.6rem 1rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .dot { width: 12px; height: 12px; border-radius: 50%; }
+        .dot:nth-child(1) { background: #ff5f56; }
+        .dot:nth-child(2) { background: #ffbd2e; }
+        .dot:nth-child(3) { background: #27c93f; }
+
+        .label {
+            margin-left: 0.75rem;
+            color: #606060;
+            font-size: 0.85rem;
+        }
+
+        .terminal__body {
+            background: #1a1a1a;
+            padding: 2rem 1.5rem;
+            font-size: 0.92rem;
+            line-height: 2.1;
+        }
+
+        .dim   { color: #606060; }
+        .error { color: #ff5f56; }
+
+        a {
+            color: #00ff00;
+            text-decoration: none;
+        }
+
+        a:hover { text-decoration: underline; }
+
+        @keyframes blink { 50% { opacity: 0; } }
+        .cursor {
+            color: #00ff00;
+            animation: blink 1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+        <div class="terminal__header">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="label">bash — 404</span>
+        </div>
+        <div class="terminal__body">
+            <p class="dim">$ GET /[path]</p>
+            <p class="error">Error: 404 — Page not found</p>
+            <p>&nbsp;</p>
+            <p class="dim">$ ls ~/options/</p>
+            <p><a href="/portfolio/">→ back to portfolio</a></p>
+            <p>&nbsp;</p>
+            <p class="dim">$ <span class="cursor">▋</span></p>
+        </div>
+    </div>
+</body>
+</html>

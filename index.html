@@ -8,13 +8,45 @@
     <meta property="og:title" content="Nicolas Gobbi — Full Stack Developer">
     <meta property="og:description" content="PHP developer with 10+ years of experience building production systems across health, logistics, and fleet tracking industries.">
     <meta property="og:url" content="https://nicogobb.github.io/portfolio/">
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Nicolas Gobbi — Full Stack Developer">
     <meta name="twitter:description" content="PHP developer with 10+ years of experience building production systems across health, logistics, and fleet tracking industries.">
+    <meta property="og:image" content="https://nicogobb.github.io/portfolio/og-image.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:image" content="https://nicogobb.github.io/portfolio/og-image.png">
     <title>Nicolas Gobbi - Developer Portfolio</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='10' fill='%230a0a0a'/><text x='8' y='78' font-size='65' font-family='monospace' fill='%2300ff00'>%3E_</text></svg>">
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- SEO -->
+    <meta name="author" content="Nicolas Gobbi">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="canonical" href="https://nicogobb.github.io/portfolio/">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- JSON-LD structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Nicolas Gobbi",
+      "url": "https://nicogobb.github.io/portfolio/",
+      "jobTitle": "Full Stack Developer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Copenhagen",
+        "addressCountry": "DK"
+      },
+      "knowsAbout": ["PHP", "JavaScript", "TypeScript", "MySQL", "PostgreSQL", "MongoDB", "CodeIgniter", "Kohana", "Symfony", "REST APIs", "GitHub Actions"],
+      "sameAs": [
+        "https://github.com/nicogobb",
+        "https://linkedin.com/in/nicolas-gobbi"
+      ]
+    }
+    </script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -30,10 +62,11 @@
             </button>
             <div class="nav__menu">
                 <a href="#about">~/about</a>
+                <a href="#currently">~/now</a>
                 <a href="#experience">~/experience</a>
                 <a href="#skills">~/skills</a>
                 <a href="#portfolio">~/projects</a>
-
+                <a href="CV_NicolasGobbi.pdf" download class="nav__cv">[cv]</a>
             </div>
         </div>
     </nav>
@@ -43,12 +76,15 @@
         <div class="hero__container">
             <h1 class="hero__title">Hello, World!</h1>
             <p class="hero__subtitle">Full Stack Developer</p>
-            <a href="CV_NicolasGobbi.pdf" download class="hero__cta">download cv</a>
-            <div class="hero__terminal">
+            <p class="hero__available"><span class="available__dot"></span> Open to work — remote or on-site</p>
+            <div class="hero__terminal" id="hero-terminal">
                 <div class="terminal__line">const developer = {</div>
-                <div class="terminal__line">&nbsp;&nbsp;name: "Nicolas Gobbi",</div>
-                <div class="terminal__line">&nbsp;&nbsp;skills: ["PHP", "CodeIgniter", "Kohana", "JavaScript", "MySQL"],</div>
-                <div class="terminal__line">&nbsp;&nbsp;passion: "Building efficient, real-world web systems"</div>
+                <div class="terminal__line">  name: "Nicolas Gobbi",</div>
+                <div class="terminal__line">  experience: "10+ years",</div>
+                <div class="terminal__line">  location: "Copenhagen, Denmark · CET",</div>
+                <div class="terminal__line">  languages: ["Spanish (native)", "English (professional)"],</div>
+                <div class="terminal__line">  skills: ["PHP", "JavaScript", "MySQL", "REST APIs"],</div>
+                <div class="terminal__line">  passion: "Building efficient, real-world web systems"</div>
                 <div class="terminal__line">}</div>
             </div>
         </div>
@@ -69,8 +105,36 @@
                     </div>
                     <div class="terminal__body">
                         <p>$ cat about.txt</p>
-                        <p>Hi, I'm Nicolas Gobbi, a full-stack developer with a strong focus on PHP and its ecosystem. I've built production systems across several industries — from health insurance management and corporate intranets to real-time GPS fleet tracking — working primarily with CodeIgniter and Kohana, with experience in Symfony for larger architectures.</p>
-                        <p>I'm comfortable across the full stack: PHP backends, relational and document databases, and frontend work with vanilla JavaScript and TypeScript. I integrate AI-assisted development — primarily Claude Code — into my daily workflow to ship faster and maintain higher code quality.</p>
+                        <p>Over 10 years building PHP production systems — starting as a DBA and growing into full-stack. I've shipped systems that run the daily operations of organizations across health insurance, corporate intranets, and real-time GPS fleet tracking in Argentina and Latin America.</p>
+                        <p>I work across the full stack: PHP backends, relational and document databases, and frontend with JavaScript and TypeScript. I build web scrapers and automation tools, and integrate AI-assisted development (Claude Code) into my daily workflow to ship faster without cutting corners.</p>
+                        <p>Currently based in Copenhagen — open to backend or full-stack roles, remote or on-site.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Currently Section -->
+        <section id="currently" class="section">
+            <h2 class="section__title">Now</h2>
+            <div class="currently__terminal">
+                <div class="terminal__header">
+                    <span class="terminal__dot"></span>
+                    <span class="terminal__dot"></span>
+                    <span class="terminal__dot"></span>
+                    <span class="terminal__title">now.sh</span>
+                </div>
+                <div class="terminal__body currently__body">
+                    <div class="currently__row">
+                        <span class="currently__key">$ building</span>
+                        <span class="currently__val">real-time fleet tracking features @ Maxtracker</span>
+                    </div>
+                    <div class="currently__row">
+                        <span class="currently__key">$ seeking</span>
+                        <span class="currently__val">backend or full-stack role — Copenhagen or remote</span>
+                    </div>
+                    <div class="currently__row">
+                        <span class="currently__key">$ timezone</span>
+                        <span class="currently__val">CET (UTC+2) — available for sync or async teams</span>
                     </div>
                 </div>
             </div>
@@ -87,7 +151,7 @@
                         <span class="timeline__date">Aug 2025 — Present</span>
                         <h3 class="timeline__role">Software Engineer</h3>
                         <span class="timeline__company">Maxtracker S.A. — Argentina</span>
-                        <p>Develop and maintain the PHP backend using Kohana for a fleet management and telematics platform. Work on real-time GPS tracking, driving behavior analytics, and asset maintenance solutions serving oil & gas, mining, construction, and logistics industries across Argentina and Latin America.</p>
+                        <p>Develop and maintain the PHP backend using Kohana for a fleet management and telematics platform tracking <strong>10,000+ active vehicles</strong> in real time. Build features for GPS tracking, driving behavior analytics, and asset maintenance across oil & gas, mining, construction, and logistics industries throughout Latin America.</p>
                     </div>
                 </div>
 
@@ -97,7 +161,7 @@
                         <span class="timeline__date">Apr 2022 — Aug 2025</span>
                         <h3 class="timeline__role">PHP Web Developer</h3>
                         <span class="timeline__company">mydigitalnomads — Cyprus (remote)</span>
-                        <p>Part of the development and maintenance of a large-scale platform with thousands of users. Primary focus on backend architecture, code optimization, and scalability. Also contributed to frontend tasks, maintaining a full-stack perspective across the project.</p>
+                        <p>Backend development and maintenance of a large-scale platform serving thousands of users. Focused on architecture decisions, performance optimization, and scalability. Worked fully remote in a distributed team, maintaining a full-stack perspective across the project.</p>
                     </div>
                 </div>
 
@@ -106,8 +170,8 @@
                     <div class="timeline__content">
                         <span class="timeline__date">Nov 2019 — Present</span>
                         <h3 class="timeline__role">Web Developer</h3>
-                        <span class="timeline__company">OSPL — Argentina</span>
-                        <p>Built a CRUD management system for a provincial health insurance provider, covering the central office and all branches across Argentina. Continuously integrating new technologies to keep solutions scalable and maintainable.</p>
+                        <span class="timeline__company">OSPL — Argentina <span class="timeline__tag">part-time</span></span>
+                        <p>Built and maintain a system managing <strong>20,000+ affiliates</strong> across 5+ branches in Buenos Aires and throughout Argentina. Covers member records, medical authorizations, and multi-branch coordination for a provincial health insurance provider.</p>
                     </div>
                 </div>
 
@@ -134,12 +198,22 @@
                         <h3>Backend</h3>
                         <ul>
                             <li>PHP</li>
-                            <li>CodeIgniter</li>
-                            <li>Kohana</li>
-                            <li>Symfony</li>
+                            <li>REST APIs</li>
+                            <li>Auth & Authorization</li>
+                            <li>Security (XSS / SQLi)</li>
+                            <li>Legacy Modernization</li>
+                        </ul>
+                    </div>
+                    <div class="skill__card">
+                        <div class="skill__icon">🗄️</div>
+                        <h3>Database</h3>
+                        <ul>
                             <li>MySQL</li>
                             <li>PostgreSQL</li>
                             <li>MongoDB</li>
+                            <li>Query Optimization</li>
+                            <li>Database Migrations</li>
+                            <li>Performance Tuning</li>
                         </ul>
                     </div>
                     <div class="skill__card">
@@ -155,12 +229,15 @@
                     </div>
                     <div class="skill__card">
                         <div class="skill__icon">🛠️</div>
-                        <h3>Tools</h3>
+                        <h3>Tools & Practices</h3>
                         <ul>
                             <li>Git</li>
-                            <li>VS Code</li>
-                            <li>Command Line</li>
-                            <li>DevTools</li>
+                            <li>GitHub Actions</li>
+                            <li>API Integration</li>
+                            <li>Cron Jobs & Automation</li>
+                            <li>Report Generation</li>
+                            <li>Code Review</li>
+                            <li>Technical Documentation</li>
                             <li>Claude Code</li>
                         </ul>
                     </div>
@@ -195,6 +272,7 @@
                             <span>MySQL</span>
                             <span>CSS</span>
                         </div>
+                        <a href="https://github.com/nicogobb" target="_blank" rel="noopener noreferrer" class="project__link">→ github.com/nicogobb</a>
                     </div>
                 </div>
                 <div class="project__card">
@@ -222,6 +300,7 @@
                             <span>MongoDB</span>
                             <span>SASS</span>
                         </div>
+                        <a href="https://github.com/nicogobb" target="_blank" rel="noopener noreferrer" class="project__link">→ github.com/nicogobb</a>
                     </div>
                 </div>
                 <div class="project__card">
@@ -248,6 +327,33 @@
                             <span>PostgreSQL</span>
                             <span>CSS</span>
                         </div>
+                        <a href="https://github.com/nicogobb" target="_blank" rel="noopener noreferrer" class="project__link">→ github.com/nicogobb</a>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <div class="project__visual">
+                        <div class="project__visual-header">
+                            <span class="terminal__dot"></span>
+                            <span class="terminal__dot"></span>
+                            <span class="terminal__dot"></span>
+                        </div>
+                        <div class="project__visual-body">
+                            <span class="pv__accent">$</span> git log --oneline<br>
+                            <span class="pv__accent">✓</span> Actions scraper · daily jobs<br>
+                            <span class="pv__accent">✓</span> GoatCounter analytics<br>
+                            <span class="pv__dim">[main] portfolio — live</span>
+                        </div>
+                    </div>
+                    <div class="project__content">
+                        <h3>This Portfolio</h3>
+                        <p>Static site with a password-gated job board powered by a GitHub Actions scraper that aggregates listings daily. Includes analytics, SEO, and OG metadata.</p>
+                        <div class="project__tags">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>GitHub Actions</span>
+                            <span>GitHub Pages</span>
+                        </div>
+                        <a href="https://github.com/nicogobb/portfolio" target="_blank" rel="noopener noreferrer" class="project__link">→ github.com/nicogobb/portfolio</a>
                     </div>
                 </div>
             </div>
@@ -284,7 +390,10 @@
             <div class="jobs__content" id="jobs-content">
                 <div class="jobs__toolbar">
                     <span id="jobs-meta" class="jobs__meta"></span>
-                    <button id="jobs-lock" class="jobs__btn">$ lock</button>
+                    <div class="jobs__toolbar-right">
+                        <span id="jobs-updated" class="jobs__updated"></span>
+                        <button id="jobs-lock" class="jobs__btn">$ lock</button>
+                    </div>
                 </div>
                 <div id="jobs-filters" class="jobs__filters"></div>
                 <div id="jobs-list" class="jobs__list"></div>
@@ -297,17 +406,22 @@
     <footer class="footer">
         <div class="footer__container">
             <div class="social__links">
-                <a href="https://github.com/nicogobb" target="_blank" rel="noopener noreferrer" class="social__link">
+                <a href="https://github.com/nicogobb" target="_blank" rel="noopener noreferrer" class="social__link" title="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://linkedin.com/in/nicolas-gobbi" target="_blank" rel="noopener noreferrer" class="social__link">
+                <a href="https://linkedin.com/in/nicolas-gobbi" target="_blank" rel="noopener noreferrer" class="social__link" title="LinkedIn">
                     <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:ggobbi.nicolas@gmail.com" class="social__link" title="Email">
+                    <i class="fas fa-envelope"></i>
                 </a>
             </div>
             <p>$ echo "© 2026 Nicolas Gobbi. All rights reserved."</p>
         </div>
     </footer>
 
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Back to top">↑</button>
     <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="js/main.js"></script>

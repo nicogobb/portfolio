@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow" cx="0%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#00ff00" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#00ff00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="110" width="3" height="410" rx="2" fill="#00ff00" opacity="0.5"/>
+
+  <!-- Prompt line -->
+  <text x="108" y="152" font-family="'Courier New', Courier, monospace" font-size="20" fill="#00ff00" opacity="0.65">$ whoami</text>
+
+  <!-- Name -->
+  <text x="106" y="275" font-family="'Courier New', Courier, monospace" font-size="82" font-weight="bold" fill="#e0e0e0" letter-spacing="-1">Nicolas Gobbi</text>
+
+  <!-- Role -->
+  <text x="109" y="340" font-family="'Courier New', Courier, monospace" font-size="32" fill="#00ff00">&gt; Full Stack Developer</text>
+
+  <!-- Divider -->
+  <line x1="108" y1="378" x2="820" y2="378" stroke="#00ff00" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Tech stack -->
+  <text x="108" y="422" font-family="'Courier New', Courier, monospace" font-size="19" fill="#808080">PHP · REST APIs · MySQL · PostgreSQL · JavaScript · TypeScript</text>
+
+  <!-- Experience line -->
+  <text x="108" y="460" font-family="'Courier New', Courier, monospace" font-size="17" fill="#505050">10+ years · Copenhagen, Denmark · open to remote or on-site</text>
+
+  <!-- Available badge -->
+  <rect x="108" y="487" width="14" height="14" rx="7" fill="#00ff00" opacity="0.85"/>
+  <text x="132" y="499" font-family="'Courier New', Courier, monospace" font-size="17" fill="#00ff00" opacity="0.85">Open to work — remote or on-site</text>
+
+  <!-- Bottom URL -->
+  <text x="1118" y="598" font-family="'Courier New', Courier, monospace" font-size="15" fill="#303030" text-anchor="end">nicogobb.github.io/portfolio</text>
+</svg>
