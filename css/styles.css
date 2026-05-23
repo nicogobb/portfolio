@@ -112,6 +112,15 @@ body {
     background: var(--accent-color);
 }
 
+/* Hero greeting ("Hello, World!" above the name) */
+.hero__greeting {
+    font-family: var(--font-main);
+    font-size: 1rem;
+    color: var(--light-text);
+    margin-bottom: 0.4rem;
+    opacity: 0.6;
+}
+
 /* Hero Section */
 .hero {
     height: 100vh;
@@ -426,6 +435,32 @@ body {
         flex-direction: column;
         gap: 0.1rem;
     }
+}
+
+/* About UVP callout */
+.about__uvp {
+    max-width: 700px;
+    margin: 0 auto var(--spacing-md);
+    padding: 1.25rem 1.5rem;
+    border-left: 3px solid var(--primary-color);
+    background: rgba(0, 255, 0, 0.03);
+    font-size: 0.97rem;
+    line-height: 1.75;
+    color: var(--text-color);
+    opacity: 0.92;
+}
+
+.about__uvp em {
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Currently "updated" row */
+.currently__updated {
+    color: var(--light-text);
+    opacity: 0.55;
+    font-size: 0.8rem;
 }
 
 /* Experience Timeline */
@@ -1225,6 +1260,36 @@ button:focus-visible {
 .scroll-top:hover {
     background: var(--accent-color);
     box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+}
+
+/* Footer extras */
+.footer__cta {
+    font-family: var(--font-main);
+    font-size: 1.05rem;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.footer__email {
+    display: block;
+    font-family: var(--font-main);
+    font-size: 0.88rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    opacity: 0.8;
+    margin-bottom: var(--spacing-md);
+    transition: opacity 0.3s;
+}
+
+.footer__email:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer__copy {
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    opacity: 0.7;
 }
 
 /* Social Links */

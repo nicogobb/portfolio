@@ -1,36 +1,33 @@
-# Portfolio — Nicolas Gobbi
+# Hi, I'm Nicolas Gobbi 👋
 
-Personal portfolio as a Full Stack Developer, built with vanilla HTML, CSS and JavaScript. No frameworks or build tools required.
+Full-stack PHP developer with 10+ years building production systems across health insurance, fleet tracking, and enterprise intranets. Started as a DBA — that means I understand data at the query level **and** the product level.
 
-## Tech stack
+📍 Copenhagen, Denmark · CET &nbsp;|&nbsp; 🟢 Open to work — remote or on-site
 
-- Semantic HTML5
-- CSS3 with custom properties (terminal dark theme)
-- Vanilla JavaScript (Intersection Observer, scroll behavior, form validation)
-- Google Fonts: JetBrains Mono + Inter
-- Font Awesome (icons)
+---
 
+### 🔗 Portfolio
+**[nicogobb.github.io/portfolio](https://nicogobb.github.io/portfolio/)**
 
-## Featured projects
+---
 
-| Project | Description |
-|---|---|
-| **OSPL** | Web system for managing members and medical authorizations for a health insurance provider |
-| **Corporate Intranet** | Intranet for a company with 100+ employees: HR, internal communications and resource management |
-| **MaxTracker** | Real-time GPS telemetry and tracking platform for vehicle fleets |
+### ⚡ Stack
+`PHP` `REST APIs` `MySQL` `PostgreSQL` `MongoDB` `JavaScript` `TypeScript`  
+`CodeIgniter` `Kohana` `Symfony` `GitHub Actions` `Linux`
 
-## Run locally
+### 🏗 What I've built
+- **10,000+ vehicle** real-time GPS tracking platform (Maxtracker)
+- **20,000+ affiliate** health insurance management system (OSPL)
+- Large-scale platform serving thousands of users — fully remote from Cyprus
 
-```bash
-python3 -m http.server 8000
-```
+### 🛠 How I work
+- AI-assisted development with **Claude Code** for faster, higher-quality output
+- Web scraping & automation for practical internal tooling
+- Strong focus on legacy codebase modernization and query optimization
 
-Then open `http://localhost:8000` in the browser.
+---
 
-## Deploy
-
-Compatible with GitHub Pages, Netlify or Vercel — just upload the files, no build step needed.
-
-## Author
-
-**Nicolas Gobbi** — [github.com/nicogobb](https://github.com/nicogobb) · [linkedin.com/in/nicolas-gobbi](https://linkedin.com/in/nicolas-gobbi)
+### 📫 Get in touch
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nicolas--gobbi-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/nicolas-gobbi)
+[![Portfolio](https://img.shields.io/badge/Portfolio-nicogobb.github.io-00ff00?style=flat&logo=github)](https://nicogobb.github.io/portfolio/)
+[![Email](https://img.shields.io/badge/Email-ggobbi.nicolas@gmail.com-D14836?style=flat&logo=gmail)](mailto:ggobbi.nicolas@gmail.com)

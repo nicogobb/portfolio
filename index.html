@@ -74,7 +74,8 @@
     <!-- Hero Section -->
     <section id="hero" class="hero">
         <div class="hero__container">
-            <h1 class="hero__title">Hello, World!</h1>
+            <p class="hero__greeting">Hello, World!</p>
+            <h1 class="hero__title">Nicolas Gobbi</h1>
             <p class="hero__subtitle">Full Stack Developer</p>
             <p class="hero__available"><span class="available__dot"></span> Open to work — remote or on-site</p>
             <div class="hero__terminal" id="hero-terminal">
@@ -82,7 +83,7 @@
                 <div class="terminal__line">  name: "Nicolas Gobbi",</div>
                 <div class="terminal__line">  experience: "10+ years",</div>
                 <div class="terminal__line">  location: "Copenhagen, Denmark · CET",</div>
-                <div class="terminal__line">  languages: ["Spanish (native)", "English (professional)"],</div>
+                <div class="terminal__line">  languages: ["Spanish (native)", "English (professional)", "Danish (learning)"],</div>
                 <div class="terminal__line">  skills: ["PHP", "JavaScript", "MySQL", "REST APIs"],</div>
                 <div class="terminal__line">  passion: "Building efficient, real-world web systems"</div>
                 <div class="terminal__line">}</div>
@@ -96,6 +97,9 @@
         <section id="about" class="section">
             <h2 class="section__title">About Me</h2>
             <div class="about__content">
+                <div class="about__uvp">
+                    <p>Started as a DBA, grew into full-stack. That combination means I understand data at the query level <em>and</em> the product level — I've kept <em>10,000 vehicles</em> reporting in real time and <em>20,000 insurance records</em> consistent, in daily production for over a decade.</p>
+                </div>
                 <div class="about__terminal">
                     <div class="terminal__header">
                         <span class="terminal__dot"></span>
@@ -135,6 +139,11 @@
                     <div class="currently__row">
                         <span class="currently__key">$ timezone</span>
                         <span class="currently__val">CET (UTC+2) — available for sync or async teams</span>
+                    </div>
+                    <div class="currently__row">
+                        <span class="currently__key">$ updated</span>
+                        <!-- Update this when you change the section content -->
+                        <span class="currently__val currently__updated">May 2026</span>
                     </div>
                 </div>
             </div>
@@ -231,6 +240,7 @@
                         <div class="skill__icon">🛠️</div>
                         <h3>Tools & Practices</h3>
                         <ul>
+                            <li>Linux / Shell</li>
                             <li>Git</li>
                             <li>GitHub Actions</li>
                             <li>API Integration</li>
@@ -265,7 +275,7 @@
                     </div>
                     <div class="project__content">
                         <h3>OSPL — Health Insurance System</h3>
-                        <p>Web system for managing members and medical authorizations for a provincial health insurance provider</p>
+                        <p>Replaced scattered processes for a health insurer managing 20,000+ affiliates. Built the full system — member records, medical authorizations, and multi-branch coordination — from scratch.</p>
                         <div class="project__tags">
                             <span>PHP</span>
                             <span>JavaScript</span>
@@ -291,7 +301,7 @@
                     </div>
                     <div class="project__content">
                         <h3>Corporate Intranet & Internal Tools</h3>
-                        <p>Intranet and multiple internal systems for a company with 100+ employees: HR, communications, resource management and other proprietary tools.</p>
+                        <p>Consolidated HR, communications, and resource management for a 100+ employee company into one maintainable platform — replacing fragmented tools with a unified internal system.</p>
                         <div class="project__tags">
                             <span>PHP</span>
                             <span>CodeIgniter</span>
@@ -312,14 +322,14 @@
                         </div>
                         <div class="project__visual-body">
                             <span class="pv__accent">$</span> tracker --live<br>
-                            <span class="pv__accent">[GPS]</span> 38 units online<br>
-                            <span class="pv__dim">[-34.603, -58.381]</span> → moving<br>
-                            <span class="pv__accent">[WS]</span> streaming telemetry...
+                            <span class="pv__accent">[GPS]</span> 10,000+ units reporting<br>
+                            <span class="pv__dim">[LAT]</span> oil &amp; gas · mining · logistics<br>
+                            <span class="pv__accent">[WS]</span> streaming telemetry 24/7
                         </div>
                     </div>
                     <div class="project__content">
                         <h3>MaxTracker</h3>
-                        <p>Real-time GPS telemetry and tracking platform for vehicle fleets</p>
+                        <p>Backend for a platform tracking 10,000+ vehicles simultaneously across Latin America — real-time GPS, driving behavior analytics, and asset maintenance for oil & gas, mining, and logistics operators.</p>
                         <div class="project__tags">
                             <span>PHP</span>
                             <span>Kohana</span>
@@ -405,6 +415,8 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer__container">
+            <p class="footer__cta">Open to new opportunities — let's build something.</p>
+            <a href="mailto:ggobbi.nicolas@gmail.com" class="footer__email">ggobbi.nicolas@gmail.com</a>
             <div class="social__links">
                 <a href="https://github.com/nicogobb" target="_blank" rel="noopener noreferrer" class="social__link" title="GitHub">
                     <i class="fab fa-github"></i>
@@ -416,7 +428,7 @@
                     <i class="fas fa-envelope"></i>
                 </a>
             </div>
-            <p>$ echo "© 2026 Nicolas Gobbi. All rights reserved."</p>
+            <p class="footer__copy">$ echo "© 2026 Nicolas Gobbi. All rights reserved."</p>
         </div>
     </footer>
 
