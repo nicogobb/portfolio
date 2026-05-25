@@ -1207,6 +1207,33 @@ button:focus-visible {
     font-size: 0.78rem;
 }
 
+/* Search bar */
+.jobs__search-wrap {
+    margin-bottom: 0.9rem;
+}
+
+.jobs__search {
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(0, 255, 0, 0.15);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    font-size: 0.8rem;
+    padding: 0.35rem 0.75rem;
+    border-radius: 3px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.jobs__search::placeholder {
+    color: var(--light-text);
+    opacity: 0.6;
+}
+
+.jobs__search:focus {
+    border-color: rgba(0, 255, 0, 0.4);
+}
+
 /* Status filter: all / pending / applied */
 .jobs__statuses {
     display: flex;

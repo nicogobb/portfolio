@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T21:50:46.720825+00:00",
+  "updated_at": "2026-05-25T22:34:51.625152+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -12,6 +12,15 @@
       "denmark": true
     },
     {
+      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/speechify-software-engineer-ios-core-product",
+      "title": "Software Engineer, iOS Core Product",
+      "company": "Speechify",
+      "url": "https://weworkremotely.com/remote-jobs/speechify-software-engineer-ios-core-product",
+      "source": "WeWorkRemotely",
+      "date": "Wed, 29 Ap",
+      "fetched_at": "2026-05-25"
+    },
+    {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/r13816829",
       "title": "Laravel & React/Vue Udvikler med AI-Fokus",
       "company": "",
@@ -22,6 +31,24 @@
       "denmark": true
     },
     {
+      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
+      "title": "Staff Product Engineer",
+      "company": "LawnStarter",
+      "url": "https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
+      "source": "WeWorkRemotely",
+      "date": "Thu, 21 Ma",
+      "fetched_at": "2026-05-25"
+    },
+    {
+      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/comparis-ch-backend-engineer-80-100-f-m-x",
+      "title": "Backend Engineer, 80-100% (f/m/x)",
+      "company": "comparis.ch",
+      "url": "https://weworkremotely.com/remote-jobs/comparis-ch-backend-engineer-80-100-f-m-x",
+      "source": "WeWorkRemotely",
+      "date": "Mon, 27 Ap",
+      "fetched_at": "2026-05-25"
+    },
+    {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/r13817384",
       "title": "Senior Backend Developer / Platform Engineer med AI-interesse til Era│Aarhus, GENERAXION",
       "company": "",
@@ -30,6 +57,15 @@
       "date": "Fri, 22 Ma",
       "fetched_at": "2026-05-25",
       "denmark": true
+    },
+    {
+      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/appetiser-junior-full-stack-developer-laravel-and-vuejs",
+      "title": "Junior Full-Stack Developer (Laravel and VueJS)",
+      "company": "Appetiser",
+      "url": "https://weworkremotely.com/remote-jobs/appetiser-junior-full-stack-developer-laravel-and-vuejs",
+      "source": "WeWorkRemotely",
+      "date": "Fri, 22 Ma",
+      "fetched_at": "2026-05-25"
     },
     {
       "id": "IT-jobbank_https://www.it-jobbank.dk/vis-job/h1665675",
@@ -414,15 +450,6 @@
       "fetched_at": "2026-05-25"
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4415000108",
-      "title": "PHP Developer - Remote",
-      "company": "YO IT Consulting",
-      "url": "https://nl.linkedin.com/jobs/view/php-developer-remote-at-yo-it-consulting-4415000108",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-25"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4410519991",
       "title": "Senior PHP Developer",
       "company": "Fleming",
@@ -513,22 +540,176 @@
       "fetched_at": "2026-05-25"
     },
     {
-      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/appetiser-junior-full-stack-developer-laravel-and-vuejs",
-      "title": "Junior Full-Stack Developer (Laravel and VueJS)",
-      "company": "Appetiser",
-      "url": "https://weworkremotely.com/remote-jobs/appetiser-junior-full-stack-developer-laravel-and-vuejs",
-      "source": "WeWorkRemotely",
-      "date": "Fri, 22 Ma",
-      "fetched_at": "2026-05-23"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4412863314",
-      "title": "PHP Developer - Remote",
-      "company": "YO IT Consulting",
-      "url": "https://www.linkedin.com/jobs/view/php-developer-remote-at-yo-it-consulting-4412863314",
+      "id": "LinkedIn_urn:li:jobPosting:4397054678",
+      "title": "PHP Backend Developer",
+      "company": "Limepack",
+      "url": "https://dk.linkedin.com/jobs/view/php-backend-developer-at-limepack-4397054678",
       "source": "LinkedIn",
       "date": "",
-      "fetched_at": "2026-05-23"
+      "fetched_at": "2026-05-25",
+      "denmark": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4415846068",
+      "title": "Backend Developer",
+      "company": "Adversus",
+      "url": "https://dk.linkedin.com/jobs/view/backend-developer-at-adversus-4415846068",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25",
+      "denmark": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4386905358",
+      "title": "Backend Engineer",
+      "company": "VML",
+      "url": "https://dk.linkedin.com/jobs/view/backend-engineer-at-vml-4386905358",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25",
+      "denmark": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4349425619",
+      "title": "Backend Developer Produktteam - Aalborg",
+      "company": "Trifork",
+      "url": "https://dk.linkedin.com/jobs/view/backend-developer-produktteam-aalborg-at-trifork-4349425619",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25",
+      "denmark": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4391709926",
+      "title": "Backend Developer",
+      "company": "Ønskeskyen",
+      "url": "https://dk.linkedin.com/jobs/view/backend-developer-at-%C3%B8nskeskyen-4391709926",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25",
+      "denmark": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4410589606",
+      "title": "Backend Engineer",
+      "company": "Cernel",
+      "url": "https://dk.linkedin.com/jobs/view/backend-engineer-at-cernel-4410589606",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25",
+      "denmark": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413225111",
+      "title": "Backend Developer",
+      "company": "Donor Network",
+      "url": "https://dk.linkedin.com/jobs/view/backend-developer-at-donor-network-4413225111",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25",
+      "denmark": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4410163858",
+      "title": "Senior Backend Engineer",
+      "company": "Laerdal Copenhagen",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-at-laerdal-copenhagen-4410163858",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25",
+      "denmark": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4407167985",
+      "title": "Senior Backend Developer",
+      "company": "Cernel",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-at-cernel-4407167985",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25",
+      "denmark": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4403796314",
+      "title": "Senior Backend Developer",
+      "company": "JOE & THE JUICE",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-at-joe-the-juice-4403796314",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25",
+      "denmark": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4409276592",
+      "title": "PHP Software Developer II",
+      "company": "Aylo",
+      "url": "https://lv.linkedin.com/jobs/view/php-software-developer-ii-at-aylo-4409276592",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4404091815",
+      "title": "PHP Developer",
+      "company": "Fleming",
+      "url": "https://lt.linkedin.com/jobs/view/php-developer-at-fleming-4404091815",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4417750204",
+      "title": "Medior PHP developer",
+      "company": "Starapple",
+      "url": "https://nl.linkedin.com/jobs/view/medior-php-developer-at-starapple-4417750204",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4418948136",
+      "title": "PHP Developer",
+      "company": "Multitude",
+      "url": "https://lt.linkedin.com/jobs/view/php-developer-at-multitude-4418948136",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4406584077",
+      "title": "Backend Developer - PHP & Laravel (all gender)",
+      "company": "a&o Hostels",
+      "url": "https://de.linkedin.com/jobs/view/backend-developer-php-laravel-all-gender-at-a-o-hostels-4406584077",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413875329",
+      "title": "PHP Developer (Onsite)",
+      "company": "Alexander Lyons Solutions",
+      "url": "https://mt.linkedin.com/jobs/view/php-developer-onsite-at-alexander-lyons-solutions-4413875329",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4414249830",
+      "title": "Backend Developer - PHP (w/m/d)",
+      "company": "MOGIC",
+      "url": "https://de.linkedin.com/jobs/view/backend-developer-php-w-m-d-at-mogic-4414249830",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4362830906",
+      "title": "PHP Developer (Laravel)",
+      "company": "Scale Tech",
+      "url": "https://lt.linkedin.com/jobs/view/php-developer-laravel-at-scale-tech-4362830906",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-25"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4389183850",
@@ -539,15 +720,6 @@
       "date": "",
       "fetched_at": "2026-05-23",
       "denmark": true
-    },
-    {
-      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/speechify-software-engineer-ios-core-product",
-      "title": "Software Engineer, iOS Core Product",
-      "company": "Speechify",
-      "url": "https://weworkremotely.com/remote-jobs/speechify-software-engineer-ios-core-product",
-      "source": "WeWorkRemotely",
-      "date": "Wed, 29 Ap",
-      "fetched_at": "2026-05-22"
     },
     {
       "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/urban-legend-backend-engineer-mid-senior",
@@ -568,24 +740,6 @@
       "fetched_at": "2026-05-22"
     },
     {
-      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
-      "title": "Staff Product Engineer",
-      "company": "LawnStarter",
-      "url": "https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
-      "source": "WeWorkRemotely",
-      "date": "Thu, 21 Ma",
-      "fetched_at": "2026-05-22"
-    },
-    {
-      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/comparis-ch-backend-engineer-80-100-f-m-x",
-      "title": "Backend Engineer, 80-100% (f/m/x)",
-      "company": "comparis.ch",
-      "url": "https://weworkremotely.com/remote-jobs/comparis-ch-backend-engineer-80-100-f-m-x",
-      "source": "WeWorkRemotely",
-      "date": "Mon, 27 Ap",
-      "fetched_at": "2026-05-22"
-    },
-    {
       "id": "RemoteOK_1131586",
       "title": "Staff Backend Engineer Core Product",
       "company": "Kalepa",
@@ -601,15 +755,6 @@
       "url": "https://remoteOK.com/remote-jobs/remote-engineering-manager-ai-fleet-management-amp-honk-spotify-1131520",
       "source": "RemoteOK",
       "date": "2026-05-08",
-      "fetched_at": "2026-05-22"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4415475428",
-      "title": "PHP Developer - Remote",
-      "company": "YO IT Consulting",
-      "url": "https://www.linkedin.com/jobs/view/php-developer-remote-at-yo-it-consulting-4415475428",
-      "source": "LinkedIn",
-      "date": "",
       "fetched_at": "2026-05-22"
     },
     {
@@ -694,15 +839,6 @@
       "fetched_at": "2026-05-22"
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4415995358",
-      "title": "PHP Developer - Remote",
-      "company": "YO IT Consulting",
-      "url": "https://www.linkedin.com/jobs/view/php-developer-remote-at-yo-it-consulting-4415995358",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-22"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4414277250",
       "title": "Full Stack Software Engineer (PHP)",
       "company": "New York Technology Partners",
@@ -755,106 +891,6 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-05-22"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4397054678",
-      "title": "PHP Backend Developer",
-      "company": "Limepack",
-      "url": "https://dk.linkedin.com/jobs/view/php-backend-developer-at-limepack-4397054678",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-22",
-      "denmark": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4415846068",
-      "title": "Backend Developer",
-      "company": "Adversus",
-      "url": "https://dk.linkedin.com/jobs/view/backend-developer-at-adversus-4415846068",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-22",
-      "denmark": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4386905358",
-      "title": "Backend Engineer",
-      "company": "VML",
-      "url": "https://dk.linkedin.com/jobs/view/backend-engineer-at-vml-4386905358",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-22",
-      "denmark": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4349425619",
-      "title": "Backend Developer Produktteam - Aalborg",
-      "company": "Trifork",
-      "url": "https://dk.linkedin.com/jobs/view/backend-developer-produktteam-aalborg-at-trifork-4349425619",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-22",
-      "denmark": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4391709926",
-      "title": "Backend Developer",
-      "company": "Ønskeskyen",
-      "url": "https://dk.linkedin.com/jobs/view/backend-developer-at-%C3%B8nskeskyen-4391709926",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-22",
-      "denmark": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4410589606",
-      "title": "Backend Engineer",
-      "company": "Cernel",
-      "url": "https://dk.linkedin.com/jobs/view/backend-engineer-at-cernel-4410589606",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-22",
-      "denmark": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4413225111",
-      "title": "Backend Developer",
-      "company": "Donor Network",
-      "url": "https://dk.linkedin.com/jobs/view/backend-developer-at-donor-network-4413225111",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-22",
-      "denmark": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4410163858",
-      "title": "Senior Backend Engineer",
-      "company": "Laerdal Copenhagen",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-at-laerdal-copenhagen-4410163858",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-22",
-      "denmark": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4407167985",
-      "title": "Senior Backend Developer",
-      "company": "Cernel",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-at-cernel-4407167985",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-22",
-      "denmark": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4403796314",
-      "title": "Senior Backend Developer",
-      "company": "JOE & THE JUICE",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-at-joe-the-juice-4403796314",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-22",
-      "denmark": true
     }
   ]
 }

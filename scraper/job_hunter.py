@@ -15,7 +15,7 @@ import html as html_module
 import json
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 try:
@@ -42,8 +42,9 @@ KEYWORDS = [
     "php udvikler", "webudvikler", "backend udvikler",
 ]
 
-JOBS_FILE = Path(__file__).parent.parent / "jobs.json"
-MAX_JOBS  = 300
+JOBS_FILE    = Path(__file__).parent.parent / "jobs.json"
+MAX_JOBS     = 300
+MAX_AGE_DAYS = 60   # jobs not seen for this many days are considered expired
 
 HEADERS = {
     "User-Agent": (
@@ -53,7 +54,8 @@ HEADERS = {
     )
 }
 
-TODAY = datetime.now(timezone.utc).date().isoformat()
+TODAY  = datetime.now(timezone.utc).date().isoformat()
+CUTOFF = (datetime.now(timezone.utc).date() - timedelta(days=MAX_AGE_DAYS)).isoformat()
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -406,13 +408,37 @@ def main():
         print(f"  {len(deduped)} unique match(es)")
         all_new.extend(deduped)
 
+    # Merge: add new jobs; refresh fetched_at for jobs still seen on boards
     merged = dict(existing)
     for j in all_new:
         if j["id"] not in merged:
             merged[j["id"]] = j
+        else:
+            merged[j["id"]]["fetched_at"] = TODAY   # still alive → reset expiry clock
+
+    # Cross-source deduplication: same title+company from different boards → keep newest
+    seen_title_co: dict = {}
+    for j in merged.values():
+        title_norm = re.sub(r'\s+', ' ', j["title"].lower()).strip()
+        co_norm    = re.sub(r'\s+', ' ', j["company"].lower()).strip()
+        key = (title_norm, co_norm)
+        if key not in seen_title_co:
+            seen_title_co[key] = j
+        elif j.get("fetched_at", "") > seen_title_co[key].get("fetched_at", ""):
+            seen_title_co[key] = j   # keep the fresher source
+    deduped_cross = list(seen_title_co.values())
+    removed_dups = len(merged) - len(deduped_cross)
+    if removed_dups:
+        print(f"\n  Cross-source duplicates removed: {removed_dups}")
+
+    # Drop jobs not seen for MAX_AGE_DAYS
+    active = [j for j in deduped_cross if j.get("fetched_at", TODAY) >= CUTOFF]
+    expired = len(deduped_cross) - len(active)
+    if expired:
+        print(f"  Expired jobs removed: {expired} (not seen in {MAX_AGE_DAYS}+ days)")
 
     sorted_jobs = sorted(
-        merged.values(),
+        active,
         key=lambda j: (j.get("fetched_at", ""), j.get("date", "")),
         reverse=True,
     )

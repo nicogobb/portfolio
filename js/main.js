@@ -211,6 +211,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let allJobsData   = [];
     let currentView   = 'remote';   // 'remote' | 'denmark'
     let currentFilter = 'all';      // 'all' | 'pending' | 'applied' | 'no visa'
+    let searchQuery   = '';         // free-text search
 
     function saveApplied() {
         localStorage.setItem(APPLIED_KEY, JSON.stringify([...appliedJobs]));
@@ -227,10 +228,18 @@ document.addEventListener('DOMContentLoaded', function() {
         const byDenmark = jobs.filter(j =>  j.denmark);
         const byView    = currentView === 'denmark' ? byDenmark : byRemote;
 
-        const filtered  = currentFilter === 'applied'  ? byView.filter(j =>  appliedJobs.has(j.id))
+        const byStatus  = currentFilter === 'applied'  ? byView.filter(j =>  appliedJobs.has(j.id))
                         : currentFilter === 'no visa'  ? byView.filter(j =>  noVisaJobs.has(j.id))
                         : currentFilter === 'pending'   ? byView.filter(j => !appliedJobs.has(j.id) && !noVisaJobs.has(j.id))
                         : byView;
+
+        const q        = searchQuery.trim().toLowerCase();
+        const filtered = q
+            ? byStatus.filter(j =>
+                j.title.toLowerCase().includes(q) ||
+                (j.company || '').toLowerCase().includes(q) ||
+                (j.source  || '').toLowerCase().includes(q))
+            : byStatus;
 
         meta.textContent = `$ jobs --${currentView} · ${filtered.length} listing(s)`;
 
@@ -238,6 +247,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="jobs__views">
                 <button class="jobs__view${currentView === 'remote'  ? ' jobs__view--active' : ''}" data-view="remote">remote <span class="jobs__view-count">(${byRemote.length})</span></button>
                 <button class="jobs__view${currentView === 'denmark' ? ' jobs__view--active' : ''}" data-view="denmark">denmark <span class="jobs__view-count">(${byDenmark.length})</span></button>
+            </div>
+            <div class="jobs__search-wrap">
+                <input class="jobs__search" id="jobs-search" type="text" placeholder="$ search title, company, source..." value="${searchQuery.replace(/"/g, '&quot;')}">
             </div>
             <div class="jobs__statuses">
                 ${['all', 'pending', 'applied', 'no visa'].map(f =>
@@ -358,6 +370,14 @@ document.addEventListener('DOMContentLoaded', function() {
         const filterBtn = e.target.closest('.jobs__filter');
         if (viewBtn)   { currentView   = viewBtn.dataset.view;     renderJobs(allJobsData); }
         if (filterBtn) { currentFilter = filterBtn.dataset.filter; renderJobs(allJobsData); }
+    });
+
+    // Search input (event delegation — input is re-rendered on each renderJobs)
+    document.getElementById('jobs-filters').addEventListener('input', e => {
+        if (e.target.id === 'jobs-search') {
+            searchQuery = e.target.value;
+            renderJobs(allJobsData);
+        }
     });
 
     document.getElementById('jobs-submit').addEventListener('click', tryUnlock);
