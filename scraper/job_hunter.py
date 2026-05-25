@@ -3,6 +3,12 @@
 Job Hunter — GitHub Actions scraper.
 Fetches jobs from multiple boards, merges with existing jobs.json,
 keeps the newest MAX_JOBS entries, writes back to jobs.json.
+
+Sources
+-------
+Remote:   RemoteOK, WeWorkRemotely, Remotive, Himalayas, Landing.jobs,
+          LinkedIn (worldwide remote), LinkedIn (European remote)
+Denmark:  Jobindex, IT-jobbank, TheHub, Indeed, LinkedIn Denmark
 """
 
 import html as html_module
@@ -30,9 +36,9 @@ KEYWORDS = [
     "senior backend", "senior backend developer",
     # API
     "api developer",
-    # Frameworks (widely used, worth tracking)
+    # Frameworks
     "symfony", "laravel",
-    # Danish keywords
+    # Danish
     "php udvikler", "webudvikler", "backend udvikler",
 ]
 
@@ -76,7 +82,7 @@ def make_job(source, uid, title, company, url, date="", denmark=False) -> dict:
         j["denmark"] = True
     return j
 
-# ── Scrapers ──────────────────────────────────────────────────────────────────
+# ── Remote scrapers ───────────────────────────────────────────────────────────
 
 def fetch_remoteok() -> list:
     try:
@@ -116,7 +122,6 @@ def fetch_weworkremotely() -> list:
         return []
 
 def fetch_remotive() -> list:
-    """Remotive — remote tech jobs RSS (software dev category)."""
     try:
         feed = feedparser.parse("https://remotive.com/remote-jobs/software-dev/feed/")
         out = []
@@ -133,6 +138,69 @@ def fetch_remotive() -> list:
         print(f"  [!] Remotive: {e}")
         return []
 
+def fetch_himalayas() -> list:
+    """Himalayas.app — remote jobs, public JSON API."""
+    try:
+        r = requests.get(
+            "https://himalayas.app/jobs/api",
+            params={"q": "php developer", "limit": 100},
+            headers=HEADERS, timeout=20,
+        )
+        r.raise_for_status()
+        data = r.json()
+        out = []
+        for job in data.get("jobs", []):
+            title   = clean(job.get("title", ""))
+            company = clean(job.get("companyName", ""))
+            url     = job.get("applicationLink") or job.get("guid", "")
+            uid     = job.get("guid", url)
+            # pubDate is a unix timestamp
+            pub = job.get("pubDate", "")
+            try:
+                date = datetime.fromtimestamp(int(pub), tz=timezone.utc).date().isoformat()
+            except Exception:
+                date = ""
+            if not title or not url:
+                continue
+            cats = job.get("categories", [])
+            cats_str = " ".join(cats) if isinstance(cats, list) else str(cats)
+            desc = clean(job.get("excerpt", "") + " " + cats_str)
+            if matches(f"{title} {company} {desc}"):
+                out.append(make_job("Himalayas", uid, title, company, url, date))
+        return out
+    except Exception as e:
+        print(f"  [!] Himalayas: {e}")
+        return []
+
+def fetch_landing_jobs() -> list:
+    """Landing.jobs — European tech jobs API."""
+    try:
+        r = requests.get(
+            "https://landing.jobs/api/v1/jobs",
+            params={"offer_type": "1", "skills": "php"},
+            headers=HEADERS, timeout=15,
+        )
+        r.raise_for_status()
+        raw = r.json()
+        jobs = raw if isinstance(raw, list) else raw.get("jobs", [])
+        out = []
+        for job in jobs:
+            title = clean(job.get("title", ""))
+            url   = job.get("url", "")
+            date  = str(job.get("published_at") or job.get("created_at") or "")[:10]
+            tags  = " ".join(job.get("tags", []))
+            uid   = str(job.get("id", url))
+            if not title or not url:
+                continue
+            if matches(f"{title} {tags}"):
+                out.append(make_job("LandingJobs", uid, title, "", url, date))
+        return out
+    except Exception as e:
+        print(f"  [!] Landing.jobs: {e}")
+        return []
+
+# ── Denmark scrapers ──────────────────────────────────────────────────────────
+
 def fetch_jobindex() -> list:
     """Jobindex.dk — largest Danish job board, RSS per keyword."""
     out = []
@@ -140,8 +208,9 @@ def fetch_jobindex() -> list:
     keywords = ["php", "php developer", "php udvikler", "webudvikler", "backend udvikler", "senior backend"]
     for kw in keywords:
         try:
-            url = f"https://www.jobindex.dk/jobsoegning.rss?q={kw.replace(' ', '+')}&superjob=1"
-            feed = feedparser.parse(url)
+            feed = feedparser.parse(
+                f"https://www.jobindex.dk/jobsoegning.rss?q={kw.replace(' ', '+')}&superjob=1"
+            )
             for e in feed.entries:
                 link = e.get("link", "")
                 if not link or link in seen_urls:
@@ -152,14 +221,64 @@ def fetch_jobindex() -> list:
                 company = clean(e.get("author", ""))
                 if matches(f"{title} {summary}"):
                     out.append(make_job(
-                        "Jobindex", link,
-                        title, company, link,
-                        e.get("published", ""),
-                        denmark=True,
+                        "Jobindex", link, title, company, link,
+                        e.get("published", ""), denmark=True,
                     ))
         except Exception as e:
             print(f"  [!] Jobindex ({kw}): {e}")
     return out
+
+def fetch_itjobbank() -> list:
+    """IT-jobbank.dk — Danish IT-specific job board, RSS per keyword."""
+    out = []
+    seen_urls: set = set()
+    keywords = ["php", "php developer", "php udvikler", "backend developer", "senior php", "webudvikler"]
+    for kw in keywords:
+        try:
+            feed = feedparser.parse(
+                f"https://www.it-jobbank.dk/jobsoegning.rss?q={kw.replace(' ', '+')}&superjob=1"
+            )
+            for e in feed.entries:
+                link = e.get("link", "")
+                if not link or link in seen_urls:
+                    continue
+                seen_urls.add(link)
+                title   = clean(e.title)
+                summary = clean(e.get("summary", ""))
+                company = clean(e.get("author", ""))
+                if matches(f"{title} {summary}"):
+                    out.append(make_job(
+                        "IT-jobbank", link, title, company, link,
+                        e.get("published", ""), denmark=True,
+                    ))
+        except Exception as e:
+            print(f"  [!] IT-jobbank ({kw}): {e}")
+    return out
+
+def fetch_thehub() -> list:
+    """TheHub.io — Danish startup & tech ecosystem board, JSON API."""
+    try:
+        r = requests.get(
+            "https://thehub.io/api/jobs",
+            params={"limit": 100, "countryCode": "DK"},
+            headers=HEADERS, timeout=15,
+        )
+        r.raise_for_status()
+        out = []
+        for job in r.json().get("docs", []):
+            title   = clean(job.get("title", ""))
+            company = clean(job.get("company", {}).get("name", ""))
+            url     = job.get("absoluteJobUrl", "")
+            desc    = clean(job.get("description", ""))
+            date    = str(job.get("createdAt", "") or "")[:10]
+            if not title or not url:
+                continue
+            if matches(f"{title} {desc}"):
+                out.append(make_job("TheHub", url, title, company, url, date, denmark=True))
+        return out
+    except Exception as e:
+        print(f"  [!] TheHub: {e}")
+        return []
 
 def fetch_indeed_denmark() -> list:
     """Indeed Denmark — RSS feed filtered by location."""
@@ -168,26 +287,26 @@ def fetch_indeed_denmark() -> list:
     keywords = ["php developer", "backend developer php", "senior php"]
     for kw in keywords:
         try:
-            url = f"https://www.indeed.com/rss?q={kw.replace(' ', '+')}&l=Denmark&radius=25"
-            feed = feedparser.parse(url)
+            feed = feedparser.parse(
+                f"https://www.indeed.com/rss?q={kw.replace(' ', '+')}&l=Denmark&radius=25"
+            )
             for e in feed.entries:
                 link = e.get("link", "")
                 if not link or link in seen_urls:
                     continue
                 seen_urls.add(link)
-                text = f"{e.title} {clean(e.get('summary', ''))}"
-                if matches(text):
+                if matches(f"{e.title} {clean(e.get('summary', ''))}"):
                     out.append(make_job(
-                        "Indeed", link,
-                        e.title, "",
-                        link, e.get("published", ""),
-                        denmark=True,
+                        "Indeed", link, e.title, "",
+                        link, e.get("published", ""), denmark=True,
                     ))
         except Exception as e:
             print(f"  [!] Indeed Denmark ({kw}): {e}")
     return out
 
-def _linkedin_search(params: dict, denmark: bool = False) -> list:
+# ── LinkedIn scrapers ─────────────────────────────────────────────────────────
+
+def _linkedin_search(params: dict, label: str = "LinkedIn", denmark: bool = False) -> list:
     out = []
     seen_urls: set = set()
     keywords = ["PHP Developer", "Senior PHP Developer", "Backend PHP", "Full Stack PHP"]
@@ -219,15 +338,27 @@ def _linkedin_search(params: dict, denmark: bool = False) -> list:
                         url, denmark=denmark,
                     ))
         except Exception as e:
-            label = "LinkedIn Denmark" if denmark else "LinkedIn"
             print(f"  [!] {label} ({keyword}): {e}")
     return out
 
-def fetch_linkedin() -> list:
-    return _linkedin_search({"f_WT": "2"})
+def fetch_linkedin_remote() -> list:
+    """LinkedIn — remote jobs worldwide."""
+    return _linkedin_search({"f_WT": "2"}, label="LinkedIn remote")
+
+def fetch_linkedin_europe() -> list:
+    """LinkedIn — remote jobs filtered to Europe."""
+    return _linkedin_search(
+        {"location": "European Union", "f_WT": "2"},
+        label="LinkedIn Europe",
+    )
 
 def fetch_linkedin_denmark() -> list:
-    return _linkedin_search({"location": "Denmark", "f_WT": "1,3"}, denmark=True)
+    """LinkedIn — on-site + hybrid jobs in Denmark."""
+    return _linkedin_search(
+        {"location": "Denmark", "f_WT": "1,3"},
+        label="LinkedIn Denmark",
+        denmark=True,
+    )
 
 # ── Merge & save ──────────────────────────────────────────────────────────────
 
@@ -248,13 +379,20 @@ def main():
     all_new: list = []
 
     for name, fetcher in [
-        ("RemoteOK",          fetch_remoteok),
-        ("WeWorkRemotely",    fetch_weworkremotely),
-        ("Remotive",          fetch_remotive),
-        ("Jobindex",          fetch_jobindex),
-        ("Indeed Denmark",    fetch_indeed_denmark),
-        ("LinkedIn remote",   fetch_linkedin),
-        ("LinkedIn Denmark",  fetch_linkedin_denmark),
+        # ── Remote ────────────────────────────
+        ("RemoteOK",         fetch_remoteok),
+        ("WeWorkRemotely",   fetch_weworkremotely),
+        ("Remotive",         fetch_remotive),
+        ("Himalayas",        fetch_himalayas),
+        ("Landing.jobs",     fetch_landing_jobs),
+        ("LinkedIn remote",  fetch_linkedin_remote),
+        ("LinkedIn Europe",  fetch_linkedin_europe),
+        # ── Denmark ───────────────────────────
+        ("Jobindex",         fetch_jobindex),
+        ("IT-jobbank",       fetch_itjobbank),
+        ("TheHub",           fetch_thehub),
+        ("Indeed Denmark",   fetch_indeed_denmark),
+        ("LinkedIn Denmark", fetch_linkedin_denmark),
     ]:
         print(f"Fetching {name}...")
         jobs = fetcher()
