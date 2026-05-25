@@ -20,11 +20,20 @@ except ImportError:
     sys.exit("pip install requests feedparser beautifulsoup4")
 
 KEYWORDS = [
-    "php", "codeigniter", "kohana", "symfony", "laravel",
-    "backend developer", "backend engineer",
+    # PHP roles
+    "php", "php 8",
     "php developer", "php engineer", "php web developer",
+    "senior php", "senior php developer",
     "full stack php", "fullstack php", "full-stack php",
-    "fleet management", "telematics",
+    # Backend roles
+    "backend developer", "backend engineer",
+    "senior backend", "senior backend developer",
+    # API
+    "api developer",
+    # Frameworks (widely used, worth tracking)
+    "symfony", "laravel",
+    # Danish keywords
+    "php udvikler", "webudvikler", "backend udvikler",
 ]
 
 JOBS_FILE = Path(__file__).parent.parent / "jobs.json"
@@ -53,8 +62,8 @@ def clean(s) -> str:
     s = html_module.unescape(s)
     return " ".join(s.split()).strip()
 
-def make_job(source, uid, title, company, url, date="") -> dict:
-    return {
+def make_job(source, uid, title, company, url, date="", denmark=False) -> dict:
+    j = {
         "id":         f"{source}_{uid}",
         "title":      clean(title),
         "company":    clean(company),
@@ -63,6 +72,9 @@ def make_job(source, uid, title, company, url, date="") -> dict:
         "date":       str(date)[:10] if date else "",
         "fetched_at": TODAY,
     }
+    if denmark:
+        j["denmark"] = True
+    return j
 
 # ── Scrapers ──────────────────────────────────────────────────────────────────
 
@@ -103,32 +115,82 @@ def fetch_weworkremotely() -> list:
         print(f"  [!] WeWorkRemotely: {e}")
         return []
 
-def fetch_getonbrd() -> list:
+def fetch_remotive() -> list:
+    """Remotive — remote tech jobs RSS (software dev category)."""
+    try:
+        feed = feedparser.parse("https://remotive.com/remote-jobs/software-dev/feed/")
+        out = []
+        for e in feed.entries:
+            text = f"{e.title} {clean(e.get('summary', ''))}"
+            if matches(text):
+                out.append(make_job(
+                    "Remotive", e.get("id", e.link),
+                    e.title, e.get("author", ""),
+                    e.link, e.get("published", ""),
+                ))
+        return out
+    except Exception as e:
+        print(f"  [!] Remotive: {e}")
+        return []
+
+def fetch_jobindex() -> list:
+    """Jobindex.dk — largest Danish job board, RSS per keyword."""
     out = []
-    for keyword in ["php", "backend php"]:
+    seen_urls: set = set()
+    keywords = ["php", "php developer", "php udvikler", "webudvikler", "backend udvikler", "senior backend"]
+    for kw in keywords:
         try:
-            r = requests.get(
-                "https://www.getonbrd.com/jobs",
-                params={"q": keyword},
-                headers=HEADERS, timeout=15,
-            )
-            soup = BeautifulSoup(r.text, "html.parser")
-            for card in soup.select("a.gb-results-list__item"):
-                title_el   = card.select_one(".gb-results-list__title")
-                company_el = card.select_one(".gb-results-list__company")
-                url = "https://www.getonbrd.com" + card.get("href", "")
-                uid = card.get("href", url)
-                if title_el and matches(title_el.text):
-                    out.append(make_job("GetOnBrd", uid, title_el.text,
-                                        company_el.text if company_el else "", url))
+            url = f"https://www.jobindex.dk/jobsoegning.rss?q={kw.replace(' ', '+')}&superjob=1"
+            feed = feedparser.parse(url)
+            for e in feed.entries:
+                link = e.get("link", "")
+                if not link or link in seen_urls:
+                    continue
+                seen_urls.add(link)
+                title   = clean(e.title)
+                summary = clean(e.get("summary", ""))
+                company = clean(e.get("author", ""))
+                if matches(f"{title} {summary}"):
+                    out.append(make_job(
+                        "Jobindex", link,
+                        title, company, link,
+                        e.get("published", ""),
+                        denmark=True,
+                    ))
         except Exception as e:
-            print(f"  [!] GetOnBrd ({keyword}): {e}")
+            print(f"  [!] Jobindex ({kw}): {e}")
+    return out
+
+def fetch_indeed_denmark() -> list:
+    """Indeed Denmark — RSS feed filtered by location."""
+    out = []
+    seen_urls: set = set()
+    keywords = ["php developer", "backend developer php", "senior php"]
+    for kw in keywords:
+        try:
+            url = f"https://www.indeed.com/rss?q={kw.replace(' ', '+')}&l=Denmark&radius=25"
+            feed = feedparser.parse(url)
+            for e in feed.entries:
+                link = e.get("link", "")
+                if not link or link in seen_urls:
+                    continue
+                seen_urls.add(link)
+                text = f"{e.title} {clean(e.get('summary', ''))}"
+                if matches(text):
+                    out.append(make_job(
+                        "Indeed", link,
+                        e.title, "",
+                        link, e.get("published", ""),
+                        denmark=True,
+                    ))
+        except Exception as e:
+            print(f"  [!] Indeed Denmark ({kw}): {e}")
     return out
 
 def _linkedin_search(params: dict, denmark: bool = False) -> list:
     out = []
     seen_urls: set = set()
-    keywords = ["PHP Developer", "Backend PHP", "Full Stack PHP"]
+    keywords = ["PHP Developer", "Senior PHP Developer", "Backend PHP", "Full Stack PHP"]
     for keyword in keywords:
         try:
             r = requests.get(
@@ -151,22 +213,20 @@ def _linkedin_search(params: dict, denmark: bool = False) -> list:
                     continue
                 seen_urls.add(url)
                 if matches(f"{title} {clean(company_el.text) if company_el else ''}"):
-                    j = make_job("LinkedIn", uid, title,
-                                 company_el.text if company_el else "", url)
-                    if denmark:
-                        j["denmark"] = True
-                    out.append(j)
+                    out.append(make_job(
+                        "LinkedIn", uid, title,
+                        company_el.text if company_el else "",
+                        url, denmark=denmark,
+                    ))
         except Exception as e:
             label = "LinkedIn Denmark" if denmark else "LinkedIn"
             print(f"  [!] {label} ({keyword}): {e}")
     return out
 
 def fetch_linkedin() -> list:
-    # Remote jobs worldwide (f_WT=2)
     return _linkedin_search({"f_WT": "2"})
 
 def fetch_linkedin_denmark() -> list:
-    # On-site + hybrid jobs in Denmark (f_WT=1,3)
     return _linkedin_search({"location": "Denmark", "f_WT": "1,3"}, denmark=True)
 
 # ── Merge & save ──────────────────────────────────────────────────────────────
@@ -190,13 +250,14 @@ def main():
     for name, fetcher in [
         ("RemoteOK",          fetch_remoteok),
         ("WeWorkRemotely",    fetch_weworkremotely),
-        ("GetOnBrd",          fetch_getonbrd),
+        ("Remotive",          fetch_remotive),
+        ("Jobindex",          fetch_jobindex),
+        ("Indeed Denmark",    fetch_indeed_denmark),
         ("LinkedIn remote",   fetch_linkedin),
         ("LinkedIn Denmark",  fetch_linkedin_denmark),
     ]:
         print(f"Fetching {name}...")
         jobs = fetcher()
-        # deduplicate same title+company within this run
         seen_keys: set = set()
         deduped = []
         for j in jobs:
@@ -207,7 +268,6 @@ def main():
         print(f"  {len(deduped)} unique match(es)")
         all_new.extend(deduped)
 
-    # Existing jobs stay; new ones are added (not overwriting)
     merged = dict(existing)
     for j in all_new:
         if j["id"] not in merged:
