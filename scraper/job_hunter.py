@@ -70,7 +70,7 @@ def clean(s) -> str:
     s = html_module.unescape(s)
     return " ".join(s.split()).strip()
 
-def make_job(source, uid, title, company, url, date="", denmark=False) -> dict:
+def make_job(source, uid, title, company, url, date="", denmark=False, salary=None) -> dict:
     j = {
         "id":         f"{source}_{uid}",
         "title":      clean(title),
@@ -82,7 +82,21 @@ def make_job(source, uid, title, company, url, date="", denmark=False) -> dict:
     }
     if denmark:
         j["denmark"] = True
+    if salary:
+        j["salary"] = salary
     return j
+
+def fmt_salary(low, high, currency="EUR"):
+    """Format salary range as '€50k–€73k'. Returns None if no data."""
+    sym = {"EUR": "€", "USD": "$", "GBP": "£", "DKK": "kr "}.get(str(currency), f"{currency} ")
+    try:
+        lo = f"{sym}{int(low)  // 1000}k" if low  and int(low)  > 0 else None
+        hi = f"{sym}{int(high) // 1000}k" if high and int(high) > 0 else None
+    except (ValueError, TypeError):
+        return None
+    if lo and hi:
+        return f"{lo}–{hi}"
+    return lo or hi or None
 
 # ── Remote scrapers ───────────────────────────────────────────────────────────
 
@@ -164,11 +178,13 @@ def fetch_himalayas() -> list:
                 date = ""
             if not title or not url:
                 continue
-            cats = job.get("categories", [])
+            cats     = job.get("categories", [])
             cats_str = " ".join(cats) if isinstance(cats, list) else str(cats)
-            desc = clean(job.get("excerpt", "") + " " + cats_str)
+            desc     = clean(job.get("excerpt", "") + " " + cats_str)
+            salary   = fmt_salary(job.get("minSalary"), job.get("maxSalary"),
+                                  job.get("currency", "USD"))
             if matches(f"{title} {company} {desc}"):
-                out.append(make_job("Himalayas", uid, title, company, url, date))
+                out.append(make_job("Himalayas", uid, title, company, url, date, salary=salary))
         return out
     except Exception as e:
         print(f"  [!] Himalayas: {e}")
@@ -187,15 +203,17 @@ def fetch_landing_jobs() -> list:
         jobs = raw if isinstance(raw, list) else raw.get("jobs", [])
         out = []
         for job in jobs:
-            title = clean(job.get("title", ""))
-            url   = job.get("url", "")
-            date  = str(job.get("published_at") or job.get("created_at") or "")[:10]
-            tags  = " ".join(job.get("tags", []))
-            uid   = str(job.get("id", url))
+            title  = clean(job.get("title", ""))
+            url    = job.get("url", "")
+            date   = str(job.get("published_at") or job.get("created_at") or "")[:10]
+            tags   = " ".join(job.get("tags", []))
+            uid    = str(job.get("id", url))
+            salary = fmt_salary(job.get("gross_salary_low"), job.get("gross_salary_high"),
+                                job.get("currency_code", "EUR"))
             if not title or not url:
                 continue
             if matches(f"{title} {tags}"):
-                out.append(make_job("LandingJobs", uid, title, "", url, date))
+                out.append(make_job("LandingJobs", uid, title, "", url, date, salary=salary))
         return out
     except Exception as e:
         print(f"  [!] Landing.jobs: {e}")

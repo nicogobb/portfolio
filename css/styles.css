@@ -1099,6 +1099,14 @@ button:focus-visible {
     opacity: 0.6;
 }
 
+.jobs__salary {
+    font-family: var(--font-main);
+    font-size: 0.72rem;
+    color: #7fffb0;
+    opacity: 0.75;
+    margin-left: 0.4rem;
+}
+
 .jobs__card--applied {
     opacity: 0.45;
 }
@@ -1261,22 +1269,76 @@ button:focus-visible {
 }
 
 @media (max-width: 600px) {
+    /* Job cards: stack to single column */
     .jobs__card {
         grid-template-columns: 1fr;
+        padding: 0.75rem 1rem;
     }
+
     .jobs__card-meta {
         grid-column: 1;
         grid-row: auto;
         flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: flex-start;
-        margin-top: 0.4rem;
+        gap: 0.4rem;
+        margin-top: 0.5rem;
     }
+
+    /* Tabs: fill width evenly */
+    .jobs__views {
+        width: 100%;
+    }
+
+    .jobs__view {
+        flex: 1;
+        text-align: center;
+        padding: 0.5rem 0.5rem;
+        font-size: 0.82rem;
+    }
+
+    /* Status filters: wrap on small screens */
+    .jobs__statuses {
+        flex-wrap: wrap;
+        gap: 0.35rem;
+    }
+
+    .jobs__filter {
+        font-size: 0.68rem;
+        padding: 0.15rem 0.55rem;
+    }
+
+    /* Search input full width already, fine-tune */
+    .jobs__search {
+        font-size: 0.78rem;
+    }
+
+    /* Toolbar: stack vertically */
+    .jobs__toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+    }
+
+    .jobs__toolbar-right {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    /* Auth gate */
     .jobs__auth-row {
         flex-direction: column;
         align-items: flex-start;
     }
     .jobs__input { width: 100%; }
+
+    /* Salary inline with company */
+    .jobs__salary {
+        display: block;
+        margin-left: 0;
+        margin-top: 0.1rem;
+    }
 }
 
 /* Typewriter cursor */

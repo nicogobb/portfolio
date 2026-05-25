@@ -241,7 +241,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 (j.source  || '').toLowerCase().includes(q))
             : byStatus;
 
-        meta.textContent = `$ jobs --${currentView} · ${filtered.length} listing(s)`;
+        const nApplied = byView.filter(j =>  appliedJobs.has(j.id)).length;
+        const nNoVisa  = byView.filter(j =>  noVisaJobs.has(j.id)).length;
+        const nPending = byView.length - nApplied - nNoVisa;
+        const parts    = [`${nPending} pending`];
+        if (nApplied) parts.push(`${nApplied} applied`);
+        if (nNoVisa)  parts.push(`${nNoVisa} no visa`);
+        meta.textContent = `$ jobs --${currentView} · ${parts.join(' · ')}`;
 
         filtersEl.innerHTML = `
             <div class="jobs__views">
@@ -269,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return `
             <div class="jobs__card${cardCls}">
                 <a class="jobs__card-title" href="${j.url}" target="_blank" rel="noopener noreferrer">${j.title}</a>
-                <span class="jobs__card-company">${j.company || '—'}</span>
+                <span class="jobs__card-company">${j.company || '—'}${j.salary ? ` <span class="jobs__salary">${j.salary}</span>` : ''}</span>
                 <div class="jobs__card-meta">
                     <span class="jobs__badge jobs__badge--${j.source}">${j.source}</span>
                     ${j.date ? `<span class="jobs__date">${j.date}</span>` : ''}
