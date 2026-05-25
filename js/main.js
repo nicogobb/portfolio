@@ -205,13 +205,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const APPLIED_KEY = 'jobs_applied_v1';
+    const NOVISA_KEY  = 'jobs_novisa_v1';
     let appliedJobs   = new Set(JSON.parse(localStorage.getItem(APPLIED_KEY) || '[]'));
+    let noVisaJobs    = new Set(JSON.parse(localStorage.getItem(NOVISA_KEY)  || '[]'));
     let allJobsData   = [];
     let currentView   = 'remote';   // 'remote' | 'denmark'
-    let currentFilter = 'all';      // 'all' | 'pending' | 'applied'
+    let currentFilter = 'all';      // 'all' | 'pending' | 'applied' | 'no visa'
 
     function saveApplied() {
         localStorage.setItem(APPLIED_KEY, JSON.stringify([...appliedJobs]));
+        localStorage.setItem(NOVISA_KEY,  JSON.stringify([...noVisaJobs]));
     }
 
     function renderJobs(jobs) {
@@ -224,8 +227,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const byDenmark = jobs.filter(j =>  j.denmark);
         const byView    = currentView === 'denmark' ? byDenmark : byRemote;
 
-        const filtered  = currentFilter === 'applied' ? byView.filter(j =>  appliedJobs.has(j.id))
-                        : currentFilter === 'pending'  ? byView.filter(j => !appliedJobs.has(j.id))
+        const filtered  = currentFilter === 'applied'  ? byView.filter(j =>  appliedJobs.has(j.id))
+                        : currentFilter === 'no visa'  ? byView.filter(j =>  noVisaJobs.has(j.id))
+                        : currentFilter === 'pending'   ? byView.filter(j => !appliedJobs.has(j.id) && !noVisaJobs.has(j.id))
                         : byView;
 
         meta.textContent = `$ jobs --${currentView} · ${filtered.length} listing(s)`;
@@ -236,7 +240,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <button class="jobs__view${currentView === 'denmark' ? ' jobs__view--active' : ''}" data-view="denmark">denmark <span class="jobs__view-count">(${byDenmark.length})</span></button>
             </div>
             <div class="jobs__statuses">
-                ${['all', 'pending', 'applied'].map(f =>
+                ${['all', 'pending', 'applied', 'no visa'].map(f =>
                     `<button class="jobs__filter${f === currentFilter ? ' jobs__filter--active' : ''}" data-filter="${f}">${f}</button>`
                 ).join('')}
             </div>`;
@@ -247,16 +251,21 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         list.innerHTML = filtered.map(j => {
-            const done = appliedJobs.has(j.id);
+            const applied = appliedJobs.has(j.id);
+            const novisa  = noVisaJobs.has(j.id);
+            const cardCls = applied ? ' jobs__card--applied' : novisa ? ' jobs__card--novisa' : '';
             return `
-            <div class="jobs__card${done ? ' jobs__card--applied' : ''}">
+            <div class="jobs__card${cardCls}">
                 <a class="jobs__card-title" href="${j.url}" target="_blank" rel="noopener noreferrer">${j.title}</a>
                 <span class="jobs__card-company">${j.company || '—'}</span>
                 <div class="jobs__card-meta">
                     <span class="jobs__badge jobs__badge--${j.source}">${j.source}</span>
                     ${j.date ? `<span class="jobs__date">${j.date}</span>` : ''}
-                    <button class="jobs__apply-btn${done ? ' jobs__apply-btn--done' : ''}" data-id="${j.id}">
-                        ${done ? '✓ applied' : '+ apply'}
+                    <button class="jobs__apply-btn${applied ? ' jobs__apply-btn--done' : ''}" data-id="${j.id}" data-action="apply">
+                        ${applied ? '✓ applied' : '+ apply'}
+                    </button>
+                    <button class="jobs__novisa-btn${novisa ? ' jobs__novisa-btn--on' : ''}" data-id="${j.id}" data-action="novisa">
+                        ${novisa ? '⊘ no visa' : '⊘ visa req.'}
                     </button>
                 </div>
             </div>`;
@@ -316,12 +325,29 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Apply / unapply toggle (event delegation)
+    // Apply / no-visa toggle (event delegation)
     document.getElementById('jobs-list').addEventListener('click', e => {
-        const btn = e.target.closest('.jobs__apply-btn');
+        const btn = e.target.closest('[data-action]');
         if (!btn) return;
-        const id = btn.dataset.id;
-        appliedJobs.has(id) ? appliedJobs.delete(id) : appliedJobs.add(id);
+        const id     = btn.dataset.id;
+        const action = btn.dataset.action;
+
+        if (action === 'apply') {
+            if (appliedJobs.has(id)) {
+                appliedJobs.delete(id);          // undo applied
+            } else {
+                appliedJobs.add(id);
+                noVisaJobs.delete(id);           // exclusive: clear no-visa
+            }
+        } else if (action === 'novisa') {
+            if (noVisaJobs.has(id)) {
+                noVisaJobs.delete(id);           // undo no-visa
+            } else {
+                noVisaJobs.add(id);
+                appliedJobs.delete(id);          // exclusive: clear applied
+            }
+        }
+
         saveApplied();
         renderJobs(allJobsData);
     });

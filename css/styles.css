@@ -1107,6 +1107,16 @@ button:focus-visible {
     text-decoration: line-through;
 }
 
+.jobs__card--novisa {
+    opacity: 0.35;
+    border-color: rgba(255, 140, 0, 0.2);
+}
+
+.jobs__card--novisa .jobs__card-title {
+    text-decoration: line-through;
+    text-decoration-color: rgba(255, 140, 0, 0.5);
+}
+
 .jobs__apply-btn {
     background: transparent;
     border: 1px solid rgba(0, 255, 0, 0.2);
@@ -1130,6 +1140,31 @@ button:focus-visible {
     border-color: rgba(0, 255, 0, 0.5);
     color: var(--primary-color);
     background: rgba(0, 255, 0, 0.06);
+}
+
+.jobs__novisa-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 140, 0, 0.2);
+    color: var(--light-text);
+    font-family: var(--font-main);
+    font-size: 0.68rem;
+    padding: 0.12rem 0.5rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.jobs__novisa-btn:hover {
+    border-color: #ff8c00;
+    color: #ff8c00;
+    background: rgba(255, 140, 0, 0.06);
+}
+
+.jobs__novisa-btn--on {
+    border-color: rgba(255, 140, 0, 0.5);
+    color: #ff8c00;
+    background: rgba(255, 140, 0, 0.07);
 }
 
 .jobs__filters {
