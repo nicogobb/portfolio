@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T16:02:22.795372+00:00",
+  "updated_at": "2026-05-27T19:01:13.029445+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -1672,6 +1672,25 @@
       "match_cons": [
         "Limited framework options",
         "No description available"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4418005201",
+      "title": "Senior Software Engineer (Laravel / Vue.js)",
+      "company": "PactFi",
+      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-laravel-vue-js-at-pactfi-4418005201",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires Vue.js experience",
+        "No AWS certification required"
       ]
     },
     {
