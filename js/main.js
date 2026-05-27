@@ -268,6 +268,25 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
+        function jobMatchBar(j) {
+            const score = j.match_score;
+            if (score == null) return '';
+            const conf  = j.match_confidence || 'low';
+            const tier  = score >= 75 ? 'high' : score >= 50 ? 'medium' : 'low';
+            const label = conf === 'low' ? `~${score}%` : `${score}%`;
+            const cls   = conf === 'low' ? ' jobs__match--uncertain' : '';
+            const tips  = [
+                ...(j.match_pros || []).map(p => `✓ ${p}`),
+                ...(j.match_cons || []).map(c => `✗ ${c}`),
+            ].join('  ·  ');
+            return `<div class="jobs__match${cls}"${tips ? ` title="${tips}"` : ''}>
+                <div class="jobs__match-track">
+                    <div class="jobs__match-fill jobs__match-fill--${tier}" style="width:${score}%"></div>
+                </div>
+                <span class="jobs__match-label">${label}</span>
+            </div>`;
+        }
+
         list.innerHTML = filtered.map(j => {
             const applied = appliedJobs.has(j.id);
             const novisa  = noVisaJobs.has(j.id);
@@ -286,6 +305,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         ${novisa ? '⊘ no visa' : '⊘ visa req.'}
                     </button>
                 </div>
+                ${jobMatchBar(j)}
             </div>`;
         }).join('');
     }

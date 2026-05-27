@@ -49,10 +49,12 @@ TECH_PHRASES = [
     "linux", "nginx", "apache",
     "agile", "scrum", "tdd", "microservices",
     "python", "java", "go", "rust", "ruby", "c#",
-    "remote", "hybrid", "on-site", "relocation",
-    "senior", "lead", "architect", "principal",
     "full stack", "full-stack", "backend", "frontend",
 ]
+
+# Seniority and work modality — shown separately, not as "missing skills"
+SENIORITY_TERMS = ["senior", "lead", "architect", "principal", "staff", "junior", "mid-level"]
+MODALITY_TERMS  = ["remote", "hybrid", "on-site", "relocation"]
 
 
 def clean(s: str) -> str:
@@ -76,11 +78,11 @@ def load_jobs(source_filter=None, denmark_only=False):
     return jobs
 
 
-def count_tech_phrases(texts: list[str]) -> Counter:
-    """Count how many job texts contain each tech phrase (1 per job, not per occurrence)."""
+def count_phrases(texts: list[str], phrases: list[str]) -> Counter:
+    """Count how many job texts contain each phrase (1 per job, not per occurrence)."""
     counts = Counter()
     for text in texts:
-        for phrase in TECH_PHRASES:
+        for phrase in phrases:
             if phrase in text:
                 counts[phrase] += 1
     return counts
@@ -123,8 +125,12 @@ def main():
     print(f"  Job Analyzer — {len(jobs)} jobs{scope}")
     print(f"{'═'*55}\n")
 
-    # Combine title + company text for analysis
-    texts = [clean(f"{j.get('title', '')} {j.get('company', '')}") for j in jobs]
+    # Combine title + company + description for analysis
+    with_desc = sum(1 for j in jobs if j.get("description"))
+    texts = [
+        clean(f"{j.get('title', '')} {j.get('company', '')} {j.get('description', '')}")
+        for j in jobs
+    ]
 
     # ── Source breakdown ──
     from collections import Counter as C
@@ -134,7 +140,7 @@ def main():
     for src, cnt in sources.most_common():
         pct = cnt / len(jobs) * 100
         print(f"  {src:<20} {cnt:>3}  {bar(cnt, len(jobs), 20)}  {pct:.0f}%")
-    print()
+    print(f"  (descriptions available: {with_desc}/{len(jobs)} jobs)\n")
 
     # ── Salary coverage ──
     with_salary = [j for j in jobs if j.get("salary")]
@@ -144,13 +150,31 @@ def main():
             print(f"    {j['salary']:<12}  {j['title'][:45]}")
         print()
 
-    # ── Keyword frequency ──
+    # ── Seniority & modality breakdown ──
+    seniority = count_phrases(texts, SENIORITY_TERMS)
+    modality  = count_phrases(texts, MODALITY_TERMS)
+    if seniority:
+        print("  Seniority level (jobs mentioning each)")
+        print(f"  {'─'*40}")
+        for term, cnt in seniority.most_common():
+            pct = cnt / len(jobs) * 100
+            print(f"  {term:<28} {cnt:>3}/{len(jobs)}  {bar(cnt, len(jobs), 20)}  {pct:.0f}%")
+        print()
+    if modality:
+        print("  Work modality (jobs mentioning each)")
+        print(f"  {'─'*40}")
+        for term, cnt in modality.most_common():
+            pct = cnt / len(jobs) * 100
+            print(f"  {term:<28} {cnt:>3}/{len(jobs)}  {bar(cnt, len(jobs), 20)}  {pct:.0f}%")
+        print()
+
+    # ── Tech keyword frequency ──
     if args.words:
         counts = count_words(texts, args.top)
-        title = "Top words in job titles"
+        title = "Top words (title + description)"
     else:
-        counts = count_tech_phrases(texts)
-        title = "Tech phrase frequency (jobs mentioning each)"
+        counts = count_phrases(texts, TECH_PHRASES)
+        title = "Tech skills (jobs mentioning each)"
 
     top = counts.most_common(args.top)
     if not top:
@@ -172,7 +196,7 @@ def main():
                    "github actions", "docker", "mongodb"}
     missing = [(p, c) for p, c in top if p not in YOUR_SKILLS]
     if missing:
-        print("  ⚡ Skills in demand NOT in your current profile/CV:")
+        print("  ⚡ Tech skills in demand NOT in your current profile/CV:")
         for phrase, count in missing[:8]:
             print(f"    {phrase:<28} mentioned in {count} jobs ({count/len(jobs)*100:.0f}%)")
         print()

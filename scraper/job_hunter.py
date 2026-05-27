@@ -70,7 +70,7 @@ def clean(s) -> str:
     s = html_module.unescape(s)
     return " ".join(s.split()).strip()
 
-def make_job(source, uid, title, company, url, date="", denmark=False, salary=None) -> dict:
+def make_job(source, uid, title, company, url, date="", denmark=False, salary=None, description=None) -> dict:
     j = {
         "id":         f"{source}_{uid}",
         "title":      clean(title),
@@ -84,6 +84,8 @@ def make_job(source, uid, title, company, url, date="", denmark=False, salary=No
         j["denmark"] = True
     if salary:
         j["salary"] = salary
+    if description:
+        j["description"] = description[:800]
     return j
 
 def fmt_salary(low, high, currency="EUR"):
@@ -113,6 +115,7 @@ def fetch_remoteok() -> list:
                     j.get("position"), j.get("company"),
                     j.get("url", f"https://remoteok.com/remote-jobs/{j['id']}"),
                     j.get("date", ""),
+                    description=clean(j.get("description", "")),
                 ))
         return out
     except Exception as e:
@@ -131,6 +134,7 @@ def fetch_weworkremotely() -> list:
                     "WeWorkRemotely", e.id,
                     title_name, company_name,
                     e.link, e.get("published", ""),
+                    description=clean(e.get("summary", "")),
                 ))
         return out
     except Exception as e:
@@ -148,6 +152,7 @@ def fetch_remotive() -> list:
                     "Remotive", e.get("id", e.link),
                     e.title, e.get("author", ""),
                     e.link, e.get("published", ""),
+                    description=clean(e.get("summary", "")),
                 ))
         return out
     except Exception as e:
@@ -184,7 +189,8 @@ def fetch_himalayas() -> list:
             salary   = fmt_salary(job.get("minSalary"), job.get("maxSalary"),
                                   job.get("currency", "USD"))
             if matches(f"{title} {company} {desc}"):
-                out.append(make_job("Himalayas", uid, title, company, url, date, salary=salary))
+                out.append(make_job("Himalayas", uid, title, company, url, date, salary=salary,
+                                    description=desc))
         return out
     except Exception as e:
         print(f"  [!] Himalayas: {e}")
@@ -243,6 +249,7 @@ def fetch_jobindex() -> list:
                     out.append(make_job(
                         "Jobindex", link, title, company, link,
                         e.get("published", ""), denmark=True,
+                        description=summary,
                     ))
         except Exception as e:
             print(f"  [!] Jobindex ({kw}): {e}")
@@ -270,6 +277,7 @@ def fetch_itjobbank() -> list:
                     out.append(make_job(
                         "IT-jobbank", link, title, company, link,
                         e.get("published", ""), denmark=True,
+                        description=summary,
                     ))
         except Exception as e:
             print(f"  [!] IT-jobbank ({kw}): {e}")
@@ -294,7 +302,8 @@ def fetch_thehub() -> list:
             if not title or not url:
                 continue
             if matches(f"{title} {desc}"):
-                out.append(make_job("TheHub", url, title, company, url, date, denmark=True))
+                out.append(make_job("TheHub", url, title, company, url, date, denmark=True,
+                                    description=desc))
         return out
     except Exception as e:
         print(f"  [!] TheHub: {e}")
@@ -433,6 +442,9 @@ def main():
             merged[j["id"]] = j
         else:
             merged[j["id"]]["fetched_at"] = TODAY   # still alive → reset expiry clock
+            # Update description if the new fetch has one
+            if "description" in j:
+                merged[j["id"]]["description"] = j["description"]
 
     # Cross-source deduplication: same title+company from different boards → keep newest
     seen_title_co: dict = {}
