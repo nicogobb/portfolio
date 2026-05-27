@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T15:06:07.608284+00:00",
+  "updated_at": "2026-05-27T16:02:22.795372+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -1525,6 +1525,156 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4418948136",
+      "title": "PHP Developer",
+      "company": "Multitude",
+      "url": "https://lt.linkedin.com/jobs/view/php-developer-at-multitude-4418948136",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No mention of AWS certification",
+        "No mention of PostgreSQL"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413875329",
+      "title": "PHP Developer (Onsite)",
+      "company": "Alexander Lyons Solutions",
+      "url": "https://mt.linkedin.com/jobs/view/php-developer-onsite-at-alexander-lyons-solutions-4413875329",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 match"
+      ],
+      "match_cons": [
+        "Onsite requirement",
+        "No mention of remote work"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4362830906",
+      "title": "PHP Developer (Laravel)",
+      "company": "Scale Tech",
+      "url": "https://lt.linkedin.com/jobs/view/php-developer-laravel-at-scale-tech-4362830906",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Limited framework options",
+        "No description available"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4356448172",
+      "title": "PHP Web Developer - Hybrid",
+      "company": "SitusAMC",
+      "url": "https://www.linkedin.com/jobs/view/php-web-developer-hybrid-at-situsamc-4356448172",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Limited MongoDB experience"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4417052304",
+      "title": "PHP Developer | WebPros Team",
+      "company": "Hostinger",
+      "url": "https://lt.linkedin.com/jobs/view/php-developer-webpros-team-at-hostinger-4417052304",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Limited language options",
+        "No description available"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4414249830",
+      "title": "Backend Developer - PHP (w/m/d)",
+      "company": "MOGIC",
+      "url": "https://de.linkedin.com/jobs/view/backend-developer-php-w-m-d-at-mogic-4414249830",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No AWS certification",
+        "No description available"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4412972171",
+      "title": "PHP Developer (Vanilla PHP)",
+      "company": "StaffSource",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-vanilla-php-at-staffsource-4412972171",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "match_score": 40,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 match"
+      ],
+      "match_cons": [
+        "No Laravel",
+        "No remote-friendly description"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4358405368",
+      "title": "PHP Web Developer II",
+      "company": "The National Wild Turkey Federation",
+      "url": "https://www.linkedin.com/jobs/view/php-web-developer-ii-at-the-national-wild-turkey-federation-4358405368",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Limited framework options",
+        "No description available"
+      ]
+    },
+    {
       "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
       "title": "Staff Product Engineer",
       "company": "LawnStarter",
@@ -1582,25 +1732,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4418948136",
-      "title": "PHP Developer",
-      "company": "Multitude",
-      "url": "https://lt.linkedin.com/jobs/view/php-developer-at-multitude-4418948136",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-26",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No mention of AWS certification",
-        "No mention of PostgreSQL"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4406584077",
       "title": "Backend Developer - PHP & Laravel (all gender)",
       "company": "a&o Hostels",
@@ -1616,43 +1747,6 @@
       ],
       "match_cons": [
         "Limited language options",
-        "No description available"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4413875329",
-      "title": "PHP Developer (Onsite)",
-      "company": "Alexander Lyons Solutions",
-      "url": "https://mt.linkedin.com/jobs/view/php-developer-onsite-at-alexander-lyons-solutions-4413875329",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-26",
-      "match_score": 45,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 match"
-      ],
-      "match_cons": [
-        "Onsite requirement",
-        "No mention of remote work"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4362830906",
-      "title": "PHP Developer (Laravel)",
-      "company": "Scale Tech",
-      "url": "https://lt.linkedin.com/jobs/view/php-developer-laravel-at-scale-tech-4362830906",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-26",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Limited framework options",
         "No description available"
       ]
     },
@@ -1752,25 +1846,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4356448172",
-      "title": "PHP Web Developer - Hybrid",
-      "company": "SitusAMC",
-      "url": "https://www.linkedin.com/jobs/view/php-web-developer-hybrid-at-situsamc-4356448172",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-26",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Limited MongoDB experience"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4389474695",
       "title": "Full Stack Developer II (PHP)",
       "company": "RealPage, Inc.",
@@ -1787,25 +1862,6 @@
       "match_cons": [
         "AWS certification required",
         "Limited MongoDB experience"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4417052304",
-      "title": "PHP Developer | WebPros Team",
-      "company": "Hostinger",
-      "url": "https://lt.linkedin.com/jobs/view/php-developer-webpros-team-at-hostinger-4417052304",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-26",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Limited language options",
-        "No description available"
       ]
     },
     {
@@ -1993,25 +2049,6 @@
       "match_cons": [
         "Limited framework options",
         "No description provided"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4414249830",
-      "title": "Backend Developer - PHP (w/m/d)",
-      "company": "MOGIC",
-      "url": "https://de.linkedin.com/jobs/view/backend-developer-php-w-m-d-at-mogic-4414249830",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-25",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No AWS certification",
-        "No description available"
       ]
     },
     {
