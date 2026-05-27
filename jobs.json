@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T19:01:13.029445+00:00",
+  "updated_at": "2026-05-27T22:00:52.499633+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -1694,32 +1694,13 @@
       ]
     },
     {
-      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
-      "title": "Staff Product Engineer",
-      "company": "LawnStarter",
-      "url": "https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
-      "source": "WeWorkRemotely",
-      "date": "Thu, 21 Ma",
-      "fetched_at": "2026-05-26",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Senior level, unclear if suitable"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4409348313",
       "title": "Senior PHP Developer",
       "company": "Robert Half",
       "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-robert-half-4409348313",
       "source": "LinkedIn",
       "date": "",
-      "fetched_at": "2026-05-26",
+      "fetched_at": "2026-05-27",
       "match_score": 85,
       "match_confidence": "low",
       "match_pros": [
@@ -1738,7 +1719,7 @@
       "url": "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-at-cloudbeds-4413411700",
       "source": "LinkedIn",
       "date": "",
-      "fetched_at": "2026-05-26",
+      "fetched_at": "2026-05-27",
       "match_score": 85,
       "match_confidence": "low",
       "match_pros": [
@@ -1748,6 +1729,63 @@
       "match_cons": [
         "Requires AWS certification",
         "Senior level, no mention of PHP 8.1+"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4382967328",
+      "title": "Senior PHP Full-Stack Developer",
+      "company": "Read-A-Thon",
+      "url": "https://www.linkedin.com/jobs/view/senior-php-full-stack-developer-at-read-a-thon-4382967328",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No description available"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4419942495",
+      "title": "Full Stack PHP Developer",
+      "company": "AgileGrid Solutions",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-php-developer-at-agilegrid-solutions-4419942495",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Limited framework options",
+        "No AWS certification required"
+      ]
+    },
+    {
+      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
+      "title": "Staff Product Engineer",
+      "company": "LawnStarter",
+      "url": "https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
+      "source": "WeWorkRemotely",
+      "date": "Thu, 21 Ma",
+      "fetched_at": "2026-05-26",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Senior level, unclear if suitable"
       ]
     },
     {
@@ -1824,25 +1862,6 @@
       "match_cons": [
         "Requires AWS certification",
         "No mention of PostgreSQL"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4382967328",
-      "title": "Senior PHP Full-Stack Developer",
-      "company": "Read-A-Thon",
-      "url": "https://www.linkedin.com/jobs/view/senior-php-full-stack-developer-at-read-a-thon-4382967328",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-26",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "No description available"
       ]
     },
     {
