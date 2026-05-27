@@ -37,9 +37,11 @@ KEYWORDS = [
     # API
     "api developer",
     # Frameworks
-    "symfony", "laravel",
+    "symfony", "laravel", "codeigniter", "kohana",
+    "codeigniter developer", "kohana developer",
     # Danish
     "php udvikler", "webudvikler", "backend udvikler",
+    "codeigniter udvikler",
 ]
 
 JOBS_FILE    = Path(__file__).parent.parent / "jobs.json"
@@ -231,7 +233,7 @@ def fetch_jobindex() -> list:
     """Jobindex.dk — largest Danish job board, RSS per keyword."""
     out = []
     seen_urls: set = set()
-    keywords = ["php", "php developer", "php udvikler", "webudvikler", "backend udvikler", "senior backend"]
+    keywords = ["php", "php developer", "php udvikler", "webudvikler", "backend udvikler", "senior backend", "codeigniter", "kohana"]
     for kw in keywords:
         try:
             feed = feedparser.parse(
@@ -259,7 +261,7 @@ def fetch_itjobbank() -> list:
     """IT-jobbank.dk — Danish IT-specific job board, RSS per keyword."""
     out = []
     seen_urls: set = set()
-    keywords = ["php", "php developer", "php udvikler", "backend developer", "senior php", "webudvikler"]
+    keywords = ["php", "php developer", "php udvikler", "backend developer", "senior php", "webudvikler", "codeigniter", "kohana"]
     for kw in keywords:
         try:
             feed = feedparser.parse(

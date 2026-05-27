@@ -2,7 +2,7 @@ name: Job Scraper
 
 on:
   schedule:
-    - cron: '0 * * * *'    # 07:00 CET (winter) / 08:00 CEST (summer)
+    - cron: '0 */2 * * *'  # every 2 hours
   workflow_dispatch:         # manual trigger from GitHub UI
 
 jobs:

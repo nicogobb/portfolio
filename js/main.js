@@ -173,6 +173,46 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     })();
 
+    // ── Hero stats count-up ───────────────────────────────────────────────────
+    const heroStats = document.getElementById('hero-stats');
+    if (heroStats) {
+        let fired = false;
+        function formatStat(n) { return n >= 1000 ? (n / 1000).toFixed(0) + 'k' : String(n); }
+        function countUp(el) {
+            const target   = parseInt(el.dataset.target, 10);
+            const duration = 1400;
+            const start    = performance.now();
+            (function tick(now) {
+                const p = Math.min((now - start) / duration, 1);
+                const eased = 1 - Math.pow(1 - p, 3);
+                el.textContent = formatStat(Math.floor(eased * target));
+                if (p < 1) requestAnimationFrame(tick);
+                else el.textContent = formatStat(target);
+            })(start);
+        }
+        new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting && !fired) {
+                fired = true;
+                heroStats.querySelectorAll('.hero__stat-num').forEach(countUp);
+            }
+        }, { threshold: 0.6 }).observe(heroStats);
+    }
+
+    // ── Copy email button ─────────────────────────────────────────────────────
+    const copyEmailBtn = document.getElementById('copy-email');
+    if (copyEmailBtn) {
+        copyEmailBtn.addEventListener('click', () => {
+            navigator.clipboard.writeText('ggobbi.nicolas@gmail.com').then(() => {
+                copyEmailBtn.textContent = '✓ copied!';
+                copyEmailBtn.classList.add('footer__copy-btn--copied');
+                setTimeout(() => {
+                    copyEmailBtn.textContent = 'copy';
+                    copyEmailBtn.classList.remove('footer__copy-btn--copied');
+                }, 2000);
+            });
+        });
+    }
+
     // ── Jobs Section (password-gated) ─────────────────────────────────────────
     //
     // Password hash — SHA-256 of your chosen passphrase.
@@ -234,12 +274,14 @@ document.addEventListener('DOMContentLoaded', function() {
                         : byView;
 
         const q        = searchQuery.trim().toLowerCase();
-        const filtered = q
+        const filtered = (q
             ? byStatus.filter(j =>
                 j.title.toLowerCase().includes(q) ||
                 (j.company || '').toLowerCase().includes(q) ||
                 (j.source  || '').toLowerCase().includes(q))
-            : byStatus;
+            : byStatus)
+            .slice()
+            .sort((a, b) => (b.match_score || 0) - (a.match_score || 0));
 
         const nApplied = byView.filter(j =>  appliedJobs.has(j.id)).length;
         const nNoVisa  = byView.filter(j =>  noVisaJobs.has(j.id)).length;
@@ -275,16 +317,15 @@ document.addEventListener('DOMContentLoaded', function() {
             const tier  = score >= 75 ? 'high' : score >= 50 ? 'medium' : 'low';
             const label = conf === 'low' ? `~${score}%` : `${score}%`;
             const cls   = conf === 'low' ? ' jobs__match--uncertain' : '';
-            const tips  = [
-                ...(j.match_pros || []).map(p => `✓ ${p}`),
-                ...(j.match_cons || []).map(c => `✗ ${c}`),
-            ].join('  ·  ');
-            return `<div class="jobs__match${cls}"${tips ? ` title="${tips}"` : ''}>
+            const pros  = (j.match_pros || []).map(p => `<span class="jobs__hint jobs__hint--pro">✓ ${p}</span>`).join('');
+            const cons  = (j.match_cons || []).map(c => `<span class="jobs__hint jobs__hint--con">✗ ${c}</span>`).join('');
+            const hints = pros || cons ? `<div class="jobs__match-hints">${pros}${cons}</div>` : '';
+            return `<div class="jobs__match${cls}">
                 <div class="jobs__match-track">
                     <div class="jobs__match-fill jobs__match-fill--${tier}" style="width:${score}%"></div>
                 </div>
-                <span class="jobs__match-label">${label}</span>
-            </div>`;
+                <span class="jobs__match-label jobs__match-label--${tier}">${label}</span>
+            </div>${hints}`;
         }
 
         list.innerHTML = filtered.map(j => {

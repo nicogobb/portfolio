@@ -47,6 +47,8 @@
       ]
     }
     </script>
+    <!-- Font Awesome (in head to avoid icon flash on hero chips/buttons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -78,15 +80,39 @@
             <h1 class="hero__title">Nicolas Gobbi</h1>
             <p class="hero__subtitle">Full Stack Developer</p>
             <p class="hero__available"><span class="available__dot"></span> Open to work — remote or on-site</p>
+            <div class="hero__chips">
+                <span class="hero__chip"><i class="fas fa-map-marker-alt"></i> Copenhagen, Denmark</span>
+                <span class="hero__chip"><i class="fas fa-globe"></i> Remote OK</span>
+                <span class="hero__chip"><i class="fas fa-clock"></i> CET (UTC+2)</span>
+                <a href="https://linkedin.com/in/nicolas-gobbi" target="_blank" rel="noopener noreferrer" class="hero__chip hero__chip--link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
             <div class="hero__terminal" id="hero-terminal">
                 <div class="terminal__line">const developer = {</div>
                 <div class="terminal__line">  name: "Nicolas Gobbi",</div>
-                <div class="terminal__line">  experience: "10+ years",</div>
-                <div class="terminal__line">  location: "Copenhagen, Denmark · CET",</div>
                 <div class="terminal__line">  languages: ["Spanish (native)", "English (professional)", "Danish (learning)"],</div>
-                <div class="terminal__line">  skills: ["PHP", "JavaScript", "MySQL", "REST APIs"],</div>
+                <div class="terminal__line">  stack: ["PHP", "Laravel", "MySQL", "PostgreSQL", "REST APIs"],</div>
                 <div class="terminal__line">  passion: "Building efficient, real-world web systems"</div>
                 <div class="terminal__line">}</div>
+            </div>
+            <div class="hero__stats" id="hero-stats">
+                <div class="hero__stat">
+                    <div class="hero__stat-top"><span class="hero__stat-num" data-target="10000">0</span><span class="hero__stat-unit">+</span></div>
+                    <span class="hero__stat-label">vehicles tracked</span>
+                </div>
+                <span class="hero__stat-sep">/</span>
+                <div class="hero__stat">
+                    <div class="hero__stat-top"><span class="hero__stat-num" data-target="20000">0</span><span class="hero__stat-unit">+</span></div>
+                    <span class="hero__stat-label">affiliates managed</span>
+                </div>
+                <span class="hero__stat-sep">/</span>
+                <div class="hero__stat">
+                    <div class="hero__stat-top"><span class="hero__stat-num" data-target="10">0</span><span class="hero__stat-unit">+</span></div>
+                    <span class="hero__stat-label">years experience</span>
+                </div>
+            </div>
+            <div class="hero__actions">
+                <a href="CV_NicolasGobbi.pdf" download class="hero__btn hero__btn--primary"><i class="fas fa-download"></i> Download CV</a>
+                <a href="mailto:ggobbi.nicolas@gmail.com" class="hero__btn hero__btn--secondary"><i class="fas fa-envelope"></i> Email me</a>
             </div>
         </div>
     </section>
@@ -158,6 +184,9 @@
                         <h3 class="timeline__role">Software Engineer</h3>
                         <span class="timeline__company">Maxtracker S.A. — Argentina</span>
                         <p>Develop and maintain the PHP backend using Kohana for a fleet management and telematics platform tracking <strong>10,000+ active vehicles</strong> in real time. Build features for GPS tracking, driving behavior analytics, and asset maintenance across oil & gas, mining, construction, and logistics industries throughout Latin America.</p>
+                        <div class="project__tags">
+                            <span>PHP</span><span>Kohana</span><span>PostgreSQL</span><span>JavaScript</span><span>REST APIs</span><span>Linux</span>
+                        </div>
                     </div>
                 </div>
 
@@ -168,6 +197,9 @@
                         <h3 class="timeline__role">PHP Web Developer</h3>
                         <span class="timeline__company">mydigitalnomads — Cyprus (remote)</span>
                         <p>Backend development and maintenance of a large-scale platform serving thousands of users. Focused on architecture decisions, performance optimization, and scalability. Worked fully remote in a distributed team, maintaining a full-stack perspective across the project.</p>
+                        <div class="project__tags">
+                            <span>PHP</span><span>MySQL</span><span>REST APIs</span><span>TypeScript</span><span>Docker</span><span>CI/CD</span>
+                        </div>
                     </div>
                 </div>
 
@@ -178,6 +210,9 @@
                         <h3 class="timeline__role">Web Developer</h3>
                         <span class="timeline__company">OSPL — Argentina <span class="timeline__tag">part-time</span></span>
                         <p>Built and maintain a system managing <strong>20,000+ affiliates</strong> across 5+ branches in Buenos Aires and throughout Argentina. Covers member records, medical authorizations, and multi-branch coordination for a provincial health insurance provider.</p>
+                        <div class="project__tags">
+                            <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>CSS</span>
+                        </div>
                     </div>
                 </div>
 
@@ -188,6 +223,9 @@
                         <h3 class="timeline__role">DBA</h3>
                         <span class="timeline__company">Mutual Senderos — Argentina</span>
                         <p>Started as a web developer before transitioning into the primary database administrator role, responsible for maintenance, optimization, and security of company databases. This is where I built my SQL foundations.</p>
+                        <div class="project__tags">
+                            <span>MySQL</span><span>PHP</span><span>Database Design</span><span>Query Optimization</span>
+                        </div>
                     </div>
                 </div>
 
@@ -200,53 +238,57 @@
             <div class="skills__content">
                 <div class="skills__grid">
                     <div class="skill__card">
-                        <div class="skill__icon">⚡</div>
                         <h3>Backend</h3>
-                        <ul>
-                            <li>PHP</li>
-                            <li>REST APIs</li>
-                            <li>Auth & Authorization</li>
-                            <li>Security (XSS / SQLi)</li>
-                            <li>Legacy Modernization</li>
-                        </ul>
+                        <div class="skill__tags">
+                            <span class="skill__tag">PHP 8</span>
+                            <span class="skill__tag">Python</span>
+                            <span class="skill__tag">Laravel</span>
+                            <span class="skill__tag">Symfony</span>
+                            <span class="skill__tag">Kohana</span>
+                            <span class="skill__tag">CodeIgniter</span>
+                            <span class="skill__tag">REST APIs</span>
+                            <span class="skill__tag">Web Scraping</span>
+                            <span class="skill__tag">Auth &amp; Authorization</span>
+                            <span class="skill__tag">Security (XSS/SQLi)</span>
+                        </div>
                     </div>
                     <div class="skill__card">
-                        <div class="skill__icon">🗄️</div>
                         <h3>Database</h3>
-                        <ul>
-                            <li>MySQL</li>
-                            <li>PostgreSQL</li>
-                            <li>MongoDB</li>
-                            <li>Query Optimization</li>
-                            <li>Database Migrations</li>
-                            <li>Performance Tuning</li>
-                        </ul>
+                        <div class="skill__tags">
+                            <span class="skill__tag">MySQL</span>
+                            <span class="skill__tag">PostgreSQL</span>
+                            <span class="skill__tag">MongoDB</span>
+                            <span class="skill__tag">Query Optimization</span>
+                            <span class="skill__tag">Migrations</span>
+                            <span class="skill__tag">Performance Tuning</span>
+                        </div>
                     </div>
                     <div class="skill__card">
-                        <div class="skill__icon">🎨</div>
                         <h3>Frontend</h3>
-                        <ul>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                            <li>TypeScript</li>
-                            <li>Responsive Design</li>
-                        </ul>
+                        <div class="skill__tags">
+                            <span class="skill__tag">HTML5</span>
+                            <span class="skill__tag">CSS3</span>
+                            <span class="skill__tag">SASS</span>
+                            <span class="skill__tag">JavaScript</span>
+                            <span class="skill__tag">TypeScript</span>
+                            <span class="skill__tag">Responsive Design</span>
+                            <span class="skill__tag">SEO</span>
+                        </div>
                     </div>
                     <div class="skill__card">
-                        <div class="skill__icon">🛠️</div>
-                        <h3>Tools & Practices</h3>
-                        <ul>
-                            <li>Linux / Shell</li>
-                            <li>Git</li>
-                            <li>GitHub Actions</li>
-                            <li>API Integration</li>
-                            <li>Cron Jobs & Automation</li>
-                            <li>Report Generation</li>
-                            <li>Code Review</li>
-                            <li>Technical Documentation</li>
-                            <li>Claude Code</li>
-                        </ul>
+                        <h3>Tools &amp; Practices</h3>
+                        <div class="skill__tags">
+                            <span class="skill__tag">Git</span>
+                            <span class="skill__tag">Linux / Shell</span>
+                            <span class="skill__tag">Nginx</span>
+                            <span class="skill__tag">Docker</span>
+                            <span class="skill__tag">GitHub Actions</span>
+                            <span class="skill__tag">CI/CD</span>
+                            <span class="skill__tag">Automation</span>
+                            <span class="skill__tag">Web Analytics</span>
+                            <span class="skill__tag">AI Integration</span>
+                            <span class="skill__tag">Claude Code</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -413,7 +455,10 @@
     <footer class="footer">
         <div class="footer__container">
             <p class="footer__cta">Open to new opportunities — let's build something.</p>
-            <a href="mailto:ggobbi.nicolas@gmail.com" class="footer__email">ggobbi.nicolas@gmail.com</a>
+            <div class="footer__contact">
+                <a href="mailto:ggobbi.nicolas@gmail.com" class="footer__email">ggobbi.nicolas@gmail.com</a>
+                <button class="footer__copy-btn" id="copy-email">copy</button>
+            </div>
             <div class="social__links">
                 <a href="https://github.com/nicogobb" target="_blank" rel="noopener noreferrer" class="social__link" title="GitHub">
                     <i class="fab fa-github"></i>
@@ -431,8 +476,6 @@
 
     <!-- Scroll to top button -->
     <button class="scroll-top" id="scrollTop" aria-label="Back to top">↑</button>
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="js/main.js"></script>
     <!-- GoatCounter Analytics -->
     <script data-goatcounter="https://nicogobb.goatcounter.com/count"
