@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T15:00:48.027694+00:00",
+  "updated_at": "2026-05-27T15:06:07.608284+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -1502,6 +1502,26 @@
       "match_cons": [
         "Node.js mismatch",
         "No PHP experience required"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4402002155",
+      "title": "Senior Backend Developer - Booking & Payment Platform",
+      "company": "Trackman",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-booking-payment-platform-at-trackman-4402002155",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "denmark": true,
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No mention of MongoDB"
       ]
     },
     {
