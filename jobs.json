@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T14:58:43.704623+00:00",
+  "updated_at": "2026-05-27T15:00:48.027694+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -1392,32 +1392,13 @@
       ]
     },
     {
-      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
-      "title": "Staff Product Engineer",
-      "company": "LawnStarter",
-      "url": "https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
-      "source": "WeWorkRemotely",
-      "date": "Thu, 21 Ma",
-      "fetched_at": "2026-05-26",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Senior level, unclear if suitable"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4405574001",
       "title": "Senior PHP / Laravel Engineer",
       "company": "Lendzi",
       "url": "https://www.linkedin.com/jobs/view/senior-php-laravel-engineer-at-lendzi-4405574001",
       "source": "LinkedIn",
       "date": "",
-      "fetched_at": "2026-05-26",
+      "fetched_at": "2026-05-27",
       "match_score": 85,
       "match_confidence": "low",
       "match_pros": [
@@ -1436,7 +1417,7 @@
       "url": "https://www.linkedin.com/jobs/view/senior-php-software-engineer-at-theguarantors-4390683386",
       "source": "LinkedIn",
       "date": "",
-      "fetched_at": "2026-05-26",
+      "fetched_at": "2026-05-27",
       "match_score": 83,
       "match_confidence": "low",
       "match_pros": [
@@ -1455,7 +1436,7 @@
       "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-flightsafety-international-4395361855",
       "source": "LinkedIn",
       "date": "",
-      "fetched_at": "2026-05-26",
+      "fetched_at": "2026-05-27",
       "match_score": 83,
       "match_confidence": "low",
       "match_pros": [
@@ -1474,7 +1455,7 @@
       "url": "https://www.linkedin.com/jobs/view/senior-backend-engineer-at-wand-4417018423",
       "source": "LinkedIn",
       "date": "",
-      "fetched_at": "2026-05-26",
+      "fetched_at": "2026-05-27",
       "match_score": 85,
       "match_confidence": "low",
       "match_pros": [
@@ -1484,6 +1465,62 @@
       "match_cons": [
         "Requires AWS certification",
         "Senior level, no mention of PHP 8 version"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4392435833",
+      "title": "Staff Software Engineer - PHP Backend",
+      "company": "ServiceTrade",
+      "url": "https://www.linkedin.com/jobs/view/staff-software-engineer-php-backend-at-servicetrade-4392435833",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4411617929",
+      "title": "Senior Backend Engineer (Node.js)",
+      "company": "ChurchDesk",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-node-js-at-churchdesk-4411617929",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-27",
+      "denmark": true,
+      "match_score": 40,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Node.js mismatch",
+        "No PHP experience required"
+      ]
+    },
+    {
+      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
+      "title": "Staff Product Engineer",
+      "company": "LawnStarter",
+      "url": "https://weworkremotely.com/remote-jobs/lawnstarter-staff-product-engineer",
+      "source": "WeWorkRemotely",
+      "date": "Thu, 21 Ma",
+      "fetched_at": "2026-05-26",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Senior level, unclear if suitable"
       ]
     },
     {
@@ -1522,43 +1559,6 @@
       "match_cons": [
         "Requires AWS certification",
         "Senior level, no mention of PHP 8.1+"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4392435833",
-      "title": "Staff Software Engineer - PHP Backend",
-      "company": "ServiceTrade",
-      "url": "https://www.linkedin.com/jobs/view/staff-software-engineer-php-backend-at-servicetrade-4392435833",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-26",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4411617929",
-      "title": "Senior Backend Engineer (Node.js)",
-      "company": "ChurchDesk",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-node-js-at-churchdesk-4411617929",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-26",
-      "denmark": true,
-      "match_score": 40,
-      "match_confidence": "low",
-      "match_pros": [
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Node.js mismatch",
-        "No PHP experience required"
       ]
     },
     {
