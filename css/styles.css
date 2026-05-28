@@ -1544,6 +1544,145 @@ button:focus-visible {
     opacity: 1;
 }
 
+/* ── Cover Letter ────────────────────────────────────────────────────────── */
+.cl-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.cl-overlay.visible {
+    display: flex;
+}
+
+.cl-modal {
+    background: var(--secondary-color);
+    border: 1px solid rgba(0, 255, 0, 0.2);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 680px;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 40px rgba(0, 255, 0, 0.07);
+}
+
+.cl-modal--sm {
+    max-width: 380px;
+}
+
+.cl-modal__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(0, 255, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.cl-modal__title {
+    font-family: var(--font-main);
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    opacity: 0.8;
+}
+
+.cl-modal__actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.cl-modal__body {
+    padding: 1.25rem;
+    overflow-y: auto;
+    font-family: var(--font-secondary);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    white-space: pre-wrap;
+    flex: 1;
+}
+
+.cl-modal__body[data-state="loading"] {
+    color: var(--light-text);
+    font-family: var(--font-main);
+}
+
+.cl-modal__body[data-state="error"] {
+    color: #ff5f56;
+    font-family: var(--font-main);
+}
+
+.cl-btn {
+    background: transparent;
+    border: 1px solid rgba(0, 255, 0, 0.2);
+    color: var(--light-text);
+    font-family: var(--font-main);
+    font-size: 0.72rem;
+    padding: 0.2rem 0.6rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+
+.cl-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.cl-btn--close {
+    border-color: transparent;
+    opacity: 0.5;
+}
+
+.cl-hint {
+    font-family: var(--font-main);
+    font-size: 0.75rem;
+    color: var(--light-text);
+    opacity: 0.6;
+    margin-bottom: 0.75rem;
+}
+
+.cl-input {
+    width: 100%;
+    margin-bottom: 0.75rem;
+    display: block;
+}
+
+.cl-save-btn {
+    width: 100%;
+}
+
+.jobs__letter-btn {
+    font-family: var(--font-main);
+    font-size: 0.7rem;
+    background: transparent;
+    border: 1px solid rgba(0, 255, 0, 0.2);
+    color: var(--light-text);
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.jobs__letter-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.jobs__btn--key {
+    opacity: 0.6;
+}
+
+.jobs__btn--key:hover {
+    opacity: 1;
+}
+
 /* Scroll to top button */
 .scroll-top {
     position: fixed;

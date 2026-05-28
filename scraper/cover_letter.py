@@ -16,7 +16,7 @@ Usage:
     # Save output to a file instead of (or in addition to) stdout:
     python3 scraper/cover_letter.py --job-id "..." --out cover_letter.txt
 
-Requires GROQ_API_KEY environment variable.
+Requires LETTER_API_KEY environment variable.
 Get a free key at: https://console.groq.com
 """
 
@@ -142,9 +142,9 @@ def main():
     args = parser.parse_args()
 
     # Check API key
-    api_key = os.environ.get("GROQ_API_KEY")
+    api_key = os.environ.get("LETTER_API_KEY")
     if not api_key:
-        print("[!] GROQ_API_KEY not set — cannot generate cover letter.", file=sys.stderr)
+        print("[!] LETTER_API_KEY not set — cannot generate cover letter.", file=sys.stderr)
         print("    Get a free key at: https://console.groq.com", file=sys.stderr)
         sys.exit(1)
 
