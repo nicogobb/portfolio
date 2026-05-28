@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Auth: uses the board password hash as Bearer token (set during unlock).
     // Key stays in Cloudflare secrets — nothing stored in localStorage or the browser.
 
-    const WORKER_URL  = 'https://cover-letter-worker.YOUR_SUBDOMAIN.workers.dev';
+    const WORKER_URL  = 'https://cover-letter-worker.nicogobb-letter.workers.dev/';
     let   sessionToken = '';   // set on board unlock, cleared on lock
 
     // Cover letter modal
