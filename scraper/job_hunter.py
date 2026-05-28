@@ -463,11 +463,26 @@ def main():
     if removed_dups:
         print(f"\n  Cross-source duplicates removed: {removed_dups}")
 
-    # Drop jobs not seen for MAX_AGE_DAYS
-    active = [j for j in deduped_cross if j.get("fetched_at", TODAY) >= CUTOFF]
+    # Drop jobs not seen for MAX_AGE_DAYS (by fetched_at)
+    # Also drop jobs whose posting date is parseable and older than CUTOFF
+    def is_old_posting(j):
+        d = j.get("date", "")
+        if not d:
+            return False
+        try:
+            # ISO format: 2025-08-27
+            parsed = datetime.strptime(d, "%Y-%m-%d").date().isoformat()
+            return parsed < CUTOFF
+        except ValueError:
+            return False
+
+    active = [
+        j for j in deduped_cross
+        if j.get("fetched_at", TODAY) >= CUTOFF and not is_old_posting(j)
+    ]
     expired = len(deduped_cross) - len(active)
     if expired:
-        print(f"  Expired jobs removed: {expired} (not seen in {MAX_AGE_DAYS}+ days)")
+        print(f"  Expired jobs removed: {expired} (not seen in {MAX_AGE_DAYS}+ days or old posting date)")
 
     sorted_jobs = sorted(
         active,
