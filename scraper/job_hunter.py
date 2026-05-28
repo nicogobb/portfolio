@@ -7,7 +7,7 @@ keeps the newest MAX_JOBS entries, writes back to jobs.json.
 Sources
 -------
 Remote:   RemoteOK, WeWorkRemotely, Remotive, Himalayas, Landing.jobs,
-          LinkedIn (worldwide remote), LinkedIn (European remote)
+          WorkingNomads, LinkedIn (worldwide remote), LinkedIn (European remote)
 Denmark:  Jobindex, IT-jobbank, TheHub, Indeed, LinkedIn Denmark
 """
 
@@ -227,6 +227,33 @@ def fetch_landing_jobs() -> list:
         print(f"  [!] Landing.jobs: {e}")
         return []
 
+def fetch_workingnomads() -> list:
+    """Working Nomads — remote jobs JSON API, development category."""
+    try:
+        r = requests.get(
+            "https://www.workingnomads.com/api/exposed_jobs/",
+            params={"category": "development"},
+            headers=HEADERS, timeout=15,
+        )
+        r.raise_for_status()
+        out = []
+        for job in r.json():
+            title   = clean(job.get("title", ""))
+            company = clean(job.get("company_name", ""))
+            url     = job.get("url", "")
+            tags    = job.get("tags", "")
+            desc    = clean(job.get("description", ""))
+            date    = str(job.get("pub_date", "") or "")[:10]
+            if not title or not url:
+                continue
+            if matches(f"{title} {tags} {desc}"):
+                out.append(make_job("WorkingNomads", url, title, company, url, date,
+                                    description=desc))
+        return out
+    except Exception as e:
+        print(f"  [!] WorkingNomads: {e}")
+        return []
+
 # ── Denmark scrapers ──────────────────────────────────────────────────────────
 
 def fetch_jobindex() -> list:
@@ -416,6 +443,7 @@ def main():
         ("Remotive",         fetch_remotive),
         ("Himalayas",        fetch_himalayas),
         ("Landing.jobs",     fetch_landing_jobs),
+        ("WorkingNomads",    fetch_workingnomads),
         ("LinkedIn remote",  fetch_linkedin_remote),
         ("LinkedIn Europe",  fetch_linkedin_europe),
         # ── Denmark ───────────────────────────
