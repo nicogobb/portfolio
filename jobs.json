@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T13:02:03.936045+00:00",
+  "updated_at": "2026-05-28T16:01:07.909521+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -291,7 +291,14 @@
       "source": "WorkingNomads",
       "date": "2026-05-14",
       "fetched_at": "2026-05-28",
-      "description": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Communi"
+      "description": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Communi",
+      "match_score": 0,
+      "match_confidence": "high",
+      "match_pros": [],
+      "match_cons": [
+        "Requires React experience",
+        "Requires AWS certification"
+      ]
     },
     {
       "id": "TheHub_https://thehub.io/jobs/6a045990c8d43b7b16de712e",
@@ -1903,6 +1910,203 @@
       "description": "Explore a new world of possibilitiesAt HomeToGo, we’re on a mission to make incredible accommodation easily accessible for everyone. Our team is united by a passion for travel, driven by innovation and impact, and guided by open-minded leaders at every level. Our commitment to recognizing and empowering exceptional talent is the foundation of our growth. We are actively hiring candidates from all around the world, including sponsoring visas for Germany. An amazing journey of opportunity with an international team lies ahead - join us!Your future contributionAs a Software Engineer (PHP), you will be instrumental in scaling our payment ecosystem. You won’t just be implementing pre-defined tasks; you will be a co-creator of the product. Working in a Platform environment, you will bridge the gap between complex financial logic and a seamless user experience, ensuring our architecture remains resilient under the pressure of high-volume global data.How you’ll add valuePartner directly with Product Managers to shape the roadmap. You are expected to bring technical perspectives to the “why” and “what,” not just the “how”Lead the technical discovery and implementation of global payment gateways (Adyen, ProcessOut, Checkout.com) as we scale into new territoriesBuild and maintain robust payment services using PHP 8.4 and Symfony 7.4Work within a modern cloud environment using Docker and Kubernetes to build highly available, fault-tolerant services that remain stable under the demands of global financial trafficUse Kibana, Grafana, and New Relic not just for debugging, but to identify performance trends that inform our next product iterationsCollaborate with the Payment Operations team to automate manual workflows, turning operational pain points into scalable engineering solutionsCollaborate with Data Engineering to pipe critical financial data into Snowflake and Superset for advanced business intelligenceYou won’t just “fix bugs.” You identify opportunities to improve the product and challenge requirements when you see a better way to achieve a business goalYou’ll be successful in this role if youHave 3+ years of professional experience in backend development (ideally with PHP/Symfony)Are able to debate technical trade-offs with Product Managers and Senior Devs to find the most impactful solutionHave a strong interest in (or experience with) payment processing or financial systemsAre fluent in English, as you will be working with a distributed team across EuropeAre "
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4412972171",
+      "title": "PHP Developer (Vanilla PHP)",
+      "company": "StaffSource",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-vanilla-php-at-staffsource-4412972171",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "match_score": 40,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 match"
+      ],
+      "match_cons": [
+        "No Laravel",
+        "No remote-friendly description"
+      ],
+      "description": "Job Summary:We are seeking a skilled PHP Developer with strong experience in core/Vanilla PHP to build and maintain web applications. The ideal candidate will write clean, efficient code without heavy reliance on frameworks.Key Responsibilities:Develop, test, and maintain web applications using core (Vanilla) PHPWrite reusable, efficient, and secure backend codeDesign and integrate APIs, databases (MySQL), and third-party servicesTroubleshoot, debug, and optimize application performanceCollaborate with frontend developers to integrate user-facing elementsRequirements:Strong proficiency in core PHP (no frameworks required)Experience with MySQL, HTML, CSS, JavaScriptUnderstanding of MVC concepts and REST APIsFamiliarity with version control tools (Git)Good problem-solving and debugging skills"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4415026547",
+      "title": "Back End Developer – PHP | Remote",
+      "company": "Crossing Hurdles",
+      "url": "https://www.linkedin.com/jobs/view/back-end-developer-%E2%80%93-php-remote-at-crossing-hurdles-4415026547",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "description": "Position: Back End Developer PHPType: ContractCompensation: $30 - $110/hourLocation: RemoteCommitment: 10-40 hrs/weekRole ResponsibilitiesAnalyze and solve complex back end problems using PHP, Node.js, and MySQL for real-world scenarios.Review and evaluate backend code for logical accuracy, scalability, and performance.Provide detailed feedback on code structure, design patterns, and best practices to improve AI system learning.Collaborate with stakeholders to understand business objectives and translate them into robust back end solutions.Document and articulate technical concepts clearly to both technical and non-technical audiences.Ensure that all work meets high standards for security, maintainability, and performance.RequirementsHave extensive experience in PHP development, with a strong command of modern back end frameworks such as Laravel.Be fluent in Node.js and have experience building scalable server-side applications.Possess hands-on expertise with MySQL and database optimization techniques.Demonstrate exceptional written and verbal communication skills, with the ability to clearly explain complex concepts.Exhibit strong analytical thinking and problem-solving skills with attention to detail.Application ProcessEasy Apply on LinkedInCheck email for next stepsParticipate in resume evaluation & interview stage",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Node.js experience required"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4419039096",
+      "title": "Backend Developer | $70/hr Remote",
+      "company": "Crossing Hurdles",
+      "url": "https://www.linkedin.com/jobs/view/backend-developer-%2470-hr-remote-at-crossing-hurdles-4419039096",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "description": "Position: Backend DeveloperType: Contract, Part timeCompensation: $20 - $70/hourLocation: RemoteCommitment: 10-40 hrs/weekRole ResponsibilitiesDesign, develop, and maintain scalable backend services and APIs that meet demanding performance requirements.Collaborate cross-functionally to translate business needs into technical specifications and impactful backend solutions.Optimize backend systems for reliability, security, and efficiency, ensuring seamless user experiences.Write clean, well-documented, and thoroughly tested code, adhering to best engineering practices.Participate actively in code reviews, mentoring, and knowledge sharing sessions with fellow engineers.Monitor, troubleshoot, and resolve backend issues in production environments, targeting root causes and continuous improvements.RequirementsHave proven expertise in backend development using modern programming languages such as Python, Java, Go, or Node.js.Have extensive experience designing and implementing RESTful APIs and microservices architectures.Possess strong proficiency with relational and NoSQL databases, along with data modeling principles.Have a deep understanding of system security, authentication, and authorization best practices.Have experience with cloud platforms such as AWS, GCP, or Azure and containerization technologies like Docker and Kubernetes.Application ProcessEasy Apply on LinkedInCheck email for next stepsParticipate in resume evaluation & interview stage",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Python/Java/Go/Node.js not listed"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4405749787",
+      "title": "Laravel Full Stack Developer",
+      "company": "Breeze End Technology, LLC",
+      "url": "https://www.linkedin.com/jobs/view/laravel-full-stack-developer-at-breeze-end-technology-llc-4405749787",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "description": "Date Posted: Nov 28 2023Job Detail Department:Software Engineering Type:Full Time/Permanent Career Level:Experienced Professional Positions:1 Gender:no preference LinkedInJob DescriptionLaravel Full Stack Developer Job DutiesEstablish new web applications and coordinate with the (UX) Team.Make sure CSS, HTML and Collective JavaScript are logical and in line with application. Forefront the whole web application development mechanism from concept to dispatching and after the launch cooperation.Put together and organize all applications through the help of calibre development tools..Guarantees that integrations run fluently.Interact with co-developers and brief project manager regarding the progress and situation of work.Understand the project requirements fully and finish every task on deadline.Examine the web application‘s ease of use for the back-end and the users.Consider clients' feedback and confirm that they are happy with your services.Wisely perform under pressure and convey your energy and enthusiasm.Job RequirementsTwo years of experience working on languages such as Laravel, CSS, HTML, PHP, JavaScript, Plugins, WordPress, JQuery, My SQL, MagnetoDB, SaaS, and WordPress Plugin Development.A vital mastery of designing applications with Laravel. Command on database design and querying through SQL.Fantastic in HTML and JavaScript.Tendency to learn and transform.Expert in problem solving and punctuality.Bachelor‘s degree in Computer Science, Programming, IT, or Computer Engineering.Job Location: Remote PositionSkills RequiredAjaxAngular.jsCommunication SkillsCSS3Fluent in EnglishGITHUBHTML 5JavaScriptJQueryLaravelMySQLPHPVue.js",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4411507515",
+      "title": "Full Stack Software Engineer (Magento / PHP) - Remote",
+      "company": "CLEAResult",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-software-engineer-magento-php-remote-at-clearesult-4411507515",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "description": "At CLEAResult, we lead the transition to a sustainable, equitable, and carbon-neutral energy-efficient future for our communities and our planet. We do that by creating a people-first culture built on trust, accountability, and transparency; where every employee – regardless of position, role, or identity is treated with respect and given an equal chance to thrive.Additionally, You Will Enjoy Medical, Dental, and Vision Insurance; we also offer a company-paid health care concierge service to help navigate our health plan to make the best decisions for you and yours 401(k) with company match Paid vacation, sick, personal and parental leave time Paid Volunteer Time: giving back to our communities is important to us Employee Recognition Program – convert your recognition points into gift cards Employee Assistance Program – offers benefits to help you manage daily responsibilities Access to on-demand training courses to advance further in your careerJob DescriptionNote - this role will not offer sponsorship now, or in the future. You must be authorized to work in the US without restrictions, or timelines. OverviewWe are seeking a highly skilled Full Stack Software Engineer to join the Platform Support Team, with deep expertise in Magento and a strong foundation in modern PHP frameworks. This role is ideal for an engineer who enjoys maintaining scalable eCommerce solutions, integrating complex systems, and working across a diverse PHP ecosystem.You will play a key role in developing, and supporting high-performance applications, while collaborating with cross-functional teams to deliver robust and scalable solutions.Key ResponsibilitiesDevelop, and maintain scalable web applications with a focus on MagentoExtend and customize Magento functionality to support business requirementsBuild and maintain integrations with third-party systems (CRM, ERP, payment gateways, etc.)Develop and consume RESTful and SOAP APIsWork with data formats including JSON and XMLContribute across the stack, including frontend and backend developmentCollaborate with Product, DevOps, and design teams to deliver high-quality featuresParticipate in triage, code reviews, testing, and CI/CD processesTroubleshoot, optimize, and help scale existing systemsRequired QualificationsStrong development experience with MagentoSolid understanding of modern PHP frameworks such as Symfony and/or LaravelExperience building and integrating RESTful APIs and SOAP servicesHands-on experience with third-party s",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Magento focus not explicitly stated"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4391526205",
+      "title": "Full Stack Developer (Laravel + Vue.js)",
+      "company": "MicroVentures",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-laravel-%2B-vue-js-at-microventures-4391526205",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "description": "About the Role:We're looking for a Full Stack Developer to join our engineering team. You'll work alongside senior engineers building features across the stack, developing APIs with Laravel and creating responsive interfaces with Vue.js. This is a great opportunity to grow your skills while contributing to a modern, well-architected platform.Our stack includes Laravel 12, Vue.js, MySQL, Redis, and TailwindCSS.What You'll Do: Develop and maintain features using PHP 8.4 and Laravel 12.xBuild and consume RESTful APIsCreate responsive UIs using Vue.js 2.x+, and TailwindCSSWrite clean, tested code following team standards and best practicesWork with MySQL databases—writing queries, understanding schemas, and running migrationsParticipate in code reviews and incorporate feedbackCollaborate with product, design, and engineering teammatesDocument your work and contribute to team knowledge baseLearn and grow with mentorship from senior team membersWhat We're Looking For:3–5 years of professional software development experience2+ years of experience with Laravel/PHP2+ years of experience with Vue.js or similar frontend framework (React, Angular)Solid understanding of RESTful API designExperience with relational databases (MySQL or PostgreSQL)Familiarity with Git workflows and version control best practicesUnderstanding of testing fundamentals (PHPUnit, Pest, or similar)Eagerness to learn and grow technicallyGood communication skills and ability to work collaborativelyNice to Have:Experience with AWS servicesFamiliarity with TailwindCSSExposure to Redis or queue systemsExperience with CI/CD pipelinesTypeScript experienceHighlights of MicroVentures Benefits:401K Match (100% match on the first 5% and 50% on the next 5%) Annual discretionary bonus MicroVentures covers the base plan for Medical, Dental and Disability insurance 3 Weeks paid time off + holidays4 Weeks paid sabbatical after 5 years with MicroVentures with a travel stipend$100 monthly technology stipend (phone and internet)We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Less experience than required"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4414517099",
+      "title": "PHP Developer, Mid",
+      "company": "Acentra Health",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-mid-at-acentra-health-4414517099",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "description": "Company OverviewAcentra Health exists to empower better health outcomes through technology, services, and clinical expertise. Our mission is to innovate health solutions that deliver maximum value and impact.Lead the Way is our rallying cry at Acentra Health. Think of it as an open invitation to embrace the mission of the company; to actively engage in problem-solving; and to take ownership of your work every day. Acentra Health offers you unparalleled opportunities. In fact, you have all you need to take charge of your career and accelerate better outcomes - making this a great time to join our team of passionate individuals dedicated to being a vital partner for health solutions in the public sector.Job Summary And ResponsibilitiesAcentra Health is looking for a Developer, Mid to join our growing team.Job SummaryWe are seeking an advanced level PHP programmer with a strong background in web development and server management. The ideal candidate will have at least 3-5 years of experience and possess advanced knowledge in the following areas:ResponsibilitiesDevelop and maintain PHP-based applicationsUpgrade PHP versions and implement security remediationManage and optimize databases using MariaDBDevelop and integrate APIsUtilize Docker for containerization and deploymentManage AWS services for cloud-based applicationsWrite and maintain BASH scripts for automationUse SSH and CLI for Linux server managementCollaborate with the team using JIRA for project managementUtilize Bitbucket and Git for version controlRead, understand, and adhere to all corporate policies including policies related to HIPAA and its Privacy and Security RulesThe list of responsibilities is not intended to be all-inclusive and may be expanded to include other education- and experience-related duties that management may deem necessary from time to time.QualificationsRequired QualificationsRequires a BS or equivalent combination of experience in lieu of a degreeThe Company acknowledges that practical, hands-on experience can provide skills and competencies equivalent to formal education. As such, in cases where a Bachelor's degree is typically required, the company will accept a minimum of six (6) additional years of directly relevant professional experience in lieu of a degree. In instances where the candidates has an Associate's degree, the company will accept a minimum of three (3) additional years of directly relevant professional experience in lieu of the Bachelor’s degree3+ years of",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Less experience required than candidate's"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4391526204",
+      "title": "Senior Full Stack Developer (Laravel + Vue.js)",
+      "company": "MicroVentures",
+      "url": "https://www.linkedin.com/jobs/view/senior-full-stack-developer-laravel-%2B-vue-js-at-microventures-4391526204",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "description": "About the Role:We're seeking a Senior Full Stack Developer to join our engineering team. You'll work across the entire stack, crafting performant APIs with Laravel and building dynamic, responsive interfaces with Vue.js. This role requires someone who can own features end-to-end, contribute to architectural decisions, and help mentor junior teammates.Our stack includes Laravel 12, Vue.js, MySQL, Redis, and TailwindCSS.What You'll Do: Develop, test, and maintain full-stack functionality using PHP 8.4 and Laravel 12.xBuild and consume RESTful APIs for internal and external applicationsUse wireframes and mockups to create responsive UIs using Vue.js 2.x+, and TailwindCSSImplement real-time features using WebSockets, Pusher, or Laravel BroadcastingDesign and optimize database schemas in MySQL; work with DynamoDB for appropriate workloadsManage AWS infrastructure including RDS, Lambda, CloudWatch, and related servicesDefine and maintain Infrastructure as Code using CloudFormation or AWS CDKBuild and maintain CI/CD pipelines using CodeBuild and CodePipelineProvide high-quality code reviews and help enforce team standardsPartner with product and engineering to develop and refine featuresDocument workflows, APIs, architecture decisions, and technical standardsMentor mid-level developers and contribute to team knowledge sharingWhat We're Looking For:6+ years of professional software development experience5+ years of hands-on experience with Laravel/PHP4+ years of hands-on experience with Vue.jsHighly proficient in modern PHP 8.x, unit testing, and RESTful API designStrong understanding of MySQL—schema design, optimization, and migrationsExperience with NoSQL databasesExperience with AWS services (RDS, Lambda, CloudWatch, S3, ElastiCache)Experience with Infrastructure as Code (CloudFormation or CDK)Solid command of Git workflows, branching strategies, and code review processesStrong awareness of security best practices and data consistencyExperience with testing frameworks (PHPUnit, Pest)Strong communication skills—written, verbal, and in team settingsPreferred Qualifications:TypeScript proficiencyFamiliarity with containerization (Docker)Experience with logging and monitoring tools (CloudWatch, Datadog)Background working on high-scale SaaS platformsHighlights of MicroVentures Benefits:401K Match (100% match on the first 5% and 50% on the next 5%) Annual discretionary bonus MicroVentures covers the base plan for Medical, Dental and Disability insurance 3 Weeks paid ",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Less Vue.js experience than required"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4409460506",
+      "title": "PHP Laravel Full Stack Developer",
+      "company": "Atlantic Partners Corporation",
+      "url": "https://www.linkedin.com/jobs/view/php-laravel-full-stack-developer-at-atlantic-partners-corporation-4409460506",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "description": "Sr. Full Stack (PHP/Laravel) DeveloperRemote – U.S. Time ZonesUnique remote-working opportunity to participate as a key developer for a successful, fast-growing niche industry leader implementing mobile applications and a robust web platform in a fun, visible, sports-related industry. As Sr. Full Stack Developer, you will be an integral and crucial member of a small, focused team as it tackles the next wave of challenges and technology opportunities. Taking lead on critical development projects, you will contribute to business planning by offering technology advice, creative solutions, and resource planning to further the company’s strategic goals.Critical Skills and QualificationsProficient with PHP Laravel web frameworkSolid understanding of object-oriented programming and MVC design patternsComfortable in a Linux environment using Git and appropriate build toolsFront-end proficiencies: JavaScript ES5 and ES6, HTML5, and CSS3Back-end proficiencies: MySQL or equivalent relational databaseThorough communication skills with a positive, collaborative attitudeAbility to document new feature requirements and project status updates in a clear, concise mannerRecommend, manage, and direct outside software developers to facilitate parallel development of multiple concurrent projects: - Act as design and project lead - Assist other tech team members, and leverage their skills as needed - Oversee and offer technology support for vendor partner resourcesExperience designing and implementing automated testing (e.g., PHPUnit, Laravel Dusk)Proficiency with modern development workflows, including pull requests, CI/CD, and code reviewsAbility to responsibly leverage AI tools (e.g., GitHub Copilot, ChatGPT) to improve development velocity, documentation, and testingDesired Skills and QualificationsAptitude and desire to creatively collaborate with business / customer service membersAbility to take ownership and drive software projects to completionExperience with Vue.js framework or other equivalent front-end libraryTailwind CSSMongoDB (or equivalent NoSQL), RedisExperience writing and maintaining internal technical documentationUnderstanding of code maintainability and clean code principlesOther Beneficial SkillsNode.js / ExpressNginxWeb socketsResponsibilitiesDevelop and maintain complex web applications using PHP/Laravel and Vue.jsCollaborate closely with non-technical business owners and technical team to design, implement, and test new features and functionalityMainta",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4406845245",
+      "title": "PHP Developer – Backend (Remote)",
+      "company": "Custom Connect",
+      "url": "https://nl.linkedin.com/jobs/view/php-developer-%E2%80%93-backend-remote-at-custom-connect-4406845245",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "description": "About UsCustom Connect is a Business Process Outsourcing (BPO) organization in the field of customer contact and related services.We are an international and multilingual company with a geographical footprint on three continents. We are present in Europe, South America and Africa targeting markets in Western Europe, South Africa, Canada, the United States of America, New Zealand and Australia. Our international spread enables us to provide onshore, nearshore, and offshore solutions and services within our core industry.At Custom Connect, dialogue between people is crucial. We focus primarily on the interactions we have on behalf of our partners with their current and future customers. The profound conversations we have with our partners and our employees about customer dialogue are our key to success.We have a deep-rooted passion for customer contact and get excited about powerful and effortless interactions. We are not afraid to break new ground if it leads to better results. We understand our partners’ desire to solutions with them and their need for flexibility. Our solution orientation is high, as is our sense of responsibility. This feeling extends beyond our offices; we care about the environments in which we work and show respect for people and nature.Our organization is all about dialogue between people, custom made interaction and strengthening connections. Custom Connect, the dialogue company!About The RoleWe are seeking a talented and experienced PHP Developer to join our growing team. You will play a key role in designing, developing, and maintaining our core applications and contribute to the evolution of our technology stack.Job Requirements –2 to 3 years of experienceBackend Developer positionStrong knowledge of backend development concepts, approaches, and technologies.PHP as the primary backend language, requires at least intermediate knowledge and applicable skill. Capable of solving complex problems using PHP-based algorithms.Experience with Laravel framework – should have used the framework for various projects. Intermediate knowledge of features and capable of applying these features.Experience with Laravel ORM and SQL, using Laravel to interact with relational databases.Knowledge of SQL and DB design.Knowledge and experience developing Laravel-based REST APIs.Familiarity with front-end development technologies, such as HTML, JS and JS frameworks like Vue/React; enough to work with Frontend developers as a collaborative team.Familiarit",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires 2-3 years experience",
+        "Requires AWS certification"
+      ]
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/deel/jobs/senior-backend-engineer-ai-focus",
       "title": "Senior Backend Engineer (AI focus)",
       "company": "Deel",
@@ -2196,25 +2400,6 @@
         "No description available"
       ],
       "description": "ZustimmungDetails[#IABV2SETTINGS#]Über CookiesDiese Webseite verwendet CookiesWir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.[#GPC_BANNER_ICON#][#GPC_TOAST_TEXT#]EinwilligungsauswahlNotwendigPräferenzenStatistikenMarketingDetails zeigenDetailsCookieConsentSpeichert den Zustimmungsstatus des Benutzers für Cookies auf der aktuellen Domäne.Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen, indem sie Grundfunktionen wie Seitennavigation und Zugriff auf sichere Bereiche der Webseite ermöglichen. Die Webseite kann ohne diese Cookies nicht richtig funktionieren.Cookiebot 1 Erfahren Sie mehr über diesen AnbieterMaximale Speicherdauer: 1 MonatTyp: HTTP-Cookie Ein Teil der Daten, die dieser Anbieter gesammelt hat, dient der Personalisierung und der Messung der Werbewirksamkeit.Präferenz-Cookies ermöglichen einer Webseite sich an Informationen zu erinnern, die die Art beeinflussen, wie sich eine Webseite verhält oder aussieht, wie z. B. Ihre bevorzugte Sprache oder die Region in der Sie sich befinden.Wir nutzen diese Cookie-Typen nicht.Statistik-Cookies helfen Webseiten-Besitzern zu verstehen, wie Besucher mit Webseiten interagieren, indem Informationen anonym gesammelt und gemeldet werden.Google 2 Erfahren Sie mehr über diesen Anbieter_gaRegistriert eine eindeutige ID, die verwendet wird, um statistische Daten dazu, wie der Besucher die Website nutzt, zu generieren.Maximale Speicherdauer: 2 JahreTyp: HTTP-Cookie_ga_#Sammelt Daten dazu, wie oft ein Benutzer eine Website besucht hat, sowie Daten für den ersten und letzten Besuch. Von Google Analytics verwendet.Maximale Speicherdauer: 2 JahreTyp: HTTP-Cookie JotForm 2 Erfahren Sie mehr über diesen Anbieterguest [x2]Registriert Daten auf dem Webseite-Verhalten der Besucher. Dies wird für interne Analysen und Webseite-Optimierung verwendet.Maximale Speicherdauer: 1 MonatTyp: HTTP-Cookie lastExternalReferrerErmittelt, wie der Nutzer die Website erreicht hat, indem seine letzte URL-Adresse registriert wird.Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu fo"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4412972171",
-      "title": "PHP Developer (Vanilla PHP)",
-      "company": "StaffSource",
-      "url": "https://www.linkedin.com/jobs/view/php-developer-vanilla-php-at-staffsource-4412972171",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "match_score": 40,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 match"
-      ],
-      "match_cons": [
-        "No Laravel",
-        "No remote-friendly description"
-      ],
-      "description": "Job Summary:We are seeking a skilled PHP Developer with strong experience in core/Vanilla PHP to build and maintain web applications. The ideal candidate will write clean, efficient code without heavy reliance on frameworks.Key Responsibilities:Develop, test, and maintain web applications using core (Vanilla) PHPWrite reusable, efficient, and secure backend codeDesign and integrate APIs, databases (MySQL), and third-party servicesTroubleshoot, debug, and optimize application performanceCollaborate with frontend developers to integrate user-facing elementsRequirements:Strong proficiency in core PHP (no frameworks required)Experience with MySQL, HTML, CSS, JavaScriptUnderstanding of MVC concepts and REST APIsFamiliarity with version control tools (Git)Good problem-solving and debugging skills"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4358405368",
