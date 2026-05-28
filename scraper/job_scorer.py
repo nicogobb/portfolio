@@ -29,22 +29,30 @@ RETRY_DELAYS  = [5, 15, 30]  # backoff on 429
 # ── Your profile (edit this to keep it up to date) ────────────────────────────
 
 YOUR_PROFILE = """\
-PHP Backend / Full-Stack Developer, ~5 years experience.
+PHP Backend / Full-Stack Developer, 10+ years experience.
+
+Career:
+- Software Engineer at Maxtracker (Aug 2025–present): fleet telematics platform,
+  10,000+ vehicles, PHP/Kohana/PostgreSQL, real-time data pipelines.
+- PHP Web Developer at mydigitalnomads (Apr 2022–Aug 2025): large-scale SaaS,
+  fully remote, PHP/MySQL/TypeScript/Docker.
+- Web Developer at OSPL (Nov 2019–present, part-time): health insurance system,
+  20,000+ affiliates, PHP/MySQL.
+- DBA at Mutual Senderos (2014–2019): started career in database administration,
+  grew into full-stack web development.
 
 Core skills:
 - PHP 8 (OOP, PSR standards, Composer)
-- Laravel (primary framework), Symfony (familiar)
-- MySQL, PostgreSQL
+- Laravel, Symfony, Kohana, CodeIgniter
+- MySQL, PostgreSQL, MongoDB
 - REST APIs (design & implementation)
-- JavaScript, TypeScript (intermediate)
+- JavaScript, TypeScript
 - Git, GitHub Actions, CI/CD
 - Docker (containerised dev environments)
-- Linux, Nginx
-- MongoDB (basic)
+- Linux/Shell, Web Scraping
 
-Target roles: Remote or Denmark-based, Senior / Mid-Senior level.
-Open to relocation to Denmark with employer support.
-Languages: Spanish (native), English (fluent).
+Location: Copenhagen, Denmark — open to remote or on-site roles.
+Languages: Spanish (native), English (professional), Danish (learning).
 """
 
 # ── Scorer ─────────────────────────────────────────────────────────────────────
