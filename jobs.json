@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T19:02:50.959850+00:00",
+  "updated_at": "2026-05-28T22:01:35.671658+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -37,6 +37,26 @@
       "match_cons": [
         "No PHP, Laravel, or backend experience required",
         "iOS development required"
+      ]
+    },
+    {
+      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/community-sports-partners-web-developer",
+      "title": "Web Developer",
+      "company": "Community Sports Partners",
+      "url": "https://weworkremotely.com/remote-jobs/community-sports-partners-web-developer",
+      "source": "WeWorkRemotely",
+      "date": "Thu, 28 Ma",
+      "fetched_at": "2026-05-28",
+      "description": "Headquarters: Buenos Aires, Argentina URL: http://communitysportspartners.ca Description Community Sports Partners is one of the largest and fastest-growing private youth sports operators in the GTA. We are dedicated to providing fun, engaging experiences that create lasting memories for the youth and families in our communities! We are seeking a talented Web Developer with strong front-end and back-end development skills. The ideal candidate will be proficient in PHP, SQL, AJAX, HTML, and CSS , and have hands-on experience with UI/UX design, including A/B testing. Additionally, you should have experience integrating and working with APIs such as Stripe, Square POS, Twilio, and Brevo. You will play a crucial role in enhancing our digital platforms, ensuring a seamless user experience, and ",
+      "match_score": 83,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No PostgreSQL or MongoDB",
+        "No Docker or CI/CD experience"
       ]
     },
     {
@@ -2281,6 +2301,46 @@
       "match_cons": [
         "Requires AI/LLM experience",
         "No PHP framework mentioned"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4417658865",
+      "title": "Senior PHP Developer",
+      "company": "Avanciers Inc.",
+      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-avanciers-inc-4417658865",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "description": "Avanciers is seeking a highly skilled Technical Lead for an exciting opportunity with one of our Fortune 500 clients, based in Austin, USARole: Technical Lead – PHP/Laravel & ReactLocation: Austin, USAFull time Job8+ yrs PHP + Laravel + React JS experience (mandatory)Previous TL experience with hands-on production support fixing experienceCan work on enhancements and band new project in a very agile envSkills: PHP, Symfony, Laravel, Java, Angular, MySQLPrimary Skills: PHP 7.x / PHP 8.x, MySQL, REST APISecondary Skills: Symfony / LaravelHands-on: Docker, Kubernetes, Git",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Location mismatch"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4420474231",
+      "title": "Senior PHP Developer",
+      "company": "Surfshark",
+      "url": "https://lt.linkedin.com/jobs/view/senior-php-developer-at-surfshark-4420474231",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "description": "We probably won’t surprise you by telling you that our Core team is the core of everything. These experienced Back-end PHP Engineers are responsible for perfecting our user registration, payment processing, fighting cybervillains, and tracking marketing campaigns. They focus on digging into data, ensuring high availability, scalability, and performance optimizations, as well as writing clear code.So if you know your way around PHP 8.x, Symfony, databases and caching, and you’re looking for a great new tech challenge, read along!If you want to:Work on payment processing integrations;Build and maintain our current APIs as well as create new ones;Focus on writing clear, tested, documented code that delivers real business value;Develop back-end solutions with Symfony;Build highly scalable systemsAnd you can check off:Proven experience working with PHP;Understanding of OOP principles & good code design;Skills in PHP frameworks, preferably Symfony;Proven experience in building highly scalable systems;Solid technical understanding of RESTful APIs;Knowledge in microservices design;Experience working with VCSBonus points if you:Are skilled in RabbitMQ, MongoDB, MySQL, Redis and ElasticSearchHere’s the deal:Growth and learning opportunities: time dedicated to learning, conferences, online learning platforms, and books for your professional development;Health and wellness: we want you to feel and be your best. That's why we offer various benefits, from online workouts and a physical coach to health insurance and regular mental health checks;Tools of your choice: choose the technical equipment and tools you need to do your best work;Community and celebrations: get ready for long-lasting traditions such as yearly workation, Friday get-togethers, various team buildings and company celebrations;Work-life balance: as a general rule, we work based on a 3+2 hybrid model. And let’s not forget the WFA policy - an opportunity to work from anywhere in the world;More days off: additional vacation days depending on your tenure;Premium Surfshark accounts: for you, your family, and friends;Gross salary: 3200 - 7200 Eur/month. Although it may vary depending on your skills and experience.",
+      "match_score": 92,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Symfony match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No mention of PostgreSQL",
+        "No Docker experience mentioned"
       ]
     },
     {
