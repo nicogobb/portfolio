@@ -723,7 +723,7 @@ body {
 /* Portfolio Grid */
 .portfolio__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 2rem;
     padding: 1rem;
 }
@@ -796,9 +796,10 @@ body {
 }
 
 .project__private {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 0.4rem;
+    margin-top: 0.5rem;
     font-family: var(--font-main);
     font-size: 0.78rem;
     color: var(--light-text);
