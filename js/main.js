@@ -146,39 +146,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ── Cover Letter ─────────────────────────────────────────────────────────────
+    // Auth: uses the board password hash as Bearer token (set during unlock).
+    // Key stays in Cloudflare secrets — nothing stored in localStorage or the browser.
 
-    const GROQ_URL    = 'https://api.groq.com/openai/v1/chat/completions';
-    const GROQ_MODEL  = 'llama-3.1-8b-instant';
-    const LETTER_KEY  = 'letter_api_key';
-
-    const YOUR_PROFILE = `PHP Backend / Full-Stack Developer, 10+ years experience.
-
-Career:
-- Software Engineer at Maxtracker (Aug 2025–present): fleet telematics platform, 10,000+ vehicles, PHP/Kohana/PostgreSQL, real-time data pipelines.
-- PHP Web Developer at mydigitalnomads (Apr 2022–Aug 2025): large-scale SaaS, fully remote, PHP/MySQL/TypeScript/Docker.
-- Web Developer at OSPL (Nov 2019–present, part-time): health insurance system, 20,000+ affiliates, PHP/MySQL.
-- DBA at Mutual Senderos (2014–2019): started career in database administration, grew into full-stack web development.
-
-Core skills: PHP 8, Laravel, Symfony, Kohana, CodeIgniter, MySQL, PostgreSQL, MongoDB, REST APIs, JavaScript, TypeScript, Git, Docker, GitHub Actions, Linux/Shell, Web Scraping.
-Location: Copenhagen, Denmark — open to remote or on-site. Languages: Spanish (native), English (professional), Danish (learning).`;
-
-    function getApiKey() { return localStorage.getItem(LETTER_KEY) || ''; }
-
-    // API key modal
-    const apikeyOverlay = document.getElementById('apikey-overlay');
-    document.getElementById('jobs-apikey-btn').addEventListener('click', () => {
-        document.getElementById('apikey-input').value = getApiKey();
-        apikeyOverlay.classList.add('visible');
-        setTimeout(() => document.getElementById('apikey-input').focus(), 50);
-    });
-    document.getElementById('apikey-close').addEventListener('click', () => apikeyOverlay.classList.remove('visible'));
-    document.getElementById('apikey-save').addEventListener('click', () => {
-        const val = document.getElementById('apikey-input').value.trim();
-        if (val) localStorage.setItem(LETTER_KEY, val);
-        else localStorage.removeItem(LETTER_KEY);
-        apikeyOverlay.classList.remove('visible');
-    });
-    apikeyOverlay.addEventListener('click', e => { if (e.target === apikeyOverlay) apikeyOverlay.classList.remove('visible'); });
+    const WORKER_URL  = 'https://cover-letter-worker.YOUR_SUBDOMAIN.workers.dev';
+    let   sessionToken = '';   // set on board unlock, cleared on lock
 
     // Cover letter modal
     const clOverlay = document.getElementById('cl-overlay');
@@ -194,54 +166,28 @@ Location: Copenhagen, Denmark — open to remote or on-site. Languages: Spanish 
     });
 
     async function generateCoverLetter(job) {
-        const apiKey = getApiKey();
-        if (!apiKey) {
-            document.getElementById('apikey-input').value = '';
-            apikeyOverlay.classList.add('visible');
-            setTimeout(() => document.getElementById('apikey-input').focus(), 50);
-            return;
-        }
-
         clBody.textContent   = 'Generating…';
         clBody.dataset.state = 'loading';
         clOverlay.classList.add('visible');
 
-        const prompt = `Write a professional cover letter for the job posting below, tailored to the candidate's profile.
-
-## Candidate profile
-${YOUR_PROFILE}
-
-## Job posting
-Role: ${job.title || '(not specified)'}
-Company: ${job.company || '(not specified)'}
-Description: ${job.description}
-
-## Instructions
-- 3–4 paragraphs, no salutation header, no sign-off/closing line — body paragraphs only.
-- Opening: do NOT use "I am writing to express my interest". Start with a direct statement of fit or value.
-- Reference specific numbers from the candidate's background (10,000+ vehicles, 20,000+ affiliates, 10+ years).
-- Mention 2–3 technologies from the job description that the candidate actually has.
-- Tone: direct, confident, professional — not generic or boilerplate.
-- If the company name is known, use it naturally — no placeholders like [Company Name].
-- Write in English. Output ONLY the cover letter body — no intro, no commentary.`;
-
         try {
-            const resp = await fetch(GROQ_URL, {
-                method: 'POST',
-                headers: { 'Authorization': `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
+            const resp = await fetch(WORKER_URL, {
+                method:  'POST',
+                headers: {
+                    'Authorization': `Bearer ${sessionToken}`,
+                    'Content-Type':  'application/json',
+                },
                 body: JSON.stringify({
-                    model: GROQ_MODEL,
-                    messages: [{ role: 'user', content: prompt }],
-                    max_tokens: 800,
-                    temperature: 0.7,
+                    description: job.description,
+                    title:       job.title   || '',
+                    company:     job.company || '',
                 }),
             });
             if (!resp.ok) {
                 const err = await resp.json().catch(() => ({}));
-                throw new Error(err?.error?.message || `HTTP ${resp.status}`);
+                throw new Error(err?.error || `HTTP ${resp.status}`);
             }
-            const data   = await resp.json();
-            const letter = data.choices[0].message.content.trim();
+            const { letter } = await resp.json();
             clBody.textContent   = letter;
             clBody.dataset.state = 'done';
         } catch (err) {
@@ -259,6 +205,7 @@ Description: ${job.description}
     }
 
     function lockJobs() {
+        sessionToken           = '';
         jobsGate.style.display = '';
         jobsContent.classList.remove('visible');
         document.getElementById('jobs-password').value = '';
@@ -418,6 +365,7 @@ Description: ${job.description}
         if (!pw) return;
         const hash = await sha256(pw);
         if (hash === JOBS_HASH) {
+            sessionToken = hash;
             errEl.classList.remove('visible');
             showJobs();
         } else {

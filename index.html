@@ -406,8 +406,7 @@
                     <span id="jobs-meta" class="jobs__meta"></span>
                     <div class="jobs__toolbar-right">
                         <span id="jobs-updated" class="jobs__updated"></span>
-                        <button id="jobs-apikey-btn" class="jobs__btn jobs__btn--key" title="Set Groq API key for cover letter generation">✉ api key</button>
-                        <button id="jobs-lock" class="jobs__btn">$ lock</button>
+<button id="jobs-lock" class="jobs__btn">$ lock</button>
                     </div>
                 </div>
                 <div id="jobs-filters" class="jobs__filters"></div>
@@ -438,22 +437,7 @@
         </div>
     </div>
 
-    <!-- API Key Setup Modal -->
-    <div class="cl-overlay" id="apikey-overlay">
-        <div class="cl-modal cl-modal--sm">
-            <div class="cl-modal__header">
-                <span class="cl-modal__title">✉ groq api key</span>
-                <button class="cl-btn cl-btn--close" id="apikey-close">✕</button>
-            </div>
-            <div class="cl-modal__body">
-                <p class="cl-hint">Stored in localStorage. Used only to call groq.com from your browser.</p>
-                <input type="password" id="apikey-input" class="jobs__input cl-input" placeholder="gsk_...">
-                <button class="jobs__btn cl-save-btn" id="apikey-save">save</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Scroll to top button -->
+<!-- Scroll to top button -->
     <button class="scroll-top" id="scrollTop" aria-label="Back to top">↑</button>
     <script src="js/main.js"></script>
     <!-- GoatCounter Analytics -->
