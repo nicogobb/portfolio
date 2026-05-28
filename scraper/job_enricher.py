@@ -128,6 +128,7 @@ def main():
     to_enrich = [
         j for j in jobs
         if not j.get("description")
+        and not j.get("description_failed")
         and (not args.source or j.get("source", "").lower() == args.source.lower())
     ]
 
@@ -151,6 +152,7 @@ def main():
             enriched += 1
             print(f"  [✓]  {label}")
         else:
+            job["description_failed"] = True
             failed += 1
             print(f"  [–]  {label}")
         time.sleep(REQUEST_DELAY)
