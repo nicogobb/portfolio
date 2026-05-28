@@ -271,18 +271,18 @@
                             <span class="terminal__dot"></span>
                         </div>
                         <div class="project__visual-body">
-                            <span class="pv__accent">$</span> store create --user @nico<br>
-                            <span class="pv__accent">✓</span> tienda creada · quiero-vender.com/nico<br>
-                            <span class="pv__accent">$</span> producto add "Bicicleta de ruta"<br>
-                            <span class="pv__dim">estado: disponible · contacto activo</span>
+                            <span class="pv__accent">$</span> POST /register<br>
+                            <span class="pv__accent">✓</span> store auto-provisioned · /nico<br>
+                            <span class="pv__accent">$</span> 2fa --setup → TOTP · QR ready<br>
+                            <span class="pv__dim">[owner] RBAC · 6 tables · PDO</span>
                         </div>
                     </div>
                     <div class="project__content">
                         <h3>Quiero Vender</h3>
-                        <p>Marketplace for selling to friends, family, and acquaintances — without competing with strangers. Sign up and a personal store is created automatically; list items with price, availability status, and contact details.</p>
+                        <p>Multi-tenant PHP marketplace built without a framework. Sign-up auto-provisions an isolated store; owners manage a product gallery with multi-image upload and per-item availability states (available / reserved / sold). Security-first: TOTP-based 2FA, expiring password-reset tokens, RBAC, and PDO prepared statements throughout.</p>
                         <div class="project__tags">
                             <span>PHP</span>
-                            <span>JavaScript</span>
+                            <span>PDO</span>
                             <span>MySQL</span>
                             <span>CSS</span>
                         </div>
@@ -336,6 +336,7 @@
                             <span class="skill__tag">Python</span>
                             <span class="skill__tag">Web Scraping</span>
                             <span class="skill__tag">Auth &amp; Authorization</span>
+                            <span class="skill__tag">2FA / TOTP</span>
                             <span class="skill__tag">Security (XSS/SQLi)</span>
                         </div>
                     </div>
