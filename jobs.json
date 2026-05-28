@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T01:01:15.778888+00:00",
+  "updated_at": "2026-05-28T04:01:31.635595+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -136,6 +136,23 @@
       "match_pros": [],
       "match_cons": [
         "Requires .NET experience",
+        "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "Himalayas_https://himalayas.app/companies/chainstack/jobs/senior-software-engineer-golang",
+      "title": "Senior Software Engineer (Golang)",
+      "company": "Chainstack",
+      "url": "https://himalayas.app/companies/chainstack/jobs/senior-software-engineer-golang",
+      "source": "Himalayas",
+      "date": "2026-05-28",
+      "fetched_at": "2026-05-28",
+      "description": "Are you a backend engineer who enjoys building resilient distributed systems and automating infrastructure at scale? Software-Engineering-Team Backend-Engineering Site-Reliability-Engineering Platform-Engineering Senior-Golang-Developer Senior-Go-Developer Senior-Golang-Tech-Lead Senior-Software-Engineer Senior-Software-Development-Engineer Lead-Golang-Developer Senior-Software-Engineering Senior-Lead-Software-Engineer Senior-Golang-GPU-Developer GoLang-Engineer",
+      "match_score": 0,
+      "match_confidence": "high",
+      "match_pros": [],
+      "match_cons": [
+        "Requires Golang experience",
         "Requires AWS certification"
       ]
     },
@@ -1048,6 +1065,297 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4407167985",
+      "title": "Senior Backend Developer",
+      "company": "Cernel",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-at-cernel-4407167985",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "denmark": true,
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No AWS certification required",
+        "No MongoDB emphasis"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4403796314",
+      "title": "Senior Backend Developer",
+      "company": "JOE & THE JUICE",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-at-joe-the-juice-4403796314",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "denmark": true,
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No AWS certification required",
+        "No MongoDB emphasis"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4379327855",
+      "title": "PHP Developer | PHP Izstrādātājs/-a",
+      "company": "Mapon",
+      "url": "https://lv.linkedin.com/jobs/view/php-developer-php-izstr%C4%81d%C4%81t%C4%81js-a-at-mapon-4379327855",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No description available",
+        "No AWS certification required"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4409276592",
+      "title": "PHP Software Developer II",
+      "company": "Aylo",
+      "url": "https://lv.linkedin.com/jobs/view/php-software-developer-ii-at-aylo-4409276592",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Limited seniority",
+        "No description available"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4386905358",
+      "title": "Backend Engineer",
+      "company": "VML",
+      "url": "https://dk.linkedin.com/jobs/view/backend-engineer-at-vml-4386905358",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "denmark": true,
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Limited info on job description",
+        "No mention of specific tech stack"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4349425619",
+      "title": "Backend Developer Produktteam - Aalborg",
+      "company": "Trifork",
+      "url": "https://dk.linkedin.com/jobs/view/backend-developer-produktteam-aalborg-at-trifork-4349425619",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "denmark": true,
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Limited MongoDB experience"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4410589606",
+      "title": "Backend Engineer",
+      "company": "Cernel",
+      "url": "https://dk.linkedin.com/jobs/view/backend-engineer-at-cernel-4410589606",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "denmark": true,
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Lack of specific tech stack",
+        "No mention of senior/mid-senior level"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4410163858",
+      "title": "Senior Backend Engineer",
+      "company": "Laerdal Copenhagen",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-at-laerdal-copenhagen-4410163858",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "denmark": true,
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No AWS certification required",
+        "No MongoDB emphasis"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4402002155",
+      "title": "Senior Backend Developer - Booking & Payment Platform",
+      "company": "Trackman",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-booking-payment-platform-at-trackman-4402002155",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "denmark": true,
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No mention of MongoDB"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4409348313",
+      "title": "Senior PHP Developer",
+      "company": "Robert Half",
+      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-robert-half-4409348313",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No mention of PostgreSQL"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413411700",
+      "title": "Senior Backend Software Engineer",
+      "company": "Cloudbeds",
+      "url": "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-at-cloudbeds-4413411700",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Senior level, no mention of PHP 8.1+"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4409622235",
+      "title": "PHP Full Stack Developer (Laravel / Vue / Next.js)",
+      "company": "PLC Group - Global Automotive Auctions & Digital Solutions",
+      "url": "https://lt.linkedin.com/jobs/view/php-full-stack-developer-laravel-vue-next-js-at-plc-group-global-automotive-auctions-digital-solutions-4409622235",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires Vue/Next.js experience",
+        "No AWS certification required"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4379438601",
+      "title": "Full stack developer (PHP)",
+      "company": "NEO Finance",
+      "url": "https://lt.linkedin.com/jobs/view/full-stack-developer-php-at-neo-finance-4379438601",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4315302532",
+      "title": "Full-Stack Developer (PHP специализация)",
+      "company": "NextLogistic Ltd.",
+      "url": "https://bg.linkedin.com/jobs/view/full-stack-developer-php-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-at-nextlogistic-ltd-4315302532",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No description available",
+        "No AWS certification required"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4379345039",
+      "title": "Senior Full-Stack Developer (PHP & React) | Tachogram | Vecākais/-ā Full-Stack Izstrādātājs/-ā",
+      "company": "Mapon",
+      "url": "https://lv.linkedin.com/jobs/view/senior-full-stack-developer-php-react-tachogram-vec%C4%81kais-%C4%81-full-stack-izstr%C4%81d%C4%81t%C4%81js-%C4%81-at-mapon-4379345039",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-28",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No description available"
+      ]
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/deel/jobs/senior-backend-engineer-ai-focus",
       "title": "Senior Backend Engineer (AI focus)",
       "company": "Deel",
@@ -1121,46 +1429,6 @@
       ],
       "match_cons": [
         "Requires AWS certification"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4407167985",
-      "title": "Senior Backend Developer",
-      "company": "Cernel",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-at-cernel-4407167985",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "denmark": true,
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No AWS certification required",
-        "No MongoDB emphasis"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4403796314",
-      "title": "Senior Backend Developer",
-      "company": "JOE & THE JUICE",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-at-joe-the-juice-4403796314",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "denmark": true,
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No AWS certification required",
-        "No MongoDB emphasis"
       ]
     },
     {
@@ -1275,25 +1543,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4379327855",
-      "title": "PHP Developer | PHP Izstrādātājs/-a",
-      "company": "Mapon",
-      "url": "https://lv.linkedin.com/jobs/view/php-developer-php-izstr%C4%81d%C4%81t%C4%81js-a-at-mapon-4379327855",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No description available",
-        "No AWS certification required"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4365701714",
       "title": "PHP Developer (mid/senior)",
       "company": "Ovoko",
@@ -1310,25 +1559,6 @@
       "match_cons": [
         "No AWS certification required",
         "No PostgreSQL mentioned"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4409276592",
-      "title": "PHP Software Developer II",
-      "company": "Aylo",
-      "url": "https://lv.linkedin.com/jobs/view/php-software-developer-ii-at-aylo-4409276592",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Limited seniority",
-        "No description available"
       ]
     },
     {
@@ -1576,106 +1806,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4386905358",
-      "title": "Backend Engineer",
-      "company": "VML",
-      "url": "https://dk.linkedin.com/jobs/view/backend-engineer-at-vml-4386905358",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "denmark": true,
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Limited info on job description",
-        "No mention of specific tech stack"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4349425619",
-      "title": "Backend Developer Produktteam - Aalborg",
-      "company": "Trifork",
-      "url": "https://dk.linkedin.com/jobs/view/backend-developer-produktteam-aalborg-at-trifork-4349425619",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "denmark": true,
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Limited MongoDB experience"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4410589606",
-      "title": "Backend Engineer",
-      "company": "Cernel",
-      "url": "https://dk.linkedin.com/jobs/view/backend-engineer-at-cernel-4410589606",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "denmark": true,
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Lack of specific tech stack",
-        "No mention of senior/mid-senior level"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4410163858",
-      "title": "Senior Backend Engineer",
-      "company": "Laerdal Copenhagen",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-at-laerdal-copenhagen-4410163858",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "denmark": true,
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No AWS certification required",
-        "No MongoDB emphasis"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4402002155",
-      "title": "Senior Backend Developer - Booking & Payment Platform",
-      "company": "Trackman",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-booking-payment-platform-at-trackman-4402002155",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "denmark": true,
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "No mention of MongoDB"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4418948136",
       "title": "PHP Developer",
       "company": "Multitude",
@@ -1804,44 +1934,6 @@
       "match_cons": [
         "Limited framework options",
         "No description available"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4409348313",
-      "title": "Senior PHP Developer",
-      "company": "Robert Half",
-      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-robert-half-4409348313",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "No mention of PostgreSQL"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4413411700",
-      "title": "Senior Backend Software Engineer",
-      "company": "Cloudbeds",
-      "url": "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-at-cloudbeds-4413411700",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Senior level, no mention of PHP 8.1+"
       ]
     },
     {
