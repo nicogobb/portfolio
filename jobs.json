@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T19:01:03.795578+00:00",
+  "updated_at": "2026-05-29T22:01:02.840775+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -191,6 +191,26 @@
       "match_cons": [
         "Requires AWS certification",
         "Different job title"
+      ]
+    },
+    {
+      "id": "Himalayas_https://himalayas.app/companies/insense/jobs/backend-engineer",
+      "title": "Backend Engineer",
+      "company": "name",
+      "url": "https://himalayas.app/companies/insense/jobs/backend-engineer",
+      "source": "Himalayas",
+      "date": "2026-05-29",
+      "fetched_at": "2026-05-29",
+      "description": "Insense, a partner of Meta and TikTok, is a platform that helps brands work with creators. Backend-Engineering Ruby-Development GraphQL-API-Development Software-Engineering API-Development Backend-Engineer Backend-Software-Engineer Backend-Software-Development-Engineer Backend-Infrastructure-Engineer Backend-Systems-Engineer Back-End-Developer",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No direct PHP experience in job post"
       ]
     },
     {
@@ -2186,6 +2206,46 @@
       "description": "Hi! We are AMBOSS and we are looking for a Senior Backend Engineer (PHP) to join our Educator Experience team, and shape the future of medical education with us!About AMBOSSAMBOSS is a dynamic learning and clinical decision support tool committed to empowering physicians globally to deliver optimal care. Since our inception in 2012, we've harnessed cutting-edge technology to transform the way physicians acquire and apply scientific knowledge. Each AMBOSSian is passionate about being the champion of clinicians today - this motivates and unites us each day towards success. And what does success look like? When a clinician or med student tells us, “AMBOSS makes practicing medicine easier and enjoyable. I love what I do, and a big part is because of AMBOSS.”Want to learn more about our culture? Watch our video to explore what makes us unique.Why can this position be exciting for you?We are AMBOSS, and we’re looking for a Senior Backend Engineer in the Educator Experience team. Engineers at AMBOSS are at the forefront of shaping user experience for doctors and students, helping them make critical decisions, ultimately impacting the healthcare of billions of people worldwide. We are looking for someone with a passion for getting the most out of technology and people, setting the pace and direction of excellence for engineering craft. Join our agile team on a mission to enable institutions (like educational clinics, medical schools) to use AMBOSS resources efficiently and effectively when teaching their learners (e.g. residents and students).You WillActively contributing to engineering projects within our new B2B product “Educator Tool”, from conception to completion.Drive the adoption of best practices in code health, testing, and maintainability.Collaborate with cross-functional teams to define project requirements and specifications.Address Ad-Hoc requests from customer support channels.Share your knowledge within the AMBOSS community, contributing to a culture of continuous learning and growth.You BringProven expertise with PHP and its modern frameworks (such as Symfony, Slim, Laravel) and MySQL.Product -minded approachExperience in the full web development lifecycle, including requirements analysis, solution discovery, system design, coding, testing, deployment, and maintenance.Proficient in building and integrating APIs ( GraphQL and/or RESTful) and adept at robust database design and management.Strong knowledge of SOLID principles, best practices, and desi"
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4411617929",
+      "title": "Senior Backend Engineer (Node.js)",
+      "company": "ChurchDesk",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-node-js-at-churchdesk-4411617929",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-29",
+      "denmark": true,
+      "match_score": 40,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Node.js mismatch",
+        "No PHP experience required"
+      ],
+      "description": "At ChurchDesk, our mission is to help churches modernize and stay connected with their communities in a rapidly changing world. As a SaaS company, we provide digital tools that enable churches to streamline operations, communicate effectively, and engage their congregations. Over the past 15 years, we’ve grown from a startup into an international business, yet we remain a small, collaborative team where your impact will be visible from day one. We value diversity, inclusivity, and the unique perspectives each person brings to our mission.About Your New RoleAs a Senior Backend Engineer, you will:Take hands-on ownership of backend projects, solving complex problems and driving implementations to completion.Play a key role in shaping our backend architecture, driving best practices, and maintaining a scalable, performant infrastructure.Mentor and support other engineers, helping grow the team’s technical capabilities.Collaborate closely with our product team, designers, and other engineers to ensure backend solutions align with product goals.Build reliable, scalable, and modular systems using NodeJS, TypeScript, MySQL, Redis, and ElasticSearch.Contribute to continuous improvement of our engineering practices and the evolution of our product to meet customer needs.Skills & RequirementsHas 5+ years of software development experience, with a proven track record of delivering end-to-end backend solutions.Has deep expertise in Node.js, TypeScript, and relational databases (particularly MySQL).Has experience building scalable, performant, and modular backend systems.Understands modern backend engineering practices, including API design, data modeling, testing, and performance optimization.Demonstrates excellent written and verbal communication in English, collaborating effectively with product team and engineers to shape and refine backend features.Has experience working remotely and is based in Copenhagen or elsewhere in the EU, with legal authorization to work.Nice-to-HaveFamiliarity with NoSQL datastores such as ElasticSearch, Redis, or MongoDB.Familiarity with React Native, as our mobile apps and in-person donation terminals are built using it.Experience with AI-assisted development workflows, such as prompt engineering or code generation tools.What We OfferThe opportunity to make a real impact on a product used by some of the largest and oldest institutions in the world.A supportive, low-ceremony, and lean-process environment where your ideas and contributions"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4421445644",
+      "title": "PHP Developer",
+      "company": "ThoughtLabs Belgium",
+      "url": "https://lu.linkedin.com/jobs/view/php-developer-at-thoughtlabs-belgium-4421445644",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-29",
+      "description": "- 5+ years full-stack PHP and Angular development - PHP / Laravel framework; Angular Material - 2+ years Java - Oracle (or equivalent); REST and SOAP APIs",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires Java experience",
+        "Requires Oracle certification"
+      ]
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/chainstack/jobs/senior-software-engineer-golang",
       "title": "Senior Software Engineer (Golang)",
       "company": "Chainstack",
@@ -2316,26 +2376,6 @@
         "No MongoDB emphasis"
       ],
       "description": "Bankruptcy represents a fresh start for millions of consumers and businesses experiencing the hardest circumstances and struggling to stay afloat. Unfortunately, the systems and technology that underpin the U.S. Bankruptcy system are cumbersome and difficult–making bankruptcy that much harder for everyone involved. At BankruptcyWatch, we are building the next era of bankruptcy where bankruptcy operations are easy, understandable, safe, streamlined, and unceremonious. We do this through our powerful bankruptcy automation API. We are at an exciting inflection point, scaling rapidly and adding new enterprise customers every week.The RoleWe're looking for a Senior PHP API Developer with deep expertise in modern PHP and API design to join our growing team. In this position, you will play a key role in architecting and maintaining our core API. You will also be responsible for modernizing legacy systems, ensuring code quality through testing and documentation, and collaborating with business partners and integrating with federal court systems to deliver seamless integrations.Key ResponsibilitiesAPI Development & ArchitectureDesign and implement new API features using modern PHP practicesArchitect REST and RPC-style web services that are secure, scalable, and maintainableModernize parts of the system that rely on aging technologiesIntegrate third-party services into the APIWrite secure code following industry best practicesQuality Assurance & ReleasesWrite and maintain automated tests to ensure reliabilityOversee releases and deployment processesFix bugs and resolve issues across the platformImplement version control best practices using Git and GitHubDocumentation & StandardsWrite and maintain comprehensive technical documentationRead, write, and implement code that conforms to technical specificationsCreate and maintain runbooks and operational guidesCollaboration & Domain ExpertiseWork with business partners to help them integrate the API into their servicesLearn the technical aspects of the U.S. Bankruptcy SystemCommunicate with federal courts to report software bugs and data entry errorsParticipate in architecture reviews and offer feedback to enhance overall system designShare knowledge and best practices with colleagues to strengthen team expertiseQualificationsExperience & Background7+ years of professional PHP development experienceProven track record of architecting and maintaining large-scale API systemsExperience overseeing development of software pro"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4411617929",
-      "title": "Senior Backend Engineer (Node.js)",
-      "company": "ChurchDesk",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-node-js-at-churchdesk-4411617929",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-28",
-      "denmark": true,
-      "match_score": 40,
-      "match_confidence": "low",
-      "match_pros": [
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Node.js mismatch",
-        "No PHP experience required"
-      ],
-      "description": "At ChurchDesk, our mission is to help churches modernize and stay connected with their communities in a rapidly changing world. As a SaaS company, we provide digital tools that enable churches to streamline operations, communicate effectively, and engage their congregations. Over the past 15 years, we’ve grown from a startup into an international business, yet we remain a small, collaborative team where your impact will be visible from day one. We value diversity, inclusivity, and the unique perspectives each person brings to our mission.About Your New RoleAs a Senior Backend Engineer, you will:Take hands-on ownership of backend projects, solving complex problems and driving implementations to completion.Play a key role in shaping our backend architecture, driving best practices, and maintaining a scalable, performant infrastructure.Mentor and support other engineers, helping grow the team’s technical capabilities.Collaborate closely with our product team, designers, and other engineers to ensure backend solutions align with product goals.Build reliable, scalable, and modular systems using NodeJS, TypeScript, MySQL, Redis, and ElasticSearch.Contribute to continuous improvement of our engineering practices and the evolution of our product to meet customer needs.Skills & RequirementsHas 5+ years of software development experience, with a proven track record of delivering end-to-end backend solutions.Has deep expertise in Node.js, TypeScript, and relational databases (particularly MySQL).Has experience building scalable, performant, and modular backend systems.Understands modern backend engineering practices, including API design, data modeling, testing, and performance optimization.Demonstrates excellent written and verbal communication in English, collaborating effectively with product team and engineers to shape and refine backend features.Has experience working remotely and is based in Copenhagen or elsewhere in the EU, with legal authorization to work.Nice-to-HaveFamiliarity with NoSQL datastores such as ElasticSearch, Redis, or MongoDB.Familiarity with React Native, as our mobile apps and in-person donation terminals are built using it.Experience with AI-assisted development workflows, such as prompt engineering or code generation tools.What We OfferThe opportunity to make a real impact on a product used by some of the largest and oldest institutions in the world.A supportive, low-ceremony, and lean-process environment where your ideas and contributions"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4412764618",
