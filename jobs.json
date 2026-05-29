@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T07:03:03.183204+00:00",
+  "updated_at": "2026-05-29T10:01:08.206426+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -1835,6 +1835,47 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4389183850",
+      "title": "Senior Backend Engineer",
+      "company": "group.one",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-at-group-one-4389183850",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-29",
+      "denmark": true,
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No mention of MongoDB"
+      ],
+      "description": "Are you a skilled Backend Developer (Node.js) with a passion for scalable systems and robust solutions? Do you want to be a key player in a team building the next generation of digital services? Then this might be your next challenge!About UsWe are group.one, a fast-growing European tech company empowering over 2 million small and medium-sized businesses to succeed online. With a 1,500-strong team across 20 offices, group.one delivers an integrated suite of SaaS products—ranging from AI-powered website builders and WordPress hosting to marketing, e-commerce, and compliance tools. Our mission is simple: to help entrepreneurs win digitally with easy-to-use products, scalable cloud infrastructure, and local expertise.About The TeamWe believe in modern technology, agile workflows, and a culture where autonomy, innovation, and personal connection are at the core. Our multi-cultural, English-speaking team is a rapidly growing group of passionate engineers, working closely with Product, UI, UX, and QA to build next-generation AI and WordPress solutions. We are developing Flowpilot.one, a conversational AI-based website builder for WordPress that enables anyone to create a professional site through natural dialogue — launching globally across our brands. In parallel, we build and maintain WP.one, a powerful managed WordPress hosting platform designed for agencies and developers. Our team currently includes four local engineers (growing to eight), a Support Engineer in Finland, UI and UX designers based in Copenhagen, and QA support from India — all collaborating tightly to deliver high-quality, scalable products that redefine how websites are created and managed.About The RoleWe are looking for a Backend Developer fluent with NodeJS (TypeScript) and understanding of NestJS with an interest in AI frameworks (e.g. LangChain) and agentic systems. As a Backend Developer, you’ll work on projects that integrate conversational AI into website generation, editing, and connectivity with internal and external systems and plugins. You’ll also have the opportunity to experiment and expand your expertise by building AI-driven solutions for various use cases defined by the team.This is a remote position, with travel to Finland required approximately once every 1–2 months.What You’ll DoBuild and evolve our AI-powered backend systems that connect conversational AI with website generation, editing, and plugin integrations.Design and implement scalable APIs and microservices using "
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4403253556",
+      "title": "Lead Backend Developer",
+      "company": "iLEAf Digital",
+      "url": "https://www.linkedin.com/jobs/view/lead-backend-developer-at-ileaf-digital-4403253556",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-29",
+      "description": "Location: San FranciscoJob Type: Full TimeJob Description:Looking for an experienced backend developer to lead our team.Roles And Responsibilities:Lead backend development teamEnsure high performance and scalabilityCollaborate with frontend developersSkills Required:PHPLaravelNode.jsAPI DevelopmentLocation: San FranciscoJob Type: Full TimeRoles And Responsibilities:Lead backend development teamEnsure high performance and scalabilityCollaborate with frontend developersSkills Required:PHPLaravelNode.jsAPI DevelopmentLocation: San FranciscoLocation: San FranciscoJob Type: Full TimeJob Type: Full TimeRoles And Responsibilities:Lead backend development teamEnsure high performance and scalabilityCollaborate with frontend developersSkills Required:PHPLaravelNode.jsAPI DevelopmentApply for this position+1United States+1United Kingdom+44Afghanistan (‫افغانستان‬‎)+93Albania (Shqipëri)+355Algeria (‫الجزائر‬‎)+213American Samoa+1Andorra+376Angola+244Anguilla+1Antigua and Barbuda+1Argentina+54Armenia (Հայաստան)+374Aruba+297Ascension Island+247Australia+61Austria (Österreich)+43Azerbaijan (Azərbaycan)+994Bahamas+1Bahrain (‫البحرين‬‎)+973Bangladesh (বাংলাদেশ)+880Barbados+1Belarus (Беларусь)+375Belgium (België)+32Belize+501Benin (Bénin)+229Bermuda+1Bhutan (འབྲུག)+975Bolivia+591Bosnia and Herzegovina (Босна и Херцеговина)+387Botswana+267Brazil (Brasil)+55British Indian Ocean Territory+246British Virgin Islands+1Brunei+673Bulgaria (България)+359Burkina Faso+226Burundi (Uburundi)+257Cambodia (កម្ពុជា)+855Cameroon (Cameroun)+237Canada+1Cape Verde (Kabu Verdi)+238Caribbean Netherlands+599Cayman Islands+1Central African Republic (République centrafricaine)+236Chad (Tchad)+235Chile+56China (中国)+86Christmas Island+61Cocos (Keeling) Islands+61Colombia+57Comoros (‫جزر القمر‬‎)+269Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)+243Congo (Republic) (Congo-Brazzaville)+242Cook Islands+682Costa Rica+506Côte d’Ivoire+225Croatia (Hrvatska)+385Cuba+53Curaçao+599Cyprus (Κύπρος)+357Czech Republic (Česká republika)+420Denmark (Danmark)+45Djibouti+253Dominica+1Dominican Republic (República Dominicana)+1Ecuador+593Egypt (‫مصر‬‎)+20El Salvador+503Equatorial Guinea (Guinea Ecuatorial)+240Eritrea+291Estonia (Eesti)+372Eswatini+268Ethiopia+251Falkland Islands (Islas Malvinas)+500Faroe Islands (Føroyar)+298Fiji+679Finland (Suomi)+358France+33French Guiana (Guyane française)+594French Polynesia (Polynésie française)+689Gabon+241Gambia+220Georgia (საქართველო)+995Germany (Deutschland)+49Ghana (Gaana)+2",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires Node.js experience",
+        "Different location"
+      ]
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/chainstack/jobs/senior-software-engineer-golang",
       "title": "Senior Software Engineer (Golang)",
       "company": "Chainstack",
@@ -1965,27 +2006,6 @@
         "No MongoDB emphasis"
       ],
       "description": "Bankruptcy represents a fresh start for millions of consumers and businesses experiencing the hardest circumstances and struggling to stay afloat. Unfortunately, the systems and technology that underpin the U.S. Bankruptcy system are cumbersome and difficult–making bankruptcy that much harder for everyone involved. At BankruptcyWatch, we are building the next era of bankruptcy where bankruptcy operations are easy, understandable, safe, streamlined, and unceremonious. We do this through our powerful bankruptcy automation API. We are at an exciting inflection point, scaling rapidly and adding new enterprise customers every week.The RoleWe're looking for a Senior PHP API Developer with deep expertise in modern PHP and API design to join our growing team. In this position, you will play a key role in architecting and maintaining our core API. You will also be responsible for modernizing legacy systems, ensuring code quality through testing and documentation, and collaborating with business partners and integrating with federal court systems to deliver seamless integrations.Key ResponsibilitiesAPI Development & ArchitectureDesign and implement new API features using modern PHP practicesArchitect REST and RPC-style web services that are secure, scalable, and maintainableModernize parts of the system that rely on aging technologiesIntegrate third-party services into the APIWrite secure code following industry best practicesQuality Assurance & ReleasesWrite and maintain automated tests to ensure reliabilityOversee releases and deployment processesFix bugs and resolve issues across the platformImplement version control best practices using Git and GitHubDocumentation & StandardsWrite and maintain comprehensive technical documentationRead, write, and implement code that conforms to technical specificationsCreate and maintain runbooks and operational guidesCollaboration & Domain ExpertiseWork with business partners to help them integrate the API into their servicesLearn the technical aspects of the U.S. Bankruptcy SystemCommunicate with federal courts to report software bugs and data entry errorsParticipate in architecture reviews and offer feedback to enhance overall system designShare knowledge and best practices with colleagues to strengthen team expertiseQualificationsExperience & Background7+ years of professional PHP development experienceProven track record of architecting and maintaining large-scale API systemsExperience overseeing development of software pro"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4389183850",
-      "title": "Senior Backend Engineer",
-      "company": "group.one",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-at-group-one-4389183850",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-28",
-      "denmark": true,
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "No mention of MongoDB"
-      ],
-      "description": "Are you a skilled Backend Developer (Node.js) with a passion for scalable systems and robust solutions? Do you want to be a key player in a team building the next generation of digital services? Then this might be your next challenge!About UsWe are group.one, a fast-growing European tech company empowering over 2 million small and medium-sized businesses to succeed online. With a 1,500-strong team across 20 offices, group.one delivers an integrated suite of SaaS products—ranging from AI-powered website builders and WordPress hosting to marketing, e-commerce, and compliance tools. Our mission is simple: to help entrepreneurs win digitally with easy-to-use products, scalable cloud infrastructure, and local expertise.About The TeamWe believe in modern technology, agile workflows, and a culture where autonomy, innovation, and personal connection are at the core. Our multi-cultural, English-speaking team is a rapidly growing group of passionate engineers, working closely with Product, UI, UX, and QA to build next-generation AI and WordPress solutions. We are developing Flowpilot.one, a conversational AI-based website builder for WordPress that enables anyone to create a professional site through natural dialogue — launching globally across our brands. In parallel, we build and maintain WP.one, a powerful managed WordPress hosting platform designed for agencies and developers. Our team currently includes four local engineers (growing to eight), a Support Engineer in Finland, UI and UX designers based in Copenhagen, and QA support from India — all collaborating tightly to deliver high-quality, scalable products that redefine how websites are created and managed.About The RoleWe are looking for a Backend Developer fluent with NodeJS (TypeScript) and understanding of NestJS with an interest in AI frameworks (e.g. LangChain) and agentic systems. As a Backend Developer, you’ll work on projects that integrate conversational AI into website generation, editing, and connectivity with internal and external systems and plugins. You’ll also have the opportunity to experiment and expand your expertise by building AI-driven solutions for various use cases defined by the team.This is a remote position, with travel to Finland required approximately once every 1–2 months.What You’ll DoBuild and evolve our AI-powered backend systems that connect conversational AI with website generation, editing, and plugin integrations.Design and implement scalable APIs and microservices using "
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4411617929",
@@ -2362,26 +2382,6 @@
         "No MongoDB emphasis"
       ],
       "description": "Kinetic (www.kinetic.com) is looking for an experienced Full-Stack PHP Developer to join our fast-paced team in downtown Birmingham, Alabama. This role involves building websites and applications from scratch using modern PHP frameworks and tools. You’ll work on projects ranging from custom WordPress themes to Laravel applications with React components.Our dream draft pick would be passionate about working on a variety of custom responsive websites, from initial concepting to site launch. Throw in a fun attitude, experience with the requirements below, along with an excellent eye for UX, and a healthy love of trains and we’ll turn cartwheels down the cobblestones of historic Morris Avenue in our reenergized, vibrant downtown. Please note that all applications must be submitted through our form linked below before being considered for interview. About UsAt Kinetic, we design and build custom digital experiences for a wide range of clients. Our work blends creativity, clean code, and modern frameworks to deliver solutions that are as functional as they are beautiful. We’re a collaborative, tight-knit team that values curiosity, craftsmanship, and the occasional debate over the best place for spicy chicken.ResponsibilitiesDevelop custom WordPress themes (Sage/Roots) and Laravel applicationsImplement interactive front-end features with JavaScript and ReactTranslate design concepts into responsive, accessible HTML/CSSWork with MySQL/MariaDB databases, designing and optimizing queries as neededManage deployments across Linux-based hosting environmentsDebug, troubleshoot, and optimize performanceCollaborate with designers, developers, and project managers throughout the project lifecycleWrite clean, maintainable, and well-documented codeRequirementsStrong experience with PHP and object-oriented programmingDeep knowledge of WordPress theme developmentExperience with JavaScript (Vanilla JS, React, or similar frameworks)Solid understanding of relational databases (MySQL, MariaDB)Proficiency with Git and version control workflowsFamiliarity with Linux web hosting environments (CentOS, Ubuntu) and servers (Apache, Nginx)Strong problem-solving, debugging, and analytical skillsExcellent communication skills and ability to thrive in an on-site, collaborative environmentBonus pointsExperience developing custom WordPress pluginsFamiliarity with CSS preprocessors and front-end build tools (Sass/SCSS, PostCSS, Webpack, Vite)Experience with Tailwind, Roots (Sage, Bedrock and "
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4403253556",
-      "title": "Lead Backend Developer",
-      "company": "iLEAf Digital",
-      "url": "https://www.linkedin.com/jobs/view/lead-backend-developer-at-ileaf-digital-4403253556",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-28",
-      "description": "Location: San FranciscoJob Type: Full TimeJob Description:Looking for an experienced backend developer to lead our team.Roles And Responsibilities:Lead backend development teamEnsure high performance and scalabilityCollaborate with frontend developersSkills Required:PHPLaravelNode.jsAPI DevelopmentLocation: San FranciscoJob Type: Full TimeRoles And Responsibilities:Lead backend development teamEnsure high performance and scalabilityCollaborate with frontend developersSkills Required:PHPLaravelNode.jsAPI DevelopmentLocation: San FranciscoLocation: San FranciscoJob Type: Full TimeJob Type: Full TimeRoles And Responsibilities:Lead backend development teamEnsure high performance and scalabilityCollaborate with frontend developersSkills Required:PHPLaravelNode.jsAPI DevelopmentApply for this position+1United States+1United Kingdom+44Afghanistan (‫افغانستان‬‎)+93Albania (Shqipëri)+355Algeria (‫الجزائر‬‎)+213American Samoa+1Andorra+376Angola+244Anguilla+1Antigua and Barbuda+1Argentina+54Armenia (Հայաստան)+374Aruba+297Ascension Island+247Australia+61Austria (Österreich)+43Azerbaijan (Azərbaycan)+994Bahamas+1Bahrain (‫البحرين‬‎)+973Bangladesh (বাংলাদেশ)+880Barbados+1Belarus (Беларусь)+375Belgium (België)+32Belize+501Benin (Bénin)+229Bermuda+1Bhutan (འབྲུག)+975Bolivia+591Bosnia and Herzegovina (Босна и Херцеговина)+387Botswana+267Brazil (Brasil)+55British Indian Ocean Territory+246British Virgin Islands+1Brunei+673Bulgaria (България)+359Burkina Faso+226Burundi (Uburundi)+257Cambodia (កម្ពុជា)+855Cameroon (Cameroun)+237Canada+1Cape Verde (Kabu Verdi)+238Caribbean Netherlands+599Cayman Islands+1Central African Republic (République centrafricaine)+236Chad (Tchad)+235Chile+56China (中国)+86Christmas Island+61Cocos (Keeling) Islands+61Colombia+57Comoros (‫جزر القمر‬‎)+269Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)+243Congo (Republic) (Congo-Brazzaville)+242Cook Islands+682Costa Rica+506Côte d’Ivoire+225Croatia (Hrvatska)+385Cuba+53Curaçao+599Cyprus (Κύπρος)+357Czech Republic (Česká republika)+420Denmark (Danmark)+45Djibouti+253Dominica+1Dominican Republic (República Dominicana)+1Ecuador+593Egypt (‫مصر‬‎)+20El Salvador+503Equatorial Guinea (Guinea Ecuatorial)+240Eritrea+291Estonia (Eesti)+372Eswatini+268Ethiopia+251Falkland Islands (Islas Malvinas)+500Faroe Islands (Føroyar)+298Fiji+679Finland (Suomi)+358France+33French Guiana (Guyane française)+594French Polynesia (Polynésie française)+689Gabon+241Gambia+220Georgia (საქართველო)+995Germany (Deutschland)+49Ghana (Gaana)+2",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires Node.js experience",
-        "Different location"
-      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4420421378",
