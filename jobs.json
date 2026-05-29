@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T13:00:59.854617+00:00",
+  "updated_at": "2026-05-29T16:01:28.708446+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -157,6 +157,26 @@
       "match_cons": [
         "Requires .NET experience",
         "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "WorkingNomads_https://www.workingnomads.com/job/go/1635298/",
+      "title": "Site Reliability Engineer",
+      "company": "Lemon.io",
+      "url": "https://www.workingnomads.com/job/go/1635298/",
+      "source": "WorkingNomads",
+      "date": "2026-05-29",
+      "fetched_at": "2026-05-29",
+      "description": "Are you a talented Site Reliability Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Different job title"
       ]
     },
     {
