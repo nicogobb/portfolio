@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T04:01:07.103967+00:00",
+  "updated_at": "2026-05-29T07:03:03.183204+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -1775,6 +1775,66 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4416632491",
+      "title": "Senior PHP/Laravel Developer (+Shopify)",
+      "company": "Decima Digital Inc.",
+      "url": "https://pl.linkedin.com/jobs/view/senior-php-laravel-developer-%2Bshopify-at-decima-digital-inc-4416632491",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-29",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Shopify experience not specified"
+      ],
+      "description": "Decima Digital builds commerce systems that power global brands.We’re on the hunt for an experienced PHP / Laravel Developer to join our fully remote crew.We’re looking for someone who takes immense pride in writing clean, high-performing code and who communicates clearly and effectively.Your day-to-day execution will focus on two coreareas:New Delivery: Developing new application backends, complex integrations, and ETL processes thatconnect e-commerce and enterprise systems.Support & Optimization: Enhancing and supporting existing solutions to serve evolving client needsYou will:Build new Laravel applications that drive high-impact websites and web appsEnhance and optimize existing Laravel projects to support evolving client needsDevelop integrations with e-commerce systems (e.g., Shopify)Contribute to frontend components when neededWork closely with project managers, developers, and client teams across the full project lifecycleThis position works directly with team members, project managers, and client personnel throughout the project lifecycle - from project kick-off through deployment - gathering requirements and developing solutions to meet client expectations.ResponsibilitiesDevelop new Laravel apps: Create applications that power top-tier websites and web appsEnhance existing projects: Modify and optimize current Laravel systems to better serve evolving client needsBackend opportunities: Build cool Laravel integrations that seamlessly integrate with enterprise e-commerce systems such as ShopifyMultifaceted projects: Tackle a mix of both routine and exciting tasks to support our talented team and diverse client baseRequirementsBachelor’s degree specializing in Computer Science, Computer Information Systems, or related field or equivalent work experienceAt least 5 years of PHP development with knowledge of the Laravel frameworkAt least 2 years of Node.js development experienceAt least 2 years of experience in Ecommerce web developmentAt least 1 year of experience in the Shopify Plus platformStrong proficiency in relational databases, particularly MySQLReact experience a plusProven ability to troubleshoot complex issuesWorking knowledge of Cloud platforms (AWS, Azure) is a plusStrong Git and GitHub knowledge6 hours of your daily work hours must overlap with US Central Time zone business hours (8am - 5pm CT)We offerWork on enterprise commerce systems for global brandsSupportive, transparent, and collaborative team cultureCompetitive compensation and fu"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4419517104",
+      "title": "Senior Backend Developer",
+      "company": "v4c.ai",
+      "url": "https://www.linkedin.com/jobs/view/senior-backend-developer-at-v4c-ai-4419517104",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-29",
+      "description": "Design, build, and test features across our backend and frontend. You'll take part in design discussions, implementation, code review, and testing.Technical SkillsStrong TypeScript and Node.js engineering: You have built and maintained substantial TypeScript services in production.Micro-services design experience: You have built systems composed of multiple services and you have clear understanding of service boundaries, contract evolution, error handling across service calls, and observability.Kafka and event-driven architecture: You have worked with Kafka or a comparable event streaming platform in production. You have a good understanding of topic design, partition strategy, consumer group behavior, idempotency, ordering guarantees, and what happens when a consumer falls behind or a message cannot be processed. Bonus if you have specific experience with Confluent.PostgreSQL: You can design a database schema, and understand transactions, indexing, and migration strategy.AWS or equivalent cloud experience with Kubernetes: You are comfortable with operating services in AWS. You can navigate the services we use (e.g. EKS, RDS, S3, CloudWatch, IAM etc.) and you can debug a problem that crosses the boundary between your code and the infrastructure it runs on.Unit test frameworks such as jest and vitestPlaywright or equivalent end-to-end testing experience: You have hands-on experience with test authoring frameworks such as Playwright (ideal), Cypress, Selenium, or similar.Test design as a discipline: You can take an acceptance criterion or a user story and decompose it into a coverage strategy that includes unit, integration, and end-to-end tests in sensible proportions. You know when an e2e test is the right answer and when a unit test would catch the bug faster and more reliably.Engineering qualitiesEngineering quality as a habit: You think about testability while you design.Strong written communication: You write high quality and easy to understand design documents, PR descriptions, Test cases etc.Systems thinking across boundaries: You have worked across integration boundaries, have debugged problems that span multiple systems.Comfort with ambiguity: You ask clarifying questions, surface assumptions, and do not quietly build whatever is written in the ticket.Nice to haveExperience in healthcare, LIMS, or any FDA-regulated software environment.Direct experience with Confluent, Redox, or EHR integration work is a real plus.Familiarity with requirements mana",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Missing Kafka/Confluent experience"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4383479538",
+      "title": "Senior Backend Developer",
+      "company": "UniUni",
+      "url": "https://www.linkedin.com/jobs/view/senior-backend-developer-at-uniuni-4383479538",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-29",
+      "description": "Who Are We?UniUni, a North American leader in last-mile logistics, delivers tens of millions of parcels annually across Canada, from coast to coast, and is rapidly expanding its footprint in the United States. Founded in 2019, UniUni is known for its tech-driven innovation and crowdsourced delivery model, providing fast, economical, and reliable services to local, national, and international e-commerce clients.What Do We Offer?At UniUni, we empower our employees with opportunities to achieve their professional goals. We value both lateral growth and vertical advancement, ensuring every role helps you develop your skills, broaden your expertise, and build a fulfilling career. We are looking for passionate professionals ready to work hard, embrace challenges, and enjoy being part of a dynamic, fun team.About The RoleWe are looking for a highly skilled Senior PHP Backend Developer to join our engineering team. In this role, you will design, build, and optimize backend services that power our core business systems. You’ll collaborate with product managers, architects, and cross-functional teams to deliver scalable, reliable, and high-performance solutions.What You'll DoDesign, develop, and maintain backend systems using PHP (Laravel preferred).Lead architecture discussions and provide guidance on best practices.Write clean, maintainable, and testable code.Optimize application performance and scalability.Review code and mentor junior developers.Collaborate with front-end developers and product teams to deliver end-to-end features.Integrate with internal and external APIs and services.Participate in incident analysis and continuous improvement of system reliability.QualificationsBachelor's degree in Computer Science, Engineering, or a related field, or equivalent practical experience.5+ years of experience in PHP backend developmentStrong expertise in Laravel or other PHP frameworksSolid understanding of MySQL or PostgreSQL, including query optimization and indexing, along with knowledge of cloud platforms such as AWS, GCP, or AliCloud; experience with Elasticsearch or other NoSQL tools is a plus.Experience with RESTful APIs, microservices, and distributed systemsFamiliarity with CI/CD pipelines, Docker, Linux environmentsFamiliarity with front-end stacks is a plusGood understanding of Redis and message queuesStrong debugging and problem-solving skillsExperience in high-concurrency or high-availability systems is a major plusGood communication skills and ability",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Some experience mismatch"
+      ]
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/chainstack/jobs/senior-software-engineer-golang",
       "title": "Senior Software Engineer (Golang)",
       "company": "Chainstack",
@@ -1905,26 +1965,6 @@
         "No MongoDB emphasis"
       ],
       "description": "Bankruptcy represents a fresh start for millions of consumers and businesses experiencing the hardest circumstances and struggling to stay afloat. Unfortunately, the systems and technology that underpin the U.S. Bankruptcy system are cumbersome and difficult–making bankruptcy that much harder for everyone involved. At BankruptcyWatch, we are building the next era of bankruptcy where bankruptcy operations are easy, understandable, safe, streamlined, and unceremonious. We do this through our powerful bankruptcy automation API. We are at an exciting inflection point, scaling rapidly and adding new enterprise customers every week.The RoleWe're looking for a Senior PHP API Developer with deep expertise in modern PHP and API design to join our growing team. In this position, you will play a key role in architecting and maintaining our core API. You will also be responsible for modernizing legacy systems, ensuring code quality through testing and documentation, and collaborating with business partners and integrating with federal court systems to deliver seamless integrations.Key ResponsibilitiesAPI Development & ArchitectureDesign and implement new API features using modern PHP practicesArchitect REST and RPC-style web services that are secure, scalable, and maintainableModernize parts of the system that rely on aging technologiesIntegrate third-party services into the APIWrite secure code following industry best practicesQuality Assurance & ReleasesWrite and maintain automated tests to ensure reliabilityOversee releases and deployment processesFix bugs and resolve issues across the platformImplement version control best practices using Git and GitHubDocumentation & StandardsWrite and maintain comprehensive technical documentationRead, write, and implement code that conforms to technical specificationsCreate and maintain runbooks and operational guidesCollaboration & Domain ExpertiseWork with business partners to help them integrate the API into their servicesLearn the technical aspects of the U.S. Bankruptcy SystemCommunicate with federal courts to report software bugs and data entry errorsParticipate in architecture reviews and offer feedback to enhance overall system designShare knowledge and best practices with colleagues to strengthen team expertiseQualificationsExperience & Background7+ years of professional PHP development experienceProven track record of architecting and maintaining large-scale API systemsExperience overseeing development of software pro"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4416632491",
-      "title": "Senior PHP/Laravel Developer (+Shopify)",
-      "company": "Decima Digital Inc.",
-      "url": "https://pl.linkedin.com/jobs/view/senior-php-laravel-developer-%2Bshopify-at-decima-digital-inc-4416632491",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-28",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Shopify experience not specified"
-      ],
-      "description": "Decima Digital builds commerce systems that power global brands.We’re on the hunt for an experienced PHP / Laravel Developer to join our fully remote crew.We’re looking for someone who takes immense pride in writing clean, high-performing code and who communicates clearly and effectively.Your day-to-day execution will focus on two coreareas:New Delivery: Developing new application backends, complex integrations, and ETL processes thatconnect e-commerce and enterprise systems.Support & Optimization: Enhancing and supporting existing solutions to serve evolving client needsYou will:Build new Laravel applications that drive high-impact websites and web appsEnhance and optimize existing Laravel projects to support evolving client needsDevelop integrations with e-commerce systems (e.g., Shopify)Contribute to frontend components when neededWork closely with project managers, developers, and client teams across the full project lifecycleThis position works directly with team members, project managers, and client personnel throughout the project lifecycle - from project kick-off through deployment - gathering requirements and developing solutions to meet client expectations.ResponsibilitiesDevelop new Laravel apps: Create applications that power top-tier websites and web appsEnhance existing projects: Modify and optimize current Laravel systems to better serve evolving client needsBackend opportunities: Build cool Laravel integrations that seamlessly integrate with enterprise e-commerce systems such as ShopifyMultifaceted projects: Tackle a mix of both routine and exciting tasks to support our talented team and diverse client baseRequirementsBachelor’s degree specializing in Computer Science, Computer Information Systems, or related field or equivalent work experienceAt least 5 years of PHP development with knowledge of the Laravel frameworkAt least 2 years of Node.js development experienceAt least 2 years of experience in Ecommerce web developmentAt least 1 year of experience in the Shopify Plus platformStrong proficiency in relational databases, particularly MySQLReact experience a plusProven ability to troubleshoot complex issuesWorking knowledge of Cloud platforms (AWS, Azure) is a plusStrong Git and GitHub knowledge6 hours of your daily work hours must overlap with US Central Time zone business hours (8am - 5pm CT)We offerWork on enterprise commerce systems for global brandsSupportive, transparent, and collaborative team cultureCompetitive compensation and fu"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4389183850",
@@ -2322,26 +2362,6 @@
         "No MongoDB emphasis"
       ],
       "description": "Kinetic (www.kinetic.com) is looking for an experienced Full-Stack PHP Developer to join our fast-paced team in downtown Birmingham, Alabama. This role involves building websites and applications from scratch using modern PHP frameworks and tools. You’ll work on projects ranging from custom WordPress themes to Laravel applications with React components.Our dream draft pick would be passionate about working on a variety of custom responsive websites, from initial concepting to site launch. Throw in a fun attitude, experience with the requirements below, along with an excellent eye for UX, and a healthy love of trains and we’ll turn cartwheels down the cobblestones of historic Morris Avenue in our reenergized, vibrant downtown. Please note that all applications must be submitted through our form linked below before being considered for interview. About UsAt Kinetic, we design and build custom digital experiences for a wide range of clients. Our work blends creativity, clean code, and modern frameworks to deliver solutions that are as functional as they are beautiful. We’re a collaborative, tight-knit team that values curiosity, craftsmanship, and the occasional debate over the best place for spicy chicken.ResponsibilitiesDevelop custom WordPress themes (Sage/Roots) and Laravel applicationsImplement interactive front-end features with JavaScript and ReactTranslate design concepts into responsive, accessible HTML/CSSWork with MySQL/MariaDB databases, designing and optimizing queries as neededManage deployments across Linux-based hosting environmentsDebug, troubleshoot, and optimize performanceCollaborate with designers, developers, and project managers throughout the project lifecycleWrite clean, maintainable, and well-documented codeRequirementsStrong experience with PHP and object-oriented programmingDeep knowledge of WordPress theme developmentExperience with JavaScript (Vanilla JS, React, or similar frameworks)Solid understanding of relational databases (MySQL, MariaDB)Proficiency with Git and version control workflowsFamiliarity with Linux web hosting environments (CentOS, Ubuntu) and servers (Apache, Nginx)Strong problem-solving, debugging, and analytical skillsExcellent communication skills and ability to thrive in an on-site, collaborative environmentBonus pointsExperience developing custom WordPress pluginsFamiliarity with CSS preprocessors and front-end build tools (Sass/SCSS, PostCSS, Webpack, Vite)Experience with Tailwind, Roots (Sage, Bedrock and "
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4419517104",
-      "title": "Senior Backend Developer",
-      "company": "v4c.ai",
-      "url": "https://www.linkedin.com/jobs/view/senior-backend-developer-at-v4c-ai-4419517104",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-28",
-      "description": "Design, build, and test features across our backend and frontend. You'll take part in design discussions, implementation, code review, and testing.Technical SkillsStrong TypeScript and Node.js engineering: You have built and maintained substantial TypeScript services in production.Micro-services design experience: You have built systems composed of multiple services and you have clear understanding of service boundaries, contract evolution, error handling across service calls, and observability.Kafka and event-driven architecture: You have worked with Kafka or a comparable event streaming platform in production. You have a good understanding of topic design, partition strategy, consumer group behavior, idempotency, ordering guarantees, and what happens when a consumer falls behind or a message cannot be processed. Bonus if you have specific experience with Confluent.PostgreSQL: You can design a database schema, and understand transactions, indexing, and migration strategy.AWS or equivalent cloud experience with Kubernetes: You are comfortable with operating services in AWS. You can navigate the services we use (e.g. EKS, RDS, S3, CloudWatch, IAM etc.) and you can debug a problem that crosses the boundary between your code and the infrastructure it runs on.Unit test frameworks such as jest and vitestPlaywright or equivalent end-to-end testing experience: You have hands-on experience with test authoring frameworks such as Playwright (ideal), Cypress, Selenium, or similar.Test design as a discipline: You can take an acceptance criterion or a user story and decompose it into a coverage strategy that includes unit, integration, and end-to-end tests in sensible proportions. You know when an e2e test is the right answer and when a unit test would catch the bug faster and more reliably.Engineering qualitiesEngineering quality as a habit: You think about testability while you design.Strong written communication: You write high quality and easy to understand design documents, PR descriptions, Test cases etc.Systems thinking across boundaries: You have worked across integration boundaries, have debugged problems that span multiple systems.Comfort with ambiguity: You ask clarifying questions, surface assumptions, and do not quietly build whatever is written in the ticket.Nice to haveExperience in healthcare, LIMS, or any FDA-regulated software environment.Direct experience with Confluent, Redox, or EHR integration work is a real plus.Familiarity with requirements mana",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Missing Kafka/Confluent experience"
-      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4403253556",
