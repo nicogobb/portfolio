@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T13:01:02.961494+00:00",
+  "updated_at": "2026-05-30T16:00:58.822542+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -2066,6 +2066,45 @@
       "match_cons": [
         "Requires AWS certification",
         "Drupal 8 experience required"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4417356991",
+      "title": "Full Stack Engineer PHP",
+      "company": "New York Technology Partners",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-engineer-php-at-new-york-technology-partners-4417356991",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-30",
+      "description": "Required QualificationsProven experience as a Full-Stack Developer, Software Architect, or in a similar role.Strong back-end development skills using technologies such as PHP (Laravel), Go, and Node.js.Proficiency with front-end technologies including HTML, CSS, JavaScript, and modern frameworks such as React and Next.js.Solid understanding of operating systems, general computing concepts, and scripting languages such as Bash.Experience working with relational databases including MySQL and PostgreSQL.Familiarity with cloud platforms such as AWS.Knowledge of version control systems, particularly Git.Experience in agency environments or other fast-paced, collaborative settings.Strong analytical and problem-solving abilities with the capacity to work both independently and within a team.Excellent communication skills, including the ability to explain technical concepts to non-technical stakeholders.Preferred QualificationsBachelor’s degree in Computer Science or a related field.Demonstrated ability to design, own, and deliver innovative software solutions across multiple technologies.Experience with mobile application development for iOS or Android.Experience with desktop application development for macOS or Windows.Familiarity working alongside video content creators or media-focused teams.Experience implementing DevOps practices and CI/CD workflows.Knowledge of containerization technologies such as Docker and Kubernetes.Familiarity with Agile development methodologies.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Go and Node.js not mentioned"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4385456090",
+      "title": "PHP Laravel Engineer [gn]",
+      "company": "LUMASERV",
+      "url": "https://de.linkedin.com/jobs/view/php-laravel-engineer-gn-at-lumaserv-4385456090",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-30",
+      "description": "SummaryAs a PHP Backend Engineer at LUMASERV, you'll play a key role in developing and maintaining customer projects that serve millions of users daily. You'll work closely with our product managers, developers, and architects to build robust, scalable backend solutions using modern PHP frameworks, particularly Laravel. If you appreciate clean code, domain-driven design, and the elegance that Laravel brings to application development, this position offers you the opportunity to shape the technical direction of projects while writing high-quality code every day.DescriptionYou love working with Laravel (or Symfony) and leverage its full capabilities—including queues, broadcasting, dependency injection, storage and notification systems and ArtisanYou design and develop REST APIs (sometimes GraphQL) using domain-driven design that integrate seamlessly with frontend applications and external systemsYou perform regular code reviews and help establish best practices within the teamYou want to dive deeper into AI protocols like MCP and implement them in large enterprise applicationsYou monitor application performance and gain insights using state-of-the-art APM tools (application performance monitoring)You write and maintain comprehensive tests using Laravel's built-in testing capabilities (PHPUnit and PEST), supported by AIYou challenge and improve coding standards with your colleaguesYou work with scalable databases (MySQL, MariaDB, Redis) to design efficient data models and queriesYou participate in technical planning sessions and contribute to architectural decisions with your teamYou understand the concepts behind Laravel InertiaQualificationsExtensive professional experience in PHP backend development on enterpriseenter levelStrong expertise with Laravel (or similar modern frameworks like Symfony) and the Framework's core concepts including dependency injectionExperience with schema design and and software modellingProficiency in writing automated tests (PHPUnit, Pest)Familiarity with HTTP REST/RPC interfaces and API documentation formats (Swagger/OpenAPI)Experience with project management tools (e.g. Linear or Notion)Strong understanding of web security principles and common vulnerabilitiesStrong experience with local development setups based on Docker (and Laravel Sail)Desired QualificationsExperience with domain-driven design and software architectureKnowledge of CI/CD processes and DevOps practicesExperience with message queues and asynchronous processin",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
       ]
     },
     {
