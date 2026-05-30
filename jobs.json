@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T07:02:39.488088+00:00",
+  "updated_at": "2026-05-30T10:01:02.191240+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -157,6 +157,43 @@
       ]
     },
     {
+      "id": "Himalayas_https://himalayas.app/companies/grafana-labs/jobs/staff-backend-engineer-grafana-enterprise-us-remote",
+      "title": "Staff Backend Engineer - Grafana Enterprise | US | Remote",
+      "company": "Grafana Labs",
+      "url": "https://himalayas.app/companies/grafana-labs/jobs/staff-backend-engineer-grafana-enterprise-us-remote",
+      "source": "Himalayas",
+      "date": "2026-05-30",
+      "fetched_at": "2026-05-30",
+      "salary": "$174k–$209k",
+      "description": "Grafana Labs is a remote-first, open-source powerhouse. Staff-Software-Engineer---Backend R&D:-Grafana Staff-Backend-Engineer Staff-Observability-Engineer Staff-Cloud-Observability-Engineer",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "Himalayas_https://himalayas.app/companies/mci-career-services/jobs/remote-on-demand-data-breach-agent",
+      "title": "Remote On-Demand Data Breach Agent",
+      "company": "MCI Career Services",
+      "url": "https://himalayas.app/companies/mci-career-services/jobs/remote-on-demand-data-breach-agent",
+      "source": "Himalayas",
+      "date": "2026-05-30",
+      "fetched_at": "2026-05-30",
+      "description": "LOCATIONManila, PHPOSITION OVERVIEWMCI is a leading Business Process Outsourcing (BPO) company that specializes in delivering tailored solutions to meet the diverse needs of our clients. Customer-Service Call-Center BPO Customer-Support Data-Breach-Response Remote-Cybersecurity-Analyst Remote-Emergency-Response-Specialist Entry-Level-Cybersecurity-Incident-Response-Agent",
+      "match_score": 0,
+      "match_confidence": "high",
+      "match_pros": [],
+      "match_cons": [
+        "No PHP or web development experience mentioned",
+        "No mention of data breach response or cybersecurity"
+      ]
+    },
+    {
       "id": "WorkingNomads_https://www.workingnomads.com/job/go/1635298/",
       "title": "Site Reliability Engineer",
       "company": "Lemon.io",
@@ -195,6 +232,40 @@
         "Requires AWS certification",
         "No direct PHP experience in job post"
       ]
+    },
+    {
+      "id": "RemoteOK_1132512",
+      "title": "Senior Backend Engineer",
+      "company": "Gameplay Galaxy",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-gameplay-galaxy-1132512",
+      "source": "RemoteOK",
+      "date": "2026-05-29",
+      "fetched_at": "2026-05-30",
+      "description": "About the role You'll own the backend for a live mobile F2P game and the AI agentic platform that powers how we operate it. Feature releases, live ops, monetization, analytics pipeline, reliability. Senior IC with real ownership from day one and a path to platform / tech lead as we scale. You work with our production systems serving real players and real revenue. The primary stack is TypeScript/Node.js (Fastify) with MongoDB, ClickHouse, Redis, and RabbitMQ. The AI tooling layer is Go. We use AI heavily as part of how we work. Claude agents write production code alongside us. If you're a strong backend engineer who's comfortable with that mode, you'll fit right in. What you'll work on Game backend: API server, realtime (Socket.io), analytics ingestion, cron jobs â all in one TypeScript m",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Different tech stack"
+      ]
+    },
+    {
+      "id": "RemoteOK_1132560",
+      "title": "Civil Service Secretary Chief Examiner",
+      "company": "City of Pullman",
+      "url": "https://remoteOK.com/remote-jobs/remote-civil-service-secretary-chief-examiner-city-of-pullman-1132560",
+      "source": "RemoteOK",
+      "date": "2026-05-29",
+      "fetched_at": "2026-05-30",
+      "description": "Description The City of Pullman Civil Service Commission is currently recruiting for an independent contractor for the Secretary and Chief Examiner. The salary range position is $400.00-$600.00 monthly. The Civil Service Commission Secretary and Chief Examiner performs all responsible supervisory and professional functions necessary for the administration and direction of the City Civil Service Commission in accordance with the Civil Service Rules and Regulations and provisions of state law relating to civil service. Acts independently. This position reports to and takes direction from the Civil Service Commission. Minimum Qualifications AA or BA in business, psychology, social sciences, paralegal, human resources, or a related field, or three years of relevant experience. The secretary an",
+      "match_score": 0,
+      "match_confidence": "high",
+      "match_pros": [],
+      "match_cons": []
     },
     {
       "id": "RemoteOK_1132450",
@@ -1899,6 +1970,85 @@
       "description": "Hi! We are AMBOSS and we are looking for a Senior Backend Engineer (PHP) to join our Educator Experience team, and shape the future of medical education with us!About AMBOSSAMBOSS is a dynamic learning and clinical decision support tool committed to empowering physicians globally to deliver optimal care. Since our inception in 2012, we've harnessed cutting-edge technology to transform the way physicians acquire and apply scientific knowledge. Each AMBOSSian is passionate about being the champion of clinicians today - this motivates and unites us each day towards success. And what does success look like? When a clinician or med student tells us, “AMBOSS makes practicing medicine easier and enjoyable. I love what I do, and a big part is because of AMBOSS.”Want to learn more about our culture? Watch our video to explore what makes us unique.Why can this position be exciting for you?We are AMBOSS, and we’re looking for a Senior Backend Engineer in the Educator Experience team. Engineers at AMBOSS are at the forefront of shaping user experience for doctors and students, helping them make critical decisions, ultimately impacting the healthcare of billions of people worldwide. We are looking for someone with a passion for getting the most out of technology and people, setting the pace and direction of excellence for engineering craft. Join our agile team on a mission to enable institutions (like educational clinics, medical schools) to use AMBOSS resources efficiently and effectively when teaching their learners (e.g. residents and students).You WillActively contributing to engineering projects within our new B2B product “Educator Tool”, from conception to completion.Drive the adoption of best practices in code health, testing, and maintainability.Collaborate with cross-functional teams to define project requirements and specifications.Address Ad-Hoc requests from customer support channels.Share your knowledge within the AMBOSS community, contributing to a culture of continuous learning and growth.You BringProven expertise with PHP and its modern frameworks (such as Symfony, Slim, Laravel) and MySQL.Product -minded approachExperience in the full web development lifecycle, including requirements analysis, solution discovery, system design, coding, testing, deployment, and maintenance.Proficient in building and integrating APIs ( GraphQL and/or RESTful) and adept at robust database design and management.Strong knowledge of SOLID principles, best practices, and desi"
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4413721969",
+      "title": "PHP Developer",
+      "company": "New York Technology Partners",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-at-new-york-technology-partners-4413721969",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-30",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No mention of AWS certification",
+        "No mention of PostgreSQL"
+      ],
+      "description": "Backend Developer (PHP / Laravel)Location: Chicago, IL (Onsite)We are seeking a talented Backend Developer with strong PHP and Laravel experience to join our engineering team in Chicago. This role is ideal for someone who enjoys designing scalable backend systems, building robust APIs, and contributing to high-quality web applications in a collaborative onsite environment.As a Backend Developer, you will work closely with front-end developers, product managers, and other engineers to develop and maintain reliable backend services and application infrastructure.ResponsibilitiesDesign, develop, and maintain backend applications using PHP and the Laravel frameworkBuild and maintain RESTful APIs and server-side functionalityCollaborate with front-end developers to integrate user-facing elements with backend logicWrite clean, maintainable, and efficient code following best practicesOptimize application performance, scalability, and securityTroubleshoot, debug, and resolve production issuesDesign and manage database structures, queries, and migrationsParticipate in code reviews and contribute to architectural decisionsWork within an agile development environment and contribute to sprint planning and deliveryQualifications3+ years of backend development experienceStrong proficiency in PHP and LaravelExperience building and consuming RESTful APIsSolid understanding of relational databases such as MySQL or PostgreSQLFamiliarity with MVC architecture and object-oriented programming principlesExperience with Git and version control workflowsUnderstanding of application security and performance optimizationStrong problem-solving and communication skillsPreferred QualificationsExperience with cloud platforms such as AWS or AzureFamiliarity with Docker or containerized development environmentsExperience with queue systems, caching technologies, and background job processingKnowledge of CI/CD pipelines and automated deployment practicesExposure to modern JavaScript frameworks is a plus"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4302518237",
+      "title": "Lead Backend Engineer, Content Management (PHP/Laravel)",
+      "company": "EMPIRE",
+      "url": "https://www.linkedin.com/jobs/view/lead-backend-engineer-content-management-php-laravel-at-empire-4302518237",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-30",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ],
+      "description": "Description:Lead Backend Engineer, Content Management (PHP/Laravel)DescriptionEMPIRE is a premier and dynamic music company that prides itself on the development and support of independent artists. We are a rapidly growing firm that has been making waves in the music industry, with an extensive portfolio that spans multiple genres and reaches audiences worldwide. We have become the largest independent record label in the U.S., with a significant global presence covering Africa, Asia, Europe, Australia, and North and South America. We keep ourselves busy with a large range of music-related services from original content and marketing to distribution and recordings.Our commitment to artistic creativity, innovation, and progressive business solutions forms the foundation of our corporate culture. We believe in fostering talent, not just in our artists but also within our professional teams. As we continue to expand, we invite you to join us on this exciting journey.The Role Remix: EMPIRE is looking for a Lead Backend Engineer (Content Management) to join our downtown San Francisco office. This senior, hands-on role reports directly to the VP of Engineering. You will own the architecture, development, and scaling of backend systems that power our music content management platforms for the music industry. These platforms serve artists, labels, distributors, and DSPs, and require high reliability, flexibility, and integration with industry-standard workflows. You’ll partner closely with product managers, frontend engineers, and media/data operations teams to translate business needs into secure, efficient, and scalable backend solutions. The ideal candidate has deep expertise in PHP (vanilla and modern frameworks such as Laravel), strong systems design experience, and fluency in music industry concepts like rights management, royalties, and digital distribution. If you’ve successfully led backend teams in high-growth or startup environments—and especially if you’ve built systems for music or digital media—we’d love to hear from you.ResponsibilitiesOwn the architecture, design, and implementation of robust, scalable backend systems and APIs that support our music content management and distribution systems.Build scalable, secure, and maintainable backend code using PHP (vanilla + Laravel).Drive backend performance, availability, and resilience across core applications.Establish and enforce best practices in code quality, testing, database design, and deployment.M"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4416632491",
+      "title": "Senior PHP/Laravel Developer (+Shopify)",
+      "company": "Decima Digital Inc.",
+      "url": "https://pl.linkedin.com/jobs/view/senior-php-laravel-developer-%2Bshopify-at-decima-digital-inc-4416632491",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-30",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Shopify experience not specified"
+      ],
+      "description": "Decima Digital builds commerce systems that power global brands.We’re on the hunt for an experienced PHP / Laravel Developer to join our fully remote crew.We’re looking for someone who takes immense pride in writing clean, high-performing code and who communicates clearly and effectively.Your day-to-day execution will focus on two coreareas:New Delivery: Developing new application backends, complex integrations, and ETL processes thatconnect e-commerce and enterprise systems.Support & Optimization: Enhancing and supporting existing solutions to serve evolving client needsYou will:Build new Laravel applications that drive high-impact websites and web appsEnhance and optimize existing Laravel projects to support evolving client needsDevelop integrations with e-commerce systems (e.g., Shopify)Contribute to frontend components when neededWork closely with project managers, developers, and client teams across the full project lifecycleThis position works directly with team members, project managers, and client personnel throughout the project lifecycle - from project kick-off through deployment - gathering requirements and developing solutions to meet client expectations.ResponsibilitiesDevelop new Laravel apps: Create applications that power top-tier websites and web appsEnhance existing projects: Modify and optimize current Laravel systems to better serve evolving client needsBackend opportunities: Build cool Laravel integrations that seamlessly integrate with enterprise e-commerce systems such as ShopifyMultifaceted projects: Tackle a mix of both routine and exciting tasks to support our talented team and diverse client baseRequirementsBachelor’s degree specializing in Computer Science, Computer Information Systems, or related field or equivalent work experienceAt least 5 years of PHP development with knowledge of the Laravel frameworkAt least 2 years of Node.js development experienceAt least 2 years of experience in Ecommerce web developmentAt least 1 year of experience in the Shopify Plus platformStrong proficiency in relational databases, particularly MySQLReact experience a plusProven ability to troubleshoot complex issuesWorking knowledge of Cloud platforms (AWS, Azure) is a plusStrong Git and GitHub knowledge6 hours of your daily work hours must overlap with US Central Time zone business hours (8am - 5pm CT)We offerWork on enterprise commerce systems for global brandsSupportive, transparent, and collaborative team cultureCompetitive compensation and fu"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4414249830",
+      "title": "Backend Developer - PHP (w/m/d)",
+      "company": "MOGIC",
+      "url": "https://de.linkedin.com/jobs/view/backend-developer-php-w-m-d-at-mogic-4414249830",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-30",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No AWS certification",
+        "No description available"
+      ],
+      "description": "ZustimmungDetails[#IABV2SETTINGS#]Über CookiesDiese Webseite verwendet CookiesWir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.[#GPC_BANNER_ICON#][#GPC_TOAST_TEXT#]EinwilligungsauswahlNotwendigPräferenzenStatistikenMarketingDetails zeigenDetailsCookieConsentSpeichert den Zustimmungsstatus des Benutzers für Cookies auf der aktuellen Domäne.Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen, indem sie Grundfunktionen wie Seitennavigation und Zugriff auf sichere Bereiche der Webseite ermöglichen. Die Webseite kann ohne diese Cookies nicht richtig funktionieren.Cookiebot 1 Erfahren Sie mehr über diesen AnbieterMaximale Speicherdauer: 1 MonatTyp: HTTP-Cookie Ein Teil der Daten, die dieser Anbieter gesammelt hat, dient der Personalisierung und der Messung der Werbewirksamkeit.Präferenz-Cookies ermöglichen einer Webseite sich an Informationen zu erinnern, die die Art beeinflussen, wie sich eine Webseite verhält oder aussieht, wie z. B. Ihre bevorzugte Sprache oder die Region in der Sie sich befinden.Wir nutzen diese Cookie-Typen nicht.Statistik-Cookies helfen Webseiten-Besitzern zu verstehen, wie Besucher mit Webseiten interagieren, indem Informationen anonym gesammelt und gemeldet werden.Google 2 Erfahren Sie mehr über diesen Anbieter_gaRegistriert eine eindeutige ID, die verwendet wird, um statistische Daten dazu, wie der Besucher die Website nutzt, zu generieren.Maximale Speicherdauer: 2 JahreTyp: HTTP-Cookie_ga_#Sammelt Daten dazu, wie oft ein Benutzer eine Website besucht hat, sowie Daten für den ersten und letzten Besuch. Von Google Analytics verwendet.Maximale Speicherdauer: 2 JahreTyp: HTTP-Cookie JotForm 2 Erfahren Sie mehr über diesen Anbieterguest [x2]Registriert Daten auf dem Webseite-Verhalten der Besucher. Dies wird für interne Analysen und Webseite-Optimierung verwendet.Maximale Speicherdauer: 1 MonatTyp: HTTP-Cookie lastExternalReferrerErmittelt, wie der Nutzer die Website erreicht hat, indem seine letzte URL-Adresse registriert wird.Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu fo"
+    },
+    {
       "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/speechify-software-engineer-ios-core-product",
       "title": "Software Engineer, iOS Core Product",
       "company": "Speechify",
@@ -1930,26 +2080,6 @@
       "match_cons": []
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4413721969",
-      "title": "PHP Developer",
-      "company": "New York Technology Partners",
-      "url": "https://www.linkedin.com/jobs/view/php-developer-at-new-york-technology-partners-4413721969",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-29",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No mention of AWS certification",
-        "No mention of PostgreSQL"
-      ],
-      "description": "Backend Developer (PHP / Laravel)Location: Chicago, IL (Onsite)We are seeking a talented Backend Developer with strong PHP and Laravel experience to join our engineering team in Chicago. This role is ideal for someone who enjoys designing scalable backend systems, building robust APIs, and contributing to high-quality web applications in a collaborative onsite environment.As a Backend Developer, you will work closely with front-end developers, product managers, and other engineers to develop and maintain reliable backend services and application infrastructure.ResponsibilitiesDesign, develop, and maintain backend applications using PHP and the Laravel frameworkBuild and maintain RESTful APIs and server-side functionalityCollaborate with front-end developers to integrate user-facing elements with backend logicWrite clean, maintainable, and efficient code following best practicesOptimize application performance, scalability, and securityTroubleshoot, debug, and resolve production issuesDesign and manage database structures, queries, and migrationsParticipate in code reviews and contribute to architectural decisionsWork within an agile development environment and contribute to sprint planning and deliveryQualifications3+ years of backend development experienceStrong proficiency in PHP and LaravelExperience building and consuming RESTful APIsSolid understanding of relational databases such as MySQL or PostgreSQLFamiliarity with MVC architecture and object-oriented programming principlesExperience with Git and version control workflowsUnderstanding of application security and performance optimizationStrong problem-solving and communication skillsPreferred QualificationsExperience with cloud platforms such as AWS or AzureFamiliarity with Docker or containerized development environmentsExperience with queue systems, caching technologies, and background job processingKnowledge of CI/CD pipelines and automated deployment practicesExposure to modern JavaScript frameworks is a plus"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4405574001",
       "title": "Senior PHP / Laravel Engineer",
       "company": "Lendzi",
@@ -1968,25 +2098,6 @@
         "Denmark location may be a challenge"
       ],
       "description": "Senior PHP /Laravel EngineerLendzi, Boca Raton, FL (Hybrid) Reports to: Director of TechnologyAbout LendziLendzi is a fintech company helping small businesses access the capital they need to grow. We connect tens of thousands of business owners every year with the right lenders through a proprietary platform that combines AI-powered underwriting, automated lender matching, and a network of dozens of capital partners. We are building the next generation of small business lending technology, and we are doing it in-house.The OpportunityWe are building the in-house engineering team that will own and modernize Lendzi's lending platform end to end. This is a founding-engineer level role, reporting directly to the Director of Technology. You will work on production systems handling real lending decisions for thousands of businesses every month, and you will help architect and build the next-generation platform that replaces our current stack.You will not be one of many engineers maintaining a legacy codebase. You will be one of a small group of senior engineers operating with high leverage, accountable for production systems from day one, and partnering directly with leadership to shape the technology roadmap.What You Will DoOwn production Laravel applications. Maintain, improve, and refactor our WordPress and Laravel applications. Triage and resolve issues, ship features, and harden security and reliability across the stack.Integrate with the financial ecosystem. Build and maintain integrations with external lenders and partners’ APIs. Design clean, observable, repeatable abstractions for the integrations we will keep adding.Lead the AWS migration. Help with DevOps and cloud infrastructure setup and management.Architect the platform rebuild. Help design and build a consolidated modern Laravel platform with AI at the center, including merchant, partner, lender, and admin portals. Orchestrate AI agents responsibly. Use agentic coding tools as a force multiplier on every project, with rigorous engineering judgment applied to every line of code that ships. Review, validate, test, and refactor AI-generated output to production-grade standards. Build internal tools and product features that put AI to work for our team and our merchants.Set the engineering bar. Establish code review, testing, security, and deployment standards as we scale the team. Write the documentation, runbooks, and internal tooling that will let the next engineer be productive in their first week."
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4302518237",
-      "title": "Lead Backend Engineer, Content Management (PHP/Laravel)",
-      "company": "EMPIRE",
-      "url": "https://www.linkedin.com/jobs/view/lead-backend-engineer-content-management-php-laravel-at-empire-4302518237",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-29",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
-      ],
-      "description": "Description:Lead Backend Engineer, Content Management (PHP/Laravel)DescriptionEMPIRE is a premier and dynamic music company that prides itself on the development and support of independent artists. We are a rapidly growing firm that has been making waves in the music industry, with an extensive portfolio that spans multiple genres and reaches audiences worldwide. We have become the largest independent record label in the U.S., with a significant global presence covering Africa, Asia, Europe, Australia, and North and South America. We keep ourselves busy with a large range of music-related services from original content and marketing to distribution and recordings.Our commitment to artistic creativity, innovation, and progressive business solutions forms the foundation of our corporate culture. We believe in fostering talent, not just in our artists but also within our professional teams. As we continue to expand, we invite you to join us on this exciting journey.The Role Remix: EMPIRE is looking for a Lead Backend Engineer (Content Management) to join our downtown San Francisco office. This senior, hands-on role reports directly to the VP of Engineering. You will own the architecture, development, and scaling of backend systems that power our music content management platforms for the music industry. These platforms serve artists, labels, distributors, and DSPs, and require high reliability, flexibility, and integration with industry-standard workflows. You’ll partner closely with product managers, frontend engineers, and media/data operations teams to translate business needs into secure, efficient, and scalable backend solutions. The ideal candidate has deep expertise in PHP (vanilla and modern frameworks such as Laravel), strong systems design experience, and fluency in music industry concepts like rights management, royalties, and digital distribution. If you’ve successfully led backend teams in high-growth or startup environments—and especially if you’ve built systems for music or digital media—we’d love to hear from you.ResponsibilitiesOwn the architecture, design, and implementation of robust, scalable backend systems and APIs that support our music content management and distribution systems.Build scalable, secure, and maintainable backend code using PHP (vanilla + Laravel).Drive backend performance, availability, and resilience across core applications.Establish and enforce best practices in code quality, testing, database design, and deployment.M"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4409622235",
@@ -2186,26 +2297,6 @@
         "No mention of AWS certification"
       ],
       "description": "We’re a team of 500+ professionals who develop cutting-edge proxy and web data scraping solutions for thousands of the world’s best known businesses, including Fortune 500 companies.What’s in store for you:You’ll be solving complex challenges and maintaining our own infrastructure with 60PB+ monthly data traffic. Here are its scale and maturity in numbers: 6PB+ Ceph storage 60PB+ monthly data traffic through our systems 300k+ service requests/sec processed 500k+ Kafka messages/sec streamedJoin a product used by over 15 million people worldwide and make a real impact from day one. With a rapid development cycle, your features go live fast - no long waits, just continuous delivery and visible results.You’ll work with a modern, up-to-date tech stack (latest PHP, frameworks, databases) in a fully containerized environment, running Kubernetes in production for over seven years. Tackle big data challenges daily, explore Go in real projects, and help shape the engineering standards and best practices we follow.Your day-to-day:Develop a system and solutions that could be easily scalable;Write clean, tested, documented code that delivers real business value;Own the entire development cycle - from research and prototyping to deployment;Deliver and review technical design, code, and documentation;Contribute to technical decision-making in an early-stage, fast-growing project;Create, review and maintain multiple microservices in order to optimize them for best performance and stabilityYour experience & skills:Have deep knowledge in PHP (preferably Symfony framework, other frameworks - nice to have);Have some experience or interested in Golang, NodeJS or similar languages;Know how SQL and NoSQL databases work and how to write optimized queries and debug them if needed;Know why automated tests can save the world;Real-time data processing and event streaming is something you already know or it seems to be an interesting field to you;Be passionate about technology and interested in constantly trying something new;Have some experience with any of the following technologies we extensively use in our stack: Docker, Kubernetes, Microservices, Kafka, MySQL clusters, Gitlab CI, Redis;Fluent in English and LithuanianTech stack:PHP;Golang;Kafka;Redis;Kubernetes;Microservices;Gitlab CI;SQL and NoSQLSalary:Gross salary: 4000 - 7200 EUR/month. Keep in mind that we are open to discussing a different salary based on your skills and experienceTo support your professional growth and mak"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4416632491",
-      "title": "Senior PHP/Laravel Developer (+Shopify)",
-      "company": "Decima Digital Inc.",
-      "url": "https://pl.linkedin.com/jobs/view/senior-php-laravel-developer-%2Bshopify-at-decima-digital-inc-4416632491",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-29",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Shopify experience not specified"
-      ],
-      "description": "Decima Digital builds commerce systems that power global brands.We’re on the hunt for an experienced PHP / Laravel Developer to join our fully remote crew.We’re looking for someone who takes immense pride in writing clean, high-performing code and who communicates clearly and effectively.Your day-to-day execution will focus on two coreareas:New Delivery: Developing new application backends, complex integrations, and ETL processes thatconnect e-commerce and enterprise systems.Support & Optimization: Enhancing and supporting existing solutions to serve evolving client needsYou will:Build new Laravel applications that drive high-impact websites and web appsEnhance and optimize existing Laravel projects to support evolving client needsDevelop integrations with e-commerce systems (e.g., Shopify)Contribute to frontend components when neededWork closely with project managers, developers, and client teams across the full project lifecycleThis position works directly with team members, project managers, and client personnel throughout the project lifecycle - from project kick-off through deployment - gathering requirements and developing solutions to meet client expectations.ResponsibilitiesDevelop new Laravel apps: Create applications that power top-tier websites and web appsEnhance existing projects: Modify and optimize current Laravel systems to better serve evolving client needsBackend opportunities: Build cool Laravel integrations that seamlessly integrate with enterprise e-commerce systems such as ShopifyMultifaceted projects: Tackle a mix of both routine and exciting tasks to support our talented team and diverse client baseRequirementsBachelor’s degree specializing in Computer Science, Computer Information Systems, or related field or equivalent work experienceAt least 5 years of PHP development with knowledge of the Laravel frameworkAt least 2 years of Node.js development experienceAt least 2 years of experience in Ecommerce web developmentAt least 1 year of experience in the Shopify Plus platformStrong proficiency in relational databases, particularly MySQLReact experience a plusProven ability to troubleshoot complex issuesWorking knowledge of Cloud platforms (AWS, Azure) is a plusStrong Git and GitHub knowledge6 hours of your daily work hours must overlap with US Central Time zone business hours (8am - 5pm CT)We offerWork on enterprise commerce systems for global brandsSupportive, transparent, and collaborative team cultureCompetitive compensation and fu"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4389474695",
@@ -2694,26 +2785,6 @@
         "Requires AWS certification"
       ],
       "description": "Welcome to the Agentic Commerce EraAt Commerce, our mission is to empower businesses to innovate, grow, and thrive with our open, AI-driven commerce ecosystem. As the parent company of BigCommerce, Feedonomics, and Makeswift, we connect the tools and systems that power growth, enabling businesses to unlock the full potential of their data, deliver seamless and personalized experiences across every channel, and adapt swiftly to an ever-changing market. Simply said, we help businesses confidently solve complex commerce challenges so they can build smarter, adapt faster, and grow on their own terms. If you want to be part of a team of bold builders, sharp thinkers, and technical trailblazers, working together to shape the future of commerce, this is the place for you.As a Commerce brand, Feedonomics is a leading product feed management platform that helps brands, retailers, and agencies list and optimize products across top ecommerce channels worldwide. Feedonomics manages everything from onboarding to ongoing feed optimization, enabling our clients to scale faster with less effort. Feedonomics has earned a strong reputation for a full-service model and powerful technology—all rooted in a commitment to excellence.SummaryWe are looking for a highly motivated and experienced Senior Software Engineer - Backend to join the fully remote Engineering team at Feedonomics. You will be working with a highly collaborative and cross-functional Backend Engineering team to deliver and scale core infrastructure components and services that power our robust, high-performance, data-intensive SaaS platform.What You'll DoCollaborate on the architecture, design, and development of scalable and highly available applications and services.Solve complex infrastructure-related problems with code, developing and providing post-release support for scalable applications.Identify and implement enhancements to DevOps practices and tooling, leveraging automation to enhance robustness of the CI/CD pipeline, thereby streamlining efficient application development and deployment.Drive technology design and articulate architecture solution options to the product owners and Engineering leadership.Conduct post-mortems to analyze and prevent repeat failures.Be a champion for Continuous Improvement in end-to-end infrastructure and systems.Evaluate and recommend tools, technologies and processes that solve concrete business problems.Become a domain expert who follows industry trends and applies best"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4414249830",
-      "title": "Backend Developer - PHP (w/m/d)",
-      "company": "MOGIC",
-      "url": "https://de.linkedin.com/jobs/view/backend-developer-php-w-m-d-at-mogic-4414249830",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-27",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No AWS certification",
-        "No description available"
-      ],
-      "description": "ZustimmungDetails[#IABV2SETTINGS#]Über CookiesDiese Webseite verwendet CookiesWir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.[#GPC_BANNER_ICON#][#GPC_TOAST_TEXT#]EinwilligungsauswahlNotwendigPräferenzenStatistikenMarketingDetails zeigenDetailsCookieConsentSpeichert den Zustimmungsstatus des Benutzers für Cookies auf der aktuellen Domäne.Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen, indem sie Grundfunktionen wie Seitennavigation und Zugriff auf sichere Bereiche der Webseite ermöglichen. Die Webseite kann ohne diese Cookies nicht richtig funktionieren.Cookiebot 1 Erfahren Sie mehr über diesen AnbieterMaximale Speicherdauer: 1 MonatTyp: HTTP-Cookie Ein Teil der Daten, die dieser Anbieter gesammelt hat, dient der Personalisierung und der Messung der Werbewirksamkeit.Präferenz-Cookies ermöglichen einer Webseite sich an Informationen zu erinnern, die die Art beeinflussen, wie sich eine Webseite verhält oder aussieht, wie z. B. Ihre bevorzugte Sprache oder die Region in der Sie sich befinden.Wir nutzen diese Cookie-Typen nicht.Statistik-Cookies helfen Webseiten-Besitzern zu verstehen, wie Besucher mit Webseiten interagieren, indem Informationen anonym gesammelt und gemeldet werden.Google 2 Erfahren Sie mehr über diesen Anbieter_gaRegistriert eine eindeutige ID, die verwendet wird, um statistische Daten dazu, wie der Besucher die Website nutzt, zu generieren.Maximale Speicherdauer: 2 JahreTyp: HTTP-Cookie_ga_#Sammelt Daten dazu, wie oft ein Benutzer eine Website besucht hat, sowie Daten für den ersten und letzten Besuch. Von Google Analytics verwendet.Maximale Speicherdauer: 2 JahreTyp: HTTP-Cookie JotForm 2 Erfahren Sie mehr über diesen Anbieterguest [x2]Registriert Daten auf dem Webseite-Verhalten der Besucher. Dies wird für interne Analysen und Webseite-Optimierung verwendet.Maximale Speicherdauer: 1 MonatTyp: HTTP-Cookie lastExternalReferrerErmittelt, wie der Nutzer die Website erreicht hat, indem seine letzte URL-Adresse registriert wird.Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu fo"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4419942495",
