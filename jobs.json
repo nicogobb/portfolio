@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T10:01:10.189886+00:00",
+  "updated_at": "2026-05-31T13:01:02.648158+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -1972,6 +1972,67 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4389183850",
+      "title": "Senior Backend Engineer",
+      "company": "group.one",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-at-group-one-4389183850",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-31",
+      "denmark": true,
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No mention of MongoDB"
+      ],
+      "description": "Are you a skilled Backend Developer (Node.js) with a passion for scalable systems and robust solutions? Do you want to be a key player in a team building the next generation of digital services? Then this might be your next challenge!About UsWe are group.one, a fast-growing European tech company empowering over 2 million small and medium-sized businesses to succeed online. With a 1,500-strong team across 20 offices, group.one delivers an integrated suite of SaaS products—ranging from AI-powered website builders and WordPress hosting to marketing, e-commerce, and compliance tools. Our mission is simple: to help entrepreneurs win digitally with easy-to-use products, scalable cloud infrastructure, and local expertise.About The TeamWe believe in modern technology, agile workflows, and a culture where autonomy, innovation, and personal connection are at the core. Our multi-cultural, English-speaking team is a rapidly growing group of passionate engineers, working closely with Product, UI, UX, and QA to build next-generation AI and WordPress solutions. We are developing Flowpilot.one, a conversational AI-based website builder for WordPress that enables anyone to create a professional site through natural dialogue — launching globally across our brands. In parallel, we build and maintain WP.one, a powerful managed WordPress hosting platform designed for agencies and developers. Our team currently includes four local engineers (growing to eight), a Support Engineer in Finland, UI and UX designers based in Copenhagen, and QA support from India — all collaborating tightly to deliver high-quality, scalable products that redefine how websites are created and managed.About The RoleWe are looking for a Backend Developer fluent with NodeJS (TypeScript) and understanding of NestJS with an interest in AI frameworks (e.g. LangChain) and agentic systems. As a Backend Developer, you’ll work on projects that integrate conversational AI into website generation, editing, and connectivity with internal and external systems and plugins. You’ll also have the opportunity to experiment and expand your expertise by building AI-driven solutions for various use cases defined by the team.This is a remote position, with travel to Finland required approximately once every 1–2 months.What You’ll DoBuild and evolve our AI-powered backend systems that connect conversational AI with website generation, editing, and plugin integrations.Design and implement scalable APIs and microservices using "
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4421611282",
+      "title": "PHP Developer (Remote)",
+      "company": "Quik Hire Staffing",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-remote-at-quik-hire-staffing-4421611282",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-31",
+      "description": "Job Title: PHP Developer (Remote)Location: Remote (United States, Canada, United Kingdom, Australia)Work Mode: Fully RemoteRole OverviewHelp design and evaluate autonomous AI agents across multiple LLMs, spanning health, education, daily life, and other real-world domains (all coding work). Shape the future of agentic AI systems by providing expert human feedback to leading AI organisations. Help train Large Language Models (LLMs) for complex, multi-step architectural workflows.Key ResponsibilitiesAI Agent EvaluationWrite evaluation rubrics with objective pass/fail criteriaDebug agent traces to identify failure patternsStress test agents against edge cases, prompt injection, and tool misuseTechnical AssessmentAssess production-grade modular software architectureAnalyse multi-turn system interactions and behavioursProvide high-density technical feedback for LLM trainingProject WorkflowCreate an account and upload a resume/IDComplete the onboarding assessmentStart earning through flexible task assignmentsQualificationsExperience in backend engineering, AI automation, or complex systems integrationProven ability to build and maintain production-grade software with modular separation (e.g., distinct services for data parsing, logic processing, and reporting)Strong command of at least two major languages (e.g., Python, JavaScript, Go, or Java) and experience working with SQL databasesPractical experience building for live, non-mocked environments and handling multi-turn system interactionsPreferred (Nice to Have)Experience integrating agents with live tools such as Supabase, Gmail, and other APIsFamiliarity with persistent state and session-tracking patternsExperience identifying privacy leaks, authority escalation, or indirect prompt injection vulnerabilitiesCompensationHourly compensation ranges from USD $30–$50, depending on experience and task complexityPayments are issued weekly via supported payout platforms (e.g., PayPal or AirTM)Full compensation details are provided prior to task acceptanceEqual Opportunity StatementSelection decisions are based solely on skills, qualifications, and project requirements. We are committed to inclusive and fair engagement practices and consider all qualified applicants without regard to legally protected characteristics.Apply Now!",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AI/LLM experience",
+        "No PHP framework mentioned"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4422535767",
+      "title": "Wordpress / Woocommerce / PHP Developer",
+      "company": "Moosara",
+      "url": "https://www.linkedin.com/jobs/view/wordpress-woocommerce-php-developer-at-moosara-4422535767",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-31",
+      "description": "We are looking for a WordPress / WooCommerce developer with strong PHP experience to help with ongoing customization, migrations, bug fixes, and production support for a client.ResponsibilitiesCustomize WooCommerce behavior using PHPDebug and fix WordPress/WooCommerce issuesWork with WooCommerce hooks, filters, actions, templates, and shortcodesUpdate custom code during WordPress, WooCommerce, PHP, plugin, and theme upgradesTroubleshoot bugs and defectsImprove site stability, performance, and reliabilityDocument changes clearlyHiring ProcessComplete online digitally proctored exam1 on 1 interview with startup founder",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires WordPress/WooCommerce experience",
+        "Limited job description"
+      ]
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/grafana-labs/jobs/staff-backend-engineer-grafana-enterprise-us-remote",
       "title": "Staff Backend Engineer - Grafana Enterprise | US | Remote",
       "company": "Grafana Labs",
@@ -2285,27 +2346,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4389183850",
-      "title": "Senior Backend Engineer",
-      "company": "group.one",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-at-group-one-4389183850",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-30",
-      "denmark": true,
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "No mention of MongoDB"
-      ],
-      "description": "Are you a skilled Backend Developer (Node.js) with a passion for scalable systems and robust solutions? Do you want to be a key player in a team building the next generation of digital services? Then this might be your next challenge!About UsWe are group.one, a fast-growing European tech company empowering over 2 million small and medium-sized businesses to succeed online. With a 1,500-strong team across 20 offices, group.one delivers an integrated suite of SaaS products—ranging from AI-powered website builders and WordPress hosting to marketing, e-commerce, and compliance tools. Our mission is simple: to help entrepreneurs win digitally with easy-to-use products, scalable cloud infrastructure, and local expertise.About The TeamWe believe in modern technology, agile workflows, and a culture where autonomy, innovation, and personal connection are at the core. Our multi-cultural, English-speaking team is a rapidly growing group of passionate engineers, working closely with Product, UI, UX, and QA to build next-generation AI and WordPress solutions. We are developing Flowpilot.one, a conversational AI-based website builder for WordPress that enables anyone to create a professional site through natural dialogue — launching globally across our brands. In parallel, we build and maintain WP.one, a powerful managed WordPress hosting platform designed for agencies and developers. Our team currently includes four local engineers (growing to eight), a Support Engineer in Finland, UI and UX designers based in Copenhagen, and QA support from India — all collaborating tightly to deliver high-quality, scalable products that redefine how websites are created and managed.About The RoleWe are looking for a Backend Developer fluent with NodeJS (TypeScript) and understanding of NestJS with an interest in AI frameworks (e.g. LangChain) and agentic systems. As a Backend Developer, you’ll work on projects that integrate conversational AI into website generation, editing, and connectivity with internal and external systems and plugins. You’ll also have the opportunity to experiment and expand your expertise by building AI-driven solutions for various use cases defined by the team.This is a remote position, with travel to Finland required approximately once every 1–2 months.What You’ll DoBuild and evolve our AI-powered backend systems that connect conversational AI with website generation, editing, and plugin integrations.Design and implement scalable APIs and microservices using "
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4356448172",
       "title": "PHP Web Developer - Hybrid",
       "company": "SitusAMC",
@@ -2442,26 +2482,6 @@
       "match_cons": [
         "Requires AWS certification",
         "Go and Node.js not mentioned"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4421380031",
-      "title": "PHP Developer (Remote)",
-      "company": "Quik Hire Staffing",
-      "url": "https://www.linkedin.com/jobs/view/php-developer-remote-at-quik-hire-staffing-4421380031",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-30",
-      "description": "Job Title: PHP Developer (Remote)Location: Remote (United States, Canada, United Kingdom, Australia)Work Mode: Fully RemoteRole OverviewHelp design and evaluate autonomous AI agents across multiple LLMs, spanning health, education, daily life, and other real-world domains (all coding work). Shape the future of agentic AI systems by providing expert human feedback to leading AI organisations. Help train Large Language Models (LLMs) for complex, multi-step architectural workflows.Key ResponsibilitiesAI Agent EvaluationWrite evaluation rubrics with objective pass/fail criteriaDebug agent traces to identify failure patternsStress test agents against edge cases, prompt injection, and tool misuseTechnical AssessmentAssess production-grade modular software architectureAnalyse multi-turn system interactions and behavioursProvide high-density technical feedback for LLM trainingProject WorkflowCreate an account and upload a resume/IDComplete the onboarding assessmentStart earning through flexible task assignmentsQualificationsExperience in backend engineering, AI automation, or complex systems integrationProven ability to build and maintain production-grade software with modular separation (e.g., distinct services for data parsing, logic processing, and reporting)Strong command of at least two major languages (e.g., Python, JavaScript, Go, or Java) and experience working with SQL databasesPractical experience building for live, non-mocked environments and handling multi-turn system interactionsPreferred (Nice to Have)Experience integrating agents with live tools such as Supabase, Gmail, and other APIsFamiliarity with persistent state and session-tracking patternsExperience identifying privacy leaks, authority escalation, or indirect prompt injection vulnerabilitiesCompensationHourly compensation ranges from USD $30–$50, depending on experience and task complexityPayments are issued weekly via supported payout platforms (e.g., PayPal or AirTM)Full compensation details are provided prior to task acceptanceEqual Opportunity StatementSelection decisions are based solely on skills, qualifications, and project requirements. We are committed to inclusive and fair engagement practices and consider all qualified applicants without regard to legally protected characteristics.Apply Now!",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AI/LLM experience",
-        "No PHP framework mentioned"
       ]
     },
     {
