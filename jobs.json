@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T19:00:54.957167+00:00",
+  "updated_at": "2026-05-31T22:00:54.721668+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -2251,6 +2251,66 @@
       "description": "Description:Lead Backend Engineer, Content Management (PHP/Laravel)DescriptionEMPIRE is a premier and dynamic music company that prides itself on the development and support of independent artists. We are a rapidly growing firm that has been making waves in the music industry, with an extensive portfolio that spans multiple genres and reaches audiences worldwide. We have become the largest independent record label in the U.S., with a significant global presence covering Africa, Asia, Europe, Australia, and North and South America. We keep ourselves busy with a large range of music-related services from original content and marketing to distribution and recordings.Our commitment to artistic creativity, innovation, and progressive business solutions forms the foundation of our corporate culture. We believe in fostering talent, not just in our artists but also within our professional teams. As we continue to expand, we invite you to join us on this exciting journey.The Role Remix: EMPIRE is looking for a Lead Backend Engineer (Content Management) to join our downtown San Francisco office. This senior, hands-on role reports directly to the VP of Engineering. You will own the architecture, development, and scaling of backend systems that power our music content management platforms for the music industry. These platforms serve artists, labels, distributors, and DSPs, and require high reliability, flexibility, and integration with industry-standard workflows. You’ll partner closely with product managers, frontend engineers, and media/data operations teams to translate business needs into secure, efficient, and scalable backend solutions. The ideal candidate has deep expertise in PHP (vanilla and modern frameworks such as Laravel), strong systems design experience, and fluency in music industry concepts like rights management, royalties, and digital distribution. If you’ve successfully led backend teams in high-growth or startup environments—and especially if you’ve built systems for music or digital media—we’d love to hear from you.ResponsibilitiesOwn the architecture, design, and implementation of robust, scalable backend systems and APIs that support our music content management and distribution systems.Build scalable, secure, and maintainable backend code using PHP (vanilla + Laravel).Drive backend performance, availability, and resilience across core applications.Establish and enforce best practices in code quality, testing, database design, and deployment.M"
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4409348313",
+      "title": "Senior PHP Developer",
+      "company": "Robert Half",
+      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-robert-half-4409348313",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-31",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No mention of PostgreSQL"
+      ],
+      "description": "The ideal candidate will efficiently and quickly write PHP in a timely and scalable way in order to improve the code-base of the company's products in meaningful ways. This candidate will be able to test the code and make adjustments where necessary. They should also be experience in contributing to the whole software design lifecycle. ResponsibilitiesWrite clean, well-designed codeTroubleshoot and test core product software to ensure strong optimizationContribute to all phases of the development lifecycleQualificationsBachelor's degree in computer science or related fieldExperience in software developmentPassion for best design and coding practicesStrong knowledge of relational databases, tools and PHP skills"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4417658865",
+      "title": "Senior PHP Developer",
+      "company": "Avanciers Inc.",
+      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-avanciers-inc-4417658865",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-31",
+      "description": "Avanciers is seeking a highly skilled Technical Lead for an exciting opportunity with one of our Fortune 500 clients, based in Austin, USARole: Technical Lead – PHP/Laravel & ReactLocation: Austin, USAFull time Job8+ yrs PHP + Laravel + React JS experience (mandatory)Previous TL experience with hands-on production support fixing experienceCan work on enhancements and band new project in a very agile envSkills: PHP, Symfony, Laravel, Java, Angular, MySQLPrimary Skills: PHP 7.x / PHP 8.x, MySQL, REST APISecondary Skills: Symfony / LaravelHands-on: Docker, Kubernetes, Git",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Location mismatch"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4421622711",
+      "title": "Software Engineer (PHP)",
+      "company": "Vodworks",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-php-at-vodworks-4421622711",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-05-31",
+      "description": "About The PositionWe are looking for a Software Engineer who will assist us with design, development and installation of software solutions. Your duties will include development, writing code, and documenting functionality.You should be able to build high-quality, innovative and fully performing software in compliance with coding standards and technical design.The immediate project we are recruiting for is for one of the largest streaming companies in the world with 1.4 billion users per month. You will be working on building out further their backend and front end capabilities to support the rapid growth on their platform.Responsibilities AreOrganize full lifecycle software development Prepare specifications and determine operational feasibility Write well designed, testable, efficient code Prepare software verification plans and quality assurance procedures Organize documenting and maintenance of software functionality Integrate software components into a fully functional software system Evaluate and deploy software tools, processes and metrics Provide support and consulting on software systems usage Ensure compliance with project plans and industry standards Software Engineer Requirements Are3+ years' experience of working on a Computer Software Engineer or Software Developer position Significant experience in developing web applications using PHP Working knowledge of a frontend Javascript framework such as ReactJS will be considered advantageous. Good experience in designing interactive applications and with test-driven developmentExperience in documenting requirements and specifications Close familiarity with software engineering tools, software development methodology and release processes BS degree in Computer Science or Engineering is advantageous",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Less experience than required"
+      ]
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/grafana-labs/jobs/staff-backend-engineer-grafana-enterprise-us-remote",
       "title": "Staff Backend Engineer - Grafana Enterprise | US | Remote",
       "company": "Grafana Labs",
@@ -2402,46 +2462,6 @@
       "match_cons": [
         "Requires 2+ years PHP experience",
         "Symfony preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4409348313",
-      "title": "Senior PHP Developer",
-      "company": "Robert Half",
-      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-robert-half-4409348313",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-30",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "No mention of PostgreSQL"
-      ],
-      "description": "The ideal candidate will efficiently and quickly write PHP in a timely and scalable way in order to improve the code-base of the company's products in meaningful ways. This candidate will be able to test the code and make adjustments where necessary. They should also be experience in contributing to the whole software design lifecycle. ResponsibilitiesWrite clean, well-designed codeTroubleshoot and test core product software to ensure strong optimizationContribute to all phases of the development lifecycleQualificationsBachelor's degree in computer science or related fieldExperience in software developmentPassion for best design and coding practicesStrong knowledge of relational databases, tools and PHP skills"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4417658865",
-      "title": "Senior PHP Developer",
-      "company": "Avanciers Inc.",
-      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-avanciers-inc-4417658865",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-30",
-      "description": "Avanciers is seeking a highly skilled Technical Lead for an exciting opportunity with one of our Fortune 500 clients, based in Austin, USARole: Technical Lead – PHP/Laravel & ReactLocation: Austin, USAFull time Job8+ yrs PHP + Laravel + React JS experience (mandatory)Previous TL experience with hands-on production support fixing experienceCan work on enhancements and band new project in a very agile envSkills: PHP, Symfony, Laravel, Java, Angular, MySQLPrimary Skills: PHP 7.x / PHP 8.x, MySQL, REST APISecondary Skills: Symfony / LaravelHands-on: Docker, Kubernetes, Git",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Location mismatch"
       ]
     },
     {
