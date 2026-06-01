@@ -214,8 +214,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const APPLIED_KEY = 'jobs_applied_v1';
     const NOVISA_KEY  = 'jobs_novisa_v1';
+    const CLOSED_KEY  = 'jobs_closed_v1';
     let appliedJobs   = new Set(JSON.parse(localStorage.getItem(APPLIED_KEY) || '[]'));
     let noVisaJobs    = new Set(JSON.parse(localStorage.getItem(NOVISA_KEY)  || '[]'));
+    let closedJobs    = new Set(JSON.parse(localStorage.getItem(CLOSED_KEY)  || '[]'));
     let allJobsData   = [];
     let currentView   = 'remote';   // 'remote' | 'denmark'
     let currentFilter = 'all';      // 'all' | 'pending' | 'applied' | 'no visa'
@@ -224,6 +226,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function saveApplied() {
         localStorage.setItem(APPLIED_KEY, JSON.stringify([...appliedJobs]));
         localStorage.setItem(NOVISA_KEY,  JSON.stringify([...noVisaJobs]));
+        localStorage.setItem(CLOSED_KEY,  JSON.stringify([...closedJobs]));
     }
 
     function renderJobs(jobs) {
@@ -299,7 +302,8 @@ document.addEventListener('DOMContentLoaded', function() {
         list.innerHTML = filtered.map(j => {
             const applied = appliedJobs.has(j.id);
             const novisa  = noVisaJobs.has(j.id);
-            const cardCls = applied ? ' jobs__card--applied' : novisa ? ' jobs__card--novisa' : '';
+            const closed  = closedJobs.has(j.id);
+            const cardCls = closed ? ' jobs__card--closed' : applied ? ' jobs__card--applied' : novisa ? ' jobs__card--novisa' : '';
             return `
             <div class="jobs__card${cardCls}">
                 <a class="jobs__card-title" href="${j.url}" target="_blank" rel="noopener noreferrer">${j.title}</a>
@@ -312,6 +316,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     </button>
                     <button class="jobs__novisa-btn${novisa ? ' jobs__novisa-btn--on' : ''}" data-id="${j.id}" data-action="novisa">
                         ${novisa ? '⊘ no visa' : '⊘ visa req.'}
+                    </button>
+                    <button class="jobs__closed-btn${closed ? ' jobs__closed-btn--on' : ''}" data-id="${j.id}" data-action="closed">
+                        ${closed ? '✕ closed' : '✕ close'}
                     </button>
                     ${j.description ? `<button class="jobs__letter-btn" data-id="${j.id}" data-action="letter">✉ letter</button>` : ''}
                 </div>
@@ -394,6 +401,12 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 noVisaJobs.add(id);
                 appliedJobs.delete(id);          // exclusive: clear applied
+            }
+        } else if (action === 'closed') {
+            if (closedJobs.has(id)) {
+                closedJobs.delete(id);           // undo closed
+            } else {
+                closedJobs.add(id);
             }
         } else if (action === 'letter') {
             const job = allJobsData.find(j => j.id === id);
