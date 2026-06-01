@@ -627,27 +627,16 @@ body {
     font-size: 0.72rem;
     padding: 0.22rem 0.6rem;
     border-radius: 3px;
-    border: 1px solid rgba(0, 255, 0, 0.15);
-    background: rgba(0, 255, 0, 0.04);
-    color: rgba(0, 255, 0, 0.45);
-    white-space: nowrap;
-    transition: background 0.2s, border-color 0.2s;
-}
-
-.skill__tag--core {
-    border-color: rgba(0, 255, 0, 0.45);
+    border: 1px solid rgba(0, 255, 0, 0.45);
     background: rgba(0, 255, 0, 0.1);
     color: rgba(0, 255, 0, 0.9);
     font-weight: 600;
+    white-space: nowrap;
     box-shadow: 0 0 6px rgba(0, 255, 0, 0.08);
+    transition: background 0.2s, border-color 0.2s;
 }
 
 .skill__card:hover .skill__tag {
-    border-color: rgba(0, 255, 0, 0.22);
-    background: rgba(0, 255, 0, 0.07);
-}
-
-.skill__card:hover .skill__tag--core {
     border-color: rgba(0, 255, 0, 0.6);
     background: rgba(0, 255, 0, 0.14);
     box-shadow: 0 0 10px rgba(0, 255, 0, 0.12);
