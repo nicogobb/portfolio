@@ -241,7 +241,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const byStatus  = currentFilter === 'applied'  ? byView.filter(j =>  appliedJobs.has(j.id))
                         : currentFilter === 'no visa'  ? byView.filter(j =>  noVisaJobs.has(j.id))
-                        : currentFilter === 'pending'   ? byView.filter(j => !appliedJobs.has(j.id) && !noVisaJobs.has(j.id))
+                        : currentFilter === 'closed'   ? byView.filter(j =>  closedJobs.has(j.id))
+                        : currentFilter === 'pending'   ? byView.filter(j => !appliedJobs.has(j.id) && !noVisaJobs.has(j.id) && !closedJobs.has(j.id))
                         : byView;
 
         const q        = searchQuery.trim().toLowerCase();
@@ -256,10 +257,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const nApplied = byView.filter(j =>  appliedJobs.has(j.id)).length;
         const nNoVisa  = byView.filter(j =>  noVisaJobs.has(j.id)).length;
-        const nPending = byView.length - nApplied - nNoVisa;
+        const nClosed  = byView.filter(j =>  closedJobs.has(j.id)).length;
+        const nPending = byView.length - nApplied - nNoVisa - nClosed;
         const parts    = [`${nPending} pending`];
         if (nApplied) parts.push(`${nApplied} applied`);
         if (nNoVisa)  parts.push(`${nNoVisa} no visa`);
+        if (nClosed)  parts.push(`${nClosed} closed`);
         meta.textContent = `$ jobs --${currentView} · ${parts.join(' · ')}`;
 
         filtersEl.innerHTML = `
@@ -271,7 +274,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <input class="jobs__search" id="jobs-search" type="text" placeholder="$ search title, company, source..." value="${searchQuery.replace(/"/g, '&quot;')}">
             </div>
             <div class="jobs__statuses">
-                ${['all', 'pending', 'applied', 'no visa'].map(f =>
+                ${['all', 'pending', 'applied', 'no visa', 'closed'].map(f =>
                     `<button class="jobs__filter${f === currentFilter ? ' jobs__filter--active' : ''}" data-filter="${f}">${f}</button>`
                 ).join('')}
             </div>`;
