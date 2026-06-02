@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T10:01:57.853023+00:00",
+  "updated_at": "2026-06-02T13:01:06.648938+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -35,6 +35,26 @@
       "match_confidence": "high",
       "match_pros": [],
       "match_cons": []
+    },
+    {
+      "id": "Jobindex_https://www.jobindex.dk/vis-job/h1670964",
+      "title": "Vi søger en webudvikler til Det Faglige Hus i Esbjerg, Det Faglige Hus",
+      "company": "",
+      "url": "https://www.jobindex.dk/vis-job/h1670964",
+      "source": "Jobindex",
+      "date": "Tue, 2 Jun",
+      "fetched_at": "2026-06-02",
+      "denmark": true,
+      "description": "Vi søger en webudvikler til Det Faglige Hus i Esbjerg Vi er i fortsat rivende udvikling, og det stiller store krav til vores digitale platforme, integrationer og brugeroplevelser. Du kommer til at arbejde med videreudvikling af vores hjemmeside og digitale platforme – samtidig med at du bliver en del af teamets øvrige udviklingsopgaver som fullstack udvikler.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ]
     },
     {
       "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/community-sports-partners-web-developer",
@@ -212,6 +232,97 @@
         "Remote-friendly"
       ],
       "match_cons": [
+        "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "WorkingNomads_https://www.workingnomads.com/job/go/1641422/",
+      "title": "Senior Backend Rust Developer",
+      "company": "Proxify",
+      "url": "https://www.workingnomads.com/job/go/1641422/",
+      "source": "WorkingNomads",
+      "date": "2026-06-02",
+      "fetched_at": "2026-06-02",
+      "description": "About us: Talent has no borders. Proxify's mission is to connect top developers around the world with the opportunities they deserve. So, it doesn't matter where you are; we are here to help you fast-track your independent career in the right direction. 🙂 Since our launch, Proxify's developers have successfully worked with 1200+ happy clients to build their products and growth features. 5000+ talented developers trust Proxify and its network to fulfill their dreams and objectives. Proxify is shaped by a global network of supportive, talented developers interested in remote full-time jobs. Our Glassdoor (4.5/5) and Trustpilot (4.8/5) ratings reflect the trust developers place in us and our commitment to our members' success. The Role: We are looking for a Senior Backend Rust Developer to jo",
+      "match_score": 0,
+      "match_confidence": "high",
+      "match_pros": [],
+      "match_cons": [
+        "Requires Rust experience",
+        "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "WorkingNomads_https://www.workingnomads.com/job/go/1641411/",
+      "title": "Senior WordPress Developer (Fullstack)",
+      "company": "Proxify",
+      "url": "https://www.workingnomads.com/job/go/1641411/",
+      "source": "WorkingNomads",
+      "date": "2026-06-02",
+      "fetched_at": "2026-06-02",
+      "description": "About us: Talent has no borders. Proxify's mission is to connect top developers around the world with opportunities they deserve. So, it doesn't matter where you are; we are here to help you fast-track your independent career in the right direction. 🙂 Since our launch, Proxify's developers have successfully worked with 1200+ happy clients to build their products and growth features. 5000+ talented developers trust Proxify and its network to fulfill their dreams and objectives. Proxify is shaped by a global network of supportive, talented developers interested in remote full-time jobs. Our Glassdoor (4.5/5) and Trustpilot (4.8/5) ratings reflect the trust developers place in us and our commitment to our members' success. The Role: We are looking for a Senior Fullstack WordPress Developer to",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No direct WordPress experience"
+      ]
+    },
+    {
+      "id": "WorkingNomads_https://www.workingnomads.com/job/go/1641405/",
+      "title": "Senior Frontend Developer (Vue.js)",
+      "company": "Proxify",
+      "url": "https://www.workingnomads.com/job/go/1641405/",
+      "source": "WorkingNomads",
+      "date": "2026-06-02",
+      "fetched_at": "2026-06-02",
+      "description": "About us: Talent has no borders. Proxify's mission is to connect top developers around the world with opportunities they deserve. So, it doesn't matter where you are; we are here to help you fast-track your independent career in the right direction. 🙂 Since our launch, Proxify's developers have successfully worked with 1200+ happy clients to build their products and growth features. 5000+ talented developers trust Proxify and its network to fulfill their dreams and objectives. Proxify is shaped by a global network of supportive, talented developers interested in remote full-time jobs. Our Glassdoor (4.5/5) and Trustpilot (4.8/5) ratings reflect the trust developers place in us and our commitment to our members' success. The Role: We are looking for a Senior Frontend Developer to join one o",
+      "match_score": 0,
+      "match_confidence": "high",
+      "match_pros": [],
+      "match_cons": [
+        "Requires Vue.js experience",
+        "Requires frontend development experience"
+      ]
+    },
+    {
+      "id": "WorkingNomads_https://www.workingnomads.com/job/go/1641395/",
+      "title": "Senior Backend Developer (Node.js / Nest.js)",
+      "company": "Proxify",
+      "url": "https://www.workingnomads.com/job/go/1641395/",
+      "source": "WorkingNomads",
+      "date": "2026-06-02",
+      "fetched_at": "2026-06-02",
+      "description": "About us: Talent has no borders. Proxify's mission is to connect top developers around the world with the opportunities they deserve. So, it doesn't matter where you are; we are here to help you fast-track your independent career in the right direction. 🙂 Since our launch, Proxify's developers have successfully worked with 1200+ happy clients to build their products and growth features. 5000+ talented developers trust Proxify and its network to fulfill their dreams and objectives. Proxify is shaped by a global network of supportive, talented developers interested in remote full-time jobs. Our Glassdoor (4.5/5) and Trustpilot (4.8/5) ratings reflect the trust developers place in us and our commitment to our members' success. The Role: We are looking for a Senior Backend (Node.js / Nest.js) ",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires Node.js",
+        "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "WorkingNomads_https://www.workingnomads.com/job/go/1641393/",
+      "title": "Senior Backend Developer (Python)",
+      "company": "Proxify",
+      "url": "https://www.workingnomads.com/job/go/1641393/",
+      "source": "WorkingNomads",
+      "date": "2026-06-02",
+      "fetched_at": "2026-06-02",
+      "description": "About us: Talent has no borders. Proxify's mission is to connect top developers around the world with the opportunities they deserve. So, it doesn't matter where you are; we are here to help you fast-track your independent career in the right direction. 🙂 Since our launch, Proxify's developers have successfully worked with 1200+ happy clients to build their products and growth features. 5000+ talented developers trust Proxify and its network to fulfill their dreams and objectives. Proxify is shaped by a global network of supportive, talented developers interested in remote full-time jobs. Our Glassdoor (4.5/5) and Trustpilot (4.8/5) ratings reflect the trust developers place in us and our commitment to our members' success. The Role: We are looking for a Senior Python Developer for one of ",
+      "match_score": 0,
+      "match_confidence": "high",
+      "match_pros": [],
+      "match_cons": [
+        "Requires Python experience",
         "Requires AWS certification"
       ]
     },
@@ -1990,6 +2101,26 @@
       ],
       "match_cons": [
         "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4423914420",
+      "title": "Senior PHP backend engineers | Remote",
+      "company": "CodeGeniusRecruit",
+      "url": "https://www.linkedin.com/jobs/view/senior-php-backend-engineers-remote-at-codegeniusrecruit-4423914420",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "description": "Work SnapshotType: Hourly contractLocation: RemoteCommitment: 20 40 hrs/weekCommission: $100 $200/hourWhat You Ll Be DoingEvaluate complex engineering tasks against real-world professional standards in PHP, Fortran, and/or SlangReview code-level scenarios and provide structured written assessmentsWork within Linux/Docker-based repositories and interpret automated CI-style checksDeliver clear written rationales supporting technical evaluationsComplete time-bounded tasks with defined evaluation criteriaWhat We Re Looking ForStrong experience in PHP, including modern PHP (8+), Laravel or Symfony, and large-scale web backendsStrong experience in Fortran, including modern Fortran, parallelization frameworks, and scientific computing environmentsStrong experience in Slang, GPU shader development, graphics programming, and real-time rendering workflowsStrong experience in Linux and Docker-based development environmentsAbility to assess code quality, correctness, and engineering best practices with clear written communicationHigh ownership, adaptability, and ability to quickly ramp up on new technical environmentsHow To ApplyUpload resumeInterviewSubmit form",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires Fortran experience",
+        "Requires Slang experience"
       ]
     },
     {
