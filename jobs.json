@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T19:01:06.325888+00:00",
+  "updated_at": "2026-06-02T22:00:57.340115+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -2538,6 +2538,44 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4423959118",
+      "title": "PHP Developer",
+      "company": "FetchJobs.co",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-at-fetchjobs-co-4423959118",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "description": "About The CompanyWeshwam Executive Search is a premier recruitment firm dedicated to connecting top-tier talent with leading organizations across various industries. With a proven track record of excellence, we specialize in executive search, talent acquisition, and strategic staffing solutions. Our commitment to understanding the unique needs of each client allows us to deliver tailored recruitment strategies that drive growth and success. At Weshwam Executive Search, we prioritize integrity, professionalism, and a client-centric approach to ensure the best outcomes for both our clients and candidates.About The RoleWe are seeking a highly motivated and experienced professional to join our team in the role of Senior Recruitment Consultant. This position offers an exciting opportunity to work closely with leading organizations to identify and attract top talent for critical roles. The successful candidate will be responsible for managing the end-to-end recruitment process, building strong relationships with clients and candidates, and ensuring a seamless hiring experience. This role requires a strategic thinker with excellent communication skills, a deep understanding of various industry sectors, and a passion for delivering exceptional service. As part of our team, you will play a vital role in strengthening our reputation as a trusted partner in executive search and talent acquisition.QualificationsThe ideal candidate will possess a bachelor’s degree in Human Resources, Business Administration, or a related field. A minimum of 5 years of experience in recruitment, preferably within executive search or staffing agencies, is required. Strong understanding of the current recruitment landscape, sourcing techniques, and industry trends is essential. Excellent interpersonal and negotiation skills, along with the ability to work under pressure and manage multiple priorities, are critical. Candidates should demonstrate a track record of successfully placing high-level professionals and building lasting client relationships. Proficiency in applicant tracking systems and other recruitment tools is preferred.ResponsibilitiesLead the full-cycle recruitment process for a diverse range of roles, from entry-level to executive positions.Develop and execute effective sourcing strategies to identify and attract top talent using various channels, including social media, job boards, and professional networks.Screen, interview, and assess candidates to ensure alignment with c",
+      "match_score": 0,
+      "match_confidence": "high",
+      "match_pros": [],
+      "match_cons": [
+        "No PHP, Laravel, or related skills required",
+        "No mention of backend or full-stack development"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4422477139",
+      "title": "Senior Backend Engineer",
+      "company": "Lumina",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-at-lumina-4422477139",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "denmark": true,
+      "description": "Senior Backend EngineerWe are building the decision layer for autonomous agents orchestrating hardware operations across large-scale infrastructure systems.Our first vertical is EV charging networks — an industry that is operationally complex, fragmented, and still heavily dependent on manual processes. At Lumina, we are building systems that can understand, decide and act on operational data in real time.Today, operators use Lumina to configure event triggers, alerts, workflows and automated actions across charging infrastructure. Our platform continuously monitors hardware, identifies issues, and initiates resolution flows using AI, automation and machine learning systems.We are already live in production and operate internationally with customers across seven countries. While EV charging is our first market, the underlying system is data-agnostic and designed to extend into broader infrastructure operations.The roleWe are looking for a strong backend engineer to help build the systems powering Lumina’s operational intelligence platform.You will work closely with founders and own foundational backend systems that need to operate reliably under real-world conditions.This is a high-ownership role for someone who enjoys difficult systems problems, moves quickly, and wants to shape both architecture and product direction from an early stage.You will work on problems such as:Building resilient ingestion systems across APIs, databases and infrastructure systemsDesigning reliable event processing and workflow execution with strong guarantees around retries, durability and observabilitySafely executing AI-generated operational logic in isolated environmentsDesigning secure multi-tenant systems and infrastructure boundariesBuilding backend systems that support autonomous workflows operating on real-world hardware infrastructureYour work will directly shape the core backend foundation of the company.What we are looking forWe care more about capability, ownership and learning speed than credentials.You are likely someone who:Learns quickly and executes with urgencyMaintains high standards and strong engineering judgmentIs highly autonomous and comfortable operating in an evolving environmentEnjoys solving difficult backend and systems problemsThinks pragmatically and ships without compromising reliabilityYou care about building things that work in production, not just prototypes.Why join Lumina?This role is for someone who wants unusually high ownership and real te",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Lack of AWS experience"
+      ]
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/the-quality-group-gmbh/jobs/professional-software-engineer-gn-php-b2b-commerce-7934917658",
       "title": "Professional Software Engineer (gn) – PHP (B2B Commerce)",
       "company": "The Quality Group GmbH",
@@ -2851,25 +2889,6 @@
       "match_cons": [
         "Requires AWS certification",
         "Lithuania location may require relocation"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4418777110",
-      "title": "PHP Developer",
-      "company": "FetchJobs.co",
-      "url": "https://www.linkedin.com/jobs/view/php-developer-at-fetchjobs-co-4418777110",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "description": "About The CompanyChisw is a dynamic and innovative organization committed to delivering exceptional solutions across various industries. With a focus on excellence, integrity, and customer satisfaction, Chisw has established itself as a leader in its field. The company prides itself on fostering a collaborative work environment that encourages professional growth and continuous learning. By leveraging cutting-edge technology and industry best practices, Chisw aims to create impactful solutions that meet the evolving needs of its clients and stakeholders.About The RoleThe role at Chisw offers an exciting opportunity for a dedicated and skilled professional to contribute to our ongoing projects and strategic initiatives. The position involves working closely with cross-functional teams to develop, implement, and optimize solutions that align with the company's goals. The ideal candidate will possess a strong technical background, excellent problem-solving skills, and a proactive approach to challenges. This role is pivotal in ensuring the delivery of high-quality services and products, fostering innovation, and maintaining the company's reputation for excellence. Candidates should be prepared to engage in a fast-paced environment, demonstrate adaptability, and uphold the company's core values in all aspects of their work.QualificationsThe ideal candidate will have a minimum of a bachelor's degree in a relevant field such as technology, engineering, business administration, or related disciplines. Proven experience in the specific domain of the role is highly desirable, with a strong track record of successful project management and execution. Technical proficiency in relevant tools, platforms, or programming languages is essential. Excellent communication and interpersonal skills are required to collaborate effectively with team members and clients. A proactive mindset, problem-solving ability, and a commitment to continuous improvement are qualities that will set candidates apart. Certifications or additional training in specialized areas will be considered an advantage.ResponsibilitiesThe responsibilities associated with this role include but are not limited to:Collaborating with cross-functional teams to define project requirements and scope.Developing and implementing innovative solutions to meet client needs and project objectives.Managing project timelines, budgets, and resources to ensure timely delivery.Conducting thorough testing and quality assuran",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
       ]
     },
     {
