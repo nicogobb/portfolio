@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T13:01:06.648938+00:00",
+  "updated_at": "2026-06-02T16:01:06.901365+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -54,6 +54,27 @@
       ],
       "match_cons": [
         "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "Jobindex_https://www.jobindex.dk/vis-job/h1671115",
+      "title": "Data Engineer / Backend udvikler til FK Distributions BI-udviklingsteam, North Media A/S",
+      "company": "",
+      "url": "https://www.jobindex.dk/vis-job/h1671115",
+      "source": "Jobindex",
+      "date": "Tue, 2 Jun",
+      "fetched_at": "2026-06-02",
+      "denmark": true,
+      "description": "Data Engineer /​ Backend udvikler til FK Distributions BI-udviklingsteam Tåstrup Er du i starten af din karriere som Data Engineer eller udvikler, og har du lyst til at arbejde med både klassisk BI, cloud-løsninger og nye teknologier som AI? Så har du nu muligheden. Du bliver en del af en hverdag, hvor du både lærer eksisterende løsninger at kende, bidrager til forbedringer og gradvist får mere ansvar i takt med din udvikling.",
+      "match_score": 83,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires BI and cloud experience",
+        "No AWS certification required"
       ]
     },
     {
@@ -2124,6 +2145,148 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4413411700",
+      "title": "Senior Backend Software Engineer",
+      "company": "Cloudbeds",
+      "url": "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-at-cloudbeds-4413411700",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Senior level, no mention of PHP 8.1+"
+      ],
+      "description": "What Makes Us Unique At Cloudbeds, we're not just building software, we’re transforming hospitality. Our intelligently designed platform powers properties across 150 countries, processing billions in bookings annually. From independent properties to hotel groups, we help hoteliers transform operations and uplevel their commercial strategy through a unified platform that integrates with hundreds of partners. And we do it with a completely remote team. Imagine working alongside global innovators to build AI-powered solutions that solve hoteliers' biggest challenges. Since our founding in 2012, we've become the World's Best Hotel PMS Solutions Provider and landed on Deloitte's Technology Fast 500 again in 2024 – but we're just getting started. Location: Remote - (NORAM)How You'll Make an Impact: As a Senior Backend Engineer on the Distribution Team, you'll be instrumental in developing and enhancing the products that connect Cloudbeds' ecosystem to the world's largest distribution channels. You'll architect scalable solutions using modern technologies, contribute to our microservices migration, and ensure our platform delivers exceptional performance and security for thousands of properties worldwide. Your work will directly impact how hotels reach guests through integrations with major platforms like Booking.com, AirBnb and beyond.Our Distribution Team:We're the bridge connecting properties to the global travel ecosystem. Our team tackles complex integration challenges that directly impact revenue for thousands of hotels worldwide, from building rock-solid connections with major OTAs to ensuring every booking flows seamlessly and securely. We balance innovation with pragmatism: migrating legacy systems to modern microservices while maintaining the reliability our customers depend on. If you thrive on solving hard technical problems with real business impact and love the challenge of both building greenfield features and refactoring legacy code, you'll feel right at home here.What You Bring to the Team:Design and implement robust backend features and improvements using PHP, with a strong focus on performance optimization and scalability for our distribution platformArchitect secure solutions for handling financial transactions and sensitive personal data, applying security best practices throughout the development lifecycleWrite clean, well-tested, and well-documented code with comprehensive test coverage (unit, integration, end-to-end) to maintain high quali"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4418793143",
+      "title": "Senior PHP Developer",
+      "company": "Avanciers Inc.",
+      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-avanciers-inc-4418793143",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "description": "Avanciers is seeking a highly skilled Technical Lead for an exciting opportunity with one of our Fortune 500 clients, based in Austin, USARole: Technical Lead – PHP/Laravel & ReactLocation: Austin, USAFull time Job8+ yrs PHP + Laravel + React JS experience (mandatory)Previous TL experience with hands-on production support fixing experienceCan work on enhancements and band new project in a very agile envSkills: PHP, Symfony, Laravel, Java, Angular, MySQLPrimary Skills: PHP 7.x / PHP 8.x, MySQL, REST APISecondary Skills: Symfony / LaravelHands-on: Docker, Kubernetes, Git",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Location mismatch"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4411617929",
+      "title": "Senior Backend Engineer (Node.js)",
+      "company": "ChurchDesk",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-node-js-at-churchdesk-4411617929",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "denmark": true,
+      "match_score": 40,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Node.js mismatch",
+        "No PHP experience required"
+      ],
+      "description": "At ChurchDesk, our mission is to help churches modernize and stay connected with their communities in a rapidly changing world. As a SaaS company, we provide digital tools that enable churches to streamline operations, communicate effectively, and engage their congregations. Over the past 15 years, we’ve grown from a startup into an international business, yet we remain a small, collaborative team where your impact will be visible from day one. We value diversity, inclusivity, and the unique perspectives each person brings to our mission.About Your New RoleAs a Senior Backend Engineer, you will:Take hands-on ownership of backend projects, solving complex problems and driving implementations to completion.Play a key role in shaping our backend architecture, driving best practices, and maintaining a scalable, performant infrastructure.Mentor and support other engineers, helping grow the team’s technical capabilities.Collaborate closely with our product team, designers, and other engineers to ensure backend solutions align with product goals.Build reliable, scalable, and modular systems using NodeJS, TypeScript, MySQL, Redis, and ElasticSearch.Contribute to continuous improvement of our engineering practices and the evolution of our product to meet customer needs.Skills & RequirementsHas 5+ years of software development experience, with a proven track record of delivering end-to-end backend solutions.Has deep expertise in Node.js, TypeScript, and relational databases (particularly MySQL).Has experience building scalable, performant, and modular backend systems.Understands modern backend engineering practices, including API design, data modeling, testing, and performance optimization.Demonstrates excellent written and verbal communication in English, collaborating effectively with product team and engineers to shape and refine backend features.Has experience working remotely and is based in Copenhagen or elsewhere in the EU, with legal authorization to work.Nice-to-HaveFamiliarity with NoSQL datastores such as ElasticSearch, Redis, or MongoDB.Familiarity with React Native, as our mobile apps and in-person donation terminals are built using it.Experience with AI-assisted development workflows, such as prompt engineering or code generation tools.What We OfferThe opportunity to make a real impact on a product used by some of the largest and oldest institutions in the world.A supportive, low-ceremony, and lean-process environment where your ideas and contributions"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4402002155",
+      "title": "Senior Backend Developer - Booking & Payment Platform",
+      "company": "Trackman",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-booking-payment-platform-at-trackman-4402002155",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "denmark": true,
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No mention of MongoDB"
+      ],
+      "description": "Job DescriptionBe part of scaling a global platform used by millions. We are looking for a Senior Backend Developer to help build and evolve our Booking & Payment platform as our customer base continues to grow. This is a role for someone who enjoys owning end-to-end solutions, designing reliable and robust systems, and collaborating across teams to deliver reliable, scalable services.What You´ll Do Design, build, and maintain backend services and APIs for a complex Booking & Payment platform with more than 3 million users, with a strong focus on quality, performance, and scalability. Take ownership of technical solutions end-to-end: from design beyond single components: analyze requirements, propose architectures that span multiple systems, and to align with dependencies owned by other teams. Work hands-on in Node.js using JavaScript and TypeScript, contributing to architecture, implementation, code reviews, and technical decisions. Work cross-functionally and cross-team: with Product, QA, and UI/UX on requirements and delivery; and on APIs, contracts, and integrations. Share knowledge through mentoring, pairing, and clear technical communication. Job Requirements What you bring 5+ years of professional software development experience, with a track record of owning backend work end-to-end in production systems: not only implementing tasks, but thinking through the whole solution (data, APIs, failure modes, rollout, and ongoing operation). Demonstrated experience with system and solution architecture: breaking problems into services or major components, defining interfaces and ownership, and planning work that coordinates your team’s systems with those of other teams. Strong commercial experience with server-side Node.js and JavaScript/TypeScript, including high-quality, maintainable, testable code and pragmatic trade-offs. Solid understanding of architectural principles and backend fundamentals. Pragmatic approach to testing and CI/CD. Excellent communication and collaboration skills; able to facilitate alignment with other engineering teams and explain technical choices to non-engineering partners. Nice to have Experience with payment platforms or e-commerce / in-person payment flows (how gateways, acquirers, and schemes fit together. Familiarity with financial back-office concerns such as bookkeeping, reconciliation, settlements, or reporting. Experience working with cloud providers such as AWS and/or Azure and designing or operating services on them. T"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4421848564",
+      "title": "Sr. PHP/Laravel Developer",
+      "company": "New York Technology Partners",
+      "url": "https://www.linkedin.com/jobs/view/sr-php-laravel-developer-at-new-york-technology-partners-4421848564",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "description": "Candidates must be comfortable interviewing and working onsite 5x a week. We are looking for a dynamic Laravel PHP developer with a keen eye for detail and a knack for building functional and visually compelling websites and APIs. This role is designed for a high-impact developer who brings both technical excellence and a leadership mindset. Someone who can confidently own projects from beginning to end, shape engineering decisions, and help elevate the team’s overall craft.You will be expected to take initiative, provide architectural input, and actively contribute to strategic conversations around performance, scalability, and implementation. This is a position for someone who leads through execution. You will translate designs into fully functioning APIs and front-end systems with speed, precision, and clarity, while guiding teammates toward shared technical goals.This role is about more than just clean code. It is about delivering seamless user experiences, building systems that scale, and deploying infrastructure that performs under pressure. If you thrive in fast-paced environments, bring a strong sense of ownership and mentorship, and want your work to make an immediate impact on enterprise, government, and global-scale technology, we want you on the team.Key ResponsibilitiesWork in a fast-paced environment, managing multiple projects and deadlines.Take ownership of projects and make critical decisions when necessary.Design, develop, and maintain web applications and associated services.Collaborate with cross-functional teams to define, design, and ship new features.Ensure the performance, quality, and responsiveness of applications.Identify and correct bottlenecks and fix bugs.Stay up-to-date with new technologies and industry trends.Deploy updates and fixes, ensuring optimal functionality of websites without the need for extensive scalability.Required Qualifications3+ years experience as a Laravel developer or similar role.Proficiency in front-end technologies such as HTML, CSS, JavaScript, and modern frameworks (e.g., React, Next.js).Strong knowledge of PHP and the Laravel Framework.Ability to build APIs in Laravel to support headless front-end applications.Experience with database management systems (SQL and NoSQL).Familiarity with cloud services (e.g., AWS).Understanding of version control systems (e.g., Git).Experience working in an agency environment or similar fast-paced setting.Excellent problem-solving skills and the ability to work indepe",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "On-site work 5x a week"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4422410081",
+      "title": "PHP Web Developer",
+      "company": "AgileGrid Solutions",
+      "url": "https://www.linkedin.com/jobs/view/php-web-developer-at-agilegrid-solutions-4422410081",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "description": "About The CompanyGrabJobs is a dynamic and innovative organization dedicated to providing cutting-edge technology solutions to meet the evolving needs of businesses and consumers alike. Committed to fostering a collaborative and growth-oriented environment, GrabJobs specializes in developing web-based platforms that enhance operational efficiency and user experience. With a focus on leveraging the latest technological advancements, GrabJobs strives to deliver reliable, scalable, and user-friendly solutions that empower organizations to achieve their digital transformation goals. Our team is composed of passionate professionals who are driven by a shared mission to innovate and excel in the tech industry, making GrabJobs a reputable name in the field of web development and IT services.About The RoleThe PHP Web Developer I at GrabJobs is a vital member of our Computer Services department, responsible for designing, developing, and maintaining web applications that support our organizational objectives. This is an entry-level position suitable for individuals with up to two years of experience in PHP development. The role involves working closely with departmental leaders and cross-functional teams to translate complex business requirements into efficient and scalable web solutions. The successful candidate will be expected to participate actively in the full development lifecycle, from planning and coding to testing and deployment, ensuring high standards of quality and performance. This hybrid position requires a minimum of several days in our Augusta, GA office weekly, offering a balanced blend of remote and on-site work to foster collaboration and innovation.QualificationsThe ideal candidate should possess a foundational understanding of web development technologies, with 0-2 years of experience in PHP, MySQL, and front-end scripting languages. A degree in Computer Science or relevant work experience is preferred. Proficiency in PHP 7.x+ and experience with APIs, responsive CSS design, and the LAMP stack are essential. Familiarity with version control systems such as Git, debugging skills, and the ability to troubleshoot in mixed environments (Linux, Unix, Windows) are required. Candidates should demonstrate strong organizational skills, attention to detail, and effective communication abilities. Experience with CMS platforms, NodeJS, React, WordPress, and development IDEs like JetBrains or PHP Storm is advantageous. A proactive attitude, problem-solving ",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Limited experience expected"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4401486359",
+      "title": "Senior Backend Engineer - Financial Services",
+      "company": "Monta",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-financial-services-at-monta-4401486359",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "denmark": true,
+      "description": "💰🇩🇰 up to 60,000 DKK/month gross (varies by seniority)About MontaMonta powers the EV charging ecosystem. With 300,000+ monthly users and millions of charge sessions every month, our platform accelerates the electrification of mobility.This is a fast-moving place. The problems are hard, the pace is quick, and the bar is high. If you like real ownership, figuring things out, and seeing the direct impact of your work, you’ll do well with us.AI is built into how we work. It helps us ship faster, make better decisions, and stay lean. Everyone at Monta is expected to use AI tools thoughtfully — and to find smart ways to use them to move the work forward.Our principles keep us grounded: Build Together & Finish, Sweat the Details, Customer First, and Aim for the Moon.The best part of Monta is the people — sharp, ambitious, and good to be around. You’ll be challenged, supported, and trusted to deliver.The RoleWe're looking for a Senior Engineer to join our Financial Services team, the team responsible for every euro that flows through Monta's platform. This is a hands-on, senior individual contributor role where you'll own the architecture and delivery of complex financial systems, working across teams to ensure we can scale reliably as we expand across Europe.Financial Services is at an inflection point. Our transaction volume is growing fast and already processes millions of euros each month. We're building the next generation of our financial infrastructure, including new billing models and compliance capabilities to support expansion into new EU markets. The problems are hard, the stakes are real, and the work matters.We need someone who takes full ownership of what they build. Not someone who waits for direction, but someone who sees what needs to happen, drives it forward, and delivers. You will own projects end-to-end, from technical design through to production, and you'll be accountable for outcomes, not just output.You should also be someone who has embraced AI as a core part of how you work. We use Claude Code extensively across the Financial Services team for everything from writing and reviewing code to designing systems and exploring financial domain problems. We expect you to be an advanced AI user who actively finds new ways to leverage these tools to move faster and think better.This Is What You Will AchieveRedesign Monta's financial backbone. You'll architect and build the new invoicing system that every customer will use, replacing the current in",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Financial services experience lacking"
+      ]
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/the-quality-group-gmbh/jobs/professional-software-engineer-gn-php-b2b-commerce-7934917658",
       "title": "Professional Software Engineer (gn) – PHP (B2B Commerce)",
       "company": "The Quality Group GmbH",
@@ -2261,26 +2424,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4413411700",
-      "title": "Senior Backend Software Engineer",
-      "company": "Cloudbeds",
-      "url": "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-at-cloudbeds-4413411700",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Senior level, no mention of PHP 8.1+"
-      ],
-      "description": "What Makes Us Unique At Cloudbeds, we're not just building software, we’re transforming hospitality. Our intelligently designed platform powers properties across 150 countries, processing billions in bookings annually. From independent properties to hotel groups, we help hoteliers transform operations and uplevel their commercial strategy through a unified platform that integrates with hundreds of partners. And we do it with a completely remote team. Imagine working alongside global innovators to build AI-powered solutions that solve hoteliers' biggest challenges. Since our founding in 2012, we've become the World's Best Hotel PMS Solutions Provider and landed on Deloitte's Technology Fast 500 again in 2024 – but we're just getting started. Location: Remote - (NORAM)How You'll Make an Impact: As a Senior Backend Engineer on the Distribution Team, you'll be instrumental in developing and enhancing the products that connect Cloudbeds' ecosystem to the world's largest distribution channels. You'll architect scalable solutions using modern technologies, contribute to our microservices migration, and ensure our platform delivers exceptional performance and security for thousands of properties worldwide. Your work will directly impact how hotels reach guests through integrations with major platforms like Booking.com, AirBnb and beyond.Our Distribution Team:We're the bridge connecting properties to the global travel ecosystem. Our team tackles complex integration challenges that directly impact revenue for thousands of hotels worldwide, from building rock-solid connections with major OTAs to ensuring every booking flows seamlessly and securely. We balance innovation with pragmatism: migrating legacy systems to modern microservices while maintaining the reliability our customers depend on. If you thrive on solving hard technical problems with real business impact and love the challenge of both building greenfield features and refactoring legacy code, you'll feel right at home here.What You Bring to the Team:Design and implement robust backend features and improvements using PHP, with a strong focus on performance optimization and scalability for our distribution platformArchitect secure solutions for handling financial transactions and sensitive personal data, applying security best practices throughout the development lifecycleWrite clean, well-tested, and well-documented code with comprehensive test coverage (unit, integration, end-to-end) to maintain high quali"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4409348313",
       "title": "Senior PHP Developer",
       "company": "Robert Half",
@@ -2299,26 +2442,6 @@
         "No mention of PostgreSQL"
       ],
       "description": "The ideal candidate will efficiently and quickly write PHP in a timely and scalable way in order to improve the code-base of the company's products in meaningful ways. This candidate will be able to test the code and make adjustments where necessary. They should also be experience in contributing to the whole software design lifecycle. ResponsibilitiesWrite clean, well-designed codeTroubleshoot and test core product software to ensure strong optimizationContribute to all phases of the development lifecycleQualificationsBachelor's degree in computer science or related fieldExperience in software developmentPassion for best design and coding practicesStrong knowledge of relational databases, tools and PHP skills"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4417658865",
-      "title": "Senior PHP Developer",
-      "company": "Avanciers Inc.",
-      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-avanciers-inc-4417658865",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "description": "Avanciers is seeking a highly skilled Technical Lead for an exciting opportunity with one of our Fortune 500 clients, based in Austin, USARole: Technical Lead – PHP/Laravel & ReactLocation: Austin, USAFull time Job8+ yrs PHP + Laravel + React JS experience (mandatory)Previous TL experience with hands-on production support fixing experienceCan work on enhancements and band new project in a very agile envSkills: PHP, Symfony, Laravel, Java, Angular, MySQLPrimary Skills: PHP 7.x / PHP 8.x, MySQL, REST APISecondary Skills: Symfony / LaravelHands-on: Docker, Kubernetes, Git",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Location mismatch"
-      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4421622711",
@@ -2499,47 +2622,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4411617929",
-      "title": "Senior Backend Engineer (Node.js)",
-      "company": "ChurchDesk",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-node-js-at-churchdesk-4411617929",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "denmark": true,
-      "match_score": 40,
-      "match_confidence": "low",
-      "match_pros": [
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Node.js mismatch",
-        "No PHP experience required"
-      ],
-      "description": "At ChurchDesk, our mission is to help churches modernize and stay connected with their communities in a rapidly changing world. As a SaaS company, we provide digital tools that enable churches to streamline operations, communicate effectively, and engage their congregations. Over the past 15 years, we’ve grown from a startup into an international business, yet we remain a small, collaborative team where your impact will be visible from day one. We value diversity, inclusivity, and the unique perspectives each person brings to our mission.About Your New RoleAs a Senior Backend Engineer, you will:Take hands-on ownership of backend projects, solving complex problems and driving implementations to completion.Play a key role in shaping our backend architecture, driving best practices, and maintaining a scalable, performant infrastructure.Mentor and support other engineers, helping grow the team’s technical capabilities.Collaborate closely with our product team, designers, and other engineers to ensure backend solutions align with product goals.Build reliable, scalable, and modular systems using NodeJS, TypeScript, MySQL, Redis, and ElasticSearch.Contribute to continuous improvement of our engineering practices and the evolution of our product to meet customer needs.Skills & RequirementsHas 5+ years of software development experience, with a proven track record of delivering end-to-end backend solutions.Has deep expertise in Node.js, TypeScript, and relational databases (particularly MySQL).Has experience building scalable, performant, and modular backend systems.Understands modern backend engineering practices, including API design, data modeling, testing, and performance optimization.Demonstrates excellent written and verbal communication in English, collaborating effectively with product team and engineers to shape and refine backend features.Has experience working remotely and is based in Copenhagen or elsewhere in the EU, with legal authorization to work.Nice-to-HaveFamiliarity with NoSQL datastores such as ElasticSearch, Redis, or MongoDB.Familiarity with React Native, as our mobile apps and in-person donation terminals are built using it.Experience with AI-assisted development workflows, such as prompt engineering or code generation tools.What We OfferThe opportunity to make a real impact on a product used by some of the largest and oldest institutions in the world.A supportive, low-ceremony, and lean-process environment where your ideas and contributions"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4402002155",
-      "title": "Senior Backend Developer - Booking & Payment Platform",
-      "company": "Trackman",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-developer-booking-payment-platform-at-trackman-4402002155",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "denmark": true,
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "No mention of MongoDB"
-      ],
-      "description": "Job DescriptionBe part of scaling a global platform used by millions. We are looking for a Senior Backend Developer to help build and evolve our Booking & Payment platform as our customer base continues to grow. This is a role for someone who enjoys owning end-to-end solutions, designing reliable and robust systems, and collaborating across teams to deliver reliable, scalable services.What You´ll Do Design, build, and maintain backend services and APIs for a complex Booking & Payment platform with more than 3 million users, with a strong focus on quality, performance, and scalability. Take ownership of technical solutions end-to-end: from design beyond single components: analyze requirements, propose architectures that span multiple systems, and to align with dependencies owned by other teams. Work hands-on in Node.js using JavaScript and TypeScript, contributing to architecture, implementation, code reviews, and technical decisions. Work cross-functionally and cross-team: with Product, QA, and UI/UX on requirements and delivery; and on APIs, contracts, and integrations. Share knowledge through mentoring, pairing, and clear technical communication. Job Requirements What you bring 5+ years of professional software development experience, with a track record of owning backend work end-to-end in production systems: not only implementing tasks, but thinking through the whole solution (data, APIs, failure modes, rollout, and ongoing operation). Demonstrated experience with system and solution architecture: breaking problems into services or major components, defining interfaces and ownership, and planning work that coordinates your team’s systems with those of other teams. Strong commercial experience with server-side Node.js and JavaScript/TypeScript, including high-quality, maintainable, testable code and pragmatic trade-offs. Solid understanding of architectural principles and backend fundamentals. Pragmatic approach to testing and CI/CD. Excellent communication and collaboration skills; able to facilitate alignment with other engineering teams and explain technical choices to non-engineering partners. Nice to have Experience with payment platforms or e-commerce / in-person payment flows (how gateways, acquirers, and schemes fit together. Familiarity with financial back-office concerns such as bookkeeping, reconciliation, settlements, or reporting. Experience working with cloud providers such as AWS and/or Azure and designing or operating services on them. T"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4418736860",
       "title": "Fullstack Developer, JS & PHP",
       "company": "AutoVex",
@@ -2695,26 +2777,6 @@
       ],
       "match_cons": [
         "Requires AWS certification"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4421848564",
-      "title": "Sr. PHP/Laravel Developer",
-      "company": "New York Technology Partners",
-      "url": "https://www.linkedin.com/jobs/view/sr-php-laravel-developer-at-new-york-technology-partners-4421848564",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "description": "Candidates must be comfortable interviewing and working onsite 5x a week. We are looking for a dynamic Laravel PHP developer with a keen eye for detail and a knack for building functional and visually compelling websites and APIs. This role is designed for a high-impact developer who brings both technical excellence and a leadership mindset. Someone who can confidently own projects from beginning to end, shape engineering decisions, and help elevate the team’s overall craft.You will be expected to take initiative, provide architectural input, and actively contribute to strategic conversations around performance, scalability, and implementation. This is a position for someone who leads through execution. You will translate designs into fully functioning APIs and front-end systems with speed, precision, and clarity, while guiding teammates toward shared technical goals.This role is about more than just clean code. It is about delivering seamless user experiences, building systems that scale, and deploying infrastructure that performs under pressure. If you thrive in fast-paced environments, bring a strong sense of ownership and mentorship, and want your work to make an immediate impact on enterprise, government, and global-scale technology, we want you on the team.Key ResponsibilitiesWork in a fast-paced environment, managing multiple projects and deadlines.Take ownership of projects and make critical decisions when necessary.Design, develop, and maintain web applications and associated services.Collaborate with cross-functional teams to define, design, and ship new features.Ensure the performance, quality, and responsiveness of applications.Identify and correct bottlenecks and fix bugs.Stay up-to-date with new technologies and industry trends.Deploy updates and fixes, ensuring optimal functionality of websites without the need for extensive scalability.Required Qualifications3+ years experience as a Laravel developer or similar role.Proficiency in front-end technologies such as HTML, CSS, JavaScript, and modern frameworks (e.g., React, Next.js).Strong knowledge of PHP and the Laravel Framework.Ability to build APIs in Laravel to support headless front-end applications.Experience with database management systems (SQL and NoSQL).Familiarity with cloud services (e.g., AWS).Understanding of version control systems (e.g., Git).Experience working in an agency environment or similar fast-paced setting.Excellent problem-solving skills and the ability to work indepe",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "On-site work 5x a week"
       ]
     },
     {
