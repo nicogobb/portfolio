@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T04:01:42.397031+00:00",
+  "updated_at": "2026-06-02T07:01:17.289430+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -1697,6 +1697,183 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4390683386",
+      "title": "Senior PHP Software Engineer",
+      "company": "TheGuarantors",
+      "url": "https://www.linkedin.com/jobs/view/senior-php-software-engineer-at-theguarantors-4390683386",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No AWS certification required",
+        "No MongoDB emphasis"
+      ],
+      "description": "TheGuarantors is a cutting edge fintech company setting the standard in rent coverage with unrivaled insurance products, with a deep understanding of owner, operator, and renter needs. We believe renters deserve better access to the home of their dreams and operators deserve greater protection and growth opportunities. That’s why we’re leveraging our expertise in real estate and using AI-based technology to help operators qualify renters faster while mitigating the risk of rental income loss. With $2B+ in rent and deposits guaranteed, we have been named one of Inc. 5000’s fastest-growing companies, one of Forbes’ Best Startup Employees, and one of Deloitte’s 2023 Technology Fast 500.Join a high-impact, full-stack engineering team at TheGuarantors as a Senior PHP Software Engineer. You’ll partner with engineering leaders, product managers, and stakeholders to design, build, and maintain scalable applications that support both internal operations and our customer experience.We foster a team culture grounded in ownership, autonomy, and technical excellence. Our engineers are empowered to shape their team’s technical direction and development processes.LocationThis is a hybrid role based in NYCWhat You’ll DoCollaborate with a cross-functional team to build features end-to-end—across backend, frontend, and APIsLead technical design discussions and help evaluate tradeoffsWrite clean, maintainable code and participate in code reviewsWork closely with product and design to transform business needs into practical engineering solutionsCome up with solutions for improvements on web-scraping methodsEnable and build upon mission critical systems within our businessRequirementsExceptional interpersonal skills5+ years of relevant production work experience in back-end web development, preferably using PHPExperience with Web-scraping technologiesA willingness to champion team needs and get involved with strategic decisions.Deep understanding of API concepts and designsAdvanced understanding of SQLFamiliarity with modern web infrastructure components (e.g. caching, serverless, API gateways, etc) and how to manage them.Understanding of system design, data structures, and algorithms, and experience creating and evaluating technical design documentsNice to HaveExperience working with AWSRelevant production work experience in front-end web development, preferably using ReactBenefitsOpportunities to make an impact within a fast growing companyMedical, dental, & vision insurance"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4395361855",
+      "title": "Senior PHP Developer",
+      "company": "FlightSafety International",
+      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-flightsafety-international-4395361855",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No AWS certification",
+        "No description available"
+      ],
+      "description": "About FlightSafety InternationalFlightSafety International is the world’s premier professional aviation training company and supplier of flight simulators, visual systems and displays to commercial, government and military organizations. The company provides training for pilots, technicians and other aviation professionals from 167 countries and independent territories. FlightSafety operates the world’s largest fleet of advanced full-flight simulators and award-winning maintenance training at Learning Centers and training locations in the United States, Canada, France and the United Kingdom.Purpose of PositionAs a Senior PHP Engineer, you’ll bring deep backend expertise to drive the design, development, and maintenance of mission-critical applications. This role is integral in ensuring our existing PHP-based systems remain robust, scalable, and secure, while also playing a crucial part in architecting our transition toward a modernized software architecture. You’ll take ownership of the full development lifecycle, from system architecture and APIs to final release, helping aviation professionals engage with powerful tools built on sound architectural principles.Tasks And ResponsibilitiesDesign, build, and maintain robust backend applications and APIs primarily using PHP. Lead efforts to refactor legacy code and strategically introduce modern tooling as we evolve our technology stack. Enable teams to deliver high-quality, maintainable software through test-driven development (TDD) and rigorous code reviews. Contribute to system-wide architectural planning, API strategy, and database design. Ensure seamless interoperability between legacy backend services, enterprise databases, and modern client applications. Collaborate with cross-functional teams to define, develop, and deliver features across frontend and server-side components. Apply software development patterns to create secure, efficient, and highly observable backend solutions. Stay current on backend trends, modernization strategies, and broader technologies to inform product innovation and stack migration. Minimum EducationBachelor's degree from an accredited institution or equivalent industry experienceMinimum Experience5+ years of experience in any software development roleSolid experience in .NET platform and MVCSolid experience in Java/J2EE preferredKnowledge, Skills, Abilities Experience planning and executing the migration or modernization of legacy PHP applications to newer architectures. Ex"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4417018423",
+      "title": "Senior Backend Engineer",
+      "company": "Wand",
+      "url": "https://www.linkedin.com/jobs/view/senior-backend-engineer-at-wand-4417018423",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Senior level, no mention of PHP 8 version"
+      ],
+      "description": "Wand makes gaming magical. Through game customization and guidance, we build tools that helps players have more fun in their favorite games.Our platform works across thousands of PC games, ensuring that great games are accessible to everyone, regardless of time constraints, skill level, or accessibility needs. We want to build the future of game assistance, and we're hoping you'll join us.The MissionThe gaming industry is undergoing a massive transition. The market has never been bigger, but players are drowning in an ever-expanding sea of content — and abandoning games at record rates due to pacing, friction, or simply getting stuck. When they look for help, they’re forced into a broken paradigm: alt-tabbing out of their game to wade through ad-heavy media sites, spoiler-filled wikis, or 15-minute YouTube walkthroughs.Wand is building the augmentation and intelligence layer to fix this. Our technology reads game state in real time and powers a unified ecosystem across desktop, web, and native in-game overlays. Over 40 million players have already found us, largely through word of mouth. Every one of those surfaces leans on a small backend team, and the surface area of what we ship is growing faster than the team behind it.Role OverviewWe’re hiring a Senior Backend Engineer to own meaningful parts of Wand’s backend and help us drive the work forward. You’ll partner closely with our Head of Engineering and the application teams who build on top of your work. There are two threads in the job: building and owning substantial parts of the backend, and helping run it — making the architectural calls the team will live with, and pushing cross-cutting initiatives forward.This is a senior individual contributor role. You’re self-managing, opinionated, and willing to drop into TypeScript in the Electron app or have a view on a UX workflow when that’s what the work needs. You’ll measure your own success by what the team shippedbecause the backend made it easy.What You’ll DoOwn meaningful parts of the backendScope, design, ship, and stabilize the services the rest of the product depends on. Own the fix when something misbehaves at 2am. Make the architectural calls — data model evolution, caching boundaries, where to spend latency budget, when to refactor and when to rewrite. Work fluidly across the data layer. Relational stores at scale (MySQL, MariaDB) and document stores (Firestore) are both in the toolkit, and you know which to reach for and when. Treat infrastruc"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4392435833",
+      "title": "Staff Software Engineer - PHP Backend",
+      "company": "ServiceTrade",
+      "url": "https://www.linkedin.com/jobs/view/staff-software-engineer-php-backend-at-servicetrade-4392435833",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ],
+      "description": "Position Description:At ServiceTrade, you’ll build technology that matters — for your career, your team, and the thousands of commercial contractors who rely on our platform every day. We’re on a mission to partner with commercial trades to deliver technology that enhances technician productivity, improves customer experiences, and drives scalable growth.Under the hood, that mission runs on a serious piece of engineering: a multi-tenant SaaS platform built on PHP, Doctrine, MySQL, MongoDB, and AWS, processing the real-time workflows that keep commercial service operations moving. It's battle-tested, revenue-generating, and architecturally complex. It's also ready for its next chapter.We're hiring a Staff Engineer to help write that chapter. You'll join a team that's investing in the long-term health of this platform: evolving the architecture, modernizing incrementally, improving reliability, leaning into AI acceleration tooling, and building the infrastructure to scale the next phase of growth, all without breaking what works for the thousands of contractors who depend on us every day.This is a hands-on technical leadership role. You'll own critical architectural decisions across backend and infrastructure, mentor engineers, and shape how we build software in this new world of agentic AI. If you've ever looked at a complex production system and thought \"I know how to make this better, one piece at a time,\" this is the job.Why ServiceTrade:Real problems at real scale. Sharded MySQL, MongoDB read models, event-driven async processing, multi-tenant isolation: this isn't a CRUD app. You'll work on genuinely interesting distributed systems challenges with real customers depending on the outcome.Modernization with purpose. Our platform has years of production-hardened domain logic. The opportunity isn't to rewrite it, it's to evolve it. Incrementally migrate frameworks, extract services where it makes sense, adopt modern patterns, and improve developer experience, all while keeping the lights on for thousands of customers. This is the kind of work that separates good engineers from great ones.First-Class Tooling. You will be equipped with the latest AI-assisted tooling available to help you navigate, refactor, and modernize our complex codebase more efficiently. Influence without bureaucracy. This is a team where a staff engineer's voice carries real weight. You won't be writing RFCs that disappear into a committee. You'll propose a direction, build consensus, "
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4415681250",
+      "title": "PHP Developer",
+      "company": "Whisker",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-at-whisker-4415681250",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No mention of AWS certification",
+        "No mention of PostgreSQL"
+      ],
+      "description": "DescriptionWhisker is redefining what it means to live with cats—designing intelligent systems that remove friction, elevate the everyday, and celebrate the quiet brilliance of feline companionship. Today, Litter-Robot leads the category. Tomorrow, an entire ecosystem that expands what’s possible for cats and the people who love them. We believe the future is feline. And we’re imagining that future today.We work onsite 4+ days a week, with our team based in Auburn Hills, Michigan, and Juneau, Wisconsin. Our team of 700+ passionate pet people thrives on collaboration, innovation, and the occasional office cameo from a four-legged friend.What You’ll Do:The PHP Developer will build, enhance, and maintain the software and systems that power Whisker’s operations, including fulfillment of our Litter-Robots, Feeder-Robots, and other innovative pet products. This role is ideal for a mid-level developer with strong PHP expertise who is eager to contribute to core business systems and expand their technical skillset. Experience with ERP, MES, or similar enterprise systems is a strong bonus. The Specialist will collaborate across teams, actively participate in Agile processes, and deliver clean, maintainable, and efficient solutions that support Whisker’s global operations.Essential Duties and Responsibilities:This list of duties and responsibilities is not all-inclusive and may be expanded to include other duties and responsibilities as deemed necessary.Contributes to the development, enhancement, and maintenance of Whisker’s operations management systemsCollaborates with operations, manufacturing, and shipping teams to understand challenges and support solutionsTranslates requirements into incremental deliverables, provide accurate estimates, and participate in Agile ceremonies (planning, stand-ups, reviews, retros)Writes, tests, and deploys clean, maintainable code across both back-end and front-end systemsParticipates in code reviews, offering and receiving constructive feedbackAssists in designing and maintaining database schemas and queriesDevelops and supports integrations with third-party systems (e.g., shipping, returns, ERP)Troubleshoots and resolves system issues with urgency and attention to detailCreates and maintains technical documentation for system functionality and processesWrites and maintains unit and integration tests to ensure application reliabilityFollows best practices in software development, including coding standards, testing, and Agile me"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4376651335",
+      "title": "Full-Stack Developer (PHP)",
+      "company": "Engineering Careers",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-php-at-engineering-careers-4376651335",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ],
+      "description": "Full-Stack Developer (PHP)Job Description:This role is on a team that maintains and enhances heavily-trafficked legal help web sites for consumers and businesses in the USA. It is a interesting and demanding role for developers who “get it done”, and the role includes lots of room for technical and professional growth.You will be joining a team committed to working on high-quality code, and you will work closely with the product team to develop new features for our platform.Responsibilities:Design, estimate, and code new features. This is primarily a coding position.Architect new applications, and expand existing ones.Collaborate on enterprise architecture with other teams at Internet Brands.Investigate and fix production issues.Participate in software design discussions.Participate in sprint planning and other project management meetings.Ensure all code that goes to production is of top quality.Ensure existing applications are scaled to meet expected demand.Identify and fix gaps in system reliability, such as production monitoring.Continuously improve the software infrastructure, such as the deployment process.Required Experience:3+ years with object-oriented programming in PHP.1-2 years with front-end technologies such as JavaScript, HTML, and CSS.Complex SQL queries and database schema design.MVC frameworks (Laravel, Yii).Experience with modern server components (Memcache, Redis, ActiveMQ, Solr).Working in a collaborative team environment using tools like JIRA and Git.Consuming and creating web services.Stable work history and an ability to collaborate effectively.Nice to have:Scrum, Kanban, or other agile methodologies.Collaborating with engineering teams in multiple locations.Systems integration.Distributed systems.Service-oriented architecture.Search Engine Optimization (SEO).Unit testing.Load testing.Page load optimization.Responsive design.BS/MS in Computer Science or related field, or equivalent work experience."
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413721969",
+      "title": "PHP Developer",
+      "company": "New York Technology Partners",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-at-new-york-technology-partners-4413721969",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No mention of AWS certification",
+        "No mention of PostgreSQL"
+      ],
+      "description": "Backend Developer (PHP / Laravel)Location: Chicago, IL (Onsite)We are seeking a talented Backend Developer with strong PHP and Laravel experience to join our engineering team in Chicago. This role is ideal for someone who enjoys designing scalable backend systems, building robust APIs, and contributing to high-quality web applications in a collaborative onsite environment.As a Backend Developer, you will work closely with front-end developers, product managers, and other engineers to develop and maintain reliable backend services and application infrastructure.ResponsibilitiesDesign, develop, and maintain backend applications using PHP and the Laravel frameworkBuild and maintain RESTful APIs and server-side functionalityCollaborate with front-end developers to integrate user-facing elements with backend logicWrite clean, maintainable, and efficient code following best practicesOptimize application performance, scalability, and securityTroubleshoot, debug, and resolve production issuesDesign and manage database structures, queries, and migrationsParticipate in code reviews and contribute to architectural decisionsWork within an agile development environment and contribute to sprint planning and deliveryQualifications3+ years of backend development experienceStrong proficiency in PHP and LaravelExperience building and consuming RESTful APIsSolid understanding of relational databases such as MySQL or PostgreSQLFamiliarity with MVC architecture and object-oriented programming principlesExperience with Git and version control workflowsUnderstanding of application security and performance optimizationStrong problem-solving and communication skillsPreferred QualificationsExperience with cloud platforms such as AWS or AzureFamiliarity with Docker or containerized development environmentsExperience with queue systems, caching technologies, and background job processingKnowledge of CI/CD pipelines and automated deployment practicesExposure to modern JavaScript frameworks is a plus"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4302518237",
+      "title": "Lead Backend Engineer, Content Management (PHP/Laravel)",
+      "company": "EMPIRE",
+      "url": "https://www.linkedin.com/jobs/view/lead-backend-engineer-content-management-php-laravel-at-empire-4302518237",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ],
+      "description": "Description:Lead Backend Engineer, Content Management (PHP/Laravel)DescriptionEMPIRE is a premier and dynamic music company that prides itself on the development and support of independent artists. We are a rapidly growing firm that has been making waves in the music industry, with an extensive portfolio that spans multiple genres and reaches audiences worldwide. We have become the largest independent record label in the U.S., with a significant global presence covering Africa, Asia, Europe, Australia, and North and South America. We keep ourselves busy with a large range of music-related services from original content and marketing to distribution and recordings.Our commitment to artistic creativity, innovation, and progressive business solutions forms the foundation of our corporate culture. We believe in fostering talent, not just in our artists but also within our professional teams. As we continue to expand, we invite you to join us on this exciting journey.The Role Remix: EMPIRE is looking for a Lead Backend Engineer (Content Management) to join our downtown San Francisco office. This senior, hands-on role reports directly to the VP of Engineering. You will own the architecture, development, and scaling of backend systems that power our music content management platforms for the music industry. These platforms serve artists, labels, distributors, and DSPs, and require high reliability, flexibility, and integration with industry-standard workflows. You’ll partner closely with product managers, frontend engineers, and media/data operations teams to translate business needs into secure, efficient, and scalable backend solutions. The ideal candidate has deep expertise in PHP (vanilla and modern frameworks such as Laravel), strong systems design experience, and fluency in music industry concepts like rights management, royalties, and digital distribution. If you’ve successfully led backend teams in high-growth or startup environments—and especially if you’ve built systems for music or digital media—we’d love to hear from you.ResponsibilitiesOwn the architecture, design, and implementation of robust, scalable backend systems and APIs that support our music content management and distribution systems.Build scalable, secure, and maintainable backend code using PHP (vanilla + Laravel).Drive backend performance, availability, and resilience across core applications.Establish and enforce best practices in code quality, testing, database design, and deployment.M"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4422302136",
+      "title": "Senior PHP Developer",
+      "company": "Expansion",
+      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-expansion-4422302136",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "description": "Senior PHP / Laravel Developer Location: Toronto, MiamiJob Type: Full-TimeSalary Range: $110,000 - $150,000 CAD / yearWe’re revolutionizing the construction industry with innovative technology designed specifically for job sites. Born from the imperative need for efficient time tracking in construction, our mission is to bring workers and companies together through collaborative and transparent solutions.Traditional methods of tracking worker time often fall short in the challenging conditions of construction sites. Recognizing this gap, we developed the SmartBarrel device—a durable, weatherproof, LTE-connected time clock that uses AI-powered facial verification. This excuse-free solution ensures accurate time tracking without burdening workers with complex procedures or training.Our motto, “We Don’t F* Around,”** reflects our commitment to straightforward, effective solutions that the construction industry can readily adopt. We pride ourselves on being approachable, knowledgeable, and passionate about making a tangible difference in day-to-day operations. Join us in transforming how time is recorded and managed on construction sites.What We Offer:Modern office settingFood providedHybrid work model with work-from-home flexibilityCareer growth and advancement opportunitiesComprehensive benefits package, including:401(k)Health, Dental, and Vision InsurancePaid time offFlexible scheduleProfessional development assistanceThe RoleWe are looking for a seasoned PHP Developer to strengthen our growing development team. The ideal candidate is a hands-on engineer with a solid technical foundation, a passion for clean architecture, and the leadership skills to mentor others and drive technical excellence.Key Responsibilities:Design and implement robust and scalable database structures, primarily using PostgreSQLDevelop and maintain RESTful APIsPerform thorough testing and debugging of application featuresWrite and maintain clear, detailed technical documentationConduct code reviews to ensure code quality, performance, and maintainabilityCollaborate with cross-functional teams to deliver high-impact featuresMentor junior and mid-level developers to foster growth within the teamQualifications:10+ years of experience with PHP5+ years of hands-on Laravel experienceStrong proficiency in PostgreSQL (required), with familiarity in MongoDBDeep understanding of RESTful API design and best practicesExcellent debugging and problem-solving skillsDetail-oriented, self-motivated, ",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Location mismatch"
+      ]
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/the-quality-group-gmbh/jobs/professional-software-engineer-gn-php-b2b-commerce-7934917658",
       "title": "Professional Software Engineer (gn) – PHP (B2B Commerce)",
       "company": "The Quality Group GmbH",
@@ -1834,85 +2011,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4390683386",
-      "title": "Senior PHP Software Engineer",
-      "company": "TheGuarantors",
-      "url": "https://www.linkedin.com/jobs/view/senior-php-software-engineer-at-theguarantors-4390683386",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No AWS certification required",
-        "No MongoDB emphasis"
-      ],
-      "description": "TheGuarantors is a cutting edge fintech company setting the standard in rent coverage with unrivaled insurance products, with a deep understanding of owner, operator, and renter needs. We believe renters deserve better access to the home of their dreams and operators deserve greater protection and growth opportunities. That’s why we’re leveraging our expertise in real estate and using AI-based technology to help operators qualify renters faster while mitigating the risk of rental income loss. With $2B+ in rent and deposits guaranteed, we have been named one of Inc. 5000’s fastest-growing companies, one of Forbes’ Best Startup Employees, and one of Deloitte’s 2023 Technology Fast 500.Join a high-impact, full-stack engineering team at TheGuarantors as a Senior PHP Software Engineer. You’ll partner with engineering leaders, product managers, and stakeholders to design, build, and maintain scalable applications that support both internal operations and our customer experience.We foster a team culture grounded in ownership, autonomy, and technical excellence. Our engineers are empowered to shape their team’s technical direction and development processes.LocationThis is a hybrid role based in NYCWhat You’ll DoCollaborate with a cross-functional team to build features end-to-end—across backend, frontend, and APIsLead technical design discussions and help evaluate tradeoffsWrite clean, maintainable code and participate in code reviewsWork closely with product and design to transform business needs into practical engineering solutionsCome up with solutions for improvements on web-scraping methodsEnable and build upon mission critical systems within our businessRequirementsExceptional interpersonal skills5+ years of relevant production work experience in back-end web development, preferably using PHPExperience with Web-scraping technologiesA willingness to champion team needs and get involved with strategic decisions.Deep understanding of API concepts and designsAdvanced understanding of SQLFamiliarity with modern web infrastructure components (e.g. caching, serverless, API gateways, etc) and how to manage them.Understanding of system design, data structures, and algorithms, and experience creating and evaluating technical design documentsNice to HaveExperience working with AWSRelevant production work experience in front-end web development, preferably using ReactBenefitsOpportunities to make an impact within a fast growing companyMedical, dental, & vision insurance"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4395361855",
-      "title": "Senior PHP Developer",
-      "company": "FlightSafety International",
-      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-flightsafety-international-4395361855",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No AWS certification",
-        "No description available"
-      ],
-      "description": "About FlightSafety InternationalFlightSafety International is the world’s premier professional aviation training company and supplier of flight simulators, visual systems and displays to commercial, government and military organizations. The company provides training for pilots, technicians and other aviation professionals from 167 countries and independent territories. FlightSafety operates the world’s largest fleet of advanced full-flight simulators and award-winning maintenance training at Learning Centers and training locations in the United States, Canada, France and the United Kingdom.Purpose of PositionAs a Senior PHP Engineer, you’ll bring deep backend expertise to drive the design, development, and maintenance of mission-critical applications. This role is integral in ensuring our existing PHP-based systems remain robust, scalable, and secure, while also playing a crucial part in architecting our transition toward a modernized software architecture. You’ll take ownership of the full development lifecycle, from system architecture and APIs to final release, helping aviation professionals engage with powerful tools built on sound architectural principles.Tasks And ResponsibilitiesDesign, build, and maintain robust backend applications and APIs primarily using PHP. Lead efforts to refactor legacy code and strategically introduce modern tooling as we evolve our technology stack. Enable teams to deliver high-quality, maintainable software through test-driven development (TDD) and rigorous code reviews. Contribute to system-wide architectural planning, API strategy, and database design. Ensure seamless interoperability between legacy backend services, enterprise databases, and modern client applications. Collaborate with cross-functional teams to define, develop, and deliver features across frontend and server-side components. Apply software development patterns to create secure, efficient, and highly observable backend solutions. Stay current on backend trends, modernization strategies, and broader technologies to inform product innovation and stack migration. Minimum EducationBachelor's degree from an accredited institution or equivalent industry experienceMinimum Experience5+ years of experience in any software development roleSolid experience in .NET platform and MVCSolid experience in Java/J2EE preferredKnowledge, Skills, Abilities Experience planning and executing the migration or modernization of legacy PHP applications to newer architectures. Ex"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4417018423",
-      "title": "Senior Backend Engineer",
-      "company": "Wand",
-      "url": "https://www.linkedin.com/jobs/view/senior-backend-engineer-at-wand-4417018423",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Senior level, no mention of PHP 8 version"
-      ],
-      "description": "Wand makes gaming magical. Through game customization and guidance, we build tools that helps players have more fun in their favorite games.Our platform works across thousands of PC games, ensuring that great games are accessible to everyone, regardless of time constraints, skill level, or accessibility needs. We want to build the future of game assistance, and we're hoping you'll join us.The MissionThe gaming industry is undergoing a massive transition. The market has never been bigger, but players are drowning in an ever-expanding sea of content — and abandoning games at record rates due to pacing, friction, or simply getting stuck. When they look for help, they’re forced into a broken paradigm: alt-tabbing out of their game to wade through ad-heavy media sites, spoiler-filled wikis, or 15-minute YouTube walkthroughs.Wand is building the augmentation and intelligence layer to fix this. Our technology reads game state in real time and powers a unified ecosystem across desktop, web, and native in-game overlays. Over 40 million players have already found us, largely through word of mouth. Every one of those surfaces leans on a small backend team, and the surface area of what we ship is growing faster than the team behind it.Role OverviewWe’re hiring a Senior Backend Engineer to own meaningful parts of Wand’s backend and help us drive the work forward. You’ll partner closely with our Head of Engineering and the application teams who build on top of your work. There are two threads in the job: building and owning substantial parts of the backend, and helping run it — making the architectural calls the team will live with, and pushing cross-cutting initiatives forward.This is a senior individual contributor role. You’re self-managing, opinionated, and willing to drop into TypeScript in the Electron app or have a view on a UX workflow when that’s what the work needs. You’ll measure your own success by what the team shippedbecause the backend made it easy.What You’ll DoOwn meaningful parts of the backendScope, design, ship, and stabilize the services the rest of the product depends on. Own the fix when something misbehaves at 2am. Make the architectural calls — data model evolution, caching boundaries, where to spend latency budget, when to refactor and when to rewrite. Work fluidly across the data layer. Relational stores at scale (MySQL, MariaDB) and document stores (Firestore) are both in the toolkit, and you know which to reach for and when. Treat infrastruc"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4392435833",
-      "title": "Staff Software Engineer - PHP Backend",
-      "company": "ServiceTrade",
-      "url": "https://www.linkedin.com/jobs/view/staff-software-engineer-php-backend-at-servicetrade-4392435833",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
-      ],
-      "description": "Position Description:At ServiceTrade, you’ll build technology that matters — for your career, your team, and the thousands of commercial contractors who rely on our platform every day. We’re on a mission to partner with commercial trades to deliver technology that enhances technician productivity, improves customer experiences, and drives scalable growth.Under the hood, that mission runs on a serious piece of engineering: a multi-tenant SaaS platform built on PHP, Doctrine, MySQL, MongoDB, and AWS, processing the real-time workflows that keep commercial service operations moving. It's battle-tested, revenue-generating, and architecturally complex. It's also ready for its next chapter.We're hiring a Staff Engineer to help write that chapter. You'll join a team that's investing in the long-term health of this platform: evolving the architecture, modernizing incrementally, improving reliability, leaning into AI acceleration tooling, and building the infrastructure to scale the next phase of growth, all without breaking what works for the thousands of contractors who depend on us every day.This is a hands-on technical leadership role. You'll own critical architectural decisions across backend and infrastructure, mentor engineers, and shape how we build software in this new world of agentic AI. If you've ever looked at a complex production system and thought \"I know how to make this better, one piece at a time,\" this is the job.Why ServiceTrade:Real problems at real scale. Sharded MySQL, MongoDB read models, event-driven async processing, multi-tenant isolation: this isn't a CRUD app. You'll work on genuinely interesting distributed systems challenges with real customers depending on the outcome.Modernization with purpose. Our platform has years of production-hardened domain logic. The opportunity isn't to rewrite it, it's to evolve it. Incrementally migrate frameworks, extract services where it makes sense, adopt modern patterns, and improve developer experience, all while keeping the lights on for thousands of customers. This is the kind of work that separates good engineers from great ones.First-Class Tooling. You will be equipped with the latest AI-assisted tooling available to help you navigate, refactor, and modernize our complex codebase more efficiently. Influence without bureaucracy. This is a team where a staff engineer's voice carries real weight. You won't be writing RFCs that disappear into a committee. You'll propose a direction, build consensus, "
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4382967328",
       "title": "Senior PHP Full-Stack Developer",
       "company": "Read-A-Thon",
@@ -2011,65 +2109,6 @@
         "Requires AWS certification",
         "Less experience than required"
       ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4415681250",
-      "title": "PHP Developer",
-      "company": "Whisker",
-      "url": "https://www.linkedin.com/jobs/view/php-developer-at-whisker-4415681250",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No mention of AWS certification",
-        "No mention of PostgreSQL"
-      ],
-      "description": "DescriptionWhisker is redefining what it means to live with cats—designing intelligent systems that remove friction, elevate the everyday, and celebrate the quiet brilliance of feline companionship. Today, Litter-Robot leads the category. Tomorrow, an entire ecosystem that expands what’s possible for cats and the people who love them. We believe the future is feline. And we’re imagining that future today.We work onsite 4+ days a week, with our team based in Auburn Hills, Michigan, and Juneau, Wisconsin. Our team of 700+ passionate pet people thrives on collaboration, innovation, and the occasional office cameo from a four-legged friend.What You’ll Do:The PHP Developer will build, enhance, and maintain the software and systems that power Whisker’s operations, including fulfillment of our Litter-Robots, Feeder-Robots, and other innovative pet products. This role is ideal for a mid-level developer with strong PHP expertise who is eager to contribute to core business systems and expand their technical skillset. Experience with ERP, MES, or similar enterprise systems is a strong bonus. The Specialist will collaborate across teams, actively participate in Agile processes, and deliver clean, maintainable, and efficient solutions that support Whisker’s global operations.Essential Duties and Responsibilities:This list of duties and responsibilities is not all-inclusive and may be expanded to include other duties and responsibilities as deemed necessary.Contributes to the development, enhancement, and maintenance of Whisker’s operations management systemsCollaborates with operations, manufacturing, and shipping teams to understand challenges and support solutionsTranslates requirements into incremental deliverables, provide accurate estimates, and participate in Agile ceremonies (planning, stand-ups, reviews, retros)Writes, tests, and deploys clean, maintainable code across both back-end and front-end systemsParticipates in code reviews, offering and receiving constructive feedbackAssists in designing and maintaining database schemas and queriesDevelops and supports integrations with third-party systems (e.g., shipping, returns, ERP)Troubleshoots and resolves system issues with urgency and attention to detailCreates and maintains technical documentation for system functionality and processesWrites and maintains unit and integration tests to ensure application reliabilityFollows best practices in software development, including coding standards, testing, and Agile me"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4376651335",
-      "title": "Full-Stack Developer (PHP)",
-      "company": "Engineering Careers",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-php-at-engineering-careers-4376651335",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
-      ],
-      "description": "Full-Stack Developer (PHP)Job Description:This role is on a team that maintains and enhances heavily-trafficked legal help web sites for consumers and businesses in the USA. It is a interesting and demanding role for developers who “get it done”, and the role includes lots of room for technical and professional growth.You will be joining a team committed to working on high-quality code, and you will work closely with the product team to develop new features for our platform.Responsibilities:Design, estimate, and code new features. This is primarily a coding position.Architect new applications, and expand existing ones.Collaborate on enterprise architecture with other teams at Internet Brands.Investigate and fix production issues.Participate in software design discussions.Participate in sprint planning and other project management meetings.Ensure all code that goes to production is of top quality.Ensure existing applications are scaled to meet expected demand.Identify and fix gaps in system reliability, such as production monitoring.Continuously improve the software infrastructure, such as the deployment process.Required Experience:3+ years with object-oriented programming in PHP.1-2 years with front-end technologies such as JavaScript, HTML, and CSS.Complex SQL queries and database schema design.MVC frameworks (Laravel, Yii).Experience with modern server components (Memcache, Redis, ActiveMQ, Solr).Working in a collaborative team environment using tools like JIRA and Git.Consuming and creating web services.Stable work history and an ability to collaborate effectively.Nice to have:Scrum, Kanban, or other agile methodologies.Collaborating with engineering teams in multiple locations.Systems integration.Distributed systems.Service-oriented architecture.Search Engine Optimization (SEO).Unit testing.Load testing.Page load optimization.Responsive design.BS/MS in Computer Science or related field, or equivalent work experience."
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4413721969",
-      "title": "PHP Developer",
-      "company": "New York Technology Partners",
-      "url": "https://www.linkedin.com/jobs/view/php-developer-at-new-york-technology-partners-4413721969",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No mention of AWS certification",
-        "No mention of PostgreSQL"
-      ],
-      "description": "Backend Developer (PHP / Laravel)Location: Chicago, IL (Onsite)We are seeking a talented Backend Developer with strong PHP and Laravel experience to join our engineering team in Chicago. This role is ideal for someone who enjoys designing scalable backend systems, building robust APIs, and contributing to high-quality web applications in a collaborative onsite environment.As a Backend Developer, you will work closely with front-end developers, product managers, and other engineers to develop and maintain reliable backend services and application infrastructure.ResponsibilitiesDesign, develop, and maintain backend applications using PHP and the Laravel frameworkBuild and maintain RESTful APIs and server-side functionalityCollaborate with front-end developers to integrate user-facing elements with backend logicWrite clean, maintainable, and efficient code following best practicesOptimize application performance, scalability, and securityTroubleshoot, debug, and resolve production issuesDesign and manage database structures, queries, and migrationsParticipate in code reviews and contribute to architectural decisionsWork within an agile development environment and contribute to sprint planning and deliveryQualifications3+ years of backend development experienceStrong proficiency in PHP and LaravelExperience building and consuming RESTful APIsSolid understanding of relational databases such as MySQL or PostgreSQLFamiliarity with MVC architecture and object-oriented programming principlesExperience with Git and version control workflowsUnderstanding of application security and performance optimizationStrong problem-solving and communication skillsPreferred QualificationsExperience with cloud platforms such as AWS or AzureFamiliarity with Docker or containerized development environmentsExperience with queue systems, caching technologies, and background job processingKnowledge of CI/CD pipelines and automated deployment practicesExposure to modern JavaScript frameworks is a plus"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4421638537",
@@ -2605,25 +2644,6 @@
         "Requires WordPress/WooCommerce experience",
         "Limited job description"
       ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4302518237",
-      "title": "Lead Backend Engineer, Content Management (PHP/Laravel)",
-      "company": "EMPIRE",
-      "url": "https://www.linkedin.com/jobs/view/lead-backend-engineer-content-management-php-laravel-at-empire-4302518237",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-05-31",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
-      ],
-      "description": "Description:Lead Backend Engineer, Content Management (PHP/Laravel)DescriptionEMPIRE is a premier and dynamic music company that prides itself on the development and support of independent artists. We are a rapidly growing firm that has been making waves in the music industry, with an extensive portfolio that spans multiple genres and reaches audiences worldwide. We have become the largest independent record label in the U.S., with a significant global presence covering Africa, Asia, Europe, Australia, and North and South America. We keep ourselves busy with a large range of music-related services from original content and marketing to distribution and recordings.Our commitment to artistic creativity, innovation, and progressive business solutions forms the foundation of our corporate culture. We believe in fostering talent, not just in our artists but also within our professional teams. As we continue to expand, we invite you to join us on this exciting journey.The Role Remix: EMPIRE is looking for a Lead Backend Engineer (Content Management) to join our downtown San Francisco office. This senior, hands-on role reports directly to the VP of Engineering. You will own the architecture, development, and scaling of backend systems that power our music content management platforms for the music industry. These platforms serve artists, labels, distributors, and DSPs, and require high reliability, flexibility, and integration with industry-standard workflows. You’ll partner closely with product managers, frontend engineers, and media/data operations teams to translate business needs into secure, efficient, and scalable backend solutions. The ideal candidate has deep expertise in PHP (vanilla and modern frameworks such as Laravel), strong systems design experience, and fluency in music industry concepts like rights management, royalties, and digital distribution. If you’ve successfully led backend teams in high-growth or startup environments—and especially if you’ve built systems for music or digital media—we’d love to hear from you.ResponsibilitiesOwn the architecture, design, and implementation of robust, scalable backend systems and APIs that support our music content management and distribution systems.Build scalable, secure, and maintainable backend code using PHP (vanilla + Laravel).Drive backend performance, availability, and resilience across core applications.Establish and enforce best practices in code quality, testing, database design, and deployment.M"
     },
     {
       "id": "Himalayas_https://himalayas.app/companies/grafana-labs/jobs/staff-backend-engineer-grafana-enterprise-us-remote",
