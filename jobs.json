@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T01:01:06.653810+00:00",
+  "updated_at": "2026-06-02T04:01:42.397031+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -1319,6 +1319,384 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4379327855",
+      "title": "PHP Developer | PHP Izstrādātājs/-a",
+      "company": "Mapon",
+      "url": "https://lv.linkedin.com/jobs/view/php-developer-php-izstr%C4%81d%C4%81t%C4%81js-a-at-mapon-4379327855",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No description available",
+        "No AWS certification required"
+      ],
+      "description": "Mapon, a part of the Draugiem Group, is one of Northern Europe's leading providers of B2B fleet management and tracking solutions. With over 30,000 clients and an extensive partner network in Norway, Denmark, Belgium, Croatia, Poland, Lithuania, Ireland and Ukraine, we employ over 200 professionals in our offices in Latvia, Lithuania, Estonia, Finland, Denmark, Ireland and Spain.We are currently seeking a Senior PHP Programmer to join our team and work on developing both existing and new product solutions, such as driver behavior analysis, online maps, tachograph solutions, and more. We have a wealth of ideas and visions, and we need your help to bring them to life.👉 The TeamCurrently, we have 8 development teams, and we are looking for a Senior PHP Developer. Our teams develops, enhances and maintains solutions which allow our clients to digitize, automate and optimize their current fleet management processes, as well as creating new, innovative and integrated solutions.In the team, you would be working under the guidance of an experienced technical lead and together with several Back-End and Front-End developers, as well as QA specialists and a Product Owner.⚙️ Tech-stackFor backend development we primarily use PHP (8.2+);We extensively use asynchronous processing and event-driven approaches for handling high-load tasks;For frontend development we use React framework;We use MariaDB (SQL) for primary data storage, for large volume timeseries data we use TiDB cluster;We use several additional technologies to assist with working with large data volumes: ElasticSearch, Redis, Memcached;We use Sentry, Grafana & Prometheus combo for monitoring our solution application performance (APM);We use git for version control and Gitlab for hosting the code repositories;We use Gitlab CI pipelines for automating various tasks;Docker is used for development and test environments;We actively use AI tools for development and other day-to-day activities and expect ;We are open for experiments with new technologies and tools - we always aim to choose the best tool for reaching our goals🤝 We Offer💰 Salary starting from 3500 EUR up to 6000 EUR before taxes (depending on skills & experience);🍽 Paid lunches and fruit in the office;🏆 Personalized employee benefits after the probation period, from which you can choose the most suitable for you (health insurance (including mental health support, dental care, and massage courses), additional sports program or employer contributions t"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4409276592",
+      "title": "PHP Software Developer II",
+      "company": "Aylo",
+      "url": "https://lv.linkedin.com/jobs/view/php-software-developer-ii-at-aylo-4409276592",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Limited seniority",
+        "No description available"
+      ],
+      "description": "Established in 2004, we are a tech pioneer offering world-class adult entertainment and games on some of the internet’s safest and most popular platforms. With the support of an international team of dynamic and collaborative innovators, we are on a mission to enable safe user experiences and empower our communities by celebrating diversity, inclusion, and expression — all while maintaining robust trust-and-safety protocols.We embrace the best of both worlds! Local talent can thrive in our collaborative office space with the flexibility of a hybrid work environment, while remote team members play an integral role in shaping our dynamic culture from afar. We have offices in Montreal (Quebec), Austin (Texas) and Nicosia (Cyprus).*A select number of positions require full-time in office attendance*As a PHP developer, get the opportunity to work on some of the most visited websites in the world, work with big data and have your limits pushed by getting exposed to new technologies while working with some of the most talented developers.What you'll be doing: Develop and maintain microservices, APIs, and applications built around PHP.Exploit full potential of diverse backend technologies to leverage real time pipelining of big and secured data.Work with caches, messaging queues, databases, and diverse in-house and third-party systems.Take ownership of components and domain knowledge by guiding your peers through pull requests and code reviews. Participate in the propagation of development culture, processes, and values shared by the team.What you'll need to be successful: Must Haves: 3+ years related work experience as a backend software developerBachelor’s degree in Computer Science/Engineering is an assetExcellent knowledge of a web language (PHP, Java Web, Python, GO, etc.)Understanding of computational and data complexity, scalability, securityNice to Have:Experience with PHP alongside a framework (Lumen, Yii, Laravel, Symfony, etc.)Experience with Docker, ELK, RabbitMQ, Redis and GitlabCIStrong knowledge of database technologies to scale for high volume web sites (Redis, Memcached)Experience in dealing with large scale websites that receive millions of visits per dayAs an equal opportunity employer, we celebrate diversity and are committed to creating an inclusive environment for all employees In this role you may be exposed to adult content"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4409622235",
+      "title": "PHP Full Stack Developer (Laravel / Vue / Next.js)",
+      "company": "PLC Group - Global Automotive Auctions & Digital Solutions",
+      "url": "https://lt.linkedin.com/jobs/view/php-full-stack-developer-laravel-vue-next-js-at-plc-group-global-automotive-auctions-digital-solutions-4409622235",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires Vue/Next.js experience",
+        "No AWS certification required"
+      ],
+      "description": "About the PositionWe are UAB PLC Group, an international company specializing in car trading and digital vehicle history reporting. We operate large-scale international projects such as plc.auction – a global car auction platform, and checkcar.vin – a vehicle history report generation system.We are growing fast and looking for a Mid–Advanced PHP Full Stack Developer to join our engineering team in Vilnius.You will be responsible for developing web applications (Laravel, Vue.js, Next.js). This is a great opportunity to work with modern technologies and contribute to innovative international projects.Your ResponsibilitiesDevelop and improve backend functionality using Laravel (8/9+)Build and maintain frontend features with Vue.js and Next.jsDesign and integrate REST APIs (payments, logistics, third-party services)Work with MySQL & PostgreSQL (queries, indexes, performance optimization)Implement caching solutions (Redis, Memcached)Write clean, scalable, and maintainable codeRefactor existing code and improve system architectureWrite and maintain technical documentationCollaborate closely with product managers and developersRequirements2+ years of commercial experience with LaravelStrong knowledge of PHP, OOP/OOD, ORM, design patternsExperience with MySQL & PostgreSQLConfident use of GitSolid frontend skills: HTML5, CSS3, JavaScript, jQuery, AjaxExperience with Vue.js and Next.jsREST API development and integration experienceKnowledge of PSR standardsExperience with PHPUnit testingHands-on refactoring experienceUnderstanding of database architectureGood English (reading technical documentation)Russian language knowledge is a plusStrong communication skillsWhat We OfferModern office in VilniusFlexible working hoursHybrid work option after probation periodProfessional and friendly international teamHealth insurance & wellness benefitsSalary based on experience and skills"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4379438601",
+      "title": "Full stack developer (PHP)",
+      "company": "NEO Finance",
+      "url": "https://lt.linkedin.com/jobs/view/full-stack-developer-php-at-neo-finance-4379438601",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ],
+      "description": "What you will do:Build and maintain frontend interfaces using Twig (HTML, CSS).Design and implement new features based on business requirements.Integrate and maintain APIs and internal tools.Ensure system stability, performance, and security, including data protection (GDPR).Troubleshoot technical issues and continuously improve existing solutions.Participate in IT project planning and collaborate with internal teams and external partners.What we expect:Strong experience with PHP and Symfony framework (preferably Symfony 7).Solid frontend skills using Twig, HTML, and CSS.Experience working with databases (primarily MariaDB/MySQL) and backend integrations.Understanding of secure, scalable application architecture.Ability to work independently and take ownership of solutions.Strong problem-solving and communication skills.What we offer:Extra paid days off – so you can recharge more often.Health insurance – because your well-being matters.Employee discount platform – enjoy exclusive offers.Financial support during important life events.Flexible work model – remote work opportunities.Learning & development – we invest in your growth.SalaryFrom 4000 €/mon. gross"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4315302532",
+      "title": "Full-Stack Developer (PHP специализация)",
+      "company": "NextLogistic Ltd.",
+      "url": "https://bg.linkedin.com/jobs/view/full-stack-developer-php-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-at-nextlogistic-ltd-4315302532",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No description available",
+        "No AWS certification required"
+      ],
+      "description": "Skip to main content Scroll TopНачалоКомпаниятаЗа насЛидер в логистикатаАкадемияОбучения за нови кадриКариериСтани част от нашия екипКаузиСоциална отговорност и визияТехнологииИновации и AI решенияЗелена логистикаЕкологичен транспортен моделЕтичен кодексПолитика за човешките праваПолитика за устойчивост в логистикатаПолитика за многообразие и приобщаванеПолитика за корпоративна социална отговорност (КСО)Политика за управление на енергиятаПолитика за опазване на околната средаПолитика за борба с подкупите и корупциятаКодекс за поведение на доставчици и партньориФормуляр за регистриране на сигналиBackЗа насАкадемияКариериКаузиТехнологииЗелена логистикаПолитика за човешките праваПолитика за устойчивост в логистикатаПолитика за многообразие и приобщаванеПолитика за корпоративна социална отговорност (КСО)Политика за управление на енергиятаПолитика за борба с подкупите и корупциятаПолитика за опазване на околната средаКодекс за поведение на доставчици и партньориФормуляр за регистриране на сигналиТранспортСухопътен транспортОрганизиране на превозиИнтермодален транспортЛогистика от ново поколениеЖП транспортЛиценз за превоз в 4 държавиКомбиниран транспортДоставки по суша и мореКонтейнерни превозиFCL и LCL от пристанище до вратаРечен транспортРешения за насипни товариТранзитни документиГранични пунктовеЧМР конвенцияНаправи запитванеBackСухопътен транспортКомбиниран транспортИнтермодален транспортКонтейнерни превозиЖП транспортРечен транспортНовиниКонтактиLinkedin Facebook InstagramLinkedin Facebook InstagramКомпаниятаЗа насАкадемияКариериКаузиТехнологииЗелена логистикаЕтичен кодексПолитика за човешките праваПолитика за устойчивост в логистикатаПолитика за многообразие и приобщаванеПолитика за корпоративна социална отговорност (КСО)Политика за управление на енергиятаПолитика за опазване на околната средаПолитика за борба с подкупите и корупциятаКодекс за поведение на доставчици и партньориТранспортСухопътен транспортКомбиниран транспортИнтермодален транспортКонтейнерни превозиЖП транспортРечен транспортНовиниКонтактиСподелиFull-Stack Developer (PHP специализация)Некст Логистик е утвърдена компания в транспорта и логистиката с широка мрежа от български и международни партньори. Във връзка с разширяване на софтуерния екип търсим Full-Stack Developer (PHP специализация) с опит в бекенд и фронтенд, който да участва в мащабни и иновативни проекти.Позицията е изцяло присъствена, без home office или хибридОсновни отговорности: Разработка и поддръжка на бекенд с PHP и Lara"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4419053919",
+      "title": "Full stack developer focused on PHP and JS",
+      "company": "DynamicSource AB",
+      "url": "https://se.linkedin.com/jobs/view/full-stack-developer-focused-on-php-and-js-at-dynamicsource-ab-4419053919",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "description": "You will be responsible for taking one of our products to the next level. It is used by operations staff and flight crew daily, delivering critical flight data to external systems and our own iPad app 24/7. You will:Design, prototype and implement new features in an existing PHP code base.Make UI improvements and further development in a Typescript / ReactJS code base.Create and maintain customer API integrations. Adapt internal API endpoints to customer needs and streamline / reconcile incoming data to internal models.Write excellent technical documentation for both internal and external use.Use high-availability and fault tolerant coding practices.Implement automated software testing and quality assurance.SkillsMust havePHPJavaScript / Typescript / ReactGitMySQLDockerExcellent communication skills in English.Experience with highly secure network communications.Highly self-organised and disciplined / experience with remote workGood to haveRustC++SwiftBonus pointsAviation knowledge / interestFor this position, a hybrid work model applies. You are expected to work from our office in Stockholm at least 2 days per week. The majority of the DynamicSource team is located in the greater Stockholm area.DynamicSource also visits customers and participates in industry events such as forums, product expos, and aviation-related conferences. Some international travel may be required.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires Stockholm office presence",
+        "Limited aviation knowledge"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4365701714",
+      "title": "PHP Developer (mid/senior)",
+      "company": "Ovoko",
+      "url": "https://lt.linkedin.com/jobs/view/php-developer-mid-senior-at-ovoko-4365701714",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No AWS certification required",
+        "No PostgreSQL mentioned"
+      ],
+      "description": "Who We AreOvoko is transforming Europe’s €30B+ used car parts market - a massive, fragmented industry still largely offline. We connect 6,000+ scrapyard owners, car parts sellers and dismantlers with millions of buyers through our marketplace, SaaS and logistics platform, making it effortless to trade parts across borders. With over 35 million parts listed, we’ve grown into one of Europe’s fastest-scaling e-commerce companies, but the real opportunity lies ahead, as we build a real category-defining platform worldwide.About The RoleWe are looking for a PHP Developer, who will be a part of one of our ten product teams and will be responsible for writing a well-structured, easily comprehensible, and well-documented code, followed by the latest software development practices, such as patterns and anti-patterns, backed by automated tests (PHPUnit). We will always be there to mentor you and help you grow as a professional. We currently use these development tools and technologies: PHP 8+ ; Symfony; MySQL; Maria DB; ElasticSearch; Redis; Kubernetes; Docker; AWS.IN THIS ROLE, YOU WILLBe responsible for writing clean, tested and well documented code that delivers value to our customers.Follow established patterns and approaches within existing code base.Implement new features and functionalities needed for the company.Collaborate with team members to complete shared goals and deliver quality code-based solutions.Troubleshoot, test, and maintain our core application and databases.What We Are Looking For2+ years of experience in a PHP programming language and its frameworks (Symfony or Laravel).Understanding of OOP principles & good code design.Experience in writing different type of tests and working with relational databases.Previous experience in building scalable web applications.Curiosity to find out how things work.Not afraid to investigate and find technical solutions to everyday business problems.Fluent spoken and written English language skills.SALARYThe offered salary range for this position is from 4400 € (gross) per month. Please keep in mind that we are also open to discuss your salary expectations based on your competencies and experience.What We Offer Private health insurance Employee stock option plan (ESOP) Learning budget for your personal and professional growth Commuting perks (covered parking or public transport to choose from) Everyday snacks and drinks Onsite gym Top-notch hardware and software (MacOS or Windows to choose from) The opportunity"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4404091815",
+      "title": "PHP Developer",
+      "company": "Fleming",
+      "url": "https://lt.linkedin.com/jobs/view/php-developer-at-fleming-4404091815",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No mention of AWS certification",
+        "No mention of PostgreSQL"
+      ],
+      "description": "About us: Fleming was founded with the goal of creating high-quality digital health, wellness, and AI programs globally. We seek to make people's lives happier, healthier, and more productive by creating empowering self-growth products for everyday life. Our team of experts ranges from innovative AI specialists, creative minds, and imaginative designers to professional medical doctors and data scientists, working together as one to help millions of people around the world.With 2+ million customers worldwide, we're providing unique opportunities, attracting talents to join our fast-growing team, and creating innovative brands in a rapidly growing digital health industry. If you think you're bold, ambitious, and not afraid to challenge yourself, let's talk!We value shipping over ceremony. At Fleming, we keep the overhead low—no heavy methodologies or endless meetings. We rely on a quick daily stand-up to sync and then give you the autonomy to do what you do best: build great software. You’ll spend most of your time producing high-quality, test-backed code for our projects. Since we are a growing startup, you’ll also be welcome to participate in planning, workflow improvement, and technical design without the corporate red tape.We are looking:As a Back-end Developer at Fleming, you will be joining a cross-functional team of experienced individuals.You will spend most of your time producing high-quality code backed by tests for our projects. But since the process is an ever-changing one, you will also be welcome to participate in planning, workflow improvement, retrospection, research, and technical design activities.Take a fantastic opportunity to contribute to exciting digital health, wellness, and AI projects while advancing your skills in a collaborative, innovative environment.Get ready to:Work on highly scalable products and cloud-based infrastructure with enormously fast release cycles.Collaborate with cross-functional teams to define, design, and ship new features.Produce efficient, well-structured, and understandable code covered with tests.We expect you to:Have at least 2 years of experience working with PHP and Laravel (Symfony works too).Have experience working with relational databases such as MySQL or PostgreSQL.Have experience writing unit and integration tests.Have a solid understanding of OOP fundamentals and design patterns.Be a good communicator that loves sharing your experience with others.Have strong English and Lithuanian language skills"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4420474231",
+      "title": "Senior PHP Developer",
+      "company": "Surfshark",
+      "url": "https://lt.linkedin.com/jobs/view/senior-php-developer-at-surfshark-4420474231",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "description": "We probably won’t surprise you by telling you that our Core team is the core of everything. These experienced Back-end PHP Engineers are responsible for perfecting our user registration, payment processing, fighting cybervillains, and tracking marketing campaigns. They focus on digging into data, ensuring high availability, scalability, and performance optimizations, as well as writing clear code.So if you know your way around PHP 8.x, Symfony, databases and caching, and you’re looking for a great new tech challenge, read along!If you want to:Work on payment processing integrations;Build and maintain our current APIs as well as create new ones;Focus on writing clear, tested, documented code that delivers real business value;Develop back-end solutions with Symfony;Build highly scalable systemsAnd you can check off:Proven experience working with PHP;Understanding of OOP principles & good code design;Skills in PHP frameworks, preferably Symfony;Proven experience in building highly scalable systems;Solid technical understanding of RESTful APIs;Knowledge in microservices design;Experience working with VCSBonus points if you:Are skilled in RabbitMQ, MongoDB, MySQL, Redis and ElasticSearchHere’s the deal:Growth and learning opportunities: time dedicated to learning, conferences, online learning platforms, and books for your professional development;Health and wellness: we want you to feel and be your best. That's why we offer various benefits, from online workouts and a physical coach to health insurance and regular mental health checks;Tools of your choice: choose the technical equipment and tools you need to do your best work;Community and celebrations: get ready for long-lasting traditions such as yearly workation, Friday get-togethers, various team buildings and company celebrations;Work-life balance: as a general rule, we work based on a 3+2 hybrid model. And let’s not forget the WFA policy - an opportunity to work from anywhere in the world;More days off: additional vacation days depending on your tenure;Premium Surfshark accounts: for you, your family, and friends;Gross salary: 3200 - 7200 Eur/month. Although it may vary depending on your skills and experience.",
+      "match_score": 92,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Symfony match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No mention of PostgreSQL",
+        "No Docker experience mentioned"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4387817363",
+      "title": "Backend Engineer | Mid | PHP | Systems Team",
+      "company": "Nord Security",
+      "url": "https://lt.linkedin.com/jobs/view/backend-engineer-mid-php-systems-team-at-nord-security-4387817363",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No AWS certification required",
+        "No MongoDB emphasis"
+      ],
+      "description": "At NordPass, we’re making password security effortless.We believe logins should be safer and simpler. Join the team behind NordPass— a password manager trusted by 7M+ users and 10,000+ global companies to secure credentials, cards, and sensitive data.Your impact? Helping millions secure their digital lives by creating smarter, safer ways to log in.Main ResponsibilitiesCollaborate with cross-functional teams to ensure seamless integration and utilization of microservices across NordSecurity's suite of products, fostering a unified and seamless experience for our usersFocus on the delivery of high-quality code, where scalability and security come firstActively engage in technical and architectural decisions, refining processes, and contributing to the overall strategic direction of the productDemonstrate strong ownership and accountability for development, maintenance, and quality of the productFoster smooth communication and collaboration between team members and other engineering, product, and design professionals from various teamsCore RequirementsIn-depth knowledge of PHP (3+ years)Hands-on use of AI tools to augment engineering (e.g. code generation, test creation, performance tuning and debugging) with strong ownership of outputs and resultsSystem design is nothing new to you, and you know what patterns to use, when, and whySolid understanding of OOP, asynchronous programming & design patternsPassionate about architecture and technologies, open to speaking with anyone; if you can create scalable and stable code, we want to speak with youUnderstanding of core CI/CD principles, unit & integration testingBonus Points ForKnowledge of CryptographyTechnologies You Will UsePHPGOMySQLRedisRabbitMQDockerAWSSalary RangeGross salary 3200 - 5600 EUR/MonthWhat We OfferInnovate with industry leadersWork alongside global experts to build world-leading cybersecurity tools, impacting millions of users around the world.Learn & growBoost your skills via our extensive training programs (online and offline) & other resources. Benefit from mentorship and career-switch opportunities to grow within the company.Work in a next-gen Cyber City officeThrive in our bustling office, featuring ergonomic workspaces, modern meeting rooms, engaging events, and specialty coffee to fuel your day.Hybrid workEnjoy the flexibility with 3 office days and working from home for the remaining 2.Work from anywhereRecharge with a change of scenery – choose work from any location when you feel a ne"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4375612695",
+      "title": "PHP/Go Developer (Mid-Senior)",
+      "company": "Oxylabs.io",
+      "url": "https://lt.linkedin.com/jobs/view/php-go-developer-mid-senior-at-oxylabs-io-4375612695",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No mention of Go",
+        "No mention of AWS certification"
+      ],
+      "description": "We’re a team of 500+ professionals who develop cutting-edge proxy and web data scraping solutions for thousands of the world’s best known businesses, including Fortune 500 companies.What’s in store for you:You’ll be solving complex challenges and maintaining our own infrastructure with 60PB+ monthly data traffic. Here are its scale and maturity in numbers: 6PB+ Ceph storage 60PB+ monthly data traffic through our systems 300k+ service requests/sec processed 500k+ Kafka messages/sec streamedJoin a product used by over 15 million people worldwide and make a real impact from day one. With a rapid development cycle, your features go live fast - no long waits, just continuous delivery and visible results.You’ll work with a modern, up-to-date tech stack (latest PHP, frameworks, databases) in a fully containerized environment, running Kubernetes in production for over seven years. Tackle big data challenges daily, explore Go in real projects, and help shape the engineering standards and best practices we follow.Your day-to-day:Develop a system and solutions that could be easily scalable;Write clean, tested, documented code that delivers real business value;Own the entire development cycle - from research and prototyping to deployment;Deliver and review technical design, code, and documentation;Contribute to technical decision-making in an early-stage, fast-growing project;Create, review and maintain multiple microservices in order to optimize them for best performance and stabilityYour experience & skills:Have deep knowledge in PHP (preferably Symfony framework, other frameworks - nice to have);Have some experience or interested in Golang, NodeJS or similar languages;Know how SQL and NoSQL databases work and how to write optimized queries and debug them if needed;Know why automated tests can save the world;Real-time data processing and event streaming is something you already know or it seems to be an interesting field to you;Be passionate about technology and interested in constantly trying something new;Have some experience with any of the following technologies we extensively use in our stack: Docker, Kubernetes, Microservices, Kafka, MySQL clusters, Gitlab CI, Redis;Fluent in English and LithuanianTech stack:PHP;Golang;Kafka;Redis;Kubernetes;Microservices;Gitlab CI;SQL and NoSQLSalary:Gross salary: 4000 - 7200 EUR/month. Keep in mind that we are open to discussing a different salary based on your skills and experienceTo support your professional growth and mak"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4410519991",
+      "title": "Senior PHP Developer",
+      "company": "Fleming",
+      "url": "https://lt.linkedin.com/jobs/view/senior-php-developer-at-fleming-4410519991",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Senior level, no mention of Laravel"
+      ],
+      "description": "About us:Fleming was founded with the goal of creating high-quality digital health, wellness, and AI programs globally. We seek to make people's lives happier, healthier, and more productive by creating empowering self-growth products for everyday life. Our team of experts ranges from innovative AI specialists, creative minds, and imaginative designers to professional medical doctors and data scientists, working together as one to help millions of people around the world.With 2+ million customers worldwide, we're providing unique opportunities, attracting talents to join our fast-growing team, and creating innovative brands in a rapidly growing digital health industry. If you think you're bold, ambitious, and not afraid to challenge yourself, let's talk!We are looking for: As a Senior PHP Developer at Fleming, you will play a key role in building and maintaining scalable, high-performance platforms. You’ll join a cross-functional team of talented professionals, contributing not only through clean, efficient code but also by mentoring others, influencing architecture decisions, and shaping best practices across the engineering organization.We value shipping over ceremony. At Fleming, we keep the overhead low - no heavy methodologies or endless meetings. We rely on a quick daily stand-up to sync and then give you the autonomy to do what you do best: build great software. You’ll spend most of your time producing high-quality, test-backed code for our projects. Since we are a growing startup, you’ll also be welcome to participate in planning, workflow improvement, and technical design without the corporate red tape.Get ready to:Design and develop scalable back-end systems and APIs using PHP Laravel framework.Lead the development of new features and architectural improvements.Write efficient, maintainable, and well-tested code.Collaborate closely with front-end engineers, designers, and data scientists.Mentor junior and mid-level developers, sharing best practices and code review feedback.Contribute to improving development workflows, automation, and deployment processes.We expect you to:Have 5+ years of experience working professionally with PHP (Laravel or Symfony).Have strong experience with relational databases (MySQL or PostgreSQL).Write unit, integration, and feature tests regularly.Possess a deep understanding of OOP principles, SOLID, and design patterns.Be comfortable with RESTful API design and development.Communicate clearly and effectively, both tec"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4404865503",
+      "title": "(Senior) PHP Laravel Developer",
+      "company": "Omniboost",
+      "url": "https://nl.linkedin.com/jobs/view/senior-php-laravel-developer-at-omniboost-4404865503",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ],
+      "description": "Your RoleWe’re building a multi-platform DataHub for the hospitality vertical, a SaaS solution that seamlessly connects multiple systems. This platform empowers businesses like restaurants and hotels to streamline operations, from processing room charges within hotel systems to enabling loyalty programs for Point-of-Sale systems and beyond. As a (Senior) PHP Laravel Developer, your focus will be on enhancing the current product, making key architectural decisions, developing integrations and elevating overall code quality within the team.Your work impacts thousands of customers daily. Thanks to you, Natalia can seamlessly charge her dinner to her hotel room, and Robert can redeem his loyalty points for a discount on his next stay. The integrations you build run so smoothly that guests and staff never have to think about the data behind the scenes, it just works.Key ResponsibilitiesTackle complex business challenges with the team, finding solutions where others see obstacles.Collaborate and support your teammates, helping them overcome technical hurdles.Optimize API integrations with our partners, ensuring the most efficient and effective implementation.Review and refine code, enhancing both your own skills and those of your team members.Innovate, speak your mind, and share your vision to continuously improve our platform.Key Requirements5+ years of experience in Laravel development.3+ years of leadership experience in a similar role.Strong knowledge of unit and integration testing.Proficiency in Git and version control best practices.Solid understanding of Agile and Scrum methodologies.Hands-on experience with AWS infrastructure and services.Fluent English to communicate effectively in an international team.A solution-oriented mindset, with the ability to translate business requirements into technical solutions.Preferred QualificationsExperience working with SaaS platforms.Knowledge of Kubernetes/ EKS.Familiarity with Grafana for monitoring and analytics.You share our Core ValuesExtreme OwnershipWillingness to Serve (Unreasonable Hospitality)A relentless Growth MindsetPlaying Offense, not DefenseStaying confidently Humble, never Arrogant"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413054835",
+      "title": "Senior PHP Engineer",
+      "company": "Hack The Box",
+      "url": "https://de.linkedin.com/jobs/view/senior-php-engineer-at-hack-the-box-4413054835",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No mention of PostgreSQL"
+      ],
+      "description": "Ready to embark on the quest of joining Hack The Box?Welcome! Super excited you dropped by 🥳At the end of this journey, you'll become a proud member of Hack The Box, with the ultimate mission to raise cyber resilience, so that every organization can stay ahead of tomorrow's threats.🚀🔒💻✨The core mission of the Senior PHP engineer:Work on one of our HTB platforms, HTB Business, responsible for upskilling organizations across the globe. In this role, you will have the opportunity to work on the enhancement of the platform and the development of new features.We are open to candidates with diverse back end programming backgrounds, as long as you have experience in an MVC framework, passion and aspiration to work with PHP programming language and the Laravel Framework.🏢 Location & Work Mode:Europe/GreeceChoose between fully remote work across Europe or relocating to our Athens Tech Hub with relocation supportFully Remote / Hybrid (2 days in the office, 3 days remote, plus one month of work from anywhere) - If only in Greece: When hiring in Greece, we're open to candidates from all locations. Those based within 55 km of our Athens office will follow a hybrid work model. For candidates located beyond that radius, a fully remote arrangement is available.✈️ Relocation We offer a 10% relocation bonus on the annual salary to support your moveIn addition, you would benefit from a 50% tax reduction on your income as part of the relocationWe'll support you with accommodation during the first few weeks🍺 The fellowship you'll be joining:As a Back end developer you will work closely with developers, QA and Product Managers to create an amazing experience for HTB customers. You will be an integral part of HTB development team aspiring to build the world's largest hacker community. This engineering team is the biggest one , aligning with the expansive mindset of our HTB Business platform and serving a diverse set of customers globally.⚔️ Tools & weapons you'll be using:PHP, Laravel , JIRA, SQL, Docker, Github📚 Interesting resources you should check:#3 Engineering Team Meetup HTB Business Team Off Site Adventure🚀 The adventures that await you after becoming Senior PHP Engineer at Hack The Box:Develop new features and tools using the Laravel PHP FrameworkGenerate clean, safe, reusable and scalable PHP codeCreate and maintain RESTful APIs Contribute to architectural and software design decisionsContribute and maintain technical documentation and specificationsPerform code review"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4406086933",
+      "title": "Senior Software Engineer (PHP)",
+      "company": "HomeToGo",
+      "url": "https://lt.linkedin.com/jobs/view/senior-software-engineer-php-at-hometogo-4406086933",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No AWS certification required",
+        "No MongoDB emphasis"
+      ],
+      "description": "Explore a new world of possibilitiesAt HomeToGo, we’re on a mission to make incredible accommodation easily accessible for everyone. Our team is united by a passion for travel, driven by innovation and impact, and guided by open-minded leaders at every level. Our commitment to recognizing and empowering exceptional talent is the foundation of our growth. An amazing journey of opportunity with an international team lies ahead - join us!Your future contributionCurrently, we are seeking a Senior Software Engineer (PHP) for the Checkout team. You will play an essential role in our platform's success by joining the team responsible for enhancing the checkout process and post booking experience. Your expertise in PHP development will be instrumental in delivering seamless user experiences and optimizing the booking flow for our users.How you’ll add valueDrive the implementation of technical initiatives to improve the quality of our productPartner with Product to impact the roadmap and ensure engineering decisions align with user needsCollaborate closely within a cross-functional team as well as other engineering teams to understand business requirements and ensure the timely delivery of featuresWork closely with architects to identify and address technical challenges, ensuring the scalability, reliability, and usability of our Marketplace productsTake ownership of engineering decisions for larger topics and featuresBe a part of a push to improve the product delivery processYou’ll be successful in this role if youHave 5+ years of professional experience in backend development (ideally with PHP/Symfony)Have an excellent communication skills with the ability to collaborate effectively with diverse stakeholdersAre familiar with relational databases (e.g., MariaDB, PostgreSQL)Have strong problem-solving skills and the ability to drive technical solutions in a fast-paced environmentUnderstand the fundamental design principles behind a scalable applicationHave professional working proficiency in EnglishWhat we offerCareer of growth opportunities and promotions, 360 feedback, performance evaluation system, and mentoring from an international and distinguished teamCulture of empowerment, trust, recognition, autonomy and quarterly transparency about company goals. A focus on work-life balance, combined with consistent collaboration and support from a team of 30+ nationalitiesCompensation of attractive salary, health insurance, additional holidays, flexible working hours, "
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4292159692",
+      "title": "Senior PHP Developer",
+      "company": "Skrepr",
+      "url": "https://nl.linkedin.com/jobs/view/senior-php-developer-at-skrepr-4292159692",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Senior experience required",
+        "No mention of AWS certification"
+      ],
+      "description": "FunctieomschrijvingSkrepr is op zoek naar een Senior PHP Developer die de ambitie heeft om met ons mee te groeien. Bij ons krijg je de kans om je te ontwikkelen en samen met ons te werken aan toonaangevende webapplicaties. We zoeken iemand die niet alleen technisch sterk is, maar ook creatief en leergierig. Bij Skrepr krijg je de ruimte om te experimenteren en jezelf te blijven uitdagen. Sluit je aan bij ons team en bouw mee aan de digitale toekomst!Als Senior Software Engineer (PHP) heb jij een essentiële rol in het bouwen van high-tech softwareoplossingen voor onze opdrachtgevers. Samen met andere ontwikkelaars in klantteams werk je aan het optimaliseren van onze software en het tevredenstellen van onze klanten. Dit doen we niet volgens het 'jij vraagt, wij draaien' principe, maar door de uitdagingen van onze klanten als jouw eigen uitdagingen te zien. Als een ware detective neem jij plaats op de stoel van de klant, onderzoek je de behoeften en stel je de juiste vragen om tot de beste oplossing te komen. Onze opdrachtgevers zijn vaak geen software genieën en daarom is jouw vermogen om de opdrachtgever mee te nemen in de mogelijkheden van ons product cruciaal.Kortom, als Senior Software Engineer (PHP) bij ons draait het allemaal om het bouwen van de beste softwareoplossingen die voldoen aan de behoeften van onze klanten. Doe je met ons mee?VereistenJe hebt al minimaal 3-5 jaar ervaring als software engineer (PHP) en je hebt een duidelijk track record van het bouwen van innovatieve softwareoplossingen.Je bent een code-wizard die de taal van PHP spreekt als geen ander.Je hebt ervaring met het bouwen van high-tech softwareoplossingen die zowel de klant als de gebruiker tevreden stellen.Jij bent een detective die de behoeften van onze klanten kan achterhalen en vertalen naar de beste oplossingen.Jouw code is geoptimaliseerd voor snelheid, veiligheid en schaalbaarheid.Jij ziet problemen als uitdagingen en gaat ze niet uit de weg.Je bent een echte teamspeler die goed kan communiceren en samenwerken met andere ontwikkelaars.Jij hebt oog voor detail en zorgt ervoor dat onze software altijd optimaal werkt.Je bent op de hoogte van de nieuwste ontwikkelingen op het gebied van PHP en de bijbehorende frameworks.Jij bent proactief en komt met creatieve oplossingen voor complexe problemen.Je bent niet alleen een software engineer, maar ook een tech-enthousiast die altijd op zoek is naar nieuwe manieren om onze software te verbeteren.Tech StackBij Skrepr Maken We Gebruik"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4341324199",
+      "title": "Senior Backend Engineer (PHP)",
+      "company": "AMBOSS",
+      "url": "https://de.linkedin.com/jobs/view/senior-backend-engineer-php-at-amboss-4341324199",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ],
+      "description": "Hi! We are AMBOSS and we are looking for a Senior Backend Engineer (PHP) to join our Educator Experience team, and shape the future of medical education with us!About AMBOSSAMBOSS is a dynamic learning and clinical decision support tool committed to empowering physicians globally to deliver optimal care. Since our inception in 2012, we've harnessed cutting-edge technology to transform the way physicians acquire and apply scientific knowledge. Each AMBOSSian is passionate about being the champion of clinicians today - this motivates and unites us each day towards success. And what does success look like? When a clinician or med student tells us, “AMBOSS makes practicing medicine easier and enjoyable. I love what I do, and a big part is because of AMBOSS.”Want to learn more about our culture? Watch our video to explore what makes us unique.Why can this position be exciting for you?We are AMBOSS, and we’re looking for a Senior Backend Engineer in the Educator Experience team. Engineers at AMBOSS are at the forefront of shaping user experience for doctors and students, helping them make critical decisions, ultimately impacting the healthcare of billions of people worldwide. We are looking for someone with a passion for getting the most out of technology and people, setting the pace and direction of excellence for engineering craft. Join our agile team on a mission to enable institutions (like educational clinics, medical schools) to use AMBOSS resources efficiently and effectively when teaching their learners (e.g. residents and students).You WillActively contributing to engineering projects within our new B2B product “Educator Tool”, from conception to completion.Drive the adoption of best practices in code health, testing, and maintainability.Collaborate with cross-functional teams to define project requirements and specifications.Address Ad-Hoc requests from customer support channels.Share your knowledge within the AMBOSS community, contributing to a culture of continuous learning and growth.You BringProven expertise with PHP and its modern frameworks (such as Symfony, Slim, Laravel) and MySQL.Product -minded approachExperience in the full web development lifecycle, including requirements analysis, solution discovery, system design, coding, testing, deployment, and maintenance.Proficient in building and integrating APIs ( GraphQL and/or RESTful) and adept at robust database design and management.Strong knowledge of SOLID principles, best practices, and desi"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4389183850",
+      "title": "Senior Backend Engineer",
+      "company": "group.one",
+      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-at-group-one-4389183850",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "denmark": true,
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No mention of MongoDB"
+      ],
+      "description": "Are you a skilled Backend Developer (Node.js) with a passion for scalable systems and robust solutions? Do you want to be a key player in a team building the next generation of digital services? Then this might be your next challenge!About UsWe are group.one, a fast-growing European tech company empowering over 2 million small and medium-sized businesses to succeed online. With a 1,500-strong team across 20 offices, group.one delivers an integrated suite of SaaS products—ranging from AI-powered website builders and WordPress hosting to marketing, e-commerce, and compliance tools. Our mission is simple: to help entrepreneurs win digitally with easy-to-use products, scalable cloud infrastructure, and local expertise.About The TeamWe believe in modern technology, agile workflows, and a culture where autonomy, innovation, and personal connection are at the core. Our multi-cultural, English-speaking team is a rapidly growing group of passionate engineers, working closely with Product, UI, UX, and QA to build next-generation AI and WordPress solutions. We are developing Flowpilot.one, a conversational AI-based website builder for WordPress that enables anyone to create a professional site through natural dialogue — launching globally across our brands. In parallel, we build and maintain WP.one, a powerful managed WordPress hosting platform designed for agencies and developers. Our team currently includes four local engineers (growing to eight), a Support Engineer in Finland, UI and UX designers based in Copenhagen, and QA support from India — all collaborating tightly to deliver high-quality, scalable products that redefine how websites are created and managed.About The RoleWe are looking for a Backend Developer fluent with NodeJS (TypeScript) and understanding of NestJS with an interest in AI frameworks (e.g. LangChain) and agentic systems. As a Backend Developer, you’ll work on projects that integrate conversational AI into website generation, editing, and connectivity with internal and external systems and plugins. You’ll also have the opportunity to experiment and expand your expertise by building AI-driven solutions for various use cases defined by the team.This is a remote position, with travel to Finland required approximately once every 1–2 months.What You’ll DoBuild and evolve our AI-powered backend systems that connect conversational AI with website generation, editing, and plugin integrations.Design and implement scalable APIs and microservices using "
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413681171",
+      "title": "PHP-utvecklare",
+      "company": "PS Finance Group",
+      "url": "https://se.linkedin.com/jobs/view/php-utvecklare-at-ps-finance-group-4413681171",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-02",
+      "description": "Vi söker en driven och lösningsorienterad fullstack PHP-utvecklare som vill vara med och utveckla affärskritiska system i en miljö där stabilitet, ansvar och kvalitet står i fokus.I den här rollen får du kombinera support, förvaltning och nyutveckling i en och samma vardag. Du kommer både arbeta med att säkra och vidareutveckla befintlig funktionalitet, samtidigt som du är med och bygger nya lösningar som tar systemen framåt. Det här är en roll för dig som trivs med att förstå helheten, ta ansvar för att saker fungerar i praktiken och som gillar att kontinuerligt förbättra och utveckla – inte bara skriva ny kod, utan också säkerställa att det som redan finns fortsätter vara stabilt och effektivt.Du blir en del av ett företag i stark tillväxt där det finns stora möjligheter att påverka både teknik och framtida lösningar. Vi söker dig som motiveras av att vara med på en utvecklingsresa där initiativ, ansvarstagande och engagemang uppskattas.För oss är rätt inställning viktigare än antalet år på CV:t. Vi värdesätter personer som är nyfikna, lösningsorienterade och vill utvecklas tillsammans med teamet och systemen de arbetar med. Har du arbetat i en miljö där PHP varit det huvudsakliga programmeringsspråket och känner dig trygg i att utveckla, felsöka och vidareutveckla system, vill vi gärna höra från dig.Det här har du med digMycket god kunskap inom PHPErfarenhet av MySQL och SQL-hanteringGrundläggande kunskaper inom HTML och CSSErfarenhet av REST API:erGod förståelse för webbflöden och backendlogikDet är meriterande om du även harErfarenhet av versionshantering som Git eller SVNKunskap om DockerErfarenhet av message brokers, exempelvis RabbitMQFörståelse för Apache och servermiljöerErfarenhet från liknande bransch eller systemmiljöerKänsla för frontend och förmåga att skapa gränssnitt som är funktionella och användbara – vi söker inte en renodlad designer, utan fokus ligger på robust och välfungerande backendRollen passar dig somDu trivs med att arbeta fokuserat och lösningsorienterat med kod, samtidigt som du uppskattar samarbetet med kollegor i andra yrkesroller för att förstå behov och tillsammans hitta de bästa lösningarna. Du är trygg i dialogen mellan teknik, verksamhet och kund och ser det som naturligt att delta i både interna och externa möten där du bidrar med ett lösningsfokuserat och professionellt perspektiv.Rollen är baserad på vårt kontor i Göteborg och vi söker dig som trivs med att arbeta nära teamet på plats. Eftersom rollen innebär löpand",
+      "match_score": 88,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires on-site work",
+        "No AWS certification required"
+      ]
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/the-quality-group-gmbh/jobs/professional-software-engineer-gn-php-b2b-commerce-7934917658",
       "title": "Professional Software Engineer (gn) – PHP (B2B Commerce)",
       "company": "The Quality Group GmbH",
@@ -1377,46 +1755,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4379327855",
-      "title": "PHP Developer | PHP Izstrādātājs/-a",
-      "company": "Mapon",
-      "url": "https://lv.linkedin.com/jobs/view/php-developer-php-izstr%C4%81d%C4%81t%C4%81js-a-at-mapon-4379327855",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No description available",
-        "No AWS certification required"
-      ],
-      "description": "Mapon, a part of the Draugiem Group, is one of Northern Europe's leading providers of B2B fleet management and tracking solutions. With over 30,000 clients and an extensive partner network in Norway, Denmark, Belgium, Croatia, Poland, Lithuania, Ireland and Ukraine, we employ over 200 professionals in our offices in Latvia, Lithuania, Estonia, Finland, Denmark, Ireland and Spain.We are currently seeking a Senior PHP Programmer to join our team and work on developing both existing and new product solutions, such as driver behavior analysis, online maps, tachograph solutions, and more. We have a wealth of ideas and visions, and we need your help to bring them to life.👉 The TeamCurrently, we have 8 development teams, and we are looking for a Senior PHP Developer. Our teams develops, enhances and maintains solutions which allow our clients to digitize, automate and optimize their current fleet management processes, as well as creating new, innovative and integrated solutions.In the team, you would be working under the guidance of an experienced technical lead and together with several Back-End and Front-End developers, as well as QA specialists and a Product Owner.⚙️ Tech-stackFor backend development we primarily use PHP (8.2+);We extensively use asynchronous processing and event-driven approaches for handling high-load tasks;For frontend development we use React framework;We use MariaDB (SQL) for primary data storage, for large volume timeseries data we use TiDB cluster;We use several additional technologies to assist with working with large data volumes: ElasticSearch, Redis, Memcached;We use Sentry, Grafana & Prometheus combo for monitoring our solution application performance (APM);We use git for version control and Gitlab for hosting the code repositories;We use Gitlab CI pipelines for automating various tasks;Docker is used for development and test environments;We actively use AI tools for development and other day-to-day activities and expect ;We are open for experiments with new technologies and tools - we always aim to choose the best tool for reaching our goals🤝 We Offer💰 Salary starting from 3500 EUR up to 6000 EUR before taxes (depending on skills & experience);🍽 Paid lunches and fruit in the office;🏆 Personalized employee benefits after the probation period, from which you can choose the most suitable for you (health insurance (including mental health support, dental care, and massage courses), additional sports program or employer contributions t"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4409276592",
-      "title": "PHP Software Developer II",
-      "company": "Aylo",
-      "url": "https://lv.linkedin.com/jobs/view/php-software-developer-ii-at-aylo-4409276592",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Limited seniority",
-        "No description available"
-      ],
-      "description": "Established in 2004, we are a tech pioneer offering world-class adult entertainment and games on some of the internet’s safest and most popular platforms. With the support of an international team of dynamic and collaborative innovators, we are on a mission to enable safe user experiences and empower our communities by celebrating diversity, inclusion, and expression — all while maintaining robust trust-and-safety protocols.We embrace the best of both worlds! Local talent can thrive in our collaborative office space with the flexibility of a hybrid work environment, while remote team members play an integral role in shaping our dynamic culture from afar. We have offices in Montreal (Quebec), Austin (Texas) and Nicosia (Cyprus).*A select number of positions require full-time in office attendance*As a PHP developer, get the opportunity to work on some of the most visited websites in the world, work with big data and have your limits pushed by getting exposed to new technologies while working with some of the most talented developers.What you'll be doing: Develop and maintain microservices, APIs, and applications built around PHP.Exploit full potential of diverse backend technologies to leverage real time pipelining of big and secured data.Work with caches, messaging queues, databases, and diverse in-house and third-party systems.Take ownership of components and domain knowledge by guiding your peers through pull requests and code reviews. Participate in the propagation of development culture, processes, and values shared by the team.What you'll need to be successful: Must Haves: 3+ years related work experience as a backend software developerBachelor’s degree in Computer Science/Engineering is an assetExcellent knowledge of a web language (PHP, Java Web, Python, GO, etc.)Understanding of computational and data complexity, scalability, securityNice to Have:Experience with PHP alongside a framework (Lumen, Yii, Laravel, Symfony, etc.)Experience with Docker, ELK, RabbitMQ, Redis and GitlabCIStrong knowledge of database technologies to scale for high volume web sites (Redis, Memcached)Experience in dealing with large scale websites that receive millions of visits per dayAs an equal opportunity employer, we celebrate diversity and are committed to creating an inclusive environment for all employees In this role you may be exposed to adult content"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4385456090",
       "title": "PHP Laravel Engineer [gn]",
       "company": "LUMASERV",
@@ -1456,65 +1794,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4409622235",
-      "title": "PHP Full Stack Developer (Laravel / Vue / Next.js)",
-      "company": "PLC Group - Global Automotive Auctions & Digital Solutions",
-      "url": "https://lt.linkedin.com/jobs/view/php-full-stack-developer-laravel-vue-next-js-at-plc-group-global-automotive-auctions-digital-solutions-4409622235",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires Vue/Next.js experience",
-        "No AWS certification required"
-      ],
-      "description": "About the PositionWe are UAB PLC Group, an international company specializing in car trading and digital vehicle history reporting. We operate large-scale international projects such as plc.auction – a global car auction platform, and checkcar.vin – a vehicle history report generation system.We are growing fast and looking for a Mid–Advanced PHP Full Stack Developer to join our engineering team in Vilnius.You will be responsible for developing web applications (Laravel, Vue.js, Next.js). This is a great opportunity to work with modern technologies and contribute to innovative international projects.Your ResponsibilitiesDevelop and improve backend functionality using Laravel (8/9+)Build and maintain frontend features with Vue.js and Next.jsDesign and integrate REST APIs (payments, logistics, third-party services)Work with MySQL & PostgreSQL (queries, indexes, performance optimization)Implement caching solutions (Redis, Memcached)Write clean, scalable, and maintainable codeRefactor existing code and improve system architectureWrite and maintain technical documentationCollaborate closely with product managers and developersRequirements2+ years of commercial experience with LaravelStrong knowledge of PHP, OOP/OOD, ORM, design patternsExperience with MySQL & PostgreSQLConfident use of GitSolid frontend skills: HTML5, CSS3, JavaScript, jQuery, AjaxExperience with Vue.js and Next.jsREST API development and integration experienceKnowledge of PSR standardsExperience with PHPUnit testingHands-on refactoring experienceUnderstanding of database architectureGood English (reading technical documentation)Russian language knowledge is a plusStrong communication skillsWhat We OfferModern office in VilniusFlexible working hoursHybrid work option after probation periodProfessional and friendly international teamHealth insurance & wellness benefitsSalary based on experience and skills"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4379438601",
-      "title": "Full stack developer (PHP)",
-      "company": "NEO Finance",
-      "url": "https://lt.linkedin.com/jobs/view/full-stack-developer-php-at-neo-finance-4379438601",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
-      ],
-      "description": "What you will do:Build and maintain frontend interfaces using Twig (HTML, CSS).Design and implement new features based on business requirements.Integrate and maintain APIs and internal tools.Ensure system stability, performance, and security, including data protection (GDPR).Troubleshoot technical issues and continuously improve existing solutions.Participate in IT project planning and collaborate with internal teams and external partners.What we expect:Strong experience with PHP and Symfony framework (preferably Symfony 7).Solid frontend skills using Twig, HTML, and CSS.Experience working with databases (primarily MariaDB/MySQL) and backend integrations.Understanding of secure, scalable application architecture.Ability to work independently and take ownership of solutions.Strong problem-solving and communication skills.What we offer:Extra paid days off – so you can recharge more often.Health insurance – because your well-being matters.Employee discount platform – enjoy exclusive offers.Financial support during important life events.Flexible work model – remote work opportunities.Learning & development – we invest in your growth.SalaryFrom 4000 €/mon. gross"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4315302532",
-      "title": "Full-Stack Developer (PHP специализация)",
-      "company": "NextLogistic Ltd.",
-      "url": "https://bg.linkedin.com/jobs/view/full-stack-developer-php-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-at-nextlogistic-ltd-4315302532",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No description available",
-        "No AWS certification required"
-      ],
-      "description": "Skip to main content Scroll TopНачалоКомпаниятаЗа насЛидер в логистикатаАкадемияОбучения за нови кадриКариериСтани част от нашия екипКаузиСоциална отговорност и визияТехнологииИновации и AI решенияЗелена логистикаЕкологичен транспортен моделЕтичен кодексПолитика за човешките праваПолитика за устойчивост в логистикатаПолитика за многообразие и приобщаванеПолитика за корпоративна социална отговорност (КСО)Политика за управление на енергиятаПолитика за опазване на околната средаПолитика за борба с подкупите и корупциятаКодекс за поведение на доставчици и партньориФормуляр за регистриране на сигналиBackЗа насАкадемияКариериКаузиТехнологииЗелена логистикаПолитика за човешките праваПолитика за устойчивост в логистикатаПолитика за многообразие и приобщаванеПолитика за корпоративна социална отговорност (КСО)Политика за управление на енергиятаПолитика за борба с подкупите и корупциятаПолитика за опазване на околната средаКодекс за поведение на доставчици и партньориФормуляр за регистриране на сигналиТранспортСухопътен транспортОрганизиране на превозиИнтермодален транспортЛогистика от ново поколениеЖП транспортЛиценз за превоз в 4 държавиКомбиниран транспортДоставки по суша и мореКонтейнерни превозиFCL и LCL от пристанище до вратаРечен транспортРешения за насипни товариТранзитни документиГранични пунктовеЧМР конвенцияНаправи запитванеBackСухопътен транспортКомбиниран транспортИнтермодален транспортКонтейнерни превозиЖП транспортРечен транспортНовиниКонтактиLinkedin Facebook InstagramLinkedin Facebook InstagramКомпаниятаЗа насАкадемияКариериКаузиТехнологииЗелена логистикаЕтичен кодексПолитика за човешките праваПолитика за устойчивост в логистикатаПолитика за многообразие и приобщаванеПолитика за корпоративна социална отговорност (КСО)Политика за управление на енергиятаПолитика за опазване на околната средаПолитика за борба с подкупите и корупциятаКодекс за поведение на доставчици и партньориТранспортСухопътен транспортКомбиниран транспортИнтермодален транспортКонтейнерни превозиЖП транспортРечен транспортНовиниКонтактиСподелиFull-Stack Developer (PHP специализация)Некст Логистик е утвърдена компания в транспорта и логистиката с широка мрежа от български и международни партньори. Във връзка с разширяване на софтуерния екип търсим Full-Stack Developer (PHP специализация) с опит в бекенд и фронтенд, който да участва в мащабни и иновативни проекти.Позицията е изцяло присъствена, без home office или хибридОсновни отговорности: Разработка и поддръжка на бекенд с PHP и Lara"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4379345039",
       "title": "Senior Full-Stack Developer (PHP & React) | Tachogram | Vecākais/-ā Full-Stack Izstrādātājs/-ā",
       "company": "Mapon",
@@ -1533,26 +1812,6 @@
         "No description available"
       ],
       "description": "🟢 About MaponMapon, a part of the Draugiem Group, is a fast-growing SaaS company and a leading provider of telematics and fleet management solutions in Europe. With over 30,000 clients and an extensive partner network in Norway, Denmark, Belgium, Croatia, Poland, Lithuania, Ireland and Ukraine, we employ over 200 professionals in our offices in Latvia, Lithuania, Estonia, Finland, Denmark, Ireland and Spain.We are currently seeking a Senior Full-Stack developer to join our Compliance (Tachogram) team and work on developing both existing and new product solutions, with a focus on tachograph data processing, compliance, and analytics. We have a wealth of ideas and visions, and we need your help to bring them to life.🚀 The TeamThis position is for our Tachogram product team, focused on developing and enhancing solutions for tachograph data processing, regulatory compliance, and transport analytics. You will contribute to both improving our existing platform and building new features that deliver measurable value to our clients.We are looking for product-minded engineers who care about their team's success, can commit to reaching team goals and are able to work effectively in a small team, covering all stages of the development lifecycle: from planning, through development, review and release to maintenance and operation.🧩 You Will Be Responsible ForDesigning, developing, and evolving end-to-end solutions across backend, frontend, and APIs for a high-performance, data-driven tachograph compliance and analytics platform, with a strong focus on customer value and product outcomes;Collaborating closely with tech lead, product manager, designer and other engineers to co-shape solutions, and deliver measurable business impact quickly;Taking technical ownership of features and systems across the full lifecycle - from discovery and design through implementation, testing, deployment, monitoring, and continuous improvement;Architecting and implementing clean, scalable, and maintainable backend and frontend solutions, balancing delivery speed with long-term sustainability and ensuring seamless interaction between frontend, backend, and external systems;Ensuring high quality through automated testing, code reviews, observability, and documentation, shipping changes in quick, small and safe increments;Identifying performance bottlenecks, usability issues, and technical debt across the stack, and driving pragmatic improvements that increase reliability and developer veloci"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4419053919",
-      "title": "Full stack developer focused on PHP and JS",
-      "company": "DynamicSource AB",
-      "url": "https://se.linkedin.com/jobs/view/full-stack-developer-focused-on-php-and-js-at-dynamicsource-ab-4419053919",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "description": "You will be responsible for taking one of our products to the next level. It is used by operations staff and flight crew daily, delivering critical flight data to external systems and our own iPad app 24/7. You will:Design, prototype and implement new features in an existing PHP code base.Make UI improvements and further development in a Typescript / ReactJS code base.Create and maintain customer API integrations. Adapt internal API endpoints to customer needs and streamline / reconcile incoming data to internal models.Write excellent technical documentation for both internal and external use.Use high-availability and fault tolerant coding practices.Implement automated software testing and quality assurance.SkillsMust havePHPJavaScript / Typescript / ReactGitMySQLDockerExcellent communication skills in English.Experience with highly secure network communications.Highly self-organised and disciplined / experience with remote workGood to haveRustC++SwiftBonus pointsAviation knowledge / interestFor this position, a hybrid work model applies. You are expected to work from our office in Stockholm at least 2 days per week. The majority of the DynamicSource team is located in the greater Stockholm area.DynamicSource also visits customers and participates in industry events such as forums, product expos, and aviation-related conferences. Some international travel may be required.",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires Stockholm office presence",
-        "Limited aviation knowledge"
-      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4421445644",
@@ -1754,66 +2013,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4365701714",
-      "title": "PHP Developer (mid/senior)",
-      "company": "Ovoko",
-      "url": "https://lt.linkedin.com/jobs/view/php-developer-mid-senior-at-ovoko-4365701714",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No AWS certification required",
-        "No PostgreSQL mentioned"
-      ],
-      "description": "Who We AreOvoko is transforming Europe’s €30B+ used car parts market - a massive, fragmented industry still largely offline. We connect 6,000+ scrapyard owners, car parts sellers and dismantlers with millions of buyers through our marketplace, SaaS and logistics platform, making it effortless to trade parts across borders. With over 35 million parts listed, we’ve grown into one of Europe’s fastest-scaling e-commerce companies, but the real opportunity lies ahead, as we build a real category-defining platform worldwide.About The RoleWe are looking for a PHP Developer, who will be a part of one of our ten product teams and will be responsible for writing a well-structured, easily comprehensible, and well-documented code, followed by the latest software development practices, such as patterns and anti-patterns, backed by automated tests (PHPUnit). We will always be there to mentor you and help you grow as a professional. We currently use these development tools and technologies: PHP 8+ ; Symfony; MySQL; Maria DB; ElasticSearch; Redis; Kubernetes; Docker; AWS.IN THIS ROLE, YOU WILLBe responsible for writing clean, tested and well documented code that delivers value to our customers.Follow established patterns and approaches within existing code base.Implement new features and functionalities needed for the company.Collaborate with team members to complete shared goals and deliver quality code-based solutions.Troubleshoot, test, and maintain our core application and databases.What We Are Looking For2+ years of experience in a PHP programming language and its frameworks (Symfony or Laravel).Understanding of OOP principles & good code design.Experience in writing different type of tests and working with relational databases.Previous experience in building scalable web applications.Curiosity to find out how things work.Not afraid to investigate and find technical solutions to everyday business problems.Fluent spoken and written English language skills.SALARYThe offered salary range for this position is from 4400 € (gross) per month. Please keep in mind that we are also open to discuss your salary expectations based on your competencies and experience.What We Offer Private health insurance Employee stock option plan (ESOP) Learning budget for your personal and professional growth Commuting perks (covered parking or public transport to choose from) Everyday snacks and drinks Onsite gym Top-notch hardware and software (MacOS or Windows to choose from) The opportunity"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4404091815",
-      "title": "PHP Developer",
-      "company": "Fleming",
-      "url": "https://lt.linkedin.com/jobs/view/php-developer-at-fleming-4404091815",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No mention of AWS certification",
-        "No mention of PostgreSQL"
-      ],
-      "description": "About us: Fleming was founded with the goal of creating high-quality digital health, wellness, and AI programs globally. We seek to make people's lives happier, healthier, and more productive by creating empowering self-growth products for everyday life. Our team of experts ranges from innovative AI specialists, creative minds, and imaginative designers to professional medical doctors and data scientists, working together as one to help millions of people around the world.With 2+ million customers worldwide, we're providing unique opportunities, attracting talents to join our fast-growing team, and creating innovative brands in a rapidly growing digital health industry. If you think you're bold, ambitious, and not afraid to challenge yourself, let's talk!We value shipping over ceremony. At Fleming, we keep the overhead low—no heavy methodologies or endless meetings. We rely on a quick daily stand-up to sync and then give you the autonomy to do what you do best: build great software. You’ll spend most of your time producing high-quality, test-backed code for our projects. Since we are a growing startup, you’ll also be welcome to participate in planning, workflow improvement, and technical design without the corporate red tape.We are looking:As a Back-end Developer at Fleming, you will be joining a cross-functional team of experienced individuals.You will spend most of your time producing high-quality code backed by tests for our projects. But since the process is an ever-changing one, you will also be welcome to participate in planning, workflow improvement, retrospection, research, and technical design activities.Take a fantastic opportunity to contribute to exciting digital health, wellness, and AI projects while advancing your skills in a collaborative, innovative environment.Get ready to:Work on highly scalable products and cloud-based infrastructure with enormously fast release cycles.Collaborate with cross-functional teams to define, design, and ship new features.Produce efficient, well-structured, and understandable code covered with tests.We expect you to:Have at least 2 years of experience working with PHP and Laravel (Symfony works too).Have experience working with relational databases such as MySQL or PostgreSQL.Have experience writing unit and integration tests.Have a solid understanding of OOP fundamentals and design patterns.Be a good communicator that loves sharing your experience with others.Have strong English and Lithuanian language skills"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4420474231",
-      "title": "Senior PHP Developer",
-      "company": "Surfshark",
-      "url": "https://lt.linkedin.com/jobs/view/senior-php-developer-at-surfshark-4420474231",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "description": "We probably won’t surprise you by telling you that our Core team is the core of everything. These experienced Back-end PHP Engineers are responsible for perfecting our user registration, payment processing, fighting cybervillains, and tracking marketing campaigns. They focus on digging into data, ensuring high availability, scalability, and performance optimizations, as well as writing clear code.So if you know your way around PHP 8.x, Symfony, databases and caching, and you’re looking for a great new tech challenge, read along!If you want to:Work on payment processing integrations;Build and maintain our current APIs as well as create new ones;Focus on writing clear, tested, documented code that delivers real business value;Develop back-end solutions with Symfony;Build highly scalable systemsAnd you can check off:Proven experience working with PHP;Understanding of OOP principles & good code design;Skills in PHP frameworks, preferably Symfony;Proven experience in building highly scalable systems;Solid technical understanding of RESTful APIs;Knowledge in microservices design;Experience working with VCSBonus points if you:Are skilled in RabbitMQ, MongoDB, MySQL, Redis and ElasticSearchHere’s the deal:Growth and learning opportunities: time dedicated to learning, conferences, online learning platforms, and books for your professional development;Health and wellness: we want you to feel and be your best. That's why we offer various benefits, from online workouts and a physical coach to health insurance and regular mental health checks;Tools of your choice: choose the technical equipment and tools you need to do your best work;Community and celebrations: get ready for long-lasting traditions such as yearly workation, Friday get-togethers, various team buildings and company celebrations;Work-life balance: as a general rule, we work based on a 3+2 hybrid model. And let’s not forget the WFA policy - an opportunity to work from anywhere in the world;More days off: additional vacation days depending on your tenure;Premium Surfshark accounts: for you, your family, and friends;Gross salary: 3200 - 7200 Eur/month. Although it may vary depending on your skills and experience.",
-      "match_score": 92,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Symfony match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No mention of PostgreSQL",
-        "No Docker experience mentioned"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4415681250",
       "title": "PHP Developer",
       "company": "Whisker",
@@ -1991,46 +2190,6 @@
       "description": "Kinetic (www.kinetic.com) is looking for an experienced Full-Stack PHP Developer to join our fast-paced team in downtown Birmingham, Alabama. This role involves building websites and applications from scratch using modern PHP frameworks and tools. You’ll work on projects ranging from custom WordPress themes to Laravel applications with React components.Our dream draft pick would be passionate about working on a variety of custom responsive websites, from initial concepting to site launch. Throw in a fun attitude, experience with the requirements below, along with an excellent eye for UX, and a healthy love of trains and we’ll turn cartwheels down the cobblestones of historic Morris Avenue in our reenergized, vibrant downtown. Please note that all applications must be submitted through our form linked below before being considered for interview. About UsAt Kinetic, we design and build custom digital experiences for a wide range of clients. Our work blends creativity, clean code, and modern frameworks to deliver solutions that are as functional as they are beautiful. We’re a collaborative, tight-knit team that values curiosity, craftsmanship, and the occasional debate over the best place for spicy chicken.ResponsibilitiesDevelop custom WordPress themes (Sage/Roots) and Laravel applicationsImplement interactive front-end features with JavaScript and ReactTranslate design concepts into responsive, accessible HTML/CSSWork with MySQL/MariaDB databases, designing and optimizing queries as neededManage deployments across Linux-based hosting environmentsDebug, troubleshoot, and optimize performanceCollaborate with designers, developers, and project managers throughout the project lifecycleWrite clean, maintainable, and well-documented codeRequirementsStrong experience with PHP and object-oriented programmingDeep knowledge of WordPress theme developmentExperience with JavaScript (Vanilla JS, React, or similar frameworks)Solid understanding of relational databases (MySQL, MariaDB)Proficiency with Git and version control workflowsFamiliarity with Linux web hosting environments (CentOS, Ubuntu) and servers (Apache, Nginx)Strong problem-solving, debugging, and analytical skillsExcellent communication skills and ability to thrive in an on-site, collaborative environmentBonus pointsExperience developing custom WordPress pluginsFamiliarity with CSS preprocessors and front-end build tools (Sass/SCSS, PostCSS, Webpack, Vite)Experience with Tailwind, Roots (Sage, Bedrock and "
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4387817363",
-      "title": "Backend Engineer | Mid | PHP | Systems Team",
-      "company": "Nord Security",
-      "url": "https://lt.linkedin.com/jobs/view/backend-engineer-mid-php-systems-team-at-nord-security-4387817363",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No AWS certification required",
-        "No MongoDB emphasis"
-      ],
-      "description": "At NordPass, we’re making password security effortless.We believe logins should be safer and simpler. Join the team behind NordPass— a password manager trusted by 7M+ users and 10,000+ global companies to secure credentials, cards, and sensitive data.Your impact? Helping millions secure their digital lives by creating smarter, safer ways to log in.Main ResponsibilitiesCollaborate with cross-functional teams to ensure seamless integration and utilization of microservices across NordSecurity's suite of products, fostering a unified and seamless experience for our usersFocus on the delivery of high-quality code, where scalability and security come firstActively engage in technical and architectural decisions, refining processes, and contributing to the overall strategic direction of the productDemonstrate strong ownership and accountability for development, maintenance, and quality of the productFoster smooth communication and collaboration between team members and other engineering, product, and design professionals from various teamsCore RequirementsIn-depth knowledge of PHP (3+ years)Hands-on use of AI tools to augment engineering (e.g. code generation, test creation, performance tuning and debugging) with strong ownership of outputs and resultsSystem design is nothing new to you, and you know what patterns to use, when, and whySolid understanding of OOP, asynchronous programming & design patternsPassionate about architecture and technologies, open to speaking with anyone; if you can create scalable and stable code, we want to speak with youUnderstanding of core CI/CD principles, unit & integration testingBonus Points ForKnowledge of CryptographyTechnologies You Will UsePHPGOMySQLRedisRabbitMQDockerAWSSalary RangeGross salary 3200 - 5600 EUR/MonthWhat We OfferInnovate with industry leadersWork alongside global experts to build world-leading cybersecurity tools, impacting millions of users around the world.Learn & growBoost your skills via our extensive training programs (online and offline) & other resources. Benefit from mentorship and career-switch opportunities to grow within the company.Work in a next-gen Cyber City officeThrive in our bustling office, featuring ergonomic workspaces, modern meeting rooms, engaging events, and specialty coffee to fuel your day.Hybrid workEnjoy the flexibility with 3 office days and working from home for the remaining 2.Work from anywhereRecharge with a change of scenery – choose work from any location when you feel a ne"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4375612695",
-      "title": "PHP/Go Developer (Mid-Senior)",
-      "company": "Oxylabs.io",
-      "url": "https://lt.linkedin.com/jobs/view/php-go-developer-mid-senior-at-oxylabs-io-4375612695",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No mention of Go",
-        "No mention of AWS certification"
-      ],
-      "description": "We’re a team of 500+ professionals who develop cutting-edge proxy and web data scraping solutions for thousands of the world’s best known businesses, including Fortune 500 companies.What’s in store for you:You’ll be solving complex challenges and maintaining our own infrastructure with 60PB+ monthly data traffic. Here are its scale and maturity in numbers: 6PB+ Ceph storage 60PB+ monthly data traffic through our systems 300k+ service requests/sec processed 500k+ Kafka messages/sec streamedJoin a product used by over 15 million people worldwide and make a real impact from day one. With a rapid development cycle, your features go live fast - no long waits, just continuous delivery and visible results.You’ll work with a modern, up-to-date tech stack (latest PHP, frameworks, databases) in a fully containerized environment, running Kubernetes in production for over seven years. Tackle big data challenges daily, explore Go in real projects, and help shape the engineering standards and best practices we follow.Your day-to-day:Develop a system and solutions that could be easily scalable;Write clean, tested, documented code that delivers real business value;Own the entire development cycle - from research and prototyping to deployment;Deliver and review technical design, code, and documentation;Contribute to technical decision-making in an early-stage, fast-growing project;Create, review and maintain multiple microservices in order to optimize them for best performance and stabilityYour experience & skills:Have deep knowledge in PHP (preferably Symfony framework, other frameworks - nice to have);Have some experience or interested in Golang, NodeJS or similar languages;Know how SQL and NoSQL databases work and how to write optimized queries and debug them if needed;Know why automated tests can save the world;Real-time data processing and event streaming is something you already know or it seems to be an interesting field to you;Be passionate about technology and interested in constantly trying something new;Have some experience with any of the following technologies we extensively use in our stack: Docker, Kubernetes, Microservices, Kafka, MySQL clusters, Gitlab CI, Redis;Fluent in English and LithuanianTech stack:PHP;Golang;Kafka;Redis;Kubernetes;Microservices;Gitlab CI;SQL and NoSQLSalary:Gross salary: 4000 - 7200 EUR/month. Keep in mind that we are open to discussing a different salary based on your skills and experienceTo support your professional growth and mak"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4356448172",
       "title": "PHP Web Developer - Hybrid",
       "company": "SitusAMC",
@@ -2089,145 +2248,6 @@
         "No mention of PostgreSQL"
       ],
       "description": "Position Overview: We are seeking a skilled Full-Stack Developer (Heavy PHP) with strong experience building scalable web applications in fast-paced environments. The ideal candidate will have hands-on expertise across both backend and frontend development, with the ability to design, build, and maintain end-to-end solutions. Key Responsibilities & Requirements:Proven experience as a Full-Stack Developer, Architect, or similar roleStrong backend experience with PHP (Laravel), Go, and Node.jsProficiency in frontend technologies including HTML, CSS, JavaScript, and frameworks such as React and Next.jsSolid understanding of operating systems, computing fundamentals, and scripting (e.g., Bash)Experience working with relational databases (MySQL, PostgreSQL)Familiarity with cloud platforms (e.g., AWS)Strong understanding of version control systems (e.g., Git)Experience working in agency or other fast-paced, deadline-driven environmentsStrong problem-solving skills and ability to work independently and collaborativelyExcellent communication skills with the ability to translate technical concepts for non-technical stakeholdersPreferred Qualifications:Bachelor’s degree in Computer Science or a related fieldDemonstrated ability to independently design and deliver complex software solutions across multiple technologiesExperience with mobile development (iOS/Android) and/or desktop development (macOS/Windows)Exposure to working with video content or media production workflowsKnowledge of DevOps practices and CI/CD pipelinesFamiliarity with containerization tools such as Docker and KubernetesExperience working in Agile environments"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4410519991",
-      "title": "Senior PHP Developer",
-      "company": "Fleming",
-      "url": "https://lt.linkedin.com/jobs/view/senior-php-developer-at-fleming-4410519991",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Senior level, no mention of Laravel"
-      ],
-      "description": "About us:Fleming was founded with the goal of creating high-quality digital health, wellness, and AI programs globally. We seek to make people's lives happier, healthier, and more productive by creating empowering self-growth products for everyday life. Our team of experts ranges from innovative AI specialists, creative minds, and imaginative designers to professional medical doctors and data scientists, working together as one to help millions of people around the world.With 2+ million customers worldwide, we're providing unique opportunities, attracting talents to join our fast-growing team, and creating innovative brands in a rapidly growing digital health industry. If you think you're bold, ambitious, and not afraid to challenge yourself, let's talk!We are looking for: As a Senior PHP Developer at Fleming, you will play a key role in building and maintaining scalable, high-performance platforms. You’ll join a cross-functional team of talented professionals, contributing not only through clean, efficient code but also by mentoring others, influencing architecture decisions, and shaping best practices across the engineering organization.We value shipping over ceremony. At Fleming, we keep the overhead low - no heavy methodologies or endless meetings. We rely on a quick daily stand-up to sync and then give you the autonomy to do what you do best: build great software. You’ll spend most of your time producing high-quality, test-backed code for our projects. Since we are a growing startup, you’ll also be welcome to participate in planning, workflow improvement, and technical design without the corporate red tape.Get ready to:Design and develop scalable back-end systems and APIs using PHP Laravel framework.Lead the development of new features and architectural improvements.Write efficient, maintainable, and well-tested code.Collaborate closely with front-end engineers, designers, and data scientists.Mentor junior and mid-level developers, sharing best practices and code review feedback.Contribute to improving development workflows, automation, and deployment processes.We expect you to:Have 5+ years of experience working professionally with PHP (Laravel or Symfony).Have strong experience with relational databases (MySQL or PostgreSQL).Write unit, integration, and feature tests regularly.Possess a deep understanding of OOP principles, SOLID, and design patterns.Be comfortable with RESTful API design and development.Communicate clearly and effectively, both tec"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4404865503",
-      "title": "(Senior) PHP Laravel Developer",
-      "company": "Omniboost",
-      "url": "https://nl.linkedin.com/jobs/view/senior-php-laravel-developer-at-omniboost-4404865503",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
-      ],
-      "description": "Your RoleWe’re building a multi-platform DataHub for the hospitality vertical, a SaaS solution that seamlessly connects multiple systems. This platform empowers businesses like restaurants and hotels to streamline operations, from processing room charges within hotel systems to enabling loyalty programs for Point-of-Sale systems and beyond. As a (Senior) PHP Laravel Developer, your focus will be on enhancing the current product, making key architectural decisions, developing integrations and elevating overall code quality within the team.Your work impacts thousands of customers daily. Thanks to you, Natalia can seamlessly charge her dinner to her hotel room, and Robert can redeem his loyalty points for a discount on his next stay. The integrations you build run so smoothly that guests and staff never have to think about the data behind the scenes, it just works.Key ResponsibilitiesTackle complex business challenges with the team, finding solutions where others see obstacles.Collaborate and support your teammates, helping them overcome technical hurdles.Optimize API integrations with our partners, ensuring the most efficient and effective implementation.Review and refine code, enhancing both your own skills and those of your team members.Innovate, speak your mind, and share your vision to continuously improve our platform.Key Requirements5+ years of experience in Laravel development.3+ years of leadership experience in a similar role.Strong knowledge of unit and integration testing.Proficiency in Git and version control best practices.Solid understanding of Agile and Scrum methodologies.Hands-on experience with AWS infrastructure and services.Fluent English to communicate effectively in an international team.A solution-oriented mindset, with the ability to translate business requirements into technical solutions.Preferred QualificationsExperience working with SaaS platforms.Knowledge of Kubernetes/ EKS.Familiarity with Grafana for monitoring and analytics.You share our Core ValuesExtreme OwnershipWillingness to Serve (Unreasonable Hospitality)A relentless Growth MindsetPlaying Offense, not DefenseStaying confidently Humble, never Arrogant"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4413054835",
-      "title": "Senior PHP Engineer",
-      "company": "Hack The Box",
-      "url": "https://de.linkedin.com/jobs/view/senior-php-engineer-at-hack-the-box-4413054835",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "No mention of PostgreSQL"
-      ],
-      "description": "Ready to embark on the quest of joining Hack The Box?Welcome! Super excited you dropped by 🥳At the end of this journey, you'll become a proud member of Hack The Box, with the ultimate mission to raise cyber resilience, so that every organization can stay ahead of tomorrow's threats.🚀🔒💻✨The core mission of the Senior PHP engineer:Work on one of our HTB platforms, HTB Business, responsible for upskilling organizations across the globe. In this role, you will have the opportunity to work on the enhancement of the platform and the development of new features.We are open to candidates with diverse back end programming backgrounds, as long as you have experience in an MVC framework, passion and aspiration to work with PHP programming language and the Laravel Framework.🏢 Location & Work Mode:Europe/GreeceChoose between fully remote work across Europe or relocating to our Athens Tech Hub with relocation supportFully Remote / Hybrid (2 days in the office, 3 days remote, plus one month of work from anywhere) - If only in Greece: When hiring in Greece, we're open to candidates from all locations. Those based within 55 km of our Athens office will follow a hybrid work model. For candidates located beyond that radius, a fully remote arrangement is available.✈️ Relocation We offer a 10% relocation bonus on the annual salary to support your moveIn addition, you would benefit from a 50% tax reduction on your income as part of the relocationWe'll support you with accommodation during the first few weeks🍺 The fellowship you'll be joining:As a Back end developer you will work closely with developers, QA and Product Managers to create an amazing experience for HTB customers. You will be an integral part of HTB development team aspiring to build the world's largest hacker community. This engineering team is the biggest one , aligning with the expansive mindset of our HTB Business platform and serving a diverse set of customers globally.⚔️ Tools & weapons you'll be using:PHP, Laravel , JIRA, SQL, Docker, Github📚 Interesting resources you should check:#3 Engineering Team Meetup HTB Business Team Off Site Adventure🚀 The adventures that await you after becoming Senior PHP Engineer at Hack The Box:Develop new features and tools using the Laravel PHP FrameworkGenerate clean, safe, reusable and scalable PHP codeCreate and maintain RESTful APIs Contribute to architectural and software design decisionsContribute and maintain technical documentation and specificationsPerform code review"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4406086933",
-      "title": "Senior Software Engineer (PHP)",
-      "company": "HomeToGo",
-      "url": "https://lt.linkedin.com/jobs/view/senior-software-engineer-php-at-hometogo-4406086933",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No AWS certification required",
-        "No MongoDB emphasis"
-      ],
-      "description": "Explore a new world of possibilitiesAt HomeToGo, we’re on a mission to make incredible accommodation easily accessible for everyone. Our team is united by a passion for travel, driven by innovation and impact, and guided by open-minded leaders at every level. Our commitment to recognizing and empowering exceptional talent is the foundation of our growth. An amazing journey of opportunity with an international team lies ahead - join us!Your future contributionCurrently, we are seeking a Senior Software Engineer (PHP) for the Checkout team. You will play an essential role in our platform's success by joining the team responsible for enhancing the checkout process and post booking experience. Your expertise in PHP development will be instrumental in delivering seamless user experiences and optimizing the booking flow for our users.How you’ll add valueDrive the implementation of technical initiatives to improve the quality of our productPartner with Product to impact the roadmap and ensure engineering decisions align with user needsCollaborate closely within a cross-functional team as well as other engineering teams to understand business requirements and ensure the timely delivery of featuresWork closely with architects to identify and address technical challenges, ensuring the scalability, reliability, and usability of our Marketplace productsTake ownership of engineering decisions for larger topics and featuresBe a part of a push to improve the product delivery processYou’ll be successful in this role if youHave 5+ years of professional experience in backend development (ideally with PHP/Symfony)Have an excellent communication skills with the ability to collaborate effectively with diverse stakeholdersAre familiar with relational databases (e.g., MariaDB, PostgreSQL)Have strong problem-solving skills and the ability to drive technical solutions in a fast-paced environmentUnderstand the fundamental design principles behind a scalable applicationHave professional working proficiency in EnglishWhat we offerCareer of growth opportunities and promotions, 360 feedback, performance evaluation system, and mentoring from an international and distinguished teamCulture of empowerment, trust, recognition, autonomy and quarterly transparency about company goals. A focus on work-life balance, combined with consistent collaboration and support from a team of 30+ nationalitiesCompensation of attractive salary, health insurance, additional holidays, flexible working hours, "
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4292159692",
-      "title": "Senior PHP Developer",
-      "company": "Skrepr",
-      "url": "https://nl.linkedin.com/jobs/view/senior-php-developer-at-skrepr-4292159692",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Senior experience required",
-        "No mention of AWS certification"
-      ],
-      "description": "FunctieomschrijvingSkrepr is op zoek naar een Senior PHP Developer die de ambitie heeft om met ons mee te groeien. Bij ons krijg je de kans om je te ontwikkelen en samen met ons te werken aan toonaangevende webapplicaties. We zoeken iemand die niet alleen technisch sterk is, maar ook creatief en leergierig. Bij Skrepr krijg je de ruimte om te experimenteren en jezelf te blijven uitdagen. Sluit je aan bij ons team en bouw mee aan de digitale toekomst!Als Senior Software Engineer (PHP) heb jij een essentiële rol in het bouwen van high-tech softwareoplossingen voor onze opdrachtgevers. Samen met andere ontwikkelaars in klantteams werk je aan het optimaliseren van onze software en het tevredenstellen van onze klanten. Dit doen we niet volgens het 'jij vraagt, wij draaien' principe, maar door de uitdagingen van onze klanten als jouw eigen uitdagingen te zien. Als een ware detective neem jij plaats op de stoel van de klant, onderzoek je de behoeften en stel je de juiste vragen om tot de beste oplossing te komen. Onze opdrachtgevers zijn vaak geen software genieën en daarom is jouw vermogen om de opdrachtgever mee te nemen in de mogelijkheden van ons product cruciaal.Kortom, als Senior Software Engineer (PHP) bij ons draait het allemaal om het bouwen van de beste softwareoplossingen die voldoen aan de behoeften van onze klanten. Doe je met ons mee?VereistenJe hebt al minimaal 3-5 jaar ervaring als software engineer (PHP) en je hebt een duidelijk track record van het bouwen van innovatieve softwareoplossingen.Je bent een code-wizard die de taal van PHP spreekt als geen ander.Je hebt ervaring met het bouwen van high-tech softwareoplossingen die zowel de klant als de gebruiker tevreden stellen.Jij bent een detective die de behoeften van onze klanten kan achterhalen en vertalen naar de beste oplossingen.Jouw code is geoptimaliseerd voor snelheid, veiligheid en schaalbaarheid.Jij ziet problemen als uitdagingen en gaat ze niet uit de weg.Je bent een echte teamspeler die goed kan communiceren en samenwerken met andere ontwikkelaars.Jij hebt oog voor detail en zorgt ervoor dat onze software altijd optimaal werkt.Je bent op de hoogte van de nieuwste ontwikkelingen op het gebied van PHP en de bijbehorende frameworks.Jij bent proactief en komt met creatieve oplossingen voor complexe problemen.Je bent niet alleen een software engineer, maar ook een tech-enthousiast die altijd op zoek is naar nieuwe manieren om onze software te verbeteren.Tech StackBij Skrepr Maken We Gebruik"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4341324199",
-      "title": "Senior Backend Engineer (PHP)",
-      "company": "AMBOSS",
-      "url": "https://de.linkedin.com/jobs/view/senior-backend-engineer-php-at-amboss-4341324199",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
-      ],
-      "description": "Hi! We are AMBOSS and we are looking for a Senior Backend Engineer (PHP) to join our Educator Experience team, and shape the future of medical education with us!About AMBOSSAMBOSS is a dynamic learning and clinical decision support tool committed to empowering physicians globally to deliver optimal care. Since our inception in 2012, we've harnessed cutting-edge technology to transform the way physicians acquire and apply scientific knowledge. Each AMBOSSian is passionate about being the champion of clinicians today - this motivates and unites us each day towards success. And what does success look like? When a clinician or med student tells us, “AMBOSS makes practicing medicine easier and enjoyable. I love what I do, and a big part is because of AMBOSS.”Want to learn more about our culture? Watch our video to explore what makes us unique.Why can this position be exciting for you?We are AMBOSS, and we’re looking for a Senior Backend Engineer in the Educator Experience team. Engineers at AMBOSS are at the forefront of shaping user experience for doctors and students, helping them make critical decisions, ultimately impacting the healthcare of billions of people worldwide. We are looking for someone with a passion for getting the most out of technology and people, setting the pace and direction of excellence for engineering craft. Join our agile team on a mission to enable institutions (like educational clinics, medical schools) to use AMBOSS resources efficiently and effectively when teaching their learners (e.g. residents and students).You WillActively contributing to engineering projects within our new B2B product “Educator Tool”, from conception to completion.Drive the adoption of best practices in code health, testing, and maintainability.Collaborate with cross-functional teams to define project requirements and specifications.Address Ad-Hoc requests from customer support channels.Share your knowledge within the AMBOSS community, contributing to a culture of continuous learning and growth.You BringProven expertise with PHP and its modern frameworks (such as Symfony, Slim, Laravel) and MySQL.Product -minded approachExperience in the full web development lifecycle, including requirements analysis, solution discovery, system design, coding, testing, deployment, and maintenance.Proficient in building and integrating APIs ( GraphQL and/or RESTful) and adept at robust database design and management.Strong knowledge of SOLID principles, best practices, and desi"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4389183850",
-      "title": "Senior Backend Engineer",
-      "company": "group.one",
-      "url": "https://dk.linkedin.com/jobs/view/senior-backend-engineer-at-group-one-4389183850",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "denmark": true,
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "No mention of MongoDB"
-      ],
-      "description": "Are you a skilled Backend Developer (Node.js) with a passion for scalable systems and robust solutions? Do you want to be a key player in a team building the next generation of digital services? Then this might be your next challenge!About UsWe are group.one, a fast-growing European tech company empowering over 2 million small and medium-sized businesses to succeed online. With a 1,500-strong team across 20 offices, group.one delivers an integrated suite of SaaS products—ranging from AI-powered website builders and WordPress hosting to marketing, e-commerce, and compliance tools. Our mission is simple: to help entrepreneurs win digitally with easy-to-use products, scalable cloud infrastructure, and local expertise.About The TeamWe believe in modern technology, agile workflows, and a culture where autonomy, innovation, and personal connection are at the core. Our multi-cultural, English-speaking team is a rapidly growing group of passionate engineers, working closely with Product, UI, UX, and QA to build next-generation AI and WordPress solutions. We are developing Flowpilot.one, a conversational AI-based website builder for WordPress that enables anyone to create a professional site through natural dialogue — launching globally across our brands. In parallel, we build and maintain WP.one, a powerful managed WordPress hosting platform designed for agencies and developers. Our team currently includes four local engineers (growing to eight), a Support Engineer in Finland, UI and UX designers based in Copenhagen, and QA support from India — all collaborating tightly to deliver high-quality, scalable products that redefine how websites are created and managed.About The RoleWe are looking for a Backend Developer fluent with NodeJS (TypeScript) and understanding of NestJS with an interest in AI frameworks (e.g. LangChain) and agentic systems. As a Backend Developer, you’ll work on projects that integrate conversational AI into website generation, editing, and connectivity with internal and external systems and plugins. You’ll also have the opportunity to experiment and expand your expertise by building AI-driven solutions for various use cases defined by the team.This is a remote position, with travel to Finland required approximately once every 1–2 months.What You’ll DoBuild and evolve our AI-powered backend systems that connect conversational AI with website generation, editing, and plugin integrations.Design and implement scalable APIs and microservices using "
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4421809625",
@@ -2545,26 +2565,6 @@
       "match_cons": [
         "Requires AWS certification",
         "Berlin location may require relocation"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4413681171",
-      "title": "PHP-utvecklare",
-      "company": "PS Finance Group",
-      "url": "https://se.linkedin.com/jobs/view/php-utvecklare-at-ps-finance-group-4413681171",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "description": "Vi söker en driven och lösningsorienterad fullstack PHP-utvecklare som vill vara med och utveckla affärskritiska system i en miljö där stabilitet, ansvar och kvalitet står i fokus.I den här rollen får du kombinera support, förvaltning och nyutveckling i en och samma vardag. Du kommer både arbeta med att säkra och vidareutveckla befintlig funktionalitet, samtidigt som du är med och bygger nya lösningar som tar systemen framåt. Det här är en roll för dig som trivs med att förstå helheten, ta ansvar för att saker fungerar i praktiken och som gillar att kontinuerligt förbättra och utveckla – inte bara skriva ny kod, utan också säkerställa att det som redan finns fortsätter vara stabilt och effektivt.Du blir en del av ett företag i stark tillväxt där det finns stora möjligheter att påverka både teknik och framtida lösningar. Vi söker dig som motiveras av att vara med på en utvecklingsresa där initiativ, ansvarstagande och engagemang uppskattas.För oss är rätt inställning viktigare än antalet år på CV:t. Vi värdesätter personer som är nyfikna, lösningsorienterade och vill utvecklas tillsammans med teamet och systemen de arbetar med. Har du arbetat i en miljö där PHP varit det huvudsakliga programmeringsspråket och känner dig trygg i att utveckla, felsöka och vidareutveckla system, vill vi gärna höra från dig.Det här har du med digMycket god kunskap inom PHPErfarenhet av MySQL och SQL-hanteringGrundläggande kunskaper inom HTML och CSSErfarenhet av REST API:erGod förståelse för webbflöden och backendlogikDet är meriterande om du även harErfarenhet av versionshantering som Git eller SVNKunskap om DockerErfarenhet av message brokers, exempelvis RabbitMQFörståelse för Apache och servermiljöerErfarenhet från liknande bransch eller systemmiljöerKänsla för frontend och förmåga att skapa gränssnitt som är funktionella och användbara – vi söker inte en renodlad designer, utan fokus ligger på robust och välfungerande backendRollen passar dig somDu trivs med att arbeta fokuserat och lösningsorienterat med kod, samtidigt som du uppskattar samarbetet med kollegor i andra yrkesroller för att förstå behov och tillsammans hitta de bästa lösningarna. Du är trygg i dialogen mellan teknik, verksamhet och kund och ser det som naturligt att delta i både interna och externa möten där du bidrar med ett lösningsfokuserat och professionellt perspektiv.Rollen är baserad på vårt kontor i Göteborg och vi söker dig som trivs med att arbeta nära teamet på plats. Eftersom rollen innebär löpand",
-      "match_score": 88,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires on-site work",
-        "No AWS certification required"
       ]
     },
     {
