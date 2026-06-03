@@ -128,28 +128,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     // ── Jobs Section (password-gated) ─────────────────────────────────────────
-    //
-    // Password hash — SHA-256 of your chosen passphrase.
-    // To set your password, run:
-    //   python3 -c "import hashlib; print(hashlib.sha256(b'YOUR_PASSWORD').hexdigest())"
-    // Then replace the string below with the output.
-    const JOBS_HASH = '3200a02125577bd480a8d07e60594d898e35a20e7834056150dccf335244de99';
-
     const jobsGate    = document.getElementById('jobs-gate');
     const jobsContent = document.getElementById('jobs-content');
 
     if (!jobsGate) return; // jobs section not present
-
-    async function sha256(str) {
-        const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
-        return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
-    }
 
     // ── Cover Letter ─────────────────────────────────────────────────────────────
     // Auth: uses the board password hash as Bearer token (set during unlock).
     // Key stays in Cloudflare secrets — nothing stored in localStorage or the browser.
 
     const WORKER_URL  = 'https://cover-letter-worker.nicogobb-letter.workers.dev/';
+    const WORKER_AUTH = 'https://cover-letter-worker.nicogobb-letter.workers.dev/auth';
     let   sessionToken = '';   // set on board unlock, cleared on lock
 
     // Cover letter modal
@@ -370,15 +359,25 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function tryUnlock() {
-        const pw = document.getElementById('jobs-password').value;
+        const pw    = document.getElementById('jobs-password').value;
         const errEl = document.getElementById('jobs-error');
         if (!pw) return;
-        const hash = await sha256(pw);
-        if (hash === JOBS_HASH) {
-            sessionToken = hash;
-            errEl.classList.remove('visible');
-            showJobs();
-        } else {
+        try {
+            const resp = await fetch(WORKER_AUTH, {
+                method:  'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body:    JSON.stringify({ password: pw }),
+            });
+            if (resp.ok) {
+                const { token } = await resp.json();
+                sessionToken = token;
+                errEl.classList.remove('visible');
+                showJobs();
+            } else {
+                errEl.classList.add('visible');
+                document.getElementById('jobs-password').value = '';
+            }
+        } catch {
             errEl.classList.add('visible');
             document.getElementById('jobs-password').value = '';
         }

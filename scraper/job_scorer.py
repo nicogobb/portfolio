@@ -22,8 +22,8 @@ import requests
 
 JOBS_FILE  = Path(__file__).parent.parent / "jobs.json"
 GROQ_URL   = "https://api.groq.com/openai/v1/chat/completions"
-MODEL      = "llama-3.1-8b-instant"
-REQUEST_DELAY = 2       # seconds between requests (safe at 30 RPM)
+MODEL      = "llama-3.3-70b-versatile"
+REQUEST_DELAY = 4       # seconds between requests (70b has tighter TPM limits)
 RETRY_DELAYS  = [5, 15, 30]  # backoff on 429
 
 # ── Your profile (edit this to keep it up to date) ────────────────────────────
@@ -69,7 +69,7 @@ def score_job(api_key: str, job: dict) -> dict:
         text       = f"Title: {title}\nCompany: {company}\n(No description — scored from title only)"
         confidence = "low"
 
-    prompt = f"""Score this job posting's fit for the candidate below. Reply with ONLY valid JSON — no explanation, no markdown.
+    prompt = f"""Score this job posting's fit for the candidate below. Be STRICT and realistic — use the full 0–100 range. Reply with ONLY valid JSON, no explanation, no markdown.
 
 ## Candidate profile
 {YOUR_PROFILE}
@@ -77,19 +77,28 @@ def score_job(api_key: str, job: dict) -> dict:
 ## Job posting
 {text}
 
-## Scoring guide
-- 90–100: Perfect match — apply immediately
-- 70–89:  Good match — worth applying
-- 50–69:  Partial match — some gaps
-- 0–49:   Poor match
+## Scoring guide (calibrated — do NOT default to 80-85 for everything)
+- 90–100: Near-perfect — PHP/framework match + right seniority + EU/remote compatible. Rare.
+- 80–89:  Strong match — PHP is primary language, only minor gaps (one missing framework, slight seniority diff).
+- 70–79:  Decent — PHP appears but notable gaps (requires a secondary language, partially wrong seniority).
+- 50–69:  Weak — relevant keywords but wrong primary stack or major requirement missing.
+- 30–49:  Poor — different primary language (Node.js, Python, Go, Java), or role mismatch.
+- 0–29:   Wrong role entirely — DevOps, SRE, QA, sales, data engineering, or recruiter agency listing.
+
+## Hard penalties (lower score significantly)
+- Primary language is NOT PHP → cap at 45
+- Role is DevOps, SRE, QA, or non-dev → cap at 25
+- Requires fluent Danish (candidate is still learning) → subtract 15
+- US-only company, no EU timezone mention → subtract 10
+- Recruiter / outsourcing agency (not direct employer) → cap at 55
 
 ## Required response format (JSON only)
-{{"score": 85, "pros": ["PHP 8 + Laravel match", "Remote-friendly"], "cons": ["Requires AWS certification"]}}
+{{"score": 72, "pros": ["Laravel matches", "Remote-friendly"], "cons": ["Requires AWS", "Danish preferred"]}}
 
 Rules:
 - "score" is an integer 0–100
 - "pros" and "cons" are arrays of strings, max 2 items each, 3–7 words per item
-- If no description is available, lean conservative"""
+- If no description, be conservative (lean 10–15 points lower)"""
 
     headers = {
         "Authorization": f"Bearer {api_key}",

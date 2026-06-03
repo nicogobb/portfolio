@@ -26,23 +26,26 @@ except ImportError:
     sys.exit("pip install requests feedparser beautifulsoup4")
 
 KEYWORDS = [
-    # PHP roles
+    # PHP roles (explicit — no generic "backend" to avoid Node/Java/Python noise)
     "php", "php 8",
     "php developer", "php engineer", "php web developer",
     "senior php", "senior php developer",
     "full stack php", "fullstack php", "full-stack php",
-    # Backend roles
-    "backend developer", "backend engineer",
-    "senior backend", "senior backend developer",
-    # API
-    "api developer",
     # Frameworks
     "symfony", "laravel", "codeigniter", "kohana",
     "codeigniter developer", "kohana developer",
     # Danish
-    "php udvikler", "webudvikler", "backend udvikler",
-    "codeigniter udvikler",
+    "php udvikler", "codeigniter udvikler",
 ]
+
+# Used by is_relevant() to verify descriptions actually mention PHP
+PHP_SIGNALS = {"php", "laravel", "symfony", "kohana", "codeigniter"}
+
+# Recruiter farms and middleman platforms — high volume, near-zero conversion
+BLACKLISTED_COMPANIES = {
+    "lemon.io", "proxify", "crossing hurdles",
+    "yo hr", "toptal", "gun.io",
+}
 
 JOBS_FILE    = Path(__file__).parent.parent / "jobs.json"
 MAX_JOBS     = 300
@@ -89,6 +92,21 @@ def make_job(source, uid, title, company, url, date="", denmark=False, salary=No
     if description:
         j["description"] = description[:800]
     return j
+
+def is_relevant(job: dict) -> bool:
+    """Post-fetch quality filter: blacklist + PHP description check."""
+    company = job.get("company", "").lower()
+    if any(bl in company for bl in BLACKLISTED_COMPANIES):
+        return False
+    title = job.get("title", "").lower()
+    desc  = (job.get("description") or "").lower()
+    # Title has explicit PHP signal → accept regardless of description
+    if any(sig in title for sig in PHP_SIGNALS):
+        return True
+    # Description exists but has no PHP signal → reject (e.g. Node.js "backend developer")
+    if desc and not any(sig in desc for sig in PHP_SIGNALS):
+        return False
+    return True
 
 def fmt_salary(low, high, currency="EUR"):
     """Format salary range as '€50k–€73k'. Returns None if no data."""
@@ -459,7 +477,7 @@ def main():
         deduped = []
         for j in jobs:
             key = (j["title"].lower(), j["company"].lower())
-            if key not in seen_keys:
+            if key not in seen_keys and is_relevant(j):
                 seen_keys.add(key)
                 deduped.append(j)
         print(f"  {len(deduped)} unique match(es)")

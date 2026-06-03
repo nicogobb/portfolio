@@ -29,6 +29,11 @@ Career:
 Core skills: PHP 8, Laravel, Symfony, Kohana, CodeIgniter, MySQL, PostgreSQL, MongoDB, REST APIs, JavaScript, TypeScript, Git, Docker, GitHub Actions, Linux/Shell, Web Scraping.
 Location: Copenhagen, Denmark — open to remote or on-site. Languages: Spanish (native), English (professional), Danish (learning).`;
 
+async function sha256(str) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
 function corsHeaders(origin) {
   return {
     'Access-Control-Allow-Origin':  origin || '*',
@@ -61,6 +66,7 @@ Description: ${description}
 export default {
   async fetch(request, env) {
     const origin = request.headers.get('Origin') || '';
+    const url    = new URL(request.url);
 
     // Handle CORS preflight
     if (request.method === 'OPTIONS') {
@@ -71,6 +77,32 @@ export default {
       return new Response('Method not allowed', { status: 405 });
     }
 
+    // POST /auth — validate password server-side, return session token
+    // Password hash never lives in frontend source code.
+    if (url.pathname === '/auth') {
+      let password;
+      try {
+        ({ password } = await request.json());
+      } catch {
+        return new Response(JSON.stringify({ error: 'Invalid JSON body' }), {
+          status: 400,
+          headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) },
+        });
+      }
+      const token = await sha256(password || '');
+      if (token !== env.AUTH_TOKEN) {
+        return new Response(JSON.stringify({ error: 'Unauthorized' }), {
+          status: 401,
+          headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) },
+        });
+      }
+      return new Response(JSON.stringify({ token }), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) },
+      });
+    }
+
+    // POST / — generate cover letter
     // Validate auth token
     const authHeader = request.headers.get('Authorization') || '';
     const token      = authHeader.replace(/^Bearer\s+/i, '').trim();
