@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-03T13:01:13.662520+00:00",
+  "updated_at": "2026-06-03T16:01:23.637497+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
@@ -35,6 +35,46 @@
       "match_confidence": "high",
       "match_pros": [],
       "match_cons": []
+    },
+    {
+      "id": "Larajobs_https://larajobs.com/job/3879",
+      "title": "Humbly Confident Senior Laravel Engineer",
+      "company": "",
+      "url": "https://larajobs.com/job/3879",
+      "source": "Larajobs",
+      "date": "Wed, 20 Ma",
+      "fetched_at": "2026-06-03",
+      "description_failed": true,
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel match",
+        "Senior role"
+      ],
+      "match_cons": [
+        "No location info",
+        "No company desc"
+      ]
+    },
+    {
+      "id": "Larajobs_https://larajobs.com/job/3876",
+      "title": "Full Stack Engineer - Laravel",
+      "company": "",
+      "url": "https://larajobs.com/job/3876",
+      "source": "Larajobs",
+      "date": "Wed, 13 Ma",
+      "fetched_at": "2026-06-03",
+      "description_failed": true,
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel match",
+        "PHP primary"
+      ],
+      "match_cons": [
+        "No description",
+        "Danish learning"
+      ]
     },
     {
       "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/lemon-io-senior-react-full-stack-developer-4",
@@ -98,6 +138,26 @@
       ]
     },
     {
+      "id": "Larajobs_https://larajobs.com/job/3878",
+      "title": "Sr. Laravel Developer & Solutions Architect",
+      "company": "",
+      "url": "https://larajobs.com/job/3878",
+      "source": "Larajobs",
+      "date": "Tue, 19 Ma",
+      "fetched_at": "2026-06-03",
+      "description_failed": true,
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel match",
+        "Senior role"
+      ],
+      "match_cons": [
+        "No location info",
+        "No Danish fluency"
+      ]
+    },
+    {
       "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/lemon-io-senior-ai-engineer-architect",
       "title": "Senior AI Engineer / Architect",
       "company": "Lemon.io",
@@ -110,6 +170,25 @@
       "match_confidence": "high",
       "match_pros": [],
       "match_cons": []
+    },
+    {
+      "id": "Larajobs_https://larajobs.com/job/3884",
+      "title": "Junior QA & Application Support Specialist",
+      "company": "",
+      "url": "https://larajobs.com/job/3884",
+      "source": "Larajobs",
+      "date": "Tue, 02 Ju",
+      "fetched_at": "2026-06-03",
+      "description_failed": true,
+      "match_score": 20,
+      "match_confidence": "low",
+      "match_pros": [
+        "None"
+      ],
+      "match_cons": [
+        "Wrong role",
+        "QA non-dev"
+      ]
     },
     {
       "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/community-sports-partners-web-developer",
@@ -234,6 +313,25 @@
       ]
     },
     {
+      "id": "Larajobs_https://larajobs.com/job/3881",
+      "title": "Vue / Nuxt Developer",
+      "company": "",
+      "url": "https://larajobs.com/job/3881",
+      "source": "Larajobs",
+      "date": "Fri, 22 Ma",
+      "fetched_at": "2026-06-03",
+      "description_failed": true,
+      "match_score": 30,
+      "match_confidence": "low",
+      "match_pros": [
+        "EU location"
+      ],
+      "match_cons": [
+        "Non-PHP primary",
+        "Wrong role"
+      ]
+    },
+    {
       "id": "IT-jobbank_https://www.it-jobbank.dk/vis-job/h1665675",
       "title": "Senior Backend Developer, DHI A/S",
       "company": "",
@@ -249,6 +347,24 @@
       "match_cons": [
         "Requires .NET experience",
         "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "Larajobs_https://larajobs.com/job/3877",
+      "title": "Design Focused Front-End Developer",
+      "company": "",
+      "url": "https://larajobs.com/job/3877",
+      "source": "Larajobs",
+      "date": "Fri, 15 Ma",
+      "fetched_at": "2026-06-03",
+      "description_failed": true,
+      "match_score": 30,
+      "match_confidence": "low",
+      "match_pros": [
+        "None"
+      ],
+      "match_cons": [
+        "Wrong role entirely"
       ]
     },
     {
@@ -2243,6 +2359,185 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4356448172",
+      "title": "PHP Web Developer - Hybrid",
+      "company": "SitusAMC",
+      "url": "https://www.linkedin.com/jobs/view/php-web-developer-hybrid-at-situsamc-4356448172",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-03",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Limited MongoDB experience"
+      ],
+      "description": "SitusAMC is where the best and most passionate people come to transform our client’s businesses and their own careers. Whether you’re a real estate veteran, a passionate technologist, or looking to get your start, join us as we work together to realize opportunities for everyone, we proudly serve.At SitusAMC, we are looking to match your unique experience with one of our amazing careers, so that we can help you realize your potential and career growth within the Real Estate Industry. If you are someone who can be yourself, advocate for others, stay nimble, dream big, own every outcome, and think global but act local – come join our team!This position will serve as a full-stack developer to produce scalable software solutions. They will be part of a cross-functional team that is responsible for the full software development life cycle, from conception to deployment. The developer will be expected to move between projects as priorities change. This role will work across all layers of the application front end, middle layer and DB layer including development frameworks and third-party libraries.Essential Job FunctionsDesign, develop, document, test and debug new and existing software systems, applications and/or components for market sale or proprietary software Make design decisions which encourage leveragability, potential reuse, componentization, extensibility, maintainability, and are minimally coupled Translates business requirements into technical solutions which adhere to architectural best practice Provide solutions and alternatives to impasses impacting timetables, scalability, and performance factors as they pertain to production, implementation and to technologies advancements for SitusAMC Contribute to the development of a technical roadmapMaintains knowledge of currently evolving platforms, programming languages, and web/database technologies Stays up-to-date on business initiatives and objectives, particularly as these relate to infrastructure and development architecture issues Evaluates new platforms, technologies, and software products/techniques to determine feasibility and desirability of incorporating their capabilities within the company's products Fosters a culture of continuous improvement in all areas of technology and instill the principles of this mindset in a team Advise and mentor Software Development team members as an escalation point Such other activities as may be assigned by your manager Qualifications/ RequirementsBachelor’s "
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4389474695",
+      "title": "Full Stack Developer II (PHP)",
+      "company": "RealPage, Inc.",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-ii-php-at-realpage-inc-4389474695",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-03",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "AWS certification required",
+        "Limited MongoDB experience"
+      ],
+      "description": "OverviewRealPage is leading innovation in the Property Technology (PropTech) space to create smarter solutions for the industry. Our team is focused on building practical, impactful AI applications and improving existing systems to deliver real value to our customers.We are looking for an Developer to contribute to the design, development, and deployment of applications. In this role, you will work on implementing models and algorithms, integrating them into products, and ensuring they scale effectively. You’ll collaborate closely with product, design, and engineering teams to deliver solutions that solve real-world challenges in the PropTech domain.Responsibilities Responsibilities Understand the Technical Architecture documents and design approaches and convert that intocode.This position requires an individual to be creative, team-oriented, technology savvy, driven toproduce results, and demonstrates the ability to take a cross-team leadership role.Leads in the analysis, design, and implementation planning of the technical/business solutionWilling to work on additional tasks and responsibilities that will contribute towards team,department, and company goals.Abreast of the latest technologies & tools and the ability to evaluate and select appropriate toolsand technologies as per the requirement.Apply attained experiences and knowledge in solving problems that are complex in scoperequiring in-depth evaluationVery Good Experience in PHP, Angular Java Script, Jquery, HTML 5, CSS3.Very good experience in defining/creating/consuming SOAP & RESTful web services.Experience in customer-facing business applicationsQualificationsEXPERIENCE REQURIEDMinimum 4+ years of solid service development experience.Must Have SkillsMust have strong expertise in either PHP, Angular & Postgres/MySQLLaravel frameworkEvent Driven programing.Having Elastic and Laravel experience is added as an advantageKnowledge of Linux / Unix flavorsKnowledge of Docker.MentionershipExperience in Web Services using REST, SOAPKnowledge of different authentication and authorization techniquesCandidate having experience in server-side programming independent of technology added as anextra advantage.Strong knowledge of code documentation and handoverMust have experience in unit tests.Experience building scalable, high-available mission-critical platformsExposure to any of the cloud platforms like AWS/GCP/AzureUI-side development experience in any one of the technologies Java Script /Angular.JS /React"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4417356991",
+      "title": "Full Stack Engineer PHP",
+      "company": "New York Technology Partners",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-engineer-php-at-new-york-technology-partners-4417356991",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-03",
+      "description": "Required QualificationsProven experience as a Full-Stack Developer, Software Architect, or in a similar role.Strong back-end development skills using technologies such as PHP (Laravel), Go, and Node.js.Proficiency with front-end technologies including HTML, CSS, JavaScript, and modern frameworks such as React and Next.js.Solid understanding of operating systems, general computing concepts, and scripting languages such as Bash.Experience working with relational databases including MySQL and PostgreSQL.Familiarity with cloud platforms such as AWS.Knowledge of version control systems, particularly Git.Experience in agency environments or other fast-paced, collaborative settings.Strong analytical and problem-solving abilities with the capacity to work both independently and within a team.Excellent communication skills, including the ability to explain technical concepts to non-technical stakeholders.Preferred QualificationsBachelor’s degree in Computer Science or a related field.Demonstrated ability to design, own, and deliver innovative software solutions across multiple technologies.Experience with mobile application development for iOS or Android.Experience with desktop application development for macOS or Windows.Familiarity working alongside video content creators or media-focused teams.Experience implementing DevOps practices and CI/CD workflows.Knowledge of containerization technologies such as Docker and Kubernetes.Familiarity with Agile development methodologies.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Go and Node.js not mentioned"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4422938683",
+      "title": "PHP Developer-Orlando FL",
+      "company": "Cogent Communications",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-orlando-fl-at-cogent-communications-4422938683",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-03",
+      "description": "CompanyCogent Communications is a global, Tier 1 facilities-based ISP, consistently ranked as one of the top five networks in the world and is publicly traded on the NASDAQ Stock Market under the ticker symbol CCOI. Cogent specializes in providing businesses with high speed Internet access and Ethernet transport services. Cogent's facilities-based, all-optical IP network backbone provides IP services globally. Since its inception, Cogent has unleashed the benefits of IP technology, building one of the largest and highest capacity IP networks in the world. This network enables Cogent to offer large bandwidth connections at highly competitive prices. Cogent also offers superior customer support by virtue of its end-to-end control of service delivery and network monitoring. A competitive base salary and a full benefits package including; Health, Dental, Vision, Paid Time Off (PTO), Short- and Long-Term Disability, Life Insurance, Holidays, Parental Leave, 401(k) plan with employer match, stock options, and an Employee Assistance Program. Most benefits take effect within 30 days of employment, and some require a waiting period.Job SummaryThe PHP Developer will assist in the design, development and maintenance of a several in-house business applications to support Corporate Sales, Operations and Finance as well as other departments. Under the guidance of the technical lead, the developer will work with application stakeholders to gather requirements, produce proofs-of-concept, obtain feedback, and complete the development, testing and implementation of the applications. This developer will also assist in maintaining some existing PHP and Java applicationsEssential Duties And ResponsibilitiesAnalyze technology/capability gaps, research, develop, and deploy software solutionsWork with project leads to define sprints and associated deliverablesCollaborate with other developers to design and optimize codeConduct integration, test, bug fixes, and other software maintenance activitiesPerforming requirements analysis and proof of concept or prototyping as needed for engineering and design of corporate applicationsSupporting applications in O&M status by providing enhancements and bug fixes as neededCoding, testing, and debugging new software or enhancements to existing softwareDeveloping user interfaces and applications by setting expectations and feature priorities throughout the development life cycle, determining design methodologies and tool sets, completing progr",
+      "match_score": 65,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Backend match"
+      ],
+      "match_cons": [
+        "US-only company",
+        "No EU timezone"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4405819261",
+      "title": "Laravel Devloper",
+      "company": "APPEAK",
+      "url": "https://www.linkedin.com/jobs/view/laravel-devloper-at-appeak-4405819261",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-03",
+      "description": "With strategically located offices worldwide, our global presence ensures efficient delivery to clients across the globe, no matter the distance or destination.We are a software development consulting company with 80+ happy clients around the globe. At Appeak, new ideas attract us like strong magnets. You may not believe it, but we breathe, eat and sleep tech.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel match",
+        "Remote possible"
+      ],
+      "match_cons": [
+        "No seniority info",
+        "Danish not fluent"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4346654549",
+      "title": "Full Stack Developer (Laravel Vue.js)",
+      "company": "MicroVentures",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-laravel-vue-js-at-microventures-4346654549",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-03",
+      "description": "About The RoleWe're looking for a Full Stack Developer to join our engineering team. You'll work alongside senior engineers building features across the stack, developing APIs with Laravel and creating responsive interfaces with Vue.js. This is a great opportunity to grow your skills while contributing to a modern, well-architected platform.Our stack includes Laravel 12, Vue.js, MySQL, Redis, and TailwindCSS.What You'll Do:Develop and maintain features using PHP 8.4 and Laravel 12.xBuild and consume RESTful APIsCreate responsive UIs using Vue.js 2.x+, and TailwindCSSWrite clean, tested code following team standards and best practicesWork with MySQL databases—writing queries, understanding schemas, and running migrationsParticipate in code reviews and incorporate feedbackCollaborate with product, design, and engineering teammatesDocument your work and contribute to team knowledge baseLearn and grow with mentorship from senior team membersWhat We're Looking For:3–5 years of professional software development experience2+ years of experience with Laravel/PHP2+ years of experience with Vue.js or similar frontend framework (React, Angular)Solid understanding of RESTful API designExperience with relational databases (MySQL or PostgreSQL)Familiarity with Git workflows and version control best practicesUnderstanding of testing fundamentals (PHPUnit, Pest, or similar)Eagerness to learn and grow technicallyGood communication skills and ability to work collaborativelyNice To HaveExperience with AWS servicesFamiliarity with TailwindCSSExposure to Redis or queue systemsExperience with CI/CD pipelinesTypeScript experienceHighlights Of MicroVentures Benefits401K Match (100% match on the first 5% and 50% on the next 5%) Annual discretionary bonus MicroVentures covers the base plan for Medical, Dental and Disability insurance 3 Weeks paid time off + holidays4 Weeks paid sabbatical after 5 years with MicroVentures with a travel stipend$100 monthly technology stipend (phone and internet)We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel match",
+        "Remote friendly"
+      ],
+      "match_cons": [
+        "Vue.js required",
+        "No Danish fluency"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4419605270",
+      "title": "PHP Developer",
+      "company": "Avanciers Inc.",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-at-avanciers-inc-4419605270",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-03",
+      "description": "Avanciers is seeking a highly skilled PHP/Laravel & React for an exciting opportunity with one of our Fortune 500 clientsRole: Technical Lead – PHP/Laravel & ReactLocation: Austin, USA8+ yrs PHP + Laravel + React JS + Python experience (mandatory)Previous TL experience with hands-on production support fixing experienceCan work on enhancements and band new project in a very agile envSkills: PHP, Symfony, Laravel, Java, Angular, MySQLPrimary Skills: PHP 7.x / PHP 8.x, MySQL, REST APISecondary Skills: Symfony / LaravelHands-on: Docker, Kubernetes, Git",
+      "match_score": 58,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel match",
+        "PHP primary"
+      ],
+      "match_cons": [
+        "US-only company",
+        "Requires React"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4414342372",
+      "title": "26-2267: Full Stack Developer (PHP / Laravel / React)",
+      "company": "Navitas Business Consulting, Inc.",
+      "url": "https://www.linkedin.com/jobs/view/26-2267-full-stack-developer-php-laravel-react-at-navitas-business-consulting-inc-4414342372",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-03",
+      "description": "Full Stack Developer (PHP / Laravel / React)Job ID#: 26-2267Location: RemoteWho We Are:Since our inception back in 2006, Navitas has grown to be an industry leader in the digital transformation space, and we’ve served as trusted advisors supporting our client base within the commercial, federal, and state and local markets.What We Do:At our very core, we’re a group of problem solvers providing our award-winning technology solutions to drive digital acceleration for our customers! With proven solutions, award-winning technologies, and a team of expert problem solvers, Navitas has consistently empowered customers to use technology as a competitive advantage and deliver cutting-edge transformative solutions.Navitas Business Consulting is seeking a highly skilled Full Stack Developer with strong recent experience in PHP, Laravel, and modern JavaScript frameworks, specifically React. This role will support ongoing development initiatives and requires a developer who can contribute across the full technology stack in a fast-paced, collaborative environment.Key Responsibilities:Design, develop, and maintain web applications using PHP and LaravelBuild and enhance front-end components using React and modern JavaScript (ES6+)Collaborate with cross-functional teams to define, design, and deploy new featuresOptimize applications for performance, scalability, and usabilityWrite clean, maintainable, and well-documented codeTroubleshoot, debug, and upgrade existing systemsParticipate in code reviews and follow best practices for software developmentRequired Qualifications:Strong recent hands-on experience with:PHPLaravelReactJavaScriptExperience building and consuming RESTful APIsSolid understanding of front-end and back-end integrationFamiliarity with version control systems (e.g., Git)Strong problem-solving skills and attention to detailExcellent communication skills for remote collaborationPreferred Qualifications:Experience working in Agile/Scrum environmentsExposure to cloud platforms (AWS, Azure, or similar)Experience with modern UI/UX best practicesWork Environment:Fully remoteCollaborative team setting with direct client interaction opportunities.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel match",
+        "Remote friendly"
+      ],
+      "match_cons": [
+        "No Danish fluency",
+        "No EU mention"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4405789952",
+      "title": "Mid-level Laravel developer",
+      "company": "WebOrigo",
+      "url": "https://hu.linkedin.com/jobs/view/mid-level-laravel-developer-at-weborigo-4405789952",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-03",
+      "description": "We're looking for new talents to join our international software development company.You are the right candidate if you are a Mid-level Laravel Developer with the requirements listed below. Preferably we are looking for full-time employees (8 hours a day).How You Will WorkSolving your tasks seen on GitLab90%+ of your day will be spent with codingIn case of questions quick and easy meetings through TeamsWhat You Will Work OnDeveloping unique ERP systemsDeveloping Learning Management Systems (LMS)Developing Web ApplicationsQuick, fresh projects with a development phase of around 6 months. Our projects are based on VueJS frontend and PHP (Laravel) backend.Requirements: PHP 8, Git, and English language expertise.Nice to have: Docker, Laravel, MySQL, MongoDB, MariaDB, and Linux knowledge.What We OfferSimplicity and flexibility: freedom of working from your home according to your own schedule and tracking your working hours. A flat organizational structure where your ideas matter. Training and development: participation in professional training is available for you to develop your skills.Financial benefits: reasonable salary according to your skill level and monthly performance bonus up to 30%. WebOrigo is doing unique software development for its customers. Our company is an international organization, having companies in 4 different countries and having employees from more than 10 countries.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel match",
+        "Remote friendly"
+      ],
+      "match_cons": [
+        "Danish learning"
+      ]
+    },
+    {
       "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/appetiser-junior-full-stack-developer-laravel-and-vuejs",
       "title": "Junior Full-Stack Developer (Laravel and VueJS)",
       "company": "Appetiser",
@@ -2496,26 +2791,6 @@
       "description": "Read-A-Thon is the market’s fastest growing educational fundraising company that helps schools raise money while promoting student literacy. At Read-A-Thon, we are realizing our vision of becoming the gold standard for school fundraising by continually improving our product experience and customer outcomes. And we’re proud that we’ve generated millions of reading minutes by young student readers while doing it.Read-A-Thon provides multiple fundraising products to public and private schools that make it easy to set up and administer highly successful fundraisers. The company is growing quickly through a deep understanding of our market and customers, and we are excited about the company’s growth potential to serve a large and growing available market.Learn more about us at: https://www.read-a-thon.com/See the latest news on our LinkedIn company page: https://www.linkedin.com/company/read-a-thon/Position SummaryWe have experienced significant growth in recent years and are now seeking to add a Senior Developer to our development team who has full-stack experience and PHP expertise. This position will play a key role in helping us solve platform challenges, modernize our stack, and elevate the customer experience.We are seeking a well-rounded software developer who has been involved in every aspect of development from definition to launch and who enjoys working collaboratively with team members across the organization to fully understand needs and translate them into technical capabilities. We have a small team so this role will be involved in a broad range of work, and you’ll be able to see the outcomes and impact of your work directly.This position can be done mostly remotely with occasional in-person meetings. Our headquarters is in Dallas-Fort Worth, and we have several team members based in Nashville, so our preference is for this position to be based in or near one of those locations.Key Responsibilities:Lead the development and evolution of high-performance and scalable web applicationsCollaborate with cross-functional teams to design and implement new featuresOptimize and maintain existing codebase for maximum efficiency and securityStay current with industry trends and best practices to ensure adoption of the latest technologies and methodsThe Senior Developer will also support the VP of IT on a wide range of technology initiatives. Here are examples of tasks and projects this role may be involved in:System architecture and design collaborationCI/CD "
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4356448172",
-      "title": "PHP Web Developer - Hybrid",
-      "company": "SitusAMC",
-      "url": "https://www.linkedin.com/jobs/view/php-web-developer-hybrid-at-situsamc-4356448172",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-02",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Limited MongoDB experience"
-      ],
-      "description": "SitusAMC is where the best and most passionate people come to transform our client’s businesses and their own careers. Whether you’re a real estate veteran, a passionate technologist, or looking to get your start, join us as we work together to realize opportunities for everyone, we proudly serve.At SitusAMC, we are looking to match your unique experience with one of our amazing careers, so that we can help you realize your potential and career growth within the Real Estate Industry. If you are someone who can be yourself, advocate for others, stay nimble, dream big, own every outcome, and think global but act local – come join our team!This position will serve as a full-stack developer to produce scalable software solutions. They will be part of a cross-functional team that is responsible for the full software development life cycle, from conception to deployment. The developer will be expected to move between projects as priorities change. This role will work across all layers of the application front end, middle layer and DB layer including development frameworks and third-party libraries.Essential Job FunctionsDesign, develop, document, test and debug new and existing software systems, applications and/or components for market sale or proprietary software Make design decisions which encourage leveragability, potential reuse, componentization, extensibility, maintainability, and are minimally coupled Translates business requirements into technical solutions which adhere to architectural best practice Provide solutions and alternatives to impasses impacting timetables, scalability, and performance factors as they pertain to production, implementation and to technologies advancements for SitusAMC Contribute to the development of a technical roadmapMaintains knowledge of currently evolving platforms, programming languages, and web/database technologies Stays up-to-date on business initiatives and objectives, particularly as these relate to infrastructure and development architecture issues Evaluates new platforms, technologies, and software products/techniques to determine feasibility and desirability of incorporating their capabilities within the company's products Fosters a culture of continuous improvement in all areas of technology and instill the principles of this mindset in a team Advise and mentor Software Development team members as an escalation point Such other activities as may be assigned by your manager Qualifications/ RequirementsBachelor’s "
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4414277250",
       "title": "Full Stack Software Engineer (PHP)",
       "company": "New York Technology Partners",
@@ -2534,46 +2809,6 @@
         "No mention of PostgreSQL"
       ],
       "description": "We are currently partnered with an innovative tech start up that is looking for a full-time Full Stack Software Engineer to join their team that specializes in PHP programming. This is a full-time and fully onsite position (5 days per week) in Chicago, IL (River North).Job DescriptionWe are an innovation company redefining global digital security. We are building the file infrastructure of the future — where every file has identity, sovereignty, and cryptographic enforcement, everywhere it travels. As we launch to the world, we are building a brand and organization worthy of a company operating at the scale of Google, IBM, Apple, and OpenAI.Required QualificationsProven experience as a Full-Stack Developer, architect or similar role.Strong knowledge of back-end technologies such as PHP (Laravel), Go, and Node.js.Proficiency in front-end technologies such as HTML, CSS, JavaScript, and modern frameworks (e.g., React, Next.js).Understanding of operating systems and general computing including scripting such as BASH.Experience with relational databases (MySQL, Postgres).Familiarity with cloud services (e.g., AWS).Understanding of version control systems (e.g., Git).Experience working in an agency environment or similar fast-paced setting.Excellent problem-solving skills and the ability to work independently and as part of a team.Strong communication skills and the ability to articulate technical concepts to non-technical stakeholders.Preferred QualificationsA Bachelor’s Degree in Computer Science or a closely related discipline.Demonstrated proficiency in owning and solving novel software solutions across a range of technologies.Experience with mobile development (e.g., iOS, Android) is a plus.Experience with desktop development (e.g., MacOS, Windows) is a plus.Experience with working with video content creators.Experience with DevOps practices and CI/CD pipelines.Knowledge of containerization technologies (e.g., Docker, Kubernetes).Familiarity with agile methodologies."
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4389474695",
-      "title": "Full Stack Developer II (PHP)",
-      "company": "RealPage, Inc.",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-ii-php-at-realpage-inc-4389474695",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-02",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "AWS certification required",
-        "Limited MongoDB experience"
-      ],
-      "description": "OverviewRealPage is leading innovation in the Property Technology (PropTech) space to create smarter solutions for the industry. Our team is focused on building practical, impactful AI applications and improving existing systems to deliver real value to our customers.We are looking for an Developer to contribute to the design, development, and deployment of applications. In this role, you will work on implementing models and algorithms, integrating them into products, and ensuring they scale effectively. You’ll collaborate closely with product, design, and engineering teams to deliver solutions that solve real-world challenges in the PropTech domain.Responsibilities Responsibilities Understand the Technical Architecture documents and design approaches and convert that intocode.This position requires an individual to be creative, team-oriented, technology savvy, driven toproduce results, and demonstrates the ability to take a cross-team leadership role.Leads in the analysis, design, and implementation planning of the technical/business solutionWilling to work on additional tasks and responsibilities that will contribute towards team,department, and company goals.Abreast of the latest technologies & tools and the ability to evaluate and select appropriate toolsand technologies as per the requirement.Apply attained experiences and knowledge in solving problems that are complex in scoperequiring in-depth evaluationVery Good Experience in PHP, Angular Java Script, Jquery, HTML 5, CSS3.Very good experience in defining/creating/consuming SOAP & RESTful web services.Experience in customer-facing business applicationsQualificationsEXPERIENCE REQURIEDMinimum 4+ years of solid service development experience.Must Have SkillsMust have strong expertise in either PHP, Angular & Postgres/MySQLLaravel frameworkEvent Driven programing.Having Elastic and Laravel experience is added as an advantageKnowledge of Linux / Unix flavorsKnowledge of Docker.MentionershipExperience in Web Services using REST, SOAPKnowledge of different authentication and authorization techniquesCandidate having experience in server-side programming independent of technology added as anextra advantage.Strong knowledge of code documentation and handoverMust have experience in unit tests.Experience building scalable, high-available mission-critical platformsExposure to any of the cloud platforms like AWS/GCP/AzureUI-side development experience in any one of the technologies Java Script /Angular.JS /React"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4417356991",
-      "title": "Full Stack Engineer PHP",
-      "company": "New York Technology Partners",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-engineer-php-at-new-york-technology-partners-4417356991",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-02",
-      "description": "Required QualificationsProven experience as a Full-Stack Developer, Software Architect, or in a similar role.Strong back-end development skills using technologies such as PHP (Laravel), Go, and Node.js.Proficiency with front-end technologies including HTML, CSS, JavaScript, and modern frameworks such as React and Next.js.Solid understanding of operating systems, general computing concepts, and scripting languages such as Bash.Experience working with relational databases including MySQL and PostgreSQL.Familiarity with cloud platforms such as AWS.Knowledge of version control systems, particularly Git.Experience in agency environments or other fast-paced, collaborative settings.Strong analytical and problem-solving abilities with the capacity to work both independently and within a team.Excellent communication skills, including the ability to explain technical concepts to non-technical stakeholders.Preferred QualificationsBachelor’s degree in Computer Science or a related field.Demonstrated ability to design, own, and deliver innovative software solutions across multiple technologies.Experience with mobile application development for iOS or Android.Experience with desktop application development for macOS or Windows.Familiarity working alongside video content creators or media-focused teams.Experience implementing DevOps practices and CI/CD workflows.Knowledge of containerization technologies such as Docker and Kubernetes.Familiarity with Agile development methodologies.",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Go and Node.js not mentioned"
-      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4402002155",
@@ -2790,26 +3025,6 @@
       "match_cons": [
         "Requires AWS certification",
         "Less experience than required"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4421638537",
-      "title": "PHP Developer-Orlando FL",
-      "company": "Cogent Communications",
-      "url": "https://www.linkedin.com/jobs/view/php-developer-orlando-fl-at-cogent-communications-4421638537",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-01",
-      "description": "CompanyCogent Communications is a global, Tier 1 facilities-based ISP, consistently ranked as one of the top five networks in the world and is publicly traded on the NASDAQ Stock Market under the ticker symbol CCOI. Cogent specializes in providing businesses with high speed Internet access and Ethernet transport services. Cogent's facilities-based, all-optical IP network backbone provides IP services globally. Since its inception, Cogent has unleashed the benefits of IP technology, building one of the largest and highest capacity IP networks in the world. This network enables Cogent to offer large bandwidth connections at highly competitive prices. Cogent also offers superior customer support by virtue of its end-to-end control of service delivery and network monitoring. A competitive base salary and a full benefits package including; Health, Dental, Vision, Paid Time Off (PTO), Short- and Long-Term Disability, Life Insurance, Holidays, Parental Leave, 401(k) plan with employer match, stock options, and an Employee Assistance Program. Most benefits take effect within 30 days of employment, and some require a waiting period.Job SummaryThe PHP Developer will assist in the design, development and maintenance of a several in-house business applications to support Corporate Sales, Operations and Finance as well as other departments. Under the guidance of the technical lead, the developer will work with application stakeholders to gather requirements, produce proofs-of-concept, obtain feedback, and complete the development, testing and implementation of the applications. This developer will also assist in maintaining some existing PHP and Java applicationsEssential Duties And ResponsibilitiesAnalyze technology/capability gaps, research, develop, and deploy software solutionsWork with project leads to define sprints and associated deliverablesCollaborate with other developers to design and optimize codeConduct integration, test, bug fixes, and other software maintenance activitiesPerforming requirements analysis and proof of concept or prototyping as needed for engineering and design of corporate applicationsSupporting applications in O&M status by providing enhancements and bug fixes as neededCoding, testing, and debugging new software or enhancements to existing softwareDeveloping user interfaces and applications by setting expectations and feature priorities throughout the development life cycle, determining design methodologies and tool sets, completing progr",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Location mismatch"
       ]
     },
     {
