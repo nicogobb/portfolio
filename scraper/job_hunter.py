@@ -272,13 +272,31 @@ def fetch_workingnomads() -> list:
         print(f"  [!] WorkingNomads: {e}")
         return []
 
+def fetch_larajobs() -> list:
+    """Larajobs.com — curated Laravel/PHP job board, RSS feed."""
+    try:
+        feed = feedparser.parse("https://larajobs.com/feed")
+        out = []
+        for e in feed.entries:
+            title = clean(e.title)
+            url   = e.get("link", "")
+            date  = e.get("published", "")
+            desc  = clean(e.get("summary", ""))
+            if not title or not url:
+                continue
+            out.append(make_job("Larajobs", url, title, "", url, date, description=desc))
+        return out
+    except Exception as e:
+        print(f"  [!] Larajobs: {e}")
+        return []
+
 # ── Denmark scrapers ──────────────────────────────────────────────────────────
 
 def fetch_jobindex() -> list:
     """Jobindex.dk — largest Danish job board, RSS per keyword."""
     out = []
     seen_urls: set = set()
-    keywords = ["php", "php developer", "php udvikler", "webudvikler", "backend udvikler", "senior backend", "codeigniter", "kohana"]
+    keywords = ["php", "php developer", "php udvikler", "laravel", "symfony", "codeigniter", "kohana"]
     for kw in keywords:
         try:
             feed = feedparser.parse(
@@ -306,7 +324,7 @@ def fetch_itjobbank() -> list:
     """IT-jobbank.dk — Danish IT-specific job board, RSS per keyword."""
     out = []
     seen_urls: set = set()
-    keywords = ["php", "php developer", "php udvikler", "backend developer", "senior php", "webudvikler", "codeigniter", "kohana"]
+    keywords = ["php", "php developer", "php udvikler", "laravel", "symfony", "senior php", "codeigniter", "kohana"]
     for kw in keywords:
         try:
             feed = feedparser.parse(
@@ -385,7 +403,7 @@ def fetch_indeed_denmark() -> list:
 def _linkedin_search(params: dict, label: str = "LinkedIn", denmark: bool = False) -> list:
     out = []
     seen_urls: set = set()
-    keywords = ["PHP Developer", "Senior PHP Developer", "Backend PHP", "Full Stack PHP"]
+    keywords = ["PHP Developer", "Senior PHP Developer", "Laravel Developer", "Symfony Developer", "Full Stack PHP"]
     for keyword in keywords:
         try:
             r = requests.get(
@@ -462,6 +480,7 @@ def main():
         ("Himalayas",        fetch_himalayas),
         ("Landing.jobs",     fetch_landing_jobs),
         ("WorkingNomads",    fetch_workingnomads),
+        ("Larajobs",         fetch_larajobs),
         ("LinkedIn remote",  fetch_linkedin_remote),
         ("LinkedIn Europe",  fetch_linkedin_europe),
         # ── Denmark ───────────────────────────
