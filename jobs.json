@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T16:01:09.520246+00:00",
+  "updated_at": "2026-06-04T19:00:58.240194+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -1786,6 +1786,144 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4420474231",
+      "title": "Senior PHP Developer",
+      "company": "Surfshark",
+      "url": "https://lt.linkedin.com/jobs/view/senior-php-developer-at-surfshark-4420474231",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "We probably won’t surprise you by telling you that our Core team is the core of everything. These experienced Back-end PHP Engineers are responsible for perfecting our user registration, payment processing, fighting cybervillains, and tracking marketing campaigns. They focus on digging into data, ensuring high availability, scalability, and performance optimizations, as well as writing clear code.So if you know your way around PHP 8.x, Symfony, databases and caching, and you’re looking for a great new tech challenge, read along!If you want to:Work on payment processing integrations;Build and maintain our current APIs as well as create new ones;Focus on writing clear, tested, documented code that delivers real business value;Develop back-end solutions with Symfony;Build highly scalable systemsAnd you can check off:Proven experience working with PHP;Understanding of OOP principles & good code design;Skills in PHP frameworks, preferably Symfony;Proven experience in building highly scalable systems;Solid technical understanding of RESTful APIs;Knowledge in microservices design;Experience working with VCSBonus points if you:Are skilled in RabbitMQ, MongoDB, MySQL, Redis and ElasticSearchHere’s the deal:Growth and learning opportunities: time dedicated to learning, conferences, online learning platforms, and books for your professional development;Health and wellness: we want you to feel and be your best. That's why we offer various benefits, from online workouts and a physical coach to health insurance and regular mental health checks;Tools of your choice: choose the technical equipment and tools you need to do your best work;Community and celebrations: get ready for long-lasting traditions such as yearly workation, Friday get-togethers, various team buildings and company celebrations;Work-life balance: as a general rule, we work based on a 3+2 hybrid model. And let’s not forget the WFA policy - an opportunity to work from anywhere in the world;More days off: additional vacation days depending on your tenure;Premium Surfshark accounts: for you, your family, and friends;Gross salary: 3200 - 7200 Eur/month. Although it may vary depending on your skills and experience.",
+      "match_score": 92,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Symfony match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No mention of PostgreSQL",
+        "No Docker experience mentioned"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4410519991",
+      "title": "Senior PHP Developer",
+      "company": "Fleming",
+      "url": "https://lt.linkedin.com/jobs/view/senior-php-developer-at-fleming-4410519991",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Senior level, no mention of Laravel"
+      ],
+      "description": "About us:Fleming was founded with the goal of creating high-quality digital health, wellness, and AI programs globally. We seek to make people's lives happier, healthier, and more productive by creating empowering self-growth products for everyday life. Our team of experts ranges from innovative AI specialists, creative minds, and imaginative designers to professional medical doctors and data scientists, working together as one to help millions of people around the world.With 2+ million customers worldwide, we're providing unique opportunities, attracting talents to join our fast-growing team, and creating innovative brands in a rapidly growing digital health industry. If you think you're bold, ambitious, and not afraid to challenge yourself, let's talk!We are looking for: As a Senior PHP Developer at Fleming, you will play a key role in building and maintaining scalable, high-performance platforms. You’ll join a cross-functional team of talented professionals, contributing not only through clean, efficient code but also by mentoring others, influencing architecture decisions, and shaping best practices across the engineering organization.We value shipping over ceremony. At Fleming, we keep the overhead low - no heavy methodologies or endless meetings. We rely on a quick daily stand-up to sync and then give you the autonomy to do what you do best: build great software. You’ll spend most of your time producing high-quality, test-backed code for our projects. Since we are a growing startup, you’ll also be welcome to participate in planning, workflow improvement, and technical design without the corporate red tape.Get ready to:Design and develop scalable back-end systems and APIs using PHP Laravel framework.Lead the development of new features and architectural improvements.Write efficient, maintainable, and well-tested code.Collaborate closely with front-end engineers, designers, and data scientists.Mentor junior and mid-level developers, sharing best practices and code review feedback.Contribute to improving development workflows, automation, and deployment processes.We expect you to:Have 5+ years of experience working professionally with PHP (Laravel or Symfony).Have strong experience with relational databases (MySQL or PostgreSQL).Write unit, integration, and feature tests regularly.Possess a deep understanding of OOP principles, SOLID, and design patterns.Be comfortable with RESTful API design and development.Communicate clearly and effectively, both tec"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4404865503",
+      "title": "(Senior) PHP Laravel Developer",
+      "company": "Omniboost",
+      "url": "https://nl.linkedin.com/jobs/view/senior-php-laravel-developer-at-omniboost-4404865503",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ],
+      "description": "Your RoleWe’re building a multi-platform DataHub for the hospitality vertical, a SaaS solution that seamlessly connects multiple systems. This platform empowers businesses like restaurants and hotels to streamline operations, from processing room charges within hotel systems to enabling loyalty programs for Point-of-Sale systems and beyond. As a (Senior) PHP Laravel Developer, your focus will be on enhancing the current product, making key architectural decisions, developing integrations and elevating overall code quality within the team.Your work impacts thousands of customers daily. Thanks to you, Natalia can seamlessly charge her dinner to her hotel room, and Robert can redeem his loyalty points for a discount on his next stay. The integrations you build run so smoothly that guests and staff never have to think about the data behind the scenes, it just works.Key ResponsibilitiesTackle complex business challenges with the team, finding solutions where others see obstacles.Collaborate and support your teammates, helping them overcome technical hurdles.Optimize API integrations with our partners, ensuring the most efficient and effective implementation.Review and refine code, enhancing both your own skills and those of your team members.Innovate, speak your mind, and share your vision to continuously improve our platform.Key Requirements5+ years of experience in Laravel development.3+ years of leadership experience in a similar role.Strong knowledge of unit and integration testing.Proficiency in Git and version control best practices.Solid understanding of Agile and Scrum methodologies.Hands-on experience with AWS infrastructure and services.Fluent English to communicate effectively in an international team.A solution-oriented mindset, with the ability to translate business requirements into technical solutions.Preferred QualificationsExperience working with SaaS platforms.Knowledge of Kubernetes/ EKS.Familiarity with Grafana for monitoring and analytics.You share our Core ValuesExtreme OwnershipWillingness to Serve (Unreasonable Hospitality)A relentless Growth MindsetPlaying Offense, not DefenseStaying confidently Humble, never Arrogant"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413054835",
+      "title": "Senior PHP Engineer",
+      "company": "Hack The Box",
+      "url": "https://de.linkedin.com/jobs/view/senior-php-engineer-at-hack-the-box-4413054835",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "No mention of PostgreSQL"
+      ],
+      "description": "Ready to embark on the quest of joining Hack The Box?Welcome! Super excited you dropped by 🥳At the end of this journey, you'll become a proud member of Hack The Box, with the ultimate mission to raise cyber resilience, so that every organization can stay ahead of tomorrow's threats.🚀🔒💻✨The core mission of the Senior PHP engineer:Work on one of our HTB platforms, HTB Business, responsible for upskilling organizations across the globe. In this role, you will have the opportunity to work on the enhancement of the platform and the development of new features.We are open to candidates with diverse back end programming backgrounds, as long as you have experience in an MVC framework, passion and aspiration to work with PHP programming language and the Laravel Framework.🏢 Location & Work Mode:Europe/GreeceChoose between fully remote work across Europe or relocating to our Athens Tech Hub with relocation supportFully Remote / Hybrid (2 days in the office, 3 days remote, plus one month of work from anywhere) - If only in Greece: When hiring in Greece, we're open to candidates from all locations. Those based within 55 km of our Athens office will follow a hybrid work model. For candidates located beyond that radius, a fully remote arrangement is available.✈️ Relocation We offer a 10% relocation bonus on the annual salary to support your moveIn addition, you would benefit from a 50% tax reduction on your income as part of the relocationWe'll support you with accommodation during the first few weeks🍺 The fellowship you'll be joining:As a Back end developer you will work closely with developers, QA and Product Managers to create an amazing experience for HTB customers. You will be an integral part of HTB development team aspiring to build the world's largest hacker community. This engineering team is the biggest one , aligning with the expansive mindset of our HTB Business platform and serving a diverse set of customers globally.⚔️ Tools & weapons you'll be using:PHP, Laravel , JIRA, SQL, Docker, Github📚 Interesting resources you should check:#3 Engineering Team Meetup HTB Business Team Off Site Adventure🚀 The adventures that await you after becoming Senior PHP Engineer at Hack The Box:Develop new features and tools using the Laravel PHP FrameworkGenerate clean, safe, reusable and scalable PHP codeCreate and maintain RESTful APIs Contribute to architectural and software design decisionsContribute and maintain technical documentation and specificationsPerform code review"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4292159692",
+      "title": "Senior PHP Developer",
+      "company": "Skrepr",
+      "url": "https://nl.linkedin.com/jobs/view/senior-php-developer-at-skrepr-4292159692",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Senior experience required",
+        "No mention of AWS certification"
+      ],
+      "description": "FunctieomschrijvingSkrepr is op zoek naar een Senior PHP Developer die de ambitie heeft om met ons mee te groeien. Bij ons krijg je de kans om je te ontwikkelen en samen met ons te werken aan toonaangevende webapplicaties. We zoeken iemand die niet alleen technisch sterk is, maar ook creatief en leergierig. Bij Skrepr krijg je de ruimte om te experimenteren en jezelf te blijven uitdagen. Sluit je aan bij ons team en bouw mee aan de digitale toekomst!Als Senior Software Engineer (PHP) heb jij een essentiële rol in het bouwen van high-tech softwareoplossingen voor onze opdrachtgevers. Samen met andere ontwikkelaars in klantteams werk je aan het optimaliseren van onze software en het tevredenstellen van onze klanten. Dit doen we niet volgens het 'jij vraagt, wij draaien' principe, maar door de uitdagingen van onze klanten als jouw eigen uitdagingen te zien. Als een ware detective neem jij plaats op de stoel van de klant, onderzoek je de behoeften en stel je de juiste vragen om tot de beste oplossing te komen. Onze opdrachtgevers zijn vaak geen software genieën en daarom is jouw vermogen om de opdrachtgever mee te nemen in de mogelijkheden van ons product cruciaal.Kortom, als Senior Software Engineer (PHP) bij ons draait het allemaal om het bouwen van de beste softwareoplossingen die voldoen aan de behoeften van onze klanten. Doe je met ons mee?VereistenJe hebt al minimaal 3-5 jaar ervaring als software engineer (PHP) en je hebt een duidelijk track record van het bouwen van innovatieve softwareoplossingen.Je bent een code-wizard die de taal van PHP spreekt als geen ander.Je hebt ervaring met het bouwen van high-tech softwareoplossingen die zowel de klant als de gebruiker tevreden stellen.Jij bent een detective die de behoeften van onze klanten kan achterhalen en vertalen naar de beste oplossingen.Jouw code is geoptimaliseerd voor snelheid, veiligheid en schaalbaarheid.Jij ziet problemen als uitdagingen en gaat ze niet uit de weg.Je bent een echte teamspeler die goed kan communiceren en samenwerken met andere ontwikkelaars.Jij hebt oog voor detail en zorgt ervoor dat onze software altijd optimaal werkt.Je bent op de hoogte van de nieuwste ontwikkelingen op het gebied van PHP en de bijbehorende frameworks.Jij bent proactief en komt met creatieve oplossingen voor complexe problemen.Je bent niet alleen een software engineer, maar ook een tech-enthousiast die altijd op zoek is naar nieuwe manieren om onze software te verbeteren.Tech StackBij Skrepr Maken We Gebruik"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4341324199",
+      "title": "Senior Backend Engineer (PHP)",
+      "company": "AMBOSS",
+      "url": "https://de.linkedin.com/jobs/view/senior-backend-engineer-php-at-amboss-4341324199",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ],
+      "description": "Hi! We are AMBOSS and we are looking for a Senior Backend Engineer (PHP) to join our Educator Experience team, and shape the future of medical education with us!About AMBOSSAMBOSS is a dynamic learning and clinical decision support tool committed to empowering physicians globally to deliver optimal care. Since our inception in 2012, we've harnessed cutting-edge technology to transform the way physicians acquire and apply scientific knowledge. Each AMBOSSian is passionate about being the champion of clinicians today - this motivates and unites us each day towards success. And what does success look like? When a clinician or med student tells us, “AMBOSS makes practicing medicine easier and enjoyable. I love what I do, and a big part is because of AMBOSS.”Want to learn more about our culture? Watch our video to explore what makes us unique.Why can this position be exciting for you?We are AMBOSS, and we’re looking for a Senior Backend Engineer in the Educator Experience team. Engineers at AMBOSS are at the forefront of shaping user experience for doctors and students, helping them make critical decisions, ultimately impacting the healthcare of billions of people worldwide. We are looking for someone with a passion for getting the most out of technology and people, setting the pace and direction of excellence for engineering craft. Join our agile team on a mission to enable institutions (like educational clinics, medical schools) to use AMBOSS resources efficiently and effectively when teaching their learners (e.g. residents and students).You WillActively contributing to engineering projects within our new B2B product “Educator Tool”, from conception to completion.Drive the adoption of best practices in code health, testing, and maintainability.Collaborate with cross-functional teams to define project requirements and specifications.Address Ad-Hoc requests from customer support channels.Share your knowledge within the AMBOSS community, contributing to a culture of continuous learning and growth.You BringProven expertise with PHP and its modern frameworks (such as Symfony, Slim, Laravel) and MySQL.Product -minded approachExperience in the full web development lifecycle, including requirements analysis, solution discovery, system design, coding, testing, deployment, and maintenance.Proficient in building and integrating APIs ( GraphQL and/or RESTful) and adept at robust database design and management.Strong knowledge of SOLID principles, best practices, and desi"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4423396231",
+      "title": "Senior Software Engineer (PHP/STOMP)",
+      "company": "ImagineX",
+      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-php-stomp-at-imaginex-4423396231",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "ImagineX is a tech company that deploys AI-assisted teams to build and secure mission-critical enterprise solutions with our clients – spanning software, data, and AI. Structured like a software company, not a traditional consultancy, we blend deep technical expertise with authentic values, achieving world-class satisfaction (NPS 91). Our dedicated teams specialize in software, data, and AI across the U.S. and LATAM, bridging the gap between boutique agility and enterprise scale.We're seeking a Senior Software Engineer who can design, implement, operationalize, and support enterprise-grade messaging solutions using Amazon MQ and the STOMP protocol. This role is ideal for someone who thrives in distributed systems, understands event-driven architectures, and has hands-on experience integrating PHP applications with message brokers. You will play a key role in modernizing enterprise integrations, enabling asynchronous communication patterns, and improving the reliability and scalability of mission-critical applications. This is a 100% remote full-time opportunity.Key ResponsibilitiesDesign, build, and operationalize messaging solutions using Amazon MQ (ActiveMQ/RabbitMQ) to support reliable communication between enterprise applications and servicesDevelop and maintain PHP-based integrations leveraging the STOMP protocol for message publishing, consumption, routing, and processingConfigure and manage Amazon MQ brokers across development, test, and production environments, ensuring high availability, scalability, and operational stabilityMonitor messaging infrastructure and proactively troubleshoot broker performance issues, message delivery failures, queue backlogs, dead-letter queues, and connectivity problemsCollaborate with application development, infrastructure, security, and platform teams to onboard new messaging workloads and establish integration standardsSupport the full lifecycle of messaging solutions, including architecture, implementation, testing, deployment, migration, and production supportImplement automation, observability, and CI/CD integration for messaging platforms, including monitoring, alerting, logging, and infrastructure provisioningRequired Experience & SkillsStrong hands-on experience with Amazon MQ and proven experience implementing STOMP-based messaging solutions in PHP applicationsExperience designing and supporting message-oriented middleware in enterprise environmentsStrong understanding of asynchronous messaging patterns, pu",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Remote opportunity"
+      ],
+      "match_cons": [
+        "STOMP protocol required",
+        "No Danish fluency"
+      ]
+    },
+    {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1662922",
       "title": "Softwareudvikler (PHP), Axla ApS",
       "company": "",
@@ -2432,85 +2570,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4420474231",
-      "title": "Senior PHP Developer",
-      "company": "Surfshark",
-      "url": "https://lt.linkedin.com/jobs/view/senior-php-developer-at-surfshark-4420474231",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "description": "We probably won’t surprise you by telling you that our Core team is the core of everything. These experienced Back-end PHP Engineers are responsible for perfecting our user registration, payment processing, fighting cybervillains, and tracking marketing campaigns. They focus on digging into data, ensuring high availability, scalability, and performance optimizations, as well as writing clear code.So if you know your way around PHP 8.x, Symfony, databases and caching, and you’re looking for a great new tech challenge, read along!If you want to:Work on payment processing integrations;Build and maintain our current APIs as well as create new ones;Focus on writing clear, tested, documented code that delivers real business value;Develop back-end solutions with Symfony;Build highly scalable systemsAnd you can check off:Proven experience working with PHP;Understanding of OOP principles & good code design;Skills in PHP frameworks, preferably Symfony;Proven experience in building highly scalable systems;Solid technical understanding of RESTful APIs;Knowledge in microservices design;Experience working with VCSBonus points if you:Are skilled in RabbitMQ, MongoDB, MySQL, Redis and ElasticSearchHere’s the deal:Growth and learning opportunities: time dedicated to learning, conferences, online learning platforms, and books for your professional development;Health and wellness: we want you to feel and be your best. That's why we offer various benefits, from online workouts and a physical coach to health insurance and regular mental health checks;Tools of your choice: choose the technical equipment and tools you need to do your best work;Community and celebrations: get ready for long-lasting traditions such as yearly workation, Friday get-togethers, various team buildings and company celebrations;Work-life balance: as a general rule, we work based on a 3+2 hybrid model. And let’s not forget the WFA policy - an opportunity to work from anywhere in the world;More days off: additional vacation days depending on your tenure;Premium Surfshark accounts: for you, your family, and friends;Gross salary: 3200 - 7200 Eur/month. Although it may vary depending on your skills and experience.",
-      "match_score": 92,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Symfony match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No mention of PostgreSQL",
-        "No Docker experience mentioned"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4410519991",
-      "title": "Senior PHP Developer",
-      "company": "Fleming",
-      "url": "https://lt.linkedin.com/jobs/view/senior-php-developer-at-fleming-4410519991",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Senior level, no mention of Laravel"
-      ],
-      "description": "About us:Fleming was founded with the goal of creating high-quality digital health, wellness, and AI programs globally. We seek to make people's lives happier, healthier, and more productive by creating empowering self-growth products for everyday life. Our team of experts ranges from innovative AI specialists, creative minds, and imaginative designers to professional medical doctors and data scientists, working together as one to help millions of people around the world.With 2+ million customers worldwide, we're providing unique opportunities, attracting talents to join our fast-growing team, and creating innovative brands in a rapidly growing digital health industry. If you think you're bold, ambitious, and not afraid to challenge yourself, let's talk!We are looking for: As a Senior PHP Developer at Fleming, you will play a key role in building and maintaining scalable, high-performance platforms. You’ll join a cross-functional team of talented professionals, contributing not only through clean, efficient code but also by mentoring others, influencing architecture decisions, and shaping best practices across the engineering organization.We value shipping over ceremony. At Fleming, we keep the overhead low - no heavy methodologies or endless meetings. We rely on a quick daily stand-up to sync and then give you the autonomy to do what you do best: build great software. You’ll spend most of your time producing high-quality, test-backed code for our projects. Since we are a growing startup, you’ll also be welcome to participate in planning, workflow improvement, and technical design without the corporate red tape.Get ready to:Design and develop scalable back-end systems and APIs using PHP Laravel framework.Lead the development of new features and architectural improvements.Write efficient, maintainable, and well-tested code.Collaborate closely with front-end engineers, designers, and data scientists.Mentor junior and mid-level developers, sharing best practices and code review feedback.Contribute to improving development workflows, automation, and deployment processes.We expect you to:Have 5+ years of experience working professionally with PHP (Laravel or Symfony).Have strong experience with relational databases (MySQL or PostgreSQL).Write unit, integration, and feature tests regularly.Possess a deep understanding of OOP principles, SOLID, and design patterns.Be comfortable with RESTful API design and development.Communicate clearly and effectively, both tec"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4404865503",
-      "title": "(Senior) PHP Laravel Developer",
-      "company": "Omniboost",
-      "url": "https://nl.linkedin.com/jobs/view/senior-php-laravel-developer-at-omniboost-4404865503",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
-      ],
-      "description": "Your RoleWe’re building a multi-platform DataHub for the hospitality vertical, a SaaS solution that seamlessly connects multiple systems. This platform empowers businesses like restaurants and hotels to streamline operations, from processing room charges within hotel systems to enabling loyalty programs for Point-of-Sale systems and beyond. As a (Senior) PHP Laravel Developer, your focus will be on enhancing the current product, making key architectural decisions, developing integrations and elevating overall code quality within the team.Your work impacts thousands of customers daily. Thanks to you, Natalia can seamlessly charge her dinner to her hotel room, and Robert can redeem his loyalty points for a discount on his next stay. The integrations you build run so smoothly that guests and staff never have to think about the data behind the scenes, it just works.Key ResponsibilitiesTackle complex business challenges with the team, finding solutions where others see obstacles.Collaborate and support your teammates, helping them overcome technical hurdles.Optimize API integrations with our partners, ensuring the most efficient and effective implementation.Review and refine code, enhancing both your own skills and those of your team members.Innovate, speak your mind, and share your vision to continuously improve our platform.Key Requirements5+ years of experience in Laravel development.3+ years of leadership experience in a similar role.Strong knowledge of unit and integration testing.Proficiency in Git and version control best practices.Solid understanding of Agile and Scrum methodologies.Hands-on experience with AWS infrastructure and services.Fluent English to communicate effectively in an international team.A solution-oriented mindset, with the ability to translate business requirements into technical solutions.Preferred QualificationsExperience working with SaaS platforms.Knowledge of Kubernetes/ EKS.Familiarity with Grafana for monitoring and analytics.You share our Core ValuesExtreme OwnershipWillingness to Serve (Unreasonable Hospitality)A relentless Growth MindsetPlaying Offense, not DefenseStaying confidently Humble, never Arrogant"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4413054835",
-      "title": "Senior PHP Engineer",
-      "company": "Hack The Box",
-      "url": "https://de.linkedin.com/jobs/view/senior-php-engineer-at-hack-the-box-4413054835",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "No mention of PostgreSQL"
-      ],
-      "description": "Ready to embark on the quest of joining Hack The Box?Welcome! Super excited you dropped by 🥳At the end of this journey, you'll become a proud member of Hack The Box, with the ultimate mission to raise cyber resilience, so that every organization can stay ahead of tomorrow's threats.🚀🔒💻✨The core mission of the Senior PHP engineer:Work on one of our HTB platforms, HTB Business, responsible for upskilling organizations across the globe. In this role, you will have the opportunity to work on the enhancement of the platform and the development of new features.We are open to candidates with diverse back end programming backgrounds, as long as you have experience in an MVC framework, passion and aspiration to work with PHP programming language and the Laravel Framework.🏢 Location & Work Mode:Europe/GreeceChoose between fully remote work across Europe or relocating to our Athens Tech Hub with relocation supportFully Remote / Hybrid (2 days in the office, 3 days remote, plus one month of work from anywhere) - If only in Greece: When hiring in Greece, we're open to candidates from all locations. Those based within 55 km of our Athens office will follow a hybrid work model. For candidates located beyond that radius, a fully remote arrangement is available.✈️ Relocation We offer a 10% relocation bonus on the annual salary to support your moveIn addition, you would benefit from a 50% tax reduction on your income as part of the relocationWe'll support you with accommodation during the first few weeks🍺 The fellowship you'll be joining:As a Back end developer you will work closely with developers, QA and Product Managers to create an amazing experience for HTB customers. You will be an integral part of HTB development team aspiring to build the world's largest hacker community. This engineering team is the biggest one , aligning with the expansive mindset of our HTB Business platform and serving a diverse set of customers globally.⚔️ Tools & weapons you'll be using:PHP, Laravel , JIRA, SQL, Docker, Github📚 Interesting resources you should check:#3 Engineering Team Meetup HTB Business Team Off Site Adventure🚀 The adventures that await you after becoming Senior PHP Engineer at Hack The Box:Develop new features and tools using the Laravel PHP FrameworkGenerate clean, safe, reusable and scalable PHP codeCreate and maintain RESTful APIs Contribute to architectural and software design decisionsContribute and maintain technical documentation and specificationsPerform code review"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4406086933",
       "title": "Senior Software Engineer (PHP)",
       "company": "HomeToGo",
@@ -2529,45 +2588,6 @@
         "No MongoDB emphasis"
       ],
       "description": "Explore a new world of possibilitiesAt HomeToGo, we’re on a mission to make incredible accommodation easily accessible for everyone. Our team is united by a passion for travel, driven by innovation and impact, and guided by open-minded leaders at every level. Our commitment to recognizing and empowering exceptional talent is the foundation of our growth. An amazing journey of opportunity with an international team lies ahead - join us!Your future contributionCurrently, we are seeking a Senior Software Engineer (PHP) for the Checkout team. You will play an essential role in our platform's success by joining the team responsible for enhancing the checkout process and post booking experience. Your expertise in PHP development will be instrumental in delivering seamless user experiences and optimizing the booking flow for our users.How you’ll add valueDrive the implementation of technical initiatives to improve the quality of our productPartner with Product to impact the roadmap and ensure engineering decisions align with user needsCollaborate closely within a cross-functional team as well as other engineering teams to understand business requirements and ensure the timely delivery of featuresWork closely with architects to identify and address technical challenges, ensuring the scalability, reliability, and usability of our Marketplace productsTake ownership of engineering decisions for larger topics and featuresBe a part of a push to improve the product delivery processYou’ll be successful in this role if youHave 5+ years of professional experience in backend development (ideally with PHP/Symfony)Have an excellent communication skills with the ability to collaborate effectively with diverse stakeholdersAre familiar with relational databases (e.g., MariaDB, PostgreSQL)Have strong problem-solving skills and the ability to drive technical solutions in a fast-paced environmentUnderstand the fundamental design principles behind a scalable applicationHave professional working proficiency in EnglishWhat we offerCareer of growth opportunities and promotions, 360 feedback, performance evaluation system, and mentoring from an international and distinguished teamCulture of empowerment, trust, recognition, autonomy and quarterly transparency about company goals. A focus on work-life balance, combined with consistent collaboration and support from a team of 30+ nationalitiesCompensation of attractive salary, health insurance, additional holidays, flexible working hours, "
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4292159692",
-      "title": "Senior PHP Developer",
-      "company": "Skrepr",
-      "url": "https://nl.linkedin.com/jobs/view/senior-php-developer-at-skrepr-4292159692",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Senior experience required",
-        "No mention of AWS certification"
-      ],
-      "description": "FunctieomschrijvingSkrepr is op zoek naar een Senior PHP Developer die de ambitie heeft om met ons mee te groeien. Bij ons krijg je de kans om je te ontwikkelen en samen met ons te werken aan toonaangevende webapplicaties. We zoeken iemand die niet alleen technisch sterk is, maar ook creatief en leergierig. Bij Skrepr krijg je de ruimte om te experimenteren en jezelf te blijven uitdagen. Sluit je aan bij ons team en bouw mee aan de digitale toekomst!Als Senior Software Engineer (PHP) heb jij een essentiële rol in het bouwen van high-tech softwareoplossingen voor onze opdrachtgevers. Samen met andere ontwikkelaars in klantteams werk je aan het optimaliseren van onze software en het tevredenstellen van onze klanten. Dit doen we niet volgens het 'jij vraagt, wij draaien' principe, maar door de uitdagingen van onze klanten als jouw eigen uitdagingen te zien. Als een ware detective neem jij plaats op de stoel van de klant, onderzoek je de behoeften en stel je de juiste vragen om tot de beste oplossing te komen. Onze opdrachtgevers zijn vaak geen software genieën en daarom is jouw vermogen om de opdrachtgever mee te nemen in de mogelijkheden van ons product cruciaal.Kortom, als Senior Software Engineer (PHP) bij ons draait het allemaal om het bouwen van de beste softwareoplossingen die voldoen aan de behoeften van onze klanten. Doe je met ons mee?VereistenJe hebt al minimaal 3-5 jaar ervaring als software engineer (PHP) en je hebt een duidelijk track record van het bouwen van innovatieve softwareoplossingen.Je bent een code-wizard die de taal van PHP spreekt als geen ander.Je hebt ervaring met het bouwen van high-tech softwareoplossingen die zowel de klant als de gebruiker tevreden stellen.Jij bent een detective die de behoeften van onze klanten kan achterhalen en vertalen naar de beste oplossingen.Jouw code is geoptimaliseerd voor snelheid, veiligheid en schaalbaarheid.Jij ziet problemen als uitdagingen en gaat ze niet uit de weg.Je bent een echte teamspeler die goed kan communiceren en samenwerken met andere ontwikkelaars.Jij hebt oog voor detail en zorgt ervoor dat onze software altijd optimaal werkt.Je bent op de hoogte van de nieuwste ontwikkelingen op het gebied van PHP en de bijbehorende frameworks.Jij bent proactief en komt met creatieve oplossingen voor complexe problemen.Je bent niet alleen een software engineer, maar ook een tech-enthousiast die altijd op zoek is naar nieuwe manieren om onze software te verbeteren.Tech StackBij Skrepr Maken We Gebruik"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4341324199",
-      "title": "Senior Backend Engineer (PHP)",
-      "company": "AMBOSS",
-      "url": "https://de.linkedin.com/jobs/view/senior-backend-engineer-php-at-amboss-4341324199",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
-      ],
-      "description": "Hi! We are AMBOSS and we are looking for a Senior Backend Engineer (PHP) to join our Educator Experience team, and shape the future of medical education with us!About AMBOSSAMBOSS is a dynamic learning and clinical decision support tool committed to empowering physicians globally to deliver optimal care. Since our inception in 2012, we've harnessed cutting-edge technology to transform the way physicians acquire and apply scientific knowledge. Each AMBOSSian is passionate about being the champion of clinicians today - this motivates and unites us each day towards success. And what does success look like? When a clinician or med student tells us, “AMBOSS makes practicing medicine easier and enjoyable. I love what I do, and a big part is because of AMBOSS.”Want to learn more about our culture? Watch our video to explore what makes us unique.Why can this position be exciting for you?We are AMBOSS, and we’re looking for a Senior Backend Engineer in the Educator Experience team. Engineers at AMBOSS are at the forefront of shaping user experience for doctors and students, helping them make critical decisions, ultimately impacting the healthcare of billions of people worldwide. We are looking for someone with a passion for getting the most out of technology and people, setting the pace and direction of excellence for engineering craft. Join our agile team on a mission to enable institutions (like educational clinics, medical schools) to use AMBOSS resources efficiently and effectively when teaching their learners (e.g. residents and students).You WillActively contributing to engineering projects within our new B2B product “Educator Tool”, from conception to completion.Drive the adoption of best practices in code health, testing, and maintainability.Collaborate with cross-functional teams to define project requirements and specifications.Address Ad-Hoc requests from customer support channels.Share your knowledge within the AMBOSS community, contributing to a culture of continuous learning and growth.You BringProven expertise with PHP and its modern frameworks (such as Symfony, Slim, Laravel) and MySQL.Product -minded approachExperience in the full web development lifecycle, including requirements analysis, solution discovery, system design, coding, testing, deployment, and maintenance.Proficient in building and integrating APIs ( GraphQL and/or RESTful) and adept at robust database design and management.Strong knowledge of SOLID principles, best practices, and desi"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4389183850",
