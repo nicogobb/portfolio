@@ -254,6 +254,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (nClosed)  parts.push(`${nClosed} closed`);
         meta.textContent = `$ jobs --${currentView} · ${parts.join(' · ')}`;
 
+        const searchWasFocused = document.activeElement?.id === 'jobs-search';
+        const searchCursor     = searchWasFocused ? document.getElementById('jobs-search')?.selectionStart : null;
+
         filtersEl.innerHTML = `
             <div class="jobs__views">
                 <button class="jobs__view${currentView === 'remote'  ? ' jobs__view--active' : ''}" data-view="remote">remote <span class="jobs__view-count">(${byRemote.length})</span></button>
@@ -267,6 +270,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     `<button class="jobs__filter${f === currentFilter ? ' jobs__filter--active' : ''}" data-filter="${f}">${f}</button>`
                 ).join('')}
             </div>`;
+
+        if (searchWasFocused) {
+            const el = document.getElementById('jobs-search');
+            el.focus();
+            el.setSelectionRange(searchCursor, searchCursor);
+        }
 
         if (!filtered.length) {
             list.innerHTML = `<p style="font-family:var(--font-main);color:var(--light-text);padding:1rem 0">No ${currentFilter} listings.</p>`;
