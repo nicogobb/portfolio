@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T04:00:57.761124+00:00",
+  "updated_at": "2026-06-04T07:02:36.375167+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -1105,6 +1105,324 @@
       "match_pros": [
         "Laravel matches",
         "Remote-friendly"
+      ],
+      "match_cons": [
+        "Danish learning",
+        "No US mention"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4406499367",
+      "title": "Desarrollador/a PHP - IA",
+      "company": "Aubay Spain",
+      "url": "https://es.linkedin.com/jobs/view/desarrollador-a-php-ia-at-aubay-spain-4406499367",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification",
+        "Limited MongoDB experience"
+      ],
+      "description": "Provincia : MadridNº Vacantes (puestos) : 1 FuncionesEn Grupo Aubay buscamos un desarrollador/a PHP con IA para incorporarse en uno de nuestros principales clientes del sector financiero.Funciones: Desarrollo y mantenimiento de aplicaciones web fullstack en PHP Diseño e implementación de APIs RESTful Integración de herramientas de IA en el flujo de desarrollo (generación de código, automatización, optimización) Colaboración en despliegues y mantenimiento en entornos cloud Participación en todo el ciclo de vida del software (desarrollo, testing, despliegue) Trabajo en equipo bajo metodologías ágiles (Scrum) Requisitos Requisitos Técnicos Obligatorios Experiencia en PHP (Fullstack): Capacidad para trabajar tanto en el backend como en el frontend. Uso Habitual de IA en Programación: Experiencia demostrable utilizando herramientas de asistencia como GitHub Copilot o Gemini para la generación de código, depuración y optimización de tareas.Experiencia y Conocimientos Deseables Infraestructura Cloud: Conocimientos en GCP para el despliegue y mantenimiento de aplicaciones. Desarrollo de APIs para la integración de sistemas Manejo fluido de herramientas de control de versiones con Git y nociones de CI/CD Metodologías Ágiles Automatización: Python Se ofrece Contrato indefinido en proycto estable Modalidad 100% remoto Horario: L-J de 8h a 17:30 y V de 8h a 14h Jornada intensiva julio y agosto (8h a 15h) Formación Retribución flexible"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413479489",
+      "title": "PHP Developer",
+      "company": "Sanoma Learning",
+      "url": "https://pl.linkedin.com/jobs/view/php-developer-at-sanoma-learning-4413479489",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No mention of AWS certification",
+        "No mention of PostgreSQL"
+      ],
+      "description": "📍 Location: Warsaw, Poland (Remote with occasional office visits – 1–3 times per year)🕒 Type: Full-time📄 Contract Type: B2B (requires a registered sole proprietorship in Poland)Sanoma Learning is the leading European learning company, serving over 20 million students in 11 countries. We offer printed and digital learning materials as well as digital learning and teaching platforms for primary, secondary, and vocational education. The development of our methodologies is based on deep teacher and student insight and really understanding their needs. By combining our educational technologies and pedagogical expertise, we create learning products and services with the highest learning impact. In our Technology organization, you will join the largest cross-cultural community of Sanoma Learning and contribute to the digital transformation and future of education in Europe.Project DescriptionDLN Dlanauczyciela.pl is a portal supporting teachers in schools, providing comfort and support at every stage of the teaching process. Essential materials and tools are available in one place, in any situation, and across multiple devices.Teaching tools and materials available in one placeQuick access to up-to-date informationEasy lesson preparation, including online classesAccess available only for registered teachersRole ResponsibilitiesDesign, develop, and maintain features in PHP applications, ensuring code quality and performanceTranslate business requirements into well-structured technical solutions in collaboration with the Tech Lead and Product OwnerTake ownership of assigned tasks and features — from analysis and implementation through testing to production deploymentParticipate in code reviews, providing and receiving constructive feedback to maintain high engineering standards across the teamWrite clean, testable, and maintainable code following SOLID principles and established design patternsCover the codebase with unit and integration tests, and contribute to improving overall test coverageDiagnose and resolve bugs, performance bottlenecks, and technical debt in existing application modulesCollaborate with the team on improving development processes, CI/CD pipelines, and engineering practicesMust-have Requirements3–5 years of commercial experience in PHP developmentStrong working experience with at least one MVC PHP framework (Symfony, Laravel, CodeIgniter, or similar)Solid understanding of OOP, SOLID principles, and common design patternsStrong experience with "
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4409622235",
+      "title": "PHP Full Stack Developer (Laravel / Vue / Next.js)",
+      "company": "PLC Group - Global Automotive Auctions & Digital Solutions",
+      "url": "https://lt.linkedin.com/jobs/view/php-full-stack-developer-laravel-vue-next-js-at-plc-group-global-automotive-auctions-digital-solutions-4409622235",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires Vue/Next.js experience",
+        "No AWS certification required"
+      ],
+      "description": "About the PositionWe are UAB PLC Group, an international company specializing in car trading and digital vehicle history reporting. We operate large-scale international projects such as plc.auction – a global car auction platform, and checkcar.vin – a vehicle history report generation system.We are growing fast and looking for a Mid–Advanced PHP Full Stack Developer to join our engineering team in Vilnius.You will be responsible for developing web applications (Laravel, Vue.js, Next.js). This is a great opportunity to work with modern technologies and contribute to innovative international projects.Your ResponsibilitiesDevelop and improve backend functionality using Laravel (8/9+)Build and maintain frontend features with Vue.js and Next.jsDesign and integrate REST APIs (payments, logistics, third-party services)Work with MySQL & PostgreSQL (queries, indexes, performance optimization)Implement caching solutions (Redis, Memcached)Write clean, scalable, and maintainable codeRefactor existing code and improve system architectureWrite and maintain technical documentationCollaborate closely with product managers and developersRequirements2+ years of commercial experience with LaravelStrong knowledge of PHP, OOP/OOD, ORM, design patternsExperience with MySQL & PostgreSQLConfident use of GitSolid frontend skills: HTML5, CSS3, JavaScript, jQuery, AjaxExperience with Vue.js and Next.jsREST API development and integration experienceKnowledge of PSR standardsExperience with PHPUnit testingHands-on refactoring experienceUnderstanding of database architectureGood English (reading technical documentation)Russian language knowledge is a plusStrong communication skillsWhat We OfferModern office in VilniusFlexible working hoursHybrid work option after probation periodProfessional and friendly international teamHealth insurance & wellness benefitsSalary based on experience and skills"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4379438601",
+      "title": "Full stack developer (PHP)",
+      "company": "NEO Finance",
+      "url": "https://lt.linkedin.com/jobs/view/full-stack-developer-php-at-neo-finance-4379438601",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "match_score": 85,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ],
+      "description": "What you will do:Build and maintain frontend interfaces using Twig (HTML, CSS).Design and implement new features based on business requirements.Integrate and maintain APIs and internal tools.Ensure system stability, performance, and security, including data protection (GDPR).Troubleshoot technical issues and continuously improve existing solutions.Participate in IT project planning and collaborate with internal teams and external partners.What we expect:Strong experience with PHP and Symfony framework (preferably Symfony 7).Solid frontend skills using Twig, HTML, and CSS.Experience working with databases (primarily MariaDB/MySQL) and backend integrations.Understanding of secure, scalable application architecture.Ability to work independently and take ownership of solutions.Strong problem-solving and communication skills.What we offer:Extra paid days off – so you can recharge more often.Health insurance – because your well-being matters.Employee discount platform – enjoy exclusive offers.Financial support during important life events.Flexible work model – remote work opportunities.Learning & development – we invest in your growth.SalaryFrom 4000 €/mon. gross"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4315302532",
+      "title": "Full-Stack Developer (PHP специализация)",
+      "company": "NextLogistic Ltd.",
+      "url": "https://bg.linkedin.com/jobs/view/full-stack-developer-php-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-at-nextlogistic-ltd-4315302532",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No description available",
+        "No AWS certification required"
+      ],
+      "description": "Skip to main content Scroll TopНачалоКомпаниятаЗа насЛидер в логистикатаАкадемияОбучения за нови кадриКариериСтани част от нашия екипКаузиСоциална отговорност и визияТехнологииИновации и AI решенияЗелена логистикаЕкологичен транспортен моделЕтичен кодексПолитика за човешките праваПолитика за устойчивост в логистикатаПолитика за многообразие и приобщаванеПолитика за корпоративна социална отговорност (КСО)Политика за управление на енергиятаПолитика за опазване на околната средаПолитика за борба с подкупите и корупциятаКодекс за поведение на доставчици и партньориФормуляр за регистриране на сигналиBackЗа насАкадемияКариериКаузиТехнологииЗелена логистикаПолитика за човешките праваПолитика за устойчивост в логистикатаПолитика за многообразие и приобщаванеПолитика за корпоративна социална отговорност (КСО)Политика за управление на енергиятаПолитика за борба с подкупите и корупциятаПолитика за опазване на околната средаКодекс за поведение на доставчици и партньориФормуляр за регистриране на сигналиТранспортСухопътен транспортОрганизиране на превозиИнтермодален транспортЛогистика от ново поколениеЖП транспортЛиценз за превоз в 4 държавиКомбиниран транспортДоставки по суша и мореКонтейнерни превозиFCL и LCL от пристанище до вратаРечен транспортРешения за насипни товариТранзитни документиГранични пунктовеЧМР конвенцияНаправи запитванеBackСухопътен транспортКомбиниран транспортИнтермодален транспортКонтейнерни превозиЖП транспортРечен транспортНовиниКонтактиLinkedin Facebook InstagramLinkedin Facebook InstagramКомпаниятаЗа насАкадемияКариериКаузиТехнологииЗелена логистикаЕтичен кодексПолитика за човешките праваПолитика за устойчивост в логистикатаПолитика за многообразие и приобщаванеПолитика за корпоративна социална отговорност (КСО)Политика за управление на енергиятаПолитика за опазване на околната средаПолитика за борба с подкупите и корупциятаКодекс за поведение на доставчици и партньориТранспортСухопътен транспортКомбиниран транспортИнтермодален транспортКонтейнерни превозиЖП транспортРечен транспортНовиниКонтактиСподелиFull-Stack Developer (PHP специализация)Некст Логистик е утвърдена компания в транспорта и логистиката с широка мрежа от български и международни партньори. Във връзка с разширяване на софтуерния екип търсим Full-Stack Developer (PHP специализация) с опит в бекенд и фронтенд, който да участва в мащабни и иновативни проекти.Позицията е изцяло присъствена, без home office или хибридОсновни отговорности: Разработка и поддръжка на бекенд с PHP и Lara"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4419053919",
+      "title": "Full stack developer focused on PHP and JS",
+      "company": "DynamicSource AB",
+      "url": "https://se.linkedin.com/jobs/view/full-stack-developer-focused-on-php-and-js-at-dynamicsource-ab-4419053919",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "You will be responsible for taking one of our products to the next level. It is used by operations staff and flight crew daily, delivering critical flight data to external systems and our own iPad app 24/7. You will:Design, prototype and implement new features in an existing PHP code base.Make UI improvements and further development in a Typescript / ReactJS code base.Create and maintain customer API integrations. Adapt internal API endpoints to customer needs and streamline / reconcile incoming data to internal models.Write excellent technical documentation for both internal and external use.Use high-availability and fault tolerant coding practices.Implement automated software testing and quality assurance.SkillsMust havePHPJavaScript / Typescript / ReactGitMySQLDockerExcellent communication skills in English.Experience with highly secure network communications.Highly self-organised and disciplined / experience with remote workGood to haveRustC++SwiftBonus pointsAviation knowledge / interestFor this position, a hybrid work model applies. You are expected to work from our office in Stockholm at least 2 days per week. The majority of the DynamicSource team is located in the greater Stockholm area.DynamicSource also visits customers and participates in industry events such as forums, product expos, and aviation-related conferences. Some international travel may be required.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires Stockholm office presence",
+        "Limited aviation knowledge"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413681171",
+      "title": "PHP-utvecklare",
+      "company": "PS Finance Group",
+      "url": "https://se.linkedin.com/jobs/view/php-utvecklare-at-ps-finance-group-4413681171",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "Vi söker en driven och lösningsorienterad fullstack PHP-utvecklare som vill vara med och utveckla affärskritiska system i en miljö där stabilitet, ansvar och kvalitet står i fokus.I den här rollen får du kombinera support, förvaltning och nyutveckling i en och samma vardag. Du kommer både arbeta med att säkra och vidareutveckla befintlig funktionalitet, samtidigt som du är med och bygger nya lösningar som tar systemen framåt. Det här är en roll för dig som trivs med att förstå helheten, ta ansvar för att saker fungerar i praktiken och som gillar att kontinuerligt förbättra och utveckla – inte bara skriva ny kod, utan också säkerställa att det som redan finns fortsätter vara stabilt och effektivt.Du blir en del av ett företag i stark tillväxt där det finns stora möjligheter att påverka både teknik och framtida lösningar. Vi söker dig som motiveras av att vara med på en utvecklingsresa där initiativ, ansvarstagande och engagemang uppskattas.För oss är rätt inställning viktigare än antalet år på CV:t. Vi värdesätter personer som är nyfikna, lösningsorienterade och vill utvecklas tillsammans med teamet och systemen de arbetar med. Har du arbetat i en miljö där PHP varit det huvudsakliga programmeringsspråket och känner dig trygg i att utveckla, felsöka och vidareutveckla system, vill vi gärna höra från dig.Det här har du med digMycket god kunskap inom PHPErfarenhet av MySQL och SQL-hanteringGrundläggande kunskaper inom HTML och CSSErfarenhet av REST API:erGod förståelse för webbflöden och backendlogikDet är meriterande om du även harErfarenhet av versionshantering som Git eller SVNKunskap om DockerErfarenhet av message brokers, exempelvis RabbitMQFörståelse för Apache och servermiljöerErfarenhet från liknande bransch eller systemmiljöerKänsla för frontend och förmåga att skapa gränssnitt som är funktionella och användbara – vi söker inte en renodlad designer, utan fokus ligger på robust och välfungerande backendRollen passar dig somDu trivs med att arbeta fokuserat och lösningsorienterat med kod, samtidigt som du uppskattar samarbetet med kollegor i andra yrkesroller för att förstå behov och tillsammans hitta de bästa lösningarna. Du är trygg i dialogen mellan teknik, verksamhet och kund och ser det som naturligt att delta i både interna och externa möten där du bidrar med ett lösningsfokuserat och professionellt perspektiv.Rollen är baserad på vårt kontor i Göteborg och vi söker dig som trivs med att arbeta nära teamet på plats. Eftersom rollen innebär löpand",
+      "match_score": 88,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires on-site work",
+        "No AWS certification required"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4385456090",
+      "title": "PHP Laravel Engineer [gn]",
+      "company": "LUMASERV",
+      "url": "https://de.linkedin.com/jobs/view/php-laravel-engineer-gn-at-lumaserv-4385456090",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "SummaryAs a PHP Backend Engineer at LUMASERV, you'll play a key role in developing and maintaining customer projects that serve millions of users daily. You'll work closely with our product managers, developers, and architects to build robust, scalable backend solutions using modern PHP frameworks, particularly Laravel. If you appreciate clean code, domain-driven design, and the elegance that Laravel brings to application development, this position offers you the opportunity to shape the technical direction of projects while writing high-quality code every day.DescriptionYou love working with Laravel (or Symfony) and leverage its full capabilities—including queues, broadcasting, dependency injection, storage and notification systems and ArtisanYou design and develop REST APIs (sometimes GraphQL) using domain-driven design that integrate seamlessly with frontend applications and external systemsYou perform regular code reviews and help establish best practices within the teamYou want to dive deeper into AI protocols like MCP and implement them in large enterprise applicationsYou monitor application performance and gain insights using state-of-the-art APM tools (application performance monitoring)You write and maintain comprehensive tests using Laravel's built-in testing capabilities (PHPUnit and PEST), supported by AIYou challenge and improve coding standards with your colleaguesYou work with scalable databases (MySQL, MariaDB, Redis) to design efficient data models and queriesYou participate in technical planning sessions and contribute to architectural decisions with your teamYou understand the concepts behind Laravel InertiaQualificationsExtensive professional experience in PHP backend development on enterpriseenter levelStrong expertise with Laravel (or similar modern frameworks like Symfony) and the Framework's core concepts including dependency injectionExperience with schema design and and software modellingProficiency in writing automated tests (PHPUnit, Pest)Familiarity with HTTP REST/RPC interfaces and API documentation formats (Swagger/OpenAPI)Experience with project management tools (e.g. Linear or Notion)Strong understanding of web security principles and common vulnerabilitiesStrong experience with local development setups based on Docker (and Laravel Sail)Desired QualificationsExperience with domain-driven design and software architectureKnowledge of CI/CD processes and DevOps practicesExperience with message queues and asynchronous processin",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS certification"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4408988346",
+      "title": "PHP/Symfony Developer",
+      "company": "act digital EMEA - Alter Solutions",
+      "url": "https://be.linkedin.com/jobs/view/php-symfony-developer-at-act-digital-emea-alter-solutions-4408988346",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "We are looking for a PHP/Symfony Developer to join an EU Institution. The ideal candidate has strong experience with Symfony, modern development practices, and DevSecOps environments.Key RequirementsMinimum 11 years of experience (university studies count as professional experience)Strong expertise in Symfony frameworkExperience with API Platform and ReactSolid understanding of DevSecOps practicesHands-on experience with CI/CD pipelinesCertifications (at least one required)Oracle Certified ProfessionalPM² Agile CertificationBPMN 2.0 CertificationAny PHP-related certification (e.g. Zend Certified PHP Engineer) or Symfony certificationEU citizenship is required for security clearance.The working mode is hybrid- 3 days/week onsite in Brussels.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Symfony match",
+        "EU compatible"
+      ],
+      "match_cons": [
+        "Onsite required",
+        "Certification needed"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4416944851",
+      "title": "Développeur Backend PHP / Symfony (H/F)",
+      "company": "Famileo",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-backend-php-symfony-h-f-at-famileo-4416944851",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "En tant que Développeur Backend PHP / Symfony (H/F), votre rôle consistera à faire évoluer les fonctionnalités existantes (notamment l’amélioration du code, l’écriture de tests, la correction d’erreurs) et à implémenter de nouvelles fonctionnalités.Intégré(e) à notre pôle Technique (12 personnes), vous rejoindrez l’équipe de François-Xavier (communément nommé FX), Tech Lead sur la partie Backend. L’équipe backend est composée à date de 3 personnes.Vos missions principales seront les suivantes :Concevoir et développer des fonctionnalités dynamiques et maintenables en PHP SymfonyDévelopper des API REST dans un contexte d’échange fluide avec l’équipe Frontend et les équipes Android / iOSStructurer le code selon des principes de modularité, clarté, et testabilitéParticiper aux revues de code et à l’implémentation de tests unitaires et fonctionnelsTravailler en étroite collaboration avec l’équipe Marketing produit, les graphistes et l’équipe Projet pour garantir une expérience utilisateur optimaleÊtre force de proposition sur l’amélioration continue des pratiques de développement backendProfil recherché:Vous avez au moins 3 ans d’expérience en développement avec le framework Symfony (idéalement 7.4 / 8.0) et PHP (idéalement 8.4).Une expérience sur une solution de e-commerce (Sylius) et la supervision de l’hébergement de site web est un plus.Votre formation vous a permis d’acquérir de solides bases en développement web et en programmation orientée objet.Vous avez une bonne maîtrise de la stack technique suivante : Symfony (principaux composants utilisés : http foundation, console, messenger, mailer, cache, form, validator, http client…), API Platform, PHP, Javascript, HTML/CSS, Doctrine, Twig, Sylius, Git/Github, Docker.Des connaissances en infrastructure sont un plus : AWS (EC2, SQS, S3…), Docker, MySQL, Memcached.Vous êtes attentif(ve) aux tests unitaires et fonctionnels, à la qualité logicielle et à la lisibilité du code.Des compétences en tests automatisés seront un plus.Vous aimez travailler en équipe tout en sachant être autonome et rigoureux(se).",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Symfony match",
+        "Remote compatible"
+      ],
+      "match_cons": [
+        "Danish learning",
+        "AWS preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4409942348",
+      "title": "Développeur Symfony / PHP 8 (H/F)",
+      "company": "Construire Le Figaro",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-symfony-php-8-h-f-at-construire-le-figaro-4409942348",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "Le Figaro, plus ancien titre de presse quotidienne en activité, est le leader français de son secteur en audience numérique avec plus de 38 millions de visiteurs uniques par mois, selon le classement Médiamétrie.Près de 30 thématiques sont ainsi proposées aux lecteurs, sur des supports allant des textes aux vidéos en passant par les stories, les live et les podcasts.Pour délivrer au quotidien ces milliers de contenus au sein de sites et d'applications adaptés pour les lecteurs, les équipes techniques, design et produit du Figaro mènent de front de nombreux projets, et font face à des challenges variés. ContexteRejoignez les équipes de la Direction Technique du Figaro, premier média d'actualité en France, et participez à la transformation numérique d'un acteur majeur de la presse française. Vos développements impacteront directement +500 000 abonnés au quotidien.Au sein de la squad Acquisition, intégrée à l'équipe Agora, vous travaillerez essentiellement sur le composant Prime qui orchestre l'ensemble de notre écosystème d'abonnements : numériques, applications iOS/Android et édition papier.Lors de la réalisation de vos missions, vous collaborez étroitement avec les équipes techniques internes et externes, l'équipe produit et les parties prenantes (service marketing, service client, studio, etc).Vos missionsEn tant que développeur Symfony au sein de l'équipe, vos principales missions seront :Déploiement de nouvelles fonctionnalités? Concevoir et développer des API pour nos partenaires internes et externes? Implémenter de nouvelles intégrations avec les plateformes de paiement et providers d'abonnement? Optimiser les performances et les temps de réponse du système? Participer à l'architecture technique des nouvelles fonctionnalitésMaintenance de la gestion des services de synchronisation des abonnements? Assurer la fi abilité du service de synchronisation des abonnements? Gérer l'intégration des mises à jour des APIs de nos providers d'abonnement partenaires? Monitorer et améliorer la performance de la plateforme? Anticiper et assurer les montées de version applicative (Symfony) et PHPAu quotidien? Revues de code et partage de connaissances avec l'équipe? Participation aux cérémonies agiles (daily, retro, planning)? Démos aux parties prenantes métier et/ou aux membres de l'équipe technique. Compétences indispensables? 3+ ans d'expérience en développement PHP? Expertise solide en Symfony 5/6 et PHP 8? Maîtrise des APIs REST et des architectures microservices?",
+      "match_score": 92,
+      "match_confidence": "high",
+      "match_pros": [
+        "Symfony match",
+        "Remote compatible"
+      ],
+      "match_cons": [
+        "French language",
+        "None noted"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4415504331",
+      "title": "PHP (Symfony) Developer",
+      "company": "ipracujzdalnie.pl",
+      "url": "https://pl.linkedin.com/jobs/view/php-symfony-developer-at-ipracujzdalnie-pl-4415504331",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "Nasz klient to lider sektora edukacyjnego, łączący tradycyjne wydawnictwo z nowoczesnym e-learningiem. Tworzy kompleksowe ekosystemy dla szkół: od podręczników i gier, po platformy cyfrowe i szkolenia dla nauczycieli. To idealne miejsce dla osób, które chcą realnie wpływać na jakość polskiej edukacji poprzez innowacyjne materiały dydaktyczne.PHP (Symfony) Developermiejsce pracy: Gdańsk Na zatrudnioną osobę będą czekały następujące zadania: Utrzymywanie i rozwijanie wewnętrznej aplikacjiOptymalizacja i dbanie o jakość istniejących systemów.Współpraca z klientem wewnętrznymTestowanie własnych rozwiązań, dbając o niezawodnośćTech StackCore: PHP 8+ & SymfonyData: MongoDB (postaw na NoSQL!)Messaging: RabbitMQDevOps/Infra: Docker, środowiska Linux & MicrosoftStandardy: REST API, OpenAPI, Wzorce projektowe, Clean CodeWymaganiaMin. 2 lata komercyjnego doświadczenia (PHP + Symfony)Praktyczna znajomość MongoDB oraz wzorców projektowychUmiejętność pracy z kontenerami (Docker)Chęci do pracy z biura - stawiamy na relacje i szybki przepływ wiedzyDodatkowe AtutyZacięcie DevOpsowe i proaktywność w proponowaniu ulepszeńProponujemyStabilność: Umowa o Pracę lub B2B - Ty wybieraszRozwój: Dofinansowanie do szkoleń, kursów i certyfikacjiWpływ: Realny głos w kwestii wyboru technologii i kierunku projektuWork-Life Balance: Elastyczne godziny rozpoczęcia pracyFull Benefit: Prywatna opieka medyczna, karta Multisport, dofinansowanie do okularów i świadczenia socjalneAtmosfera: Regularne integracje i praca w środowisku, gdzie docenia się inicjatywę1",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Symfony match",
+        "EU location"
+      ],
+      "match_cons": [
+        "On-site preferred",
+        "No English mention"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4414608225",
+      "title": "Symfony (PHP) Developer",
+      "company": "M10c - App Design & Development",
+      "url": "https://lt.linkedin.com/jobs/view/symfony-php-developer-at-m10c-app-design-development-4414608225",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "Pay: €50,000.00 - €80,000.00 per yearWe are looking for a Symfony developer to join our growing app & web development studio. You will be helping to create back-end APIs and services for the platforms we design and build. Our clients range from new startups to established businesses, and you will get to play a key part in contributing to exciting consumer-facing apps with 100,000s of active users. See some of the apps we've developed at www.m10c.comAt M10c, we take pride in writing high quality, performant, and maintainable code. We stick as close as we can to the latest technologies (PHP 8.5, Symfony 8.0, etc.), developments and best practices in the ecosystem (e.g. heavy use of static analysis).Our primary office is in London, but we are in the process of expanding our development team to Vilnius and opening an office here, so you have the opportunity to become a core part of this new branch of the team.NO RECRUITERS PLEASEExperience NeededSymfony development (minimum 1 year).Database design and Doctrine ORM usage, including understanding of performance trade-offs.REST API design principles.Writing modern PHP.Git version control.Ideally, familiarity with infrastructure/deployment: Docker, AWS, Terraform, Kubernetes.Other RequirementsExcellent written and verbal communication.A passion for building things, and learning / expanding skills.Great care for quality of work produced and attention to detail.Key ResponsibilitiesWorking as part of a team to help turn product designs and specs into APIs used by the apps our front-end developers build.Following the development team's internal processes, best practices, coding standards, etc.Performing routine maintenance, updates and refactoring to existing projects.Participating in the team's project planning processes, and clearly reporting back progress in our project management software.Investigating and resolving bugs or issues reported by users or clients.Submitting work as Pull Requests, and responding to code review comments by the team.Providing feedback to help improve our processes and best practices used across our projects.Why Us?Join a friendly team who appreciate the need for work-life balance.By joining at the early stage of our new expansion of the team, experience the company's journey and grow with the role.Keep things interesting by working on innovative consumer-facing products spanning a wide range of industries.Hybrid work approach with 3 days in the office.Please Include in your ApplicationYo",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Symfony match",
+        "Remote option"
+      ],
+      "match_cons": [
+        "London office",
+        "Danish learning"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4322673251",
+      "title": "Symfony Developer",
+      "company": "Youwe",
+      "url": "https://nl.linkedin.com/jobs/view/symfony-developer-at-youwe-4322673251",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "The opportunityYouwe is looking for an experienced Symfony/Laravel Developer with a strong focus on Pimcore who thrives on solving complex challenges and helping others grow. At Youwe, you’ll join a supportive team that values learning, collaboration, and technical excellence.Your role as a Symfony DeveloperBeing a Symfony developer at Youwe is not just about writing code, it’s about solving complex challenges, supporting colleagues, and improving code standards.In this role, you’ll focus primarily on Pimcore projects, using your Symfony/Laravel expertise to design, develop, and maintain high-quality digital solutions. You’ll work closely with clients and colleagues to build scalable and future-proof platforms that combine data, content, and commerce.Your role thrives on your ability to lead, analyze, coach, and collaborate. Co-creation is key, and working together with your colleagues drives growth for everyone. You are a Symfony expert with a strong focus on Pimcore, and your team looks up to for smart insights, technical guidance, and best practices. With your experience, you take pride in delivering high-quality work and striving for excellence together with your team.What you haveExtensive hands-on experience with Symfony/Laravel and Pimcore development.Strong understanding of web technologies including HTML, CSS, JavaScript and PHP.Familiarity with RESTful APIs and integration with third-party services.Experience with version control systems such as Git, and Agile development methodologies.Experience using RabbitMQ, ElasticSearch/OpenSearch and Redis.Appreciation for keeping your code clean and using Domain-Driven Design.Practical experience with writing automated tests.Excellent problem-solving skills and a keen eye for detail, with the ability to work both independently and in a team.Great communication skills in English, both in the aspect of communicating with our clients over their business needs or transferring knowledge to other colleagues.Dutch is a plusWhat You GetYou’ll join our award-winning Pimcore team-driven, enthusiastic, and highly international. You’ll have the freedom to bring your expertise to the table and actively contribute to improving our processes and development practices. We offer certifications and training to help you stay up to date with the latest Pimcore developments.Youwe is a \"Great Place to Work\" certified company, which means we invest in both your personal and professional growth. We are continuously improving the",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Symfony matches",
+        "Remote option"
+      ],
+      "match_cons": [
+        "Pimcore required",
+        "Dutch preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4340590824",
+      "title": "Symfony Developer",
+      "company": "MediaCT",
+      "url": "https://nl.linkedin.com/jobs/view/symfony-developer-at-mediact-4340590824",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "The opportunityYouwe is looking for an experienced Symfony/Laravel Developer with a strong focus on Pimcore who thrives on solving complex challenges and helping others grow. At Youwe, you’ll join a supportive team that values learning, collaboration, and technical excellence.Your role as a Symfony DeveloperBeing a Symfony developer at Youwe is not just about writing code, it’s about solving complex challenges, supporting colleagues, and improving code standards.In this role, you’ll focus primarily on Pimcore projects, using your Symfony/Laravel expertise to design, develop, and maintain high-quality digital solutions. You’ll work closely with clients and colleagues to build scalable and future-proof platforms that combine data, content, and commerce.Your role thrives on your ability to lead, analyze, coach, and collaborate. Co-creation is key, and working together with your colleagues drives growth for everyone. You are a Symfony expert with a strong focus on Pimcore, and your team looks up to for smart insights, technical guidance, and best practices. With your experience, you take pride in delivering high-quality work and striving for excellence together with your team.What you haveExtensive hands-on experience with Symfony/Laravel and Pimcore development.Strong understanding of web technologies including HTML, CSS, JavaScript and PHP.Familiarity with RESTful APIs and integration with third-party services.Experience with version control systems such as Git, and Agile development methodologies.Experience using RabbitMQ, ElasticSearch/OpenSearch and Redis.Appreciation for keeping your code clean and using Domain-Driven Design.Practical experience with writing automated tests.Excellent problem-solving skills and a keen eye for detail, with the ability to work both independently and in a team.Great communication skills in English, both in the aspect of communicating with our clients over their business needs or transferring knowledge to other colleagues.Dutch is a plus",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Symfony matches",
+        "Remote compatible"
+      ],
+      "match_cons": [
+        "Pimcore required",
+        "Dutch a plus"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4333015405",
+      "title": "DÉVELOPPEUR PHP/SYMFONY",
+      "company": "ALTANSIA",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-php-symfony-at-altansia-4333015405",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-04",
+      "description": "PROFIL RECHERCHÉ : DÉVELOPPEUR PHP SYMFONYRejoignez une Entreprise Axée sur l'Innovation et le Développement ProfessionnelPOSTULERPourquoi nous rejoindre ?La société Altansia propose un poste de développeur PHP Symfony passionné et talentueux pour rejoindre son équipe dynamique. En tant que développeur, vous aurez l’opportunité de participer à des projets innovants, en mettant en œuvre vos compétences pointues dans le développement web. Vous serez amené à collaborer étroitement avec une équipe pluridisciplinaire, favorisant ainsi un environnement propice à l’apprentissage et à l’échange d’idées.Chez Altansia, nous valorisons la créativité, l’initiative et l’engagement envers l’excellence technique. Si vous êtes passionné par la création de solutions robustes et innovantes, que vous maîtrisez PHP et Symfony, et que vous aspirez à évoluer au sein d’une entreprise qui encourage la croissance professionnelle, nous serions ravis de découvrir votre profil. Rejoignez-nous pour contribuer à notre succès collectif et participer à l’aventure passionnante d’Altansia.PROFIL RECHERCHÉ : POSTE DE DÉVELOPPEUR PHP SYMFONYEn tant que développeur PHP/ SYMFONY votre mission consistera :– A l’évolution de la plateforme web (site web responsive) : estimation, recommandations techniques, développement de fonctionnalités, documentationExpertises attendues pour la réalisation de la prestation Maîtrise de PHP 7 ou 8 & Symfony ≥ 5 WebServices (Rest) Le traitement asynchrone Rabbit MQ Le composant Messenger de Symfony Gestion de cache et compétences en web performance PHP Unit, les tests unitaires Notion de containérisation : Docker, Kubernetes Maîtrise de Git et des pratiques associées Expérience au sein d'un site à fort trafic Expérience de travail en environnement agilePOSTULER",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP match",
+        "Symfony experience"
       ],
       "match_cons": [
         "Danish learning",
@@ -2241,46 +2559,6 @@
       "description": "Senior Backend Engineer for CPR FinderMake an impact with Laerdal!Do you want to develop cutting-edge products that help train healthcare professionals and ultimately save lives? Join us at Laerdal Copenhagen, where we build world-class digital learning solutions used by millions globally.The TeamWe are building the next evolution of CPR Finder — the platform that lets healthcare providers discover nearby training stations, book a slot and walk out certified. You'll be part of a team expanding the platform with modern booking and payment capabilities, weaving together discovery, reservations, check-in, and digital certification into one cohesive experience. In that way, your work will directly expand access to CPR training and support Laerdal's mission to help save more lives.You will work in a cross‑functional product team in Laerdal Copenhagen with product management, design and engineering as well as with other product teams across Copenhagen, Stavanger, and the US. The team owns core platform capabilities behind CPR Finder and collaborates closely with partners across the wider RQI ecosystem.The RoleWe are looking for a Senior Backend Engineer with strong experience in building, operating, and evolving backend services. In this role, you will take ownership of key backend components that power discovery, booking, payments, and integrations for CPR Finder.Design, build, and operate backend services and APIs in C# and/or TypeScriptOwn and evolve platform capabilities supporting booking and payment flowsDesign robust integrations with internal and external systemsContribute to architectural decisions and long‑term technical directionWork in a \"you build it, you run it\" mindset with responsibility for production systemsCollaborate closely with frontend, mobile, product, and design peersUse AI assisted development tools where they create real value — pragmatically and responsiblyYour Background5+ years of professional software development experienceProfessional experience with C# and/or TypeScript. Experience in both is a plusStrong backend foundation and sound architectural judgmentExperience designing and operating production systems at scaleComfortable balancing pragmatism with long‑term qualityCare deeply about usability, quality, and real user impactEnjoy close collaboration with designers and product managersOpen to and actively using AI-assisted development in your daily workOur Tech StackBackend services in C# and TypeScript (NestJS)React Native & R"
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4406499367",
-      "title": "Desarrollador/a PHP - IA",
-      "company": "Aubay Spain",
-      "url": "https://es.linkedin.com/jobs/view/desarrollador-a-php-ia-at-aubay-spain-4406499367",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification",
-        "Limited MongoDB experience"
-      ],
-      "description": "Provincia : MadridNº Vacantes (puestos) : 1 FuncionesEn Grupo Aubay buscamos un desarrollador/a PHP con IA para incorporarse en uno de nuestros principales clientes del sector financiero.Funciones: Desarrollo y mantenimiento de aplicaciones web fullstack en PHP Diseño e implementación de APIs RESTful Integración de herramientas de IA en el flujo de desarrollo (generación de código, automatización, optimización) Colaboración en despliegues y mantenimiento en entornos cloud Participación en todo el ciclo de vida del software (desarrollo, testing, despliegue) Trabajo en equipo bajo metodologías ágiles (Scrum) Requisitos Requisitos Técnicos Obligatorios Experiencia en PHP (Fullstack): Capacidad para trabajar tanto en el backend como en el frontend. Uso Habitual de IA en Programación: Experiencia demostrable utilizando herramientas de asistencia como GitHub Copilot o Gemini para la generación de código, depuración y optimización de tareas.Experiencia y Conocimientos Deseables Infraestructura Cloud: Conocimientos en GCP para el despliegue y mantenimiento de aplicaciones. Desarrollo de APIs para la integración de sistemas Manejo fluido de herramientas de control de versiones con Git y nociones de CI/CD Metodologías Ágiles Automatización: Python Se ofrece Contrato indefinido en proycto estable Modalidad 100% remoto Horario: L-J de 8h a 17:30 y V de 8h a 14h Jornada intensiva julio y agosto (8h a 15h) Formación Retribución flexible"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4413479489",
-      "title": "PHP Developer",
-      "company": "Sanoma Learning",
-      "url": "https://pl.linkedin.com/jobs/view/php-developer-at-sanoma-learning-4413479489",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No mention of AWS certification",
-        "No mention of PostgreSQL"
-      ],
-      "description": "📍 Location: Warsaw, Poland (Remote with occasional office visits – 1–3 times per year)🕒 Type: Full-time📄 Contract Type: B2B (requires a registered sole proprietorship in Poland)Sanoma Learning is the leading European learning company, serving over 20 million students in 11 countries. We offer printed and digital learning materials as well as digital learning and teaching platforms for primary, secondary, and vocational education. The development of our methodologies is based on deep teacher and student insight and really understanding their needs. By combining our educational technologies and pedagogical expertise, we create learning products and services with the highest learning impact. In our Technology organization, you will join the largest cross-cultural community of Sanoma Learning and contribute to the digital transformation and future of education in Europe.Project DescriptionDLN Dlanauczyciela.pl is a portal supporting teachers in schools, providing comfort and support at every stage of the teaching process. Essential materials and tools are available in one place, in any situation, and across multiple devices.Teaching tools and materials available in one placeQuick access to up-to-date informationEasy lesson preparation, including online classesAccess available only for registered teachersRole ResponsibilitiesDesign, develop, and maintain features in PHP applications, ensuring code quality and performanceTranslate business requirements into well-structured technical solutions in collaboration with the Tech Lead and Product OwnerTake ownership of assigned tasks and features — from analysis and implementation through testing to production deploymentParticipate in code reviews, providing and receiving constructive feedback to maintain high engineering standards across the teamWrite clean, testable, and maintainable code following SOLID principles and established design patternsCover the codebase with unit and integration tests, and contribute to improving overall test coverageDiagnose and resolve bugs, performance bottlenecks, and technical debt in existing application modulesCollaborate with the team on improving development processes, CI/CD pipelines, and engineering practicesMust-have Requirements3–5 years of commercial experience in PHP developmentStrong working experience with at least one MVC PHP framework (Symfony, Laravel, CodeIgniter, or similar)Solid understanding of OOP, SOLID principles, and common design patternsStrong experience with "
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4293881927",
       "title": "PHP Programmer (Freelancer)",
       "company": "Foliovision",
@@ -2341,105 +2619,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4409622235",
-      "title": "PHP Full Stack Developer (Laravel / Vue / Next.js)",
-      "company": "PLC Group - Global Automotive Auctions & Digital Solutions",
-      "url": "https://lt.linkedin.com/jobs/view/php-full-stack-developer-laravel-vue-next-js-at-plc-group-global-automotive-auctions-digital-solutions-4409622235",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires Vue/Next.js experience",
-        "No AWS certification required"
-      ],
-      "description": "About the PositionWe are UAB PLC Group, an international company specializing in car trading and digital vehicle history reporting. We operate large-scale international projects such as plc.auction – a global car auction platform, and checkcar.vin – a vehicle history report generation system.We are growing fast and looking for a Mid–Advanced PHP Full Stack Developer to join our engineering team in Vilnius.You will be responsible for developing web applications (Laravel, Vue.js, Next.js). This is a great opportunity to work with modern technologies and contribute to innovative international projects.Your ResponsibilitiesDevelop and improve backend functionality using Laravel (8/9+)Build and maintain frontend features with Vue.js and Next.jsDesign and integrate REST APIs (payments, logistics, third-party services)Work with MySQL & PostgreSQL (queries, indexes, performance optimization)Implement caching solutions (Redis, Memcached)Write clean, scalable, and maintainable codeRefactor existing code and improve system architectureWrite and maintain technical documentationCollaborate closely with product managers and developersRequirements2+ years of commercial experience with LaravelStrong knowledge of PHP, OOP/OOD, ORM, design patternsExperience with MySQL & PostgreSQLConfident use of GitSolid frontend skills: HTML5, CSS3, JavaScript, jQuery, AjaxExperience with Vue.js and Next.jsREST API development and integration experienceKnowledge of PSR standardsExperience with PHPUnit testingHands-on refactoring experienceUnderstanding of database architectureGood English (reading technical documentation)Russian language knowledge is a plusStrong communication skillsWhat We OfferModern office in VilniusFlexible working hoursHybrid work option after probation periodProfessional and friendly international teamHealth insurance & wellness benefitsSalary based on experience and skills"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4379438601",
-      "title": "Full stack developer (PHP)",
-      "company": "NEO Finance",
-      "url": "https://lt.linkedin.com/jobs/view/full-stack-developer-php-at-neo-finance-4379438601",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "match_score": 85,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
-      ],
-      "description": "What you will do:Build and maintain frontend interfaces using Twig (HTML, CSS).Design and implement new features based on business requirements.Integrate and maintain APIs and internal tools.Ensure system stability, performance, and security, including data protection (GDPR).Troubleshoot technical issues and continuously improve existing solutions.Participate in IT project planning and collaborate with internal teams and external partners.What we expect:Strong experience with PHP and Symfony framework (preferably Symfony 7).Solid frontend skills using Twig, HTML, and CSS.Experience working with databases (primarily MariaDB/MySQL) and backend integrations.Understanding of secure, scalable application architecture.Ability to work independently and take ownership of solutions.Strong problem-solving and communication skills.What we offer:Extra paid days off – so you can recharge more often.Health insurance – because your well-being matters.Employee discount platform – enjoy exclusive offers.Financial support during important life events.Flexible work model – remote work opportunities.Learning & development – we invest in your growth.SalaryFrom 4000 €/mon. gross"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4315302532",
-      "title": "Full-Stack Developer (PHP специализация)",
-      "company": "NextLogistic Ltd.",
-      "url": "https://bg.linkedin.com/jobs/view/full-stack-developer-php-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-at-nextlogistic-ltd-4315302532",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No description available",
-        "No AWS certification required"
-      ],
-      "description": "Skip to main content Scroll TopНачалоКомпаниятаЗа насЛидер в логистикатаАкадемияОбучения за нови кадриКариериСтани част от нашия екипКаузиСоциална отговорност и визияТехнологииИновации и AI решенияЗелена логистикаЕкологичен транспортен моделЕтичен кодексПолитика за човешките праваПолитика за устойчивост в логистикатаПолитика за многообразие и приобщаванеПолитика за корпоративна социална отговорност (КСО)Политика за управление на енергиятаПолитика за опазване на околната средаПолитика за борба с подкупите и корупциятаКодекс за поведение на доставчици и партньориФормуляр за регистриране на сигналиBackЗа насАкадемияКариериКаузиТехнологииЗелена логистикаПолитика за човешките праваПолитика за устойчивост в логистикатаПолитика за многообразие и приобщаванеПолитика за корпоративна социална отговорност (КСО)Политика за управление на енергиятаПолитика за борба с подкупите и корупциятаПолитика за опазване на околната средаКодекс за поведение на доставчици и партньориФормуляр за регистриране на сигналиТранспортСухопътен транспортОрганизиране на превозиИнтермодален транспортЛогистика от ново поколениеЖП транспортЛиценз за превоз в 4 държавиКомбиниран транспортДоставки по суша и мореКонтейнерни превозиFCL и LCL от пристанище до вратаРечен транспортРешения за насипни товариТранзитни документиГранични пунктовеЧМР конвенцияНаправи запитванеBackСухопътен транспортКомбиниран транспортИнтермодален транспортКонтейнерни превозиЖП транспортРечен транспортНовиниКонтактиLinkedin Facebook InstagramLinkedin Facebook InstagramКомпаниятаЗа насАкадемияКариериКаузиТехнологииЗелена логистикаЕтичен кодексПолитика за човешките праваПолитика за устойчивост в логистикатаПолитика за многообразие и приобщаванеПолитика за корпоративна социална отговорност (КСО)Политика за управление на енергиятаПолитика за опазване на околната средаПолитика за борба с подкупите и корупциятаКодекс за поведение на доставчици и партньориТранспортСухопътен транспортКомбиниран транспортИнтермодален транспортКонтейнерни превозиЖП транспортРечен транспортНовиниКонтактиСподелиFull-Stack Developer (PHP специализация)Некст Логистик е утвърдена компания в транспорта и логистиката с широка мрежа от български и международни партньори. Във връзка с разширяване на софтуерния екип търсим Full-Stack Developer (PHP специализация) с опит в бекенд и фронтенд, който да участва в мащабни и иновативни проекти.Позицията е изцяло присъствена, без home office или хибридОсновни отговорности: Разработка и поддръжка на бекенд с PHP и Lara"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4419053919",
-      "title": "Full stack developer focused on PHP and JS",
-      "company": "DynamicSource AB",
-      "url": "https://se.linkedin.com/jobs/view/full-stack-developer-focused-on-php-and-js-at-dynamicsource-ab-4419053919",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "description": "You will be responsible for taking one of our products to the next level. It is used by operations staff and flight crew daily, delivering critical flight data to external systems and our own iPad app 24/7. You will:Design, prototype and implement new features in an existing PHP code base.Make UI improvements and further development in a Typescript / ReactJS code base.Create and maintain customer API integrations. Adapt internal API endpoints to customer needs and streamline / reconcile incoming data to internal models.Write excellent technical documentation for both internal and external use.Use high-availability and fault tolerant coding practices.Implement automated software testing and quality assurance.SkillsMust havePHPJavaScript / Typescript / ReactGitMySQLDockerExcellent communication skills in English.Experience with highly secure network communications.Highly self-organised and disciplined / experience with remote workGood to haveRustC++SwiftBonus pointsAviation knowledge / interestFor this position, a hybrid work model applies. You are expected to work from our office in Stockholm at least 2 days per week. The majority of the DynamicSource team is located in the greater Stockholm area.DynamicSource also visits customers and participates in industry events such as forums, product expos, and aviation-related conferences. Some international travel may be required.",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires Stockholm office presence",
-        "Limited aviation knowledge"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4413681171",
-      "title": "PHP-utvecklare",
-      "company": "PS Finance Group",
-      "url": "https://se.linkedin.com/jobs/view/php-utvecklare-at-ps-finance-group-4413681171",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "description": "Vi söker en driven och lösningsorienterad fullstack PHP-utvecklare som vill vara med och utveckla affärskritiska system i en miljö där stabilitet, ansvar och kvalitet står i fokus.I den här rollen får du kombinera support, förvaltning och nyutveckling i en och samma vardag. Du kommer både arbeta med att säkra och vidareutveckla befintlig funktionalitet, samtidigt som du är med och bygger nya lösningar som tar systemen framåt. Det här är en roll för dig som trivs med att förstå helheten, ta ansvar för att saker fungerar i praktiken och som gillar att kontinuerligt förbättra och utveckla – inte bara skriva ny kod, utan också säkerställa att det som redan finns fortsätter vara stabilt och effektivt.Du blir en del av ett företag i stark tillväxt där det finns stora möjligheter att påverka både teknik och framtida lösningar. Vi söker dig som motiveras av att vara med på en utvecklingsresa där initiativ, ansvarstagande och engagemang uppskattas.För oss är rätt inställning viktigare än antalet år på CV:t. Vi värdesätter personer som är nyfikna, lösningsorienterade och vill utvecklas tillsammans med teamet och systemen de arbetar med. Har du arbetat i en miljö där PHP varit det huvudsakliga programmeringsspråket och känner dig trygg i att utveckla, felsöka och vidareutveckla system, vill vi gärna höra från dig.Det här har du med digMycket god kunskap inom PHPErfarenhet av MySQL och SQL-hanteringGrundläggande kunskaper inom HTML och CSSErfarenhet av REST API:erGod förståelse för webbflöden och backendlogikDet är meriterande om du även harErfarenhet av versionshantering som Git eller SVNKunskap om DockerErfarenhet av message brokers, exempelvis RabbitMQFörståelse för Apache och servermiljöerErfarenhet från liknande bransch eller systemmiljöerKänsla för frontend och förmåga att skapa gränssnitt som är funktionella och användbara – vi söker inte en renodlad designer, utan fokus ligger på robust och välfungerande backendRollen passar dig somDu trivs med att arbeta fokuserat och lösningsorienterat med kod, samtidigt som du uppskattar samarbetet med kollegor i andra yrkesroller för att förstå behov och tillsammans hitta de bästa lösningarna. Du är trygg i dialogen mellan teknik, verksamhet och kund och ser det som naturligt att delta i både interna och externa möten där du bidrar med ett lösningsfokuserat och professionellt perspektiv.Rollen är baserad på vårt kontor i Göteborg och vi söker dig som trivs med att arbeta nära teamet på plats. Eftersom rollen innebär löpand",
-      "match_score": 88,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires on-site work",
-        "No AWS certification required"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4413721969",
       "title": "PHP Developer",
       "company": "New York Technology Partners",
@@ -2477,25 +2656,6 @@
         "Requires AWS certification"
       ],
       "description": "Description:Lead Backend Engineer, Content Management (PHP/Laravel)DescriptionEMPIRE is a premier and dynamic music company that prides itself on the development and support of independent artists. We are a rapidly growing firm that has been making waves in the music industry, with an extensive portfolio that spans multiple genres and reaches audiences worldwide. We have become the largest independent record label in the U.S., with a significant global presence covering Africa, Asia, Europe, Australia, and North and South America. We keep ourselves busy with a large range of music-related services from original content and marketing to distribution and recordings.Our commitment to artistic creativity, innovation, and progressive business solutions forms the foundation of our corporate culture. We believe in fostering talent, not just in our artists but also within our professional teams. As we continue to expand, we invite you to join us on this exciting journey.The Role Remix: EMPIRE is looking for a Lead Backend Engineer (Content Management) to join our downtown San Francisco office. This senior, hands-on role reports directly to the VP of Engineering. You will own the architecture, development, and scaling of backend systems that power our music content management platforms for the music industry. These platforms serve artists, labels, distributors, and DSPs, and require high reliability, flexibility, and integration with industry-standard workflows. You’ll partner closely with product managers, frontend engineers, and media/data operations teams to translate business needs into secure, efficient, and scalable backend solutions. The ideal candidate has deep expertise in PHP (vanilla and modern frameworks such as Laravel), strong systems design experience, and fluency in music industry concepts like rights management, royalties, and digital distribution. If you’ve successfully led backend teams in high-growth or startup environments—and especially if you’ve built systems for music or digital media—we’d love to hear from you.ResponsibilitiesOwn the architecture, design, and implementation of robust, scalable backend systems and APIs that support our music content management and distribution systems.Build scalable, secure, and maintainable backend code using PHP (vanilla + Laravel).Drive backend performance, availability, and resilience across core applications.Establish and enforce best practices in code quality, testing, database design, and deployment.M"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4385456090",
-      "title": "PHP Laravel Engineer [gn]",
-      "company": "LUMASERV",
-      "url": "https://de.linkedin.com/jobs/view/php-laravel-engineer-gn-at-lumaserv-4385456090",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-03",
-      "description": "SummaryAs a PHP Backend Engineer at LUMASERV, you'll play a key role in developing and maintaining customer projects that serve millions of users daily. You'll work closely with our product managers, developers, and architects to build robust, scalable backend solutions using modern PHP frameworks, particularly Laravel. If you appreciate clean code, domain-driven design, and the elegance that Laravel brings to application development, this position offers you the opportunity to shape the technical direction of projects while writing high-quality code every day.DescriptionYou love working with Laravel (or Symfony) and leverage its full capabilities—including queues, broadcasting, dependency injection, storage and notification systems and ArtisanYou design and develop REST APIs (sometimes GraphQL) using domain-driven design that integrate seamlessly with frontend applications and external systemsYou perform regular code reviews and help establish best practices within the teamYou want to dive deeper into AI protocols like MCP and implement them in large enterprise applicationsYou monitor application performance and gain insights using state-of-the-art APM tools (application performance monitoring)You write and maintain comprehensive tests using Laravel's built-in testing capabilities (PHPUnit and PEST), supported by AIYou challenge and improve coding standards with your colleaguesYou work with scalable databases (MySQL, MariaDB, Redis) to design efficient data models and queriesYou participate in technical planning sessions and contribute to architectural decisions with your teamYou understand the concepts behind Laravel InertiaQualificationsExtensive professional experience in PHP backend development on enterpriseenter levelStrong expertise with Laravel (or similar modern frameworks like Symfony) and the Framework's core concepts including dependency injectionExperience with schema design and and software modellingProficiency in writing automated tests (PHPUnit, Pest)Familiarity with HTTP REST/RPC interfaces and API documentation formats (Swagger/OpenAPI)Experience with project management tools (e.g. Linear or Notion)Strong understanding of web security principles and common vulnerabilitiesStrong experience with local development setups based on Docker (and Laravel Sail)Desired QualificationsExperience with domain-driven design and software architectureKnowledge of CI/CD processes and DevOps practicesExperience with message queues and asynchronous processin",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS certification"
-      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4305171227",
