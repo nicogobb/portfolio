@@ -454,6 +454,35 @@ def fetch_linkedin_denmark() -> list:
         denmark=True,
     )
 
+def fetch_linkedin_easy_apply_ids() -> set:
+    """Returns set of LinkedIn job IDs that support Easy Apply (f_AL=true)."""
+    easy_ids: set = set()
+    searches = [
+        {"f_WT": "2"},
+        {"location": "European Union", "f_WT": "2"},
+        {"location": "Denmark", "f_WT": "1,3"},
+    ]
+    keywords = ["PHP Developer", "Senior PHP Developer", "Laravel Developer", "Symfony Developer", "Full Stack PHP"]
+    for base_params in searches:
+        for keyword in keywords:
+            try:
+                r = requests.get(
+                    "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search",
+                    params={"keywords": keyword, "start": "0", "f_AL": "true", **base_params},
+                    headers=HEADERS, timeout=15,
+                )
+                soup = BeautifulSoup(r.text, "html.parser")
+                for li in soup.find_all("li"):
+                    card_el = li.find("div", class_="base-card")
+                    if not card_el:
+                        continue
+                    uid = card_el.get("data-entity-urn", "")
+                    if uid:
+                        easy_ids.add(f"LinkedIn_{uid}")
+            except Exception as e:
+                print(f"  [!] Easy Apply fetch ({keyword}): {e}")
+    return easy_ids
+
 # ── Merge & save ──────────────────────────────────────────────────────────────
 
 def load_existing() -> dict:
@@ -548,6 +577,17 @@ def main():
     expired = len(deduped_cross) - len(active)
     if expired:
         print(f"  Expired jobs removed: {expired} (not seen in {MAX_AGE_DAYS}+ days or old posting date)")
+
+    # Mark LinkedIn Easy Apply jobs
+    print("\nFetching LinkedIn Easy Apply IDs...")
+    easy_apply_ids = fetch_linkedin_easy_apply_ids()
+    print(f"  {len(easy_apply_ids)} Easy Apply LinkedIn job(s) found")
+    marked = sum(1 for j in active if j["id"] in easy_apply_ids and not j.get("easy_apply"))
+    for j in active:
+        if j["id"] in easy_apply_ids:
+            j["easy_apply"] = True
+    if marked:
+        print(f"  {marked} new job(s) marked as Easy Apply")
 
     sorted_jobs = sorted(
         active,

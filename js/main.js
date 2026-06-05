@@ -201,10 +201,25 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('jobs-error').classList.remove('visible');
     }
 
-    const APPLIED_KEY = 'jobs_applied_v1';
-    const NOVISA_KEY  = 'jobs_novisa_v1';
-    const CLOSED_KEY  = 'jobs_closed_v1';
-    let appliedJobs   = new Set(JSON.parse(localStorage.getItem(APPLIED_KEY) || '[]'));
+    const APPLIED_KEY     = 'jobs_applied_v2';  // {id: ISO timestamp}
+    const APPLIED_KEY_OLD = 'jobs_applied_v1';  // legacy: array of IDs
+    const NOVISA_KEY      = 'jobs_novisa_v1';
+    const CLOSED_KEY      = 'jobs_closed_v1';
+
+    // Migrate v1 → v2 (Set of IDs → Map of {id: timestamp})
+    const _v2 = localStorage.getItem(APPLIED_KEY);
+    const _v1 = JSON.parse(localStorage.getItem(APPLIED_KEY_OLD) || '[]');
+    let appliedJobs;
+    if (_v2 !== null) {
+        appliedJobs = new Map(Object.entries(JSON.parse(_v2)));
+    } else if (_v1.length) {
+        appliedJobs = new Map(_v1.map(id => [id, '']));
+        localStorage.setItem(APPLIED_KEY, JSON.stringify(Object.fromEntries(appliedJobs)));
+        localStorage.removeItem(APPLIED_KEY_OLD);
+    } else {
+        appliedJobs = new Map();
+    }
+
     let noVisaJobs    = new Set(JSON.parse(localStorage.getItem(NOVISA_KEY)  || '[]'));
     let closedJobs    = new Set(JSON.parse(localStorage.getItem(CLOSED_KEY)  || '[]'));
     let allJobsData   = [];
@@ -213,9 +228,19 @@ document.addEventListener('DOMContentLoaded', function() {
     let searchQuery   = '';         // free-text search
 
     function saveApplied() {
-        localStorage.setItem(APPLIED_KEY, JSON.stringify([...appliedJobs]));
+        localStorage.setItem(APPLIED_KEY, JSON.stringify(Object.fromEntries(appliedJobs)));
         localStorage.setItem(NOVISA_KEY,  JSON.stringify([...noVisaJobs]));
         localStorage.setItem(CLOSED_KEY,  JSON.stringify([...closedJobs]));
+    }
+
+    function formatAppliedAt(iso) {
+        if (!iso) return '✓ applied';
+        const diff = Math.floor((Date.now() - new Date(iso)) / 864e5);
+        if (diff === 0) return '✓ today';
+        if (diff === 1) return '✓ yesterday';
+        if (diff <  7) return `✓ ${diff}d ago`;
+        const d = new Date(iso);
+        return `✓ ${d.toLocaleDateString('en', { month: 'short', day: 'numeric' })}`;
     }
 
     function renderJobs(jobs) {
@@ -228,10 +253,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const byDenmark = jobs.filter(j =>  j.denmark);
         const byView    = currentView === 'denmark' ? byDenmark : byRemote;
 
-        const byStatus  = currentFilter === 'applied'  ? byView.filter(j =>  appliedJobs.has(j.id))
-                        : currentFilter === 'no visa'  ? byView.filter(j =>  noVisaJobs.has(j.id))
-                        : currentFilter === 'closed'   ? byView.filter(j =>  closedJobs.has(j.id))
+        const byStatus  = currentFilter === 'applied'    ? byView.filter(j =>  appliedJobs.has(j.id))
+                        : currentFilter === 'no visa'   ? byView.filter(j =>  noVisaJobs.has(j.id))
+                        : currentFilter === 'closed'    ? byView.filter(j =>  closedJobs.has(j.id))
                         : currentFilter === 'pending'   ? byView.filter(j => !appliedJobs.has(j.id) && !noVisaJobs.has(j.id) && !closedJobs.has(j.id))
+                        : currentFilter === 'easy apply'? byView.filter(j =>  j.easy_apply)
                         : byView;
 
         const q        = searchQuery.trim().toLowerCase();
@@ -244,14 +270,16 @@ document.addEventListener('DOMContentLoaded', function() {
             .slice()
             .sort((a, b) => (b.match_score || 0) - (a.match_score || 0));
 
-        const nApplied = byView.filter(j =>  appliedJobs.has(j.id)).length;
-        const nNoVisa  = byView.filter(j =>  noVisaJobs.has(j.id)).length;
-        const nClosed  = byView.filter(j =>  closedJobs.has(j.id)).length;
-        const nPending = byView.length - nApplied - nNoVisa - nClosed;
-        const parts    = [`${nPending} pending`];
-        if (nApplied) parts.push(`${nApplied} applied`);
-        if (nNoVisa)  parts.push(`${nNoVisa} no visa`);
-        if (nClosed)  parts.push(`${nClosed} closed`);
+        const nApplied   = byView.filter(j =>  appliedJobs.has(j.id)).length;
+        const nNoVisa    = byView.filter(j =>  noVisaJobs.has(j.id)).length;
+        const nClosed    = byView.filter(j =>  closedJobs.has(j.id)).length;
+        const nEasyApply = byView.filter(j =>  j.easy_apply).length;
+        const nPending   = byView.length - nApplied - nNoVisa - nClosed;
+        const parts      = [`${nPending} pending`];
+        if (nEasyApply) parts.push(`${nEasyApply} easy apply`);
+        if (nApplied)   parts.push(`${nApplied} applied`);
+        if (nNoVisa)    parts.push(`${nNoVisa} no visa`);
+        if (nClosed)    parts.push(`${nClosed} closed`);
         meta.textContent = `$ jobs --${currentView} · ${parts.join(' · ')}`;
 
         const searchWasFocused = document.activeElement?.id === 'jobs-search';
@@ -266,8 +294,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <input class="jobs__search" id="jobs-search" type="text" placeholder="$ search title, company, source..." value="${searchQuery.replace(/"/g, '&quot;')}">
             </div>
             <div class="jobs__statuses">
-                ${['all', 'pending', 'applied', 'no visa', 'closed'].map(f =>
-                    `<button class="jobs__filter${f === currentFilter ? ' jobs__filter--active' : ''}" data-filter="${f}">${f}</button>`
+                ${['all', 'pending', 'easy apply', 'applied', 'no visa', 'closed'].map(f =>
+                    `<button class="jobs__filter${f === currentFilter ? ' jobs__filter--active' : ''}" data-filter="${f}">${f === 'easy apply' ? '⚡ easy apply' : f}</button>`
                 ).join('')}
             </div>`;
 
@@ -311,9 +339,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span class="jobs__card-company">${j.company || '—'}${j.salary ? ` <span class="jobs__salary">${j.salary}</span>` : ''}</span>
                 <div class="jobs__card-meta">
                     <span class="jobs__badge jobs__badge--${j.source}">${j.source}</span>
+                    ${j.easy_apply ? `<span class="jobs__badge jobs__badge--easy-apply">⚡ easy</span>` : ''}
                     ${j.date ? `<span class="jobs__date">${j.date}</span>` : ''}
                     <button class="jobs__apply-btn${applied ? ' jobs__apply-btn--done' : ''}" data-id="${j.id}" data-action="apply">
-                        ${applied ? '✓ applied' : '+ apply'}
+                        ${applied ? formatAppliedAt(appliedJobs.get(j.id)) : '+ apply'}
                     </button>
                     <button class="jobs__novisa-btn${novisa ? ' jobs__novisa-btn--on' : ''}" data-id="${j.id}" data-action="novisa">
                         ${novisa ? '⊘ no visa' : '⊘ visa req.'}
@@ -403,7 +432,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (appliedJobs.has(id)) {
                 appliedJobs.delete(id);          // undo applied
             } else {
-                appliedJobs.add(id);
+                appliedJobs.set(id, new Date().toISOString());
                 noVisaJobs.delete(id);           // exclusive: clear no-visa
             }
         } else if (action === 'novisa') {
