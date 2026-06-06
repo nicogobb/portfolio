@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T07:01:33.951992+00:00",
+  "updated_at": "2026-06-06T10:01:21.770673+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -756,7 +756,8 @@
       "match_cons": [
         "Onsite required",
         "Certification needed"
-      ]
+      ],
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4416944851",
@@ -1766,6 +1767,106 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4405819261",
+      "title": "Laravel Devloper",
+      "company": "APPEAK",
+      "url": "https://www.linkedin.com/jobs/view/laravel-devloper-at-appeak-4405819261",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-06",
+      "description": "With strategically located offices worldwide, our global presence ensures efficient delivery to clients across the globe, no matter the distance or destination.We are a software development consulting company with 80+ happy clients around the globe. At Appeak, new ideas attract us like strong magnets. You may not believe it, but we breathe, eat and sleep tech.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel match",
+        "Remote possible"
+      ],
+      "match_cons": [
+        "No seniority info",
+        "Danish not fluent"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4346654549",
+      "title": "Full Stack Developer (Laravel Vue.js)",
+      "company": "MicroVentures",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-laravel-vue-js-at-microventures-4346654549",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-06",
+      "description": "About The RoleWe're looking for a Full Stack Developer to join our engineering team. You'll work alongside senior engineers building features across the stack, developing APIs with Laravel and creating responsive interfaces with Vue.js. This is a great opportunity to grow your skills while contributing to a modern, well-architected platform.Our stack includes Laravel 12, Vue.js, MySQL, Redis, and TailwindCSS.What You'll Do:Develop and maintain features using PHP 8.4 and Laravel 12.xBuild and consume RESTful APIsCreate responsive UIs using Vue.js 2.x+, and TailwindCSSWrite clean, tested code following team standards and best practicesWork with MySQL databases—writing queries, understanding schemas, and running migrationsParticipate in code reviews and incorporate feedbackCollaborate with product, design, and engineering teammatesDocument your work and contribute to team knowledge baseLearn and grow with mentorship from senior team membersWhat We're Looking For:3–5 years of professional software development experience2+ years of experience with Laravel/PHP2+ years of experience with Vue.js or similar frontend framework (React, Angular)Solid understanding of RESTful API designExperience with relational databases (MySQL or PostgreSQL)Familiarity with Git workflows and version control best practicesUnderstanding of testing fundamentals (PHPUnit, Pest, or similar)Eagerness to learn and grow technicallyGood communication skills and ability to work collaborativelyNice To HaveExperience with AWS servicesFamiliarity with TailwindCSSExposure to Redis or queue systemsExperience with CI/CD pipelinesTypeScript experienceHighlights Of MicroVentures Benefits401K Match (100% match on the first 5% and 50% on the next 5%) Annual discretionary bonus MicroVentures covers the base plan for Medical, Dental and Disability insurance 3 Weeks paid time off + holidays4 Weeks paid sabbatical after 5 years with MicroVentures with a travel stipend$100 monthly technology stipend (phone and internet)We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel match",
+        "Remote friendly"
+      ],
+      "match_cons": [
+        "Vue.js required",
+        "No Danish fluency"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4373973483",
+      "title": "PHP/Symfony Engineer – OSS Tools (with French)",
+      "company": "Sopra Steria",
+      "url": "https://pl.linkedin.com/jobs/view/php-symfony-engineer-%E2%80%93-oss-tools-with-french-at-sopra-steria-4373973483",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-06",
+      "description": "Company DescriptionSopra Steria is one of the largest players in the tech industry in Europe, known for its consulting, digital services and software development. We operate in nearly 30 countries in the world, hiring more than 55,000 employees.The Polish branch, as the Global Delivery Center, operates in Katowice since 2007 and has been growing ever since. Currently, our team consists of around 1,000 specialists.Within the Digital Platform Services department, our teams specialize in areas such as cloud, operating systems, virtualization, databases, backup or storage, as well as networking and security. We also have 1st line support consultants who speak French and English, but also Italian, Spanish, Portuguese and German.The Application Services department is responsible for areas such as software development, data engineering, testing services, CRM, ITSM and ERP platform integrations, as well as application management for customers in Scandinavia, Benelux, France, Germany, Switzerland and the UK.Job DescriptionWe are looking for PHP/Symfony Engineer with French to join Sopra Steria Polska for a client that provides technological and operational support for a project which is providing IT services for a major French telecommunications operator since 2010.The ToolIP project consists of several PHP/Symfony applications used by engineering teams within the OSS ecosystem. The mission involves optimization, development, integration, and technical evolution of these applications.The position is part of a structured transition, transferring the ToolIP knowledge, backlog, and responsibilities from the Sophia-Antipolis team to a new Polish team by 2026.Responsibilities:Participate in analysis, development, optimization, and integration steps for ToolIP applications.Implement evolutions and conduct technological watch.Develop features in PHP/Symfony and Python/Perl backend components.Perform unit testing and contribute to technical/functional documentation.Participating in transition phases: knowledge transfer, supervised practice, and gaining autonomFollow‑up of the Project Committee (COPROJ)Daily follow‑up of activitiesActivity reporting to the Project ManagerFollow‑up of the topic at Altice LabsEscalation of client/production alerts to the Project ManagerTech Stach on the project: Languages: PHP, Python, Perl, JavaFrameworks: SymfonyDatabases: MariaDB, PostgreSQLDevOps tools: GitLab CI/CDETL: Pentaho Data IntegratorOS: Linux (Ubuntu)QualificationsMust have requ",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP/Symfony match",
+        "Remote possible"
+      ],
+      "match_cons": [
+        "French required",
+        "No Danish needed"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4424186518",
+      "title": "PHP Software Engineer",
+      "company": "Smartbox Group",
+      "url": "https://ie.linkedin.com/jobs/view/php-software-engineer-at-smartbox-group-4424186518",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-06",
+      "description": "We exist to be the go-to companion, empowering everyone to transform their free time into experiences. At Smartbox Group, we believe that real-life experiences help us thrive, connect, and become the best versions of ourselves.With nearly 15,000 different products across leisure themes — Stays, Wellness, Adventure, Gastronomy — we allow people to enrich their lives with moments of sharing, emotions, and unforgettable memories.Present in 11 countries, Smartbox Group employs over 700 people across Europe and works with more than 40,000 trusted partners, including hotels, restaurants, wellness centres, and outdoor activity providers.Living more than owning, sharing more than having — this is more than ever a fundamental trend in our society, and it’s exactly what Smartbox offers.Smartbox is seeking an exceptional and passionate back-end Software Engineer to contribute to the success of their Dublin HQ IT team. If you're ready to take on a massive challenge in a company where you can make a significant impact, we want to hear from you.We are looking for a PHP Software Engineer with at least 4 years of experience to design, build, and maintain scalable backend systems.This role goes beyond traditional backend development. You will be expected to actively leverage AI tools and workflows to improve productivity, code quality, and delivery speed — and to continuously evolve how you work.You will contribute to core services, APIs, and integrations, while helping shape a more efficient, modern engineering approach within the team.Your Responsibilities:Design, build, and maintain scalable backend services and RESTful APIsWrite clean, maintainable, and well-tested codeContribute to system design and distributed architectureMaintain and evolve applications using modern PHP (7/8) and SymfonyMonitor production systems to ensure performance and reliabilityInvestigate, report, and resolve bugs and production issuesParticipate in code reviews and maintain high engineering standardsPrepare and release application versions through CI/CD pipelinesContinuously improve systems by addressing technical debt and enhancementsMaintain and improve technical documentationAI-Enabled Engineering Responsibilities:Actively use AI tools (e.g. Claude, Copilot, generative AI) in day-to-day developmentLeverage AI to accelerate coding, debugging, testing, and documentationCritically evaluate and validate AI-generated outputs for correctness, security, and maintainabilityIdentify opportunities t",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP match",
+        "Remote option"
+      ],
+      "match_cons": [
+        "Symfony required",
+        "Danish learning"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4418917167",
+      "title": "Développeur PHP Symfony H/F",
+      "company": "Kicklox",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-php-symfony-h-f-at-kicklox-4418917167",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-06",
+      "description": "L'offreSecteursAutomobile, Aéronautique, Spatial, Défense & Sécurité, Ferroviaire, Télécommunications, Energie, Services & Systèmes d'Informations, Chimie / Pétrochimie, Digital & E-Commerce, Naval, Machines & Industrie Lourde, Pharmaceutique / Biotechnologie, Banque & Assurance, BTPDescription De L'offreNous recrutons pour l'un de nos clients un Développeur PHP Symfony, à pourvoir dès que possible. Les responsabilités incluent : - Développer et maintenir des applications web basées sur le framework Symfony. - Concevoir des architectures logicielles solides pour supporter les exigences des projets. - Intégrer des solutions de paiement, des services de géolocalisation, et autres API tierces. - Collaborer avec les équipes front-end pour assurer une intégration seamless des interfaces utilisateur. - Documenter le développement et maintenir des guides pour les utilisateurs et autres développeurs. - Participer activement à l'amélioration des processus de développement au sein de l'équipe.Missions à réaliserDévelopper des applications web robustes et évolutives en utilisant le framework Symfony.ModalitésDate de démarrage : dès que possibleDate de fin : non spécifiéeCandidats recherchés : 1Expérience : 6+ ansType de contrat : CDI, Temps completRémunération : 45000 € - 55000 € par an selon expérienceLocalisation : 8th arrondissement, Lyon, FranceTélétravail partielLe profil recherchéCompétences requisesSymfony, Php, Composants Symfony, Bases de données relationnelles, mysql, Postgrésql, Outils de gestion de version, GitDescription Du Profil Solide - Expérience en développement avec le framework Symfony - Maîtrise du langage PHP et des composants Symfony - Connaissance des bases de données relationnelles (MySQL, PostgreSQL) et des outils de gestion de version (Git) - Capacité à concevoir, développer et maintenir des applications web - Excellentes compétences en résolution de problèmes et en optimisation du code - Capacité à travailler en équipe et à collaborer avec les équipes front-end et back-end - Attention aux détails et respect des délaisLanguesFrançaisÀ propos de l'entrepriseLes secteurs d'activitéAutomobile, Aéronautique, Spatial, Défense & Sécurité, Ferroviaire, Télécommunications, Energie, Services & Systèmes d'Informations, Chimie / Pétrochimie, Digital & E-Commerce, Naval, Machines & Industrie Lourde, Pharmaceutique / Biotechnologie, Banque & Assurance, BTPPrésentationDepuis 2016, Kicklox aide talents tech et entreprises industrielles à se rencontrer et ",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Symfony match",
+        "Remote option"
+      ],
+      "match_cons": [
+        "French required",
+        "No Danish needed"
+      ]
+    },
+    {
       "id": "LinkedIn_urn:li:jobPosting:4404510290",
       "title": "Full Stack PHP Developer - Remote",
       "company": "Swapcard",
@@ -2107,46 +2208,6 @@
       "match_cons": [
         "Pimcore required",
         "Dutch preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4405819261",
-      "title": "Laravel Devloper",
-      "company": "APPEAK",
-      "url": "https://www.linkedin.com/jobs/view/laravel-devloper-at-appeak-4405819261",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-04",
-      "description": "With strategically located offices worldwide, our global presence ensures efficient delivery to clients across the globe, no matter the distance or destination.We are a software development consulting company with 80+ happy clients around the globe. At Appeak, new ideas attract us like strong magnets. You may not believe it, but we breathe, eat and sleep tech.",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel match",
-        "Remote possible"
-      ],
-      "match_cons": [
-        "No seniority info",
-        "Danish not fluent"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4346654549",
-      "title": "Full Stack Developer (Laravel Vue.js)",
-      "company": "MicroVentures",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-laravel-vue-js-at-microventures-4346654549",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-04",
-      "description": "About The RoleWe're looking for a Full Stack Developer to join our engineering team. You'll work alongside senior engineers building features across the stack, developing APIs with Laravel and creating responsive interfaces with Vue.js. This is a great opportunity to grow your skills while contributing to a modern, well-architected platform.Our stack includes Laravel 12, Vue.js, MySQL, Redis, and TailwindCSS.What You'll Do:Develop and maintain features using PHP 8.4 and Laravel 12.xBuild and consume RESTful APIsCreate responsive UIs using Vue.js 2.x+, and TailwindCSSWrite clean, tested code following team standards and best practicesWork with MySQL databases—writing queries, understanding schemas, and running migrationsParticipate in code reviews and incorporate feedbackCollaborate with product, design, and engineering teammatesDocument your work and contribute to team knowledge baseLearn and grow with mentorship from senior team membersWhat We're Looking For:3–5 years of professional software development experience2+ years of experience with Laravel/PHP2+ years of experience with Vue.js or similar frontend framework (React, Angular)Solid understanding of RESTful API designExperience with relational databases (MySQL or PostgreSQL)Familiarity with Git workflows and version control best practicesUnderstanding of testing fundamentals (PHPUnit, Pest, or similar)Eagerness to learn and grow technicallyGood communication skills and ability to work collaborativelyNice To HaveExperience with AWS servicesFamiliarity with TailwindCSSExposure to Redis or queue systemsExperience with CI/CD pipelinesTypeScript experienceHighlights Of MicroVentures Benefits401K Match (100% match on the first 5% and 50% on the next 5%) Annual discretionary bonus MicroVentures covers the base plan for Medical, Dental and Disability insurance 3 Weeks paid time off + holidays4 Weeks paid sabbatical after 5 years with MicroVentures with a travel stipend$100 monthly technology stipend (phone and internet)We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel match",
-        "Remote friendly"
-      ],
-      "match_cons": [
-        "Vue.js required",
-        "No Danish fluency"
       ]
     },
     {
