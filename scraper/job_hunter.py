@@ -321,29 +321,39 @@ def fetch_jobindex() -> list:
     return out
 
 def fetch_itjobbank() -> list:
-    """IT-jobbank.dk — Danish IT-specific job board, RSS per keyword."""
+    """IT-jobbank.dk — Danish IT-specific job board, JSON API per keyword.
+    RSS feed is broken (always 0 results); this uses the internal JSON API.
+    Only accepts jobs whose title passes the PHP matches() filter, since
+    the API does not include job descriptions in listing results.
+    """
     out = []
-    seen_urls: set = set()
-    keywords = ["php", "php developer", "php udvikler", "laravel", "symfony", "senior php", "codeigniter", "kohana"]
+    seen_ids: set = set()
+    keywords = ["php", "laravel", "symfony", "codeigniter", "kohana", "php developer", "php udvikler"]
     for kw in keywords:
         try:
-            feed = feedparser.parse(
-                f"https://www.it-jobbank.dk/jobsoegning.rss?q={kw.replace(' ', '+')}&superjob=1"
+            r = requests.get(
+                "https://www.it-jobbank.dk/api/jobsearch/v1/",
+                params={"q": kw, "admin": 0},
+                headers=HEADERS, timeout=15,
             )
-            for e in feed.entries:
-                link = e.get("link", "")
-                if not link or link in seen_urls:
+            r.raise_for_status()
+            for job in r.json().get("results", []):
+                tid = job.get("tid", "")
+                if not tid or tid in seen_ids:
                     continue
-                seen_urls.add(link)
-                title   = clean(e.title)
-                summary = clean(e.get("summary", ""))
-                company = clean(e.get("author", ""))
-                if matches(f"{title} {summary}"):
-                    out.append(make_job(
-                        "IT-jobbank", link, title, company, link,
-                        e.get("published", ""), denmark=True,
-                        description=summary,
-                    ))
+                seen_ids.add(tid)
+                title   = clean(job.get("headline", ""))
+                company = clean(job.get("companytext", "") or job.get("company", {}).get("name", ""))
+                url     = job.get("share_url", "") or job.get("url", "")
+                date    = str(job.get("firstdate", ""))[:10]
+                if not title or not url:
+                    continue
+                # The API does full-text search — PHP may be in the description, not the title.
+                # No description available in listing results, so trust the API's keyword match.
+                out.append(make_job(
+                    "IT-jobbank", tid, title, company, url,
+                    date, denmark=True,
+                ))
         except Exception as e:
             print(f"  [!] IT-jobbank ({kw}): {e}")
     return out
