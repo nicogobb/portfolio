@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T19:01:13.344260+00:00",
+  "updated_at": "2026-06-07T22:01:09.591716+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -2612,6 +2612,46 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4390875502",
+      "title": "PHP programmētājs/-a (mid-level)",
+      "company": "Kesko Senukai Digital (e-commerce)",
+      "url": "https://lt.linkedin.com/jobs/view/php-programm%C4%93t%C4%81js-a-mid-level-at-kesko-senukai-digital-e-commerce-4390875502",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-07",
+      "description": "Vai esi gatavs pacelt savu ietekmi e-komercijas nozarē? Uzņēmumā Kesko Senukai Digital meklējam mid-level PHP programmētāju, kas pievienotos mūsu augošajai komandai. Tu strādāsi pie jauna liela mēroga projekta, kas katru dienu ietekmē tūkstošiem lietotāju visā Baltijā.Kāpēc pievienoties mums?Ietekme: Strādā ar lielas slodzes sistēmām un nozīmīgiem digitāliem risinājumiem.Kompetence: Sadarbojies ar pieredzējušiem speciālistiem dinamiskā vidē.Līdzsvars: Baudi hibrīda darba modeli un izaugsmes iespējas.Ko Tu DarīsiVeidot un ieviest jauninājumus: Programmēt augstas veiktspējas lietojumprogrammas, izmantojot PHP un Symfony, ieviešot jaunu funkcionalitāti atbilstoši biznesa vajadzībām.Optimizēt un nodrošināt drošību: Projektēt PostgreSQL shēmas, nodrošināt stabilitāti ar automatizētu testēšanu un uzturēt augstākā līmeņa drošības praksi.Sadarboties un piegādāt: Strādāt kopā ar arhitektiem, produktu īpašniekiem un DevOps komandu, lai saskaņotu risinājumus ar stratēģiju un novērstu ražošanas incidentus.Ko Mēs Sagaidām2+ gadu PHP programmēšanas pieredze (vēlama Symfony).Labas PostgreSQL un vaicājumu optimizācijas prasmes.Pieredze ar REST API, Git un Docker.Proaktīva domāšana un labas angļu valodas prasmes.Ko Mēs PiedāvājamProfesionālā izaugsme: Vertikālie un horizontālie karjeras ceļi kopā ar nepārtrauktu mācīšanos.Veselība un privilēģijas: Papildu veselības apdrošināšana, Senukai darbinieku atlaides un brīvdiena dzimšanas dienā.Ietekmīga kultūra: Brīvība iesniegt savas idejas un veicināt reālas pārmaiņas.Alga sākot no 3400 € bruto mēnesī, atkarībā no pieredzes.Priecāsimies Tavu CV saņemt angļu valodā. Šis ir Baltijas komandas projekts - ar kandidātiem sazināsimies no jebkuras Baltijas valsts.Ja jūs aizrauj e-komercija un vēlaties kļūt par daļu no uzņēmuma, kas veido tiešsaistes iepirkšanās nākotni Baltijā, Kesko Senukai Digital ir vieta tieši jums. Nāc augt kopā ar mums un palīdzi mums noteikt jaunus standartus kā vienam no mūsdienu mazumtirdzniecības nozares līderiem!Ja esi gatavs pievienoties jaunu un radošu profesionāļu komandai, kas vēlas jaunus izaicinājumus un nepārtrauktus uzlabojumus, sazinies ar mums jau šodien.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP match",
+        "Remote option"
+      ],
+      "match_cons": [
+        "Requires Symfony",
+        "Danish learning"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4421903326",
+      "title": "Senior PHP Developer",
+      "company": "INGENIOUS.BUILD",
+      "url": "https://nl.linkedin.com/jobs/view/senior-php-developer-at-ingenious-build-4421903326",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-07",
+      "description": "At INGENIOUS.BUILD, we have developed a top-notch platform for companies in the real estate and construction industries worldwide. Our platform enables companies to easily manage all aspects of their projects from start to finish, both internally and with other project participants.Joining INGENIOUS.BUILD means embarking on an incredible journey to create the first cloud application for managing the entire lifecycle of a real estate construction project. You'll be building what some consider the holy grail of construction project management. It's a big, bold, and audacious endeavor, and if you have what it takes, you'll play a direct role in its development.And if you've got what it takes, you'll be directly involved in its development. The rest, as they say, will be history...Are you a Senior PHP Developer who loves coding, solving interesting problems, and being part of something truly impactful? INGENIOUS.BUILD could be the perfect place for you! We're a remote team with big goals, and we are looking for someone with initiative who's ready to jump in and help us make a real difference in our industry.Being a part of the team you will: Use software like PHP 8.4, Laravel 11, and PostgreSQL.See that our goal is to minimize meetings, allowing you to focus on what you do best: buildingOur flexible working hours mean you can work when you're most productiveThis is a collaborative space and avoids unnecessary bureaucracy, so every team member influences the productOur team has many experienced people who love discussing interesting challenges and sharing knowledge, so there's always support and inspiration around every cornerBe committed to continually improving our codebase, reducing legacy code, adding tests, and keeping things up-to-dateThe DevOps team is responsible for infrastructure, so you can focus on development. Our pipelines are set up with PHPStan, PHPCS, unit, integration, and end-to-end tests, all supporting automatic deploymentsLearn that our philosophy is to write code that's easy to test and reason about. By structuring business logic in clear PHP classes, separate from the framework, we avoid complex, 'magical' solutions that complicate understanding and testingWe have a fairly big modular monolith. The interactions between modules are based on facades, adapters, or events, helping us maintain strong boundaries and modularity. In our more intricate modules, we incorporate DDD to keep the domain logic well-structured and business-aligned.What ",
+      "match_score": 92,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP match",
+        "Remote compatible"
+      ],
+      "match_cons": [
+        "None noted",
+        "Learning Danish"
+      ]
+    },
+    {
       "id": "LinkedIn_urn:li:jobPosting:4409276592",
       "title": "PHP Software Developer II",
       "company": "Aylo",
@@ -2828,26 +2868,6 @@
         "Remote option"
       ],
       "match_cons": [
-        "Danish learning"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4390875502",
-      "title": "PHP programmētājs/-a (mid-level)",
-      "company": "Kesko Senukai Digital (e-commerce)",
-      "url": "https://lt.linkedin.com/jobs/view/php-programm%C4%93t%C4%81js-a-mid-level-at-kesko-senukai-digital-e-commerce-4390875502",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-06",
-      "description": "Vai esi gatavs pacelt savu ietekmi e-komercijas nozarē? Uzņēmumā Kesko Senukai Digital meklējam mid-level PHP programmētāju, kas pievienotos mūsu augošajai komandai. Tu strādāsi pie jauna liela mēroga projekta, kas katru dienu ietekmē tūkstošiem lietotāju visā Baltijā.Kāpēc pievienoties mums?Ietekme: Strādā ar lielas slodzes sistēmām un nozīmīgiem digitāliem risinājumiem.Kompetence: Sadarbojies ar pieredzējušiem speciālistiem dinamiskā vidē.Līdzsvars: Baudi hibrīda darba modeli un izaugsmes iespējas.Ko Tu DarīsiVeidot un ieviest jauninājumus: Programmēt augstas veiktspējas lietojumprogrammas, izmantojot PHP un Symfony, ieviešot jaunu funkcionalitāti atbilstoši biznesa vajadzībām.Optimizēt un nodrošināt drošību: Projektēt PostgreSQL shēmas, nodrošināt stabilitāti ar automatizētu testēšanu un uzturēt augstākā līmeņa drošības praksi.Sadarboties un piegādāt: Strādāt kopā ar arhitektiem, produktu īpašniekiem un DevOps komandu, lai saskaņotu risinājumus ar stratēģiju un novērstu ražošanas incidentus.Ko Mēs Sagaidām2+ gadu PHP programmēšanas pieredze (vēlama Symfony).Labas PostgreSQL un vaicājumu optimizācijas prasmes.Pieredze ar REST API, Git un Docker.Proaktīva domāšana un labas angļu valodas prasmes.Ko Mēs PiedāvājamProfesionālā izaugsme: Vertikālie un horizontālie karjeras ceļi kopā ar nepārtrauktu mācīšanos.Veselība un privilēģijas: Papildu veselības apdrošināšana, Senukai darbinieku atlaides un brīvdiena dzimšanas dienā.Ietekmīga kultūra: Brīvība iesniegt savas idejas un veicināt reālas pārmaiņas.Alga sākot no 3400 € bruto mēnesī, atkarībā no pieredzes.Priecāsimies Tavu CV saņemt angļu valodā. Šis ir Baltijas komandas projekts - ar kandidātiem sazināsimies no jebkuras Baltijas valsts.Ja jūs aizrauj e-komercija un vēlaties kļūt par daļu no uzņēmuma, kas veido tiešsaistes iepirkšanās nākotni Baltijā, Kesko Senukai Digital ir vieta tieši jums. Nāc augt kopā ar mums un palīdzi mums noteikt jaunus standartus kā vienam no mūsdienu mazumtirdzniecības nozares līderiem!Ja esi gatavs pievienoties jaunu un radošu profesionāļu komandai, kas vēlas jaunus izaicinājumus un nepārtrauktus uzlabojumus, sazinies ar mums jau šodien.",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP match",
-        "Remote option"
-      ],
-      "match_cons": [
-        "Requires Symfony",
         "Danish learning"
       ]
     },
