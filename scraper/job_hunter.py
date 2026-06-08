@@ -15,6 +15,7 @@ import html as html_module
 import json
 import re
 import sys
+import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -410,39 +411,56 @@ def fetch_indeed_denmark() -> list:
 
 # ── LinkedIn scrapers ─────────────────────────────────────────────────────────
 
-def _linkedin_search(params: dict, label: str = "LinkedIn", denmark: bool = False) -> list:
+_LINKEDIN_KEYWORDS = [
+    "PHP Developer", "Senior PHP Developer", "Laravel Developer",
+    "Symfony Developer", "Full Stack PHP", "PHP Backend Developer",
+    "PHP Engineer", "CodeIgniter Developer", "PHP Web Developer",
+]
+
+def _linkedin_search(params: dict, label: str = "LinkedIn", denmark: bool = False, max_pages: int = 3) -> list:
     out = []
     seen_urls: set = set()
-    keywords = ["PHP Developer", "Senior PHP Developer", "Laravel Developer", "Symfony Developer", "Full Stack PHP"]
-    for keyword in keywords:
-        try:
-            r = requests.get(
-                "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search",
-                params={"keywords": keyword, "start": "0", **params},
-                headers=HEADERS, timeout=15,
-            )
-            soup = BeautifulSoup(r.text, "html.parser")
-            for li in soup.find_all("li"):
-                title_el   = li.find("h3", class_="base-search-card__title")
-                company_el = li.find("h4", class_="base-search-card__subtitle")
-                link_el    = li.find("a", class_="base-card__full-link")
-                card_el    = li.find("div", class_="base-card")
-                if not title_el or not link_el:
-                    continue
-                url   = link_el.get("href", "").split("?")[0]
-                uid   = card_el.get("data-entity-urn", url) if card_el else url
-                title = clean(title_el.text)
-                if url in seen_urls:
-                    continue
-                seen_urls.add(url)
-                if matches(f"{title} {clean(company_el.text) if company_el else ''}"):
-                    out.append(make_job(
-                        "LinkedIn", uid, title,
-                        company_el.text if company_el else "",
-                        url, denmark=denmark,
-                    ))
-        except Exception as e:
-            print(f"  [!] {label} ({keyword}): {e}")
+    for keyword in _LINKEDIN_KEYWORDS:
+        for page in range(max_pages):
+            start = page * 25
+            try:
+                r = requests.get(
+                    "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search",
+                    params={"keywords": keyword, "start": str(start), **params},
+                    headers=HEADERS, timeout=15,
+                )
+                soup = BeautifulSoup(r.text, "html.parser")
+                items = soup.find_all("li")
+                if not items:
+                    break
+                new_on_page = 0
+                for li in items:
+                    title_el   = li.find("h3", class_="base-search-card__title")
+                    company_el = li.find("h4", class_="base-search-card__subtitle")
+                    link_el    = li.find("a", class_="base-card__full-link")
+                    card_el    = li.find("div", class_="base-card")
+                    if not title_el or not link_el:
+                        continue
+                    url   = link_el.get("href", "").split("?")[0]
+                    uid   = card_el.get("data-entity-urn", url) if card_el else url
+                    title = clean(title_el.text)
+                    if url in seen_urls:
+                        continue
+                    seen_urls.add(url)
+                    new_on_page += 1
+                    if matches(f"{title} {clean(company_el.text) if company_el else ''}"):
+                        out.append(make_job(
+                            "LinkedIn", uid, title,
+                            company_el.text if company_el else "",
+                            url, denmark=denmark,
+                        ))
+                if new_on_page == 0:
+                    break  # empty page, stop paginating this keyword
+                if page < max_pages - 1:
+                    time.sleep(0.4)  # be polite between pages
+            except Exception as e:
+                print(f"  [!] {label} ({keyword}, p{page+1}): {e}")
+                break
     return out
 
 def fetch_linkedin_remote() -> list:
@@ -455,6 +473,52 @@ def fetch_linkedin_europe() -> list:
         {"location": "European Union", "f_WT": "2"},
         label="LinkedIn Europe",
     )
+
+def fetch_linkedin_eu_onsite() -> list:
+    """LinkedIn — on-site + hybrid PHP jobs across major EU countries."""
+    out = []
+    seen_urls: set = set()
+    # Top EU countries for tech hiring
+    countries = [
+        "Germany", "Netherlands", "Poland", "France", "Spain",
+        "Belgium", "Czech Republic", "Portugal", "Sweden", "Austria",
+    ]
+    keywords = [
+        "PHP Developer", "Senior PHP Developer", "Laravel Developer",
+        "Symfony Developer", "Full Stack PHP",
+    ]
+    for country in countries:
+        for keyword in keywords:
+            try:
+                r = requests.get(
+                    "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search",
+                    params={"keywords": keyword, "location": country, "f_WT": "1,2,3", "start": "0"},
+                    headers=HEADERS, timeout=15,
+                )
+                soup = BeautifulSoup(r.text, "html.parser")
+                for li in soup.find_all("li"):
+                    title_el   = li.find("h3", class_="base-search-card__title")
+                    company_el = li.find("h4", class_="base-search-card__subtitle")
+                    link_el    = li.find("a", class_="base-card__full-link")
+                    card_el    = li.find("div", class_="base-card")
+                    if not title_el or not link_el:
+                        continue
+                    url   = link_el.get("href", "").split("?")[0]
+                    uid   = card_el.get("data-entity-urn", url) if card_el else url
+                    title = clean(title_el.text)
+                    if url in seen_urls:
+                        continue
+                    seen_urls.add(url)
+                    if matches(f"{title} {clean(company_el.text) if company_el else ''}"):
+                        out.append(make_job(
+                            "LinkedIn", uid, title,
+                            company_el.text if company_el else "",
+                            url,
+                        ))
+                time.sleep(0.3)
+            except Exception as e:
+                print(f"  [!] LinkedIn EU onsite ({country}, {keyword}): {e}")
+    return out
 
 def fetch_linkedin_denmark() -> list:
     """LinkedIn — on-site + hybrid jobs in Denmark."""
@@ -472,25 +536,30 @@ def fetch_linkedin_easy_apply_ids() -> set:
         {"location": "European Union", "f_WT": "2"},
         {"location": "Denmark", "f_WT": "1,3"},
     ]
-    keywords = ["PHP Developer", "Senior PHP Developer", "Laravel Developer", "Symfony Developer", "Full Stack PHP"]
     for base_params in searches:
-        for keyword in keywords:
-            try:
-                r = requests.get(
-                    "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search",
-                    params={"keywords": keyword, "start": "0", "f_AL": "true", **base_params},
-                    headers=HEADERS, timeout=15,
-                )
-                soup = BeautifulSoup(r.text, "html.parser")
-                for li in soup.find_all("li"):
-                    card_el = li.find("div", class_="base-card")
-                    if not card_el:
-                        continue
-                    uid = card_el.get("data-entity-urn", "")
-                    if uid:
-                        easy_ids.add(f"LinkedIn_{uid}")
-            except Exception as e:
-                print(f"  [!] Easy Apply fetch ({keyword}): {e}")
+        for keyword in _LINKEDIN_KEYWORDS[:5]:  # top 5 keywords to keep it manageable
+            for page in range(2):
+                try:
+                    r = requests.get(
+                        "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search",
+                        params={"keywords": keyword, "start": str(page * 25), "f_AL": "true", **base_params},
+                        headers=HEADERS, timeout=15,
+                    )
+                    soup = BeautifulSoup(r.text, "html.parser")
+                    items = soup.find_all("li")
+                    if not items:
+                        break
+                    for li in items:
+                        card_el = li.find("div", class_="base-card")
+                        if not card_el:
+                            continue
+                        uid = card_el.get("data-entity-urn", "")
+                        if uid:
+                            easy_ids.add(f"LinkedIn_{uid}")
+                    time.sleep(0.3)
+                except Exception as e:
+                    print(f"  [!] Easy Apply fetch ({keyword}, p{page+1}): {e}")
+                    break
     return easy_ids
 
 # ── Merge & save ──────────────────────────────────────────────────────────────
@@ -520,8 +589,9 @@ def main():
         ("Landing.jobs",     fetch_landing_jobs),
         ("WorkingNomads",    fetch_workingnomads),
         ("Larajobs",         fetch_larajobs),
-        ("LinkedIn remote",  fetch_linkedin_remote),
-        ("LinkedIn Europe",  fetch_linkedin_europe),
+        ("LinkedIn remote",   fetch_linkedin_remote),
+        ("LinkedIn Europe",   fetch_linkedin_europe),
+        ("LinkedIn EU onsite",fetch_linkedin_eu_onsite),
         # ── Denmark ───────────────────────────
         ("Jobindex",         fetch_jobindex),
         ("IT-jobbank",       fetch_itjobbank),
