@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-08T04:01:08.346552+00:00",
+  "updated_at": "2026-06-08T07:01:27.381578+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -193,6 +193,46 @@
       "match_cons": [
         "No description",
         "Wrong title"
+      ]
+    },
+    {
+      "id": "IT-jobbank_h1672175",
+      "title": "Student Assistant for Pharmacometrics - Coding, AI & Scientific Software Infrastructure",
+      "company": "Novo Nordisk A/S",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1672175/student-assistant-for-pharmacometrics-coding-ai-scientific-software-infrastructure",
+      "source": "IT-jobbank",
+      "date": "2026-06-08",
+      "fetched_at": "2026-06-08",
+      "denmark": true,
+      "description_failed": true,
+      "match_score": 20,
+      "match_confidence": "low",
+      "match_pros": [
+        "Scientific software"
+      ],
+      "match_cons": [
+        "Non-PHP role",
+        "Wrong primary language"
+      ]
+    },
+    {
+      "id": "IT-jobbank_h1672162",
+      "title": "Cyberdivisionen søger IT-supporter til Brabrand",
+      "company": "Forsvarsministeriets Materiel- og Indkøbsstyrelse",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1672162/cyberdivisionen-soeger-it-supporter-til-brabrand",
+      "source": "IT-jobbank",
+      "date": "2026-06-08",
+      "fetched_at": "2026-06-08",
+      "denmark": true,
+      "description_failed": true,
+      "match_score": 40,
+      "match_confidence": "low",
+      "match_pros": [
+        "IT role"
+      ],
+      "match_cons": [
+        "No PHP mention",
+        "Danish required"
       ]
     },
     {
@@ -2090,6 +2130,127 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4417750204",
+      "title": "Medior PHP developer",
+      "company": "Starapple",
+      "url": "https://nl.linkedin.com/jobs/view/medior-php-developer-at-starapple-4417750204",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-08",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Limited experience expected",
+        "No AWS certification required"
+      ],
+      "description": "OrganisatieWaar anderen losse datastromen zien, zie jij een systeem dat slimmer, sneller en schaalbaarder kan. Als back-end developer bouw je aan technologie die dagelijks de motor vormt achter duizenden processen binnen de automotive branche van voorraadbeheer tot complexe internationale datakoppelingen.Deze organisatie is al ruim 20 jaar specialist in automotive databeheer en ontwikkelt technologie waarmee auto’s, onderdelen, motoren en zelfs boten automatisch worden verzameld, verwerkt en gepubliceerd. De kern van het platform? Een zelfontwikkelde API die realtime voorraadgegevens ophaalt bij autobedrijven en deze inzet voor prijsvergelijkingen, advertenties en slimme koppelingen tussen systemen.Achter de schermen draait een technisch landschap met honderden actieve datakoppelingen, zowel nationaal als internationaal. Inmiddels beheren zij ongeveer 90% van de markt en maken meer dan 12.000 eindgebruikers dagelijks gebruik van hun software.Autobedrijven hoeven hun voorraad slechts één keer aan te leveren, waarna het platform alles automatisch distribueert naar verschillende advertentiekanalen. Geen handmatig gedoe, geen losse processen maar juist volledig geautomatiseerd.De technologie is volledig in eigen huis ontwikkeld, erkend met WBSO-subsidies én ondersteund door een octrooi. Hier bouw je dus niet aan standaardsoftware, maar aan schaalbare systemen die daadwerkelijk impact maken binnen een complete branche.Functie Je wordt onderdeel van een compact en betrokken team van 15 collega’s, waarvan de helft zich richt op development. Samen werk je aan het ontwerpen, vernieuwen en door ontwikkelen van het systeem, met een duidelijke focus op back-end werkzaamheden zoals:Het verbeteren en uitbreiden van de bestaande API’sHet bouwen van nieuwe datakoppelingenHet onderhouden van systemen die grote hoeveelheden mutaties efficiënt verwerkenWerken met diverse programmeertalen, waaronder Go (voor nieuwe componenten), PHP en C++ (voor bestaande onderdelen)Er is veel ruimte om zelf mee te denken over de juiste tools en oplossingen, pragmatisme en technische creativiteit worden gewaardeerd.Functie eisen Je hebt een aansluitende of relevante opleiding afgerond. hbo werk- en denkniveau.Sterk analytisch en abstractievermogenAantoonbare ervaring met softwareontwikkeling en -ontwerp, bij voorkeur op het gebied van API’sKennis van PHP, MySQL, Go (Golang) is een préEen leergierige en proactieve werkhoudingEnthousiasme voor het oplossen van complexe technische vraagstukkenWa",
+      "easy_apply": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4418948136",
+      "title": "PHP Developer",
+      "company": "Multitude",
+      "url": "https://lt.linkedin.com/jobs/view/php-developer-at-multitude-4418948136",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-08",
+      "match_score": 80,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No mention of AWS certification",
+        "No mention of PostgreSQL"
+      ],
+      "description": "We are looking for a motivated and experienced Mid-Level PHP Developer to join our development team. In this role, you will work primarily with pure PHP 8+ to build, maintain, and improve backend systems and web applications. You should be comfortable writing clean, efficient, and scalable code without relying heavily on full-stack frameworks.This position is ideal for someone who enjoys problem-solving, backend architecture, and writing modern PHP applications using best practices and object-oriented programming principles.We OfferA Truly Global Workplace – collaborate with 40+ nationalities across 25+ countries, embracing diversity, inclusion, and cross-cultural innovationHybrid & Flexible Work – balance your life and career with remote-friendly policies and modern offices across EuropeA Culture of Growth – accelerate your development with access to LinkedIn Learning, structured mentorship, and internal leadership programmes (HiPo & People Leader tracks)Workation Programme – work remotely from abroad for up to 2 months per year and experience new cultures while staying connected and productiveFinancial Growth Opportunities – invest in your future with our share purchase matching programme, doubling your contributions and fostering long-term rewardsPrivate Health Insurance – access comprehensive medical coverage to support your healthPension Insurance – secure your financial future with a fully funded pension schemeKey ResponsibilitiesDevelop and maintain web applications using pure PHP 8+Write clean, reusable, and well-documented codeDesign and implement backend APIs and business logicWork with PostgreSQL and other relational databasesDebug, troubleshoot, and optimize existing systemsCollaborate with frontend developers and other team membersParticipate in code reviews and technical discussionsImprove application performance, security, and scalabilityContribute to software architecture and technical decisionsMaintain and update existing legacy PHP systems when requiredRequired Qualifications2+ years of professional PHP development experienceStrong knowledge of PHP 8+ and modern PHP practicesSolid understanding of OOP, SOLID principles, and design patternsGood understanding of REST APIs and backend integrationsKnowledge of web technologies including HTML, CSS, JavaScript, and HTTPExperience debugging and profiling PHP applicationsAbility to work independently and manage tasks effectivelyWe may use artificial intelligence (AI) tools to support specific par"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413875329",
+      "title": "PHP Developer (Onsite)",
+      "company": "Alexander Lyons Solutions",
+      "url": "https://mt.linkedin.com/jobs/view/php-developer-onsite-at-alexander-lyons-solutions-4413875329",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-08",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 match"
+      ],
+      "match_cons": [
+        "Onsite requirement",
+        "No mention of remote work"
+      ],
+      "description": "Our client, a multinational technology provider is seeking a PHP Developer with around 1-3 years’ experience to join their team in Valleta on a permanent basis.What You’ll Work OnDevelop clean, maintainable PHP code for web apps and microservicesIntegrate with internal teams and external vendors on APIs and new featuresSupport customer service teams by troubleshooting technical issuesContribute to user stories, documentation, and continuous improvementExplore and adopt modern PHP technologies and best practicesTech StackCore: PHPDatabases: MSSQL, Redis, MongoDBVersion Control: GitHubBonus: Google Cloud Platform (Compute Engine, Cloud SQL, Cloud Run, Cloud Build, Cloud Monitoring), DevOps exposureWhat You BringDiploma/Degree in Computer Science or related fieldSolid PHP fundamentalsClear communication and collaborative mindsetSelf‑driven, organised, and solutions‑focusedFluent English language skillsAdditional DetailsOnsite role (no remote option)Open to EU Nationals and Residents only. Please do not apply if you are not authorised to work in the EU."
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4414249830",
+      "title": "Backend Developer - PHP (w/m/d)",
+      "company": "MOGIC",
+      "url": "https://de.linkedin.com/jobs/view/backend-developer-php-w-m-d-at-mogic-4414249830",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-08",
+      "match_score": 83,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No AWS certification",
+        "No description available"
+      ],
+      "description": "ZustimmungDetails[#IABV2SETTINGS#]Über CookiesDiese Webseite verwendet CookiesWir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.[#GPC_BANNER_ICON#][#GPC_TOAST_TEXT#]EinwilligungsauswahlNotwendigPräferenzenStatistikenMarketingDetails zeigenDetailsCookieConsentSpeichert den Zustimmungsstatus des Benutzers für Cookies auf der aktuellen Domäne.Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen, indem sie Grundfunktionen wie Seitennavigation und Zugriff auf sichere Bereiche der Webseite ermöglichen. Die Webseite kann ohne diese Cookies nicht richtig funktionieren.Cookiebot 1 Erfahren Sie mehr über diesen AnbieterMaximale Speicherdauer: 1 MonatTyp: HTTP-Cookie Ein Teil der Daten, die dieser Anbieter gesammelt hat, dient der Personalisierung und der Messung der Werbewirksamkeit.Präferenz-Cookies ermöglichen einer Webseite sich an Informationen zu erinnern, die die Art beeinflussen, wie sich eine Webseite verhält oder aussieht, wie z. B. Ihre bevorzugte Sprache oder die Region in der Sie sich befinden.Wir nutzen diese Cookie-Typen nicht.Statistik-Cookies helfen Webseiten-Besitzern zu verstehen, wie Besucher mit Webseiten interagieren, indem Informationen anonym gesammelt und gemeldet werden.Google 2 Erfahren Sie mehr über diesen Anbieter_gaRegistriert eine eindeutige ID, die verwendet wird, um statistische Daten dazu, wie der Besucher die Website nutzt, zu generieren.Maximale Speicherdauer: 2 JahreTyp: HTTP-Cookie_ga_#Sammelt Daten dazu, wie oft ein Benutzer eine Website besucht hat, sowie Daten für den ersten und letzten Besuch. Von Google Analytics verwendet.Maximale Speicherdauer: 2 JahreTyp: HTTP-Cookie JotForm 2 Erfahren Sie mehr über diesen Anbieterguest [x2]Registriert Daten auf dem Webseite-Verhalten der Besucher. Dies wird für interne Analysen und Webseite-Optimierung verwendet.Maximale Speicherdauer: 1 MonatTyp: HTTP-Cookie lastExternalReferrerErmittelt, wie der Nutzer die Website erreicht hat, indem seine letzte URL-Adresse registriert wird.Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu fo"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4390369244",
+      "title": "Mid-Level PHP Developer",
+      "company": "Kesko Senukai Digital (e-commerce)",
+      "url": "https://lt.linkedin.com/jobs/view/mid-level-php-developer-at-kesko-senukai-digital-e-commerce-4390369244",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-08",
+      "description": "Are you ready to elevate your impact within the e-commerce industry? At Kesko Senukai Digital, we are looking for a Mid-level PHP Developer to join our growing team at Kesko Senukai Digital. You will be working on a new large-scale project that impacts thousands of users every day across the Baltics.Why Join Us?Impact: Work on high-traffic systems and impactful digital solutions.Expertise: Collaborate with experienced professionals in a fast-paced environment.Balance: Enjoy a hybrid work model with growth opportunities.What You’ll DoBuild & Innovate: Develop high-performance applications using PHP and Symfony, implementing new functionality based on business needs.Optimize & Secure: Design PostgreSQL schemas, ensure stability through automated testing, and maintain top-notch security practices.Collaborate & Deliver: Work with Architects, Product Owners, and DevOps to align solutions with strategy and resolve production incidents.What We Expect2+ years of PHP development experience (Symfony preferred).Good skills in PostgreSQL and query optimization.Experience with REST APIs, Git, and Docker.A proactive mindset and good English language skills.What We OfferProfessional Growth: Vertical and horizontal career paths paired with continuous learning.Health & Perks: Additional health insurance, Senukai employee discounts, and a birthday day off.Culture of Influence: The freedom to contribute your ideas and drive real change.Salary starting from €3400 gross per month, depending on experience* **If you’re passionate about e-commerce and eager to be part of a company that’s shaping the future of online shopping in the Baltics, Kesko Senukai Digital is the place for you. Come grow with us and help us set new standards as one of the leaders in today’s retail industry!If you’re ready to join a team of creative professionals keen on new challenges and continuous improvement, contact us today.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 + Laravel match",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires 2+ years PHP experience",
+        "Symfony preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4423921380",
+      "title": "PHP Developer",
+      "company": "Websupport.sk",
+      "url": "https://sk.linkedin.com/jobs/view/php-developer-at-websupport-sk-4423921380",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-08",
+      "description": "PHP Developer/ka Jedna poznámka hneď na začiatok - Websupport je súčasťou team.blue, preto ťa chceme poprosiť o CVčko v angličtine.Ako Bude vyzerať tvoj týždeň v práci?Pred ranným stand-upom o desiatej si dáš s kolegami z develu kávu. Potom preberiete, na čom pracuješ, s čím sa ti darí a s čím potrebuješ pomôcť.Tvojou rutinou bude návrh riešení, kódenie a code review na požiadavkách, ktoré zadávajú naši product owneri.Pravidelne budeš spolupracovať s ostatnými PHP developermi a teamleadom, našim front-end tímom, projekťákom a produkťákom.Okrem samotného programovania budeš riešenia aj objasňovať a diskutovať o nich s kolegami.Používať budeš najmä Laravel a Symfony.Čakajú ťa projekty ako dopĺňanie feature parity z iných platforiem, nové produkty alebo prerábka starších systémov do novej architektúry.Očakávame od tebaDobrú znalosť PHPSkúsenosť s MVC frameworkomSi zbehlý/zbehlá v GIT a composerNebojíš sa experimentov a problémov, rád/rada sa z nich poučíš a vymyslíš zlepšeniaChuť pracovať na sebe a zlepšovať saSkúsenosť s prácou v tíme je veľkou výhodouSkúsenosť s písaním automatizovaných testov je výhodou (PHPUnit, CodeCeption, Selenium…).Očakávaj od násPriestor pre seba: Rozumieme, že každý funguje inak. Preto sa radi pobavíme o tom, kedy a ako sa ti pracuje najlepšie. Flexibilný pracovný čas, možnosť pracovať na diaľku a 7 dní voľna navyše… vďaka tomu si ľahšie zladíš prácu a osobný život.Well-being: V zdravom tele zdravý duch – a platí to aj naopak. Príspevok 50 % na Multisport kartu pomôže k lepšej kondičke a online terapie cez Hedepy podporia duševnú pohodu. K tomu ešte príspevok na stravu 5 € aj počas voľna alebo návštevy lekára.Príležitosť rásť: Zaleží nám na tom, aby ľudia u nás rástli. Budeš môcť chodiť na prednášky, konferencie, zlepšovať si angličtinu, či vzdelávať sa interne. Organizujeme aj Health Day a workshopy na rôzne témy, nech môžeš napredovať po všetkých stránkach.Podpora skúseného tímu: Budeš v spoločnosti kolegýň a kolegov, ktorí ti radi pomôžu v oblastiach, kde sa necítiš komfortne a podporia ťa, nech môžeš rozvíjať svoje najlepšie “ja”. Vždy sa budeš mať na koho obrátiť.Dôvera v tvoje schopnosti: Tvoj názor nás zaujíma. Kedykoľvek môžeš prísť s vlastným pohľadom, zapojiť sa do debaty o riešeniach a podieľať sa na tom, čo budujeme. Vieme, že dobrý nápad môže prísť z nečakaného smeru.Cooltúra: Hackathony, raňajky, vianočný žúr, letná párty, Kids Day, afterky či vítanie nových kolegov. To všetko si spolu užijeme v našich priestranných ka",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Danish learning",
+        "No US mention"
+      ],
+      "easy_apply": true
+    },
+    {
       "id": "LinkedIn_urn:li:jobPosting:4424265751",
       "title": "Full-Stack PHP / Laravel Developer",
       "company": "wherewework Jobs",
@@ -2610,127 +2771,6 @@
         "Angular required",
         "No Danish fluency"
       ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4417750204",
-      "title": "Medior PHP developer",
-      "company": "Starapple",
-      "url": "https://nl.linkedin.com/jobs/view/medior-php-developer-at-starapple-4417750204",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-07",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Limited experience expected",
-        "No AWS certification required"
-      ],
-      "description": "OrganisatieWaar anderen losse datastromen zien, zie jij een systeem dat slimmer, sneller en schaalbaarder kan. Als back-end developer bouw je aan technologie die dagelijks de motor vormt achter duizenden processen binnen de automotive branche van voorraadbeheer tot complexe internationale datakoppelingen.Deze organisatie is al ruim 20 jaar specialist in automotive databeheer en ontwikkelt technologie waarmee auto’s, onderdelen, motoren en zelfs boten automatisch worden verzameld, verwerkt en gepubliceerd. De kern van het platform? Een zelfontwikkelde API die realtime voorraadgegevens ophaalt bij autobedrijven en deze inzet voor prijsvergelijkingen, advertenties en slimme koppelingen tussen systemen.Achter de schermen draait een technisch landschap met honderden actieve datakoppelingen, zowel nationaal als internationaal. Inmiddels beheren zij ongeveer 90% van de markt en maken meer dan 12.000 eindgebruikers dagelijks gebruik van hun software.Autobedrijven hoeven hun voorraad slechts één keer aan te leveren, waarna het platform alles automatisch distribueert naar verschillende advertentiekanalen. Geen handmatig gedoe, geen losse processen maar juist volledig geautomatiseerd.De technologie is volledig in eigen huis ontwikkeld, erkend met WBSO-subsidies én ondersteund door een octrooi. Hier bouw je dus niet aan standaardsoftware, maar aan schaalbare systemen die daadwerkelijk impact maken binnen een complete branche.Functie Je wordt onderdeel van een compact en betrokken team van 15 collega’s, waarvan de helft zich richt op development. Samen werk je aan het ontwerpen, vernieuwen en door ontwikkelen van het systeem, met een duidelijke focus op back-end werkzaamheden zoals:Het verbeteren en uitbreiden van de bestaande API’sHet bouwen van nieuwe datakoppelingenHet onderhouden van systemen die grote hoeveelheden mutaties efficiënt verwerkenWerken met diverse programmeertalen, waaronder Go (voor nieuwe componenten), PHP en C++ (voor bestaande onderdelen)Er is veel ruimte om zelf mee te denken over de juiste tools en oplossingen, pragmatisme en technische creativiteit worden gewaardeerd.Functie eisen Je hebt een aansluitende of relevante opleiding afgerond. hbo werk- en denkniveau.Sterk analytisch en abstractievermogenAantoonbare ervaring met softwareontwikkeling en -ontwerp, bij voorkeur op het gebied van API’sKennis van PHP, MySQL, Go (Golang) is een préEen leergierige en proactieve werkhoudingEnthousiasme voor het oplossen van complexe technische vraagstukkenWa",
-      "easy_apply": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4418948136",
-      "title": "PHP Developer",
-      "company": "Multitude",
-      "url": "https://lt.linkedin.com/jobs/view/php-developer-at-multitude-4418948136",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-07",
-      "match_score": 80,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No mention of AWS certification",
-        "No mention of PostgreSQL"
-      ],
-      "description": "We are looking for a motivated and experienced Mid-Level PHP Developer to join our development team. In this role, you will work primarily with pure PHP 8+ to build, maintain, and improve backend systems and web applications. You should be comfortable writing clean, efficient, and scalable code without relying heavily on full-stack frameworks.This position is ideal for someone who enjoys problem-solving, backend architecture, and writing modern PHP applications using best practices and object-oriented programming principles.We OfferA Truly Global Workplace – collaborate with 40+ nationalities across 25+ countries, embracing diversity, inclusion, and cross-cultural innovationHybrid & Flexible Work – balance your life and career with remote-friendly policies and modern offices across EuropeA Culture of Growth – accelerate your development with access to LinkedIn Learning, structured mentorship, and internal leadership programmes (HiPo & People Leader tracks)Workation Programme – work remotely from abroad for up to 2 months per year and experience new cultures while staying connected and productiveFinancial Growth Opportunities – invest in your future with our share purchase matching programme, doubling your contributions and fostering long-term rewardsPrivate Health Insurance – access comprehensive medical coverage to support your healthPension Insurance – secure your financial future with a fully funded pension schemeKey ResponsibilitiesDevelop and maintain web applications using pure PHP 8+Write clean, reusable, and well-documented codeDesign and implement backend APIs and business logicWork with PostgreSQL and other relational databasesDebug, troubleshoot, and optimize existing systemsCollaborate with frontend developers and other team membersParticipate in code reviews and technical discussionsImprove application performance, security, and scalabilityContribute to software architecture and technical decisionsMaintain and update existing legacy PHP systems when requiredRequired Qualifications2+ years of professional PHP development experienceStrong knowledge of PHP 8+ and modern PHP practicesSolid understanding of OOP, SOLID principles, and design patternsGood understanding of REST APIs and backend integrationsKnowledge of web technologies including HTML, CSS, JavaScript, and HTTPExperience debugging and profiling PHP applicationsAbility to work independently and manage tasks effectivelyWe may use artificial intelligence (AI) tools to support specific par"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4413875329",
-      "title": "PHP Developer (Onsite)",
-      "company": "Alexander Lyons Solutions",
-      "url": "https://mt.linkedin.com/jobs/view/php-developer-onsite-at-alexander-lyons-solutions-4413875329",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-07",
-      "match_score": 45,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 match"
-      ],
-      "match_cons": [
-        "Onsite requirement",
-        "No mention of remote work"
-      ],
-      "description": "Our client, a multinational technology provider is seeking a PHP Developer with around 1-3 years’ experience to join their team in Valleta on a permanent basis.What You’ll Work OnDevelop clean, maintainable PHP code for web apps and microservicesIntegrate with internal teams and external vendors on APIs and new featuresSupport customer service teams by troubleshooting technical issuesContribute to user stories, documentation, and continuous improvementExplore and adopt modern PHP technologies and best practicesTech StackCore: PHPDatabases: MSSQL, Redis, MongoDBVersion Control: GitHubBonus: Google Cloud Platform (Compute Engine, Cloud SQL, Cloud Run, Cloud Build, Cloud Monitoring), DevOps exposureWhat You BringDiploma/Degree in Computer Science or related fieldSolid PHP fundamentalsClear communication and collaborative mindsetSelf‑driven, organised, and solutions‑focusedFluent English language skillsAdditional DetailsOnsite role (no remote option)Open to EU Nationals and Residents only. Please do not apply if you are not authorised to work in the EU."
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4414249830",
-      "title": "Backend Developer - PHP (w/m/d)",
-      "company": "MOGIC",
-      "url": "https://de.linkedin.com/jobs/view/backend-developer-php-w-m-d-at-mogic-4414249830",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-07",
-      "match_score": 83,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No AWS certification",
-        "No description available"
-      ],
-      "description": "ZustimmungDetails[#IABV2SETTINGS#]Über CookiesDiese Webseite verwendet CookiesWir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.[#GPC_BANNER_ICON#][#GPC_TOAST_TEXT#]EinwilligungsauswahlNotwendigPräferenzenStatistikenMarketingDetails zeigenDetailsCookieConsentSpeichert den Zustimmungsstatus des Benutzers für Cookies auf der aktuellen Domäne.Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen, indem sie Grundfunktionen wie Seitennavigation und Zugriff auf sichere Bereiche der Webseite ermöglichen. Die Webseite kann ohne diese Cookies nicht richtig funktionieren.Cookiebot 1 Erfahren Sie mehr über diesen AnbieterMaximale Speicherdauer: 1 MonatTyp: HTTP-Cookie Ein Teil der Daten, die dieser Anbieter gesammelt hat, dient der Personalisierung und der Messung der Werbewirksamkeit.Präferenz-Cookies ermöglichen einer Webseite sich an Informationen zu erinnern, die die Art beeinflussen, wie sich eine Webseite verhält oder aussieht, wie z. B. Ihre bevorzugte Sprache oder die Region in der Sie sich befinden.Wir nutzen diese Cookie-Typen nicht.Statistik-Cookies helfen Webseiten-Besitzern zu verstehen, wie Besucher mit Webseiten interagieren, indem Informationen anonym gesammelt und gemeldet werden.Google 2 Erfahren Sie mehr über diesen Anbieter_gaRegistriert eine eindeutige ID, die verwendet wird, um statistische Daten dazu, wie der Besucher die Website nutzt, zu generieren.Maximale Speicherdauer: 2 JahreTyp: HTTP-Cookie_ga_#Sammelt Daten dazu, wie oft ein Benutzer eine Website besucht hat, sowie Daten für den ersten und letzten Besuch. Von Google Analytics verwendet.Maximale Speicherdauer: 2 JahreTyp: HTTP-Cookie JotForm 2 Erfahren Sie mehr über diesen Anbieterguest [x2]Registriert Daten auf dem Webseite-Verhalten der Besucher. Dies wird für interne Analysen und Webseite-Optimierung verwendet.Maximale Speicherdauer: 1 MonatTyp: HTTP-Cookie lastExternalReferrerErmittelt, wie der Nutzer die Website erreicht hat, indem seine letzte URL-Adresse registriert wird.Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu fo"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4390369244",
-      "title": "Mid-Level PHP Developer",
-      "company": "Kesko Senukai Digital (e-commerce)",
-      "url": "https://lt.linkedin.com/jobs/view/mid-level-php-developer-at-kesko-senukai-digital-e-commerce-4390369244",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-07",
-      "description": "Are you ready to elevate your impact within the e-commerce industry? At Kesko Senukai Digital, we are looking for a Mid-level PHP Developer to join our growing team at Kesko Senukai Digital. You will be working on a new large-scale project that impacts thousands of users every day across the Baltics.Why Join Us?Impact: Work on high-traffic systems and impactful digital solutions.Expertise: Collaborate with experienced professionals in a fast-paced environment.Balance: Enjoy a hybrid work model with growth opportunities.What You’ll DoBuild & Innovate: Develop high-performance applications using PHP and Symfony, implementing new functionality based on business needs.Optimize & Secure: Design PostgreSQL schemas, ensure stability through automated testing, and maintain top-notch security practices.Collaborate & Deliver: Work with Architects, Product Owners, and DevOps to align solutions with strategy and resolve production incidents.What We Expect2+ years of PHP development experience (Symfony preferred).Good skills in PostgreSQL and query optimization.Experience with REST APIs, Git, and Docker.A proactive mindset and good English language skills.What We OfferProfessional Growth: Vertical and horizontal career paths paired with continuous learning.Health & Perks: Additional health insurance, Senukai employee discounts, and a birthday day off.Culture of Influence: The freedom to contribute your ideas and drive real change.Salary starting from €3400 gross per month, depending on experience* **If you’re passionate about e-commerce and eager to be part of a company that’s shaping the future of online shopping in the Baltics, Kesko Senukai Digital is the place for you. Come grow with us and help us set new standards as one of the leaders in today’s retail industry!If you’re ready to join a team of creative professionals keen on new challenges and continuous improvement, contact us today.",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 + Laravel match",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires 2+ years PHP experience",
-        "Symfony preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4423921380",
-      "title": "PHP Developer",
-      "company": "Websupport.sk",
-      "url": "https://sk.linkedin.com/jobs/view/php-developer-at-websupport-sk-4423921380",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-07",
-      "description": "PHP Developer/ka Jedna poznámka hneď na začiatok - Websupport je súčasťou team.blue, preto ťa chceme poprosiť o CVčko v angličtine.Ako Bude vyzerať tvoj týždeň v práci?Pred ranným stand-upom o desiatej si dáš s kolegami z develu kávu. Potom preberiete, na čom pracuješ, s čím sa ti darí a s čím potrebuješ pomôcť.Tvojou rutinou bude návrh riešení, kódenie a code review na požiadavkách, ktoré zadávajú naši product owneri.Pravidelne budeš spolupracovať s ostatnými PHP developermi a teamleadom, našim front-end tímom, projekťákom a produkťákom.Okrem samotného programovania budeš riešenia aj objasňovať a diskutovať o nich s kolegami.Používať budeš najmä Laravel a Symfony.Čakajú ťa projekty ako dopĺňanie feature parity z iných platforiem, nové produkty alebo prerábka starších systémov do novej architektúry.Očakávame od tebaDobrú znalosť PHPSkúsenosť s MVC frameworkomSi zbehlý/zbehlá v GIT a composerNebojíš sa experimentov a problémov, rád/rada sa z nich poučíš a vymyslíš zlepšeniaChuť pracovať na sebe a zlepšovať saSkúsenosť s prácou v tíme je veľkou výhodouSkúsenosť s písaním automatizovaných testov je výhodou (PHPUnit, CodeCeption, Selenium…).Očakávaj od násPriestor pre seba: Rozumieme, že každý funguje inak. Preto sa radi pobavíme o tom, kedy a ako sa ti pracuje najlepšie. Flexibilný pracovný čas, možnosť pracovať na diaľku a 7 dní voľna navyše… vďaka tomu si ľahšie zladíš prácu a osobný život.Well-being: V zdravom tele zdravý duch – a platí to aj naopak. Príspevok 50 % na Multisport kartu pomôže k lepšej kondičke a online terapie cez Hedepy podporia duševnú pohodu. K tomu ešte príspevok na stravu 5 € aj počas voľna alebo návštevy lekára.Príležitosť rásť: Zaleží nám na tom, aby ľudia u nás rástli. Budeš môcť chodiť na prednášky, konferencie, zlepšovať si angličtinu, či vzdelávať sa interne. Organizujeme aj Health Day a workshopy na rôzne témy, nech môžeš napredovať po všetkých stránkach.Podpora skúseného tímu: Budeš v spoločnosti kolegýň a kolegov, ktorí ti radi pomôžu v oblastiach, kde sa necítiš komfortne a podporia ťa, nech môžeš rozvíjať svoje najlepšie “ja”. Vždy sa budeš mať na koho obrátiť.Dôvera v tvoje schopnosti: Tvoj názor nás zaujíma. Kedykoľvek môžeš prísť s vlastným pohľadom, zapojiť sa do debaty o riešeniach a podieľať sa na tom, čo budujeme. Vieme, že dobrý nápad môže prísť z nečakaného smeru.Cooltúra: Hackathony, raňajky, vianočný žúr, letná párty, Kids Day, afterky či vítanie nových kolegov. To všetko si spolu užijeme v našich priestranných ka",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Danish learning",
-        "No US mention"
-      ],
-      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4425130482",
