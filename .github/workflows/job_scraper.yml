@@ -30,7 +30,7 @@ jobs:
       - name: Score jobs with Groq API
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: python scraper/job_scorer.py
+        run: python scraper/job_scorer.py --max 50
 
       - name: Commit updated jobs.json
         run: |

@@ -22,9 +22,9 @@ import requests
 
 JOBS_FILE  = Path(__file__).parent.parent / "jobs.json"
 GROQ_URL   = "https://api.groq.com/openai/v1/chat/completions"
-MODEL      = "llama-3.1-8b-instant"   # 30k TPM free tier vs 6k for 70b — fine for structured scoring
-REQUEST_DELAY = 3       # seconds between requests
-RETRY_DELAYS  = [10, 30, 60]  # backoff on 429
+MODEL      = "llama-3.1-8b-instant"   # fine for structured JSON scoring
+REQUEST_DELAY = 13      # ~1100 tokens/req, 6k TPM free limit → max ~5 RPM → 13s safe floor
+RETRY_DELAYS  = [30, 60, 120]  # aggressive backoff on 429
 
 # ── Your profile (edit this to keep it up to date) ────────────────────────────
 
