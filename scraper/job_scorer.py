@@ -22,9 +22,9 @@ import requests
 
 JOBS_FILE  = Path(__file__).parent.parent / "jobs.json"
 GROQ_URL   = "https://api.groq.com/openai/v1/chat/completions"
-MODEL      = "llama-3.3-70b-versatile"
-REQUEST_DELAY = 4       # seconds between requests (70b has tighter TPM limits)
-RETRY_DELAYS  = [5, 15, 30]  # backoff on 429
+MODEL      = "llama-3.1-8b-instant"   # 30k TPM free tier vs 6k for 70b — fine for structured scoring
+REQUEST_DELAY = 3       # seconds between requests
+RETRY_DELAYS  = [10, 30, 60]  # backoff on 429
 
 # ── Your profile (edit this to keep it up to date) ────────────────────────────
 
@@ -111,10 +111,12 @@ Rules:
         "temperature": 0.1,
     }
 
+    had_429 = False
     for wait in [0] + RETRY_DELAYS:
         if wait:
             print(f"    [429] rate limited — retrying in {wait}s...")
             time.sleep(wait)
+            had_429 = True
         resp = requests.post(GROQ_URL, headers=headers, json=body, timeout=30)
         if resp.status_code == 429:
             continue
@@ -122,6 +124,10 @@ Rules:
         break
     else:
         resp.raise_for_status()
+
+    # After recovering from a 429, wait extra before the next request
+    if had_429:
+        time.sleep(REQUEST_DELAY * 2)
 
     raw = resp.json()["choices"][0]["message"]["content"].strip()
 
