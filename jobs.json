@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T04:04:34.498224+00:00",
+  "updated_at": "2026-06-09T07:05:54.823880+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -173,6 +173,46 @@
       "match_cons": [
         "No description",
         "Wrong title"
+      ]
+    },
+    {
+      "id": "IT-jobbank_h1672820",
+      "title": "Børns Vilkår søger studentermedhjælper med stærke videokompetencer",
+      "company": "Børns Vilkår",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1672820/boerns-vilkaar-soeger-studentermedhjaelper-med-staerke-videokompetencer",
+      "source": "IT-jobbank",
+      "date": "2026-06-09",
+      "fetched_at": "2026-06-09",
+      "denmark": true,
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires fluent Danish"
+      ]
+    },
+    {
+      "id": "IT-jobbank_h1672815",
+      "title": "Studentermedhjælper til kommunikationsteamet i Børns Vilkår",
+      "company": "Børns Vilkår",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1672815/studentermedhjaelper-til-kommunikationsteamet-i-boerns-vilkaar",
+      "source": "IT-jobbank",
+      "date": "2026-06-09",
+      "fetched_at": "2026-06-09",
+      "denmark": true,
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Not PHP primary",
+        "Danish preferred"
       ]
     },
     {
@@ -3877,7 +3917,8 @@
       "match_cons": [
         "No Laravel",
         "Danish preferred"
-      ]
+      ],
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4418089307",
@@ -4763,7 +4804,8 @@
       "match_cons": [
         "Seniority slightly lower",
         "Danish preferred"
-      ]
+      ],
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4415617312",
@@ -5960,46 +6002,6 @@
       "match_cons": [
         "Primary language not PHP",
         "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4419980515",
-      "title": "PHP-Entwicklung (m/w/d) in Voll- oder Teilzeit / vor Ort oder remote",
-      "company": "kultwerk GmbH",
-      "url": "https://at.linkedin.com/jobs/view/php-entwicklung-m-w-d-in-voll-oder-teilzeit-vor-ort-oder-remote-at-kultwerk-gmbh-4419980515",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-09",
-      "description": "PHP-Entwicklung (m/w/d)in Voll- oder Teilzeit / vor Ort oder remoteWas wir uns von Dir wünschenFundierte Kenntnisse in objektorientierter Programmierung (OOP) mit PHPIdeal sind Erfahrungen mit Typo3 oder Drupal, git, Datenbankdesign und Design-PatternsHohe Motivation zur fachlichen Weiterentwicklung und Begeisterungsfähigkeit für neue WebtechnologienHohes Maß an Qualitätsbewusstsein sowie eine selbstständige und eigenverantwortliche ArbeitsweiseStudium der Medieninformatik oder vergleichbarer Studiengang oder auch Quereinstieg mit entsprechender ErfahrungWo Du Dich einbringen kannstIn der technischen Konzeption von Web-ProjektenAls technischer Ansprechpartner in der Konzept- und DesignentwicklungBei der Programmierung und Umsetzung von Web-Projekten Schwerpunkt BackendWerde Teil vom kultwerk Team!Auch wenn nicht alle Voraussetzungen auf Dich zutreffen: Bewerbungen von motivierten und talentierten Menschen sind immer willkommen!Sende uns einfach Deine Bewerbungsunterlagen inklusive Starttermin und Gehaltsvorstellung. Wir freuen uns darauf!Wenn Du uns Deine Bewerbung verschlüsselt senden möchtest, sprich uns gerne an.Deine Bewerbung Geht AnLena Stahljobs@kultwerk.de",
-      "match_score": 83,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Laravel matches"
-      ],
-      "match_cons": [
-        "Missing Symfony",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4417772529",
-      "title": "Junior Software Developer PHP – Network Automation (m/f/d)",
-      "company": "netcup",
-      "url": "https://at.linkedin.com/jobs/view/junior-software-developer-php-%E2%80%93-network-automation-m-f-d-at-netcup-4417772529",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-09",
-      "description": "Be Yourself - Because that´s how we want You to beWe can, we want and we are also entitled to - because we are a team of highly motivated and qualified employees who are as passionate about inspiring customers as we are about working on technical solutions. And that makes us unique! If you want to take yourself and our products further, then come to us and shape the future of netcup!Junior Software Developer PHP – Network Automation (m/f/d)as of now | Full-time | Vienna, Graz, KlagenfurtYou are passionate and enthusiastic about innovative technology. You are committed, enjoy working independently and have a high level of quality awareness. Then this is the right position for you.#PROFILEWorking on complex tasks related to the automation of our network-intensive servicesYou can see yourself working in one or more of the following areas: Frontend development On the Anexia Engine, with a special focus on the network-centric services Backend development Management and self-service deployment of network resources (IP space, VLANs, VXLAN, VRF resources) for our more than 100 locations worldwide Switchport automation Templating, rendering and deployment of the configuration of network components in a multi-vendor environment (e.g. Juniper, Arista, Fortinet, etc.)Further development Design and requirements engineering for new features in collaboration with various business stakeholders and our Network Operations, Network Delivery and Network Security teams We Use These TechnologiesBackendPHP 8.2PhalconDoctrine, MariaDBCodeceptionIntegrationREST APIsNetconfgRPC/gNMIFrontendVUE, JavaScriptProject management and documentationJira and ConfluenceSource code versioning, build and deployGitlab, Gitlab CI/CDDevelopment environment (IDE)PhpStormTest systemBash, Ansible, Docker#WANTEDInitial practical experience with PHP development; knowledge of object-oriented programming (OOP) is a plusIdeally, initial experience in network operationsBasic knowledge of SQL; initial experience with ORMs is desirableBasic understanding of REST APIs and JSONKnowledge of frameworks such as Laravel and Phalcon is a plusBasic understanding of UX principlesYou find it easy to grasp technical conceptsExcellent written and spoken German and good written and spoken English#WHAT WE OFFERWe are more than just a workplace. Therefore, we offer our employees many benefits (which partly depend on your position and location): good transport connections and flexible working hours. Period. Not to mention f",
-      "match_score": 55,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires German",
-        "DevOps-like tasks"
       ]
     }
   ]
