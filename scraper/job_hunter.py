@@ -35,12 +35,16 @@ KEYWORDS = [
     # Frameworks
     "symfony", "laravel", "codeigniter", "kohana",
     "codeigniter developer", "kohana developer",
+    # PHP CMSs / platforms
+    "magento", "magento developer", "magento engineer",
+    "wordpress developer", "wordpress engineer", "wordpress php",
+    "drupal", "drupal developer",
     # Danish
-    "php udvikler", "codeigniter udvikler",
+    "php udvikler", "codeigniter udvikler", "magento udvikler",
 ]
 
 # Used by is_relevant() to verify descriptions actually mention PHP
-PHP_SIGNALS = {"php", "laravel", "symfony", "kohana", "codeigniter"}
+PHP_SIGNALS = {"php", "laravel", "symfony", "kohana", "codeigniter", "magento", "wordpress", "drupal"}
 
 # Recruiter farms and middleman platforms — high volume, near-zero conversion
 BLACKLISTED_COMPANIES = {
@@ -297,7 +301,7 @@ def fetch_jobindex() -> list:
     """Jobindex.dk — largest Danish job board, RSS per keyword."""
     out = []
     seen_urls: set = set()
-    keywords = ["php", "php developer", "php udvikler", "laravel", "symfony", "codeigniter", "kohana"]
+    keywords = ["php", "php developer", "php udvikler", "laravel", "symfony", "codeigniter", "kohana", "magento", "drupal"]
     for kw in keywords:
         try:
             feed = feedparser.parse(
@@ -415,6 +419,7 @@ _LINKEDIN_KEYWORDS = [
     "PHP Developer", "Senior PHP Developer", "Laravel Developer",
     "Symfony Developer", "Full Stack PHP", "PHP Backend Developer",
     "PHP Engineer", "CodeIgniter Developer", "PHP Web Developer",
+    "Magento Developer", "Drupal Developer",
 ]
 
 def _linkedin_search(params: dict, label: str = "LinkedIn", denmark: bool = False, max_pages: int = 3) -> list:
@@ -448,7 +453,8 @@ def _linkedin_search(params: dict, label: str = "LinkedIn", denmark: bool = Fals
                         continue
                     seen_urls.add(url)
                     new_on_page += 1
-                    if matches(f"{title} {clean(company_el.text) if company_el else ''}"):
+                    company_text = clean(company_el.text) if company_el else ""
+                    if matches(f"{title} {company_text}"):
                         out.append(make_job(
                             "LinkedIn", uid, title,
                             company_el.text if company_el else "",
