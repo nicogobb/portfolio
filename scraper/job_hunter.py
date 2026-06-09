@@ -277,6 +277,47 @@ def fetch_workingnomads() -> list:
         print(f"  [!] WorkingNomads: {e}")
         return []
 
+def fetch_phpdevelopercareers() -> list:
+    """PHPDeveloperCareers.com — curated PHP-only job board, HTML scrape.
+    Listing page is server-side rendered; no RSS or API available.
+    Jobs are worldwide remote — not Denmark-specific despite the /jobs-denmark/ URL.
+    """
+    out = []
+    seen_slugs: set = set()
+    for page in range(1, 3):  # 2 pages, ~20 jobs each
+        try:
+            params = {} if page == 1 else {"page": page}
+            r = requests.get(
+                "https://phpdevelopercareers.com/jobs/",
+                params=params,
+                headers=HEADERS, timeout=15,
+            )
+            r.raise_for_status()
+            soup = BeautifulSoup(r.text, "html.parser")
+            for a in soup.find_all("a", href=re.compile(r"^/jobs/[^/]+/$")):
+                href = a.get("href", "")
+                if href in seen_slugs or href == "/jobs/":
+                    continue
+                seen_slugs.add(href)
+                title = clean(a.get_text(strip=True))
+                if not title:
+                    continue
+                # Company is in the sibling <h4 class="inline text-green-700...">
+                card = a.find_parent("div")
+                company = ""
+                if card:
+                    h4 = card.find_next("h4")
+                    if h4:
+                        company = clean(h4.get_text(strip=True))
+                url  = f"https://phpdevelopercareers.com{href}"
+                slug = href.strip("/").split("/")[-1]
+                out.append(make_job("PHPDevCareers", slug, title, company, url))
+            time.sleep(0.5)
+        except Exception as e:
+            print(f"  [!] PHPDevCareers (page {page}): {e}")
+    return out
+
+
 def fetch_larajobs() -> list:
     """Larajobs.com — curated Laravel/PHP job board, RSS feed."""
     try:
@@ -595,6 +636,7 @@ def main():
         ("Landing.jobs",     fetch_landing_jobs),
         ("WorkingNomads",    fetch_workingnomads),
         ("Larajobs",         fetch_larajobs),
+        ("PHPDevCareers",    fetch_phpdevelopercareers),
         ("LinkedIn remote",   fetch_linkedin_remote),
         ("LinkedIn Europe",   fetch_linkedin_europe),
         ("LinkedIn EU onsite",fetch_linkedin_eu_onsite),
