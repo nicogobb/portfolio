@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T15:43:27.922848+00:00",
+  "updated_at": "2026-06-09T16:08:51.460674+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -5474,7 +5474,8 @@
       "match_cons": [
         "Legacy code",
         "Twig views"
-      ]
+      ],
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4422971482",
@@ -5931,7 +5932,8 @@
       "match_cons": [
         "Requires AWS",
         "Danish preferred"
-      ]
+      ],
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4413988271",
@@ -6800,7 +6802,8 @@
       "match_cons": [
         "Requires TypeScript",
         "US-only company"
-      ]
+      ],
+      "description_failed": true
     },
     {
       "id": "PHPDevCareers_sr-software-engineer-phptypescript-909418",
@@ -6819,7 +6822,8 @@
       "match_cons": [
         "Requires AWS",
         "No EU timezone mention"
-      ]
+      ],
+      "description_failed": true
     },
     {
       "id": "PHPDevCareers_advanced-practice-provider-psychiatry-phpiop-910616",
@@ -6837,7 +6841,8 @@
       "match_cons": [
         "DevOps role",
         "US-only company"
-      ]
+      ],
+      "description_failed": true
     },
     {
       "id": "PHPDevCareers_front-end-web-engineer-support-maintenance-wordpress-906716",
@@ -6855,7 +6860,8 @@
       "match_cons": [
         "Primary language is NOT PHP",
         "Requires AWS"
-      ]
+      ],
+      "description_failed": true
     },
     {
       "id": "PHPDevCareers_magento-backend-developer-905692",
@@ -6873,7 +6879,8 @@
       "match_cons": [
         "Not Magento",
         "Not backend dev"
-      ]
+      ],
+      "description_failed": true
     },
     {
       "id": "PHPDevCareers_senior-product-engineer-python-php-905552",
@@ -6892,7 +6899,8 @@
       "match_cons": [
         "Primary language is Python",
         "Requires AWS"
-      ]
+      ],
+      "description_failed": true
     },
     {
       "id": "PHPDevCareers_fullstack-php-developer-magento-2-wordpress-remote-latin-america-905421",
@@ -6911,7 +6919,8 @@
       "match_cons": [
         "Not EU timezone",
         "Requires AWS"
-      ]
+      ],
+      "description_failed": true
     },
     {
       "id": "PHPDevCareers_senior-back-end-engineer-with-drupal-902616",
@@ -6929,7 +6938,8 @@
       "match_cons": [
         "Not Drupal expertise",
         "Requires AWS"
-      ]
+      ],
+      "description_failed": true
     },
     {
       "id": "PHPDevCareers_wordpress-developer-902172",
@@ -6947,7 +6957,8 @@
       "match_cons": [
         "Primary language is NOT PHP",
         "Requires fluent Danish"
-      ]
+      ],
+      "description_failed": true
     },
     {
       "id": "PHPDevCareers_staff-php-engineer-905249",
@@ -6966,7 +6977,8 @@
       "match_cons": [
         "Requires AWS",
         "No EU timezone mention"
-      ]
+      ],
+      "description_failed": true
     },
     {
       "id": "PHPDevCareers_senior-drupal-backend-developer-901074",
@@ -6975,7 +6987,17 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-drupal-backend-developer-901074/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language"
+      ],
+      "match_cons": [
+        "Not Drupal",
+        "Not backend developer"
+      ]
     },
     {
       "id": "PHPDevCareers_mid-drupal-front-end-developer-901073",
@@ -6984,7 +7006,17 @@
       "url": "https://phpdevelopercareers.com/jobs/mid-drupal-front-end-developer-901073/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-backend-engineer-net-laravel-899937",
@@ -6993,7 +7025,17 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-backend-engineer-net-laravel-899937/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel matches"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires .NET knowledge"
+      ]
     },
     {
       "id": "PHPDevCareers_wordpress-developer-899809",
@@ -7002,7 +7044,17 @@
       "url": "https://phpdevelopercareers.com/jobs/wordpress-developer-899809/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Role mismatch"
+      ]
     },
     {
       "id": "PHPDevCareers_interpersonal-frequency-senior-backend-drupal-developer-896541",
@@ -7011,7 +7063,18 @@
       "url": "https://phpdevelopercareers.com/jobs/interpersonal-frequency-senior-backend-drupal-developer-896541/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly",
+        "Senior backend role"
+      ],
+      "match_cons": [
+        "Not PHP primary",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-software-engineer-backend-drupal-expert-908989",
@@ -7020,7 +7083,18 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-software-engineer-backend-drupal-expert-908989/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly",
+        "PHP primary language"
+      ],
+      "match_cons": [
+        "Drupal not mentioned",
+        "AWS required"
+      ]
     },
     {
       "id": "PHPDevCareers_wordpress-web-developer-888709",
@@ -7029,7 +7103,17 @@
       "url": "https://phpdevelopercareers.com/jobs/wordpress-web-developer-888709/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_php-developer-with-ddd-885151",
@@ -7038,7 +7122,18 @@
       "url": "https://phpdevelopercareers.com/jobs/php-developer-with-ddd-885151/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 58,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "No EU timezone mention"
+      ]
     },
     {
       "id": "PHPDevCareers_web-developer-joomla-php-javascript-tssci-w-poly-880081",
@@ -7047,7 +7142,18 @@
       "url": "https://phpdevelopercareers.com/jobs/web-developer-joomla-php-javascript-tssci-w-poly-880081/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires TS/SCI clearance",
+        "No EU timezone mention"
+      ]
     },
     {
       "id": "PHPDevCareers_wordpress-maintenance-hosting-support-engineer-880029",
@@ -7056,7 +7162,17 @@
       "url": "https://phpdevelopercareers.com/jobs/wordpress-maintenance-hosting-support-engineer-880029/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_magento-developer-877350",
@@ -7065,7 +7181,17 @@
       "url": "https://phpdevelopercareers.com/jobs/magento-developer-877350/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP is primary language"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_php-developer-879697",
@@ -7074,7 +7200,17 @@
       "url": "https://phpdevelopercareers.com/jobs/php-developer-879697/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_php-developer-mid-874870",
@@ -7083,7 +7219,17 @@
       "url": "https://phpdevelopercareers.com/jobs/php-developer-mid-874870/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP matches"
+      ],
+      "match_cons": [
+        "US-only company",
+        "Recruiter agency"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-wordpress-engineer-freelance-887241",
@@ -7092,7 +7238,17 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-wordpress-engineer-freelance-887241/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_wordpress-developer-legal-marketing-869625",
@@ -7101,7 +7257,17 @@
       "url": "https://phpdevelopercareers.com/jobs/wordpress-developer-legal-marketing-869625/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-fullstack-engineer-phpsymfony-869517",
@@ -7110,7 +7276,17 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-fullstack-engineer-phpsymfony-869517/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language"
+      ],
+      "match_cons": [
+        "Not a direct employer",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_phplaravel-backend-engineer-hybrid-869486",
@@ -7119,7 +7295,18 @@
       "url": "https://phpdevelopercareers.com/jobs/phplaravel-backend-engineer-hybrid-869486/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Primary language not specified"
+      ]
     },
     {
       "id": "PHPDevCareers_software-engineer-laravel-php-866156",
@@ -7128,7 +7315,18 @@
       "url": "https://phpdevelopercareers.com/jobs/software-engineer-laravel-php-866156/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 65,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "No EU timezone mention"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-php-developer-877422",
@@ -7137,7 +7335,18 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-php-developer-877422/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly",
+        "PHP primary language"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "No EU timezone mention"
+      ]
     },
     {
       "id": "PHPDevCareers_full-stack-laravel-react-developer-remote-latin-america-889316",
@@ -7146,7 +7355,18 @@
       "url": "https://phpdevelopercareers.com/jobs/full-stack-laravel-react-developer-remote-latin-america-889316/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language not PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_full-stack-developer-python-javascript-and-php-907773",
@@ -7155,7 +7375,18 @@
       "url": "https://phpdevelopercareers.com/jobs/full-stack-developer-python-javascript-and-php-907773/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP is primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires Python",
+        "No EU timezone mention"
+      ]
     },
     {
       "id": "PHPDevCareers_magento-web-developer-888203",
@@ -7164,7 +7395,17 @@
       "url": "https://phpdevelopercareers.com/jobs/magento-web-developer-888203/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-php-backend-engineer-845650",
@@ -7173,7 +7414,18 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-php-backend-engineer-845650/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 58,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP is primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No EU timezone mention",
+        "Recruiter agency listing"
+      ]
     },
     {
       "id": "PHPDevCareers_backend-software-developer-phplaravel-remote-846619",
@@ -7182,7 +7434,18 @@
       "url": "https://phpdevelopercareers.com/jobs/backend-software-developer-phplaravel-remote-846619/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 58,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_phpwordpress-engineer-841285",
@@ -7191,7 +7454,18 @@
       "url": "https://phpdevelopercareers.com/jobs/phpwordpress-engineer-841285/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 58,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No framework match",
+        "No seniority match"
+      ]
     },
     {
       "id": "PHPDevCareers_full-stack-engineer-vuejs-amp-laravel-backend-heavy-remote-882898",
@@ -7200,7 +7474,18 @@
       "url": "https://phpdevelopercareers.com/jobs/full-stack-engineer-vuejs-amp-laravel-backend-heavy-remote-882898/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 65,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "No EU timezone mention"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-php-fullstack-software-engineer-brme-832941",
@@ -7209,7 +7494,18 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-php-fullstack-software-engineer-brme-832941/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly",
+        "PHP primary language"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "US-only company"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-software-engineer-php-832934",
@@ -7218,7 +7514,18 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-software-engineer-php-832934/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 58,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No EU timezone mention",
+        "Recruiter agency listing"
+      ]
     },
     {
       "id": "PHPDevCareers_software-engineer-php-832935",
@@ -7227,7 +7534,17 @@
       "url": "https://phpdevelopercareers.com/jobs/software-engineer-php-832935/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_drupal-software-engineer-us-based-federal-background-check-required-873368",
@@ -7236,7 +7553,17 @@
       "url": "https://phpdevelopercareers.com/jobs/drupal-software-engineer-us-based-federal-background-check-required-873368/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel matches"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "US-only company, no EU timezone mention"
+      ]
     },
     {
       "id": "PHPDevCareers_php-developer-games-809651",
@@ -7245,7 +7572,16 @@
       "url": "https://phpdevelopercareers.com/jobs/php-developer-games-809651/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language"
+      ],
+      "match_cons": [
+        "Different role (Games)",
+        "No description provided"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-php-software-engineer-805386",
@@ -7254,7 +7590,17 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-php-software-engineer-805386/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 65,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No description",
+        "Seniority mismatch"
+      ]
     },
     {
       "id": "PHPDevCareers_php-developer-seon-anti-fraud-804312",
@@ -7263,7 +7609,17 @@
       "url": "https://phpdevelopercareers.com/jobs/php-developer-seon-anti-fraud-804312/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 58,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "No EU timezone mention"
+      ]
     },
     {
       "id": "PHPDevCareers_wordpress-web-development-team-lead-792577",
@@ -7272,7 +7628,16 @@
       "url": "https://phpdevelopercareers.com/jobs/wordpress-web-development-team-lead-792577/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-full-stack-engineer-laravelvuejs-795348",
@@ -7281,7 +7646,17 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-full-stack-engineer-laravelvuejs-795348/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Primary language not PHP"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-backend-engineer-phprust-migration-789862",
@@ -7290,7 +7665,17 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-backend-engineer-phprust-migration-789862/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly",
+        "PHP mentioned"
+      ],
+      "match_cons": [
+        "Rust migration",
+        "No EU timezone mention"
+      ]
     },
     {
       "id": "PHPDevCareers_drupal-developer-785363",
@@ -7299,7 +7684,16 @@
       "url": "https://phpdevelopercareers.com/jobs/drupal-developer-785363/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_wordpress-developer-778888",
@@ -7308,7 +7702,16 @@
       "url": "https://phpdevelopercareers.com/jobs/wordpress-developer-778888/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Role mismatch"
+      ]
     },
     {
       "id": "PHPDevCareers_web-application-developer-magentoadobe-commerce-experience-required-778782",
@@ -7317,7 +7720,16 @@
       "url": "https://phpdevelopercareers.com/jobs/web-application-developer-magentoadobe-commerce-experience-required-778782/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires Magento/Adobe Commerce Experience"
+      ]
     },
     {
       "id": "PHPDevCareers_junior-back-end-developer-all-genders-php-sql-docker-776301",
@@ -7326,7 +7738,17 @@
       "url": "https://phpdevelopercareers.com/jobs/junior-back-end-developer-all-genders-php-sql-docker-776301/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Danish preferred"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-php-engineer-75k-120k-equity-at-lendablecouk-747519",
@@ -7335,7 +7757,17 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-php-engineer-75k-120k-equity-at-lendablecouk-747519/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly",
+        "Laravel matches"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Primary language not specified"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-php-developer-763269",
@@ -7344,7 +7776,16 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-php-developer-763269/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_full-stack-web-engineer-wordpress-751287",
@@ -7353,7 +7794,16 @@
       "url": "https://phpdevelopercareers.com/jobs/full-stack-web-engineer-wordpress-751287/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_wordpress-developer-full-time-mid-737501",
@@ -7362,7 +7812,16 @@
       "url": "https://phpdevelopercareers.com/jobs/wordpress-developer-full-time-mid-737501/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
     },
     {
       "id": "PHPDevCareers_sr-cms-drupal-developer-734639",
@@ -7371,7 +7830,17 @@
       "url": "https://phpdevelopercareers.com/jobs/sr-cms-drupal-developer-734639/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP is primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is PHP, but wrong framework",
+        "Requires AWS, not mentioned in candidate profile"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-backend-engineer-phppython-733494",
@@ -7380,7 +7849,16 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-backend-engineer-phppython-733494/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP is primary language"
+      ],
+      "match_cons": [
+        "Requires Python",
+        "Seniority mismatch"
+      ]
     },
     {
       "id": "PHPDevCareers_senior-phpwordpress-developer-711874",
@@ -7389,7 +7867,17 @@
       "url": "https://phpdevelopercareers.com/jobs/senior-phpwordpress-developer-711874/",
       "source": "PHPDevCareers",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "No EU timezone mention"
+      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4405819258",
@@ -7398,7 +7886,16 @@
       "url": "https://www.linkedin.com/jobs/view/php-devloper-at-appeak-4405819258",
       "source": "LinkedIn",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language"
+      ],
+      "match_cons": [
+        "No description, no EU timezone mention",
+        "Recruiter agency listing"
+      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4401486094",
@@ -7408,7 +7905,17 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-06-09",
-      "easy_apply": true
+      "easy_apply": true,
+      "match_score": 58,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No framework match",
+        "No seniority match"
+      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4394663579",
@@ -7418,7 +7925,17 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-06-09",
-      "easy_apply": true
+      "easy_apply": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Primary language not PHP"
+      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4324544404",
@@ -7628,7 +8145,8 @@
       "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-se-php-symfony-lille-at-sii-group-romania-4421163196",
       "source": "LinkedIn",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4416822556",
@@ -7664,7 +8182,8 @@
       "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-php-symfony-f-h-rouen-at-proxiad-4364203596",
       "source": "LinkedIn",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4335707783",
@@ -7718,7 +8237,8 @@
       "url": "https://it.linkedin.com/jobs/view/web-developer-full-stack-php-at-revool-4411134897",
       "source": "LinkedIn",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4425845027",
@@ -8006,7 +8526,8 @@
       "url": "https://nl.linkedin.com/jobs/view/full-stack-php-developer-at-michael-bailey-associates-4425847759",
       "source": "LinkedIn",
       "date": "",
-      "fetched_at": "2026-06-09"
+      "fetched_at": "2026-06-09",
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4415505240",
@@ -8222,6 +8743,487 @@
       "title": "Senior Full Stack Software Developer (m/f/x) TypeScript · React · Node.js · PHP · Azure",
       "company": "KOQOON GmbH & Co. KG",
       "url": "https://at.linkedin.com/jobs/view/senior-full-stack-software-developer-m-f-x-typescript-%C2%B7-react-%C2%B7-node-js-%C2%B7-php-%C2%B7-azure-at-koqoon-gmbh-co-kg-4415256334",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4412652210",
+      "title": "Senior PHP Developer",
+      "company": "Jirabytes Technologies",
+      "url": "https://www.linkedin.com/jobs/view/senior-php-developer-at-jirabytes-technologies-4412652210",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4389453861",
+      "title": "Software Engineer II (PHP)",
+      "company": "Waystar",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-ii-php-at-waystar-4389453861",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4424764321",
+      "title": "Full-Stack PHP Developer",
+      "company": "Pioneering Evolution, LLC",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-php-developer-at-pioneering-evolution-llc-4424764321",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4426330267",
+      "title": "PHP Developer -Washington DC",
+      "company": "Cogent Communications",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-washington-dc-at-cogent-communications-4426330267",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4425156776",
+      "title": "PHP Developer-Overland Park KS",
+      "company": "Cogent Communications",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-overland-park-ks-at-cogent-communications-4425156776",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4414342372",
+      "title": "26-2267: Full Stack Developer (PHP / Laravel / React)",
+      "company": "Navitas Business Consulting, Inc.",
+      "url": "https://www.linkedin.com/jobs/view/26-2267-full-stack-developer-php-laravel-react-at-navitas-business-consulting-inc-4414342372",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09",
+      "easy_apply": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4346625919",
+      "title": "Senior Full Stack Developer (Laravel Vue.js)",
+      "company": "MicroVentures",
+      "url": "https://www.linkedin.com/jobs/view/senior-full-stack-developer-laravel-vue-js-at-microventures-4346625919",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4426316932",
+      "title": "WordPress Developer -PHP",
+      "company": "AgileGrid Solutions",
+      "url": "https://www.linkedin.com/jobs/view/wordpress-developer-php-at-agilegrid-solutions-4426316932",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4423354378",
+      "title": "WordPress Developer (Freelancer)",
+      "company": "Wishtree Technologies",
+      "url": "https://www.linkedin.com/jobs/view/wordpress-developer-freelancer-at-wishtree-technologies-4423354378",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4401157011",
+      "title": "WordPress Developer - Remote",
+      "company": "YO IT Consulting",
+      "url": "https://www.linkedin.com/jobs/view/wordpress-developer-remote-at-yo-it-consulting-4401157011",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4369358337",
+      "title": "Mid-Senior PHP Developer",
+      "company": "GetJet Airlines",
+      "url": "https://lt.linkedin.com/jobs/view/mid-senior-php-developer-at-getjet-airlines-4369358337",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4425586490",
+      "title": "PHP Developer | Haarlem | Laravel | Data | 70K",
+      "company": "Haystack People",
+      "url": "https://nl.linkedin.com/jobs/view/php-developer-haarlem-laravel-data-70k-at-haystack-people-4425586490",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4410519991",
+      "title": "Senior PHP Developer",
+      "company": "Fleming",
+      "url": "https://lt.linkedin.com/jobs/view/senior-php-developer-at-fleming-4410519991",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09",
+      "easy_apply": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4416086679",
+      "title": "Senior PHP Software Engineer",
+      "company": "Atolls",
+      "url": "https://de.linkedin.com/jobs/view/senior-php-software-engineer-at-atolls-4416086679",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4392188899",
+      "title": "Senior PHP Developer",
+      "company": "FTMO",
+      "url": "https://cz.linkedin.com/jobs/view/senior-php-developer-at-ftmo-4392188899",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4418143227",
+      "title": "(Senior) PHP Entwickler (m/w/d)",
+      "company": "hairfree GmbH",
+      "url": "https://de.linkedin.com/jobs/view/senior-php-entwickler-m-w-d-at-hairfree-gmbh-4418143227",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4418720181",
+      "title": "Senior PHP / Laravel Entwickler*in (m/w/d)",
+      "company": "eRecht24",
+      "url": "https://de.linkedin.com/jobs/view/senior-php-laravel-entwickler-in-m-w-d-at-erecht24-4418720181",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4422357738",
+      "title": "Senior PHP Developer",
+      "company": "Blinqx",
+      "url": "https://nl.linkedin.com/jobs/view/senior-php-developer-at-blinqx-4422357738",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4404918196",
+      "title": "Senior PHP Developer (Cybersecurity tools)",
+      "company": "Mediatech",
+      "url": "https://lt.linkedin.com/jobs/view/senior-php-developer-cybersecurity-tools-at-mediatech-4404918196",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4418128628",
+      "title": "Senior PHP Developer",
+      "company": "123inkt.nl",
+      "url": "https://nl.linkedin.com/jobs/view/senior-php-developer-at-123inkt-nl-4418128628",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4414977120",
+      "title": "Senior PHP-Entwickler (m/w/d)",
+      "company": "CHEMNITZ ZIEHT AN - Das Jobportal von hier.",
+      "url": "https://de.linkedin.com/jobs/view/senior-php-entwickler-m-w-d-at-chemnitz-zieht-an-das-jobportal-von-hier-4414977120",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4422240470",
+      "title": "Senior Frontend Entwickler Laravel / Livewire (m/w/d) 4-Tage-Woche",
+      "company": "Händlerbund",
+      "url": "https://de.linkedin.com/jobs/view/senior-frontend-entwickler-laravel-livewire-m-w-d-4-tage-woche-at-h%C3%A4ndlerbund-4422240470",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4426365039",
+      "title": "Programador/a de Laravel PHP",
+      "company": "Getronics",
+      "url": "https://es.linkedin.com/jobs/view/programador-a-de-laravel-php-at-getronics-4426365039",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4422702712",
+      "title": "PHP programuotojas (-a)",
+      "company": "Cgates",
+      "url": "https://lt.linkedin.com/jobs/view/php-programuotojas-a-at-cgates-4422702712",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4408765503",
+      "title": "Développeur Senior Full Stack Symfony/React.js — IA, Infra & Impact",
+      "company": "AudioWizard",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-senior-full-stack-symfony-react-js-%E2%80%94-ia-infra-impact-at-audiowizard-4408765503",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4406477945",
+      "title": "Senior PHP Developer / Backend Developer (m/w/d)",
+      "company": "Linqforce GmbH",
+      "url": "https://de.linkedin.com/jobs/view/senior-php-developer-backend-developer-m-w-d-at-linqforce-gmbh-4406477945",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09",
+      "easy_apply": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4414194998",
+      "title": "Software Developer (Java + PHP) - Remoto",
+      "company": "knowmad mood",
+      "url": "https://es.linkedin.com/jobs/view/software-developer-java-%2B-php-remoto-at-knowmad-mood-4414194998",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4410609419",
+      "title": "Desarrollador de Drupal",
+      "company": "Amaris Consulting",
+      "url": "https://es.linkedin.com/jobs/view/desarrollador-de-drupal-at-amaris-consulting-4410609419",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4419434568",
+      "title": "Développeur Drupal H/F",
+      "company": "Klee Group",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-drupal-h-f-at-klee-group-4419434568",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4420705402",
+      "title": "Développeur PHP/ Drupal (F/H)",
+      "company": "INFOGENE",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-php-drupal-f-h-at-infogene-4420705402",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4346231589",
+      "title": "Creative Tech | Senior Drupal Developer",
+      "company": "Devoteam",
+      "url": "https://pt.linkedin.com/jobs/view/creative-tech-senior-drupal-developer-at-devoteam-4346231589",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4304053903",
+      "title": "Développeur Drupal (H-F)",
+      "company": "Actimage",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-drupal-h-f-at-actimage-4304053903",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4418033435",
+      "title": "Développeur drupal confirmé",
+      "company": "Sapiens Group",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-drupal-confirm%C3%A9-at-sapiens-group-4418033435",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4367507649",
+      "title": "Développeur Drupal - Digital (H-F)",
+      "company": "Actimage",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-drupal-digital-h-f-at-actimage-4367507649",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4416424416",
+      "title": "Développeur Drupal (H/F)",
+      "company": "Davidson consulting",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-drupal-h-f-at-davidson-consulting-4416424416",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413675260",
+      "title": "Medior-Senior PHP Developer Backend",
+      "company": "Bundeling",
+      "url": "https://nl.linkedin.com/jobs/view/medior-senior-php-developer-backend-at-bundeling-4413675260",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4403068278",
+      "title": "Senior PHP Backend Developer",
+      "company": "Shiftbase",
+      "url": "https://nl.linkedin.com/jobs/view/senior-php-backend-developer-at-shiftbase-4403068278",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4390033669",
+      "title": "Programista/Programistka PHP (laravel) - Gdańsk (Pomorskie), Polska",
+      "company": "Astek",
+      "url": "https://pl.linkedin.com/jobs/view/programista-programistka-php-laravel-gda%C5%84sk-pomorskie-polska-at-astek-4390033669",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413674169",
+      "title": "Développeur back-end PHP/Laravel",
+      "company": "XEFI",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-back-end-php-laravel-at-xefi-4413674169",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4420298167",
+      "title": "Développeur Fullstack Laravel - Entertainment - 55/65K",
+      "company": "LITY",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-fullstack-laravel-entertainment-55-65k-at-lity-4420298167",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413328991",
+      "title": "Lead Développeur Laravel H/F",
+      "company": "Upward",
+      "url": "https://fr.linkedin.com/jobs/view/lead-d%C3%A9veloppeur-laravel-h-f-at-upward-4413328991",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4416944851",
+      "title": "Développeur Backend PHP / Symfony (H/F)",
+      "company": "Famileo",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-backend-php-symfony-h-f-at-famileo-4416944851",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4333015405",
+      "title": "DÉVELOPPEUR PHP/SYMFONY",
+      "company": "ALTANSIA",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-php-symfony-at-altansia-4333015405",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4423533103",
+      "title": "Développeur PHP / Symfony (H/F)",
+      "company": "Amiltone",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-php-symfony-h-f-at-amiltone-4423533103",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4416657130",
+      "title": "Développeur PHP/Symfony (H/F)",
+      "company": "Inetum",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-php-symfony-h-f-at-inetum-4416657130",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09",
+      "easy_apply": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413614929",
+      "title": "Développeur PHP Symfony Expérimenté (F-H)",
+      "company": "France Télévisions",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-php-symfony-exp%C3%A9riment%C3%A9-f-h-at-france-t%C3%A9l%C3%A9visions-4413614929",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4425410313",
+      "title": "Développeur Php / Symfony H/ F",
+      "company": "SEGULA Technologies",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-php-symfony-h-f-at-segula-technologies-4425410313",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4338851274",
+      "title": "Développeur·se PHP Symfony – Plateforme Saas innovation - Paris H/F",
+      "company": "Kicklox",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur%C2%B7se-php-symfony-%E2%80%93-plateforme-saas-innovation-paris-h-f-at-kicklox-4338851274",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4425995646",
+      "title": "Senior Full-Stack Laravel Developer",
+      "company": "Golazo Group",
+      "url": "https://be.linkedin.com/jobs/view/senior-full-stack-laravel-developer-at-golazo-group-4425995646",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4412858775",
+      "title": "Senior Backend Developer (PHP/Symfony)",
+      "company": "Klaravik Sverige",
+      "url": "https://se.linkedin.com/jobs/view/senior-backend-developer-php-symfony-at-klaravik-sverige-4412858775",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4413395986",
+      "title": "Senior PHP Backend Developer mit Architektur-Fokus (m/w/d)",
+      "company": "YUMMY Publishing GmbH",
+      "url": "https://at.linkedin.com/jobs/view/senior-php-backend-developer-mit-architektur-fokus-m-w-d-at-yummy-publishing-gmbh-4413395986",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4419980515",
+      "title": "PHP-Entwicklung (m/w/d) in Voll- oder Teilzeit / vor Ort oder remote",
+      "company": "kultwerk GmbH",
+      "url": "https://at.linkedin.com/jobs/view/php-entwicklung-m-w-d-in-voll-oder-teilzeit-vor-ort-oder-remote-at-kultwerk-gmbh-4419980515",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-06-09"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4422902066",
+      "title": "PHP Entwickler (all genders)",
+      "company": "CHECK24 Vergleichsportal GmbH",
+      "url": "https://at.linkedin.com/jobs/view/php-entwickler-all-genders-at-check24-vergleichsportal-gmbh-4422902066",
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-06-09"
