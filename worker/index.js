@@ -64,7 +64,7 @@ Open with a concrete statement about your fit. Mention the role and, if known, t
 Pick 1–2 things from your actual background that map directly to what the job is asking for. Be specific — tech stack, what you built, what scale it ran at. Mention 1–2 technologies from the job description that you genuinely have experience with.
 
 **Paragraph 3 — why this makes sense now:**
-Note that you are currently looking for a new role (your last position at Maxtracker ended June 2026). Connect your background to what this company or role offers. Keep it brief and direct — one or two sentences about why this fits where you are now.
+Connect your background to what this company or role offers. Brief and direct — one or two sentences about why this is the right fit. Do NOT mention leaving a previous job, end dates, or that you are currently searching.
 
 ## Style rules
 - Write like a person, not a template. Vary sentence length. Use "I" naturally, not obsessively.
