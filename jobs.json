@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T13:07:00.772630+00:00",
+  "updated_at": "2026-06-09T15:17:39.403091+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -399,6 +399,27 @@
       "match_cons": [
         "Primary language is NOT PHP",
         "Requires fluent Danish"
+      ]
+    },
+    {
+      "id": "IT-jobbank_h1672557",
+      "title": "CIFI Developer",
+      "company": "Octocube Games ApS",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1672557/cifi-developer",
+      "source": "IT-jobbank",
+      "date": "2026-06-09",
+      "fetched_at": "2026-06-09",
+      "denmark": true,
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly",
+        "PHP mentioned"
+      ],
+      "match_cons": [
+        "Primary language not specified",
+        "No EU timezone mention"
       ]
     },
     {
@@ -5990,26 +6011,6 @@
       "match_cons": [
         "Lack of PostgreSQL",
         "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4423946785",
-      "title": "Senior PHP Developer",
-      "company": "CodeWin",
-      "url": "https://pt.linkedin.com/jobs/view/senior-php-developer-at-codewin-4423946785",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-09",
-      "description": "The ideal candidate is a highly resourceful and innovative developer with extensive experience in the layout, design and coding of websites specifically in PHP format. You must also possess a strong knowledge of web application development using PHP programming language and Oracle Server databases.ResponsibilitiesPerform a mix of maintenance, enhancements, and new development as requiredWork in a data analyst role and with business intelligence applicationsDocument features, technical specifications & infrastructure ResponsibilitiesWork cross-functionally to convert business needs into technical specificationsQualifications5+ years' of experience in web development and software designExpertise in front-end technologies (HTML, JavaScript, CSS), PHP frameworks, and Oracle databases",
-      "match_score": 55,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Oracle instead of PostgreSQL",
-        "Seniority mismatch"
       ]
     }
   ]
