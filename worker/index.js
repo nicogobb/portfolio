@@ -16,15 +16,15 @@
  */
 
 const GROQ_URL   = 'https://api.groq.com/openai/v1/chat/completions';
-const GROQ_MODEL = 'llama-3.1-8b-instant';
+const GROQ_MODEL = 'llama-3.3-70b-versatile';
 
-const YOUR_PROFILE = `PHP Backend / Full-Stack Developer, 10+ years experience.
+const YOUR_PROFILE = `PHP Backend / Full-Stack Developer, 10+ years experience. Currently available for new roles.
 
-Career:
-- Software Engineer at Maxtracker (Aug 2025–Jun 2026): fleet telematics platform, 10,000+ vehicles, PHP/Kohana/PostgreSQL, real-time data pipelines.
-- PHP Web Developer at mydigitalnomads (Apr 2022–Aug 2025): large-scale SaaS, fully remote, PHP/MySQL/TypeScript/Docker.
+Career (most recent first):
+- Software Engineer at Maxtracker [PAST — ended Jun 2026]: fleet telematics platform, 10,000+ vehicles, PHP/Kohana/PostgreSQL, real-time data pipelines.
+- PHP Web Developer at mydigitalnomads (Apr 2022–Aug 2025) [PAST]: large-scale SaaS, fully remote, PHP/MySQL/TypeScript/Docker.
 - Web Developer at OSPL (Nov 2019–present, part-time): health insurance system, 20,000+ affiliates, PHP/MySQL.
-- DBA at Mutual Senderos (2014–2019): started in database administration, grew into full-stack web development.
+- DBA at Mutual Senderos (2014–2019) [PAST]: database administration, grew into full-stack web development.
 
 Core skills: PHP 8, Laravel, Symfony, Kohana, CodeIgniter, MySQL, PostgreSQL, MongoDB, REST APIs, JavaScript, TypeScript, Git, Docker, GitHub Actions, Linux/Shell, Web Scraping.
 Location: Copenhagen, Denmark — open to remote or on-site. Languages: Spanish (native), English (professional), Danish (learning).`;
@@ -43,24 +43,37 @@ function corsHeaders(origin) {
 }
 
 function buildPrompt(description, title, company) {
-  return `Write a professional cover letter for the job posting below, tailored to the candidate's profile.
+  return `You are Nicolas Gobbi, a PHP backend developer with 10+ years of experience. Write your own cover letter for this job — in your voice, as if you typed it yourself.
 
-## Candidate profile
+## Your profile
 ${YOUR_PROFILE}
 
-## Job posting
+## The job
 Role: ${title || '(not specified)'}
 Company: ${company || '(not specified)'}
 Description: ${description}
 
-## Instructions
-- 3–4 paragraphs, no salutation header, no sign-off/closing line — body paragraphs only.
-- Opening: do NOT use "I am writing to express my interest". Start with a direct statement of fit or value.
-- Reference specific numbers from the candidate's background (10,000+ vehicles, 20,000+ affiliates, 10+ years).
-- Mention 2–3 technologies from the job description that the candidate actually has.
-- Tone: direct, confident, professional — not generic or boilerplate.
-- If the company name is known, use it naturally — no placeholders like [Company Name].
-- Write in English. Output ONLY the cover letter body — no intro, no commentary.`;
+## How to write this
+
+Write 3 paragraphs. No greeting, no sign-off. Output only the paragraph body.
+
+**Paragraph 1 — why you fit this specific role:**
+Open with a concrete statement about your fit. Mention the role and, if known, the company by name. Reference a specific number from your background (10,000+ vehicles, 20,000+ affiliates) if it connects to the job. Don't start with "I am writing" or "I am excited". Start with the substance.
+
+**Paragraph 2 — your most relevant experience:**
+Pick 1–2 things from your actual background that map directly to what the job is asking for. Be specific — tech stack, what you built, what scale it ran at. Mention 1–2 technologies from the job description that you genuinely have experience with.
+
+**Paragraph 3 — why this makes sense now:**
+Note that you are currently looking for a new role (your last position at Maxtracker ended June 2026). Connect your background to what this company or role offers. Keep it brief and direct — one or two sentences about why this fits where you are now.
+
+## Style rules
+- Write like a person, not a template. Vary sentence length. Use "I" naturally, not obsessively.
+- Avoid: "I am passionate", "I am excited", "I am writing to express", "dynamic", "leverage", "synergy", "team player", "results-driven", "looking forward to discussing".
+- Avoid hollow phrases like "I believe I would be a great fit" — show it instead.
+- If the company name is not known, don't use a placeholder — just omit it.
+- Confident but not arrogant. Specific over vague.
+
+Output only the cover letter body. No commentary, no subject line, no "Dear..." or "Sincerely...".`;
 }
 
 export default {
@@ -141,8 +154,8 @@ export default {
       body: JSON.stringify({
         model:       GROQ_MODEL,
         messages:    [{ role: 'user', content: buildPrompt(description, title, company) }],
-        max_tokens:  800,
-        temperature: 0.7,
+        max_tokens:  900,
+        temperature: 0.75,
       }),
     });
 
