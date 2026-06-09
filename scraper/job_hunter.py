@@ -53,7 +53,7 @@ BLACKLISTED_COMPANIES = {
 }
 
 JOBS_FILE    = Path(__file__).parent.parent / "jobs.json"
-MAX_JOBS     = 300
+MAX_JOBS     = 600
 MAX_AGE_DAYS = 60   # jobs not seen for this many days are considered expired
 
 HEADERS = {
