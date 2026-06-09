@@ -284,7 +284,9 @@ def fetch_phpdevelopercareers() -> list:
     """
     out = []
     seen_slugs: set = set()
-    for page in range(1, 3):  # 2 pages, ~20 jobs each
+    page = 1
+    max_pages = 20  # safety cap
+    while page <= max_pages:
         try:
             params = {} if page == 1 else {"page": page}
             r = requests.get(
@@ -294,11 +296,13 @@ def fetch_phpdevelopercareers() -> list:
             )
             r.raise_for_status()
             soup = BeautifulSoup(r.text, "html.parser")
+            new_on_page = 0
             for a in soup.find_all("a", href=re.compile(r"^/jobs/[^/]+/$")):
                 href = a.get("href", "")
                 if href in seen_slugs or href == "/jobs/":
                     continue
                 seen_slugs.add(href)
+                new_on_page += 1
                 title = clean(a.get_text(strip=True))
                 if not title:
                     continue
@@ -312,9 +316,13 @@ def fetch_phpdevelopercareers() -> list:
                 url  = f"https://phpdevelopercareers.com{href}"
                 slug = href.strip("/").split("/")[-1]
                 out.append(make_job("PHPDevCareers", slug, title, company, url))
+            if new_on_page == 0:
+                break  # no new jobs on this page — we've reached the end
+            page += 1
             time.sleep(0.5)
         except Exception as e:
             print(f"  [!] PHPDevCareers (page {page}): {e}")
+            break
     return out
 
 
