@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T10:04:58.141689+00:00",
+  "updated_at": "2026-06-09T13:07:00.772630+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -39,6 +39,27 @@
       "match_cons": [
         "No description",
         "Danish learning"
+      ]
+    },
+    {
+      "id": "Jobindex_https://www.jobindex.dk/vis-job/h1673067",
+      "title": "Freelance Automation & Programmatic SEO Specialist, Creativ Company A/S",
+      "company": "",
+      "url": "https://www.jobindex.dk/vis-job/h1673067",
+      "source": "Jobindex",
+      "date": "Tue, 9 Jun",
+      "fetched_at": "2026-06-09",
+      "denmark": true,
+      "description": "Freelance Automation & Programmatic SEO Specialist Hørsholm, Hybrid position Legeakademiet/ToyAcademy is seeking a freelance specialist to help scale and automate our e-commerce and SEO workflows across our Magento 2 platforms. This role is ideal for someone who can design smart, reliable automation flows using AI, APIs, and modern workflow tools.",
+      "match_score": 58,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Magento 2, not PHP framework",
+        "Requires AWS, not mentioned in skills"
       ]
     },
     {
@@ -99,6 +120,88 @@
       "match_cons": [
         "Requires React/Vue experience",
         "No AWS certification mentioned"
+      ]
+    },
+    {
+      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/automattic-support-engineer-wordpress-vip",
+      "title": "Support Engineer, WordPress VIP",
+      "company": "Automattic",
+      "url": "https://weworkremotely.com/remote-jobs/automattic-support-engineer-wordpress-vip",
+      "source": "WeWorkRemotely",
+      "date": "Thu, 07 Ma",
+      "fetched_at": "2026-06-09",
+      "description": "Headquarters: Remote URL: https://automattic.com/ WordPress VIP , the enterprise division of Automattic , is the world’s leading agile content management platform. Our suite of open solutions and services brings the ease and agility of WordPress to the world’s largest enterprises. Our large and growing ecosystem of technologies, services, and integrations is designed to bring the freedom and power of open source to our customers, who include Meta, CNN, Salesforce, and hundreds more. The Support Engineer role is responsible for providing advanced technical support to our enterprise customers, serving as an escalation point for complex issues that require deeper investigation. In this customer-facing role, you will handle challenging debugging scenarios, troubleshoot intricate application an",
+      "match_score": 55,
+      "match_confidence": "high",
+      "match_pros": [
+        "Remote-friendly",
+        "PHP experience"
+      ],
+      "match_cons": [
+        "Primary language is not PHP",
+        "Requires AWS"
+      ]
+    },
+    {
+      "id": "Jobindex_https://www.jobindex.dk/vis-job/r13847838",
+      "title": "Magento 2 Developer – Era, GENERAXION",
+      "company": "",
+      "url": "https://www.jobindex.dk/vis-job/r13847838",
+      "source": "Jobindex",
+      "date": "Mon, 8 Jun",
+      "fetched_at": "2026-06-09",
+      "denmark": true,
+      "description": "Magento 2 Developer – Era Aarhus V Stillingen er on-site på Aarhus kontoret.",
+      "match_score": 45,
+      "match_confidence": "high",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
+      ]
+    },
+    {
+      "id": "Jobindex_https://www.jobindex.dk/vis-job/r13848865",
+      "title": "Automation & Programmatic SEO Specialist (Freelance, Hybrid), Legeakademiet ApS",
+      "company": "",
+      "url": "https://www.jobindex.dk/vis-job/r13848865",
+      "source": "Jobindex",
+      "date": "Mon, 8 Jun",
+      "fetched_at": "2026-06-09",
+      "denmark": true,
+      "description": "Automation & Programmatic SEO Specialist (Freelance, Hybrid) Hørsholm Legeakademiet/ToyAcademy is seeking a freelance specialist to help scale and automate our e-commerce and SEO workflows across our Magento 2 platforms.",
+      "match_score": 55,
+      "match_confidence": "high",
+      "match_pros": [
+        "Remote-friendly",
+        "PHP experience"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "Jobindex_https://www.jobindex.dk/vis-job/r13833331",
+      "title": "Magento Udvikler, Scandesign Media A/S",
+      "company": "",
+      "url": "https://www.jobindex.dk/vis-job/r13833331",
+      "source": "Jobindex",
+      "date": "Mon, 1 Jun",
+      "fetched_at": "2026-06-09",
+      "denmark": true,
+      "description": "Magento Udvikler København Ø Scandesign er inde i en rivende udvikling, og vi søger derfor en Magento Udvikler til at indgå i vores team, på vores kontor på Langelinie i København.",
+      "match_score": 55,
+      "match_confidence": "high",
+      "match_pros": [
+        "Remote-friendly",
+        "PHP primary"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Danish preferred"
       ]
     },
     {
@@ -229,6 +332,68 @@
       "match_confidence": "low",
       "match_pros": [
         "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires fluent Danish"
+      ]
+    },
+    {
+      "id": "IT-jobbank_h1673038",
+      "title": "Udvikler til integrationsteam i JP/Politikens Hus",
+      "company": "JP/Politikens Hus",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1673038/udvikler-til-integrationsteam-i-jp-politikens-hus",
+      "source": "IT-jobbank",
+      "date": "2026-06-09",
+      "fetched_at": "2026-06-09",
+      "denmark": true,
+      "description_failed": true,
+      "match_score": 65,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "IT-jobbank_h1673027",
+      "title": "Account Manager til Digital Group A/S – Øst",
+      "company": "Recruit IT",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1673027/account-manager-til-digital-group-a-s-oest",
+      "source": "IT-jobbank",
+      "date": "2026-06-09",
+      "fetched_at": "2026-06-09",
+      "denmark": true,
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly",
+        "PHP mentioned"
+      ],
+      "match_cons": [
+        "Primary language not specified",
+        "Recruiter agency listing"
+      ]
+    },
+    {
+      "id": "IT-jobbank_h1672993",
+      "title": "Tekniske analytikere med forståelse for netværk",
+      "company": "Forsvarets Efterretningstjeneste",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1672993/tekniske-analytikere-med-forstaaelse-for-netvaerk",
+      "source": "IT-jobbank",
+      "date": "2026-06-09",
+      "fetched_at": "2026-06-09",
+      "denmark": true,
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
         "Remote-friendly"
       ],
       "match_cons": [
@@ -5845,166 +6010,6 @@
       "match_cons": [
         "Oracle instead of PostgreSQL",
         "Seniority mismatch"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4418605518",
-      "title": "Senior Php Developer S&H",
-      "company": "IRIUM Portugal",
-      "url": "https://pt.linkedin.com/jobs/view/senior-php-developer-s-h-at-irium-portugal-4418605518",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-09",
-      "description": "At IRIUM we want you to always chase your dreams. Here, prepare yourself to conquer your goals, while enjoying the journey.We are currently looking forSenior PHP Developer S&HRequired Competences+4 years of experience in software developmentBachelor's degree in Computer Engineering or a related field, level 6 QNQ.Proven experience in developing Full Stack applications in PHP (version 7 or 8)Proven experience in HTML/CSS/JavaScript development.Proven experience in using PostgreSQL or MySQL database (modelling data structure to ensure efficiency and optimisation, creating procedures, events, triggers, and functions).Deep knowledge in OOP (Object Oriented Programming), Design Patterns, Clean Code, and PSR.Experience in REST API implementation and integration.Good knowledge of GIT, MVC pattern, and Agile methodology.Autonomy, sense of responsibility, proactivity, and team spirit.Availability for hybrid model (2X week at our headquarters or client in Lisbon).Preferred CompetenciesExperience in JavaScript. Experience in jQuery library and/or Vue.JS framework is valued.Location: Lisbon, hybridWhat do we offer? An innovative and growing company, with a lot of opportunities for professional development. Retribution according to your experience and performance. Access to flexible pay and medical insurance as a social benefit. Unlimited access to technological training in free mode.IRIUM is a company with dynamic and proactive professionals. Our values are responsibility and commitment to work quality. This is the spirit we are looking for at IRIUM, whatever your age is. If you recognize yourself in this, this is your company!We can build the future together. Let's talk!Send your CV to: ******At IRIUM we defend a world without stereotypes or limitations and we believe in equality for all, principles that we subscribe to in our Equality Plan and Code of Ethics, guaranteeing equal treatment and opportunities regardless of any personal, physical or social condition.",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 match",
-        "Seniority fits"
-      ],
-      "match_cons": [
-        "Laravel not listed",
-        "No PostgreSQL experience"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4419017760",
-      "title": "PHP Developer",
-      "company": "Capgemini Engineering",
-      "url": "https://pt.linkedin.com/jobs/view/php-developer-at-capgemini-engineering-4419017760",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-09",
-      "description": "CAPGEMINI ENGINEERINGAt Capgemini Engineering, the world leader in engineering services, we bring together a global team of engineers, scientists, and architects to help the world’s most innovative companies unleash their potential. From autonomous cars to life-saving robots, our digital and software technology experts think outside the box as they provide unique R&D and engineering services across all industries. Join us for a career full of opportunities. Where you can make a difference. Where no two days are the same.YOUR MISSIONJoining Capgemini Engineering means becoming part of a global community of passionate technologists who are shaping the future of software. In Portugal, our growing team works on exciting and diverse projects for international clients across multiple industries. You'll have the opportunity to work with cutting-edge technologies, collaborate with brilliant minds, and grow your career in an environment that truly values your contribution.YOUR ROLEIn this role you will play a key role in:Designing, developing, and maintaining robust web applications using PHP and the Laravel framework, ensuring high performance and responsivenessBuilding and integrating RESTful APIs to connect back-end services with front-end interfaces, collaborating closely with cross-functional teamsContributing to front-end development using Angular, supporting the delivery of seamless and engaging user experiencesWriting clean, well-documented, and testable code while following best practices in software engineering, including code reviews and version control with GitParticipating in the full software development lifecycle, from requirements gathering and solution design through to deployment and ongoing maintenanceYOUR PROFILESolid hands-on experience (4–5 years) in PHP development, with strong working knowledge of the Laravel framework and MVC architectureFamiliarity with Angular or other modern front-end frameworks, with the ability to contribute to full-stack development tasksGood understanding of database design and management (MySQL or similar), including writing optimised queries and working with ORM toolsStrong communication and collaboration skills, with the ability to work effectively in agile, multicultural teams and contribute to shared goalsA proactive and curious mindset, with a genuine passion for clean code, continuous improvement, and keeping up with evolving web technologiesWhat you'll love about working hereFree access to learning platforms ",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Strong PHP experience"
-      ],
-      "match_cons": [
-        "Seniority slightly off",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4131264438",
-      "title": "PHP Symfony Developer @Braga",
-      "company": "KCS iT",
-      "url": "https://pt.linkedin.com/jobs/view/php-symfony-developer-%40braga-at-kcs-it-4131264438",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-09",
-      "description": "We’re looking for the special, unique and amazing YOU!@ KCS IT, we look for the ones that stands out, for those that always wants to be better and fight for it, and for those who has the same values that we do: dedication, energy, integrity, transparency, flexibility, trust, honesty, hard work, proactivity, team work.At KCS we stand for equality and value diversity. We create a safe, diverse environment where opportunities are equal for everyone! We do not discriminate based on age, ethnicity, sexual orientation, gender, disability or any factor other than merit. All applications with skills for the position are welcome!We are looking for an Amazing: PHP Symfony DeveloperSeniority: +4 yearsType of position: HYBRID (at Braga, 3x/week)The amazing you, will have:4–6 years of professional experience in PHP development with at least 2 years focused on Symfony.Strong expertise in PHP (7.x/8.x) and the Symfony framework (v4+ preferred).Proficiency in designing and consuming RESTful APIs.Experience with relational databases (e.g., MySQL, PostgreSQL).Knowledge of modern PHP standards and best practices, including PSR standards.Familiarity with Composer and dependency management.Experience with templating engines such as Twig.Proficiency in writing tests using PHPUnit or similar frameworks.Experience with debugging and profiling tools for PHP (e.g., Xdebug).Hands-on experience with Git and Git-based workflows.Familiarity with CI/CD pipelines and deployment tools (e.g., Jenkins, GitLab CI/CD).To turn yourself from amazing to unique, you´ll have (plus):Related certifications.Why should you become part of our family?You can develop a career that fits you: your career development is personalized, taking in consideration your needs and goals from a short to long termInteresting Challenges Ahead: you can work for several clients from different sectors of activityFree training programs: Our training and certification programs in languages, tech, behavior and business will help you to reach your full potential fasterInternational projects in Benelux: you can gain international experience in Benelux and balance a new way of living with workType of projects (depending on the project you might find one of this types of projects):In hybrid Systems: Is important to balance work with socialization, that´s why a hybrid system works for us and for youFull Remote projects: If you want to work while you enjoy the comfort of your homeFull Onsite projects: if you prefere the company of",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Strong Symfony match"
-      ],
-      "match_cons": [
-        "Seniority mismatch",
-        "EU timezone not mentioned"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4407436998",
-      "title": "Full-stack Developer (PHP & React)",
-      "company": "InnoTech",
-      "url": "https://pt.linkedin.com/jobs/view/full-stack-developer-php-react-at-innotech-4407436998",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-09",
-      "description": "A Company you will be happy to grow with!At InnoTech, it’s all about connecting people with business through technology.We truly care about you, your happiness, and your well-being. We look for passionate people who are eager to learn, evolve, and grow with us - because growth is in our DNA.This commitment has been consistently recognized: we are proud to be a Great Place to Work for five consecutive years, to be one of the Best IT Companies in Portugal, and to be recognize as a Best Workplace Wellbeing.We are also proud to hold ISO 27001 and ISO 9001 certifications, reinforcing our commitment to information security, quality, and continuous improvement.For us, sustainability is not just a buzzword. Integrity, social responsibility, and people-first values guide everything we do.Join our team of 180+ InnoTechers and bring your talent as a Full-stack Developer.Your mission will be:Full-stack development: Building solutions from frontend to backend;End-to-end lifecycle: From conception to maintenance, ensuring quality;Team collaboration: Analysis, development, and testing based on specifications;APIs & frontend: Client integrations and user experience improvement.You will need:2-5 years of experience working as a Full-Stack Developer;Hands-on experience with PHP and React in professional environments;Solid knowledge of APIs, JSON, Git, and webhooks;Experience with databases and system integrations (MySQL and MariaDB);CPLP nationality or a valid EU work permit;Fluency in Portuguese and English.Would be awesome if you have:BSc or MSc in Computer Science, Engineering, Information Technology, or related areas;Previous experience in Agile environments.What we offer:Health-focused partnerships, including free mental health support;25 days of vacation, including your birthday, Carnival, and a bridging day between Christmas and New Year;Half a vacation day on your children’s birthday and a school supplies voucher;Petsitting partnerships and a pet bereavement day;Regular team buildings, four annual company parties, game nights, and social events;InnoSports initiatives (football, marathons, and more);Events focused on sustainability and social responsibility actions.Are you convinced? Come see it for yourself.Join our Top-Notch Team!",
-      "match_score": 75,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires React",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4417673537",
-      "title": "PHP Developer (Web)",
-      "company": "Capgemini Engineering",
-      "url": "https://pt.linkedin.com/jobs/view/php-developer-web-at-capgemini-engineering-4417673537",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-09",
-      "description": "CAPGEMINI ENGINEERINGAt Capgemini Engineering, the world leader in engineering services, we bring together a global team of engineers, scientists, and architects to help the world’s most innovative companies unleash their potential. From autonomous cars to life-saving robots, our digital and software technology experts think outside the box as they provide unique R&D and engineering services across all industries. Join us for a career full of opportunities. Where you can make a difference. Where no two days are the same.YOUR MISSIONJoining Capgemini Engineering means becoming part of a global community of passionate technologists who are shaping the future of software. In Portugal, our growing team works on exciting and diverse projects for international clients across multiple industries. You'll have the opportunity to work with cutting-edge technologies, collaborate with brilliant minds, and grow your career in an environment that truly values your contribution.YOUR ROLEIn this role you will play a key role in:Designing, developing, and maintaining robust web applications using PHP and the Laravel framework, ensuring high performance and responsivenessBuilding and integrating RESTful APIs to connect back-end services with front-end interfaces, collaborating closely with cross-functional teamsContributing to front-end development using Angular, supporting the delivery of seamless and engaging user experiencesWriting clean, well-documented, and testable code while following best practices in software engineering, including code reviews and version control with GitParticipating in the full software development lifecycle, from requirements gathering and solution design through to deployment and ongoing maintenanceYOUR PROFILESolid hands-on experience (4–5 years) in PHP development, with strong working knowledge of the Laravel framework and MVC architectureFamiliarity with Angular or other modern front-end frameworks, with the ability to contribute to full-stack development tasksGood understanding of database design and management (MySQL or similar), including writing optimised queries and working with ORM toolsStrong communication and collaboration skills, with the ability to work effectively in agile, multicultural teams and contribute to shared goalsA proactive and curious mindset, with a genuine passion for clean code, continuous improvement, and keeping up with evolving web technologies",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Strong PHP experience"
-      ],
-      "match_cons": [
-        "Seniority slightly off",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4399655744",
-      "title": "PHP/Vue.js Developer",
-      "company": "Adentis Portugal",
-      "url": "https://pt.linkedin.com/jobs/view/php-vue-js-developer-at-adentis-portugal-4399655744",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-09",
-      "description": "Com mais de 9 anos de existência a nível nacional, contamos com mais de 200 colaboradores com o nosso ADN e posicionamo-nos no mercado com 3 ofertas de serviço:Strategy (Outsourcing, Team as a Service, Tech Academies);R&D (Estágios, POC, Laboratório Tecnológico);Nearshore.Na ADENTIS centramo-nos nas PESSOAS e é este o nosso salário emocional:Equilíbrio entre a vida profissional e pessoal;Flexibilidade na rotina organizacional;Benefícios de saúde para colaboradores e familiares;Eventos Team Building;Protocolo com mais de 300 parceiros;Formação contínua através de um centro profissional de formação e certificação;Acompanhamento e feedback contínuo através de um plano personalizado;Progressão de carreira através de avaliações objetivas e diretas.IMPORTANTE: Exige-se fluência em português (falado e escrito) e autorização legal para trabalhar em Portugal.O que procuramos:Licenciatura em Informática de Gestão ou similar;Experiência superior a 3 anos em desenvolvimento PHP (Laravel e/ou Symfony);Conhecimentos em frameworks de JavaScript (Vue.Js);Experiência em projetos ágeis;Bom nível de Inglês, falado e escrito.Se queres fazer parte de uma empresa People First, junta-te a nós.We walk with you!REF: LX.ADN.PhpVueDevNa Adentis defendemos a igualdade e valorizamos a diversidade. Criamos um ambiente seguro, diversificado e onde as oportunidades são iguais para todos os colaboradores!Não discriminamos com base em idade, etnia, orientação sexual, género, deficiência ou qualquer fator que não seja o mérito.Todas as candidaturas com competências para o cargo são bem-vindas!",
-      "match_score": 55,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Primary language not PHP",
-        "Requires fluent Portuguese"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4412858775",
-      "title": "Senior Backend Developer (PHP/Symfony)",
-      "company": "Klaravik Sverige",
-      "url": "https://se.linkedin.com/jobs/view/senior-backend-developer-php-symfony-at-klaravik-sverige-4412858775",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-09",
-      "description": "Vill du arbeta med moderna tekniker, komplexa system och utveckling som verkligen gör skillnad? Som Senior Backend Developer hos oss får du en central roll i utvecklingen av våra digitala plattformar – med fokus på robusta, skalbara och högpresterande backend-lösningar.Vi arbetar i cross-functional squads, där samarbete, lärandekultur och kvalitet står i centrum. Här får du både möjlighet och förväntan att ta tekniskt ansvar, bidra med erfarenhet och vara en viktig del av vår tekniska riktning framåt.Vad vi görPå Klaravik sammanför vi hundratusentals köpare över hela världen med säljare av maskiner och fordon via vår webbplats klaravik.se. Vi har skapat en auktionstjänst där du dagligen hittar mängder av nya objekt att lägga bud på, och företaget växer ständigt. Under 2025 hade vi över 160 000 auktioner och nådde en auktionsomsättning på 4,7 miljarder och prognosen pekar på fortsatt stark tillväxt. Klaravik är en del av en stark nordisk koncern med flera framgångsrika tillväxtvarumärken.Vad ditt jobb blirSom Senior Backend Developer kommer du att:Bygga och vidareutveckla backend-applikationer i PHP med Symfony som huvudsakligt ramverk. Ta ansvar för arkitektur, kodkvalitet och best practices tillsammans med andra seniora utvecklare. Utforma och optimera databaser samt arbeta med effektiva SQL-lösningar. Säkerställa hög kvalitet genom testning, automatisering och peer-to-peer code reviews. Arbeta nära produktägare, designers och QA i en squad som tillsammans driver produkten framåt. Bidra till lärande och kunskapsdelning – både i squaden och i våra backend-grupper. Vara delaktig i att förbättra plattformens prestanda, stabilitet och skalbarhet. Använda AI-baserade verktyg som en naturlig del av utvecklingsprocessen, exempelvis för kodgenerering, analys, testning och effektivisering av arbetsflöden. Vi tror att du harMinst 5 års erfarenhet av backendutveckling i PHP. Mycket goda kunskaper i Symfony eller liknande PHP-ramverk. Stark förståelse för SQL, databasdesign och backend-arkitektur. Erfarenhet av agila arbetssätt i squads. Förmågan att ta tekniskt ansvar och driva arbete självständigt. God kommunikativ förmåga och en vilja att samarbeta och dela kunskap. Mycket goda kunskaper i svenska, då vi arbetar nära varandra i squads och har löpande dialog med kollegor och användare på svenska. Det är meriterande om du också harErfarenhet av andra PHP-ramverk (Laravel, Laminas, m.fl.). Bakgrund inom auktionssystem, e-handel eller andra komplexa transaktionsmiljöe",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Seniority matches"
-      ],
-      "match_cons": [
-        "No PostgreSQL",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4418312805",
-      "title": "PHP Developer - Laravel (m/w/d)",
-      "company": "OE Service GmbH",
-      "url": "https://at.linkedin.com/jobs/view/php-developer-laravel-m-w-d-at-oe-service-gmbh-4418312805",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-09",
-      "description": "Wir entwicklen und betreiben Software im Automotive Aftermarket, darunter die marktführende B2B SaaS-Anwendung für Kfz-Werkstätten zur Durchführung von herstellerkonformen Serviceleistungen an PKWs.Unser Ziel ist es, unseren Kunden echten Mehrwert zu bieten, indem wir den Serviceprozess digitalisieren, ihnen Zugang zu sonst schwer zugänglichen Informationen ermöglichen und ihnen so die tägliche Arbeit erleichtern.Derzeit liegt unser Fokus auf das Entwicklen neuer Features und Produkte sowie die Optimierung unserer internen Geschäfts-Prozesse.AufgabenZusammen mit 2 weiteren Backend Entwicklern sowie 2 Frontend Entwicklern, arbeitest du als Teil eines agilen Teams an folgenden Projekten:Entwicklung von neuen Features sowie Performance Optimierung unseres B2B SaaS ProduktsProzess-optimierung & -automatisierung unserer internen Business LogikWeiterentwicklung unserer Schnittstellen für andere SoftwareanbieterWeiterentwicklung unseres B2C ProduktsQualifikationDu passt gut zu uns wenn du...ambitioniert bist und einen hohen Anspruch an deine eigene Leistung hasteine Leidenschaft für Software Entwicklung hast und gerne am Ball bleibst was neue Entwicklungen, Technologien und Tools angehtdaran interessiert bist sowohl den Entwicklungsprozess als auch das Produkt aktiv mitzugestalten und deine eigenen Ideen einbringstein Team-Player bist, der gerne, offen und ehrlich kommunizierst und in der Lage dazu bist konstruktives Feedback zu geben aber auch zu nehmeneine schnelle Auffassungsgabe hast und in Lösungen anstelle von Problemen denkstIdealerweise hast du Interesse und ggf. auch Erfahrung im Bereich DevOps und möchtest dich was die Themen Hosting, Skalierung und Co. ebenfalls einbringen.ErfahrungWir haben ambitionierte Ziele, daher suchen wir jemden mit folgender Erfahrung:Mindestens 4 Jahre Erfahrung als PHP Developer mit MVC Frameworks, bevorzugt LaravelMehrjährige Erfahrung mit der Entwicklung von APIs sowie der Dokumentation dieser mit OpenAPI, Scribe oder ähnlichen ToolsArbeit an größeren produktiven AnwendungenFundierte Erfahrung im schreiben von Tests mit PHPUnit(optional) Erfahrung im mit Laravel Forge, Envoyer und Servermanagement im AllgemeinenBenefitsObwohl wir in der Automotive Branche tätig sind, möchten wir die Nutzung der Öffis fördern und daher geht die Jahreskarte der Wiener Linien auf uns!Großartiger Espresso, Tee und andere Softdrinks zur freien VerfügungMitarbeitervergünstigungen bei einer weit verbreiteten KFZ WerkstattketteMyClubs Mitgliedschaf",
-      "match_score": 83,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Seniority fits"
-      ],
-      "match_cons": [
-        "Missing DevOps experience",
-        "Danish preferred"
       ]
     }
   ]
