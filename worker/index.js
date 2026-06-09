@@ -21,7 +21,7 @@ const GROQ_MODEL = 'llama-3.1-8b-instant';
 const YOUR_PROFILE = `PHP Backend / Full-Stack Developer, 10+ years experience.
 
 Career:
-- Software Engineer at Maxtracker (Aug 2025–present): fleet telematics platform, 10,000+ vehicles, PHP/Kohana/PostgreSQL, real-time data pipelines.
+- Software Engineer at Maxtracker (Aug 2025–Jun 2026): fleet telematics platform, 10,000+ vehicles, PHP/Kohana/PostgreSQL, real-time data pipelines.
 - PHP Web Developer at mydigitalnomads (Apr 2022–Aug 2025): large-scale SaaS, fully remote, PHP/MySQL/TypeScript/Docker.
 - Web Developer at OSPL (Nov 2019–present, part-time): health insurance system, 20,000+ affiliates, PHP/MySQL.
 - DBA at Mutual Senderos (2014–2019): started in database administration, grew into full-stack web development.

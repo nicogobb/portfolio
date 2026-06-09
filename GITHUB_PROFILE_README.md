@@ -16,9 +16,9 @@
 
 **What I'm working on**
 
-- `maxtracker` — fleet telematics backend, 10,000+ active vehicles, PHP/Kohana/PostgreSQL
-- `ospl` — health insurance management system, 20,000+ affiliates
+- `ospl` — health insurance management system, 20,000+ affiliates (PHP/MySQL, part-time)
 - side projects in Laravel, REST API design, and CI/CD automation
+- open to new opportunities — full stack PHP/backend roles in Copenhagen or remote
 
 **Contact**
 
