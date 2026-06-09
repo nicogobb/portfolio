@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T07:05:54.823880+00:00",
+  "updated_at": "2026-06-09T10:04:58.141689+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -213,6 +213,27 @@
       "match_cons": [
         "Not PHP primary",
         "Danish preferred"
+      ]
+    },
+    {
+      "id": "IT-jobbank_h1672889",
+      "title": "Erfaren enterprise-arkitekt til tværgående arkitekturenhed",
+      "company": "Styrelsen For It og Læring",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1672889/erfaren-enterprise-arkitekt-til-tvaergaaende-arkitekturenhed",
+      "source": "IT-jobbank",
+      "date": "2026-06-09",
+      "fetched_at": "2026-06-09",
+      "denmark": true,
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires fluent Danish"
       ]
     },
     {
@@ -4784,7 +4805,8 @@
       "match_cons": [
         "Requires AWS",
         "Danish preferred"
-      ]
+      ],
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4417038821",
@@ -5343,7 +5365,8 @@
       "match_cons": [
         "No description, no EU timezone mention"
       ],
-      "description": "🚀 We’re Hiring! | PHP EngineerJoin NorthGravity – Where Innovation Meets Impact!We’re looking for an experienced PHP Engineer to join our dynamic team. If you're passionate about building high-performance applications, working with cutting-edge technologies, and shaping the future of data-driven solutions—this is the opportunity for you!🌍 About NorthGravityNorthGravity is a Chicago/Krakow-based startup, providing cognitive data collection, predictive analytics, and data management solutions to Hedge Funds, Banks, and Energy companies.Founded in 2018, we’re building a system of intelligence, delivering easy-to-use, high-quality data as the foundation for our clients’ successful data science projects and business processes.🚀 What’s in It for You?Work with a Global Engineering team – collaborate with Product and Business Development teams to define, develop, and deliver impactful solutions.Exciting tech stack – exposure to multiple frameworks, languages, and technologies across different domains.Real impact – shape the product, influence decisions, and help build innovative solutions from the ground up.Engagements in English – work in an international, collaborative environment.Fully paid Luxmed & MyBenefit cafeteria – because your well-being matters.Flexible hybrid work model 🛠 Your Role & ResponsibilitiesDesign and develop secure, scalable, and high-performance applications using PHP (CodeIgniter, Laravel) and Python.Implement modern, responsive web interfaces using HTML, CSS, and JavaScript (React).Work with microservices architecture, ensuring reliability and efficiency.Collaborate closely with Product Owners and Engineering Managers to refine and improve solutions.Write clean, well-documented code that follows best practices.Conduct code reviews, provide constructive feedback, and ensure high-quality development.Deploy applications using DevOps tools, CI/CD pipelines, and cloud architectures (preferably AWS).Utilize event streaming technologies like Kafka to build real-time data-driven systems.💡 What You Need to Succeed2+ years of experience in building web applications using PHP (CodeIgniter/Laravel) and Python.Solid product development experience, working across all stakeholders.Experience with relational (MySQL) and NoSQL databases.Proficiency in writing and consuming APIs (REST, GraphQL).Strong front-end skills – JavaScript (React), clean HTML/CSS, jQuery.Hands-on experience with cloud environments (preferably AWS).Understanding of DevOps practices a"
+      "description": "🚀 We’re Hiring! | PHP EngineerJoin NorthGravity – Where Innovation Meets Impact!We’re looking for an experienced PHP Engineer to join our dynamic team. If you're passionate about building high-performance applications, working with cutting-edge technologies, and shaping the future of data-driven solutions—this is the opportunity for you!🌍 About NorthGravityNorthGravity is a Chicago/Krakow-based startup, providing cognitive data collection, predictive analytics, and data management solutions to Hedge Funds, Banks, and Energy companies.Founded in 2018, we’re building a system of intelligence, delivering easy-to-use, high-quality data as the foundation for our clients’ successful data science projects and business processes.🚀 What’s in It for You?Work with a Global Engineering team – collaborate with Product and Business Development teams to define, develop, and deliver impactful solutions.Exciting tech stack – exposure to multiple frameworks, languages, and technologies across different domains.Real impact – shape the product, influence decisions, and help build innovative solutions from the ground up.Engagements in English – work in an international, collaborative environment.Fully paid Luxmed & MyBenefit cafeteria – because your well-being matters.Flexible hybrid work model 🛠 Your Role & ResponsibilitiesDesign and develop secure, scalable, and high-performance applications using PHP (CodeIgniter, Laravel) and Python.Implement modern, responsive web interfaces using HTML, CSS, and JavaScript (React).Work with microservices architecture, ensuring reliability and efficiency.Collaborate closely with Product Owners and Engineering Managers to refine and improve solutions.Write clean, well-documented code that follows best practices.Conduct code reviews, provide constructive feedback, and ensure high-quality development.Deploy applications using DevOps tools, CI/CD pipelines, and cloud architectures (preferably AWS).Utilize event streaming technologies like Kafka to build real-time data-driven systems.💡 What You Need to Succeed2+ years of experience in building web applications using PHP (CodeIgniter/Laravel) and Python.Solid product development experience, working across all stakeholders.Experience with relational (MySQL) and NoSQL databases.Proficiency in writing and consuming APIs (REST, GraphQL).Strong front-end skills – JavaScript (React), clean HTML/CSS, jQuery.Hands-on experience with cloud environments (preferably AWS).Understanding of DevOps practices a",
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:3703080143",
@@ -5981,26 +6004,6 @@
       ],
       "match_cons": [
         "Missing DevOps experience",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4422902066",
-      "title": "PHP Entwickler (all genders)",
-      "company": "CHECK24 Vergleichsportal GmbH",
-      "url": "https://at.linkedin.com/jobs/view/php-entwickler-all-genders-at-check24-vergleichsportal-gmbh-4422902066",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-09",
-      "description": "Über diesen JobSpeed, Agilität und steile Karrierechancen, das macht uns bei CHECK24 aus. Das führende deutsche Vergleichsportal expandiert nach Österreich und verbindet somit das Beste aus zwei Welten – die Stabilität und das Know-How eines großen Unternehmens mit der Flexibilität und dem Flair eines dynamischen Startups. Genau der richtige Ort, für Deine Karriere als PHP Entwickler (all genders) in Wien.Du möchtest von Tag eins bei der Entwicklung eines neuen Produktes dabei sein und mit Deinen Features den Unterschied machen? Dann freuen wir uns auf Deine Bewerbung als PHP Entwickler (all genders) bei der CHECK24 Vergleichsportal Verbraucherdienstleistungen Österreich GmbH.Was Du mitbringstMindestens 3 Jahre Berufserfahrung als Entwickler:inSehr gute Kenntnisse in PHP und MySQL sowie objektorientierter Programmierung – idealerweise mit LaravelStrukturiertes, selbständiges Arbeiten sowie Spaß an stetiger Weiterentwicklung sind für Dich selbstverständlichQualitätsbewusstsein, Teamgeist und lösungsorientiertes Arbeiten zeichnen Dich ausDu hast Spaß an der Arbeit in agilen Teams und bist wie wir, immer auf der Suche nach der besten LösungVerhandlungssichere Deutschkenntnisse und gute Englischkenntnisse runden Dein Profil abZu Deinen Aufgaben zählenAuf Dich wartet die Neu- und Weiterentwicklung von Software-Systemen mit Schwerpunkt Backend unter Anwendung innovativer Web-Technologien in einem modernen TechnologiestackAnalyse fachlicher und technischer Anforderungen sowie Erstellung von technischen KonzeptenDu stellst die Qualität und Funktionalität zusätzlich über Unit- und Integrationstests sicher - wir zeigen Dir, wie das gehtAktiver Wissensaustausch durch Reviews der Pull Requests Deiner Kolleg:innenAnbindung von Backend Services und Ausbau unseres eigenen UI-ToolkitsDu ermöglichst unseren Kund:innen die bestmögliche User-Experience zu erleben Was wir Dir bietenDu kommst leicht zu uns: Zentraler Standort direkt am Stephansplatz, mit Blick auf den Stephansdom. Unser helles und modernes Büro bietet Raum für Kreativität, Pausen im Freien und Spaß beim Tischtennis.Wir schätzen Deinen Einsatz: Unbefristete Verträge und eine attraktive Vergütung mit jährlichen Prämien für besondere Erfolge.Wir statten Dich aus: Leistungsstarker Laptop, zwei zusätzliche Bildschirme und weitere Features bekommst Du direkt am ersten Arbeitstag. Du wünschst Dir individuelles Equipment wie eine ergonomische Maus, Noise-Cancelling-Kopfhörer oder einen höhenverstellbaren Schreibtisch?",
-      "match_score": 55,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Primary language not PHP",
         "Danish preferred"
       ]
     }
