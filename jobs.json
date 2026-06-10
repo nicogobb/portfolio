@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T13:05:11.391017+00:00",
+  "updated_at": "2026-06-10T16:04:23.576776+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -39,6 +39,26 @@
       "match_cons": [
         "No description",
         "Danish learning"
+      ]
+    },
+    {
+      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/qintess-desenvolvedor-csharp-net-e-php-remota",
+      "title": "Desenvolvedor C# .NET e PHP - Remota",
+      "company": "Qintess",
+      "url": "https://weworkremotely.com/remote-jobs/qintess-desenvolvedor-csharp-net-e-php-remota",
+      "source": "WeWorkRemotely",
+      "date": "Wed, 10 Ju",
+      "fetched_at": "2026-06-10",
+      "description": "Headquarters: São Paulo, São Paulo, Brazil URL: http://qintess.com Desenvolver e implementar soluções de automação de processos, utilizando diversas linguagens de programação e tecnologias, visando redução de erros e custos, aprimoramento de qualidade dos serviços e processos e ganho de produtividade. Requirements Experiência de trabalho em desenvolvimento C# .NET. Experiência em princípios e práticas desenvolvimento de software ágil, incluindo o Manifesto Ágil, Scrum, Extreme Programming (XP) e Kankan, Experiência de trabalho em arquitetura de microserviços e SOA, Devops e DevSecOps. HARD SKILLS: Superior em TI ou ps em TI completa C# (Framework .net), PHP, JavaScript Gitlab SQL Vue.Js Postgrees, MySQL, SQL Server. Benefits Benefícios: Vale Refeição/Alimentação Alelo; Assistência Médica N",
+      "match_score": 45,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP is primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires fluent Danish"
       ]
     },
     {
@@ -365,6 +385,27 @@
       "title": "Afdelingschef for Digital Finans",
       "company": "LB Forsikring",
       "url": "https://www.it-jobbank.dk/jobannonce/h1673270/afdelingschef-for-digital-finans",
+      "source": "IT-jobbank",
+      "date": "2026-06-10",
+      "fetched_at": "2026-06-10",
+      "denmark": true,
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly",
+        "Laravel matches"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "IT-jobbank_h1673531",
+      "title": "IT-projektleder",
+      "company": "MOLIO Erhvervsdrivende Fond",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1673531/it-projektleder",
       "source": "IT-jobbank",
       "date": "2026-06-10",
       "fetched_at": "2026-06-10",
@@ -7997,7 +8038,8 @@
         "Requires AWS",
         "No EU timezone mention"
       ],
-      "description": "Job Title: Web Developer III (WordPress | PHP | JavaScript | AI-First Development)Location: Remote USADuration: 12 Months (Potential Extension)Employment Type: Contract W2We are seeking a highly skilled Web Developer to support the development and maintenance of large-scale, high-traffic WordPress-based web platforms. This role involves building new features, enhancing performance, and ensuring secure, scalable solutions across marketing and informational websites.The ideal candidate brings strong WordPress engineering expertise, thrives in a fast-paced environment, and is comfortable working with AI-driven development workflows to accelerate delivery without compromising quality.Required Qualifications5+ years of experience in WordPress developmentStrong proficiency in PHP and JavaScript (modern ES6+)Hands-on experience building custom themes and pluginsDeep understanding of WordPress architecture (hooks, APIs, Gutenberg/block editor, REST API)Solid knowledge of HTML, CSS, accessibility, and web standardsExperience working on enterprise or high-traffic websitesStrong problem-solving and analytical skillsAbility to work independently in a fast-paced, dynamic environmentExcellent communication skills for cross-functional collaborationPreferred QualificationsExperience with enterprise WordPress platforms or large-scale digital ecosystemsFamiliarity with structured deployment workflows (Git, CI/CD)Exposure to AI-assisted development tools (e.g., Claude, Copilot, DevMate or similar)Background in media, technology, or consumer-facing platforms ResponsibilitiesDevelop, maintain, and enhance WordPress site functionality using PHP and modern JavaScriptDesign and build custom WordPress themes and plugins from the ground upTroubleshoot, debug, and resolve issues across existing codebasesOptimize site performance, responsiveness, and scalability for high-traffic environmentsTranslate business requirements into robust, scalable technical solutionsConduct code reviews and maintain documentation aligned with best practicesFollow secure coding standards and proactively mitigate risksLeverage AI tools to improve development speed, code quality, and efficiency"
+      "description": "Job Title: Web Developer III (WordPress | PHP | JavaScript | AI-First Development)Location: Remote USADuration: 12 Months (Potential Extension)Employment Type: Contract W2We are seeking a highly skilled Web Developer to support the development and maintenance of large-scale, high-traffic WordPress-based web platforms. This role involves building new features, enhancing performance, and ensuring secure, scalable solutions across marketing and informational websites.The ideal candidate brings strong WordPress engineering expertise, thrives in a fast-paced environment, and is comfortable working with AI-driven development workflows to accelerate delivery without compromising quality.Required Qualifications5+ years of experience in WordPress developmentStrong proficiency in PHP and JavaScript (modern ES6+)Hands-on experience building custom themes and pluginsDeep understanding of WordPress architecture (hooks, APIs, Gutenberg/block editor, REST API)Solid knowledge of HTML, CSS, accessibility, and web standardsExperience working on enterprise or high-traffic websitesStrong problem-solving and analytical skillsAbility to work independently in a fast-paced, dynamic environmentExcellent communication skills for cross-functional collaborationPreferred QualificationsExperience with enterprise WordPress platforms or large-scale digital ecosystemsFamiliarity with structured deployment workflows (Git, CI/CD)Exposure to AI-assisted development tools (e.g., Claude, Copilot, DevMate or similar)Background in media, technology, or consumer-facing platforms ResponsibilitiesDevelop, maintain, and enhance WordPress site functionality using PHP and modern JavaScriptDesign and build custom WordPress themes and plugins from the ground upTroubleshoot, debug, and resolve issues across existing codebasesOptimize site performance, responsiveness, and scalability for high-traffic environmentsTranslate business requirements into robust, scalable technical solutionsConduct code reviews and maintain documentation aligned with best practicesFollow secure coding standards and proactively mitigate risksLeverage AI tools to improve development speed, code quality, and efficiency",
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4425876597",
@@ -11837,46 +11879,6 @@
       "match_cons": [
         "Twig instead of Laravel",
         "MariaDB/MySQL instead of PostgreSQL"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4424174362",
-      "title": "Backend Engineer | Mid - Senior | PHP + Go | Payments Team",
-      "company": "Nord Security",
-      "url": "https://pl.linkedin.com/jobs/view/backend-engineer-mid-senior-php-%2B-go-payments-team-at-nord-security-4424174362",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-10",
-      "description": "The world’s most advanced VPN, and a whole lot more.If you’re a curious problem-solver who carves their own path, join the team behind Threat Protection Pro, the NordLynx protocol, and the fastest VPN on the planet—tools that put privacy, security, and control back in people’s hands.Your impact? Helping millions take back control of their online security, privacy, and data.Main ResponsibilitiesDesign, build, and maintain APIs, services, and systems in our Payments’ infrastructure;Write high-quality code that is tested, maintainable, documented, and performs well under load;Work with different payment methods from all around the world;Integrate new service providers, each with its own code and functionality;Improve engineering standards, tooling, and processes;Collaborate with your team members, QA, DevOps, and security teams on day-to-day tasks;Mentor colleagues and provide technical guidance when needed;Perform R&D operations and find solutions to new and challenging problems we encounter;Core RequirementsProven experience working with PHP;Experience working with Golang;Proven experience building microservices and knowledge of microservices patterns;Understanding of OOP principles and good code design;Understanding of API design;Good MySQL knowledge;Experience working with Git;Knowledge of Docker, Kubernetes, RabbitMQ, and Redis is a plus. Tools You Will UsePHP;Golang;MySQL;Redis;KeyDB;RabbitMQ;Docker;Kubernetes;ArgoCD;Debezium;OpenSearch/ElasticSearch;Grafana. What we offerInnovate with industry leadersWork alongside global experts to build world-leading cybersecurity tools, impacting millions of users around the world.Learn & growBoost your skills via our extensive training programs (online and offline) & other resources. Benefit from mentorship and career-switch opportunities to grow within the company.Hybrid workEnjoy the flexibility with 3 office days and working from home for the remaining 2.Work from anywhereRecharge with a change of scenery – choose work from any location when you feel a need to power your creativity and drive.Physical well-beingFuel your active lifestyle with online workouts led by our Physical Well-Being experts. Unlock a variety of sports and wellness facilities, like gyms, swimming pools, and fitness classes, with the Multisport card.Mental & emotional healthNurture your mind with free psychologist consultations, dedicated mental health events, and premium access to top-rated wellness apps like Calm, Headspace, and Mindletic.P",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Seniority matches"
-      ],
-      "match_cons": [
-        "No Go experience",
-        "Missing microservices knowledge"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4379919450",
-      "title": "Medior php-ontwikkelaar",
-      "company": "PimLayer",
-      "url": "https://be.linkedin.com/jobs/view/medior-php-ontwikkelaar-at-pimlayer-4379919450",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-06-10",
-      "description": "Wil jij echte vrijheid als developer? Bij PimLayer krijg je ownership over het product en bepaal je mee de technische richting. Geen vastgeroeste structuren, maar maximale autonomie om samen het beste product neer te zetten.Wij zoeken iemand specifiek voor een project waarin AI, data-interpretatie en schaalbare softwarearchitectuur centraal staan.Wat bieden we?✅ Vrijheid & Ownership: Jij bepaalt mee hoe we bouwen.✅ Toekomst & Groei: Nieuwe funding, paying customers en een nieuw kantoor in Deinze (zonder files 🚗💨).✅ Topteam: Slimme, gedreven collega’s die samen voor impact gaan.✅ Duidelijke productvisie & roadmap✅ Mogelijkheden tot participatie: Bouw niet alleen aan de code, maar ook aan het bedrijf.Wat zoeken we?💡 Mogelijke skills: Python, PHP (Symfony of gelijkaardig framework), Git Pipelines, DevOps, Automated Testing, Security, ISO27001.💡 Affiniteit met AI en data-driven systemen.Pluspunt: Ervaring in AI-gedreven dataverwerking en schema-/datamodellering, die proof-of-concept AI-oplossingen kan vertalen naar robuuste, schaalbare SaaS-implementaties.💡 Mindset: Gedreven, positief, teamplayer.💡 Wanted: de diva's, de guru's, de A-players: https://www.youtube.com/watch?v=a7mS9ZdU6k4Misschien ben je helemaal niet op zoek naar een nieuwe uitdaging.En we weten ook niet of we jou iets kunnen bieden waar je zin in hebt...Maar als dit intrigeert, stuur ons een seintje en we sturen je een informatiepackage met alles over de job.👉 Interesse? Vraag de info-package aan!NO AGENCIES!",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Laravel matches"
-      ],
-      "match_cons": [
-        "Minor seniority diff",
-        "Danish learning"
       ]
     }
   ]
