@@ -226,6 +226,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentView   = 'remote';   // 'remote' | 'denmark'
     let currentFilter = 'all';      // 'all' | 'pending' | 'applied' | 'no visa'
     let searchQuery   = '';         // free-text search
+    let currentPage   = 1;
+    const PAGE_SIZE   = 25;
 
     function saveApplied() {
         localStorage.setItem(APPLIED_KEY, JSON.stringify(Object.fromEntries(appliedJobs)));
@@ -307,8 +309,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (!filtered.length) {
             list.innerHTML = `<p style="font-family:var(--font-main);color:var(--light-text);padding:1rem 0">No ${currentFilter} listings.</p>`;
+            document.getElementById('jobs-pagination').innerHTML = '';
             return;
         }
+
+        const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+        if (currentPage > totalPages) currentPage = totalPages;
+        const paginated  = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 
         function jobMatchBar(j) {
             const score = j.match_score;
@@ -328,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>${hints}`;
         }
 
-        list.innerHTML = filtered.map(j => {
+        list.innerHTML = paginated.map(j => {
             const applied = appliedJobs.has(j.id);
             const novisa  = noVisaJobs.has(j.id);
             const closed  = closedJobs.has(j.id);
@@ -355,6 +362,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 ${jobMatchBar(j)}
             </div>`;
         }).join('');
+
+        const pag = document.getElementById('jobs-pagination');
+        if (totalPages <= 1) {
+            pag.innerHTML = '';
+        } else {
+            pag.innerHTML = `
+                <button class="jobs__page-btn" data-page="${currentPage - 1}" ${currentPage === 1 ? 'disabled' : ''}>← prev</button>
+                <span class="jobs__page-info">${currentPage} / ${totalPages}</span>
+                <button class="jobs__page-btn" data-page="${currentPage + 1}" ${currentPage === totalPages ? 'disabled' : ''}>next →</button>`;
+        }
     }
 
     function showUpdateStatus(updatedAt) {
@@ -462,16 +479,25 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('jobs-filters').addEventListener('click', e => {
         const viewBtn   = e.target.closest('.jobs__view');
         const filterBtn = e.target.closest('.jobs__filter');
-        if (viewBtn)   { currentView   = viewBtn.dataset.view;     renderJobs(allJobsData); }
-        if (filterBtn) { currentFilter = filterBtn.dataset.filter; renderJobs(allJobsData); }
+        if (viewBtn)   { currentView   = viewBtn.dataset.view;     currentPage = 1; renderJobs(allJobsData); }
+        if (filterBtn) { currentFilter = filterBtn.dataset.filter; currentPage = 1; renderJobs(allJobsData); }
     });
 
     // Search input (event delegation — input is re-rendered on each renderJobs)
     document.getElementById('jobs-filters').addEventListener('input', e => {
         if (e.target.id === 'jobs-search') {
             searchQuery = e.target.value;
+            currentPage = 1;
             renderJobs(allJobsData);
         }
+    });
+
+    document.getElementById('jobs-pagination').addEventListener('click', e => {
+        const btn = e.target.closest('.jobs__page-btn');
+        if (!btn || btn.disabled) return;
+        currentPage = parseInt(btn.dataset.page, 10);
+        renderJobs(allJobsData);
+        document.getElementById('jobs').scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
 
     document.getElementById('jobs-submit').addEventListener('click', tryUnlock);

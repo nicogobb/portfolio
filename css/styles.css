@@ -1118,6 +1118,43 @@ button:focus-visible {
     gap: 0.6rem;
 }
 
+.jobs__pagination {
+    max-width: 860px;
+    margin: 1rem auto 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--font-main);
+}
+
+.jobs__page-btn {
+    background: transparent;
+    border: 1px solid rgba(0, 212, 255, 0.15);
+    color: var(--light-text);
+    font-family: var(--font-main);
+    font-size: 0.72rem;
+    padding: 0.18rem 0.7rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+
+.jobs__page-btn:hover:not(:disabled) {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background: var(--accent-color);
+}
+
+.jobs__page-btn:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.jobs__page-info {
+    color: var(--light-text);
+    font-size: 0.72rem;
+}
+
 .jobs__card {
     background: var(--secondary-color);
     border: 1px solid rgba(0, 212, 255, 0.07);
