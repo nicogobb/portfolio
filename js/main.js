@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const nApplied   = byView.filter(j =>  appliedJobs.has(j.id)).length;
         const nNoVisa    = byView.filter(j =>  noVisaJobs.has(j.id)).length;
         const nClosed    = byView.filter(j =>  closedJobs.has(j.id)).length;
-        const nEasyApply = byView.filter(j =>  j.easy_apply).length;
+        const nEasyApply = byView.filter(j =>  j.easy_apply && !appliedJobs.has(j.id) && !noVisaJobs.has(j.id) && !closedJobs.has(j.id)).length;
         const nPending   = byView.length - nApplied - nNoVisa - nClosed;
         const parts      = [`${nPending} pending`];
         if (nEasyApply) parts.push(`${nEasyApply} easy apply`);
