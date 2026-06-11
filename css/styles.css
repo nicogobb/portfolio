@@ -686,10 +686,6 @@ body {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .nav__menu {
-        display: none;
-    }
-    
     .hero__container {
         flex-direction: column-reverse;
         text-align: center;
