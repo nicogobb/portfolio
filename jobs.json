@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T13:03:25.445085+00:00",
+  "updated_at": "2026-06-11T16:05:06.018181+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -524,6 +524,26 @@
       "match_cons": [
         "Primary language is NOT PHP",
         "Requires fluent Danish"
+      ]
+    },
+    {
+      "id": "IT-jobbank_h1673915",
+      "title": "QA Engineer for AI-first development",
+      "company": "Unik System Design A/S",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1673915/qa-engineer-for-ai-first-development",
+      "source": "IT-jobbank",
+      "date": "2026-06-11",
+      "fetched_at": "2026-06-11",
+      "denmark": true,
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "Requires AWS"
       ]
     },
     {
@@ -7553,7 +7573,8 @@
       "match_cons": [
         "Requires AWS",
         "Danish preferred"
-      ]
+      ],
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4351460376",
@@ -11580,7 +11601,8 @@
       "match_cons": [
         "Requires AWS",
         "Danish preferred"
-      ]
+      ],
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4334235572",
@@ -11904,41 +11926,23 @@
       ]
     },
     {
-      "id": "IT-jobbank_h1671505",
-      "title": "iOS udvikler til TV 2 Teknologi",
-      "company": "TV2",
-      "url": "https://www.it-jobbank.dk/jobannonce/h1671505/ios-udvikler-til-tv-2-teknologi",
-      "source": "IT-jobbank",
-      "date": "2026-06-03",
-      "fetched_at": "2026-06-10",
-      "denmark": true,
+      "id": "PHPDevCareers_senior-laravel-developer-935187",
+      "title": "Senior Laravel Developer",
+      "company": "Zippd",
+      "url": "https://phpdevelopercareers.com/jobs/senior-laravel-developer-935187/",
+      "source": "PHPDevCareers",
+      "date": "",
+      "fetched_at": "2026-06-11",
       "description_failed": true,
-      "match_score": 5,
-      "match_confidence": "low",
-      "match_pros": [],
-      "match_cons": [
-        "Wrong primary language",
-        "iOS developer role"
-      ]
-    },
-    {
-      "id": "IT-jobbank_h1671381",
-      "title": "Dataanalyse studentermedhjælper",
-      "company": "Red Barnet",
-      "url": "https://www.it-jobbank.dk/jobannonce/h1671381/dataanalyse-studentermedhjaelper",
-      "source": "IT-jobbank",
-      "date": "2026-06-03",
-      "fetched_at": "2026-06-10",
-      "denmark": true,
-      "description_failed": true,
-      "match_score": 20,
+      "match_score": 55,
       "match_confidence": "low",
       "match_pros": [
-        "None found"
+        "Laravel matches",
+        "Remote-friendly"
       ],
       "match_cons": [
-        "Wrong role",
-        "Non-dev match"
+        "Primary language is PHP",
+        "No description provided"
       ]
     }
   ]
