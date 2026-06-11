@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         : currentFilter === 'no visa'   ? byView.filter(j =>  noVisaJobs.has(j.id))
                         : currentFilter === 'closed'    ? byView.filter(j =>  closedJobs.has(j.id))
                         : currentFilter === 'pending'   ? byView.filter(j => !appliedJobs.has(j.id) && !noVisaJobs.has(j.id) && !closedJobs.has(j.id))
-                        : currentFilter === 'easy apply'? byView.filter(j =>  j.easy_apply)
+                        : currentFilter === 'easy apply'? byView.filter(j =>  j.easy_apply && !appliedJobs.has(j.id) && !noVisaJobs.has(j.id) && !closedJobs.has(j.id))
                         : byView;
 
         const q        = searchQuery.trim().toLowerCase();
