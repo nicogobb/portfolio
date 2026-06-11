@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentFilter = 'all';      // 'all' | 'pending' | 'applied' | 'no visa'
     let searchQuery   = '';         // free-text search
     let currentPage   = 1;
-    const PAGE_SIZE   = 25;
+    const PAGE_SIZE   = 15;
 
     function saveApplied() {
         localStorage.setItem(APPLIED_KEY, JSON.stringify(Object.fromEntries(appliedJobs)));
