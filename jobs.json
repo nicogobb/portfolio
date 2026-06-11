@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T19:04:06.037503+00:00",
+  "updated_at": "2026-06-11T22:03:54.444524+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3879",
@@ -160,6 +160,26 @@
       ],
       "match_cons": [
         "C# integration",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "WeWorkRemotely_https://weworkremotely.com/remote-jobs/https-shiperp-com-php-web-developer",
+      "title": "PHP Web Developer",
+      "company": "https://shiperp.com/",
+      "url": "https://weworkremotely.com/remote-jobs/https-shiperp-com-php-web-developer",
+      "source": "WeWorkRemotely",
+      "date": "Thu, 11 Ju",
+      "fetched_at": "2026-06-11",
+      "description": "Headquarters: Shaw Blvd, Mandaluyong, Metro Manila, Philippines URL: http://shiperp.com Company Description ShipERP is a recognized leader in helping organizations seamlessly integrate multi-carrier shipping functionality from directly within the SAP ERP system hence eliminating the need for third-party shipping solutions. With a focus on Certified SAP Solutions, ShipERP can provide business efficiencies that come with a strong return on investment. ShipERP is proud to be an equal opportunity workplace. All qualified applicants will receive consideration for employment without regard to, and will not be discriminated against based on, race, gender, color, religion, national origin, sexual orientation, gender identity, veteran status, disability or other protected category. Job Description ",
+      "match_score": 58,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS",
         "Danish preferred"
       ]
     },
@@ -11924,26 +11944,6 @@
       "match_cons": [
         "Seniority mismatch",
         "No Laravel/Symfony match"
-      ]
-    },
-    {
-      "id": "PHPDevCareers_senior-laravel-developer-935187",
-      "title": "Senior Laravel Developer",
-      "company": "Zippd",
-      "url": "https://phpdevelopercareers.com/jobs/senior-laravel-developer-935187/",
-      "source": "PHPDevCareers",
-      "date": "",
-      "fetched_at": "2026-06-11",
-      "description_failed": true,
-      "match_score": 55,
-      "match_confidence": "low",
-      "match_pros": [
-        "Laravel matches",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Primary language is PHP",
-        "No description provided"
       ]
     }
   ]
