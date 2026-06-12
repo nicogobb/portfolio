@@ -1234,6 +1234,18 @@ button:focus-visible {
     margin-left: 0.4rem;
 }
 
+.jobs__location {
+    font-family: var(--font-main);
+    font-size: 0.72rem;
+    color: var(--light-text);
+    opacity: 0.6;
+    margin-left: 0.5rem;
+}
+.jobs__location::before {
+    content: "·";
+    margin-right: 0.35rem;
+}
+
 /* ── Match score bar ─────────────────────────────────────────── */
 .jobs__match {
     grid-column: 1 / -1;

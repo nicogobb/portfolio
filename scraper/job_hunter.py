@@ -53,7 +53,7 @@ BLACKLISTED_COMPANIES = {
 }
 
 JOBS_FILE    = Path(__file__).parent.parent / "jobs.json"
-MAX_JOBS     = 600
+MAX_JOBS     = 1000
 MAX_AGE_DAYS = 60   # jobs not seen for this many days are considered expired
 
 HEADERS = {
@@ -80,7 +80,7 @@ def clean(s) -> str:
     s = html_module.unescape(s)
     return " ".join(s.split()).strip()
 
-def make_job(source, uid, title, company, url, date="", denmark=False, salary=None, description=None) -> dict:
+def make_job(source, uid, title, company, url, date="", denmark=False, salary=None, description=None, work_type=None, location=None) -> dict:
     j = {
         "id":         f"{source}_{uid}",
         "title":      clean(title),
@@ -96,7 +96,28 @@ def make_job(source, uid, title, company, url, date="", denmark=False, salary=No
         j["salary"] = salary
     if description:
         j["description"] = description[:800]
+    if work_type:
+        j["work_type"] = work_type
+    if location:
+        j["location"] = location
     return j
+
+
+def _detect_work_type(location_text: str):
+    """Infer work_type from LinkedIn location strings like 'Amsterdam · Hybrid'."""
+    t = location_text.lower()
+    if "remote" in t:
+        return "remote"
+    if "hybrid" in t:
+        return "hybrid"
+    if t:
+        return "onsite"
+    return None
+
+
+def _clean_location(location_text: str) -> str:
+    """Strip work-type suffix (e.g. ' · Hybrid') from LinkedIn location."""
+    return re.sub(r'\s*[·•]\s*(remote|hybrid|on[- ]?site).*$', '', location_text, flags=re.I).strip()
 
 def is_relevant(job: dict) -> bool:
     """Post-fetch quality filter: blacklist + PHP description check."""
@@ -141,6 +162,7 @@ def fetch_remoteok() -> list:
                     j.get("url", f"https://remoteok.com/remote-jobs/{j['id']}"),
                     j.get("date", ""),
                     description=clean(j.get("description", "")),
+                    work_type="remote",
                 ))
         return out
     except Exception as e:
@@ -160,6 +182,7 @@ def fetch_weworkremotely() -> list:
                     title_name, company_name,
                     e.link, e.get("published", ""),
                     description=clean(e.get("summary", "")),
+                    work_type="remote",
                 ))
         return out
     except Exception as e:
@@ -178,6 +201,7 @@ def fetch_remotive() -> list:
                     e.title, e.get("author", ""),
                     e.link, e.get("published", ""),
                     description=clean(e.get("summary", "")),
+                    work_type="remote",
                 ))
         return out
     except Exception as e:
@@ -215,7 +239,7 @@ def fetch_himalayas() -> list:
                                   job.get("currency", "USD"))
             if matches(f"{title} {company} {desc}"):
                 out.append(make_job("Himalayas", uid, title, company, url, date, salary=salary,
-                                    description=desc))
+                                    description=desc, work_type="remote"))
         return out
     except Exception as e:
         print(f"  [!] Himalayas: {e}")
@@ -271,7 +295,7 @@ def fetch_workingnomads() -> list:
                 continue
             if matches(f"{title} {tags} {desc}"):
                 out.append(make_job("WorkingNomads", url, title, company, url, date,
-                                    description=desc))
+                                    description=desc, work_type="remote"))
         return out
     except Exception as e:
         print(f"  [!] WorkingNomads: {e}")
@@ -315,7 +339,7 @@ def fetch_phpdevelopercareers() -> list:
                         company = clean(h4.get_text(strip=True))
                 url  = f"https://phpdevelopercareers.com{href}"
                 slug = href.strip("/").split("/")[-1]
-                out.append(make_job("PHPDevCareers", slug, title, company, url))
+                out.append(make_job("PHPDevCareers", slug, title, company, url, work_type="remote"))
             if new_on_page == 0:
                 break  # no new jobs on this page — we've reached the end
             page += 1
@@ -338,7 +362,7 @@ def fetch_larajobs() -> list:
             desc  = clean(e.get("summary", ""))
             if not title or not url:
                 continue
-            out.append(make_job("Larajobs", url, title, "", url, date, description=desc))
+            out.append(make_job("Larajobs", url, title, "", url, date, description=desc, work_type="remote"))
         return out
     except Exception as e:
         print(f"  [!] Larajobs: {e}")
@@ -368,7 +392,7 @@ def fetch_jobindex() -> list:
                     out.append(make_job(
                         "Jobindex", link, title, company, link,
                         e.get("published", ""), denmark=True,
-                        description=summary,
+                        description=summary, location="Denmark",
                     ))
         except Exception as e:
             print(f"  [!] Jobindex ({kw}): {e}")
@@ -406,7 +430,7 @@ def fetch_itjobbank() -> list:
                 # No description available in listing results, so trust the API's keyword match.
                 out.append(make_job(
                     "IT-jobbank", tid, title, company, url,
-                    date, denmark=True,
+                    date, denmark=True, location="Denmark",
                 ))
         except Exception as e:
             print(f"  [!] IT-jobbank ({kw}): {e}")
@@ -432,7 +456,7 @@ def fetch_thehub() -> list:
                 continue
             if matches(f"{title} {desc}"):
                 out.append(make_job("TheHub", url, title, company, url, date, denmark=True,
-                                    description=desc))
+                                    description=desc, location="Denmark"))
         return out
     except Exception as e:
         print(f"  [!] TheHub: {e}")
@@ -456,7 +480,7 @@ def fetch_indeed_denmark() -> list:
                 if matches(f"{e.title} {clean(e.get('summary', ''))}"):
                     out.append(make_job(
                         "Indeed", link, e.title, "",
-                        link, e.get("published", ""), denmark=True,
+                        link, e.get("published", ""), denmark=True, location="Denmark",
                     ))
         except Exception as e:
             print(f"  [!] Indeed Denmark ({kw}): {e}")
@@ -465,13 +489,14 @@ def fetch_indeed_denmark() -> list:
 # ── LinkedIn scrapers ─────────────────────────────────────────────────────────
 
 _LINKEDIN_KEYWORDS = [
+    "php",
     "PHP Developer", "Senior PHP Developer", "Laravel Developer",
     "Symfony Developer", "Full Stack PHP", "PHP Backend Developer",
     "PHP Engineer", "CodeIgniter Developer", "PHP Web Developer",
     "Magento Developer", "Drupal Developer",
 ]
 
-def _linkedin_search(params: dict, label: str = "LinkedIn", denmark: bool = False, max_pages: int = 3) -> list:
+def _linkedin_search(params: dict, label: str = "LinkedIn", denmark: bool = False, work_type=None, max_pages: int = 3) -> list:
     out = []
     seen_urls: set = set()
     for keyword in _LINKEDIN_KEYWORDS:
@@ -489,10 +514,11 @@ def _linkedin_search(params: dict, label: str = "LinkedIn", denmark: bool = Fals
                     break
                 new_on_page = 0
                 for li in items:
-                    title_el   = li.find("h3", class_="base-search-card__title")
-                    company_el = li.find("h4", class_="base-search-card__subtitle")
-                    link_el    = li.find("a", class_="base-card__full-link")
-                    card_el    = li.find("div", class_="base-card")
+                    title_el    = li.find("h3", class_="base-search-card__title")
+                    company_el  = li.find("h4", class_="base-search-card__subtitle")
+                    link_el     = li.find("a", class_="base-card__full-link")
+                    card_el     = li.find("div", class_="base-card")
+                    location_el = li.find("span", class_="job-search-card__location")
                     if not title_el or not link_el:
                         continue
                     url   = link_el.get("href", "").split("?")[0]
@@ -502,17 +528,21 @@ def _linkedin_search(params: dict, label: str = "LinkedIn", denmark: bool = Fals
                         continue
                     seen_urls.add(url)
                     new_on_page += 1
-                    company_text = clean(company_el.text) if company_el else ""
+                    company_text  = clean(company_el.text) if company_el else ""
+                    raw_location  = clean(location_el.text) if location_el else ""
+                    job_location  = _clean_location(raw_location)
+                    job_work_type = work_type or _detect_work_type(raw_location)
                     if matches(f"{title} {company_text}"):
                         out.append(make_job(
                             "LinkedIn", uid, title,
                             company_el.text if company_el else "",
                             url, denmark=denmark,
+                            work_type=job_work_type, location=job_location,
                         ))
                 if new_on_page == 0:
-                    break  # empty page, stop paginating this keyword
+                    break
                 if page < max_pages - 1:
-                    time.sleep(0.4)  # be polite between pages
+                    time.sleep(0.4)
             except Exception as e:
                 print(f"  [!] {label} ({keyword}, p{page+1}): {e}")
                 break
@@ -520,79 +550,88 @@ def _linkedin_search(params: dict, label: str = "LinkedIn", denmark: bool = Fals
 
 def fetch_linkedin_remote() -> list:
     """LinkedIn — remote jobs worldwide."""
-    return _linkedin_search({"f_WT": "2"}, label="LinkedIn remote")
+    return _linkedin_search({"f_WT": "2"}, label="LinkedIn remote", work_type="remote")
 
 def fetch_linkedin_europe() -> list:
     """LinkedIn — remote jobs filtered to Europe."""
     return _linkedin_search(
         {"location": "European Union", "f_WT": "2"},
-        label="LinkedIn Europe",
+        label="LinkedIn Europe", work_type="remote",
     )
 
 def fetch_linkedin_eu_onsite() -> list:
-    """LinkedIn — on-site + hybrid PHP jobs across major EU countries."""
+    """LinkedIn — onsite and hybrid PHP jobs across major EU countries, tagged separately."""
     out = []
     seen_urls: set = set()
-    # Top EU countries for tech hiring
     countries = [
         "Germany", "Netherlands", "Poland", "France", "Spain",
         "Belgium", "Czech Republic", "Portugal", "Sweden", "Austria",
     ]
     keywords = [
-        "PHP Developer", "Senior PHP Developer", "Laravel Developer",
+        "php", "PHP Developer", "Senior PHP Developer", "Laravel Developer",
         "Symfony Developer", "Full Stack PHP",
     ]
-    for country in countries:
-        for keyword in keywords:
-            try:
-                r = requests.get(
-                    "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search",
-                    params={"keywords": keyword, "location": country, "f_WT": "1,2,3", "start": "0"},
-                    headers=HEADERS, timeout=15,
-                )
-                soup = BeautifulSoup(r.text, "html.parser")
-                for li in soup.find_all("li"):
-                    title_el   = li.find("h3", class_="base-search-card__title")
-                    company_el = li.find("h4", class_="base-search-card__subtitle")
-                    link_el    = li.find("a", class_="base-card__full-link")
-                    card_el    = li.find("div", class_="base-card")
-                    if not title_el or not link_el:
-                        continue
-                    url   = link_el.get("href", "").split("?")[0]
-                    uid   = card_el.get("data-entity-urn", url) if card_el else url
-                    title = clean(title_el.text)
-                    if url in seen_urls:
-                        continue
-                    seen_urls.add(url)
-                    if matches(f"{title} {clean(company_el.text) if company_el else ''}"):
-                        out.append(make_job(
-                            "LinkedIn", uid, title,
-                            company_el.text if company_el else "",
-                            url,
-                        ))
-                time.sleep(0.3)
-            except Exception as e:
-                print(f"  [!] LinkedIn EU onsite ({country}, {keyword}): {e}")
+    for wt_param, wt_label in [("1", "onsite"), ("3", "hybrid")]:
+        for country in countries:
+            for keyword in keywords:
+                try:
+                    r = requests.get(
+                        "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search",
+                        params={"keywords": keyword, "location": country, "f_WT": wt_param, "start": "0"},
+                        headers=HEADERS, timeout=15,
+                    )
+                    soup = BeautifulSoup(r.text, "html.parser")
+                    for li in soup.find_all("li"):
+                        title_el    = li.find("h3", class_="base-search-card__title")
+                        company_el  = li.find("h4", class_="base-search-card__subtitle")
+                        link_el     = li.find("a", class_="base-card__full-link")
+                        card_el     = li.find("div", class_="base-card")
+                        location_el = li.find("span", class_="job-search-card__location")
+                        if not title_el or not link_el:
+                            continue
+                        url   = link_el.get("href", "").split("?")[0]
+                        uid   = card_el.get("data-entity-urn", url) if card_el else url
+                        title = clean(title_el.text)
+                        if url in seen_urls:
+                            continue
+                        seen_urls.add(url)
+                        job_location = clean(location_el.text) if location_el else ""
+                        if matches(f"{title} {clean(company_el.text) if company_el else ''}"):
+                            out.append(make_job(
+                                "LinkedIn", uid, title,
+                                company_el.text if company_el else "",
+                                url, work_type=wt_label, location=job_location,
+                            ))
+                    time.sleep(0.3)
+                except Exception as e:
+                    print(f"  [!] LinkedIn EU {wt_label} ({country}, {keyword}): {e}")
     return out
 
 def fetch_linkedin_denmark() -> list:
-    """LinkedIn — on-site + hybrid jobs in Denmark."""
-    return _linkedin_search(
-        {"location": "Denmark", "f_WT": "1,3"},
-        label="LinkedIn Denmark",
-        denmark=True,
-    )
+    """LinkedIn — onsite and hybrid jobs in Denmark, tagged separately."""
+    out = []
+    for wt_param, wt_label in [("1", "onsite"), ("3", "hybrid")]:
+        out += _linkedin_search(
+            {"location": "Denmark", "f_WT": wt_param},
+            label=f"LinkedIn Denmark {wt_label}",
+            denmark=True,
+            work_type=wt_label,
+        )
+    return out
 
 def fetch_linkedin_easy_apply_ids() -> set:
     """Returns set of LinkedIn job IDs that support Easy Apply (f_AL=true)."""
     easy_ids: set = set()
-    searches = [
-        {"f_WT": "2"},
-        {"location": "European Union", "f_WT": "2"},
-        {"location": "Denmark", "f_WT": "1,3"},
+    eu_countries = [
+        "Germany", "Netherlands", "Poland", "France", "Spain",
+        "Belgium", "Czech Republic", "Portugal", "Sweden", "Austria",
     ]
+    searches = (
+        [{"f_WT": "2"}, {"location": "European Union", "f_WT": "2"}, {"location": "Denmark", "f_WT": "1,3"}]
+        + [{"location": c, "f_WT": "1,2,3"} for c in eu_countries]
+    )
     for base_params in searches:
-        for keyword in _LINKEDIN_KEYWORDS[:5]:  # top 5 keywords to keep it manageable
+        for keyword in _LINKEDIN_KEYWORDS:
             for page in range(2):
                 try:
                     r = requests.get(
@@ -674,9 +713,12 @@ def main():
             merged[j["id"]] = j
         else:
             merged[j["id"]]["fetched_at"] = TODAY   # still alive → reset expiry clock
-            # Update description if the new fetch has one
             if "description" in j:
                 merged[j["id"]]["description"] = j["description"]
+            if "work_type" in j:
+                merged[j["id"]]["work_type"] = j["work_type"]
+            if "location" in j:
+                merged[j["id"]]["location"] = j["location"]
 
     # Cross-source deduplication: same title+company from different boards → keep newest
     seen_title_co: dict = {}

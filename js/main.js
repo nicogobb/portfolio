@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let noVisaJobs    = new Set(JSON.parse(localStorage.getItem(NOVISA_KEY)  || '[]'));
     let closedJobs    = new Set(JSON.parse(localStorage.getItem(CLOSED_KEY)  || '[]'));
     let allJobsData   = [];
-    let currentView   = 'remote';   // 'remote' | 'denmark'
+    let currentView   = 'remote';   // 'remote' | 'hybrid' | 'onsite'
     let currentFilter = 'all';      // 'all' | 'pending' | 'applied' | 'no visa'
     let searchQuery   = '';         // free-text search
     let currentPage   = 1;
@@ -251,9 +251,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const list      = document.getElementById('jobs-list');
         const filtersEl = document.getElementById('jobs-filters');
 
-        const byRemote  = jobs.filter(j => !j.denmark);
-        const byDenmark = jobs.filter(j =>  j.denmark);
-        const byView    = currentView === 'denmark' ? byDenmark : byRemote;
+        const byRemote  = jobs.filter(j => j.work_type === 'remote'  || (!j.work_type && !j.denmark));
+        const byHybrid  = jobs.filter(j => j.work_type === 'hybrid');
+        const byOnsite  = jobs.filter(j => j.work_type === 'onsite'  || (!j.work_type && j.denmark));
+        const byView    = currentView === 'hybrid' ? byHybrid : currentView === 'onsite' ? byOnsite : byRemote;
 
         const byStatus  = currentFilter === 'applied'    ? byView.filter(j =>  appliedJobs.has(j.id))
                         : currentFilter === 'no visa'   ? byView.filter(j =>  noVisaJobs.has(j.id))
@@ -290,7 +291,8 @@ document.addEventListener('DOMContentLoaded', function() {
         filtersEl.innerHTML = `
             <div class="jobs__views">
                 <button class="jobs__view${currentView === 'remote'  ? ' jobs__view--active' : ''}" data-view="remote">remote <span class="jobs__view-count">(${byRemote.length})</span></button>
-                <button class="jobs__view${currentView === 'denmark' ? ' jobs__view--active' : ''}" data-view="denmark">denmark <span class="jobs__view-count">(${byDenmark.length})</span></button>
+                <button class="jobs__view${currentView === 'hybrid'  ? ' jobs__view--active' : ''}" data-view="hybrid">hybrid <span class="jobs__view-count">(${byHybrid.length})</span></button>
+                <button class="jobs__view${currentView === 'onsite'  ? ' jobs__view--active' : ''}" data-view="onsite">onsite <span class="jobs__view-count">(${byOnsite.length})</span></button>
             </div>
             <div class="jobs__search-wrap">
                 <input class="jobs__search" id="jobs-search" type="text" placeholder="$ search title, company, source..." value="${searchQuery.replace(/"/g, '&quot;')}">
@@ -343,7 +345,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return `
             <div class="jobs__card${cardCls}">
                 <a class="jobs__card-title" href="${j.url}" target="_blank" rel="noopener noreferrer">${j.title}</a>
-                <span class="jobs__card-company">${j.company || '—'}${j.salary ? ` <span class="jobs__salary">${j.salary}</span>` : ''}</span>
+                <span class="jobs__card-company">${j.company || '—'}${j.salary ? ` <span class="jobs__salary">${j.salary}</span>` : ''}${j.location ? ` <span class="jobs__location">${j.location}</span>` : ''}</span>
                 <div class="jobs__card-meta">
                     <span class="jobs__badge jobs__badge--${j.source}">${j.source}</span>
                     ${j.easy_apply ? `<span class="jobs__badge jobs__badge--easy-apply">⚡ easy</span>` : ''}
