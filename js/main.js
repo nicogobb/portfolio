@@ -205,6 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const APPLIED_KEY_OLD = 'jobs_applied_v1';  // legacy: array of IDs
     const NOVISA_KEY      = 'jobs_novisa_v1';
     const CLOSED_KEY      = 'jobs_closed_v1';
+    const REJECTED_KEY    = 'jobs_rejected_v1';
 
     // Migrate v1 → v2 (Set of IDs → Map of {id: timestamp})
     const _v2 = localStorage.getItem(APPLIED_KEY);
@@ -220,8 +221,9 @@ document.addEventListener('DOMContentLoaded', function() {
         appliedJobs = new Map();
     }
 
-    let noVisaJobs    = new Set(JSON.parse(localStorage.getItem(NOVISA_KEY)  || '[]'));
-    let closedJobs    = new Set(JSON.parse(localStorage.getItem(CLOSED_KEY)  || '[]'));
+    let noVisaJobs    = new Set(JSON.parse(localStorage.getItem(NOVISA_KEY)   || '[]'));
+    let closedJobs    = new Set(JSON.parse(localStorage.getItem(CLOSED_KEY)   || '[]'));
+    let rejectedJobs  = new Set(JSON.parse(localStorage.getItem(REJECTED_KEY) || '[]'));
     let allJobsData   = [];
     let currentView   = 'remote';   // 'remote' | 'hybrid' | 'onsite'
     let currentFilter = 'all';      // 'all' | 'pending' | 'applied' | 'no visa'
@@ -231,8 +233,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function saveApplied() {
         localStorage.setItem(APPLIED_KEY, JSON.stringify(Object.fromEntries(appliedJobs)));
-        localStorage.setItem(NOVISA_KEY,  JSON.stringify([...noVisaJobs]));
-        localStorage.setItem(CLOSED_KEY,  JSON.stringify([...closedJobs]));
+        localStorage.setItem(NOVISA_KEY,   JSON.stringify([...noVisaJobs]));
+        localStorage.setItem(CLOSED_KEY,   JSON.stringify([...closedJobs]));
+        localStorage.setItem(REJECTED_KEY, JSON.stringify([...rejectedJobs]));
     }
 
     function formatAppliedAt(iso) {
@@ -259,8 +262,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const byStatus  = currentFilter === 'applied'    ? byView.filter(j =>  appliedJobs.has(j.id))
                         : currentFilter === 'no visa'   ? byView.filter(j =>  noVisaJobs.has(j.id))
                         : currentFilter === 'closed'    ? byView.filter(j =>  closedJobs.has(j.id))
-                        : currentFilter === 'pending'   ? byView.filter(j => !appliedJobs.has(j.id) && !noVisaJobs.has(j.id) && !closedJobs.has(j.id))
-                        : currentFilter === 'easy apply'? byView.filter(j =>  j.easy_apply && !appliedJobs.has(j.id) && !noVisaJobs.has(j.id) && !closedJobs.has(j.id))
+                        : currentFilter === 'rejected'  ? byView.filter(j =>  rejectedJobs.has(j.id))
+                        : currentFilter === 'pending'   ? byView.filter(j => !appliedJobs.has(j.id) && !noVisaJobs.has(j.id) && !closedJobs.has(j.id) && !rejectedJobs.has(j.id))
+                        : currentFilter === 'easy apply'? byView.filter(j =>  j.easy_apply && !appliedJobs.has(j.id) && !noVisaJobs.has(j.id) && !closedJobs.has(j.id) && !rejectedJobs.has(j.id))
                         : byView;
 
         const q        = searchQuery.trim().toLowerCase();
@@ -276,11 +280,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const nApplied   = byView.filter(j =>  appliedJobs.has(j.id)).length;
         const nNoVisa    = byView.filter(j =>  noVisaJobs.has(j.id)).length;
         const nClosed    = byView.filter(j =>  closedJobs.has(j.id)).length;
-        const nEasyApply = byView.filter(j =>  j.easy_apply && !appliedJobs.has(j.id) && !noVisaJobs.has(j.id) && !closedJobs.has(j.id)).length;
-        const nPending   = byView.length - nApplied - nNoVisa - nClosed;
+        const nRejected  = byView.filter(j =>  rejectedJobs.has(j.id)).length;
+        const nEasyApply = byView.filter(j =>  j.easy_apply && !appliedJobs.has(j.id) && !noVisaJobs.has(j.id) && !closedJobs.has(j.id) && !rejectedJobs.has(j.id)).length;
+        const nPending   = byView.length - nApplied - nNoVisa - nClosed - nRejected;
         const parts      = [`${nPending} pending`];
         if (nEasyApply) parts.push(`${nEasyApply} easy apply`);
         if (nApplied)   parts.push(`${nApplied} applied`);
+        if (nRejected)  parts.push(`${nRejected} rejected`);
         if (nNoVisa)    parts.push(`${nNoVisa} no visa`);
         if (nClosed)    parts.push(`${nClosed} closed`);
         meta.textContent = `$ jobs --${currentView} · ${parts.join(' · ')}`;
@@ -298,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <input class="jobs__search" id="jobs-search" type="text" placeholder="$ search title, company, source..." value="${searchQuery.replace(/"/g, '&quot;')}">
             </div>
             <div class="jobs__statuses">
-                ${['all', 'pending', 'easy apply', 'applied', 'no visa', 'closed'].map(f =>
+                ${['all', 'pending', 'easy apply', 'applied', 'rejected', 'no visa', 'closed'].map(f =>
                     `<button class="jobs__filter${f === currentFilter ? ' jobs__filter--active' : ''}" data-filter="${f}">${f === 'easy apply' ? '⚡ easy apply' : f}</button>`
                 ).join('')}
             </div>`;
@@ -338,10 +344,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         list.innerHTML = paginated.map(j => {
-            const applied = appliedJobs.has(j.id);
-            const novisa  = noVisaJobs.has(j.id);
-            const closed  = closedJobs.has(j.id);
-            const cardCls = closed ? ' jobs__card--closed' : applied ? ' jobs__card--applied' : novisa ? ' jobs__card--novisa' : '';
+            const applied   = appliedJobs.has(j.id);
+            const novisa    = noVisaJobs.has(j.id);
+            const closed    = closedJobs.has(j.id);
+            const rejected  = rejectedJobs.has(j.id);
+            const cardCls   = closed ? ' jobs__card--closed' : rejected ? ' jobs__card--rejected' : applied ? ' jobs__card--applied' : novisa ? ' jobs__card--novisa' : '';
             return `
             <div class="jobs__card${cardCls}">
                 <a class="jobs__card-title" href="${j.url}" target="_blank" rel="noopener noreferrer">${j.title}</a>
@@ -359,6 +366,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <button class="jobs__closed-btn${closed ? ' jobs__closed-btn--on' : ''}" data-id="${j.id}" data-action="closed">
                         ${closed ? '✕ closed' : '✕ close'}
                     </button>
+                    ${applied ? `<button class="jobs__rejected-btn${rejected ? ' jobs__rejected-btn--on' : ''}" data-id="${j.id}" data-action="rejected">${rejected ? '✗ rejected' : '✗ reject'}</button>` : ''}
                     ${j.description ? `<button class="jobs__letter-btn" data-id="${j.id}" data-action="letter">✉ letter</button>` : ''}
                 </div>
                 ${jobMatchBar(j)}
@@ -463,9 +471,15 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         } else if (action === 'closed') {
             if (closedJobs.has(id)) {
-                closedJobs.delete(id);           // undo closed
+                closedJobs.delete(id);
             } else {
                 closedJobs.add(id);
+            }
+        } else if (action === 'rejected') {
+            if (rejectedJobs.has(id)) {
+                rejectedJobs.delete(id);
+            } else {
+                rejectedJobs.add(id);
             }
         } else if (action === 'letter') {
             const job = allJobsData.find(j => j.id === id);
