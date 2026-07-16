@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T13:07:46.621868+00:00",
+  "updated_at": "2026-07-16T16:04:44.640082+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3905",
@@ -127,6 +127,28 @@
       "match_cons": [
         "No description",
         "US timezone"
+      ]
+    },
+    {
+      "id": "Jobindex_https://www.jobindex.dk/vis-job/r13913566",
+      "title": "Backend udvikler (PHP / Laravel / MySQL) til ClinicDrive",
+      "company": "",
+      "url": "https://www.jobindex.dk/vis-job/r13913566",
+      "source": "Jobindex",
+      "date": "Thu, 16 Ju",
+      "fetched_at": "2026-07-16",
+      "denmark": true,
+      "description": "Backend udvikler (PHP / Laravel / MySQL) til ClinicDrive Vejle Er du en backend-udvikler, der går op i struktur, datakvalitet og løsninger, der holder i drift – ikke bare i teorien?",
+      "location": "Denmark",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP matches",
+        "Laravel matches"
+      ],
+      "match_cons": [
+        "Danish preferred",
+        "Minor seniority diff"
       ]
     },
     {
@@ -1462,7 +1484,7 @@
         "Requires AWS",
         "Danish preferred"
       ],
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Boulogne-Billancourt, Île-de-France, France"
     },
     {
@@ -1681,7 +1703,7 @@
         "Danish preferred"
       ],
       "description": "Over onsHet Golazo Digital Team is de digitale cel binnen de Golazo Group. Vanuit ons kantoor in Mechelen ondersteunen we Golazo wereldwijd met de ontwikkeling van digitale producten en custom applicaties.We bouwen geen standaard websites, maar realiseren maatwerkplatformen, complexe online applicaties, integraties met externe systemen en cross-platform apps voor web, iOS en Android. Onze oplossingen ondersteunen Golazo’s sportevenementen, communities en partners en helpen miljoenen sporters en fans wereldwijd een betere digitale ervaring te beleven.Ons team bestaat momenteel uit 4 digitale profielen en 2 projectmanagers. Omdat we blijven groeien, willen we het team uitbreiden met 2 Senior Full-Stack Laravel Developers.Zo ziet jouw toekomstige job eruitWe zoeken een Senior Full-Stack Laravel Developer met minstens 5 jaar ervaring om het Golazo Digital Team te versterken.Je werkt aan digitale producten die internationaal gebruikt worden door sporters, fans en partners van Golazo. Je bent niet zomaar een developer:● Je neemt ownership over projecten, van analyse tot oplevering en nazorg.● Je bouwt complexe maatwerkapplicaties, platformen en mobiele apps.● Je denkt mee over architectuur, performance en schaalbaarheid.● Je werkt nauw samen met developers, projectmanagers, marketeers en designers.● Je hebt een grote impact op de digitale transformatie van Golazo.Jouw taken● Ontwikkelen van maatwerk webplatformen, dashboards, API’s en mobiele apps.● Bouwen en beheren van API-integraties met interne en externe systemen.● Meewerken aan cross-platform app development.● Optimaliseren van MySQL-databases en schrijven van efficiënte query’s.● Implementeren van caching, queues en event handling.● Opzetten en onderhouden van CI/CD-deployprocessen en basis servermanagement.● Meedenken over performantie, beveiliging en schaalbaarheid.● Samenwerken met collega’s om businessbehoeften te vertalen naar technische oplossingen.Ben jij de persoon die we hier beschrijven? Let's talk!Development skills● Minstens 5 jaar ervaring met Laravel.● Uitgebreide expertise in het bouwen van maatwerkapplicaties en grootschalige platformen.● Sterke kennis van PHP 8+ en moderne Laravel-features.● Diepe kennis van MySQL (incl. Eloquent ORM) en query-optimalisatie.● Goede kennis van Bootstrap 5 en moderne frontendprincipes.● Kennis van API-ontwikkeling en datakoppelingen.● Kennis van Redis (caching, queues, event handling).● Ervaring met cross-platform app development (Ionic, React Native of Flu",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Mechelen, Flemish Region, Belgium"
     },
     {
@@ -1816,7 +1838,7 @@
         "Missing Kohana",
         "No Docker mention"
       ],
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Zaventem, Flemish Region, Belgium"
     },
     {
@@ -1827,7 +1849,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Poznan, Wielkopolskie, Poland",
       "description": "Tryb pracy: zdalna 100%/hybrydowa /w biurze w Poznaniu - Ty wybierasz to co Ci odpowiada :)💸 Wynagrodzenie: do 19k netto na b2b💡Stack: PHP 8, MySQL, mikroserwisy, GCP, architektura heksagonalna, RabbitMQ, Elasticsearch, Sentry, Grafana✨ Co Może Cię Zainteresowaćbędziesz mieć realny wpływ na standardy pracy w zespolewykorzystujemy clouda - GCPraz w miesiącu mamy dzień szkoleniowy kiedy wspólnie uczymy się nowych rzeczyw tworzeniu rozwiązań opartych na danych jesteśmy na poziomie mistrzowskim 🏆🚀Co Będziesz RobićDołączysz do zespołu projektowego, który jest odpowiedzialny za rozwój i skalowanie platformy wymiany danych (Data Integrator) wraz z rozwojem jej systemu monitorowaniaCzęść zadań dotyczy również tworzenia dedykowanych rozwiązań dla naszych klientów biznesowych (aplikacje wykorzystujące wiele źródeł danych)💡 Szukamy Osoby, Którama doświadczenie w tworzeniu wydajnych aplikacji webowych zgodnie z dobrymi praktykami OOPbardzo dobrze zna PHP 7+ i Laravela lub Symfonyprzykłada dużą wagę do jakościowego pisania i utrzymywania kodu; nie boi się code reviewdobrze zna relacyjne bazy danych np. MySQL i potrafi tworzyć optymalne zapytaniakrytycznie myśli, potrafi efektywnie rozwiązywać problemy i pracować w zespolezna i używa gitaMile Widzianechcesz się rozwijać w GCPmasz doświadczenia z mikroserwisami oraz w korzystaniu z Elasticsearch, RabbitMQ🛍️Co Oferujemywynagrodzenie do 19000 netto na b2b / możliwa też UoP lub inne formy współpracyelastyczne godziny pracy (core hours 10-15)płatne przerwy w świadczeniu usług b2b (minimum 25 dni)mamy zasadę first remote (jeśli będziesz w stanie co jakiś czas pojawić się w naszym biurze w Poznaniu to jeszcze lepiej)ciekawe tematy i problemy biznesowe do rozwiązaniaszkolenia branżowe (również u naszych partnerów biznesowych), firmową biblioteczkę, indywidualny i zespołowy budżet szkoleniowyprywatną opiekę medyczną, kartę MultiSport i ubezpieczenie grupowe (również na b2b)nieformalną atmosferę pracy, płaską strukturę, fajnych współpracownikówpremie rekomendacyjnenasz stack technologiczny❓ Transparent Data jest firmą technologiczną działającą w branży b2b, z której usług korzystają największe polskie firmy, m.in. PayPro S.A., PayTel S.A., Volkswagen Bank GmbH, PZU Pomoc, AION BANK SA, Mercedes-Benz Financial Service czy Nationale-Nederlanden Powszechne Towarzystwo Emerytalne S.A.Jako data software house zajmujemy się technologicznym dostarczaniem informacji gospodarczych z otwartych rejestrów, budową platform danych i obróbką da",
       "match_score": 83,
@@ -2224,7 +2246,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Ghent, Flemish Region, Belgium",
       "description": "Combell werft aan!Als marktleider op vlak van hostingdiensten voor bedrijven is Combell uitgegroeid tot de meest betrouwbare one-stop partner voor de hosting van zowat elke IT-infrastructuur, website of applicatie.team.blueCombell is onderdeel van de internationale groep team.blue, bestaande uit 4.000 medewerkers doorheen 22 landen, 60 brands (hosting & SaaS) en 3,5 miljoen klanten.Wat ga je doen?Je zet mee je schouders onder het optimaliseren van ons Europees cloud-en hostingplatform.Achter de schermen werken heel wat teams aan jouw diensten. Eén van die teams, ons Platforms-team bestaande uit 20-tal collega's (development, infrastructure & operations), zorgt voor onze platformen. Dit team staat in voor het beheer van de grootste cloud- en hostinginfrastructuur in België. Dit platform zal de komende jaren nog verder uitgerold worden binnen onze Europese team.blue groep en hier kan jij aan bijdragen.De bescherming door het Combell Shield of het gebruiksgemak van onze Managed WordPress: alle features waar jij van geniet op onze webhosting, komen uit de koker én de vingers van ons Platforms-team.Als PHP Developer werk je, op basis van een uitgebreide roadmap, mee aan het platform voor onze cloud- en hostinginfrastructuur.De focus ligt op backend PHP Development van nieuwe features.Je werkt mee aan onze microservices architectuur en staat mee in voor het bouwen en onderhouden van alle interne API’s. Dit vormt namelijk de focus van informatie-uitwisseling over de hele Europese cluster.Je zal veel verantwoordelijkheden kunnen opnemen en inspraak hebben. Dat wil zeggen dat je naast development ook betrokken zal worden bij de analyse, architectuur, ...De meeste zaken waar je mee in aanraking zal komen hebben een 1 op 1 relatie met de infrastructuur (Linux hosting setting). Niettemin bouwen we ook automatisaties voor Managed WordPress, WooCommerce, ...Je komt terecht in ons Platforms development team van een 5-tal collega’s en zal de ruimte krijgen om je visie uit te dragen, je mening te delen en inbreng te hebben.Met welke technologieën?PHP;Symfony;API’s (waaronder API-Platform & OpenAPI specificaties);MySQL, PostgreSQL & Elasticsearch;Kubernetes & Docker;Ansible (AWX), Git & Gitlab;Atlassian stack (Jira, Confluence, …);AI-assisted coding tools (Claude Code etc.);Je zal nauw in aanraking komen met de infrastructuur: Linux, operating systems, servers, storage, ...Je hoeft geen ervaring te hebben met alle bovenstaande technologieën zolang je leergierig bent en je g",
       "match_score": 85,
@@ -2246,7 +2268,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Barcelona, Catalonia, Spain",
       "description": "Somos IPLAN GESTIÓN INTEGRAL, empresa vinculada a servicios de ingeniería desarrollados fundamentalmente en el sector eléctrico, obra civil, energías renovables, medio ambiente y legalizaciones.Formamos parte de VULCAIN ENGINEERING, grupo internacional francés de empresas de ingeniería con un enfoque multisectorial, que trabaja en las distintas áreas claves de la infraestructura y de la energía.Actualmente nos encontramos en la búsqueda de un/a Desarrollador/a Backend Laravel (ERP Corporativo), para incorporarse a nuestro equipo ubicado en la oficina de Barcelona.📒 ¿Cómo será tu día a día?Desarrollo y mejora continua del ERP corporativo, asegurando su rendimiento, evolución y alineación con las necesidades del negocio.Diseño e implementación de soluciones escalables y mantenibles.Desarrollo de estructuras de bases de datos flexibles capaces de gestionar múltiples tipos de relaciones en una misma tabla.Implementación de lógica avanzada utilizando Laravel Eloquent ORM, incluyendo relaciones complejas y polimórficas.Desarrollo de interfaces dinámicas con Laravel Livewire.Participación en el desarrollo frontend con Vue.js.Optimización del rendimiento y resolución de incidencias técnicas.Trabajo colaborativo con otros equipos técnicos y de negocio.💡 ¿Qué estamos buscando?Experiencia en desarrollo con Laravel y dominio de Eloquent ORM.Conocimientos avanzados en relaciones entre modelos, especialmente relaciones polimórficas.Experiencia en diseño de bases de datos relacionales complejas.Capacidad para diseñar soluciones escalables y mantenibles.Experiencia en desarrollo responsive mobile.Conocimientos en Laravel Livewire y Vue.js.Manejo básico de terminal Linux.Capacidad de análisis, resolución de problemas y trabajo en equipo.⭐ Se Valorará AdicionalmenteConocimientos en Microsoft Power Apps y Power Automate.Experiencia en entornos Microsoft.😄 ¡Conoce nuestros beneficios!Incorporación con contrato indefinido.Desarrollo profesional y plan de carrera.Jornada intensiva todos los viernes del año y 3 días de jornada intensiva durante Julio y Agosto.¡Estamos deseando conocerte y que te unas a este gran equipo!Contamos con más de 700 profesionales distribuidos por todo el territorio español, que combinan talento, experiencia y compromiso. Nuestra actividad abarca sectores clave como redes de energía, urbanismo y movilidad, agua y medio ambiente e industria. En nuestro ADN está presente una visión transversal que aporta soluciones integrales a los retos actuales de infra",
       "match_score": 85,
@@ -2268,7 +2290,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Barcelona, Catalonia, Spain",
       "description_failed": true,
       "match_score": 55,
@@ -2323,7 +2345,7 @@
         "Requires AWS"
       ],
       "description": "Service Functions/Cross Business Stream FunctionsBehind every successful audit, certification, and inspection stands a strong team in our Service Functions. Whether HR, IT, Finance, Marketing, Controlling, Procurement, Facility Management, our Shared Service Centers, QHSE, Legal, Corporate Development, or Corporate Communication – they all contribute to ensuring that our operational units worldwide can achieve top performance.We rely on innovative processes, digital solutions, and a strong corporate culture to support employees, create efficient structures, and enable sustainable growth. Our work is diverse, ranging from developing modern HR programs to optimizing global financial processes to ensuring the highest compliance and quality standards.Shape the future of TÜV Rheinland with us!In our Service Functions, you can contribute your expertise, optimize processes, and actively participate in shaping the company's future. We offer you an international, dynamic environment that fosters innovation, collaboration, and personal growth.Become part of our strong network and help shape the world of tomorrow with us!The TÜV Rheinland Group, as a sustainable and independent provider of testing, inspection, certification, consulting and training, has been a world leader in quality and safety assurance for more than 150 years, with more than 24,000 employees.At TÜV Rheinland Ibérica, we are looking for a PHP Full-stack Developer in El Prat de Llobregat.Job DescriptionWe are looking for a qualified professional with proven experience in building and maintaining both the front end and the back end of a website.This IncludesDevelopment and enhancement of custom software solutions, contributing to front-end and back-end development processes and building new product features or APIs.Modification, customization and add-on development of standard software solutions.Development of web services and other interfaces.Makes sure that the developed solutions are state of the art with regards to IT Security, quality and maintainability. Participates in the development and execution of unit tests and integration tests to ensure that the solutions work according to functional and technical requirements.Documentation of the developed solutions.Analysis and fixing of software bugs as part of incident and problem management.Collaborate with other departments on projects and sprints.RequerimentsEducation level: Minimum FP2/equivalent, desirable University Degree in Computer Science o",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "El Prat de Llobregat, Catalonia, Spain"
     },
     {
@@ -2401,7 +2423,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Barcelona, Catalonia, Spain",
       "match_score": 55,
       "match_confidence": "low",
@@ -3161,7 +3183,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Marseille, Provence-Alpes-Côte d'Azur, France",
       "easy_apply": true,
       "description": "Technical Lead, PHP, SQLTechnical Lead, PHP, SQL required to join a growing global business in a permanent position offering an excellent package and hybrid working. This role would be on a hybrid basis based around Marseille. Open to candidates based around Gémenos, Aix-en-Provence, Toulon, and surrounding areas.Technical Lead to join a collaborative team working on scalable systems supporting vending technology, IoT, and business-critical platforms. You will lead the development, evolution, and maintainability of high-quality software solutions while mentoring the team and driving best practices.ResponsibilitiesLead development of PHP/SQL-based systems and scalable architecturesDefine coding standards, best practices, and conduct code reviewsDesign and build APIs, integrations, and microservicesDrive CI/CD, automated testing, and modern development processesCoordinate team delivery and ensure quality and timely releasesCollaborate with Product Owners and stakeholders on priorities and roadmapMentor developers and support technical growthAct as a bridge between technical and business teamsTechnical skills requiredStrong PHP experience (Laravel or Symfony preferred)Solid SQL and database design knowledgeExperience with REST APIs, microservices, and modular architecturesHands-on with Git, CI/CD pipelines, and DockerUnderstanding of Agile methodologies (Scrum/Kanban)Strong problem-solving and communication skills",
@@ -3270,7 +3292,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Greater Santiago de Compostela Metropolitan Area",
       "easy_apply": true,
       "description": "Acerca del puestoDesde G&L Group nos encontramos en la búsqueda de un/a Fullstack Developer con experiencia en desarrollo de aplicaciones web y arquitecturas modernas, para incorporarse a un proyecto desafiante.ResponsabilidadesDesarrollar y mantener aplicaciones Fullstack utilizando PHP y tecnologías Frontend.Diseñar e integrar APIs REST.Participar en el desarrollo de arquitecturas basadas en microservicios.Trabajar con bases de datos Oracle (PL/SQL), MySQL y PostgreSQL.Utilizar Docker y Git durante el ciclo de desarrollo.Participar activamente en equipos ágiles (Scrum/Kanban).Colaborar en procesos de integración y despliegue continuo (CI/CD).Requisitos excluyentesFP Superior en Desarrollo de Aplicaciones Informáticas o formación/carrera afín.Mínimo 3 años de experiencia reciente como Fullstack Developer.Experiencia sólida en: PHP, desarrollo de APIs REST, desarrollo Frontend, Docker, Git.Experiencia con bases de datos: Oracle (PL/SQL), MySQL, PostgreSQL.Experiencia trabajando con arquitecturas de microservicios.Experiencia en metodologías ágiles.Requisitos deseablesConocimientos de Kubernetes en entornos corporativos.Experiencia con herramientas y pipelines de CI/CD.Nivel de inglés intermedio o superior.",
@@ -3693,7 +3715,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Leuven, Flemish Region, Belgium",
       "description": "Functieomschrijving✔ Coder ✔ Creatief ✔ Technisch onderlegdIn slechts vijf jaar zijn we uitgegroeid van een ambitieuze start-up tot het snelst groeiende Cybersecurity Awareness Platform ter wereld. Vandaag beschermen we meer dan 1,5 miljoen gebruikers in 5.000 organisaties, samen met 300+ partners wereldwijd.Van 5 medewerkers naar een internationaal team van meer dan 70 gedreven collega’s – en we blijven groeien. We hebben de ambitie ons sales team te verdubbelen tegen 2026.Phished is een snelgroeiende tech scale-up die organisaties helpt bij het verbeteren van hun cybersecurity. Aan de hand van een uniek, volledig geautomatiseerd trainingsplatform worden medewerkers opgeleid om echte cyberaanvallen te herkennen en er op een correcte wijze mee om te springen. Zo creëren we een impact op zowel medewerkers als organisaties.Klinkt dit als iets voor jou? Lees dan verder.Wat zijn je taken?Als PHP developer kom je terecht in een jong team dat verantwoordelijk is voor de verdere ontwikkeling van het software platform.Je zal betrokken zijn bij het bouwen en uitrollen van nieuwe features volgens de (product en technische) roadmap.Je bereidt het platform voor om het open te stellen voor meer en grotere klanten door de performantie en schaalbaarheid te verbeteren.Omdat je een van de eersten bent in een groeiend team, kun je – en dat verwachten we - je stempel drukken op zowel de ontwikkelingsprocessen als de toekomst van het team.VereistenWat verwachten we van jou?Menselijke vaardighedenJe bent een teamspeler en deelt graag kennis en ervaringen met je collega's.Je bent geïnteresseerd in een lange termijn verbintenis en wil meegroeien met het bedrijf waar je aan de slag gaat.Je bent een self-starter met een ondernemersmentaliteit die graag initiatieven neemt.Je bent flexibel en in staat om je aan te passen aan de snel veranderende omgeving van een scale-up.Je hebt een grote interesse in cyber security en data protection.Je woont in een tijdzone tussen UTC - 03:00 en UTC + 03:00.Je bent in staat om efficiënt te communiceren binnen het team en je aarzelt niet om je collega's te bereiken indien nodig - zelfs wanneer je niet op dezelfde locatie bent.Technische vaardighedenJe hebt al enkele jaren ervaring als PHP Developer en hebt uitgebreide hands-on ervaring met Laravel.Je hebt reeds gewerkt met MySQL en Redis.Je hebt ervaring met het bouwen van RESTful API's.Je houdt van kwaliteitscontrole en automatisch testen.Je kan niet zonder versiebeheer (bv. Git).Je spreekt vloeie",
       "match_score": 85,
@@ -3736,7 +3758,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Alicante, Valencian Community, Spain",
       "easy_apply": true,
       "description": "Porque trabajar en Sopra Steria, también es sentir Sopra Steria.Somos un reconocido líder europeo en consultoría, servicios digitales y desarrollo de software, con cerca de 56.000 empleados en casi 30 países y más de 4.000 en España.Nos enfocamos en las personas, en su formación y desarrollo profesional, lo que nos impulsa a crecer y mejorar constantementeTenemos pasión por lo digital y al igual que tú, buscamos la mejor de las aventuras. Queremos que tu día a día se convierta en la mejor de tus inspiraciones. Que aprendas, aportes, te diviertas, crezcas y que, sobre todo, disfrutes al máximo.Si quieres formar parte de un equipo “Great Place to Work”, ¡Sigue leyendo!Estamos buscando un/a profesional Desarrollador/a PHP con experiencia adicional en Laravel para colaborar en el marco de proyectos de un cliente del sector retail.¿Qué buscamos?Para ello, nos gustaría que aportaras...Experiencia profesional de 3 a 5 años en desarrollo de aplicaciones web con PHP.Experiencia en el framework Laravel.Experiencia en PHP 8+.Amplios conocimientos en Programación Orientada a Objetivos, principios SOLID y patrones de diseño.Conocimientos sólidos en Arquitectura Hexagonal y DDD táctico.Asimismo, valoramos positivamente si aportas experiencia con observabilidad en aplicativos mediante OpenTelemetry.¿Qué ofrecemos?Contrato indefinido y jornada completa23 días de vacacionesModelo híbrido de trabajoFormación continua: competencias técnicas, transversales y de idiomas.Contamos con acceso a certificaciones, formaciones de los principales Partners Tecnológicos, plataformas online y ¡mucho más!Seguro de vida y de accidentesPosibilidad de acogerte a nuestra retribución flexible (seguro médico, cheques guarderías, transporte, comida y formación)Acceso a Privilege Club, donde encontrarás descuentos interesantes en las principales marcasOnboarding personalizado y detallado. Te acompañamos en todo momento para que te sientas #soprano desde el primer momento.Oficina con espacios reservados al ocio. ¡Trabajo y diversión unido!Compañerismo y buen ambiente, el poder de la unión lo tenemos presente.Y lo más importante…Tienes la posibilidad de desarrollar tu carrera profesional con nosotros: Crearemos juntos un plan de carrera personalizado. Te formarás, marcaremos objetivos y llevaremos a cabo un seguimiento para asegurarnos de que lo conseguimos juntos. Escuchamos tus prioridades y luchamos por ellas.¡Aquí tu voz importa! ¡Únete a nosotros y sé parte de algo más!The world is how we shap",
@@ -3906,7 +3928,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Santa Pola, Valencian Community, Spain",
       "description": "Descripción de la empresaPorque trabajar en Sopra Steria, también es sentir Sopra Steria.Somos un reconocido líder europeo en consultoría, servicios digitales y desarrollo de software, con cerca de 56.000 empleados en casi 30 países y más de 4.000 en España.Nos enfocamos en las personas, en su formación y desarrollo profesional, lo que nos impulsa a crecer y mejorar constantemente.Tenemos pasión por lo digital y al igual que tú, buscamos la mejor de las aventuras. Queremos que tu día a día se convierta en la mejor de tus inspiraciones. Que aprendas, aportes, te diviertas, crezcas y que, sobre todo, disfrutes al máximo.Si quieres formar parte de un equipo “Great Place to Work”, ¡Sigue leyendo!Descripción del empleoEstamos buscando un/a profesional Desarrollador/a PHP con experiencia adicional en Laravel para colaborar en el marco de proyectos de un cliente del sector retail.Requisitos¿Qué buscamos?Para ello, nos gustaría que aportaras...Experiencia profesional de 3 a 5 años en desarrollo de aplicaciones web con PHP.Experiencia en el framework Laravel.Experiencia en PHP 8+.Amplios conocimientos en Programación Orientada a Objetivos, principios SOLID y patrones de diseño.Conocimientos sólidos en Arquitectura Hexagonal y DDD táctico.Asimismo, valoramos positivamente si aportas experiencia con observabilidad en aplicativos mediante OpenTelemetry.Información adicional¿Qué ofrecemos?Contrato indefinido y jornada completa23 días de vacacionesModelo híbrido de teletrabajo Formación continua: competencias técnicas, transversales y de idiomas. Contamos con acceso a certificaciones, formaciones de los principales Partners Tecnológicos, plataformas online y ¡mucho más!Seguro de vida y de accidentesPosibilidad de acogerte a nuestra retribución flexible (seguro médico, cheques guarderías, transporte, comida y formación)Acceso a Privilege Club, donde encontrarás descuentos interesantes en las principales marcasOnboarding personalizado y detallado. Te acompañamos en todo momento para que te sientas #soprano desde el primer momento.Oficina con espacios reservados al ocio. ¡Trabajo y diversión unido!Compañerismo y buen ambiente, el poder de la unión lo tenemos presente.Y lo más importante...Tienes la posibilidad de desarrollar tu carrera profesional con nosotros: Crearemos juntos un plan de carrera personalizado. Te formarás, marcaremos objetivos y llevaremos a cabo un seguimiento para asegurarnos de que lo conseguimos juntos. Escuchamos tus prioridades y luchamos por ellas.",
       "match_score": 85,
@@ -4160,7 +4182,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Madrid, Community of Madrid, Spain",
       "description": "Mobusi es una compañía global de publicidad con una tecnología única y propia en su núcleo. Brindamos a los clientes soluciones tanto de Branding como de Performance, respaldadas por plataformas de datos, análisis y optimización, contando con nuestra propia red de publishers.Contamos con un equipo con una gran experiencia en todas las áreas de marketing y publicidad que trabajan en todo el mundo, dando forma a las industrias digitales emergentes a nivel global. Creamos relaciones a largo plazo con nuestros clientes, conectándonos con todos y cada uno de ellos. Nuestro enfoque holístico nos permite ofrecer soluciones únicas y personalizadas, ya sea móvil o multipantalla Inteligencia y adaptabilidad son valores que se encuentran en lo profundo de nuestro ADN.Actualmente queremos ampliar nuestro equipo de Desarrollo con un FullStack Developer con PHP y JavaScript.Tus Principales Funciones SeránParticipar en el ciclo de vida de las plataformas, centrándose en el mantenimiento y desarrollo de nuevas funcionalidadesColaborar con el resto de miembros del equipo con el objetivo de mejorar y recabar nuevas funcionalidadesParticipar en code reviews con todo el equipoManejar tecnología innovadora, conocer y aplicar pautas del Clean Code conocimiento y uso de patronesRealizar y mejorar la batería de tests¿Qué esperamos de ti?Desarrollar software testeable y de alta calidadConducir al equipo a una mejora continuaGanas de crecer, desarrollarse y formarse en las últimas tecnologías¿Qué ofrecemos?Contrato laboral indefinidoHorario atractivo de 9 :30 a 18:00 excepto viernes que salimos a las 15:00. Además, de la jornada intensiva de verano de 8 :00 a 15:00Incorporación a una compañía en la que las personas son lo primeroTrabajar con metodologías ágilesPresupuesto para asistencia a eventosFomentamos la formación internaEntorno dinámico y ágil Trabajarás en productos que tienen un impacto inmediato en la marcha de la compañíaCafé y frutas gratis en la oficinaNuestro Stack PHP 7+ JavaScript Vue, Angular, React Symfony Behat Gherkin Selenium Git¿Te apuntas?",
       "match_score": 83,
@@ -4313,7 +4335,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Bordeaux, Nouvelle-Aquitaine, France",
       "description_failed": true,
       "match_score": 45,
@@ -4701,7 +4723,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Vienna, Vienna, Austria",
       "description": "Employee #4 in einem impact Start-up gesucht!Deine AufgabenDu entwickelst gemeinsam mit uns die Backend-Architektur einer Plattform, die den Gebäudesektor nachhaltig verändern soll.Backend-Entwicklung: Du entwickelst skalierbare Backend-Lösungen und RESTful APIs.Systemarchitektur: Du verantwortest Datenbankdesign, Wartung und Weiterentwicklung unserer Systeme.Codequalität: Du sorgst durch testgetriebene Entwicklung für sauberen, sicheren und wartbaren Code.Fehleranalyse: Du analysierst und behebst technische Herausforderungen und bringst eigene Lösungsansätze ein.Komponentenentwicklung: Du entwickelst wiederverwendbare Komponenten und Libraries.Standards & Prozesse: Du gestaltest technische Standards, Architekturentscheidungen und Entwicklungsprozesse aktiv mit.AI-Unterstützung: Du nutzt moderne AI-Tools gezielt zur Effizienzsteigerung und Weiterentwicklung unserer Software. Das bringst du mitDu bist Entwickler:in aus Leidenschaft und fühlst dich dort wohl, wo neue Lösungen entstehen.Laravel-Know-how: Du verfügst über sehr gute Kenntnisse im Laravel-Framework und Erfahrung in der Entwicklung von RESTful APIs.Datenbanken: Du bringst fundierte Kenntnisse im Umgang mit MySQL-Datenbanken mit.Testing: Du hast Praxiserfahrung mit Testing-Frameworks wie PHPUnit, phpspec oder Pest.DevOps-Verständnis: Du arbeitest sicher mit Git, GitLab sowie CI/CD-Prozessen und kennst Docker sowie Docker Compose.Analytische Stärke: Du gehst Herausforderungen strukturiert an und entwickelst nachhaltige Lösungen.Eigeninitiative: Du übernimmst Verantwortung, bringst Ideen ein und arbeitest selbstständig.Qualitätsanspruch: Du legst Wert auf sauberen Code, hohe Standards und nachhaltige Softwareentwicklung.Sprachkenntnisse: Du verfügst über sehr gute Deutsch- sowie gute Englischkenntnisse.Nice-to-have sind Erfahrungen mit React, Tailwind sowie Kenntnisse in HTML5 und CSS3.Das erwartet dich bei unsFreue dich auf die Möglichkeit, als eines der ersten Teammitglieder die Entwicklung eines innovativen Technologieunternehmens aktiv mitzugestalten.Pioniergeist: Du übernimmst eine zentrale Rolle beim Aufbau eines jungen Unternehmens mit einer großen Vision.Gestaltungsspielraum: Du profitierst von viel Freiraum für eigene Ideen und kurzen Entscheidungswegen.Mitgestaltung: Du prägst Technologie, Produkt und Prozesse von Beginn an aktiv mit.Lernkultur: Du arbeitest in einem Umfeld, in dem Austausch, Lernen und Weiterentwicklung selbstverständlich sind.Impact: Du leistest mit deiner Arbeit einen k",
       "match_score": 85,
@@ -5055,7 +5077,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Dordrecht, South Holland, Netherlands",
       "easy_apply": true,
       "description": "Full-Stack PHP Developer - Laravel / Symfony / ReactDordrecht area - hybrid, 3 days in the office - Up to €90k+ gross (medior to senior, depending on level)Stack: PHP (OOP), Symfony, React, AWS, MySQL, Redis, RabbitMQYou'd rather build the new platform than babysit the old one.This is a profitable, ISO-certified fintech quietly moving millions of payment requests a month across Europe. Invoicing, payments and collections, made smooth for the kinds of companies most people dread paying. They've grown from 15 to 80 people globally without losing focus, and they're now rebuilding their core platform from the ground up. This is the person who helps build this platform and grow the Dutch team (currently at 6 developers with plans to scale).🏗️ Half greenfield, half migration - you'll build the new portal and move real, live functionality that customers depend on every day🤖 AI is in the daily workflow, not stuck on a roadmap - Claude Code is part of how this team actually ships💶 Salary bands published openly. No \"what did you earn before\" games📈 Around 20 engineers across four products - small enough that your code matters, mature enough to be stable🎉 Real work-life balance and a team that genuinely celebrates wins (parties, trips, the lot)What you'll be doing⚙️ Building the new Symfony and React platform alongside the team🔁 Migrating live functionality onto AWS without breaking what customers rely on🧩 Coding the message and collection logic that connects the platform to its customers🤝 Working shoulder to shoulder with product owners, consultants and fellow engineersYou'll love this if...✅ You're an expert with PHP (Laravel OR Symfony)✅ You're happy working with React, Typescript, Javascript on the front end too✅ You're as happy untangling messy real-world migration as you are building new✅ You speak Dutch fluently✅ Bonus points if you have experience in fintech or secure environments.Apply today!Because great teams are Built Different.",
@@ -5371,7 +5393,7 @@
         "Recruiter agency listing"
       ],
       "description": "Nice To Fit You to jedna z największych i najbardziej zaawansowanych technologicznie firm cateringowych w Polsce. Działamy na rynku od 13 lat, oferując swoje usługi w 97% kraju. Dynamicznie się rozwijamy, poszerzając zasięg działalności, już nie tylko w Polsce, ale i na rynku czeskim.Pod względem operacyjnym, Nice To Fit You to precyzyjna układanka procesów, działań oraz wspierających ich systemów IT, skoncentrowanych wokół tworzenia i zapewnienia klientom profesjonalności, personalizacji i wysokiej jakości oferty.Jesteśmy zespołem młodych ludzi z pasją, którzy starają się ciągle rozwijać nowe pomysły i rozumiejąc potrzeby współczesnego pokolenia dostarczać usługę na najwyższym poziomie.Czym Będziesz Się Zajmowałrozwijaniem i utrzymaniem wewnętrznych systemów IT Nice To Fit You — w tym platformy e-commerce, która każdego dnia obsługuje tysiące zamówieńprojektowaniem i wdrażaniem integracji z systemami zewnętrznych partnerów, budując spójny ekosystem technologiczny wspierający dynamiczny rozwój firmy — również na rynkach zagranicznychwspółtworzeniem rozwiązań, które realnie wpływają na doświadczenie klientów i sprawność operacyjną jednej z największych firm cateringowych w Polscepracą w zgranym, interdyscyplinarnym zespole produktowym (tech lead, analitycy, testerzy, product owner) w metodyce SCRUM — z krótkim feedbackiem i realnym wpływem na kierunek rozwoju produktuudziałem w decyzjach architektonicznych i technologicznych — Twoje doświadczenie i pomysły będą tu miały znaczenie Nasze Oczekiwaniaminimum 5 letnie doświadczenie na stanowisku programisty PHPbardzo dobra znajomość PHP 8+dobra znajomość jednego z frameworków PHP, preferowany Symfonyznajomości SQL oraz baz danych (PostgreSQL, MySQL, Redis)praktyczna znajomość wzorców projektowychznajomość zagadnień dot. integracji systemów IT w tym architektury SOA, WebService (SOAP, REST)znajomości języka angielskiego w stopniu komunikatywnym Mile Widzianeumiejętność korzystania z narzędzi AI-assisted codingdoświadczenie z kolejkami komunikatów typu RabbitMQ, Kafkadoświadczenie w pracy z narzędziami CI/CDznajomość tematyki związanej z technologiami Docker oraz Kubernetesznajomość CSS, HTML, JavaScript oraz frameworków JavaScriptOferujemyElastyczny czas pracy;Możliwość pracy zdalnej;Atrakcyjne wynagrodzenie;Możliwość zatrudnienia w formie B2B lub umowy o pracę;Smaczne posiłki i pyszną kawę :)Opiekę medyczną, ubezpieczenie na życie oraz dofinansowanie Multisport;Rabaty pracownicze na nasze diety.Zapraszamy!Zespół",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Warsaw, Mazowieckie, Poland"
     },
     {
@@ -6084,7 +6106,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Wrocław, Dolnośląskie, Poland",
       "description": "Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported and inspired by a collaborative community of colleagues around the world, and where you’ll be able to reimagine what’s possible. Join us and help the world’s leading organizations unlock the value of technology and build a more sustainable, more inclusive world.YOUR TASKSDeveloping and maintaining full-stack web applications with a strong focus on backend architecture and CMS integrationBuilding and optimizing CMS-driven platforms, including content modelling, editorial workflows and platform structure and scalabilityDeveloping and maintaining applications using Laravel framework, ensuring clean architecture and modular design, efficient use of queues, jobs, and caching mechanisms and secure authentication and authorization flowsIntegrating CMS solutions (e.g. Statamic or similar) with broader application and platform architectureCollaborating on cloud-based deployments (AWS and/or Azure), ensuring portability, automation, resilience and reliabilityWorking with containerization technologies and orchestration tools to support modern deployment patternsEnsuring high standards of performance optimization, secure coding best practices and system reliability and scalabilityContributing to DevOps practices, including CI/CD pipelines, automation of build, test, and deployment processesSupporting integration between application layer and infrastructure components (databases, servers, cloud services) YOUR PROFILEMinimum 5 years of expeirence in backend, frontend, and infrastructure development.Extensive knowledge and working experience in PHP Laravel (advanced level) in application structuring, debugging, optimization Experience with Statamic CMS or strong ability to quickly learn itExperience with Linux-based systems and server administrationExperience in building CMS-based solutions, including content modelling and editorial workflowsGood knowledge of web server technologies (e.g. Nginx, Apache) and database systems (SQL / NoSQL)Experience with cloud platforms (AWS and/or Azure), containerisation (e.g. Docker) and orchestration conceptsStrong understanding of secure coding practices and application security principlesAbility to work and communicate in Engilsh on daily basis (min. B2 level)WHAT YOU’LL LOVE ABOUT WORKING HERE? Practical benefits: private medical care with Medicover with additional packages (e.g., dental, seni",
       "match_score": 72,
@@ -6173,7 +6195,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Warsaw, Mazowieckie, Poland",
       "description": "Altamira is a software development outsourcing company. We provide solutions that make a tangible impact on our client’s growth and productivity. With domain knowledge across product and technology development, we aim to provide cost-efficient solutions without compromising quality. We are driven to deliver the best, every single time.Altamira service delivery teams currently span Slovakia, Ukraine, and the Middle East, and we have ambitions to expand our footprint to meet the growing demand across Europe and into our primary growth markets in the UK and the US. In terms of industry verticals, we are focused on EdTech, Fintech, eCommerce, and Pharma.We are looking for a Full-Stack Engineer (Laravel + React) to join a growing product team. The project is focused on transforming how global enterprises manage internal eCommerce. With sustainability at its core, it helps customers reduce transportation by up to 90% and production volumes by up to 50% through local, on-demand production in more than 30 countries. The platform serves as a global one-stop eCommerce solution for marketing, sales, employer branding, and corporate merchandise, seamlessly integrating with customers’ existing systems while offering a significantly more user-friendly and sustainable alternative. The product has grown rapidly over the past 15 months and is now scaling its product and engineering team. The team consists of 15 people distributed across the Netherlands, the UK, Norway, Macedonia, Pakistan, Mexico, and Malta. While there is an office in Rotterdam, most of the team works remotely from home, co-working spaces, or while traveling. The company values ownership, trust, and clarity over heavy processes, giving you meaningful influence on both the platform and how it is built.Requirements:Strong experience with Laravel and modern PHP.Solid understanding of MVC architecture, domain modeling, and backend best practices.Understanding of Domain-Driven Architecture.Experience designing and consuming REST APIs.Proficiency with relational databases (MySQL, PostgreSQL, or similar).Working knowledge of frontend technologies (HTML, CSS, JavaScript).Experience with React, Next, and Tailwind.Familiarity with Git-based workflows, CI/CD, and production environments.Comfort working across the stack to deliver end-to-end features.Highly self-directed, able to plan, prioritize, and execute with minimal supervision.Structured and methodical, writing maintainable code and thinking in systems.Product",
       "match_score": 85,
@@ -6681,7 +6703,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Braga, Braga, Portugal",
       "description": "Anúncio de emprego: PHP developer | Braga (projeto internacional):Wondercom, LdaDescrição Do EmpregoPHP developer | Braga (projeto internacional)» Wondercom, Lda» 10-5-2024» Ref: 7406039» Braga» Informática ( Programação )Detalhe Da OfertaA KnowledgeWorks é uma Software House com vários projetos em curso nas mais variadas tecnologias. Somos, por isso, capazes de tornar realidade, as visões dos nossos clientes.Gostamos de ser desafiados e de sair da nossa zona de conforto.Respiramos tecnologia que acreditamos ser um meio para atingir a solução.Estás pronto para oferecer a excelência connosco?Referência da oferta: um PHP developer na zona de Braga para um projeto internacional !O que precisas? Mínimo de 3 anos de experiência em desenvolvimento em PHP Experiência com Laravel Inglês: avançadoNOTA: Disponibilidade para viagens à ÀustriaQuando procuras fazer carreira e não apenas um trabalho, oferecemos-te : Possibilidade de participar em projetos tecnologicamente inovadores Crescimento Profissional e Progressão de Carreira através de formação contínua e atualizada às necessidades do mercado Acompanhamento adaptado às tuas necessidadesCandidate-se aquiCompetênciasMais Ofertas de Emprego Semelhantes:",
       "match_score": 55,
@@ -6736,7 +6758,7 @@
         "Requires AWS",
         "Danish preferred"
       ],
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Job, Auvergne-Rhône-Alpes, France"
     },
     {
@@ -7079,7 +7101,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Gdańsk, Pomorskie, Poland",
       "description": "Sprawdź swoją szafę!Na pewno masz w niej choć jeden produkt marek Reserved, Mohito, Cropp, House lub Sinsay. A wiesz, że kupiłeś/aś go właśnie dzięki nam? Silky Coders od lat rozwija rozwiązania IT, e-commerce i data science dla Grupy LPP, tworząc technologie, z których każdego dnia korzystają miliony użytkowników. To również dzięki Silky rośnie satysfakcja klientów, a wolumen transakcji online pozytywnie zaskakuje nas każdego dnia.Nasze wartości zamykają się w akronimie FAST. To nie tylko tempo pracy — to nasze DNA. Działamy zwinnie, podejmujemy szybkie i odpowiedzialne decyzje, testujemy, iterujemy i dowozimy realną wartość. Odwaga, pasja i odpowiedzialność za efekt są dla nas tak samo ważne jak jakość rozwiązań.Pracujemy w duchu AI FIRST — aktywnie wykorzystujemy AI i nowe technologie, by usprawniać codzienną pracę i szybciej dostarczać wartość. Szukamy osób, które chcą działać odpowiedzialnie, mieć realny wpływ i wspólnie z nami rozwijać technologie dla milionów użytkowników.O zespole:Obszar IT E-Commerce w Silky Coders odpowiada za rozwój i wydajność platform sprzedażowych, takich jak strony internetowe i aplikacje mobilne, które obsługują klientów na ponad 40 rynkach. Zespoły E-Commerce specjalizują się w kluczowych elementach platform, takich jak płatności, zakupy, promocje, zwroty i aspekt wizualny. Specjaliści IT dbają o ich rozwój, dostosowując systemy do zmieniających się potrzeb rynku, wpływając tym samym na jakość obsługi klientów marek Grupy Kapitałowej LPP, takich jak Reserved, Sinsay, House, Mohito i Cropp.Co jest dla nas ważne:Znajomość języka PHP na poziomie zaawansowanym (minimum 5 lat doświadczenia) oraz jego Frameworków, takich jak SymfonyUmiejętność tworzenia SOLIDnego koduZnajomość ElasticSearch, Redis, RabbitMQZnajomość systemu kontroli wersji GitZnajomość systemów zarządzania bazami danych (np. MySQL, MongoDB) Zrozumienie architektury OOP (programowania obiektowego) oraz wzorców projektowychUmiejętność tworzenia zoptymalizowanego kodu, analizowania i optymalizowania wydajności aplikacjiDoświadczenie w integracji z zewnętrznymi API oraz obsłudze web serwisówZnajomość zagadnień związanych z bezpieczeństwem aplikacji webowychPodejście do ciągłego uczenia się oraz bycie na bieżąco z najnowszymi trendami i technologiamiWysoka komunikatywność oraz otwartość na współpracę Umiejętność efektywnej pracy zespołowej i nastawienie na budowanie pozytywnych relacji Proaktywne podejście do wyzwań i rozwiązywania problemów Odpowiedzialność, rzeteln",
       "match_score": 85,
@@ -7212,7 +7234,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Łódź, Łódzkie, Poland",
       "description": "KIM JESTEŚMY?Zespół MobileMS Składa Się z Doświadczonych Specjalistów w Wielu Dziedzinach. Zatrudniamy Programistów, Grafików, Specjalistów UX, Kierowników Projektów, Administratorów Sieci, Copywriterów Oraz Testerów. Wiemy z Doświadczenia, Że Oddanie Projektu w Ręce Jednego Dobrze Skomunikowanego Zespołu Znacznie Obniża Koszty Realizacji i Czas Trwania Przedsięwzięcia. CO TWORZYMY? MobileMS Tworzy Autorskie Oprogramowanie MUZA – Kompleksowy System Bazodanowy, Który Został Stworzony z Myślą o Potrzebach Nowoczesnych Placówek Muzealnych i Instytucji Kultury. Muza Łączy w Sobie Wszystkie Funkcje Profesjonalnego Zarządzania Zbiorami, Procesami i Użytkownikami z Łatwością Obsługi (działanie z Poziomu Przeglądarki) i Możliwością Udostępniania Zdigitalizowanych Zbiorów Online. Muza Powstała w Ścisłej Współpracy z Pracownikami Instytucji Kultury. Dołącz Do Zespołu MobileMS Sp. z O.o. i Razem z Nami Zmieniaj Oblicze Polskiego Muzealnictwa! Od Kandydata Na Stanowisko Programista PHP/Full-Stack Wymagamymin. 5 lat doświadczenia komercyjnego w tworzeniu oprogramowaniaznajomość PHP – mile widziane doświadczenie lub gotowość do nauki Symfony (nasz główny framework)swoboda w pracy z HTML, CSS, JavaScript oraz frameworkami frontendowymi (React lub Angular)bardzo dobrej znajomości relacyjnych baz danych MySQL, PostgreSQL oraz nierelacyjnych MongoDB, a także umiejętności tworzenia optymalnych zapytańznajomości gita i automatyzacji/CI w systemach typu GitLab,znajomości Linuxa,języka angielskiego na poziomie umożliwiającym czytanie dokumentacji.Mile widziana będzie wiedza i doświadczenie w następujących obszarach:praktyczne użycie narzędzi AI w procesie developmentuznajomość narzędzi i ekosystemu Symfonyzaangażowanie w kontakt z klientem i nastawienie na rozwiązywanie problemów Oferujemy:wynagrodzenie B2B: 18 000 – 22 000 zł netto miesięcznie20 dni płatnego urlopucałkowita praca zdalna – elastyczne godziny pracyszkolenia i możliwość realnego wpływu na architekturę systemuprzyjazną atmosferę w jednym z naszych biur (Łódź/Szczecin)",
       "match_score": 78,
@@ -7234,7 +7256,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Puteaux, Île-de-France, France",
       "description": "À Propos De L'entrepriseIl s'agit d'une entreprise innovante, spécialisée dans le développement de solutions numériques pour simplifier les processus et améliorer l'efficacité au quotidien. Elle propose des produits et services accessibles, centrés sur l'expérience utilisateur, avec une équipe dynamique à taille humaine et des clients répartis à l'échelle nationale et internationale.Pourquoi Rejoindre Cette Entreprise Intégrer une structure innovante et collaborative, où la créativité et l'expertise technique sont valorisées. Contribuer à des projets variés, qui ont un impact concret sur les utilisateurs. Faire partie d'une équipe dynamique et engagée, avec des opportunités de développement professionnel.POSTE / MISSIONSDéveloppeur·se Full Stack PHP - CDILieu : Paris (présentiel pendant la période d'essai, puis 2 jours de télétravail/semaine)Démarrage souhaité : ASAPContrat : CDIRémunération : Jusqu'à 45/55K€ brut/an selon profil + package (flexible pour profils exceptionnels)Missions principales Développer de nouvelles fonctionnalités en PHP (back-end majoritairement) Améliorer et faire évoluer le code existant (refactoring, évolutions techniques) Assurer la maintenance progressive du code legacy et accompagner les migrations Gérer du support technique N3 (1 jour/semaine) Participer activement aux sprints en méthodologie Scrum Contribuer aux réflexions produit (vision métier et contraintes B2B)Stack technique PHP MySQL JavaScript (bases attendues) React (occasionnel, non requis) Git, GitLab, Docker Environnement orienté clean code, performance et maintenabilitéPROFIL RECHERCHÉProfil recherchéCompétences techniques Excellente maîtrise du PHP et PHP Natif Rigueur et sensibilité clean code Expérience sur code legacy Bonne connaissance de Git et des environnements agilesSavoir-être Leadership naturel (prise d'initiative, esprit critique, capacité à alerter) Résilience et bonne gestion du stress Sens business et compréhension des priorités métiers Esprit d'équipe et appétence pour les rituels agilesAtouts supplémentaires Expérience B2B Habitude des environnements à forte contrainte Connaissance de Jira, GitLab, Kubernetes",
       "match_score": 83,
@@ -7367,7 +7389,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Arnhem-Nijmegen Region",
       "easy_apply": true,
       "description": "Bouw jij mee aan de technische toekomst van AI-gedreven contentcreatie?Als full-stack developer bij ENABL werk je aan de kern van ons AI-platform: schaalbare, snelle applicaties die de kracht van AI toegankelijk maken voor iedereen. Je bouwt mee aan frontend én backend, neemt eigenaarschap over de features die je oppakt, en helpt ons platform stap voor stap sterker te maken. Je krijgt de ruimte om je vak serieus uit te oefenen en om door te groeien.Locatie: Arnhem (hybride mogelijk)Uren: 32-40 uur per weekDit ga je doen:Platform bouwen (frontend en backend): Je ontwikkelt aan het ENABL-platform, een Laravel-monoliet met een React-frontend (gekoppeld via Inertia). Je werkt met Eloquent op een PostgreSQL-database en bouwt de interface met Tailwind CSS en shadcn.AI-integratie: Je helpt POC's ombouwen naar productiewaardige functionaliteit en integreert AI-modellen (LLM's, image generation) in gebruiksvriendelijke applicaties.Kwaliteit en werkwijze: Je werkt met feature-branches en pull requests, reviewt code van teamgenoten en schrijft tests (Pest/PHPUnit en Playwright).Meedenken over het product: Je denkt actief mee over technische keuzes en verbeteringen, en deelt je kennis met het team.You offer:3 tot 5 jaar ervaring als full-stack developer, met een bewezen trackrecord in het bouwen van webapplicaties (minimaal medior niveau).Aantoonbare ervaring met Laravel en PHP en met React.Ervaring met PostgreSQL en een ORM (Eloquent, of vergelijkbaar zoals Prisma).Bekend met Tailwind CSS.Je hecht aan kwaliteit: je bent bekend met geautomatiseerd testen (Pest/PHPUnit en Playwright) en werkt volgens clean code-standaarden.Een proactieve, probleemoplossende instelling: je denkt in oplossingen en neemt eigenaarschap.Sterke communicatieve vaardigheden en het vermogen om technische keuzes helder uit te leggen.We offer:Salaris: Een competitief bruto maandsalaris tussen de €3.500 en €4.500 (o.b.v. fulltime), passend bij jouw ervaring.Flexibiliteit: We werken graag drie dagen samen op kantoor. De dagen stemmen we samen af. Ons kantoor is open tussen 08.00 en 18.00 uur.Goed gereedschap: Je werkt op een MacBook Pro van de zaak, zodat je vanaf dag één soepel aan de slag kunt.Impact en eigenaarschap: Je krijgt de ruimte en verantwoordelijkheid om echt van je features te maken wat ze moeten zijn. Jouw code heeft directe invloed op ons product en onze klanten.Groei en ontwikkeling: Toegang tot opleidingen, trainingen die jou als developer verder brengen.Innovatieve cultuur: Werk i",
@@ -7679,7 +7701,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Warsaw, Mazowieckie, Poland",
       "description": "At Nord Security’s B2B team, we build cybersecurity products that enable businesses to protect themselves and their data.From product and engineering to sales, marketing, and data — our teams work closely together to deliver secure, scalable solutions trusted by companies around the world.Your impact? Empowering businesses everywhere to keep their people, systems, and data safe.Main ResponsibilitiesExpand and improve our codebase by writing clean, quality PHP code supported by tests. Contribute to technical discussions and share ideas on design decisions. Build and maintain APIs that are intuitive and developer-friendly. Collaborate with other teams to deliver fully functional features and quality code-based solutions for our product. Refactor, improve, and maintain the existing codebase while adding new functionality. Follow and promote good coding practices, continuous delivery, and technical excellence. Participate in task grooming, helping to define and break down work into manageable tasks. Core RequirementsAt least 4+ years of experience working with PHP. Good understanding of OOP principles and clean code design. Experience with REST API design and (My)SQL practices. Knowledge of Docker, RabbitMQ, and Redis is a plus. Working with Git is nothing new. Hands-on experience using AI tools like Claude, Cursor, or similar daily for code generation, refactoring, test creation, and debugging, and you take full ownership of every output. Engaged team player committed to contributing to the development and maintenance of a high-performing team. Clear, proactive communicator who works well in a cross-functional environment. Bonus Points ForHands-on experience of migration from Laravel to Symfony. Knowledge of CQRS. Good knowledge of Plain PHP. Knowledge about OpenTelementry. Tech StackPHP 8.2SLIM/Laravel/Symfony with Eloquent ORMMySQLRabbitMQRedisGitLab CIDockerAI/Claude code, Nexos.aiAWS ECSWhat we offerInnovate with industry leadersWork alongside global experts to build world-leading cybersecurity tools, impacting millions of users around the world.Learn & growBoost your skills via our extensive training programs (online and offline) & other resources. Benefit from mentorship and career-switch opportunities to grow within the company.Work from anywhereRecharge with a change of scenery – choose work from any location when you feel a need to power your creativity and drive.Physical well-beingFuel your active lifestyle with online workouts led by our Physical W",
       "match_score": 85,
@@ -8164,7 +8186,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "remote",
       "location": "Delft, South Holland, Netherlands",
       "description": "3 reasons you should join our team as a Medior Developer: You will work on systems that matter. You’ll help build and maintain a platform that simply cannot go down. Every day, millions of users rely on our systems to send and receive money safely. You will go deep on backend engineering. From improving microservices to optimizing performance, you’ll write clean, reliable code that keeps our platform fast, secure, and accurate. You will work with 30+ engineers who enjoy solving real problems together. We keep things practical, share knowledge, and build systems that actually get used.Our offices are located in Delft, near Rotterdam. If you do not know Delft yet, it is one of the most loved cities among engineers, with beautiful canal-lined streets, good beers, a strong tech vibe, reasonable housing prices, a walkable centre that keeps life easy, and public transport that gets you anywhere fast.Build the backbone of global e-commerceWhat started as five people, a small office, and some orange nerf guns has grown into one of Europe’s fastest-growing fintechs. With 150+ colleagues, offices in Delft, Berlin, and London, and Worldline as our partner, we’ve got the perfect mix: the power of a global leader with the energy of a scale-up. At OPP, we build the technology that powers the next generation of e-commerce. From eBay Kleinanzeigen to IKEA, millions of users rely on our systems every day. We don’t just process payments, we enable platforms to accept, hold, and disburse funds securely. 24/7.As a Medior PHP Developer at OPP, you will play an important role in building and improving our core platform. You’ll work on real features that are used daily by millions of users, while making sure our systems stay stable and scalable as we grow. You’ll be hands-on with coding, improving existing services, and helping to build new ones. At the same time, you’ll work closely with more experienced engineers to learn, challenge ideas, and make technical decisions together. You’ll be part of one of our agile teams, working on topics like payments, onboarding, and platform reliability. We expect you to take ownership of your work, think in solutions, and contribute to improving how we build and ship software as a team.Some of the projects you’ll be part ofBuild new in-platform payment flows that move money in ways traditional e-commerce never had to.Level up onboarding and compliance, making it faster for users and stricter where it counts.Break big systems into clean micro",
       "match_score": 85,
@@ -8208,7 +8230,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Warsaw, Mazowieckie, Poland",
       "description": "Poszukujemy doświadczonego PHP Developera, który będzie odpowiedzialny za rozwój i utrzymanie nowoczesnych aplikacji opartych na frameworku Symfony. Szukamy osoby, która nie tylko tworzy wysokiej jakości kod, ale również aktywnie uczestniczy w doskonaleniu procesów wytwarzania oprogramowania, wspiera zespół podczas code review oraz proponuje rozwiązania usprawniające pracę i rozwój projektów.Twoje zadaniaProjektowanie, rozwój oraz utrzymanie aplikacji tworzonych w technologii PHP.Tworzenie i aktualizowanie dokumentacji technicznej dotyczącej rozwijanych systemów.Inicjowanie oraz wdrażanie usprawnień w procesie rozwoju oprogramowania, w tym proponowanie nowych narzędzi i optymalizacji procesu testowania.Udział w spotkaniach projektowych i konsultacjach dotyczących realizowanych projektów oraz zagadnień związanych z jakością oprogramowania.Współpraca z zespołem deweloperskim przy projektowaniu i implementacji nowych funkcjonalności.Uczestnictwo w przeglądach kodu oraz dbanie o utrzymanie wysokich standardów jakości wytwarzanego oprogramowania.Nasze oczekiwaniaMinimum 3 lata doświadczenia komercyjnego w tworzeniu aplikacji w języku PHP (wersja 7 lub nowsza).Bardzo dobra praktyczna znajomość frameworka Symfony (wersje 3–6+).Doświadczenie w programowaniu z wykorzystaniem JavaScript.Znajomość wzorców projektowych stosowanych w aplikacjach PHP oraz JavaScript.Praktyczna znajomość projektowania i integracji z wykorzystaniem REST API.Dobra znajomość języka SQL oraz pracy z relacyjnymi bazami danych.Doświadczenie w pracy z systemem kontroli wersji Git.Umiejętność efektywnej współpracy w zespole oraz dobra komunikacja.Samodzielność, odpowiedzialność oraz umiejętność rozwiązywania złożonych problemów technicznych.Proaktywne podejście do usprawniania procesów oraz poszukiwania nowych rozwiązań zwiększających efektywność pracy.Doświadczenie w prowadzeniu merytorycznych code review, dbałość o jakość kodu oraz gotowość do dzielenia się wiedzą i promowania dobrych praktyk programistycznych.OferujemyPracę w modelu zdalnymMożliwość rozwoju zawodowego oraz udziału w innowacyjnych projektach.Preferencyjne pakiety do wykupienia w programach Multisport oraz Lux Med.Przyjazną atmosferę pracy i dużą samodzielność w realizacji powierzonych zadań.Zainteresowała Cię ta oferta?Prześlij swoje CV i porozmawiajmy o szczegółach. Chętnie opowiemy więcej o projekcie oraz odpowiemy na wszystkie Twoje pytania :)",
       "match_score": 85,
@@ -8253,7 +8275,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Rotterdam, South Holland, Netherlands",
       "description": "Bij Harborn Digital werken we met een passie voor technologie en digitale innovatie. Als software engineer bouw je mee aan schaalbare en veilige systemen die impact maken. Je ontwikkelt robuuste applicaties, optimaliseert performance en draagt bij aan de technische strategie en architectuur van onze projecten. In een multidisciplinair team werk je aan innovatieve oplossingen die bedrijven helpen groeien, waarbij je met jouw team end-to-end verantwoordelijk bent voor jullie projecten. Dit betekent dat hetzelfde team betrokken blijft vanaf de eerste kennismaking tot en met de ondersteuning.Bij Harborn krijg je de kans om te werken met de nieuwste technologieën en je continu te ontwikkelen. Je draagt actief bij aan de ontwikkeling van hoogwaardige digitale producten en speelt een belangrijke rol in de digitale transformatie van onze klanten. Klaar om impact te maken? Wij zijn Harborn – en we kijken ernaar uit om jou te ontmoeten!Unieke campus op de Westblaak in RotterdamOns kantoor is een ware hotspot voor creativiteit en technologie, ontworpen door de architect Jamie van Lede. Gevestigd in hartje Rotterdam, biedt onze unieke 'campus' de perfecte omgeving om te innoveren en samen te groeien. Bij Harborn staat jouw persoonlijke ontwikkeling centraal, leer je élke dag en wordt het begrip 'innovatie' daadwerkelijk in praktijk gebracht.Harborn is perfect bereikbaar met OV (Metrostation Beurs) en de fiets. Midden in de stad met op elke hoek leuke horeca en de energie van een stad die altijd in beweging is. Daarnaast is ons kantoor van alle gemakken voorzien waardoor meetings ook gemakkelijk digitaal kunnen worden gedaan.Werken bij Harborn moet je ervarenSinds 1999 bouwen wij aan de digitale wereld. Waar we ooit begonnen met websites, zijn we inmiddels uitgegroeid tot een full-service digital tech-agency met een indrukwekkend portfolio van meer dan 1.000 projecten. Ons team van 50+ tech-experts werkt aan innovatieve oplossingen: van geavanceerde bedrijfsapplicaties met AI tot robuuste en schaalbare back-end systemen.Sinds 2024 zijn we onderdeel van EPSA Netherlands. Samen blinken we uit in kostenoptimalisatie, (operationele) transformaties en digitale en AI-oplossingen. In de drie pijlers Procurement, Business Transformation en Digital hebben we de echte sterspelers in hun niche in huis. We combineren een missie-kritische aanpak met een full-service mindset: spot on in analyses, ondernemend in oplossingen en met een sterke focus op groei.Wat ga je doen?Als Software",
       "match_score": 83,
@@ -8297,7 +8319,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Lille, Hauts-de-France, France",
       "description": "Qui sommes-nous ?Nous sommes passionnés par les nouvelles technologies, et vous ?Rejoindre Amiltone, c'est intégrer des équipes dynamiques et soudées dans le cadre de projets novateurs et ambitieux. Nous relevons les challenges techniques de nos clients et les accompagnons dans leur transformation digitale.Pourquoi choisir Amiltone ?Amiltone, plus qu'une entreprise, un état d'esprit !Notre objectif ? Votre épanouissement professionnel !Nous Avons à Cœur DeVous accompagner au mieux au travers d'un suivi personnaliséVous faire monter en compétences en vous proposant des formations tout au long de votre carrièreComprendre vos besoins et respecter nos engagementsVous proposer des missions de qualité avec des technologies innovantesCultiver votre potentiel grâce à notre programme de développement personnel AddviseVotre bien-être passe aussi par des activités extraprofessionnelles, c'est pourquoi nous vous proposons des séances sportives animées par nos coachs, soirées pour se retrouver et animations (à l'agence ou en visio), Gaming nights...POSTE / MISSIONSMissions ?Intégré à nos équipes sur notre Digital Factory ou chez nos clients, vous interviendrez sur un projet de développement Back-End.En tant que Développeur PHP / Symfony (H/F), vous assurez les missions suivantes :Le développement des tâches qui vous sont assignées en respectant les spécificationsLe Code Review avec les autres développeurs du projetL'écriture de tests unitaires et fonctionnels durant vos développementsL'industrialisation de vos développements via notre PIC (Jenkins)La participation au Daily Scrum Meeting, Sprint Revue, Rétro de Sprint et Planning PokerLa Stack TechniqueBack-End (impératif) : SymfonyBDD (impératif) : SQL (MySQL, PostgreSQL, SQLServer) et/ou NoSQL (MongoDB, Cassandra, Redis)Outils : Git, Jenkins, Jira , Google Cloud ( impératif)PROFIL RECHERCHÉAlors ? Prêt à devenir Amiltonien ?N'hésitez Pas à Postuler Si Vous Vous ReconnaissezDiplômé Bac+3 à Bac+5 (Licence, Master ou école d'ingénieur), vous disposez de 4 ans d'expérience en développement Php/Symfony.Vous aimez découvrir de nouveaux contextes fonctionnels et comprendre les objectifs des applications que vous développez.A l'aise dans une organisation agile, vous faites preuve de rigueur et appliquez les standards de qualité Amiltone durant toute la durée des développements.Outre vos compétences techniques, nous nous intéressons également à votre potentiel et votre motivation.Nos postes sont ouverts aux personnes en situat",
       "match_score": 65,
@@ -8396,7 +8418,7 @@
         "No EU timezone mention"
       ],
       "description": "Description De L'entrepriseInetum est un leader européen des services numériques. Pour les entreprises, les acteurs publics et la société dans son ensemble, les 26 000 consultants et spécialistes du groupe œuvrent chaque jour pour créer un impact digital concret : des solutions qui contribuent à la performance, à l’innovation et au bien commun.Présent dans 19 pays au plus près des territoires, et avec ses grands partenaires éditeurs de logiciels, Inetum accompagne les organisations dans leurs enjeux de transformation digitale avec proximité, flexibilité et responsabilité. Porté par sa raison d’être, Inetum défend une vision d’une technologie utile et maîtrisée, capable de révéler le plein potentiel des organisations et de la société : « Let’s make tech right ».En 2025, le groupe a réalisé un chiffre d’affaires de 2,2 milliards d’euros.Plus d’informations sur : www.inetum.comDescription Du PosteNous recherchons un Développeur PHP / Symfony passionné(e), souhaitant s’investir dans des projets web à forte valeur ajoutée.Vos MissionsAu sein d’une équipe dynamique, vous interviendrez sur l’ensemble du cycle de vie des applications :Concevoir, développer et maintenir des applications web basées sur PHP et SymfonyParticiper à l’architecture technique et à l’évolution des projets existantsImplémenter des interfaces utilisateurs en respectant les bonnes pratiques HTML, CSS et JavaScriptCollaborer avec les équipes produit, design et front-endAssurer la qualité du code via des tests, revues de code et bonnes pratiquesVeiller à la sécurité des applications (prévention des failles, gestion des accès, protection des données)QualificationsCompétences techniques requises :Back-endExcellente maîtrise de PHPBonne connaissance du framework Symfony (routing, ORM Doctrine, services, sécurité)Conception et consommation d’API RESTBases de données relationnelles (MySQL, PostgreSQL)Front-endSolide socle en HTML5, CSS3, JavaScriptSensibilité aux bonnes pratiques front (responsive design, accessibilité, performance)Connaissances appréciées d’un framework ou d’une librairie front (Vue.js, React, Bootstrap, etc.)SécuritéSensibilisation aux enjeux de sécurité web :Protection contre les failles courantes (XSS, CSRF, SQL Injection)Gestion des authentifications et des droits utilisateursBonnes pratiques de sécurisation des donnéesInformations supplémentairesProfil RecherchéFormation en développement informatique (Bac+2 à Bac+5 ou équivalent)Expérience significative en développement PHP / ",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Nancy, Grand Est, France"
     },
     {
@@ -8407,7 +8429,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Paris, Île-de-France, France",
       "description": "L'offreSecteursAutomobile, Aéronautique, Spatial, Défense & Sécurité, Ferroviaire, Télécommunications, Energie, Services & Systèmes d'Informations, Chimie / Pétrochimie, Digital & E-Commerce, Naval, Machines & Industrie Lourde, Pharmaceutique / Biotechnologie, Banque & Assurance, BTPDescription De L'offreNous recrutons pour l'un de nos clients un Développeur PHP Symfony, à pourvoir dès que possible. Les responsabilités incluent : - Développer et maintenir des applications web basées sur le framework Symfony. - Concevoir des architectures logicielles solides pour supporter les exigences des projets. - Intégrer des solutions de paiement, des services de géolocalisation, et autres API tierces. - Collaborer avec les équipes front-end pour assurer une intégration seamless des interfaces utilisateur. - Documenter le développement et maintenir des guides pour les utilisateurs et autres développeurs. - Participer activement à l'amélioration des processus de développement au sein de l'équipe.Missions à réaliserDévelopper des applications web robustes et évolutives en utilisant le framework Symfony.ModalitésDate de démarrage : dès que possibleDate de fin : non spécifiéeCandidats recherchés : 1Expérience : 6+ ansType de contrat : CDI, Temps completRémunération : 45000 € - 55000 € par an selon expérienceLocalisation : 75005 Paris, FranceTélétravail partielLe profil recherchéCompétences requisesSymfony, Php, Composants Symfony, Bases de données relationnelles, mysql, Postgrésql, Outils de gestion de version, GitDescription Du Profil Solide - Expérience en développement avec le framework Symfony - Maîtrise du langage PHP et des composants Symfony - Connaissance des bases de données relationnelles (MySQL, PostgreSQL) et des outils de gestion de version (Git) - Capacité à concevoir, développer et maintenir des applications web - Excellentes compétences en résolution de problèmes et en optimisation du code - Capacité à travailler en équipe et à collaborer avec les équipes front-end et back-end - Attention aux détails et respect des délaisLanguesFrançaisÀ propos de l'entrepriseLes secteurs d'activitéAutomobile, Aéronautique, Spatial, Défense & Sécurité, Ferroviaire, Télécommunications, Energie, Services & Systèmes d'Informations, Chimie / Pétrochimie, Digital & E-Commerce, Naval, Machines & Industrie Lourde, Pharmaceutique / Biotechnologie, Banque & Assurance, BTPPrésentationDepuis 2016, Kicklox aide talents tech et entreprises industrielles à se rencontrer et collaborer su",
       "match_score": 85,
@@ -9230,7 +9252,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Cracow Metropolitan Area",
       "easy_apply": true,
       "description": "Toronto time zoneWe're looking for a mature, Senior/Lead PHP Engineer with deep Laravel expertise and hands-on experience building or integrating agentic AI systems. You'll take ownership of complex backend features end-to-end, mentor other engineers, and help shape how AI-driven automation and agents fit into our product and internal workflows.About the client:Our client is a leading online car marketplace group operating across Europe and North America, bringing together market-leading brands to shape the future of our industry by combining the best of both regions.What You'll Do:Design, build, and maintain robust backend services and APIs using PHP and LaravelOwn features from technical design through deployment and monitoringIntegrate and orchestrate agentic AI workflows (e.g., LLM-based agents, tool-calling pipelines, autonomous task runners) into existing products or internal toolingImprove system performance, reliability, and security across the stackStay current with the PHP/Laravel ecosystem and emerging agentic AI tools and patternsWhat You Need to Succeed:6+ years of professional PHP development experience4+ years building applications with Laravel (or comparable modern PHP framework experience with strong Laravel proficiency)Solid database skills (MySQL/PostgreSQL), including query optimization and schema designFamiliarity with containerization (Docker) and cloud deployment (AWS, GCP, or similar)Strong communication skills and the judgment to work independently on ambiguous problemsHands-on GenAI experience — you've built with LLM APIs, tool/function calling, retrieval, agents, or agent frameworks and put them into real workflows.Modern AI coding tools (e.g., Claude Code, Codex) are part of how you work day to day.Strong communication and collaboration skills — you work well in a team, share your opinions clearly, and can move a topic forward with people across functions.Solid engineering fundamentals: testing, debugging, code quality, and getting things production-ready.English - at least Upper Intermediate+Work in EDT (Toronto) time zoneWe offer*:Flexible working format - remote, office-based or flexibleA competitive salary and good compensation packagePersonalized career growthProfessional development tools (mentorship program, tech talks and trainings, centers of excellence, and more)Active tech communities with regular knowledge sharingEducation reimbursementMemorable anniversary presentsCorporate events and team buildingsOther location-sp",
@@ -9540,7 +9562,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Warsaw, Mazowieckie, Poland",
       "easy_apply": true,
       "match_score": 58,
@@ -9563,7 +9585,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Wrocław, Dolnośląskie, Poland",
       "description": "Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported and inspired by a collaborative community of colleagues around the world, and where you’ll be able to reimagine what’s possible. Join us and help the world’s leading organizations unlock the value of technology and build a more sustainable, more inclusive world.YOUR TASKS Developing and maintaining web applications using PHP and modern PHP frameworks (e.g., Laravel, Symfony).Building portable, secure, and highly automated platforms supporting enterprise websites and CMS.Collaborating with cross-functional teams to define, design, and ship new featureWriting clean, maintainable, and efficient code Participating in code reviews and providing constructive feedback Troubleshooting and debugging issues to improve performance and reliability YOUR PROFILEMinimum 8 years of experience in backend, frontend, and infrastructure development.Experience in PHP development and familiarity with modern PHP frameworks (e.g., Laravel, Symfony).Proficiency in frontend development using HTML, CSS, JavaScript, and modern libraries/frameworks (e.g., React, Vue.js, or Angular).Knowledge of cloud platforms and services (e.g., AWS or Azure); official certifications are a plus.Strong understanding of web server technologies and database systems.Hands-on experience with automation tools and CI/CD pipelines (e.g., GitLab CI/CD, Ansible, Terraform).Familiarity with containerization technologies (e.g., Docker) and orchestration tools (e.g., AWS ECS, Kubernetes).Good command of English (at least B2).WHAT YOU’LL LOVE ABOUT WORKING HERE? Practical benefits: private medical care with Medicover with additional packages (e.g., dental, senior care, oncology) available on preferential terms, life insurance and access to NAIS benefit platform. Access to over 70 training tracks with certification opportunities (e.g. GenAI, Architects, Google) on our NEXT platform. Dive into a world of knowledge with free access to Education First Languages platform, Pluralsight, TED Talks, Coursera and Udemy Business materials and training. Enjoy a hybrid working model that fits your life - after completing onboarding, connect work from a modern office with ergonomic work from home-thanks to home office packages (including laptop, monitor, and chair). Ask your recruiter about the details. Award-Winning Stability & Culture: Become part of an organization celebrated as \"Top E",
       "match_score": 82,
@@ -9585,7 +9607,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Poland",
       "easy_apply": true,
       "description": "Make retail great again through the power of technology! Intellias helps retailers provide consistent and customer-centric shopping experiences across all channels with disruptive retail tech solutions. Get on board and make your own contribution to the industry!Project Overview:Our client is the fastest-growing global manufacturing company. An international corporation with over a hundred years of history, internationally recognized brands and Reduced-Risk Products.Intellias' mission is to support its strategy and efforts in the Digital and e-commerce space (e-commerce and other apps mobile apps, payment gateways, loyalty system, search engine, employee management, identity management, etc.).A newly conceptualized Digital Eco System is comprised of a set of capabilities including an online shop & website, linking online & offline, customization & personalization, engagement & membership, digital product & services main differences.Requirements:4+ years of professional software development with PHPStrong experience in working with Laravel and PHPAI Mindset: Strong interest in applying AI capabilities to solve business and engineering challenges.Hands-on experience with Microsoft Copilot or comparable AI-powered productivity tools.Experience with Pinia for state management (Vuex optional).Hands-on experience with Quasar Framework for building responsive and scalable UI.Good understanding of REST API integration and working with backend services.Experience writing and maintaining automated tests using Vitest (Jest optional).Experience with Cypress for end-to-end testing (Playwright optional).Strong experience in building/integrating REST services and a very good understanding of the HTTP stackGood experience in writing automated unit, functional, and integration testsStrong knowledge of software design patterns, service-oriented architecture, Twelve-Factor App methodology, Semantic VersioningStrong knowledge of SDLC, strong knowledge of working with git-based versioning systems and integrating them into CI/CD pipelinesExperience in LDAP/AD or any Identity provider, especially oAuth, OpenID, SAMLAt least 1 year of experience working in a Scrum team (even if initially new joiners will be working in PHP Squad, in the future they can join a product team that works in Scrum)Experience in Magento is a plusLaravel Certification is a plusResponsibilities:Participate in the development and maintenance of PHP applications.Troubleshoot and debug applications to resolve",
@@ -9784,7 +9806,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "remote",
       "location": "Berlin, Germany",
       "description": "Zukunft ist immer. aconium.Erfolgsgeschichten schreiben wir gemeinsam. Mit mehr als 350 Mitarbeitenden gehört die aconium GmbH zu den Top 100 der innovativsten Mittelständler in Deutschland. Wir leben Innovation. Wir überzeugen mit Kompetenz. Wir gestalten zusammen. Europaweit - seit mehr als 15 Jahren.Die aconium GmbH ist Partner der öffentlichen Hand. Kommunen, Landkreise, Landes- und Bundesministerien sowie Unternehmen vertrauen auf unsere Unterstützung im Bereich Regionalentwicklung, Digitalisierung, Mobilität, Energie und Bildung.Wir suchen ab sofort für unser Berliner Büro PHP-Entwickler:innen. Es handelt sich grundsätzlich um eine Stelle mit 40h-Woche.Wir laden Sie herzlich ein, Innovationen und Digitalisierung aktiv mitzugestalten und gemeinsam mit uns zu wachsen! Worauf warten Sie noch?!Ihr Aufgabenbereich:Softwareentwicklung: Sie entwickeln moderne Webanwendungen auf Basis von PHP 8 und Symfony (Version 5-7) und arbeiten – je nach Projekt – an innovativen Lösungen im Government- oder Education-UmfeldFeature-Entwicklung: Sie konzipieren und implementieren neue Funktionen – von der ersten Idee über die technische Umsetzung bis hin zum erfolgreichen Go-live.Anwendungsmodernisierung: Sie entwickeln bestehende Anwendungen kontinuierlich weiter, optimieren bestehende Funktionen und sorgen für eine nachhaltige technische Weiterentwicklung unserer Softwarelösungen.Codequalität: Sie nutzen und entwickeln unsere bestehende Toolchain (u.a. GitLab CI, Composer, PHPUnit und PHPStan) kontinuierlich weiter und stellen durch Clean-Code-Prinzipien, Code Reviews und automatisierte Test eine hohe Softwarequalität sicher.DevOps & Deployment: Sie automatisieren Build-, Test- und Deployment-Prozesse mit Docker und GitLab CI und unterstützen bei der Weiterentwicklung unserer Container-Strategie. Erfahrungen mit Kubernetes sind dabei willkommen.Technische Konzeption: Als technischer Sparringspartner arbeiten Sie eng mit dem Product Owner zusammen, analysieren fachliche Anforderungen und überseten diese in technische Konzepte, Mock-ups und realisierbare Lösungsansätze.Qualitätssicherung: Sie führen Performance- und Security-Analysen durch, identifizieren Optimierungspotenziale und stellen sicher, dass unsere Anwendungen den hohen Qualitäts- und Sicherheitsanforderungen – insbesondere im öffentlichen Sektor – entsprechen.Agile Zusammenarbeit: Sie arbeiten in einem agilen Entwicklungsteam nach Scrum oder Kanban, bringen sich aktiv in Planungen, Reviews und technische Disku",
       "match_score": 83,
@@ -9818,7 +9840,8 @@
       "match_cons": [
         "No AWS mentioned",
         "Danish preferred"
-      ]
+      ],
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4440971068",
@@ -9872,7 +9895,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Le Plessis-Robinson, Île-de-France, France",
       "description": "Geek assumé, tu aimes tester les solutions digitales pour offrir la meilleure expérience web ? Rejoins Klee Group, acteur incontournable de la transformation.Chez Klee Group, ESN française, nous imaginons et créons des solutions digitales métier en accompagnant nos clients tout au long du cycle de vie de leur projet numérique.Grâce à notre culture de l'engagement et du résultat, nous proposons et mettons en œuvre des solutions métier industrielles et sur-mesure.Agilité, UX, Numérique Responsable, Web, Data, CyberSécurité, DevOps, Cloud… nous proposons à nos clients un véritable panel d’expertises complémentaires incarnées par plus de 1100 talents ! Klee Group réalise 163 millions d’euros de chiffre d’affaires en 2025.Pour plus d’informations, rendez-vous sur www.kleegroup.com/L'Agence digitale de Klee crée la meilleure expérience web pour ses clients en mettant la technologie au service de projets d'envergure porteurs de sens.Notre ADN ? Une approche personnalisée alliée à un numérique responsable.Ton équipeAu sein de la Team, tu évolueras dans une structure à taille humaine, conviviale et engagée. Nos développeurs expérimentés en analyse, conception et évaluation de sites interactifs seront ravis de t’accueillir ! Autonomie, travail hybride, management bienveillant… Klee est soucieux de ton bien-être.Tes missionsLe projet s’inscrit dans le cadre d’une opportunité que nous avons pour l’un de nos clients :Tes principales missions seront les suivantes :Conception fonctionnelle et techniqueDéveloppement et intégrationArchitecture et configuration applicativeDéveloppement des tests unitairesOptimisation des performancesSupport techniqueConfiguration des couches bassesTu évolueras au sein d’un environnement challengeant qui mettra en valeur ta capacité d’adaptation, ton autonomie et ton affinité avec les principes agile.Force de proposition, tu apprécieras de comprendre et de participer à la conception de sites web de services et d’information.L’équipe actuellement en place est organisée de façon agile.L’environnement technique utilisé comporte les technologies suivants : PHP / Drupal / Symfony / Nuxt.js /Next.js dans des infrastructures Public Cloud diverses (OVH Cloud, Outscale, AWS, Azure) et Cloud privée.Tu vas souvent appréhender des architectures orientées services ou micro services.Ton profilIssu d’une formation bac+5 en informatique, tu justifies de 2 ans d'expérience minimum dans un framework PHP : Symfony Laravel dans une architecture orientée service",
       "match_score": 67,
@@ -10058,7 +10081,7 @@
         "Shopware required",
         "Symfony 6/7 expected"
       ],
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Wrocław, Dolnośląskie, Poland"
     },
     {
@@ -10176,7 +10199,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Herentals, Flemish Region, Belgium",
       "description": "Wat je gaat doenBouw jij met PHP de digitale ervaringen van morgen, van de interne logica tot de perfecte interactie? Wij zoeken een developer die de volledige stack beheerst en van A tot Z impact wil maken op uitdagende projecten.Als Full Stack PHP Developer ben je verantwoordelijk voor het programmeren van kraaknette, efficiënte en goed gestructureerde code.Je combineert je diepgaande back-end kennis moeiteloos met je vaardigheden in de front-end, wat jou de perfecte developer maakt voor de uitdagingen op onze iO Campus in Herentals.Samen met jouw team bouw jij digitale projecten van de eerste tot de laatste lijn code. Je werkt aan uitdagende projecten en krijgt de vrijheid om features zelfstandig te analyseren en uit te werken. Je bent een betrouwbare teamspeler die proactief communiceert over uitdagingen en meedenkt over oplossingen, zonder de nood aan micromanagement. Een greep uit je takenpakket: Je bouwt en verbetert platformen voor een brede waaier aan klanten. Je analyseert features en zet ze om in technische oplossingen. Je schrijft kwalitatieve Unit & E2E tests. Je koppelt externe API’s en bent vertrouwd met authenticatiemethodes zoals OAuth2. Je deelt je kennis en ervaring graag met je collega’s. Bij iO kom je terecht in een hecht team van experts waar kennisdeling en samenwerking centraal staan. Bij iO sta je er niet alleen voor!Samen bouwen we niet alleen aan uitdagende projecten, maar ook aan jouw carrière. Jij hebt de touwtjes in handen.Daarom ben jij de perfecte PHP DeveloperJe hebt een diepgaande kennis van PHP en moderne frameworks zoals Symfony. Kennis van Drupal is een plus.Je kan terugvallen op een +4j ervaringJe bent back-end sterk en hebt een goede basiskennis van front-end. Ervaring met Vue.js , TypeScript of een gelijkaardig framework is een grote plus.Je hebt ervaring met het schrijven van Unit & E2E tests.Je bent zelfstandig, neemt ownership en communiceert proactief.Kennis van NodeJS, websockets, externe API's (OAuth2) of Azure is mooi meegenomen.Omdat je komt te werken in een internationaal team schrijf en spreek je moeiteloos Nederlands en EngelsDit krijg jij van ons32 vakantiedagenOp basis van een 40-urige werkweek heb je 20 vakantiedagen en 12 ADV-dagen.Mobiliteit & eindejaarspremieNa 6 maanden in dienst kun je bij iO rekenen op een eindejaarspremie. En op mobiliteitsvlak bieden we verschillende mogelijkheden, passend bij jouw job of voorkeur.Hospitalisatieverzekering Heb je eens iets voor? Dan is extra stress rond kosten h",
       "match_score": 85,
@@ -10198,7 +10221,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Cracow, Małopolskie, Poland",
       "description": "Kodano to ponad 150 salonów optycznych w Polsce i rosnąca sieć za granicą. Budujemy własne systemy - POS, WMS, fakturowanie, integracje. Nie wdrażamy gotowych rozwiązań - projektujemy je od zera, bo nasza domena tego wymaga.Teraz wchodzimy w kolejny etap - stawiamy nowy, własny system sprzedażowy, który zastąpi dotychczasowe rozwiązania i stanie się fundamentem operacji całej sieci w Polsce i za granicą. To projekt greenfield z realnym wpływem na działanie ponad 150 salonów każdego dnia.Pracujemy z AI na co dzień - Claude i inne narzędzia LLM są częścią naszego warsztatu, nie buzzwordem na slajdzie. Szukamy kogoś, kto PHP traktuje poważnie - jakość kodu i statyczna analiza to dla Ciebie standard, nie dodatek.Co będziesz robić:﻿Współtworzysz nowy system sprzedażowy Kodano od podstaw - projekt greenfield, w którym Twoje decyzje architektoniczne będą miały realne znaczenie przez lataIntegrujesz rozwiązania AI i LLM (Claude API i inne) w systemach Kodano - od automatyzacji procesów po inteligentne funkcje w nowym systemie sprzedażowymProjektujesz i rozwijasz backend systemów transakcyjnych - POS, WMS, fakturowanie, wielopodmiotowość, wielowalutowośćPracujesz głęboko z PostgreSQL - partycjonowanie, indeksy, poziomy izolacji transakcji, optymalizacja zapytań - schodzisz do czystego SQL gdy Doctrine ORM przeszkadzaBudujesz asynchroniczne procesy - Symfony Messenger, kolejki, workery (Supervisor, RoadRunner, FrankenPHP)Projektujesz model danych od podstaw i uzasadniasz swoje decyzje - architektura to dla Ciebie rozmowa, nie narzucony schematMigrujesz systemy legacy - strangler-fig, praca równoległa starego i nowego systemu, zero przestojówPiszesz testy PHPUnit - jednostkowe i integracyjne z realną bazą - bo poprawność w systemie transakcyjnym nie podlega dyskusjiCzego oczekujemy od Ciebie:Min. 6-7 lat komercyjnego doświadczenia w backendzie - PHP i Symfony z Doctrine to Twój codzienny warsztatGłęboka znajomość PostgreSQL - nie tylko przez ORM - partycjonowanie, indeksy, poziomy izolacji transakcji, blokady, plany zapytań, czysty SQL gdy trzebaDbasz o jakość kodu na poziomie, który pozwoli utrzymać system przez kolejne lata - statyczna analiza to dla Ciebie fundament, nie opcjaDoświadczenie w systemie transakcyjnym gdzie poprawność była krytyczna - ERP, WMS, POS, fintech, płatności, księgowość lub e-commerce wysokiej skaliWiesz czym jest klucz idempotencji, jak unikać zakleszczeń na gorącym rekordzie i dlaczego float nigdy nie trafi do kolumny z kwotąZnajomość asyn",
       "match_score": 85,
@@ -10220,7 +10243,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Paris, Île-de-France, France",
       "description": "This role welcomes full remote or hybrid work arrangements. However, applicants must be based in Spain, Italy, France or Romania and have a work permit to be considered.About LaunchmetricsLaunchmetrics is the leading Brand Performance Cloud used by Fashion, Lifestyle and Beauty (FLB) executives to make smarter decisions around their branding efforts.With over a decade of industry expertise, we have helped more than 1,200 customers create inspiring, impactful and measurable experiences.Founded in NYC and with operating headquarters in Paris, we have employees in ten markets worldwide and offer support in five languages. We have been the trusted brand performance technology to brands worldwide such as Dior, Fendi, Shiseido, NET-A-PORTER and Adidas as well as industry partners like IMG, the Council of Fashion Designers of America, the British Fashion Council, and Camera Nazionale Della Moda Italiana.The Team & the Pods organizationWe are a team of passionate engineers distributed across the world, always eager to learn new things. We are building state-of-the-art modern applications and scale it on the cloud. We innovate to solve customers problems, focusing on high-performance implementations without neglecting the user experience.We recently moved our Product and Tech teams to a pod model, and it changes the shape of this job in ways worth understanding before you apply.A pod is a small group, 1 to 4 people, that owns a single mission end to end: from scoping and building through cleaning, enablement and watching adoption. Pods form around a mission and dissolve when it's done. Everyone can be a pod owner, from the most junior person to the most senior, because ownership is the point.Your domain is your product-area home, the part of our software suite you know best. Pods change with every mission; your craft and your domain don't.The roleThe Launch Domain (Samples And Events) Builds The Operational Platforms Brands Rely On To Run Their Collection Launches And Their In-person Moments. The Team OwnsEvents, the platform behind the world's most important fashion shows: it handles the planning (seating and floor plans, invitee lists, invitations) and the live logistics, checking in over a million attendees every seasonSamples, the tooling brands use to manage and track their physical assets across a launch, so the right pieces reach the right influencers and celebrities and fewer opportunities, and fewer samples, are lost.You'll work on a system built for scale",
       "match_score": 55,
@@ -13052,7 +13075,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-07-16",
-      "work_type": "remote",
+      "work_type": "onsite",
       "location": "Buchen, Baden-Württemberg, Germany",
       "description": "Deine AufgabenEntwicklung und Erweiterung unserer E-Commerce-SystemeAusarbeitung und Umsetzung von Lösungen für ProjekteEntwicklung von Schnittstellen zu internen und externen SystemenDeine Hard-SkillsAusgebildeter Programmierer/Entwickler durch eine Ausbildung z. B. als Fachinformatiker - Anwendungsentwicklung, Webentwicklung, Multimediaprogrammierung oder ein vergleichbares StudiumEinschlägige Erfahrung in diesem BerufsfeldGutes Verständnis von objektorientiertem ProgrammierenPHP, MySQL, LaravelSOAP, REST-APIDeine Soft-SkillsAusgeprägte Teamfähigkeit und die Fähigkeit zum selbstständig organisierten ArbeitenZuverlässigkeit und VerantwortungsbewusstseinDu Findest Bei UnsEinen verantwortungsvollen Job in einem Entwicklungsteam in lockerer ArbeitsatmosphäreSpannende Projekte, die ein hohes Maß an Abwechslung mit sich bringenEinen unbefristeten Vertrag, eine bezuschusste betriebliche Altersversorgung, betriebliche private Unfallversicherung und einem Zuschuss zum FirmenfahrradEigenverantwortliches, agiles Arbeiten in kleinen Teams mit kurzen EntscheidungswegenModernes Büro, auto-& nahverkehrsfreundlich gelegen, mit eigenen (E-Lade) ParkplätzenFlexible Gestaltung deiner Arbeitszeit mit der Möglichkeit, im Homeoffice zu arbeiten",
       "match_score": 83,
@@ -13751,6 +13774,139 @@
       "match_cons": [
         "Drupal not in skillset",
         "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4437187395",
+      "title": "Medior PHP-ontwikkelaar",
+      "company": "Starapple",
+      "url": "https://nl.linkedin.com/jobs/view/medior-php-ontwikkelaar-at-starapple-4437187395",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-07-16",
+      "work_type": "remote",
+      "location": "Arnhem-Nijmegen Region",
+      "easy_apply": true,
+      "description": "Over de organisatie:Deze organisatie ontwikkelt al ruim 25 jaar softwareoplossingen voor de onderwijs- en zorgsector. De applicaties worden in eigen beheer ontwikkeld en zijn gericht op het ondersteunen van gebruikers in hun ontwikkeling, groei en dagelijkse werkzaamheden.Werken bij deze organisatie betekent werken in een omgeving waar persoonlijke ontwikkeling, werk-privébalans en samenwerking centraal staan. Vanuit een moderne kantoorlocatie met uitzicht wordt dagelijks gewerkt aan producten die door een grote gebruikersgroep worden ingezet. Hoewel de organisatie inmiddels internationaal actief is en meer dan 1.000 medewerkers telt, is de cultuur toegankelijk, informeel en mensgericht gebleven.Je komt terecht in een multidisciplinair ontwikkelteam bestaande uit circa 13 PHP- en 3 .NET-developers, een Product Owner, Business Analist en Manager. De lijnen zijn kort, collega's helpen elkaar graag en er is veel ruimte voor kennisdeling. Naast het werk wordt er regelmatig gezamenlijk geluncht en wordt de week traditiegetrouw afgesloten met een vrijdagmiddagborrel.Functie-omschrijving:Als PHP developer speel je een belangrijke rol binnen deze onderhouds- en moderniseringsslag. Je denkt mee over technische keuzes, bewaakt de kwaliteit van de codebase en pakt complexe vraagstukken op rondom architectuur en systeemverbeteringen.Samen met je team werk je aan bestaande maatwerkapplicaties die worden gebruikt binnen onder andere de onderwijs- en zorgsector. De focus ligt hierbij niet zozeer op nieuwbouw, maar op het verder ontwikkelen, moderniseren en toekomstbestendig maken van bestaande systemen. Denk aan het uitvoeren van PHP-upgrades, refactoring-trajecten, technische verbeteringen en het optimaliseren van de architectuur, zodat applicaties ook op de lange termijn goed onderhoudbaar en schaalbaar blijven.Eisen:Je hebt ruime ervaring met PHP en Symfony of soort gelijk frameworkJe bent bekend met Typescript en Javascript met Vue, AngularKennis van Python, Laravel, jQuery, CSS, Bash, CI/CD is een preJe hebt het analytische vermogen om technische uitdagingen aan te gaan en creatieve oplossingen voor te stellen die de gebruikerservaring aanzienlijk verbeterenJe kunt zowel zelfstandig als in een team functionerenAanbod:Een salaris indicatie tot € 4500,- bruto o.b.v. fulltimeFlexibele werktijden/ thuiswerkmogelijkheden 2 dagen kantoor rest kan vanuit huisJe krijgt een individueel budget voor relevante opleidingen/trainingenJe inbreng en ideeën worden serieus genomenJaa",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Laravel matches"
+      ],
+      "match_cons": [
+        "Symfony required",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4428559000",
+      "title": "Senior PHP Developer, Schwerpunkt Symfony",
+      "company": "Constructiva Solutions",
+      "url": "https://de.linkedin.com/jobs/view/senior-php-developer-schwerpunkt-symfony-at-constructiva-solutions-4428559000",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-07-16",
+      "work_type": "onsite",
+      "location": "Bonn, North Rhine-Westphalia, Germany",
+      "description": "Wir bei Constructiva entwickeln maßgeschneiderte Software, die bei unseren Kunden wirklich etwas verändert. Das schaffen wir mit Teamarbeit, Offenheit und Zusammenarbeit auf Augenhöhe.Wir sind keine klassische Agentur mit ständig wechselnden Projekten, sondern verstehen uns als langfristiger IT-Partner. Wir denken gerne mit, bringen uns proaktiv ein und entwickeln mit und für unsere Kunden neue Einsichten und Perspektiven.Wenn Du auch gerne mitgestaltest und etwas bewirken willst, bist Du bei uns richtig!Bei uns entwickelst du moderne Web-Anwendungen mit vielen Funktionalitäten in einem kleinen Team von Experten. Dabei legen wir viel Wert auf Wissensaustausch, Code Reviews sowie die Prinzipien aus Domain Driven Design und Test Driven Development. Der Betrieb erfolgt bevorzugt in der Cloud (AWS).AufgabenDu entwickelst gemeinsam mit Deinen Kollegen im Team komplexe Anwendungen in PHP mit Schwerpunkt SymfonyDu übernimmst intern eine Expertenrolle im Hinblick auf Software-Architektur und Clean-Code-Prinzipien: Du bildest Dich kontinuierlich weiter und hast Spaß daran, das Team mit Wissen, Know-How und technischen Innovationen zu inspirierenQualifikationmehrere Jahre Erfahrung in der Web-Entwicklungsehr gute Kenntnisse in Symfony und PHPBasiskenntnisse Javascriptsehr gute kommunikative Fähigkeiten auf Deutsch (C2) und Englisch (B2)von Vorteil: Hochschulstudiumvon Vorteil: Erfahrungen mit dem Betrieb in der CloudBenefitsWirksam mitgestalten und dabei eine echte Work-Life-Balance leben:Flexible Arbeitszeiten & Teilzeitmodelle, die in Dein Leben passenBis zu 3 Tage pro Woche im Home Office arbeitenEin persönliches Fortbildungsbudget (Zeit und finanzielle Mittel) nutzenUnsere Zusammenarbeit und die Firma aktiv mitgestalten und voran bringenDarüber hinaus:Wunsch-Hardware 💻Büro mit Garten, Terrasse und Grill 🍔Gute Bezahlung 🤝Gewinnbeteiligung 💰Deutschlandticket 🚆🚌",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Seniority matches"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4438708998",
+      "title": "PHP Developer",
+      "company": "Swoon",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-at-swoon-4438708998",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-07-16",
+      "work_type": "remote",
+      "location": "Hampton Roads, Virginia Metropolitan Area",
+      "easy_apply": true,
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Primary language is NOT PHP",
+        "No description provided"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4441493016",
+      "title": "PHP DEVELOPER",
+      "company": "RED TIC",
+      "url": "https://fr.linkedin.com/jobs/view/php-developer-at-red-tic-4441493016",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-07-16",
+      "work_type": "onsite",
+      "location": "Montréal, Occitanie, France",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language"
+      ],
+      "match_cons": [
+        "No description, no EU timezone mention"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4438737083",
+      "title": "Desarrollador/a de PHP",
+      "company": "Randstad Digital España",
+      "url": "https://es.linkedin.com/jobs/view/desarrollador-a-de-php-at-randstad-digital-espa%C3%B1a-4438737083",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-07-16",
+      "work_type": "onsite",
+      "location": "Valencia, Valencian Community, Spain",
+      "easy_apply": true,
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly",
+        "PHP primary"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4438731161",
+      "title": "Lead Software Engineer (PHP)",
+      "company": "Dow Jones",
+      "url": "https://nl.linkedin.com/jobs/view/lead-software-engineer-php-at-dow-jones-4438731161",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-07-16",
+      "work_type": "hybrid",
+      "location": "Utrecht, Netherlands",
+      "easy_apply": true,
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly",
+        "PHP primary language"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "US-only company"
       ]
     },
     {
@@ -14773,29 +14929,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4437187395",
-      "title": "Medior PHP-ontwikkelaar",
-      "company": "Starapple",
-      "url": "https://nl.linkedin.com/jobs/view/medior-php-ontwikkelaar-at-starapple-4437187395",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-07-15",
-      "work_type": "remote",
-      "location": "Arnhem-Nijmegen Region",
-      "easy_apply": true,
-      "description": "Over de organisatie:Deze organisatie ontwikkelt al ruim 25 jaar softwareoplossingen voor de onderwijs- en zorgsector. De applicaties worden in eigen beheer ontwikkeld en zijn gericht op het ondersteunen van gebruikers in hun ontwikkeling, groei en dagelijkse werkzaamheden.Werken bij deze organisatie betekent werken in een omgeving waar persoonlijke ontwikkeling, werk-privébalans en samenwerking centraal staan. Vanuit een moderne kantoorlocatie met uitzicht wordt dagelijks gewerkt aan producten die door een grote gebruikersgroep worden ingezet. Hoewel de organisatie inmiddels internationaal actief is en meer dan 1.000 medewerkers telt, is de cultuur toegankelijk, informeel en mensgericht gebleven.Je komt terecht in een multidisciplinair ontwikkelteam bestaande uit circa 13 PHP- en 3 .NET-developers, een Product Owner, Business Analist en Manager. De lijnen zijn kort, collega's helpen elkaar graag en er is veel ruimte voor kennisdeling. Naast het werk wordt er regelmatig gezamenlijk geluncht en wordt de week traditiegetrouw afgesloten met een vrijdagmiddagborrel.Functie-omschrijving:Als PHP developer speel je een belangrijke rol binnen deze onderhouds- en moderniseringsslag. Je denkt mee over technische keuzes, bewaakt de kwaliteit van de codebase en pakt complexe vraagstukken op rondom architectuur en systeemverbeteringen.Samen met je team werk je aan bestaande maatwerkapplicaties die worden gebruikt binnen onder andere de onderwijs- en zorgsector. De focus ligt hierbij niet zozeer op nieuwbouw, maar op het verder ontwikkelen, moderniseren en toekomstbestendig maken van bestaande systemen. Denk aan het uitvoeren van PHP-upgrades, refactoring-trajecten, technische verbeteringen en het optimaliseren van de architectuur, zodat applicaties ook op de lange termijn goed onderhoudbaar en schaalbaar blijven.Eisen:Je hebt ruime ervaring met PHP en Symfony of soort gelijk frameworkJe bent bekend met Typescript en Javascript met Vue, AngularKennis van Python, Laravel, jQuery, CSS, Bash, CI/CD is een preJe hebt het analytische vermogen om technische uitdagingen aan te gaan en creatieve oplossingen voor te stellen die de gebruikerservaring aanzienlijk verbeterenJe kunt zowel zelfstandig als in een team functionerenAanbod:Een salaris indicatie tot € 4500,- bruto o.b.v. fulltimeFlexibele werktijden/ thuiswerkmogelijkheden 2 dagen kantoor rest kan vanuit huisJe krijgt een individueel budget voor relevante opleidingen/trainingenJe inbreng en ideeën worden serieus genomenJaa",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Laravel matches"
-      ],
-      "match_cons": [
-        "Symfony required",
-        "Danish preferred"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4424174362",
       "title": "Backend Engineer | Mid - Senior | PHP + Go | Payments Team",
       "company": "Nord Security",
@@ -15147,28 +15280,6 @@
       "match_cons": [
         "Primary language is NOT PHP",
         "Role mismatch"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4428559000",
-      "title": "Senior PHP Developer, Schwerpunkt Symfony",
-      "company": "Constructiva Solutions",
-      "url": "https://de.linkedin.com/jobs/view/senior-php-developer-schwerpunkt-symfony-at-constructiva-solutions-4428559000",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-07-15",
-      "work_type": "onsite",
-      "location": "Bonn, North Rhine-Westphalia, Germany",
-      "description": "Wir bei Constructiva entwickeln maßgeschneiderte Software, die bei unseren Kunden wirklich etwas verändert. Das schaffen wir mit Teamarbeit, Offenheit und Zusammenarbeit auf Augenhöhe.Wir sind keine klassische Agentur mit ständig wechselnden Projekten, sondern verstehen uns als langfristiger IT-Partner. Wir denken gerne mit, bringen uns proaktiv ein und entwickeln mit und für unsere Kunden neue Einsichten und Perspektiven.Wenn Du auch gerne mitgestaltest und etwas bewirken willst, bist Du bei uns richtig!Bei uns entwickelst du moderne Web-Anwendungen mit vielen Funktionalitäten in einem kleinen Team von Experten. Dabei legen wir viel Wert auf Wissensaustausch, Code Reviews sowie die Prinzipien aus Domain Driven Design und Test Driven Development. Der Betrieb erfolgt bevorzugt in der Cloud (AWS).AufgabenDu entwickelst gemeinsam mit Deinen Kollegen im Team komplexe Anwendungen in PHP mit Schwerpunkt SymfonyDu übernimmst intern eine Expertenrolle im Hinblick auf Software-Architektur und Clean-Code-Prinzipien: Du bildest Dich kontinuierlich weiter und hast Spaß daran, das Team mit Wissen, Know-How und technischen Innovationen zu inspirierenQualifikationmehrere Jahre Erfahrung in der Web-Entwicklungsehr gute Kenntnisse in Symfony und PHPBasiskenntnisse Javascriptsehr gute kommunikative Fähigkeiten auf Deutsch (C2) und Englisch (B2)von Vorteil: Hochschulstudiumvon Vorteil: Erfahrungen mit dem Betrieb in der CloudBenefitsWirksam mitgestalten und dabei eine echte Work-Life-Balance leben:Flexible Arbeitszeiten & Teilzeitmodelle, die in Dein Leben passenBis zu 3 Tage pro Woche im Home Office arbeitenEin persönliches Fortbildungsbudget (Zeit und finanzielle Mittel) nutzenUnsere Zusammenarbeit und die Firma aktiv mitgestalten und voran bringenDarüber hinaus:Wunsch-Hardware 💻Büro mit Garten, Terrasse und Grill 🍔Gute Bezahlung 🤝Gewinnbeteiligung 💰Deutschlandticket 🚆🚌",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Seniority matches"
-      ],
-      "match_cons": [
-        "Requires AWS",
-        "Danish preferred"
       ]
     },
     {
@@ -21913,118 +22024,6 @@
         "Danish preferred"
       ],
       "easy_apply": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4433078695",
-      "title": "PHP Developer",
-      "company": "Brightwater Recruitment",
-      "url": "https://ie.linkedin.com/jobs/view/php-developer-at-brightwater-recruitment-4433078695",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-07-06",
-      "work_type": "remote",
-      "location": "Dublin, County Dublin, Ireland",
-      "easy_apply": true,
-      "description": "PHP Developer12 Month Daily Rate Contract / Remote / DublinAbout the CompanyOur client is a leading ecommerce company with offices in Dublin.About the PositionWe are seeking an experienced Senior PHP Engineer to play a key role in designing, building, and maintaining business-critical software solutions within a high-volume digital commerce environment. The successful candidate will lead the delivery of moderately complex technical initiatives, working independently and collaboratively to solve challenging engineering problems while supporting the growth and success of fellow engineers.Key ResponsibilitiesDesign, develop, and maintain scalable full-stack applications across both backend and frontend technologies.Contribute to the development of mission-critical platforms supporting global transaction processing, financial operations, reporting, and compliance-related services.Take ownership of technical solutions from design through implementation and production deployment.Participate in architecture discussions and contribute to end-to-end system design.Conduct thorough code reviews and provide constructive feedback to maintain engineering excellence.Collaborate closely with cross-functional engineering teams, product stakeholders, and business partners.Deliver high-quality code through continuous integration and continuous deployment (CI/CD) practices.Build and maintain observability capabilities, including logging, monitoring, alerting, and performance tracking.Support and mentor other engineers, helping to drive technical best practices across the team.Candidate Profile:Required Experience & SkillsStrong experience as a Full Stack Software Engineer.Commercial experience developing applications using JavaScript and PHP.Hands-on experience with modern frontend frameworks such as React or Angular.Strong understanding of system architecture and end-to-end solution design.Experience working in collaborative engineering environments with frequent peer reviews and shared ownership of code.Ability to work independently while contributing effectively within a team setting.Interest in or experience within digital commerce, payments, financial technology, or SaaS environments.Desirable ExperienceExperience influencing and collaborating with a wide range of technical and non-technical stakeholders.Strong communication and relationship-building skills, with the ability to empathise, encourage, and drive alignment across teams.Experience working within large-scale d",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Seniority matches"
-      ],
-      "match_cons": [
-        "No Laravel experience",
-        "No AWS mentioned"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4435544377",
-      "title": "PHP Developer @ OE Service GmbH",
-      "company": "DEVjobs",
-      "url": "https://at.linkedin.com/jobs/view/php-developer-%40-oe-service-gmbh-at-devjobs-4435544377",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-07-06",
-      "work_type": "onsite",
-      "location": "Vienna, Austria",
-      "easy_apply": true,
-      "description_failed": true,
-      "match_score": 55,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP primary language",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS",
-        "Recruiter agency listing"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4432559098",
-      "title": "Senior Backend Engineer (PHP&Laravel)",
-      "company": "Sphise",
-      "url": "https://ro.linkedin.com/jobs/view/senior-backend-engineer-php-laravel-at-sphise-4432559098",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-07-06",
-      "work_type": "remote",
-      "location": "Romania",
-      "easy_apply": true,
-      "description": "Senior Backend Engineer (PHP/Laravel)Location: RomaniaAbout Sphise TechnologiesSphise Technologies is a global outsourcing and talent solutions company, partnering with high-growth businesses to build strong, high-impact teams across finance, technology, and operations. Our trusted high-growth healthcare technology partner is seeking a talented Senior Backend Engineer (PHP/Laravel) to join their dynamic team. This innovative company is dedicated to revolutionizing the healthcare industry through cutting-edge technology solutions.Position Overview:As a Senior Backend Engineer, you will play a key role in the development and implementation of scalable and robust software solutions to support the company's mission and goals. You will work closely with cross-functional teams to design, build, and maintain innovative applications and platforms that drive business success and improve patient outcomes.Primary Responsibilities:Platform Development: Spearhead the development and optimization of our EHR platform using PHP/Laravel, ensuring high performance, reliability, and scalability.Database Development: Creating database schemas that represent and support business processesAPI Development and Integration: Develop and maintain APIs for internal and external use, facilitating seamless integration with other healthcare systems and third-party services.Security Compliance: Ensure the platform's compliance with healthcare industry standards, including HIPAA, by implementing and maintaining robust security measures and data protection protocols.Additional Responsibilities:Mentor junior developers, providing guidance on best practices in backend development, code review, and team collaboration.Stay abreast of new technology trends and evaluate their application to continually innovate and enhance the platform.Participate in an agile development environment, contributing to planning, daily stand-ups, and continuous collaboration to ensure timely delivery of high-quality software.Competencies/Requirements:Technical Expertise: Strong proficiency in PHP/Laravel and MySQL. Familiarity with version control tools, preferably Git.Experience: At least 5 years of experience in backend development, with a proven track record of developing and maintaining scalable web applications. Experience in the healthcare sector or EHR platforms is highly desirable.Problem-Solving Skills: Ability to tackle complex problems, think analytically, and develop innovative solutions.Communication Sk",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Seniority fits"
-      ],
-      "match_cons": [
-        "EU timezone mismatch",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "PHPDevCareers_backend-engineer-phplaravel-953762",
-      "title": "Backend Engineer (PHP/Laravel)",
-      "company": "mdintegrations",
-      "url": "https://phpdevelopercareers.com/jobs/backend-engineer-phplaravel-953762/",
-      "source": "PHPDevCareers",
-      "date": "",
-      "fetched_at": "2026-07-06",
-      "work_type": "remote",
-      "description_failed": true,
-      "match_score": 55,
-      "match_confidence": "low",
-      "match_pros": [
-        "Laravel matches",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Primary language is PHP",
-        "Requires AWS"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4419438785",
-      "title": "Backend Team Lead (Symfony)",
-      "company": "CapsLock",
-      "url": "https://www.linkedin.com/jobs/view/backend-team-lead-symfony-at-capslock-4419438785",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-07-06",
-      "work_type": "remote",
-      "location": "United States",
-      "description": "Company OverviewCapsLock builds exceptional IT marketing solutions for large partners from North America.We create a unique marketing platform to deliver high-quality service across multiple industries.Role OverviewCapsLock is looking to hire a highly skilled Web Development Team Lead with a strong background in PHP (primary) and Golang to lead our engineering team.You will oversee the technical direction of projects, mentor developers, coordinate cross-team collaboration, and ensure high-quality delivery across our systems.As a Team Lead, you will balance hands-on development with leadership responsibilities, driving improvements in architecture, code quality, performance, and development processes.You will also play an essential role in building and scaling the team — participating in hiring, onboarding, skill development, and shaping the engineering culture.We have a strong IT team with a collaborative culture, and you will be a key contributor to the next stage of our web engineering growth.ResponsibilitiesLeadership & Team ManagementLead a team of backend developers working with PHP (primary).Mentor developers, conduct regular feedback sessions, and support professional growth.Oversee daily development workflows and ensure the timely delivery of tasks.Coordinate collaboration between backend, frontend, QA, DevOps, analysts, and product teams.Technical OwnershipParticipate in defining and maintaining coding standards, best practices, and architectural guidelines.Participate in planning, estimation, and technical decision-making.Review code, provide constructive feedback, and ensure code quality across the team.Drive improvements in performance, scalability, reliability, and security.Hands-On DevelopmentDevelop and maintain backend services using PHP (Symfony) and Golang.Optimize and refactor existing services and APIs.Contribute to complex feature development and key architectural changes.Troubleshoot production issues and support the team with technical blockers.Process & DeliveryEnsure team alignment with Agile practices, sprint planning, and task management in ClickUp.Improve development workflows, documentation, testing, and CI/CD practices.Ensure clear communication with product owners and stakeholders.Participate in hiring and onboarding of new backend developers.Requirements:Skills & Background:4+ years of professional backend development experience.Strong expertise in PHP (7.4+) and frameworks such as Symfony.Solid understanding of OOP, design ",
-      "match_score": 78,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Strong Symfony experience"
-      ],
-      "match_cons": [
-        "Golang required",
-        "Seniority slightly mismatched"
-      ]
     }
   ]
 }
