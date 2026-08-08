@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T04:07:21.214675+00:00",
+  "updated_at": "2026-08-08T07:11:45.056822+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3908",
@@ -11045,6 +11045,51 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4448592998",
+      "title": "WEBDEVELOPER PHP",
+      "company": "T100 / internetbureau",
+      "url": "https://www.linkedin.com/jobs/view/webdeveloper-php-at-t100-internetbureau-4448592998",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-08",
+      "work_type": "remote",
+      "location": "Indiana, United States",
+      "description": "TL;DRWerken bij T100 als webdeveloper (Fulltime/Parttime)Omgeving GeldermalsenUitdagende projecten met impactWerken in een ervaren team met veel vrijheidWat ga je bij T100 doen als webdeveloper?Samen in een compact en ervaren team ga je bouwen aan strakke Laravel-webapplicaties. We bouwen maatwerk platformen die naadloos aansluiten op de processen van onze opdrachtgevers. Waar je aan moet denken? Aan bedrijfskritische applicaties tot koppelingen met ERP-systemen. Kortom: volop projecten met impact, voor professionele opdrachtgevers.Wat concrete voorbeelden: we bouwden een centraal platform, voor een groot cultuurhuis in Arnhem, waarbij de opdrachtgever de beste digitale bibliotheek in Nederland wil worden. Of ons laatste hoogstandje: een high-tech online veilingplatform, met allerlei real-time functionaliteiten. Maar ook voor verschillende losse platformen voor 1 van de grootste voedselproducenten van Nederland.Momenteel verandert de wereld van developers hard. Waar je twee jaar geleden nog regel voor regel code schreef, wordt veel code nu automatisch gegenereerd met AI-IDE’s. En daarmee verandert je rol als je developer. Maar nog steeds geldt dezelfde regel: we zorgen er samen voor dat wij de hoogste kwaliteit opleveren. Geen paniekvoetbal, maar eerst goed nadenken over hoe we duurzame software schrijven. Je werkt binnen T100 aan projecten waar jij de regie voert.Houd je van uitdagingen, kun jij je goed verplaatsen in een opdrachtgever en word je enthousiast van het werken in een compact team met veel kennis? Kom dan de vrijheid ervaren die wij je toevertrouwen bij T100! We willen je graag leren kennen en je meer vertellen over onze organisatie en onze gave projecten.Wat neem jij mee?Help jij T100 verder groeien? Wij leren ook graag van jou en staan open voor je visie. Laravel is de basis van al onze platformen. Mocht je gelijkwaardige systemen kennen, en ben je leergierig? Ook dan ben je welkom bij T100.Kennis van PHP (ervaring met Laravel of gelijkwaardig framework is top).Ervaring met AI, ontwikkeltools, command line, GIT, API’s.Je denkt proactief mee over, processen en techniek.Een flinke dosis humor en gezelligheid is een pré.Je staat ervoor open om je nieuwe technieken eigen te maken.Wat mag je van ons verwachten?Alle ruimte om jezelf te ontwikkelen!Elke week verse lunch.Code-reviews & kennissessies.Veel verantwoordelijkheid en vrijheid.25 vakantiedagen.Laptop (Windows of Mac), het aantal externe schermen bepaal je zelf.Een combinatie van werken op ",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Seniority fits"
+      ],
+      "match_cons": [
+        "No PostgreSQL",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4408298208",
+      "title": "Senior Full Stack Engineer (PHP/Symfony/Vue.js)",
+      "company": "Mobile Locker",
+      "url": "https://be.linkedin.com/jobs/view/senior-full-stack-engineer-php-symfony-vue-js-at-mobile-locker-4408298208",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-08",
+      "easy_apply": true,
+      "description": "As a Senior Full Stack Engineer at Mobile Locker / Cu.be, you will:Design, build, and maintain scalable web applications with Symfony at the core. Contribute to system architecture and solution design, ensuring security, performance, scalability and maintainability. Develop APIs and integrations supporting asynchronous communication patterns. Work across the stack, with opportunities to contribute to frontend features (Vue.js) and backend services (PHP/Symfony). Implement and maintain automated testing strategies, ensuring high code quality and reliability. Collaborate with DevOps on CI/CD pipelines (GitLab) and contribute to deployment best practices. Mentor team members, share knowledge, and actively participate in technical discussions and code reviewsRequirementsWhat We're Looking For10+ years of experience as a full stack or backend engineer. Strong expertise with Symfony and PHP ecosystem. Solid understanding of web architecture, design patterns, and best practices. Familiarity with relational databases (e.g., MySQL/PostgreSQL) and caching solutions. Comfort with asynchronous programming and distributed systems concepts. Experience with GitLab CI/CD pipelines and modern DevOps practices. Familiarity with containerization (Docker). Experience with automated testing tools and quality assurance workflows. Excellent problem-solving skills and ability to work in a collaborative, agile environment. Strong communication skills in EnglishNice to HaveKnowledge of TypeScript and Vue.js for modern frontend development. Python experience for hardware integrationContributions to open-source projects or active involvement in developer communitiesBenefitsThe chance to shape a platform used across the world A collaborative, forward-thinking culture where your voice matters Flexible hybrid work options Competitive compensation package Opportunities for continuous learning and professional growth",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Strong PHP match",
+        "Seniority level matches"
+      ],
+      "match_cons": [
+        "Missing Kohana",
+        "No Docker mention"
+      ],
+      "work_type": "remote",
+      "location": "Zaventem, Flemish Region, Belgium"
+    },
+    {
       "id": "IT-jobbank_h1686515",
       "title": "QA Specialist - Studentermedhjælper",
       "company": "Carl Ras A/S",
@@ -12030,28 +12075,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4448592998",
-      "title": "WEBDEVELOPER PHP",
-      "company": "T100 / internetbureau",
-      "url": "https://www.linkedin.com/jobs/view/webdeveloper-php-at-t100-internetbureau-4448592998",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-07",
-      "work_type": "remote",
-      "location": "Indiana, United States",
-      "description": "TL;DRWerken bij T100 als webdeveloper (Fulltime/Parttime)Omgeving GeldermalsenUitdagende projecten met impactWerken in een ervaren team met veel vrijheidWat ga je bij T100 doen als webdeveloper?Samen in een compact en ervaren team ga je bouwen aan strakke Laravel-webapplicaties. We bouwen maatwerk platformen die naadloos aansluiten op de processen van onze opdrachtgevers. Waar je aan moet denken? Aan bedrijfskritische applicaties tot koppelingen met ERP-systemen. Kortom: volop projecten met impact, voor professionele opdrachtgevers.Wat concrete voorbeelden: we bouwden een centraal platform, voor een groot cultuurhuis in Arnhem, waarbij de opdrachtgever de beste digitale bibliotheek in Nederland wil worden. Of ons laatste hoogstandje: een high-tech online veilingplatform, met allerlei real-time functionaliteiten. Maar ook voor verschillende losse platformen voor 1 van de grootste voedselproducenten van Nederland.Momenteel verandert de wereld van developers hard. Waar je twee jaar geleden nog regel voor regel code schreef, wordt veel code nu automatisch gegenereerd met AI-IDE’s. En daarmee verandert je rol als je developer. Maar nog steeds geldt dezelfde regel: we zorgen er samen voor dat wij de hoogste kwaliteit opleveren. Geen paniekvoetbal, maar eerst goed nadenken over hoe we duurzame software schrijven. Je werkt binnen T100 aan projecten waar jij de regie voert.Houd je van uitdagingen, kun jij je goed verplaatsen in een opdrachtgever en word je enthousiast van het werken in een compact team met veel kennis? Kom dan de vrijheid ervaren die wij je toevertrouwen bij T100! We willen je graag leren kennen en je meer vertellen over onze organisatie en onze gave projecten.Wat neem jij mee?Help jij T100 verder groeien? Wij leren ook graag van jou en staan open voor je visie. Laravel is de basis van al onze platformen. Mocht je gelijkwaardige systemen kennen, en ben je leergierig? Ook dan ben je welkom bij T100.Kennis van PHP (ervaring met Laravel of gelijkwaardig framework is top).Ervaring met AI, ontwikkeltools, command line, GIT, API’s.Je denkt proactief mee over, processen en techniek.Een flinke dosis humor en gezelligheid is een pré.Je staat ervoor open om je nieuwe technieken eigen te maken.Wat mag je van ons verwachten?Alle ruimte om jezelf te ontwikkelen!Elke week verse lunch.Code-reviews & kennissessies.Veel verantwoordelijkheid en vrijheid.25 vakantiedagen.Laptop (Windows of Mac), het aantal externe schermen bepaal je zelf.Een combinatie van werken op ",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Seniority fits"
-      ],
-      "match_cons": [
-        "No PostgreSQL",
-        "Danish preferred"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4448060908",
       "title": "Senior PHP Developer",
       "company": "Inly Digital",
@@ -12339,29 +12362,6 @@
         "Primary language not PHP",
         "Requires AWS"
       ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4408298208",
-      "title": "Senior Full Stack Engineer (PHP/Symfony/Vue.js)",
-      "company": "Mobile Locker",
-      "url": "https://be.linkedin.com/jobs/view/senior-full-stack-engineer-php-symfony-vue-js-at-mobile-locker-4408298208",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-07",
-      "easy_apply": true,
-      "description": "As a Senior Full Stack Engineer at Mobile Locker / Cu.be, you will:Design, build, and maintain scalable web applications with Symfony at the core. Contribute to system architecture and solution design, ensuring security, performance, scalability and maintainability. Develop APIs and integrations supporting asynchronous communication patterns. Work across the stack, with opportunities to contribute to frontend features (Vue.js) and backend services (PHP/Symfony). Implement and maintain automated testing strategies, ensuring high code quality and reliability. Collaborate with DevOps on CI/CD pipelines (GitLab) and contribute to deployment best practices. Mentor team members, share knowledge, and actively participate in technical discussions and code reviewsRequirementsWhat We're Looking For10+ years of experience as a full stack or backend engineer. Strong expertise with Symfony and PHP ecosystem. Solid understanding of web architecture, design patterns, and best practices. Familiarity with relational databases (e.g., MySQL/PostgreSQL) and caching solutions. Comfort with asynchronous programming and distributed systems concepts. Experience with GitLab CI/CD pipelines and modern DevOps practices. Familiarity with containerization (Docker). Experience with automated testing tools and quality assurance workflows. Excellent problem-solving skills and ability to work in a collaborative, agile environment. Strong communication skills in EnglishNice to HaveKnowledge of TypeScript and Vue.js for modern frontend development. Python experience for hardware integrationContributions to open-source projects or active involvement in developer communitiesBenefitsThe chance to shape a platform used across the world A collaborative, forward-thinking culture where your voice matters Flexible hybrid work options Competitive compensation package Opportunities for continuous learning and professional growth",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Strong PHP match",
-        "Seniority level matches"
-      ],
-      "match_cons": [
-        "Missing Kohana",
-        "No Docker mention"
-      ],
-      "work_type": "remote",
-      "location": "Zaventem, Flemish Region, Belgium"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4439212135",
