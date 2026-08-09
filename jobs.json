@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T07:07:08.387499+00:00",
+  "updated_at": "2026-08-09T10:07:15.688241+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3908",
@@ -6207,7 +6207,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-08-09",
-      "work_type": "onsite",
+      "work_type": "remote",
       "location": "On, Walloon Region, Belgium",
       "description": "About UsWe are a SaaS development team based in India, specializing in highly secure, enterprise-grade systems for global organizations. Our solutions handle sensitive data and operate under the strictest compliance global standards, including HIPAA, GDPR, and SOC 2. We pride ourselves on building robust, scalable systems that professionals worldwide depend on daily.Position OverviewWe’re seeking a Senior PHP Developer who brings both deep technical expertise and a forward-thinking “build with AI” mindset. We need a strategist who understands how to integrate AI tools across the entire development lifecycle to accelerate delivery, improve code quality, and solve complex architectural challenges.You’ll be taking ownership of ongoing complex projects, architecting secure solutions for sensitive medical data and setting technical standards for our development practices. This role requires someone who can hit the ground running with minimal handholding and make critical decisions in a regulated, high-stakes environment.Key ResponsibilitiesTake full ownership of complex, ongoing PHP projects for global clients and architect highly secure, enterprise-grade systems handling sensitive healthcare dataBuild scalable solutions from core PHP without over-reliance on frameworks, lead code reviews, and establish coding standards across the teamStrategically integrate AI tools into development workflows to accelerate delivery, including AI-assisted testing, code refactoring, documentation generation, and automated vulnerability scanningLeverage LLMs for intelligent problem-solving and build AI-powered features within applications (intelligent alerting, anomaly detection, predictive analytics)Ensure HIPAA, GDPR, and SOC 2 compliance across all codebases, implement robust security measures (encryption, secure authentication, RBAC), and maintain comprehensive audit trailsConduct security audits, vulnerability assessments, and penetration testing while handling sensitive PHI/PII data with strict security protocolsDesign high-availability systems with 99.9%+ uptime, implement disaster recovery and business continuity plans, and build multi-tenant architectures with data isolationOptimize application performance, database queries, system resource utilization, and implement microservices architectures for distributed healthcare systemsInherit and analyze complex, undocumented codebases, reverse-engineer business logic, and develop migration strategies for legacy systems without",
       "match_score": 65,
@@ -10575,7 +10575,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-08-09",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Brussels Metropolitan Area",
       "easy_apply": true,
       "description": "FullStack PHP/Angular DeveloperWe are currently seeking a FullStack PHP/Angular Developer to join a dynamic team within one of our key public sector clients in Brussels.As part of the team, you will contribute to the design, development, testing, and maintenance of business-critical applications in a secure and high-availability environment.Main ResponsibilitiesDesign, develop, and test web applications based on business requirements.Analyze user needs and deliver effective technical solutions.Maintain applications, technical documentation, and support the application lifecycle.Participate in testing, deployments, and code reviews.Work collaboratively within an Agile/Scrum environment.ProfileProven experience as a PHP Developer on complex projects.Strong expertise in PHP 7.4/8+, JavaScript, AngularJS, CodeIgniter 3, and Smarty.Experience with InterSystems Caché / IRIS (SQL) databases.Strong knowledge of Git, GitLab/GitHub, and Postman.Good knowledge with Visual Studio Code and DBeaver.Comfortable working independently while contributing to team success.Fluent in English, French and/or Dutch.",
@@ -10864,7 +10864,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-08-09",
-      "work_type": "onsite",
+      "work_type": "remote",
       "location": "Pfungstadt, Hesse, Germany",
       "description": "Softwareentwickler (m/w/d) Backend/API Software Development Schwerpunkt Laravel/PHPWerde Teil von etwas Großem bei KOKE GmbH!Stell dir vor, du trittst einem Unternehmen bei, in dem dein individuelles Talent geschätzt wird, deine Ambitionen ernst genommen werden und wo jede deiner Ideen einen Wert hat. Bei KOKE GmbH glauben wir daran, dass unser Erfolg in den Händen unserer Mitarbeiter liegt. Wir sind stolz auf unsere Firmenkultur, die Neugierde fördert, Teamwork feiert und kontinuierliches Lernen in den Mittelpunkt stellt. Bist du bereit, deine Karriere auf das nächste Level zu heben und in einem Umfeld zu arbeiten, das Professionalität mit Leidenschaft verbindet? Dann bist du bei uns genau richtig. Entdecke unsere offenen Stellen und werde Teil unseres dynamischen Teams. Eine Zukunft voller Möglichkeiten wartet auf dich. #KOKEKarriere #ZukunftBeginntJetztWir suchen Unterstützung für unterschiedliche Bereiche rund um Software Engineering. Softwareentwickler (m/w/d) Backend/API Software Development Schwerpunkt Laravel/PHP Deine Aufgaben(Weiter-) Entwicklung von skalierbaren Backendsoftware/APIs primäre mittels Laravel/PHPGestaltung und Umsetzung skalierbarer APIs und BackendlösungenEntwurf neuer Architekturen gemeinsam mit Frontend-TeamAktive Beteiligung an Code-Reviews, Testing und der kontinuierlichen Verbesserung unserer Entwicklungsprozesse Das bringst du mit· Du hast Spaß daran, sauberen und durchdachten Code zu schreiben.· Du arbeitest zuverlässig, lösungsorientiert und denkst mit.Laravel & PHP sind dir vertraut – oder du möchtest dich intensiv einarbeiten.Du willst Software bauen, die im Alltag wirklich funktioniert.Du schätzt Eigenverantwortung und ein Team, das sich gegenseitig unterstützt.Wir suchen nach Talenten wie dir, die bereit sind, die Softwarewelt mit uns gemeinsam zu gestalten!Das bieten wir dirDu hast die Möglichkeit tiefgreifende Einblicke in die Welt der Softwareentwicklung zu bekommen und deine Fähigkeiten im agilen Umfeld zu erweitern.Du bist Teil unserer offenen Unternehmenskultur, die Kreativität und Innovation fördert.Hybrid RemoteDu erhältst eine individuelle Einarbeitung und Betreuung durch unser etabliertes Mentorenprogramm.",
       "match_score": 85,
@@ -11143,7 +11143,7 @@
         "Missing Kohana",
         "No Docker mention"
       ],
-      "work_type": "remote",
+      "work_type": "onsite",
       "location": "Zaventem, Flemish Region, Belgium"
     },
     {
@@ -11344,6 +11344,97 @@
       ],
       "match_cons": [
         "Requires AWS",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4447572441",
+      "title": "PHP Laravel Full Stack Developer",
+      "company": "Atlantic Partners Corporation",
+      "url": "https://www.linkedin.com/jobs/view/php-laravel-full-stack-developer-at-atlantic-partners-corporation-4447572441",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-09",
+      "work_type": "remote",
+      "location": "United States",
+      "easy_apply": true,
+      "description": "Sr. Full Stack (PHP/Laravel) DeveloperRemote – U.S. Time ZonesUnique remote-working opportunity to participate as a key developer for a successful, fast-growing niche industry leader implementing mobile applications and a robust web platform in a fun, visible, sports-related industry.As Sr. Full Stack Developer, you will be an integral and crucial member of a small, focused team as it tackles the next wave of challenges and technology opportunities. Taking lead on critical development projects, you will contribute to business planning by offering technology advice, creative solutions, and resource planning to further the company’s strategic goals.Critical Skills and QualificationsProficient with PHP Laravel web frameworkSolid understanding of object-oriented programming and MVC design patternsComfortable in a Linux environment using Git and appropriate build toolsFront-end proficiencies: JavaScript ES5 and ES6, HTML5, and CSS3Back-end proficiencies: MySQL or equivalent relational databaseThorough communication skills with a positive, collaborative attitudeAbility to document new feature requirements and project status updates in a clear, concise mannerRecommend, manage, and direct outside software developers to facilitate parallel development of multiple concurrent projects:- Act as design and project lead- Assist other tech team members, and leverage their skills as needed- Oversee and offer technology support for vendor partner resourcesExperience designing and implementing automated testing (e.g., PHPUnit, Laravel Dusk)Proficiency with modern development workflows, including pull requests, CI/CD, and code reviewsAbility to responsibly leverage AI tools (e.g., GitHub Copilot, ChatGPT) to improve development velocity, documentation, and testingDesired Skills and QualificationsAptitude and desire to creatively collaborate with business / customer service membersAbility to take ownership and drive software projects to completionExperience with Vue.js framework or other equivalent front-end libraryTailwind CSSMongoDB (or equivalent NoSQL), RedisExperience writing and maintaining internal technical documentationUnderstanding of code maintainability and clean code principlesOther Beneficial SkillsNode.js / ExpressNginxWeb socketsResponsibilitiesDevelop and maintain complex web applications using PHP/Laravel and Vue.jsCollaborate closely with non-technical business owners and technical team to design, implement, and test new features and functionalityMaintain a",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Seniority level matches"
+      ],
+      "match_cons": [
+        "US-only company",
+        "AWS not mentioned"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4448529064",
+      "title": "Senior PHP / Symfony Full Stack Developer",
+      "company": "Haystack People",
+      "url": "https://nl.linkedin.com/jobs/view/senior-php-symfony-full-stack-developer-at-haystack-people-4448529064",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-09",
+      "work_type": "onsite",
+      "location": "North Brabant, Netherlands",
+      "easy_apply": true,
+      "description": "Senior PHP / Symfony Full Stack Developer | SaaS | Symfony | Vue.js | Uden | HybrideBouw mee aan een SaaS-platform dat dagelijks door duizenden gebruikers wordt gebruikt.Werk jij graag aan software die écht impact maakt? Bij deze innovatieve softwareorganisatie ontwikkel je een modern SaaS-platform waarmee onderwijsinstellingen, bedrijven en overheidsorganisaties dagelijks werken aan leren, examinering en professionele ontwikkeling.Je werkt aan een volwassen platform dat continu wordt doorontwikkeld. Daarbij krijg je veel vrijheid om technische keuzes te maken, legacy te moderniseren en nieuwe technologieën te introduceren. Geen eindeloze featurefabriek, maar software bouwen die jarenlang meegaat.Over de organisatieJe komt terecht bij een internationaal opererende softwareorganisatie met ruim 100 collega's, gespecialiseerd in SaaS-oplossingen voor onderwijs, examinering en talentontwikkeling. Al meer dan 25 jaar ontwikkelen zij software die door miljoenen gebruikers wordt ingezet.De organisatie combineert de stabiliteit van een volwassen softwarebedrijf met de vrijheid van een innovatieve scale-up. Eigen initiatief wordt aangemoedigd en developers krijgen veel vertrouwen om mee te denken over architectuur, tooling en technische verbeteringen.Het kantoor bevindt zich in Uden, goed bereikbaar vanuit Eindhoven, Den Bosch en Nijmegen. Je werkt hybride, waarbij meerdere thuiswerkdagen per week mogelijk zijn.Wat ga je doen?Als Senior PHP / Symfony Full Stack Developer werk je aan de verdere ontwikkeling van een omvangrijk SaaS-platform. Je ontwikkelt zowel nieuwe functionaliteiten als structurele verbeteringen aan bestaande software.Je houdt je onder andere bezig met:ontwikkelen van nieuwe functionaliteiten in PHP, Symfony en Vue.js;moderniseren en refactoren van bestaande applicaties;verbeteren van performance, schaalbaarheid en security;ontwerpen en ontwikkelen van REST API's;meedenken over softwarearchitectuur en technische roadmap;toepassen van SOLID-principes en Domain-Driven Design;verbeteren van CI/CD-processen en automated testing;onderzoeken hoe AI en moderne tooling het ontwikkelproces verder kunnen versnellen.Je werkt nauw samen met andere developers, Product Owners en UX Designers waarbij kennisdeling en samenwerking centraal staan.De technische omgevingJe werkt dagelijks met een moderne stack waarin kwaliteit en onderhoudbaarheid centraal staan.De stack bestaat onder andere uit:PHPSymfonyVue.jsJavaScriptREST APIsMySQL / MariaDBDockerCI/CDDomain-Driv",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Seniority matches"
+      ],
+      "match_cons": [
+        "Symfony instead of Laravel",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4318392516",
+      "title": "Software Engineer - PHP Developer",
+      "company": "GRiT Solutions",
+      "url": "https://pt.linkedin.com/jobs/view/software-engineer-php-developer-at-grit-solutions-4318392516",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-09",
+      "work_type": "onsite",
+      "location": "Lisbon, Portugal",
+      "description": "Dive into Development: Join as a PHP Enthusiast! 🚀There's no secret to become number-one, it takes willingness to improve and determination to pursue it. At GRiT®, it’s all about the journey getting there. We trust talent and intelligence are important, yet passion and perseverance are key to achieving any goal.We are Tech Passionate People with a Purpose, delivering solutions while building strong long-term relations.Recognizing each person’s unique contribution to our collective success, we embrace inclusion and diversity, committed to creating a respectful and socially responsible environment.People. Technology. Innovation. All-around it.Are you GRiTTY enough to be part of our journey? Take the first step by applying now and let’s create our future together. 🌟Must-HaveMore than 1 years of experience with PHPProficiency working on versions from PHP 7 and/or Symfony 4Experienced on web services, HTML and CSSExperience or knowledge with containers technologies, CI/CD tools and cloud computingStrong unit test and debugging skillsProficient understanding of code versioning toolsGood organizational skills, autonomy and proactivityGood interpersonal, written and verbal communication skillsWould Be Great If You HaveBachelor’s degree in Computer Science, Engineering, Quality Management, or a related fieldFamiliarity with agile methodologies and practicesWhat’s In It For YouContinuous Training and Certifications GRiT Prizes: GRiT Baby Gift, GRiT Birthday Prize, GRiT Recommendation Prize Exclusive Partnerships/Discounts: (Gym, Health, Well-being, Lifestyle, Financial, etc…) Unique Events Welcoming Office (Fruit, Coffee, Pool Table, etc.) Competitive Compensation Pay for Performance #TechWithPassion - Fuel your fire, join our tech tribe! 🫀",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Seniority matches"
+      ],
+      "match_cons": [
+        "No PostgreSQL mention",
+        "No Docker mention"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4445883903",
+      "title": "Developer PHP/Magento",
+      "company": "Smart Consulting",
+      "url": "https://pt.linkedin.com/jobs/view/developer-php-magento-at-smart-consulting-4445883903",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-09",
+      "work_type": "onsite",
+      "location": "Porto, Portugal",
+      "easy_apply": true,
+      "description": "🎯 Estamos à procura de um(a) PHP/Magento Developer!Terás a oportunidade de integrar um projeto desafiante na área de e-commerce, colabor com equipas multidisciplinares e contribuir ativamente para a evolução e modernização de plataformas digitais. Como parte desta equipa, terás um papel fundamental no desenvolvimento de novas funcionalidades, integração com sistemas externos e manutenção de soluções de Magento.🧠 O que procuramos em ti?Experiência sólida em desenvolvimento PHP (mínimo 3 anos)Experiência comprovada em Magento (preferencialmente Magento 2)Experiência em desenvolvimento backend e integração com sistemas externosConhecimentos de frontend (HTML, CSS, JavaScript) são valorizadosExperiência em customização de módulos e desenvolvimento à medida em MagentoConhecimento de boas práticas de desenvolvimento (clean code, performance e segurança)Autonomia na execução e forte sentido de responsabilidadeCapacidade de comunicação com equipas técnicas e não técnicasEspírito crítico e foco na resolução de problemasQuais serão as tuas principais responsabilidades?Desenvolvimento e manutenção de plataformas MagentoEvolução de funcionalidades existentes e criação de novas funcionalidadesIntegração com sistemas externos (pagamentos, logística, ERP, entre outros)Customização e desenvolvimento de módulos MagentoGarantir a qualidade, performance e segurança do códigoColaboração com equipas internas (consultoria, UX/UI e gestão de projeto)Participação em projetos na área de e-commerce💡 Porquê ser SMART?• Trabalhamos em projetos com impacto real.• Valorizamos o equilíbrio pessoal e profissional.• Temos uma equipa próxima, dinâmica e com mindset de crescimento.• Oferecemos um modelo de trabalho flexível.• A tua evolução é o nosso compromisso.📍 Onde podes ser SMART?• Porto - regime de trabalho híbrido, 2x por semana no escritório.Pacote Salarial Júnior: 12.880€ a 21.000€ brutos (14 meses) + Subsídio de Alimentação + Benefícios Flexíveis",
+      "match_score": 83,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Laravel matches"
+      ],
+      "match_cons": [
+        "Seniority slightly off",
         "Danish preferred"
       ]
     },
@@ -11578,29 +11669,6 @@
       "match_cons": [
         "Primary language is NOT PHP",
         "Requires AWS"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4447572441",
-      "title": "PHP Laravel Full Stack Developer",
-      "company": "Atlantic Partners Corporation",
-      "url": "https://www.linkedin.com/jobs/view/php-laravel-full-stack-developer-at-atlantic-partners-corporation-4447572441",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-08",
-      "work_type": "remote",
-      "location": "United States",
-      "easy_apply": true,
-      "description": "Sr. Full Stack (PHP/Laravel) DeveloperRemote – U.S. Time ZonesUnique remote-working opportunity to participate as a key developer for a successful, fast-growing niche industry leader implementing mobile applications and a robust web platform in a fun, visible, sports-related industry.As Sr. Full Stack Developer, you will be an integral and crucial member of a small, focused team as it tackles the next wave of challenges and technology opportunities. Taking lead on critical development projects, you will contribute to business planning by offering technology advice, creative solutions, and resource planning to further the company’s strategic goals.Critical Skills and QualificationsProficient with PHP Laravel web frameworkSolid understanding of object-oriented programming and MVC design patternsComfortable in a Linux environment using Git and appropriate build toolsFront-end proficiencies: JavaScript ES5 and ES6, HTML5, and CSS3Back-end proficiencies: MySQL or equivalent relational databaseThorough communication skills with a positive, collaborative attitudeAbility to document new feature requirements and project status updates in a clear, concise mannerRecommend, manage, and direct outside software developers to facilitate parallel development of multiple concurrent projects:- Act as design and project lead- Assist other tech team members, and leverage their skills as needed- Oversee and offer technology support for vendor partner resourcesExperience designing and implementing automated testing (e.g., PHPUnit, Laravel Dusk)Proficiency with modern development workflows, including pull requests, CI/CD, and code reviewsAbility to responsibly leverage AI tools (e.g., GitHub Copilot, ChatGPT) to improve development velocity, documentation, and testingDesired Skills and QualificationsAptitude and desire to creatively collaborate with business / customer service membersAbility to take ownership and drive software projects to completionExperience with Vue.js framework or other equivalent front-end libraryTailwind CSSMongoDB (or equivalent NoSQL), RedisExperience writing and maintaining internal technical documentationUnderstanding of code maintainability and clean code principlesOther Beneficial SkillsNode.js / ExpressNginxWeb socketsResponsibilitiesDevelop and maintain complex web applications using PHP/Laravel and Vue.jsCollaborate closely with non-technical business owners and technical team to design, implement, and test new features and functionalityMaintain a",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Seniority level matches"
-      ],
-      "match_cons": [
-        "US-only company",
-        "AWS not mentioned"
       ]
     },
     {
@@ -12911,29 +12979,6 @@
       ],
       "match_cons": [
         "Missing Symfony",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4448529064",
-      "title": "Senior PHP / Symfony Full Stack Developer",
-      "company": "Haystack People",
-      "url": "https://nl.linkedin.com/jobs/view/senior-php-symfony-full-stack-developer-at-haystack-people-4448529064",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-07",
-      "work_type": "onsite",
-      "location": "North Brabant, Netherlands",
-      "easy_apply": true,
-      "description": "Senior PHP / Symfony Full Stack Developer | SaaS | Symfony | Vue.js | Uden | HybrideBouw mee aan een SaaS-platform dat dagelijks door duizenden gebruikers wordt gebruikt.Werk jij graag aan software die écht impact maakt? Bij deze innovatieve softwareorganisatie ontwikkel je een modern SaaS-platform waarmee onderwijsinstellingen, bedrijven en overheidsorganisaties dagelijks werken aan leren, examinering en professionele ontwikkeling.Je werkt aan een volwassen platform dat continu wordt doorontwikkeld. Daarbij krijg je veel vrijheid om technische keuzes te maken, legacy te moderniseren en nieuwe technologieën te introduceren. Geen eindeloze featurefabriek, maar software bouwen die jarenlang meegaat.Over de organisatieJe komt terecht bij een internationaal opererende softwareorganisatie met ruim 100 collega's, gespecialiseerd in SaaS-oplossingen voor onderwijs, examinering en talentontwikkeling. Al meer dan 25 jaar ontwikkelen zij software die door miljoenen gebruikers wordt ingezet.De organisatie combineert de stabiliteit van een volwassen softwarebedrijf met de vrijheid van een innovatieve scale-up. Eigen initiatief wordt aangemoedigd en developers krijgen veel vertrouwen om mee te denken over architectuur, tooling en technische verbeteringen.Het kantoor bevindt zich in Uden, goed bereikbaar vanuit Eindhoven, Den Bosch en Nijmegen. Je werkt hybride, waarbij meerdere thuiswerkdagen per week mogelijk zijn.Wat ga je doen?Als Senior PHP / Symfony Full Stack Developer werk je aan de verdere ontwikkeling van een omvangrijk SaaS-platform. Je ontwikkelt zowel nieuwe functionaliteiten als structurele verbeteringen aan bestaande software.Je houdt je onder andere bezig met:ontwikkelen van nieuwe functionaliteiten in PHP, Symfony en Vue.js;moderniseren en refactoren van bestaande applicaties;verbeteren van performance, schaalbaarheid en security;ontwerpen en ontwikkelen van REST API's;meedenken over softwarearchitectuur en technische roadmap;toepassen van SOLID-principes en Domain-Driven Design;verbeteren van CI/CD-processen en automated testing;onderzoeken hoe AI en moderne tooling het ontwikkelproces verder kunnen versnellen.Je werkt nauw samen met andere developers, Product Owners en UX Designers waarbij kennisdeling en samenwerking centraal staan.De technische omgevingJe werkt dagelijks met een moderne stack waarin kwaliteit en onderhoudbaarheid centraal staan.De stack bestaat onder andere uit:PHPSymfonyVue.jsJavaScriptREST APIsMySQL / MariaDBDockerCI/CDDomain-Driv",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Seniority matches"
-      ],
-      "match_cons": [
-        "Symfony instead of Laravel",
         "Danish preferred"
       ]
     },
@@ -14422,28 +14467,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4318392516",
-      "title": "Software Engineer - PHP Developer",
-      "company": "GRiT Solutions",
-      "url": "https://pt.linkedin.com/jobs/view/software-engineer-php-developer-at-grit-solutions-4318392516",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-06",
-      "work_type": "hybrid",
-      "location": "Lisbon, Portugal",
-      "description": "Dive into Development: Join as a PHP Enthusiast! 🚀There's no secret to become number-one, it takes willingness to improve and determination to pursue it. At GRiT®, it’s all about the journey getting there. We trust talent and intelligence are important, yet passion and perseverance are key to achieving any goal.We are Tech Passionate People with a Purpose, delivering solutions while building strong long-term relations.Recognizing each person’s unique contribution to our collective success, we embrace inclusion and diversity, committed to creating a respectful and socially responsible environment.People. Technology. Innovation. All-around it.Are you GRiTTY enough to be part of our journey? Take the first step by applying now and let’s create our future together. 🌟Must-HaveMore than 1 years of experience with PHPProficiency working on versions from PHP 7 and/or Symfony 4Experienced on web services, HTML and CSSExperience or knowledge with containers technologies, CI/CD tools and cloud computingStrong unit test and debugging skillsProficient understanding of code versioning toolsGood organizational skills, autonomy and proactivityGood interpersonal, written and verbal communication skillsWould Be Great If You HaveBachelor’s degree in Computer Science, Engineering, Quality Management, or a related fieldFamiliarity with agile methodologies and practicesWhat’s In It For YouContinuous Training and Certifications GRiT Prizes: GRiT Baby Gift, GRiT Birthday Prize, GRiT Recommendation Prize Exclusive Partnerships/Discounts: (Gym, Health, Well-being, Lifestyle, Financial, etc…) Unique Events Welcoming Office (Fruit, Coffee, Pool Table, etc.) Competitive Compensation Pay for Performance #TechWithPassion - Fuel your fire, join our tech tribe! 🫀",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Seniority matches"
-      ],
-      "match_cons": [
-        "No PostgreSQL mention",
-        "No Docker mention"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4446218144",
       "title": "Desarrollador de PHP Freelance",
       "company": "InnoIT Consulting",
@@ -15397,29 +15420,6 @@
       ],
       "match_cons": [
         "Requires AWS",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4445883903",
-      "title": "Developer PHP/Magento",
-      "company": "Smart Consulting",
-      "url": "https://pt.linkedin.com/jobs/view/developer-php-magento-at-smart-consulting-4445883903",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-06",
-      "work_type": "onsite",
-      "location": "Porto, Portugal",
-      "easy_apply": true,
-      "description": "🎯 Estamos à procura de um(a) PHP/Magento Developer!Terás a oportunidade de integrar um projeto desafiante na área de e-commerce, colabor com equipas multidisciplinares e contribuir ativamente para a evolução e modernização de plataformas digitais. Como parte desta equipa, terás um papel fundamental no desenvolvimento de novas funcionalidades, integração com sistemas externos e manutenção de soluções de Magento.🧠 O que procuramos em ti?Experiência sólida em desenvolvimento PHP (mínimo 3 anos)Experiência comprovada em Magento (preferencialmente Magento 2)Experiência em desenvolvimento backend e integração com sistemas externosConhecimentos de frontend (HTML, CSS, JavaScript) são valorizadosExperiência em customização de módulos e desenvolvimento à medida em MagentoConhecimento de boas práticas de desenvolvimento (clean code, performance e segurança)Autonomia na execução e forte sentido de responsabilidadeCapacidade de comunicação com equipas técnicas e não técnicasEspírito crítico e foco na resolução de problemasQuais serão as tuas principais responsabilidades?Desenvolvimento e manutenção de plataformas MagentoEvolução de funcionalidades existentes e criação de novas funcionalidadesIntegração com sistemas externos (pagamentos, logística, ERP, entre outros)Customização e desenvolvimento de módulos MagentoGarantir a qualidade, performance e segurança do códigoColaboração com equipas internas (consultoria, UX/UI e gestão de projeto)Participação em projetos na área de e-commerce💡 Porquê ser SMART?• Trabalhamos em projetos com impacto real.• Valorizamos o equilíbrio pessoal e profissional.• Temos uma equipa próxima, dinâmica e com mindset de crescimento.• Oferecemos um modelo de trabalho flexível.• A tua evolução é o nosso compromisso.📍 Onde podes ser SMART?• Porto - regime de trabalho híbrido, 2x por semana no escritório.Pacote Salarial Júnior: 12.880€ a 21.000€ brutos (14 meses) + Subsídio de Alimentação + Benefícios Flexíveis",
-      "match_score": 83,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Laravel matches"
-      ],
-      "match_cons": [
-        "Seniority slightly off",
         "Danish preferred"
       ]
     },
