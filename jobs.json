@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T19:06:48.449358+00:00",
+  "updated_at": "2026-08-09T22:07:20.020852+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3908",
@@ -5571,7 +5571,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-08-09",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Katowice, Śląskie, Poland",
       "description": "Jesteś tutaj: STGU / Oferty pracy / Programista (Laravel)Programista (Laravel)Dodano: 2016-09-30 | Katowice | Regionalne Centrum WolontariatuSzukamy programisty do uaktualnienia portalu gry polichrom.plSerwis jest w Laravel'u (szablony blade), grafiki do realizacji projektu są przygotowane.Projekt FIO Ministerstwa Rodziny, Pracy i Polityki Społecznej, prowadzony przez Regionalne Centrum Wolontariatu w KatowicachPraca pilna, wynagrodzenie 2500 zł brutto.Zainteresowane osoby proszę o kontakt mailowy: stawik@wolontariat.org.pl",
       "match_score": 45,
@@ -11680,6 +11680,28 @@
       "match_cons": [
         "No specific framework mentioned",
         "No EU timezone mention"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4450994491",
+      "title": "php开发工程师",
+      "company": "NStarts Consultants Co Ltd (Hong Kong Branch)",
+      "url": "https://do.linkedin.com/jobs/view/php%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88-at-nstarts-consultants-co-ltd-hong-kong-branch-4450994491",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-09",
+      "work_type": "onsite",
+      "location": "アト・マジョール州, Hato Mayor, Dominican Republic",
+      "description": "请选择行业 - IT/互联网 加工制造/仪表设备/机械 制药/医疗 消费品/贸易/批发/零售 金融/会计/银行/保险 商业服务/专业服务 房地产/建筑业 广告/公关/媒体/设计 服装/服饰/配饰 制衣 日用杂货 交通/物流/运输 娱乐/服务业 能源/矿产/化工/环保 教育/培训 政府/农林牧渔/其他 请选择类型 - 计算机硬件 计算机软件 互联网开发及应用/网游 IT-管理 IT-品管、技术支持及其它 通信技术 电子/电器/半导体/仪器仪表 销售管理 销售人员 销售行政及商务 客服及技术支持 财务/审计/税务 证券/金融/投资 银行 保险 生产/加工/制造 质量/安全管理 工程/机械/能源 技工 服装/纺织/皮革/鞋帽 采购 贸易 物流/仓储 生物/制药/医疗器械 医院/医疗/护理 广告 公关/媒介 市场/营销 传媒/影视 写作/报刊/出版/印刷/包装 美术/设计/创意 建筑装潢/市政建设 房地产开发/经纪/中介 物业管理 人力资源 高级管理 行政/后勤/文秘 咨询/顾问 律师/法务 教师/教育/培训 科研人员 酒店/餐饮/旅游/娱乐 美容/健身/体育 百货/连锁/零售服务 交通运输服务 保安/家政/其他服务 公务员/事业单位/科研机构 翻译 在校学生/毕业生/实习生/培训生/储备干部 汽车/摩托车制造 汽车销售与服务 环境科学/环保 化工 农/林/牧/渔业 能源/矿产/地质勘查 兼职 其他NstartsHK@hk.jobsdb.comphp开发工程师 职位编号 J026530 行业 互联网/移动互联网/电子商务 类型 所在地 广州市 职位描述: 岗位职责: 1、负责erp/wms/app等接口开发工作,功能的迭代升级等 2、优化产品性能,改善用户体验 3、参与产品的系统需求分析与设计 4、具备良好的架构分析能力与设计能力 5、保证项目质量,确保项目按时完成 职位要求: 任职资格: 1、本科及以上学历,3年以上php+mysql开发工作经验 2、精通php7,熟悉设计模式,深入了解php性能优化和安全 3、精通mysql、redis、mongodb、mencached等数据库应用及优化 4、精通yii、thinkphp、laravel、swoole等其中一种或多种框架 5、熟悉vue、jq等其中一种或多种前端框架 6、有良好的团队精神、表达能力、沟通能力、学习能力、理解能力、文档编写能力 7、抗压能力强,热爱开发事业,对技术有执着的追求申请职位php开发工程师职位编号J026530姓名手机邮箱简历选择文件请将您的详细简历粘贴到这里提交简历姓名手机邮箱简历选择文件请将您的详细简历粘贴到这里",
+      "match_score": 45,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Different seniority",
+        "Not EU-compatible"
       ]
     },
     {
@@ -21920,29 +21942,6 @@
       "match_cons": [
         "No Laravel experience",
         "Legacy PHP application experience not mentioned"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4440514940",
-      "title": "Senior Full stack PHP Developer",
-      "company": "DOCO International",
-      "url": "https://nl.linkedin.com/jobs/view/senior-full-stack-php-developer-at-doco-international-4440514940",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-07-31",
-      "work_type": "hybrid",
-      "location": "Sittard, Limburg, Netherlands",
-      "easy_apply": true,
-      "description": "DOCO International B.V. ontwerpt en distribueert totaaloplossingen aan Europese deurprofessionals en staat garant voor hoogwaardige kwaliteit en innovatieve producten. Met meerdere verkoopkantoren en distributiecentra in Europa – en onze hoofdvestiging in Sittard – zijn wij een toonaangevende speler in de markt. DOCO maakt onderdeel uit van de Duitse SOMMER Groep, samen goed voor meer dan 800 medewerkers, een omzet van meer dan 200 miljoen euro en 8 productie locaties.Jouw rolAls Software Engineer draag je bij aan de ontwikkeling en het onderhoud van de webshop en configuratoren van DOCO en de SOMMER groep. In samenwerking met je team vertaal je de wensen van de klanten naar effectieve (technische) ICT-oplossingen. Intern word je ondersteund door de marketingafdeling en Product Management, zodat je tot een technisch correcte oplossing komt. Dit vereist een hechte samenwerking met diverse (internationale) teams binnen de SOMMER Group.Je rol beslaat het volledige proces, van de conceptfase tot uitrol, inclusief ontwerp, automatische testen en opvolging van de terugkoppeling uit het veld. Werken binnen het DOCO ICT-team houdt in dat je niet alleen software ontwikkelt, maar ook bijdraagt aan verkooptools.Binnen de softwareafdeling speel je een essentiële rol in het actueel houden van de oplossingen en zet je je in voor je eigen professionele ontwikkeling. Samen met je team streef je naar continue verbetering van de oplossingen en waarborg je de kwaliteit.Belangrijkste verantwoordelijkheden· Ontwikkeling van deuren configuratoren· Webshop voor de gehele groep ontwikkelen· PIM opzetten om zodoende de backend te optimaliseren· API-koppelingen bouwen met derde partijen, denk bijvoorbeeld aan synchronisaties Jouw profiel· Minimaal een afgeronde HBO-opleiding in de richting van ICT· Ervaring met Vue, React, PHP, TypeScript, Symfony, CSS, SQL (Pré: elastic search, SCSS, Agile/scrum/KANBAN, git, requirements engineering, PHP-Stan, unit testing, pimcore)· Goede beheersing Engelse taal en bij voorkeur Nederlands (Duits is een pré)· Je kunt zowel zelfstandig als in teamverband goed functioneren· Neemt constructief deel aan (design) discussies· Verder ben je analytisch, accuraat, gedisciplineerd en gestructureerd· Je bent bereid om incidenteel buitenlandse vestigingen te bezoekenWat bieden wij jou?Bij DOCO International wordt er geïnvesteerd in jouw toekomst. In de rol als Software Developer krijg je de mogelijkheid om jezelf verder te ontwikkelen binnen een international",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Seniority matches"
-      ],
-      "match_cons": [
-        "No Laravel experience",
-        "Danish preferred"
       ]
     }
   ]
