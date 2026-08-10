@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T16:11:45.999473+00:00",
+  "updated_at": "2026-08-10T19:11:05.394609+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3908",
@@ -8131,7 +8131,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-08-10",
-      "work_type": "onsite",
+      "work_type": "remote",
       "location": "Breda-Tilburg Area",
       "description": "Vacature: Full‑stack PHP Developer (fulltime – hybride)“Jouw code maakt écht verschil — van zorg tot duurzaamheid.”Bij Sidekick‑IT bouw je aan digitale oplossingen die er écht toe doen: van slimme apps voor het RIVM tot platforms voor duurzame initiatieven en impactrijke zorgsystemen. We zijn al meer dan 25 jaar dé partner voor maatwerk in applicaties, websites en koppelingen — voor advies, ontwikkeling én onderhoud.Waarom jij wilt werken bij Sidekick‑ITJe bouwt mee aan meedogenloos functionele systemen. Geen one-shot projecten, maar langdurige impact met echte betekenis. Het team? Compact, scherp én gezellig. We werken vooral samen op kantoor, met op vrijdag de mogelijkheid om vanuit huis te werken. We geven je structureel innovatietijd: we noemen dit “innovatietijd”, zeg maar 4 uur per week om te bouwen, te experimenteren en te groeien. Direct klantcontact, projectverantwoordelijkheid én professionele groei horen er bij, precies waar je van houdt! Wat ga je doen?Meebouwen aan back‑end met PHP (Laravel, Laminas) én front‑end met Angular of Flutter. API’s ontwikkelen (REST/GraphQL), koppelingen bouwen, data integreren (MySQL/MariaDB) en CI/CD pipelines opzetten. Samen met collega’s meedenken over functionele ontwerpen, klantpresentaties, en projectbegrotingen. Code reviewen, documenteren en bijdragen aan een cultuur van duidelijke, efficiënte samenwerking. Groei tot een complete IT-professionalBij Sidekick-IT investeren we niet alleen in jouw technische skills, maar ook in jouw ontwikkeling als professional.Je krijgt de kans om mee te denken over architectuur, security en performance, niet alleen het uitvoeren, maar ook het vormgeven. Je leert communiceren met klanten, requirements vertalen en presentaties geven. Er is budget en tijd voor trainingen, certificeringen en conferenties. Je wordt begeleid door ervaren collega’s, zodat je kunt doorgroeien van developer naar een allround IT-professional die zelfstandig projecten leidt. Wat breng jij mee?Must-havesEen paar jaar ervaring met OOP in PHP. Basisvaardigheden in Linux, CLI, Git, Composer. Ervaring met API’s (REST of GraphQL) en frontend-technologieën (JS, HTML, CSS/SCSS). Pluspunten (pré’s)Kennis van Laravel, Laminas of WordPress. Ervaring met Angular, Flutter, Docker of CI/CD via GitLab. Affiniteit met Agile-methodieken of design thinking. Wat bieden wij?Marktconform salaris (afhankelijk van ervaring en skills). MacBook, flexibel werken en comfortabele werkplek (of thuis). Gratis lunch, reiskostenvergo",
       "match_score": 85,
@@ -11993,6 +11993,49 @@
       "match_cons": [
         "Legacy .NET systems",
         "Danish preferred"
+      ]
+    },
+    {
+      "id": "PHPDevCareers_php-engineer-992332",
+      "title": "PHP Engineer",
+      "company": "eInfochips Private Limited",
+      "url": "https://phpdevelopercareers.com/jobs/php-engineer-992332/",
+      "source": "PHPDevCareers",
+      "date": "",
+      "fetched_at": "2026-08-10",
+      "work_type": "remote",
+      "description_failed": true,
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language"
+      ],
+      "match_cons": [
+        "DevOps role",
+        "No EU timezone mention"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4451404883",
+      "title": "Développeur Senior Laravel",
+      "company": "Sander",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-senior-laravel-at-sander-4451404883",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-10",
+      "work_type": "onsite",
+      "location": "Paris, Île-de-France, France",
+      "easy_apply": true,
+      "description": "Nous accompagnons l'un de nos partenaires, un acteur reconnu depuis une dizaine d'années dans le secteur de l'assurance, dans la recherche d'un·e Développeur·se Senior Laravel d'exception. Cette structure développe l'intégralité de ses outils métier en interne, avec une exigence rare sur la qualité du code et une vraie culture de l'artisanat logiciel. Ici, Laravel n'est pas un outil parmi d'autres c'est le cœur de la stack, et on le traite comme tel.Ce que vous ferez au quotidienPrendre ownership sur des projets Laravel stratégiques et les élever à un niveau d'excellence.Traduire des besoins métier complexes en solutions élégantes, robustes et durables.Être LA référence technique de l'équipe : architecture propre, patterns solides, revues de code sans concession.Co-construire les décisions d'architecture avec la direction technique — votre avis compte vraiment.Tirer vers le haut les profils juniors et médiors, avec méthode et exigence bienveillante.Identifier les frictions, proposer des solutions et les implémenter.Le profil qu'on chercheLaravel est votre terrain de jeu depuis au moins 5 ans — et ça se voit dans votre code (hors stage/alternance).PHP 8+ n'a aucun secret pour vous : patterns avancés, performances, sécurité applicative.Vous pensez Service Layer, Repository Pattern, DDD avant de penser fonctionnalité.Vue.js / Nuxt, vous maîtrisez sans en faire votre identité.Vous utilisez les outils IA pour coder mieux, pas pour éviter de réfléchir.Vous savez défendre un choix technique avec des arguments solides, pas juste de l'intuition.Vous êtes aussi à l'aise face à un CTO que face à un développeur junior.Ce qui vous attendUn rôle de référent technique avec un poids réel sur les décisions qui comptent.Une stack propre, sans dette technique, des projets qui ont du sens.Une équipe exigeante qui pousse vers le haut — pas un endroit pour se reposer.Intéressement, tickets restaurant, mutuelle.Localisation Paris.Rémunération entre 60 000€ et 65 000€ brut annuel.",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Seniority fits"
+      ],
+      "match_cons": [
+        "No AWS experience",
+        "Danish still learning"
       ]
     },
     {
@@ -21902,50 +21945,6 @@
         "Requires AWS"
       ],
       "easy_apply": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4169960414",
-      "title": "PHP-Entwickler:innen Shopware, OXID, Symfony (all genders)",
-      "company": "connectiv!",
-      "url": "https://de.linkedin.com/jobs/view/php-entwickler-innen-shopware-oxid-symfony-all-genders-at-connectiv%21-4169960414",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-01",
-      "work_type": "remote",
-      "location": "Lingen, Lower Saxony, Germany",
-      "description": "Deine AufgabenDu realisierst eCommerce-Projekte auf Basis von Shopware oder OXID gemeinsam mit deinem TeamDu entwickelst Individualsoftware auf Basis des Symfony FrameworkDu bist für die Spezifikation und Entwicklung von eCommerce-Schnittstellen zuständigDein ProfilDu konntest bereits erste Berufserfahrung in der Softwareentwicklung sammelnEin abgeschlossenes Studium oder eine fachbezogene Ausbildung sind von VorteilDu bringst sehr gute Kenntnisse in PHP und MySQL mitErfahrungen im Umgang mit der Shopware- oder OXID-Architektur sind von VorteilUnsere BenefitsMobiles ArbeitenArbeite bis zu 4 Tage die Woche von wo immer du möchtest.Flexible ArbeitszeitenWir leben alles! Teilzeit, Vollzeit, Gleitzeit, VertrauensarbeitszeitFlexible UrlaubsplanungUnkompliziert und direkt, einfach Urlaub nehmen, wie du ihn brauchst.WeiterbildungDu willst dich weiterentwickeln? Finden wir top! Besuche die Kurse und Seminare, die dich brennend interessieren.Feel-Good-ArbeitsplatzHöhenverstellbare Schreibtische, Parkplätze für Rad & Auto, Sonnenterrasse, Entertainment-Room und mehrSporteventsFirmenteam und Sponsor beim Münster Marathon, Lauftreff nach Feierabend und vieles mehrEvents & SpaßGrillabende, Sommerfeste, Küchenfeten, Familientage, Betriebsausflüge, WeihnachtsfeiernFirmenfitnessAuch die Fitness kommt nicht zu kurz. Mit unserem Partner EGYM Wellpass bieten wir dir attraktive Zuschüsse.Umfassendes OnboardingWir werfen dich nicht ins kalte Wasser! Bei uns bekommst du ein Onboarding, welches seinen Namen verdient. Damit du entspannt in deinen neuen Arbeitsalltag findest.Bike-LeasingRadfahren ist gut für die Gesundheit und die Umwelt. Deswegen bringen wir dich aufs Rad. Wähle über JobRad einfach dein Wunschbike aus und erhalte von uns attraktive Zuschüsse.Corporate BenefitsMit unserem Partner Corporate Benefits profitierst Du von exklusiven Angeboten namhafter Marken - online und vor Ort.",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Laravel matches"
-      ],
-      "match_cons": [
-        "Shopware/OXID not in profile",
-        "No PostgreSQL experience"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4338721358",
-      "title": "Développeur Back-End C++/PHP - Solutions Écologiques Innovantes - Full remote (H/F)",
-      "company": "Kicklox",
-      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-back-end-c%2B%2B-php-solutions-%C3%A9cologiques-innovantes-full-remote-h-f-at-kicklox-4338721358",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-01",
-      "work_type": "remote",
-      "location": "Aix-en-Provence, Provence-Alpes-Côte d'Azur, France",
-      "description": "L'offreSecteursEnergieMissions à réaliserMissionsPrincipales Concevoir et rédiger les spécifications techniques des solutions Développer et maintenir les composants logiciels (API, DB, etc.) Améliorer la maintenabilité et la scalabilité des solutionsAnnexes Participer à l'amélioration continue de la qualité et de la performance du code Contribuer au déploiement des solutions et au traitement des anomaliesModalitésDate de démarrage : dès que possibleCandidats recherchés : 100Expérience : 4+ ansType de contrat : CDI, Temps completRémunération : 40000 € - 45000 € par an selon expérienceTélétravailLe profil recherchéCompétences requisesC++, Php, MysqDescription Du ProfilContexte du posteNotre entreprise, leader dans le secteur de l'écologie, est experte dans la collecte de déchets et la gestion du tri, travaillant activement pour rendre les villes plus intelligentes et vertes. Basés principalement à Aix, avec des filiales en Espagne, Belgique et Canada, nous sommes engagés dans la mission de développer des solutions informatiques pour les collectivités, améliorant ainsi leur gestion des déchets et de mobilité. Avec une équipe de 150-200 talents dédiés à l'innovation et au développement durable, nous cherchons à renforcer notre département IT par l'ajout d'un Développeur Back-End expérimenté. Ce poste est essentiel pour nous aider à continuer notre croissance et à rester à la pointe de la technologie dans nos solutions.Intitulé du poste: Développeur Back-End C++/PHPMissionsPrincipales Concevoir et rédiger les spécifications techniques des solutions Développer et maintenir les composants logiciels (API, DB, etc.) Améliorer la maintenabilité et la scalabilité des solutionsAnnexes Participer à l'amélioration continue de la qualité et de la performance du code Contribuer au déploiement des solutions et au traitement des anomaliesStack technique**À maîtriser** C++ (Framework Qt 4.7) PHP (versions 5 et 8.0) MySQL Système d'exploitation DebianEnvironnement technique** Bash, Go, Python (bonus) MongoDB, Graylog, RabbitMQ (bonus) Familiarité avec le développement orienté DevOps est appréciéeProfil recherché Formation supérieure en informatique (BTS, DUT, MIAGE, école d'ingénieur) 6 ans d'expérience Compétences solides en C++, PHP orienté objet et en gestion de bases de données Proactivité, rigueur, et excellente capacité à travailler en équipeAvantages Rémunération compétitive: 40k€/45k€ selon expérience Mutuelle prise en charge à 100%, Tickets Restaurant Forfait mobilit",
-      "match_score": 45,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "C++ required",
-        "Seniority mismatch"
-      ]
     }
   ]
 }
