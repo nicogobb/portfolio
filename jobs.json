@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T13:09:43.807222+00:00",
+  "updated_at": "2026-08-11T16:12:15.578481+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3908",
@@ -7506,7 +7506,7 @@
         "No remote option",
         "Danish preferred"
       ],
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Landsberg, Bavaria, Germany"
     },
     {
@@ -7851,7 +7851,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-08-11",
-      "work_type": "onsite",
+      "work_type": "remote",
       "location": "Breda-Tilburg Area",
       "description": "Vacature: Full‑stack PHP Developer (fulltime – hybride)“Jouw code maakt écht verschil — van zorg tot duurzaamheid.”Bij Sidekick‑IT bouw je aan digitale oplossingen die er écht toe doen: van slimme apps voor het RIVM tot platforms voor duurzame initiatieven en impactrijke zorgsystemen. We zijn al meer dan 25 jaar dé partner voor maatwerk in applicaties, websites en koppelingen — voor advies, ontwikkeling én onderhoud.Waarom jij wilt werken bij Sidekick‑ITJe bouwt mee aan meedogenloos functionele systemen. Geen one-shot projecten, maar langdurige impact met echte betekenis. Het team? Compact, scherp én gezellig. We werken vooral samen op kantoor, met op vrijdag de mogelijkheid om vanuit huis te werken. We geven je structureel innovatietijd: we noemen dit “innovatietijd”, zeg maar 4 uur per week om te bouwen, te experimenteren en te groeien. Direct klantcontact, projectverantwoordelijkheid én professionele groei horen er bij, precies waar je van houdt! Wat ga je doen?Meebouwen aan back‑end met PHP (Laravel, Laminas) én front‑end met Angular of Flutter. API’s ontwikkelen (REST/GraphQL), koppelingen bouwen, data integreren (MySQL/MariaDB) en CI/CD pipelines opzetten. Samen met collega’s meedenken over functionele ontwerpen, klantpresentaties, en projectbegrotingen. Code reviewen, documenteren en bijdragen aan een cultuur van duidelijke, efficiënte samenwerking. Groei tot een complete IT-professionalBij Sidekick-IT investeren we niet alleen in jouw technische skills, maar ook in jouw ontwikkeling als professional.Je krijgt de kans om mee te denken over architectuur, security en performance, niet alleen het uitvoeren, maar ook het vormgeven. Je leert communiceren met klanten, requirements vertalen en presentaties geven. Er is budget en tijd voor trainingen, certificeringen en conferenties. Je wordt begeleid door ervaren collega’s, zodat je kunt doorgroeien van developer naar een allround IT-professional die zelfstandig projecten leidt. Wat breng jij mee?Must-havesEen paar jaar ervaring met OOP in PHP. Basisvaardigheden in Linux, CLI, Git, Composer. Ervaring met API’s (REST of GraphQL) en frontend-technologieën (JS, HTML, CSS/SCSS). Pluspunten (pré’s)Kennis van Laravel, Laminas of WordPress. Ervaring met Angular, Flutter, Docker of CI/CD via GitLab. Affiniteit met Agile-methodieken of design thinking. Wat bieden wij?Marktconform salaris (afhankelijk van ervaring en skills). MacBook, flexibel werken en comfortabele werkplek (of thuis). Gratis lunch, reiskostenvergo",
       "match_score": 85,
@@ -9838,7 +9838,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-08-11",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Katowice, Śląskie, Poland",
       "description": "Jesteś tutaj: STGU / Oferty pracy / Programista (Laravel)Programista (Laravel)Dodano: 2016-09-30 | Katowice | Regionalne Centrum WolontariatuSzukamy programisty do uaktualnienia portalu gry polichrom.plSerwis jest w Laravel'u (szablony blade), grafiki do realizacji projektu są przygotowane.Projekt FIO Ministerstwa Rodziny, Pracy i Polityki Społecznej, prowadzony przez Regionalne Centrum Wolontariatu w KatowicachPraca pilna, wynagrodzenie 2500 zł brutto.Zainteresowane osoby proszę o kontakt mailowy: stawik@wolontariat.org.pl",
       "match_score": 45,
@@ -11821,6 +11821,141 @@
       ]
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4443938502",
+      "title": "Senior Software Engineer (PHP)",
+      "company": "Vultr",
+      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-php-at-vultr-4443938502",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-11",
+      "work_type": "remote",
+      "location": "United States",
+      "description": "Who We AreVultr is on a mission to make high-performance cloud infrastructure easy to use, affordable, and locally accessible for enterprises and AI innovators around the world. With 33 global cloud data center locations, Vultr is trusted by hundreds of thousands of active customers across 185 countries for its flexible, scalable, global Cloud Compute, Cloud GPU, Bare Metal, and Cloud Storage solutions. In December 2024 Vultr announced an equity financing at a $3.5 billion valuation. Founded by David Aninowsky and self-funded for over a decade, Vultr has grown to become the world’s largest privately-held cloud infrastructure company.Vultr Cares100% company-paid insurance premiums for employee medical, dental and vision plans. 401(k) plan that matches 100% up to 4%, with immediate vestingProfessional Development Reimbursement of $2,500 each year11 Holidays + Paid Time Off Accrual + Rollover Plan Commitment matters to Vultr! Increased PTO at 3 year and 10 year anniversary + 1 month paid sabbatical every 5 years + Anniversary Bonus each year$500 stipend for remote office setup in first year + $400 each following yearInternet reimbursement up to $75 per monthGym membership reimbursement up to $50 per monthCompany paid Wellable subscriptionJoin VultrVultr is seeking a highly skilled and experienced Senior Software Engineer to design, build, and scale the backend systems powering Vultr's cloud platform. The ideal candidate is a seasoned engineer with deep expertise in PHP and MySQL, strong experience with modern API design, and a passion for building resilient, high-availability systems at scale. This is a highly visible role in a high-growth technology company, which will require a blend of backend mastery, database optimization skills, and collaborative engineering practices. This is your opportunity to join our fast growing team and leave your mark on Vultr and the future of Cloud Infrastructure.Key ResponsibilitiesDesign, develop, and maintain high-performance PHP applications serving millions of API requests dailyArchitect and optimize MySQL database schemas, queries, and indexing strategies for low-latency accessImplement and maintain RESTful APIs following modern API design standards, including OpenAPI specifications and versioning best practicesDesign and implement asynchronous workflows, background jobs, queues, and event-driven integrations where appropriateParticipate in architecture discussions, incident response, and root-cause analysis for producti",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Seniority matches"
+      ],
+      "match_cons": [
+        "No Kohana experience",
+        "Danish still learning"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4447540393",
+      "title": "🚀 PHP Developer – Hybrid (Lisbon)",
+      "company": "Match Profiler",
+      "url": "https://pt.linkedin.com/jobs/view/%F0%9F%9A%80-php-developer-%E2%80%93-hybrid-lisbon-at-match-profiler-4447540393",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-11",
+      "work_type": "onsite",
+      "location": "Lisbon, Portugal",
+      "easy_apply": true,
+      "description": "Match Profiler is an Information Systems consultancy with over 25 years of experience in the national and international technology market. 🌍 We believe in challenging and motivating projects, driven by multidisciplinary and agile teams - and we are looking for those who want to grow with us. 💡 With a close-knit approach, we develop solutions that drive business growth with innovation, trust and security. If you are passionate about backend development, clean code, and building robust and scalable applications, this opportunity is for you! 🎯 We are currently strengthening our team with the following profile: 💻 PHP Developer – Hybrid (Lisbon) What we are looking for💻 Hard SkillsStrong knowledge of PHP 8 and modern software development best practices.Experience designing and consuming APIs using OpenAPI.Solid experience with relational databases and database-driven applications.Knowledge of unit testing methodologies and quality assurance practices.Good understanding of the OWASP Top 10 security principles and secure development practices.Experience using Git repositories and collaborative development workflows.Strong testing, validation, and delivery capabilities.Ability to develop maintainable, scalable, and high-quality solutions.⭐ Nice to HaveExperience working with Docker environments.Knowledge of Linux and macOS systems.Experience with Continuous Integration (CI) tools and processes.Knowledge of caching solutions and performance optimization techniques.Experience with NoSQL databases.🤝 Soft SkillsAutonomy and sense of responsibility.Dynamic and proactive attitude.Strong problem-solving skills.Attention to detail and commitment to quality.Team spirit and collaborative mindset.Good communication skills.✨ What we have to offerCareful onboarding and close support from day one. 🤝Continuous feedback aligned with your professional goals. 📈An accessible and collaborative team ready to support each individual's journey. 🚀A close-knit environment where idea sharing and personal development are valued. 💡Access to a network of partnerships offering exclusive discounts on health, wellness, travel, culture, gastronomy, leisure and much more. 🎁Social events and initiatives that strengthen team spirit. 🎉 🏡 Hybrid work model: 2 to 3 days per week onsite in Lisbon.📩 To apply, please send your CV to ana.simoes@m-profiler.pt#PHP #PHP8 #BackendDeveloper #OpenAPI #Git #Docker #Linux #OWASP #SoftwareDevelopment #TechJobs #LisbonJobs #HybridWork #MatchProfiler",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 8 match",
+        "Seniority fits"
+      ],
+      "match_cons": [
+        "No Lisbon experience",
+        "No Docker experience"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4092327411",
+      "title": "Senior Backend (Java + PHP)",
+      "company": "KCS iT",
+      "url": "https://pt.linkedin.com/jobs/view/senior-backend-java-%2B-php-at-kcs-it-4092327411",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-11",
+      "work_type": "onsite",
+      "location": "Braga, Portugal",
+      "easy_apply": true,
+      "description": "We’re looking for the special, unique and amazing YOU!@ KCS IT, we look for the ones that stands out, for those that always wants to be better and fight for it, and for those who has the same values that we do: dedication, energy, integrity, transparency, flexibility, trust, honesty, hard work, proactivity, team work.At KCS we stand for equality and value diversity. We create a safe, diverse environment where opportunities are equal for everyone! We do not discriminate based on age, ethnicity, sexual orientation, gender, disability or any factor other than merit. All applications with skills for the position are welcome!We are looking for an Amazing: Senior Backend (Java + PHP)Seniority: +6 yearsType of position: HYBRID (at Braga, 3x/week)The amazing you, will have:Backend Development:Strong expertise in PHP (Laravel, Symfony, or CodeIgniter) and Java (Spring Boot, Hibernate, or similar frameworks).Solid understanding of Object-Oriented Programming (OOP) and Design Patterns.Proficiency in building APIs (RESTful and GraphQL) and service-oriented architectures.Databases:Expertise in relational databases (MySQL, PostgreSQL).Experience with NoSQL databases (MongoDB, Cassandra).Strong understanding of data modeling, indexing, and optimization techniques.General:Experience with version control systems like Git.Familiarity with CI/CD pipelines and tools like Jenkins, GitHub Actions, or GitLab CI.Proficiency in containerization using Docker and orchestration tools like Kubernetes.Knowledge of cloud platforms like AWS, Azure, or Google Cloud.Fluency in English is mandatory.To turn yourself from amazing to unique, you´ll have (plus):Related certifications.Why should you become part of our family?You can develop a career that fits you: your career development is personalized, taking in consideration your needs and goals from a short to long termInteresting Challenges Ahead: you can work for several clients from different sectors of activityFree training programs: Our training and certification programs in languages, tech, behavior and business will help you to reach your full potential fasterInternational projects in Benelux: you can gain international experience in Benelux and balance a new way of living with workType of projects (depending on the project you might find one of this types of projects):In hybrid Systems: Is important to balance work with socialization, that´s why a hybrid system works for us and for youFull Remote projects: If you want to work while y",
+      "match_score": 78,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Seniority fits"
+      ],
+      "match_cons": [
+        "Requires Java",
+        "AWS knowledge needed"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4444884103",
+      "title": "job title: Full Stack PHP Developer",
+      "company": "PrintedDirect",
+      "url": "https://www.linkedin.com/jobs/view/job-title-full-stack-php-developer-at-printeddirect-4444884103",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-11",
+      "work_type": "remote",
+      "location": "Location, WV",
+      "description": "About UsHey there! We're The Printed Group, the brilliant minds behind Printed.com, one of the largest and fastest growing online print shops in the UK. We're a passionate team that's obsessed with printing, designing, building, and growing our business to disrupt the industry. Our office is filled with forward-thinking, creative, and innovative individuals who are dedicated to helping our customers.At The Printed Group, we're always investing in new products, machinery, and technology to improve our market share and seize new opportunities. Our sprawling production space is home to a fast-paced and dedicated team that strives for perfection in serving our customers.Engineering @ The Printed GroupWe're in an enviable position with a team of print, software development, and customer service experts, a massive football pitch-sized factory, and a design team that can rival the best. We have a culture of continual improvement and our tech stack is largely cloud-based. Our platform powers our own factory operations as well as servicing hundreds of partners across the UK.Our multicultural engineering team builds, grows, and maintains our applications and platforms. We work with technologies ranging from PHP and .NET to front-end technologies like Vue, AngularJs, and React. Our offices are located in Central London and Cramlington, near Newcastle in the North East.About The PositionYou'll be part of the team focussed on the our print platform, PrintedDirect (www.printeddirect.com). Whilst the system has been in existence and carefully maintained since 2017, and used primarily for servicing our eCommerce shops and manufacturing, it's evolving and launched officially as a service and a new brand in the group. This is a significant step forward for the business and the team tasked with continually improving it.As a Mid-level Full Stack PHP Developer at The Printed Group, you'll be:Enhancing and developing the platform API, used by storefronts, manufacturers and our own internal teamsWriting clean, secure and tested codeCollaborating with team members for technical discussionsDocumenting technical aspects of new or changed APIsContinually developing your skillset and industry knowledge and sharing your learnings and experiences with the teamAn ambitious problem solver who loves building applications and extensionsRequirementsWe'd like to see evidence of understanding, competence and engagement in:Proficient in PHP and TypescriptStrong knowledge of SQL and more specif",
+      "match_score": 78,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Laravel matches"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4448796686",
+      "title": "PHP Full-Stack Developer For E-Commerce Platforms & Storefronts Team (Junior - Mid)",
+      "company": "Furniture1",
+      "url": "https://lt.linkedin.com/jobs/view/php-full-stack-developer-for-e-commerce-platforms-storefronts-team-junior-mid-at-furniture1-4448796686",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-11",
+      "work_type": "remote",
+      "location": "Vilnius, Vilniaus, Lithuania",
+      "description": "We’re Furniture1, an online furniture retailer transforming the way people buy furniture. Operating in more than 20 countries, we combine simplicity, design, and convenience to create a better online furniture shopping experience for our customers. As a fast-growing company, we’re always on the lookout for new talent, whether you're a seasoned professional or exploring a new career path.At the moment, we’re looking for a PHP Full-Stack Developer For E-Commerce Platforms & Storefronts Team (Junior - Mid) to help us shape the future of online furniture retail.In this position, you’llDevelop and maintain add-ons and core functionalities for our PHP-based e-commerce platforms;Build, launch, and optimize new e-commerce storefronts;Take ownership of internal applications that support seamless data synchronization across multiple websites;Integrate third-party APIs and features (payments, shipping, marketing tools) to improve web functionality and user experience;Have a voice in shaping our future engineering tools, platforms, and workflows;We expect that you haveGood communication and writing skills in both Lithuanian and English;Practical experience building and maintaining web applications using PHP;Solid frontend fundamentals: HTML, CSS/SASS, and JavaScript;A good grasp of databases and writing structured SQL queries;Experience working with Shopify (Liquid, themes, or custom apps) or other e-commerce platforms is a plus;Experience optimizing SQL queries for performance is a plus.An eye for UI/UX design and creating clean, user-friendly layouts is a plus.What we offerCompensationGross salary from 2500 - 4000 EUR/month based on your experience and skillsFlexible salary and performance reviews. We don’t wait for fixed salary review deadlines - we recognize your growth and impact in real time.Performance-based bonus system. We reward great work with bonuses to keep motivation high and efforts appreciated. Your success is the company’s success.Health and wellbeingPrivate health insurance after working with us for 3 months.Individual psychologist or psychotherapist sessions.Learning and developmentContinuous learning and professional growth. Learn from experienced team members and take on different projects and initiatives.Access to online learning platforms. We encourage our team members to improve their skills through online courses, fully covered by us.Time-off and bonus perksPaid birthday day off, team building events, workations and other additional perks.If y",
+      "match_score": 78,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Seniority mismatch",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4451903256",
+      "title": "PHP Developer@ LOVE-IT",
+      "company": "DEVjobs",
+      "url": "https://at.linkedin.com/jobs/view/php-developer%40-love-it-at-devjobs-4451903256",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-08-11",
+      "work_type": "onsite",
+      "location": "Graz, Styria, Austria",
+      "easy_apply": true,
+      "description": "Senior E-Commerce Developer @ LOVE-IT Passionate Software Solutions GmbH💾 Job TechnologienshopwarePHPSymfonyHTMLJavaScript👥 Deine Rolle im TeamDu steigst in ein umfangreiches, neu aufgesetztes Shopware-Projekt für eine international bekannte Marke ein. Dahinter steht eine gefüllte Projektpipeline, weshalb wir diese Rolle neu schaffen.Du entwickelst Features im Shopware-Stack (PHP/Symfony) von der Anforderung bis zum Go-Live - Backend wie Frontend, in PHP, HTML und JavaScript.Du verantwortest die technische Qualität deiner Arbeit: sauberer Code, sinnvolle Tests und tragfähige Architekturentscheidungen zu Systemdesign, Schnittstellen und Skalierbarkeit.Du setzt AI-Tools wie Claude Code gezielt ein oder hast Lust, das mit uns voranzutreiben. Wir nutzen sie bewusst, um schneller und besser zu entwickeln, und wollen diese Entwicklung aktiv mitgestalten. Du musst kein AI-Experte sein, Neugier und Offenheit reichen.Du stehst im direkten Austausch mit dem Kunden: Du holst Anforderungen ab, hinterfragst Unklarheiten und übernimmst Produktverantwortung für das, was du umsetzt. Bei uns arbeitet niemand einfach nur Tickets ab – Entwicklung und Produktdenken gehören zusammen.🌟 Unsere Erwartungen an dichQualifikationenDu bringst deine technische Einschätzung klar ein, auch wenn sie dem ersten Kundenwunsch widerspricht.Du vermittelst technische Sachverhalte verständlich an nicht-technische Stakeholder.Du hast ausgezeichnete Deutschkenntnisse (C1 oder höher) und sehr gute Englischkenntnisse.QualifikationenDu hast mehrjährige Erfahrung in der Full-Stack-Webentwicklung und starke Software-Engineering-Grundlagen (Architektur-Patterns, Testing, Clean Code).Shopware- oder solide PHP-Erfahrung ist ideal. Ebenso willkommen: erfahrene Entwickler:innen aus einem anderen Stack, die sich Shopware bei uns zügig aneignen – ins Framework kommt man schnell rein, gute Engineering-Fundamente sind uns wichtiger.Du musst nicht alles davon von Tag eins mitbringen – entscheidend ist die Haltung dahinter. Du arbeitest dich selbstständig in neue Themen ein, lernst rasch dazu und übernimmst Verantwortung für dein Ergebnis, auch wenn ein Thema für dich neu ist. Fachliche Lücken schließen wir gemeinsam; den Anspruch an die eigene Arbeit bringst du mit. Erfahrungsgemäß sind das genau die Personen, die am besten zu uns passen.AusbildungEine technische Ausbildung (HTL/FH/Universität) ist vorteilhaft, ein formaler Abschluss jedoch keine Voraussetzung.🎁 Unser AngebotEin konkretes, sichtbares Projekt fü",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Seniority matches"
+      ],
+      "match_cons": [
+        "Shopware not explicitly mentioned",
+        "Danish preferred"
+      ]
+    },
+    {
       "id": "IT-jobbank_h1681004",
       "title": "Senior Service Delivery Manager",
       "company": "KMD A/S",
@@ -12080,28 +12215,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4443938502",
-      "title": "Senior Software Engineer (PHP)",
-      "company": "Vultr",
-      "url": "https://www.linkedin.com/jobs/view/senior-software-engineer-php-at-vultr-4443938502",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-10",
-      "work_type": "remote",
-      "location": "United States",
-      "description": "Who We AreVultr is on a mission to make high-performance cloud infrastructure easy to use, affordable, and locally accessible for enterprises and AI innovators around the world. With 33 global cloud data center locations, Vultr is trusted by hundreds of thousands of active customers across 185 countries for its flexible, scalable, global Cloud Compute, Cloud GPU, Bare Metal, and Cloud Storage solutions. In December 2024 Vultr announced an equity financing at a $3.5 billion valuation. Founded by David Aninowsky and self-funded for over a decade, Vultr has grown to become the world’s largest privately-held cloud infrastructure company.Vultr Cares100% company-paid insurance premiums for employee medical, dental and vision plans. 401(k) plan that matches 100% up to 4%, with immediate vestingProfessional Development Reimbursement of $2,500 each year11 Holidays + Paid Time Off Accrual + Rollover Plan Commitment matters to Vultr! Increased PTO at 3 year and 10 year anniversary + 1 month paid sabbatical every 5 years + Anniversary Bonus each year$500 stipend for remote office setup in first year + $400 each following yearInternet reimbursement up to $75 per monthGym membership reimbursement up to $50 per monthCompany paid Wellable subscriptionJoin VultrVultr is seeking a highly skilled and experienced Senior Software Engineer to design, build, and scale the backend systems powering Vultr's cloud platform. The ideal candidate is a seasoned engineer with deep expertise in PHP and MySQL, strong experience with modern API design, and a passion for building resilient, high-availability systems at scale. This is a highly visible role in a high-growth technology company, which will require a blend of backend mastery, database optimization skills, and collaborative engineering practices. This is your opportunity to join our fast growing team and leave your mark on Vultr and the future of Cloud Infrastructure.Key ResponsibilitiesDesign, develop, and maintain high-performance PHP applications serving millions of API requests dailyArchitect and optimize MySQL database schemas, queries, and indexing strategies for low-latency accessImplement and maintain RESTful APIs following modern API design standards, including OpenAPI specifications and versioning best practicesDesign and implement asynchronous workflows, background jobs, queues, and event-driven integrations where appropriateParticipate in architecture discussions, incident response, and root-cause analysis for producti",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Seniority matches"
-      ],
-      "match_cons": [
-        "No Kohana experience",
-        "Danish still learning"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4442848500",
       "title": "Ingénieur développement back PHP DevOps",
       "company": "Enovacom",
@@ -12211,29 +12324,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4447540393",
-      "title": "🚀 PHP Developer – Hybrid (Lisbon)",
-      "company": "Match Profiler",
-      "url": "https://pt.linkedin.com/jobs/view/%F0%9F%9A%80-php-developer-%E2%80%93-hybrid-lisbon-at-match-profiler-4447540393",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-10",
-      "work_type": "onsite",
-      "location": "Lisbon, Portugal",
-      "easy_apply": true,
-      "description": "Match Profiler is an Information Systems consultancy with over 25 years of experience in the national and international technology market. 🌍 We believe in challenging and motivating projects, driven by multidisciplinary and agile teams - and we are looking for those who want to grow with us. 💡 With a close-knit approach, we develop solutions that drive business growth with innovation, trust and security. If you are passionate about backend development, clean code, and building robust and scalable applications, this opportunity is for you! 🎯 We are currently strengthening our team with the following profile: 💻 PHP Developer – Hybrid (Lisbon) What we are looking for💻 Hard SkillsStrong knowledge of PHP 8 and modern software development best practices.Experience designing and consuming APIs using OpenAPI.Solid experience with relational databases and database-driven applications.Knowledge of unit testing methodologies and quality assurance practices.Good understanding of the OWASP Top 10 security principles and secure development practices.Experience using Git repositories and collaborative development workflows.Strong testing, validation, and delivery capabilities.Ability to develop maintainable, scalable, and high-quality solutions.⭐ Nice to HaveExperience working with Docker environments.Knowledge of Linux and macOS systems.Experience with Continuous Integration (CI) tools and processes.Knowledge of caching solutions and performance optimization techniques.Experience with NoSQL databases.🤝 Soft SkillsAutonomy and sense of responsibility.Dynamic and proactive attitude.Strong problem-solving skills.Attention to detail and commitment to quality.Team spirit and collaborative mindset.Good communication skills.✨ What we have to offerCareful onboarding and close support from day one. 🤝Continuous feedback aligned with your professional goals. 📈An accessible and collaborative team ready to support each individual's journey. 🚀A close-knit environment where idea sharing and personal development are valued. 💡Access to a network of partnerships offering exclusive discounts on health, wellness, travel, culture, gastronomy, leisure and much more. 🎁Social events and initiatives that strengthen team spirit. 🎉 🏡 Hybrid work model: 2 to 3 days per week onsite in Lisbon.📩 To apply, please send your CV to ana.simoes@m-profiler.pt#PHP #PHP8 #BackendDeveloper #OpenAPI #Git #Docker #Linux #OWASP #SoftwareDevelopment #TechJobs #LisbonJobs #HybridWork #MatchProfiler",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 match",
-        "Seniority fits"
-      ],
-      "match_cons": [
-        "No Lisbon experience",
-        "No Docker experience"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4448920422",
       "title": "Wordpress Developer",
       "company": "The Hero Group",
@@ -12253,29 +12343,6 @@
       "match_cons": [
         "Primary language is Node.js",
         "Requires AWS"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4092327411",
-      "title": "Senior Backend (Java + PHP)",
-      "company": "KCS iT",
-      "url": "https://pt.linkedin.com/jobs/view/senior-backend-java-%2B-php-at-kcs-it-4092327411",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-10",
-      "work_type": "onsite",
-      "location": "Braga, Portugal",
-      "easy_apply": true,
-      "description": "We’re looking for the special, unique and amazing YOU!@ KCS IT, we look for the ones that stands out, for those that always wants to be better and fight for it, and for those who has the same values that we do: dedication, energy, integrity, transparency, flexibility, trust, honesty, hard work, proactivity, team work.At KCS we stand for equality and value diversity. We create a safe, diverse environment where opportunities are equal for everyone! We do not discriminate based on age, ethnicity, sexual orientation, gender, disability or any factor other than merit. All applications with skills for the position are welcome!We are looking for an Amazing: Senior Backend (Java + PHP)Seniority: +6 yearsType of position: HYBRID (at Braga, 3x/week)The amazing you, will have:Backend Development:Strong expertise in PHP (Laravel, Symfony, or CodeIgniter) and Java (Spring Boot, Hibernate, or similar frameworks).Solid understanding of Object-Oriented Programming (OOP) and Design Patterns.Proficiency in building APIs (RESTful and GraphQL) and service-oriented architectures.Databases:Expertise in relational databases (MySQL, PostgreSQL).Experience with NoSQL databases (MongoDB, Cassandra).Strong understanding of data modeling, indexing, and optimization techniques.General:Experience with version control systems like Git.Familiarity with CI/CD pipelines and tools like Jenkins, GitHub Actions, or GitLab CI.Proficiency in containerization using Docker and orchestration tools like Kubernetes.Knowledge of cloud platforms like AWS, Azure, or Google Cloud.Fluency in English is mandatory.To turn yourself from amazing to unique, you´ll have (plus):Related certifications.Why should you become part of our family?You can develop a career that fits you: your career development is personalized, taking in consideration your needs and goals from a short to long termInteresting Challenges Ahead: you can work for several clients from different sectors of activityFree training programs: Our training and certification programs in languages, tech, behavior and business will help you to reach your full potential fasterInternational projects in Benelux: you can gain international experience in Benelux and balance a new way of living with workType of projects (depending on the project you might find one of this types of projects):In hybrid Systems: Is important to balance work with socialization, that´s why a hybrid system works for us and for youFull Remote projects: If you want to work while y",
-      "match_score": 78,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Seniority fits"
-      ],
-      "match_cons": [
-        "Requires Java",
-        "AWS knowledge needed"
       ]
     },
     {
@@ -12519,28 +12586,6 @@
       "match_pros": [
         "Laravel matches",
         "Seniority fits"
-      ],
-      "match_cons": [
-        "Requires AWS",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4444884103",
-      "title": "job title: Full Stack PHP Developer",
-      "company": "PrintedDirect",
-      "url": "https://www.linkedin.com/jobs/view/job-title-full-stack-php-developer-at-printeddirect-4444884103",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-10",
-      "work_type": "remote",
-      "location": "Location, WV",
-      "description": "About UsHey there! We're The Printed Group, the brilliant minds behind Printed.com, one of the largest and fastest growing online print shops in the UK. We're a passionate team that's obsessed with printing, designing, building, and growing our business to disrupt the industry. Our office is filled with forward-thinking, creative, and innovative individuals who are dedicated to helping our customers.At The Printed Group, we're always investing in new products, machinery, and technology to improve our market share and seize new opportunities. Our sprawling production space is home to a fast-paced and dedicated team that strives for perfection in serving our customers.Engineering @ The Printed GroupWe're in an enviable position with a team of print, software development, and customer service experts, a massive football pitch-sized factory, and a design team that can rival the best. We have a culture of continual improvement and our tech stack is largely cloud-based. Our platform powers our own factory operations as well as servicing hundreds of partners across the UK.Our multicultural engineering team builds, grows, and maintains our applications and platforms. We work with technologies ranging from PHP and .NET to front-end technologies like Vue, AngularJs, and React. Our offices are located in Central London and Cramlington, near Newcastle in the North East.About The PositionYou'll be part of the team focussed on the our print platform, PrintedDirect (www.printeddirect.com). Whilst the system has been in existence and carefully maintained since 2017, and used primarily for servicing our eCommerce shops and manufacturing, it's evolving and launched officially as a service and a new brand in the group. This is a significant step forward for the business and the team tasked with continually improving it.As a Mid-level Full Stack PHP Developer at The Printed Group, you'll be:Enhancing and developing the platform API, used by storefronts, manufacturers and our own internal teamsWriting clean, secure and tested codeCollaborating with team members for technical discussionsDocumenting technical aspects of new or changed APIsContinually developing your skillset and industry knowledge and sharing your learnings and experiences with the teamAn ambitious problem solver who loves building applications and extensionsRequirementsWe'd like to see evidence of understanding, competence and engagement in:Proficient in PHP and TypescriptStrong knowledge of SQL and more specif",
-      "match_score": 78,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Laravel matches"
       ],
       "match_cons": [
         "Requires AWS",
@@ -21898,51 +21943,6 @@
       "match_cons": [
         "No PostgreSQL experience",
         "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4334554190",
-      "title": "Développeur PHP Symfony Nucléaire",
-      "company": "Scalian",
-      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-php-symfony-nucl%C3%A9aire-at-scalian-4334554190",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-08-02",
-      "work_type": "onsite",
-      "location": "Rians, Provence-Alpes-Côte d'Azur, France",
-      "easy_apply": true,
-      "description": "Dans le TOP10 des Sociétés de Conseil en Ingénierie en France, le Groupe SCALIAN intervient sur des activités de services en management de projets industriels, supply chain, architecture et développement de systèmes numériques embarqués, applicatifs de systèmes d'information et d'Intelligence artificielle dans des secteurs d’activité aussi variés que l’aéronautique, le spatial, l’automobile, le ferroviaire, les services, le luxe ou le retail etc.Créée en 1989, SCALIAN compte aujourd’hui plus de 5500 collaborateurs répartis dans 11 pays et 15 implantations en France pour un chiffre d’affaires de 550 millions d’euros. SCALIAN travaille pour des grands Groupes du CAC40 sur des projets en AT ou au forfait.Labellisée Great Place to Work, SCALIAN connait une croissance de 20% chaque année.Pourquoi SCALIAN ?Parce que Scalian vous accompagne dans le développement de votre carrière : programme d'onboarding complet sur 1 an avec votre manager et votre RH, programmes de formation personnalisés, communautés techniques, événements internesParce que Scalian favorise la Qualité de Vie au Travail : certifications Great Place to Work® et Best Workplaces for Women, prime de cooptation, prime vacances, accord télétravailParce que Scalian développe une politique RSE concrète et ambitieuse : mobilité durable, actions environnementales, accord Handicap et mission handicap avec temps dédiéDescription Du PosteDéveloppeur full stack pour le développement d'une application permettant la consultation d'une base de donnée.JavaScript et la bibliothèque ReactJS Framework PHP SymfonyVersion de PHP utilisée pour ce projet : 8.0.20Version du Framework Symfony : 6.0Compétences supplémentaires souhaitées :Librairie KendoReactAPI RestSelenium/Python (tests)Base de données : Oracle Database 12c et PostgreSQL 15L’une des premières tâches de la prestation consistera à migrer la base de données d’Oracle vers Postgres.Compétences supplémentaires appréciées :Connaissance de l’environnement Linux (en particulier : RedHat Entreprise Linux Release 8.7). Connaissance du serveur d’applications Apache Tomcat (Apache 2.4.37, apache-tomcat-9.0.76). Connaissance de PHP/Java Bridge et de la librairie JasperReports. Qualifications2 ans d'expérience sur les technologies du projet notamment PHP et SymfonyUne expérience dans le nucléaire est un plus Informations supplémentairesAccompagnement technique et managérial sur votre montée en compétences avec nos référents de proximitéUne ambiance de travail conviviale",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 8 match",
-        "Symfony match"
-      ],
-      "match_cons": [
-        "Oracle Database requirement",
-        "Linux/Shell knowledge expected"
-      ]
-    },
-    {
-      "id": "IT-jobbank_h1678443",
-      "title": "IT-anskaffelseskonsulent til gennemførsel af IT-anskaffelser og udbud i Forsvaret",
-      "company": "Forsvarsministeriets Materiel- og Indkøbsstyrelse",
-      "url": "https://www.it-jobbank.dk/jobannonce/h1678443/it-anskaffelseskonsulent-til-gennemfoersel-af-it-anskaffelser-og-udbud-i-forsvaret",
-      "source": "IT-jobbank",
-      "date": "2026-07-30",
-      "fetched_at": "2026-08-01",
-      "denmark": true,
-      "location": "Denmark",
-      "description_failed": true,
-      "match_score": 45,
-      "match_confidence": "low",
-      "match_pros": [
-        "Remote-friendly",
-        "EU-compatible"
-      ],
-      "match_cons": [
-        "Not PHP primary",
-        "Requires fluent Danish"
       ]
     }
   ]
