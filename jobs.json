@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T07:10:53.592368+00:00",
+  "updated_at": "2026-09-15T10:07:28.737759+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3925",
@@ -98,6 +98,30 @@
       "date": "Fri, 04 Se",
       "fetched_at": "2026-09-15",
       "work_type": "remote",
+      "description_failed": true
+    },
+    {
+      "id": "IT-jobbank_h1698542",
+      "title": "Udviklingschefer til Digital Sundhed Danmark",
+      "company": "Sundhed.dk",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1698542/udviklingschefer-til-digital-sundhed-danmark",
+      "source": "IT-jobbank",
+      "date": "2026-09-15",
+      "fetched_at": "2026-09-15",
+      "denmark": true,
+      "location": "Denmark",
+      "description_failed": true
+    },
+    {
+      "id": "IT-jobbank_h1698518",
+      "title": "Seniorudvikler til Danløn",
+      "company": "Paychex Europe",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1698518/seniorudvikler-til-danloen",
+      "source": "IT-jobbank",
+      "date": "2026-09-15",
+      "fetched_at": "2026-09-15",
+      "denmark": true,
+      "location": "Denmark",
       "description_failed": true
     },
     {
@@ -615,6 +639,28 @@
       "denmark": true,
       "location": "Denmark",
       "description_failed": true
+    },
+    {
+      "id": "IT-jobbank_h1689738",
+      "title": "Senior Developer",
+      "company": "The RiskPoint Group",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1689738/senior-developer",
+      "source": "IT-jobbank",
+      "date": "2026-08-14",
+      "fetched_at": "2026-09-15",
+      "denmark": true,
+      "location": "Denmark",
+      "description_failed": true,
+      "match_score": 55,
+      "match_confidence": "low",
+      "match_pros": [
+        "Remote-friendly",
+        "PHP mentioned"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Primary language not specified"
+      ]
     },
     {
       "id": "IT-jobbank_h1688980",
@@ -2011,7 +2057,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-09-15",
-      "work_type": "onsite",
+      "work_type": "remote",
       "location": "Greater Madrid Metropolitan Area",
       "easy_apply": true,
       "description": "¿Estás preparadx para un cambio y explotar tus habilidades como nunca?👉🏼 Sigue leyendo porque tenemos lo que buscas…🛸 ¿Quiénes somos? 🛸Somos una empresa internacional con más de 17 años de experiencia en consultoría e ingeniería informática.Con más de 3.000 Primers operando en 4 sectores principales en todo el mundo: IT, Telecomunicaciones, Energía e Infraestructuras.Nos puedes encontrar en más de 50 ciudades en todo el mundo:ESPAÑA | PORTUGAL | FRANCIA | REINO UNIDO | ITALIA | SUIZA | POLONIA | BRASIL🕵🏽 ¿Qué buscamos? 🕵🏽Al menos 5 años de experiencia en desarrollo backend con PHP, trabajando con alguno de sus principales frameworks como Symfony, Laravel o Slim.Experiencia avanzada con ORMs como Doctrine o Eloquent y buenas bases de SQL y bases de datos relacionales.Experiencia aplicando buenas prácticas de ingeniería de softwareExperiencia práctica trabajando con DDD, TDD, BDD y/o arquitectura hexagonal, participando también en revisiones de código y decisiones técnicas.Dominio de Git y flujos de trabajo colaborativos.Se valorará experiencia con Docker, Kubernetes y Vue.jsNivel de inglés B1 o superior¡¡Y lo más importante de todo que realmente estés motivadx para un cambio!!🚀 ¿Qué ofrecemos? 🚀Podemos asegurarte que contamos con el mejor equipo de todo el sector. Desde el proceso de selección, tu incorporación y hasta nuestro desarrollo profesional te ofrecemosun acompañamiento y un seguimiento personalizado en todo momento. Y a todo esto súmale transparencia total en todos los pasos. Pinta bien, ¿verdad?📝 Condiciones 📝📍 Madrid🧑🏽 💻HíbridoEstamos seguros de que ya sabes qué es lo que muchas empresas te ofrecen y como nosotros estamos a la altura:Vas a contar con un plan de carrera, crecimiento, proyección y desarrollo profesional personalizado.Tendrás acceso a formación continua para que puedas estar al día.Podrás participar en proyectos nacionales e internacionales con opción a movilidad.No todo va a ser trabajar, por eso disfrutar de la tarjeta restaurante y seguro médico nos parece esencial.¡¡¡Teambuildings, afterworks y muchas más sorpresas!!¡Te esperamos!"
@@ -2178,7 +2224,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-09-15",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Ludwigshafen, Rhineland-Palatinate, Germany",
       "description": "Web Developer PHPVollzeit am Standort Mannheim / Remote möglichHello You!- - - - - - - - - - - - - - - - - - - -tl;drWir sind eine tolle Truppe mit interessanten Herausforderungen, treuen Kunden und einem stabilen Geschäftsmodell.Schau' Doch Mal Hier ReinInformationen für zukünftige Entwickler bei Brain AppealBrain Appeal Team Blog>> Jetzt bewerben - - - - - - - - - - - - - - - - - - - -Wir haben hier dieses Job-Angebot als Web Developer PHP (m/w/d) veröffentlicht, weil wir auf der Suche nach Dir sind. Aber der Reihe nach.Als Hersteller von Software entwickeln wir Webseiten und Internetanwendungen. Wir suchen jemanden wie Dich, der gut zu uns passt – Natürlich geben auch wir Dir die Möglichkeit, uns kennen zu lernen, bevor du bei uns startest. Wenn man sich den ganzen Tag sieht und zusammenarbeitet, dann sollte das logischerweise auch ein guter Austausch untereinander sein und Spaß machen!Als Web Developer PHP solltest du optimalerweise schon zwei Jahre Praxiserfahrung in der Umsetzung funktionaler Webseiten mitbringen. Außerdem sind gute Kenntnisse in einem MVC basierten PHP-Framework – idealerweise TYPO3 Extbase – sowie ein sicherer Umgang mit SQL-Datenbanken eine Grundvoraussetzung. Zusätzliche TYPO3-Kenntnisse allen voran TYPOSCRIPT, Extbase/Fluid, Backend fänden wir super! Am Ende ist uns aber wichtig, dass Dich Web-Themen (auch privat) interessieren und du daran Spaß hast.Als Web-Developer bist zu für die Entwicklung von einfachen und anspruchsvollen Webprojekten mit dem CMS TYPO3 unter Einsatz individueller PHP-Programmierung bzw. TYPO3-Extensions verantwortlich. Weiterhin wirst du unterstützend bei Bestandsprojekten tätig sein.In einem Projekt gehen wir strukturiert vor: Wir starten damit die Anforderungen und Probleme des Kunden verstehen. Erst dann werden Wireframes erstellt und anschließend folgt die Layout-Phase.Jetzt geht es an die eigentliche Entwicklung. Und hier kommst Du ins Spiel, was natürlich nicht ausschließt, dass Du in der Konzeptionsphase schon Input geben kannst. Auf Basis der Konzepte und Layouts gehst du an die eigenständige Umsetzung der Webanwendung.Wenn du schon als Backend-Developer gearbeitet hast, sollten die oben beschriebenen Aufgaben eigentlich kein Problem für Dich darstellen, oder?Wir lieben es Support und Projekte so zu organisieren, dass unser Alltag planbar ist. Ein normaler Arbeitstag unterscheidet sich nicht von einem Tag, an dem ein Projekt online geht: er verläuft ruhig. Dafür denken wir im Vorfeld an alles und ",
       "match_score": 58,
@@ -3646,7 +3692,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-09-15",
-      "work_type": "onsite",
+      "work_type": "remote",
       "location": "Berlin, Germany",
       "description_failed": true,
       "match_score": 45,
@@ -4742,7 +4788,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-09-15",
-      "work_type": "onsite",
+      "work_type": "remote",
       "location": "Spain",
       "description": "Levata es una empresa tecnológica especializada en soluciones de movilidad, automatización y visibilidad para empresas. Ayudan a organizaciones a mejorar sus operaciones mediante tecnologías como RFID, control de accesos, dispositivos móviles corporativos, networking y soluciones para retail y logística.TareasBuscamos incorporar un/a Senior Magento Developer con amplia experiencia en entornos PHP para participar en un proyecto en plena evolución. La persona que se una al equipo tendrá un papel clave a nivel técnico, contribuyendo tanto al mantenimiento como a la mejora continua de la plataforma.Será necesario el dominio del castellano y cierta disponibilidad para acudir a oficina cuando el proyecto lo requiera. Valoramos perfiles resolutivos y con capacidad para integrarse rápidamente en dinámicas colaborativas, aportando una visión técnica sólida y orientación a la calidad.Tareas:Desarrollar, mantener y optimizar módulos y funcionalidades en Magento 2.4.XAsegurar la calidad del código mediante buenas prácticas, testing y revisiones.Participar en la arquitectura técnica y en la definición de soluciones escalables.Colaborar con equipos de diseño, producto y negocio para implementar nuevas funcionalidades.Resolver incidencias complejas y proponer mejoras continuas.RequisitosMás de 5 años de experiencia desarrollando con PHP, especialmente en proyectos vinculados a e-commerce.Conocimiento práctico en:Integraciones con APIs y plataformas de terceros.Bases de datos MySQL.Tecnologías frontend como HTML, CSS y JavaScript.Herramientas de control de versiones, especialmente Git.Familiaridad con metodologías ágiles como Scrum o Kanban.Capacidad para desenvolverse de manera autónoma al tiempo que mantiene una comunicación fluida con el equipo.Se valorará además:Certificaciones relacionadas con Magento o Adobe Commerce.Experiencia trabajando con pipelines CI/CD.Conocimientos en Docker o soluciones similares de virtualización.Experiencia con buscadores open source como ElasticSearch o Typesense.Nivel competente de inglés técnico.BeneficiosSalario base y variable.Flexibilidad horaria."
     },
@@ -6491,7 +6537,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-09-15",
-      "work_type": "onsite",
+      "work_type": "remote",
       "location": "Barcelona, Catalonia, Spain",
       "description": "En ARAG buscamos personas con vocación, ganas de crecer y pasión por ayudar a mejorar la vida de los demás. Somos una compañía internacional con sede en Düsseldorf, formada por más de 4.000 profesionales en 19 países, y líder en España en seguros de Defensa Jurídica y Asistencia en Viaje, con la confianza de más de 20 millones de clientes. Si te motiva trabajar en un entorno que prioriza a las personas, la conciliación, el bienestar y el desarrollo profesional, ARAG es el lugar donde puedes construir tu futuro.Buscamos un/a Desarrollador/a Full Stack para incorporarse al equipo de desarrollo y participar en la modernización de aplicaciones corporativas en un entorno Azure Cloud, contribuyendo tanto al Frontend como al Backend de nuevas soluciones basadas en PHP, Vue.js y Spring Boot.ResponsabilidadesDesarrollo y mantenimiento de aplicaciones corporativas, participando tanto en el frontend como en el backend.Evolución y transformación de aplicaciones existentes hacia arquitecturas modernas basadas en la nube.Implementación de nuevas funcionalidades asegurando la calidad, mantenibilidad y escalabilidad del código.Aplicación de buenas prácticas de desarrollo y estándares cloud.Colaboración con analistas, QA, arquitectos y otros desarrolladores en equipos multidisciplinares.Participación en procesos de mejora continua y modernización tecnológica dentro del ecosistema Azure.RequisitosImprescindible:Experiencia previa de al menos 2 años en desarrollo con PHP.Conocimientos o experiencia como desarrollador/a Full Stack.Bases sólidas en desarrollo frontend y backend.Orientación a la calidad del código, el trabajo en equipo y las buenas prácticas de desarrollo.Deseable:Experiencia o conocimientos en Vue.js (frontend) y Spring Boot (backend).Familiaridad con entornos Azure Cloud, especialmente: (Azure App Services, Azure SQL, Azure DevOps, Azure Storage).¿Qué ofrecemos?Formar parte de una empresa líder en el sector, consolidada y en fase de expansión.Horario flexible con jornada intensiva los viernes y el verano.Reuniones de seguimiento para ver y analizar la consecución de objetivos.Formación continua en un ambiente de trabajo agradable con fuerte implicación y motivación personal.Modalidad de trabajo: durante el periodo de formación y adaptación será 100% presencial. Superado este periodo, la persona podrá solicitar adherirse al modelo mixto de teletrabajo al 50%.Retribución flexible (seguro médico, seguro de ahorro, ticket guardería, ticket transporte y ticket for"
     },
@@ -7356,6 +7402,252 @@
       "description_failed": true
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4438923366",
+      "title": "Senior PHP Website Developer",
+      "company": "Stretch.com",
+      "url": "https://es.linkedin.com/jobs/view/senior-php-website-developer-at-stretch-com-4438923366",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "onsite",
+      "location": "Marina Alta, Valencian Community, Spain",
+      "description": "Full-timeWe are currently looking for a full-time Senior PHP Website Developer for our studios with the below specifications:Responsibilities Architect software solutions Develop and expand features and products Review project requirements and write technical specifications Debug, test, and fix errors Document code development and revisions Create and use software tools to help automate writing codeQualifications 5+ years of PHP experience Strong problem solving and communication skills Strong knowledge of SQL (e.g. MySQL or PostgreSQL) Goal oriented, attention to detail Smart, being able to work independently and also in a team Proficient understanding of code versioning tools such as Git. University DegreePlus Experience with Symfony or Laravel framework DevOps Experience Javascript / Frontend Experience Server Administration / Command line (Linux) Experience SEO skills"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4459673496",
+      "title": "Programista PHP",
+      "company": "SEOHOST.pl",
+      "url": "https://pl.linkedin.com/jobs/view/programista-php-at-seohost-pl-4459673496",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "onsite",
+      "location": "Poznań, Wielkopolskie, Poland",
+      "description": "Powrót do listy stanowiskProgramista PHPDynamiczna firma hostingowa SeoHost.pl o ugruntowanej pozycji rynkowej, poszukuje do swojego zespołu osoby, która będzie rozwijała istniejący już panel billingowy oraz system CMS strony https://seohost.pl.Pracujemy w biurowcu przy ul. Obornickiej 330 ( Piątkowo ) w Poznaniu, w pełni zdalnie lub hybrydowo.O projekcieNasz panel to centrum informacji o naszym kliencie i jego usługach. Poznasz szereg integracji w zakresie automatyzacji uruchamiania i utrzymywania usług takich jak domeny, hosting czy zwirtualizowane środowiska, które są automatycznie uruchamiane przez nasz panel. Będziesz miał okazję współtworzyć oprogramowanie, które używa kilkadziesiąt tysięcy osób i utrzymuje ponad 100 000 różnego rodzaju usług.Twoje umiejętności minimum 2 lata doświadczenia w pracy na podobnym stanowisku, umiejętność pracy w zespole, znajomość systemu kontroli wersji GIT, znajomość framework’a Laravel, znajomość wzorców projektowych i praktyczne ich stosowanie,Mile widziane umiejętność pisania prostych komponentów we Vue.js, umiejętność pisania prostych testów funkcjonalnych,Zapewniamy kulturę pracy w zorganizowanej metodologii, pracę z doświadczonym Product Ownerem w innych projektach programistycznych, komfortowe warunki pracy, miłą atmosferę, możliwość rozwoju, stabilną pracę,Proces rekrutacjiAplikacjaPrześlij swoje CV. Analizujemy każde zgłoszenie, aby poznać Twoje doświadczenie i zainteresowanie stanowiskiem.Wypełnij formularzRozmowa kwalifikacyjnaSpotkanie z menedżerem zespołu, podczas którego omawiamy Twoje umiejętności, doświadczenie oraz dopasowanie do zespołu.Decyzja i ofertaPo pozytywnym zakończeniu rozmowy otrzymasz naszą ofertę pracy i zaproszenie do dołączenia do zespołu SEOHOST.pl.Benefitypracy w SeohostPracuj skąd chceszElastyczne godziny pracyBiuro przyjazne zwierzętomOpieka zdrowotnaNie znalazłeś odpowiedniego stanowiska?Prześlij CV"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4434718051",
+      "title": "PHP Developer",
+      "company": "INCERT GIE",
+      "url": "https://lu.linkedin.com/jobs/view/php-developer-at-incert-gie-4434718051",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Leudelange, Luxembourg, Luxembourg",
+      "description": "ORGANISATIONINCERT is a center of expertise providing services and solutions based on knowledge and experience acquired in cryptography, Public Key Infrastructure (PKI), eTravel document, biometry and artificial intelligence.Established since 2012, INCERT is a Public Agency owned by the State of Luxembourg and the Luxembourg Chamber of Commerce. INCERT also represents and defends Luxembourg’s national interests at European and international organizations.Further information about INCERT can be found at www.incert.lu.Within the scope of its business activities, INCERT is now recruiting a PHP Developer as a permanent position.YOUR RESPONSIBILITIESBackend DevelopmentDesign and develop robust backend applications using PHP (Symfony, Laravel or similar MVC frameworks).Build and maintain REST and/or SOAP APIs consumed by INCERT mobile and web applications.Create efficient, secure and scalable backend architectures aligned with INCERT’s technical guidelines.Application Maintenance & EvolutionMaintain, refactor and improve existing PHP applications and internal tools. Ensure compliance with best practices regarding security, performance, and code quality.Participate actively in application lifecycle: analysis, development, testing, deployment and monitoring.Database ManagementDesign and optimise SQL database schemas (MySQL, PostgreSQL or equivalent).Write efficient queries, ensure data integrity and manage migrations.Quality Assurance Write unit tests and contribute to automated test strategies.Participate in code reviews and ensure clean, documented and maintainable code.Collaboration & DocumentationCollaborate closely with developers, UX designers, product owners and project managers.Contribute to internal documentation, development standards and best practices.Participate in continuous improvement initiatives and propose technical enhancements.YOUR PROFILETechnical skills and educationAt least 3 to 5 years of professional experience in PHP development.Strong knowledge of PHP 8, OOP, MVC principles and modern frameworks (e.g., Symfony, Laravel, CodeIgniter…).Experience with API development, authentication mechanisms, (TOTP, OAuth2, OIDC) and secure data flows.Experience with API development, authentication mechanisms and secure data flows.Strong SQL knowledge (MySQL, PostgreSQL) and familiarity with ORM tools (Doctrine, Eloquent).Good understanding of front-end technologies (HTML/CSS/JS) to interact with UI teams.Knowledge of version control systems (Git) and CI",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Strong PHP experience"
+      ],
+      "match_cons": [
+        "Missing Symfony",
+        "Danish preferred"
+      ],
+      "easy_apply": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4451223139",
+      "title": "Senior PHP Back End Engineer (m/f/d)",
+      "company": "Smoobu - The Vacation Rental Software",
+      "url": "https://de.linkedin.com/jobs/view/senior-php-back-end-engineer-m-f-d-at-smoobu-the-vacation-rental-software-4451223139",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Berlin, Germany",
+      "description": "Life at SmoobuAt Smoobu, we are building more than just software. We empower everyday people to become successful entrepreneurs by helping them manage their vacation rentals simply and efficiently. Our platform supports over 100,000 properties in 120+ countries, enabling hosts to grow their businesses confidently and efficiently.That kind of impact doesn’t come from playing it safe; it comes from people who take ownership, act purposefully, and work together to make things happen.How you will contribute to our successWork hand-in-hand with business stakeholders to identify requirements, plan milestones, and polish features by measuring their performanceDecompose the monolith, building a modern import/export pipeline to support hundreds of third-party integrationsMigrate the application environment from the private cloud to the AWS platformChoose adequate technical and business metrics to monitor features and manage the riskApply engineering best practices to the current team environment Solve technical design issuesYou will thrive in this role if youHave solid relevant experience in Backend engineeringAre familiar with AI-assisted software development, including agentic coding tools and workflowsAre proficient in our technical stackModern PHP & Symfony Relational and non-relational databases Docker and containerized environmentsHave a practical knowledge of:Decomposing monolithic architecturesClean CodingTest-Driven DevelopmentSOLID principlesHave experience with cloud platforms, preferably AWSHave excellent communication skills and the ability to work efficiently in a distributed teamAre fluent in EnglishNice To HaveExperience with layered architecturesExperience with CQRS patternsUnderstanding of Domain-Driven Design principlesOur ValuesSupport each other with candid feedback, encouragement, and trust — success is a team sportStay authentic by bringing our true selves to work and valuing each person’s unique contributionsBe reliable, follow through on commitments, and show up for each other every dayEmbrace experimentation, welcome change, and learn quickly from new ideasGet things done by solving problems with focus, action, and a bias for simplicityWhat you can expectFlexibility – We work remotely for up to 50% of the year, including up to 63 working days abroad.Time to Recharge – 27 vacation days, plus one extra day for each year of tenure (up to 32). Celebrate your 5th anniversary with five additional paid days off and a €500 HomeToGo booking credit.",
+      "match_score": 82,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Seniority fits"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4448579494",
+      "title": "SENIOR PHP DEVELOPER",
+      "company": "Capturly",
+      "url": "https://hu.linkedin.com/jobs/view/senior-php-developer-at-capturly-4448579494",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Szeged, Csongrád, Hungary",
+      "description": "Capturly jobsSenior PHP developerWe are looking for experienced PHP developers to join our forces and work together on the future of Capturly. As a developer, your job will be to assist us in achieving our vision and build a platform that can help our customers with real business insights.You Will Have The Following ResponsibilitiesContributing to the success of our own fast-growing projectsDevelopment of new product functionality, technical analysis, effort estimationImplementation of new business requirementsWrite code that works and is easily read, tested and maintainedYou Are The One We Are Looking For IfYou have 3 years of experience with PHPYou are familiar with at least one PHP framework (Yii, Laravel, Symfony, etc.)You have experience with client-side coding: JavaScript, jQueryYou have good knowledge of MySQL/PostgreSQLYou have competitive knowledge of Linux operating systemYou can read professional documentation in EnglishYou can work independently and in a team as wellIt’s a Bonus, If You HaveExperience with agile developmentBasic knowledge of how tracking codes workUsed Git beforeFor All This We OfferCompetitive salary and benefits A long-term job opportunity Continuous possibility to improve your skills A young and dynamic team An innovative environment at a fast-growing company Free coffee Don't worry! We don't ask for anything which couldn't be learnt with the appropriate basics and the right will; therefore, we're looking for people who both want to learn and are willing to develop their professional skills.Our team will provide you with every opportunity to become better and better. If you consider yourself suitable for a job, don't hesitate to contact us!hello@capturly.com",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Seniority fits"
+      ],
+      "match_cons": [
+        "Missing PostgreSQL expertise",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4435119276",
+      "title": "PHP Backend Developer",
+      "company": "adnomaly",
+      "url": "https://de.linkedin.com/jobs/view/php-backend-developer-at-adnomaly-4435119276",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Düsseldorf, North Rhine-Westphalia, Germany",
+      "easy_apply": true,
+      "description": "adnomaly ist ein B2B-SaaS-Unternehmen, das das Mediabudget seiner Kunden schützt – mit einer Lösung, die es so kein zweites Mal am Markt gibt. Das heißt für dich: keine ausgetretenen Pfade, sondern echte Pionierarbeit, eine steile Lernkurve und ein Produkt, an dem du wirklich etwas bewegst. Schon heute arbeiten einige der größten Mediaagenturen Deutschlands mit uns – und unsere Ambition ist klar: ein Key-Player im AdTech-Bereich zu werden.Ihre Aufgaben:Als Backend Entwickler bist Du für die Weiterentwicklung unserer adnomaly-Systeme verantwortlich und überlegst stets, wie wir das System noch besser machen können. Du bindest gemeinsam mit unserem Team weitere DSP-APIs (DV360, FB, TikTok etc.) an, um für unsere Kunden noch mehr Mehrwert zu generieren. Dabei bringst du Dich proaktiv mit Vorschlägen und Technologien in den Entwicklungsprozess mit ein, denn wir sind offen für Deinen Input! Das Ganze machst du am besten in agilen Methoden, und bist dadurch im kompletten Entwicklungszyklus eingebunden. Das klingt nach einer Aufgabe, die Dir Spaß macht? Dann bist du die perfekte Ergänzung für unser Tech Start-Up.Ihr Profil:Kenntnisse in PHP7/8+ (3+ years)Erfahrung mit Symfony 5/6, Git und dem Atlassian StackErfahrung mit Queueing-Systemen wie z.B. RabbitMQDesign Patterns und Clean Code sind Dir wichtigHands-On MentalitätCommitment und LeidenschaftBereitschaft, dich permanent weiterzuentwickelnWarum wir:adnomaly ist ein B2B SaaS Unternehmen und schützt das Mediabudget seiner Kunden! Dafür haben wir eine Innovative Lösung geschaffen, die es so kein zweites Mal auf dem Markt gibt. Eine steile Lernkurve und echte Pionierarbeit sind also garantiert. Du wirst Teil eines sich schnell entwickelnden Unternehmens, das bereits jetzt mit den größten Mediaagenturen Deutschlands zusammenarbeitet und die Ambition hat, ein Key-Player im AdTech-Bereich zu werden.Darüber hinaus bieten wir:Ein kompetitives GehaltStart-Up feeling mit guter Work-Life-BalanceArbeit ganz nah am Markt, mit neuesten TechnologienSpannende, abwechslungsreiche und anspruchsvolle Tätigkeit mit täglich neuen HerausforderungenFlache Hierarchien, schnelle Entscheidungswege, Wertschätzung für Deine ArbeitAgiles TeamKnow-How Aufbau, ReifegradentwicklungIndividuelle Lösungen für jeden Einzelnen (Homeoffice-Optionen)WellPassUnser Tech Stack:PHP 7.4, JavaScript, MySQL, Symfony 5, RabbitMQ, Docker, GitLab CI, Deployer, DataDog, GitÜber unsadnomaly technologies ist ein junges Tech-Startup mit Sitz in Düsseldorf und wur",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP 7.4 matches",
+        "Seniority matches"
+      ],
+      "match_cons": [
+        "Symfony 5 instead of Laravel",
+        "No PostgreSQL experience"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4465384517",
+      "title": "Senior Full-Stack Engineer (Laravel / Vue.js)",
+      "company": "Relocity, Inc.",
+      "url": "https://www.linkedin.com/jobs/view/senior-full-stack-engineer-laravel-vue-js-at-relocity-inc-4465384517",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "United States",
+      "easy_apply": true,
+      "description_failed": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4442623016",
+      "title": "PHP / Symfony Developer (m/w/d)",
+      "company": "Webmasterware.net GmbH",
+      "url": "https://de.linkedin.com/jobs/view/php-symfony-developer-m-w-d-at-webmasterware-net-gmbh-4442623016",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Trier Region",
+      "description": "Bitte lieber digitalWir sind ein IT-affines Unternehmen, daher bevorzugen wir Bewerbungen in digitaler Form. Richten Sie Ihre Bewerbungsunterlagen im PDF-Format daher bitte vorzugsweise per E-Mail an jobs(AT)webmasterware.net.Alternativ können Sie sich auch schriftlich bewerben. Verzichten Sie dabei jedoch bitte auf die Verwendung von Bewerbungsmappen, da wir schriftlich eingehende Unterlagen nach Abschluss des Auswahlprozesses nicht zurücksenden. Schriftliche Bewerbungen richten Sie bitte postalisch an die im Impressum angegebene Anschrift, z.Hd. Personalabteilung.Wir freuen uns auf Ihre Bewerbung.",
+      "match_score": 58,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "No Symfony match",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4463981299",
+      "title": "Back-end PHP Developer",
+      "company": "PHH Group | Pigu Hobby Hall Group (Pigu.lt, 220.lv, Kaup24.ee, HobbyHall.fi)",
+      "url": "https://lt.linkedin.com/jobs/view/back-end-php-developer-at-phh-group-pigu-hobby-hall-group-pigu-lt-220-lv-kaup24-ee-hobbyhall-fi-4463981299",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Vilnius, Vilniaus, Lithuania",
+      "description": "PHH Group is a leading e-commerce platform with marketplace, e-shops, and physical stores in Lithuania, Latvia, Estonia, and Finland. The company's goal is to be the No.1 choice for buyers when shopping online and to be the best partner for online businesses.Responsibilities:Working on projects that are based on PHP;Develop, test, and maintain PHP-based web applications and APIs;Participate in code reviews to ensure code quality and adherence to coding standards;Troubleshoot and debug issues, providing timely resolutions;Stay updated on emerging technologies and best practices in web development;Work closely with other developers and stakeholders to deliver high-quality solutions on time;Contribute to architectural decisions and technical discussions;Rapid improvement of the e-commerce system and implementation of the latest programming technologies;Programming of new e-commerce system features;Maintenance and enhancement of existing systems.Requirements:You write modern PHP (7.4+) day to day and know the newer language features well;Strong back-end and system architecture skills, with the judgement to weigh trade-offs and justify design decisions;Solid understanding of relational database design, query optimization and indexing (MySQL);Working experience with message queues (RabbitMQ), caching (Redis) and search (ElasticSearch), or close equivalents;Experience with PHP frameworks such as CodeIgniter or Symfony;Practical experience using AI coding assistants (Cursor, Claude Code or similar) in day-to-day development, with sound judgement on reviewing and validating generated code;Experience writing and maintaining automated tests (PHPUnit or similar);Comfortable with Git, code review, and CI/CD pipelines.Nice to have:Experience in an Agile/Scrum team;API design experience (REST);Docker usage.We offer:Expand your knowledge in one of the fastest growing e-commerce company;The place for Your ideas to become alive;Real career opportunities;Inclusive and supportive culture;Perks: Health insurance after the probationary period, group discounts, international events;Motivational system.Salary:3400-4000 €/mon. grossWork place:Laisvės pr. 75, Vilnius"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4464365074",
+      "title": "Lead PHP Developer (m/w/d) 100.000€",
+      "company": "Computer Futures",
+      "url": "https://de.linkedin.com/jobs/view/lead-php-developer-m-w-d-100-000%E2%82%AC-at-computer-futures-4464365074",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Mainz, Rhineland-Palatinate, Germany",
+      "description": "Lead PHP Developer (m/w/d) 100.000€Bis zu 100.000 € p.a. | Frankfurt am Main | Unbefristete FestanstellungFür ein innovatives und wachstumsstarkes Unternehmen im digitalen Finanzumfeld suchen wir eine technikaffine Führungspersönlichkeit mit Hands-on-Mentalität. In dieser Schlüsselposition übernehmen Sie die fachliche Verantwortung für ein Entwicklerteam und treiben die Weiterentwicklung moderner Banking- und Payment-Lösungen aktiv voran. Dabei verbinden Sie strategische Weitsicht mit operativer Entwicklungsarbeit und gestalten die technologische Zukunft des Unternehmens maßgeblich mit.Ihre AufgabenDefinition, Einführung und Weiterentwicklung technischer Standards, Entwicklungsrichtlinien und skalierbarer Softwarearchitekturen.Optimierung und Modernisierung bestehender Entwicklungs-, Deployment- und Betriebsprozesse.Konzeption und Umsetzung neuer Features sowie kontinuierliche Weiterentwicklung bestehender Anwendungen.Verantwortung für die IT-Systemlandschaft Ihres Bereichs, einschließlich Anwendungsarchitektur, Infrastruktur und Systemverfügbarkeit.Enge Abstimmung technischer und organisatorischer Entscheidungen mit einem weiteren Team Lead, um eine einheitliche technologische und strategische Ausrichtung sicherzustellen.Fachliche und persönliche Weiterentwicklung eines Entwicklerteams von rund fünf Mitarbeitenden durch Coaching, Mentoring und regelmäßiges Feedback.Aktive Mitarbeit in der Softwareentwicklung mit einem operativen Anteil von etwa 80 % der Tätigkeit.Ihr ProfilMehrjährige Berufserfahrung in der Softwareentwicklung, idealerweise als Senior Developer, Lead Developer oder Software Architect.Erste Erfahrung in der fachlichen oder disziplinarischen Führung von Mitarbeitenden ist von Vorteil.Fundierte Kenntnisse in PHP 8 sowie praktische Erfahrung mit Symfony und/oder Laravel.Sicherer Umgang mit MySQL, Linux (idealerweise Debian), Docker und Git.Erfahrung mit Clean-Code-Prinzipien sowie agilen Entwicklungsmethoden wie Scrum oder Kanban.Kenntnisse in Ansible oder vergleichbaren Automatisierungslösungen sind wünschenswert.Ausgeprägte technische Affinität und die Motivation, weiterhin aktiv Software zu entwickeln.Sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift.Das AngebotAttraktives Jahresgehalt von bis zu 100.000 € brutto p.a. (All-in), abhängig von Qualifikation und Erfahrung.Unbefristete Festanstellung bei einem wirtschaftlich erfolgreichen und zukunftsorientierten Unternehmen.Hybrides Arbeitsmodell mit einem Homeoffice-Tag pro Woche."
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4466172963",
+      "title": "Marketing Technology Web Developer (Drupal & Marketing Automation)",
+      "company": "Utimaco",
+      "url": "https://de.linkedin.com/jobs/view/marketing-technology-web-developer-drupal-marketing-automation-at-utimaco-4466172963",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Aachen, North Rhine-Westphalia, Germany",
+      "description": "About the roleUtimaco is looking for a hands-on Marketing Technology Web Developer to build, maintain, and improve high-performing digital experiences that support global demand generation and new-logo growth.This role combines Drupal development with marketing automation, CRM, analytics, and third-party integrations. You will create landing pages and campaign experiences in Drupal, connect them to marketing automation platforms and Salesforce, and help marketing teams launch integrated campaigns faster and more reliably across regions and languages.The ideal candidate is equally comfortable working in code, troubleshooting data flows, partnering with marketers, and translating campaign requirements into scalable digital experiences. You should understand that a landing page is not just a web page: it is part of a measurable buyer journey from campaign engagement through lead capture, qualification, routing, and pipeline impact.Key responsibilitiesDrupal and web developmentBuild, configure, and maintain responsive landing pages, campaign pages, forms, and reusable components in Drupal.Develop accessible, mobile-first web experiences aligned with brand, UX, SEO, and performance standards.Create reusable templates and page patterns that allow marketing teams to launch and update campaigns efficiently.Work with Drupal content types, views, blocks, themes, modules, permissions, and environments.Troubleshoot front-end and back-end issues, including form behavior, page performance, tracking, and deployment problems.Collaborate with brand, digital, growth, product marketing, regional marketing, and external agency partners.Support website releases, quality assurance, documentation, and ongoing technical improvements.Marketing automation and integrationsBuild and maintain integrations between Drupal, marketing automation platforms, Salesforce, webinar and event tools, advertising platforms, analytics tools, and other marketing technologies.Configure and troubleshoot forms, campaign programs, lead capture, consent, progressive profiling, scoring, routing, notifications, and nurture workflows.Work with APIs, webhooks, middleware, and data mappings to ensure reliable movement of campaign and prospect data.Validate field mapping, source attribution, campaign membership, duplicate handling, consent status, and lead lifecycle behavior.Partner with Marketing Operations and Sales Operations to improve data quality, process automation, and speed to lead.Monitor integration"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4217062408",
+      "title": "PHP Backend Entwickler (m/w/d)",
+      "company": "SC-Networks GmbH",
+      "url": "https://de.linkedin.com/jobs/view/php-backend-entwickler-m-w-d-at-sc-networks-gmbh-4217062408",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Starnberg, Bavaria, Germany",
+      "description": "Du hast Spaß und Erfahrung an Entwurf und Umsetzung objektorientierter webbasierter Software.Begriffe wie Clean Code, Pair Programming und Testdriven Development klingen für dich nach spannenden Entwicklungsmethodiken.Du hast Lust auf agile Prozesse, auf das Erlernen von neuen Technologien und auf ein aktives Mitgestalten an einer der führenden E-Marketing Lösungen im europäischen Markt zusammen mit einem super Team.Worauf wartest du noch?Bewirb dich bei uns - und werde schnell Teil der bereits seit 20 Jahre andauernden Erfolgsstory hinter Evalanche (www.evalanche.com).Deine AufgabenEntwurf, Umsetzung und Betreuung webbasierter Software.Dein ProfilFundierte Erfahrung mit PHP und (Postgre)SQL.Offen für den Einsatz von modernen Technologien und Trends.Belastbarer und umfassender Überblick über aktuelle Web-Entwicklung und zugehörige Technologien, sowie Anwendung von Design-Patterns und sicherheitsrelevanten Aspekten von Webanwendungen.Sehr gutes Deutsch in Wort und Schrift.Gute Englischkenntnisse.Kommunikations- und Teamfähigkeit.Das erwartet DichAnspruchsvolle und abwechslungsreiche Aufgaben der Softwareentwicklung.Flexible hybride Arbeitsplatz- und Arbeitszeitmöglichkeiten.Prozessorientierte, agile Arbeitsabläufe.Entwicklung unter Linux mit PHP.Im Allgemeinen freie Wahl Deiner Tools, die Du brauchst, um Deine Aufgaben zu erfüllen.Dein neues TeamDie SC-Networks GmbH ist Marketing Software as Service Provider und Hersteller von Evalanche, eine der modernsten, webbasierten E-Mail-Marketing-Automation-Lösungen auf dem europäischen Markt. SC-Networks ist der - Made in Germany - Spezialist für E-Mail-Marketing, Marketing Automation und Lead Management bei Agenturen und international agierenden Großunternehmen.Wir sind ein buntes, flexibles Team und suchen engagierte und motivierte Kollegen (m/w/d), die sich mit Fleiß und cleveren Ideen einbringen und proaktiv angehen, was zu erledigen ist. Dafür investieren wir gerne in hochwertige Weiterbildungen intern sowie extern, wobei es hier insbesondere auf Klasse statt Masse ankommt.IT-Standort mit CharmeIn Starnberg, vor den Toren Münchens, erwartet dich ein moderner und zukunftssicherer Arbeitsplatz. Hier vergeudest du keine Lebenszeit bei An- und Abreise aufgrund der super Verkehrsanbindung und antizyklischer Fahrwege.Unser Firmensitz bietet Dir eine attraktive Basis für Teamarbeit, Brainstorming, Kreativität und Innovation sowie Wissenstranfer. Und raucht dir mal der Kopf in einem besonders anspruchsvollen P",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Seniority fits"
+      ],
+      "match_cons": [
+        "German location",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4458780259",
+      "title": "Développeur / Développeuse PHP Symfony - Rouen",
+      "company": "PROXIAD",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-d%C3%A9veloppeuse-php-symfony-rouen-at-proxiad-4458780259",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Rouen, Normandy, France",
+      "easy_apply": true,
+      "description": "A propos de Proxiad Axe SeineProxiad Axe Seine est une Entreprise de Service Numérique composée d’une centaine de collaborateurs et collaboratrices et installée dans l’éco quartier Luciline, à Rouen.Vous participerez à la réussite des projets informatiques de nos clients, depuis notre Centre de services ou en intervenant dans leurs équipes (en Seine-Maritime & dans l'Eure).Depuis 20 ans, votre évolution fait la nôtre : chez Proxiad, nous nous faisons confiance et travaillons dans un cadre bienveillant. Votre progression et votre bien-être sont nos premiers objectifs.Si vous souhaitez embarquer pour une longue aventure dans une PME Normande en croissance, responsable et engagée, rejoignez-nous !Descriptif du postePour votre première mission avec nous, rejoignez l’équipe de l’un de nos clients rouennais et :Participez à la définition des spécifications fonctionnelles et techniquesConcevez, développez, et maintenez les applications web de notre client selon des spécifications techniques et fonctionnellesAssurez la mise en œuvre des fonctionnalités dans le respect des normes et directions techniquesAssurez le déploiement et le suivi des livrables en productionAssurez le partage de connaissance du projet (documentation, présentation, formation)Participez et menez des revues de code régulièresProposez des améliorations continues dans les pratiques des équipes projetsAccompagnez techniquement des profils débutantsAssurez une veille technique régulièrePersonne recherchéeIssu.e d'une formation d'Ingénieur.e ou équivalent, vous avez acquis les connaissances nécessaires à la conception et au développement d'applications web sur-mesure.Depuis minimum 2 ans, vous avez eu l'occasion de travailler au sein d'équipes projet avec une approche Agile ou Cycle en V, sous la direction d'un Chef de projet ou d'un Expert technique (F/H).Quelques compétences techniques requises :Maîtrise de la programmation orientée objet (PHP)Maîtrise de l'architecture MVCBonnes connaissances en SymfonyConnaissances en HTML / CSS / JavaScript et moteur de templating (Twig / Blade)Respect des normes de développement et des bonnes pratiques (normes PSR, principes SOLID, DRY, KISS, YAGNI)Maîtrise de Git et des pratiques associées (Code review via MR / PR, Gitflow, SemVer, Conventional Commits)Bonne connaissance en modélisation de base de donnéesBonne connaissance dans l'utilisation des SGBD (MySQL ou MariaDB ou PostgreSQL ou SQL Server) et d'un ORM (Doctrine ou Eloquent)Savoir déployer une applicati"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4467714454",
+      "title": "Senior PHP-Entwickler:in",
+      "company": "ZABEL",
+      "url": "https://de.linkedin.com/jobs/view/senior-php-entwickler-in-at-zabel-4467714454",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "onsite",
+      "location": "Greater Hamburg Area",
+      "easy_apply": true,
+      "description": "PHP Developer (m/w/d) | Festanstellung | Hamburg Standort: HamburgVertragsform: Unbefristete FestanstellungStart: ab sofortGehalt: bis zu 90.000 € p.a.Über unsMehrfach ausgezeichnet und europaweit bekannt – unser Mandant zählt zu den beliebtesten Arbeitgebern Hamburgs. Im Zentrum steht ein modernes, mitarbeiterorientiertes Arbeitsumfeld, das Innovation, Kreativität und Weiterentwicklung aktiv fördert.Deine AufgabenKonzeption und Umsetzung neuer FeaturesEnge Zusammenarbeit mit UX/UI-Design, Marketing und weiteren SchnittstellenArbeiten in kleinen, agilen Teams mit modernen Methoden und flachen HierarchienDein ProfilMehrjährige Erfahrung mit PHP 7 oder 8Kenntnisse in Symfony oder LaravelTeamplayer, selbstständiges ArbeitenSehr gute Englisch- und DeutschkenntnisseWas dich erwartetSehr gute VergütungFlexible ArbeitszeitenIndividuelle Weiterbildungs- und EntwicklungsmöglichkeitenModerne Büroausstattung und Verpflegung vor OrtGemeinsame Sportangebote, Teamevents & ein großartiges SommerfestInteresse geweckt?Dann sende uns noch heute deine Bewerbung – inklusive Lebenslauf, Gehaltsvorstellung und deinem frühestmöglichen Startdatum – per E-Mail an:Beheshta Faqiri📧 b.faqiri@zabelglobal.com📞 +49 170 6539186Ich freue mich darauf, dich kennenzulernen!"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4429967260",
+      "title": "Desarrollador PHP - Presencial Bilbao",
+      "company": "CBT",
+      "url": "https://es.linkedin.com/jobs/view/desarrollador-php-presencial-bilbao-at-cbt-4429967260",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Getxo, Basque Country, Spain",
+      "easy_apply": true,
+      "description": "Estamos buscando un/a desarrollador/a web con experiencia en PHP y en la creación de sitios dinámicos y bien estructurados. Tu misión será desarrollar y mantener proyectos basados en CMS como WordPress o Joomla, combinando un código limpio y eficiente con una excelente experiencia de usuario. Trabajarás tanto en el front-end como en la lógica del servidor, optimizando bases de datos, integrando funcionalidades mediante AJAX y asegurando que cada proyecto sea estable, escalable y visualmente atractivo.Tus funciones:Desarrollar, depurar y optimizar código siguiendo las prácticas del equipoDiseño de nuevos componentes de software y mejora de los existentesColaboración y revisión con otros miembros del equipo.Qué esperamos de ti:Al menos 2 años de experiencia en desarrollo de software.Dominio de PHP 8+Experiencia práctica en desarrollo de CMS en PHP (Wordpress, Joomla)Conocimientos sólidos de bases de datos SQL.Manejo de tecnologías frontend: HTML5, CSS, JavaScript.Conocimientos de métodos asíncronos: AJAX.Familiarización con sistemas de gestión de proyectos (Jira, Trello o similares)Habilidad para la resolución de problemas y atención al detalle.¿Qué te ofrecemos?Proyectos variados y dinámicos donde desarrollar tu creatividad.Estabilidad profesional y oportunidades de crecimiento.Un equipo de trabajo motivado y buen ambiente laboral."
+    },
+    {
       "id": "Larajobs_https://larajobs.com/job/3924",
       "title": "Laravel Developer (TALL)",
       "company": "",
@@ -7509,18 +7801,6 @@
       "description": "Onze klant is een vooruitstrevende speler die sterke digitale oplossingen ontwerpt voor groeiende merken. In plaats van standaardwerk af te leveren, focust deze organisatie zich op maatwerk binnen de e-commerce. Ze bouwen performante webshops en zorgen voor naadloze koppelingen tussen externe systemen en interne processen. Je stapt binnen in een kantoor in hartje Gent waar technologische innovatie en een gezonde dosis werkplezier hand in hand gaan.De impact die je hier maakt, is direct zichtbaar bij de eindgebruiker. Dankzij jouw code draaien platformen vlotter en communiceren complexe systemen zonder haperen. Je komt terecht in een hecht team van technische krakken die graag sparren over de nieuwste architectuur en tegelijkertijd ownership nemen. Zoek jij als Back end Developer een plek waar jouw ideeën echt gehoord worden? Getriggerd? Lees dan snel verder!TakenpakketIn jouw rol als Back end Developer draait de dag om het ontwerpen en bouwen van schaalbare oplossingen die de verwachtingen van de klant overtreffen.Ontwikkelen van robuuste API-koppelingen zodat verschillende databronnen feilloos met elkaar spreken.Opzetten van slimme integraties tussen Shopify-omgevingen en externe software voor een gestroomlijnd proces.Uitschrijven van schone, onderhoudbare code in PHP om de fundamenten van online platformen te versterken.Experimenteren met AI-toepassingen waardoor workflows versnellen en digitale producten slimmer opereren.Meedenken over de technische architectuur om toekomstige groei en veiligheid van de webshops te garanderen.ProfielOm succesvol te zijn als Back end Developer, breng je naast technische bagage vooral een oplossingsgerichte mindset mee.We zoeken hier geen expert. Heb je 1-5 jaar ervaring in PHP development? Perfect! Ervaring met PHP, MySQL en de integratie van externe systemen via REST of GraphQL.Collega's omschrijven jou als iemand die graag zelfstandig werkt, maar net zo goed floreert tijdens brainstorms over code.Kennis van PIM- en ERP-systemen, of een raamwerk zoals Laravel, geeft jou een stevige voorsprong.Nieuwsgierigheid naar nieuwe technologieën zorgt ervoor dat je innovatie rond kunstmatige intelligentie met open armen ontvangt.Wat krijg jij hiervoor terug?Een aantrekkelijk bruto maandloon (€2800-4000 bruto) dat perfect is afgestemd op jouw opgebouwde kennis en inzet.Een totaal van €245 netto onkostenvergoeding om je loon een grote boost te geven. De mogelijkheid om te kiezen voor een fulltime werkweek of een 4/5 regime voor een "
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4438923366",
-      "title": "Senior PHP Website Developer",
-      "company": "Stretch.com",
-      "url": "https://es.linkedin.com/jobs/view/senior-php-website-developer-at-stretch-com-4438923366",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-14",
-      "work_type": "onsite",
-      "location": "Marina Alta, Valencian Community, Spain",
-      "description": "Full-timeWe are currently looking for a full-time Senior PHP Website Developer for our studios with the below specifications:Responsibilities Architect software solutions Develop and expand features and products Review project requirements and write technical specifications Debug, test, and fix errors Document code development and revisions Create and use software tools to help automate writing codeQualifications 5+ years of PHP experience Strong problem solving and communication skills Strong knowledge of SQL (e.g. MySQL or PostgreSQL) Goal oriented, attention to detail Smart, being able to work independently and also in a team Proficient understanding of code versioning tools such as Git. University DegreePlus Experience with Symfony or Laravel framework DevOps Experience Javascript / Frontend Experience Server Administration / Command line (Linux) Experience SEO skills"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4458759352",
       "title": "Senior Php Developer S&H",
       "company": "IRIUM Portugal",
@@ -7596,18 +7876,6 @@
       "description": "L'offreSecteursAutomobile, Aéronautique, Spatial, Défense & Sécurité, Ferroviaire, Télécommunications, Energie, Services & Systèmes d'Informations, Chimie / Pétrochimie, Digital & E-Commerce, Naval, Machines & Industrie Lourde, Pharmaceutique / Biotechnologie, Banque & Assurance, BTPDescription De L'offreNous recrutons pour l'un de nos clients un Développeur PHP Symfony, à pourvoir dès que possible. Les responsabilités incluent : - Développer et maintenir des applications web basées sur le framework Symfony. - Concevoir des architectures logicielles solides pour supporter les exigences des projets. - Intégrer des solutions de paiement, des services de géolocalisation, et autres API tierces. - Collaborer avec les équipes front-end pour assurer une intégration seamless des interfaces utilisateur. - Documenter le développement et maintenir des guides pour les utilisateurs et autres développeurs. - Participer activement à l'amélioration des processus de développement au sein de l'équipe.Missions à réaliserDévelopper des applications web robustes et évolutives en utilisant le framework Symfony.ModalitésDate de démarrage : dès que possibleDate de fin : non spécifiéeCandidats recherchés : 1Expérience : 6+ ansType de contrat : CDI, Temps completRémunération : 45000 € - 55000 € par an selon expérienceLocalisation : 8th arrondissement, Lyon, FranceTélétravail partielLe profil recherchéCompétences requisesSymfony, Php, Composants Symfony, Bases de données relationnelles, mysql, Postgrésql, Outils de gestion de version, GitDescription Du Profil Solide - Expérience en développement avec le framework Symfony - Maîtrise du langage PHP et des composants Symfony - Connaissance des bases de données relationnelles (MySQL, PostgreSQL) et des outils de gestion de version (Git) - Capacité à concevoir, développer et maintenir des applications web - Excellentes compétences en résolution de problèmes et en optimisation du code - Capacité à travailler en équipe et à collaborer avec les équipes front-end et back-end - Attention aux détails et respect des délaisLanguesFrançaisÀ propos de l'entrepriseLes secteurs d'activitéAutomobile, Aéronautique, Spatial, Défense & Sécurité, Ferroviaire, Télécommunications, Energie, Services & Systèmes d'Informations, Chimie / Pétrochimie, Digital & E-Commerce, Naval, Machines & Industrie Lourde, Pharmaceutique / Biotechnologie, Banque & Assurance, BTPPrésentationDepuis 2016, Kicklox aide talents tech et entreprises industrielles à se rencontrer et "
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4459673496",
-      "title": "Programista PHP",
-      "company": "SEOHOST.pl",
-      "url": "https://pl.linkedin.com/jobs/view/programista-php-at-seohost-pl-4459673496",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-14",
-      "work_type": "onsite",
-      "location": "Poznań, Wielkopolskie, Poland",
-      "description": "Powrót do listy stanowiskProgramista PHPDynamiczna firma hostingowa SeoHost.pl o ugruntowanej pozycji rynkowej, poszukuje do swojego zespołu osoby, która będzie rozwijała istniejący już panel billingowy oraz system CMS strony https://seohost.pl.Pracujemy w biurowcu przy ul. Obornickiej 330 ( Piątkowo ) w Poznaniu, w pełni zdalnie lub hybrydowo.O projekcieNasz panel to centrum informacji o naszym kliencie i jego usługach. Poznasz szereg integracji w zakresie automatyzacji uruchamiania i utrzymywania usług takich jak domeny, hosting czy zwirtualizowane środowiska, które są automatycznie uruchamiane przez nasz panel. Będziesz miał okazję współtworzyć oprogramowanie, które używa kilkadziesiąt tysięcy osób i utrzymuje ponad 100 000 różnego rodzaju usług.Twoje umiejętności minimum 2 lata doświadczenia w pracy na podobnym stanowisku, umiejętność pracy w zespole, znajomość systemu kontroli wersji GIT, znajomość framework’a Laravel, znajomość wzorców projektowych i praktyczne ich stosowanie,Mile widziane umiejętność pisania prostych komponentów we Vue.js, umiejętność pisania prostych testów funkcjonalnych,Zapewniamy kulturę pracy w zorganizowanej metodologii, pracę z doświadczonym Product Ownerem w innych projektach programistycznych, komfortowe warunki pracy, miłą atmosferę, możliwość rozwoju, stabilną pracę,Proces rekrutacjiAplikacjaPrześlij swoje CV. Analizujemy każde zgłoszenie, aby poznać Twoje doświadczenie i zainteresowanie stanowiskiem.Wypełnij formularzRozmowa kwalifikacyjnaSpotkanie z menedżerem zespołu, podczas którego omawiamy Twoje umiejętności, doświadczenie oraz dopasowanie do zespołu.Decyzja i ofertaPo pozytywnym zakończeniu rozmowy otrzymasz naszą ofertę pracy i zaproszenie do dołączenia do zespołu SEOHOST.pl.Benefitypracy w SeohostPracuj skąd chceszElastyczne godziny pracyBiuro przyjazne zwierzętomOpieka zdrowotnaNie znalazłeś odpowiedniego stanowiska?Prześlij CV"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4409622235",
       "title": "PHP Full Stack Developer (Laravel / Vue / Next.js)",
       "company": "PLC Group - Global Automotive Auctions & Digital Solutions",
@@ -7679,29 +7947,6 @@
       "location": "Paris, Île-de-France, France",
       "easy_apply": true,
       "description": "Nous recherchons un(e) Lead Développeur Fullstack PHP pour rejoindre un acteur reconnu du digital et prendre un rôle de référent technique sur des projets à forte visibilité.L’objectif : apporter une vraie expertise Fullstack avec une dominante Back-end, faire évoluer les standards techniques et accompagner les équipes sur des problématiques complexes.Tes missionsPrendre le lead technique sur des projets digitaux stratégiquesConcevoir et développer des solutions Fullstack, avec une forte dominante PHP / Back-endParticiper aux choix de stack, architecture et conception techniqueDéfinir et faire évoluer les standards : qualité, patterns, code reviews, CI/CDDébloquer les problématiques complexes côté Back-end comme Front-endAccompagner les développeurs et les faire monter en compétenceÊtre force de proposition auprès des clients et savoir porter les décisions techniquesFaire évoluer les pratiques de développement grâce aux outils IALe poste reste très opérationnel : environ 70 % technique / 30 % lead & accompagnement.Stack & environnement techniquePHP · Laravel · WordPress · JavaScript · TypeScript · Node.js · Next.js · PostgreSQL · Redis · REST · GraphQL · DockerL’environnement comporte différents CMS modernes : nous recherchons donc un profil capable de prendre du recul sur les technologies et d’adopter une approche CMS agnostique.Le profil recherchéTu es un(e) Lead Fullstack expérimenté(e), avec une expertise particulièrement forte côté Back-end / PHP.Tu :Maîtrises PHP / Laravel et possèdes une bonne connaissance de WordPressComprends les enjeux Front-end et les architectures Fullstack modernesAs une solide maîtrise des CMS et problématiques d’architectureEs capable de challenger une stack et de prendre des décisions techniques structurantesAs déjà occupé un rôle de Lead / référent techniqueRestes très à l’aise dans le code et sur les problématiques complexesEs autonome, pragmatique et force de propositionPossèdes un très bon relationnel client et sais défendre tes recommandations techniquesDéveloppement & IAL’utilisation avancée de l’IA dans le développement fait partie intégrante de l’environnement.Une bonne maîtrise des approches d’agentic coding et d’outils comme Claude Code, Cursor, Codex ou équivalent est attendue.Les plusUne expérience sur des projets digitaux à fort niveau d’exigence, notamment dans des environnements premium, créatifs ou à forte visibilité, sera appréciée.ParisCDIHybrideRémunération : jusqu’à 65K€ selon profil"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4434718051",
-      "title": "PHP Developer",
-      "company": "INCERT GIE",
-      "url": "https://lu.linkedin.com/jobs/view/php-developer-at-incert-gie-4434718051",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-14",
-      "work_type": "remote",
-      "location": "Leudelange, Luxembourg, Luxembourg",
-      "description": "ORGANISATIONINCERT is a center of expertise providing services and solutions based on knowledge and experience acquired in cryptography, Public Key Infrastructure (PKI), eTravel document, biometry and artificial intelligence.Established since 2012, INCERT is a Public Agency owned by the State of Luxembourg and the Luxembourg Chamber of Commerce. INCERT also represents and defends Luxembourg’s national interests at European and international organizations.Further information about INCERT can be found at www.incert.lu.Within the scope of its business activities, INCERT is now recruiting a PHP Developer as a permanent position.YOUR RESPONSIBILITIESBackend DevelopmentDesign and develop robust backend applications using PHP (Symfony, Laravel or similar MVC frameworks).Build and maintain REST and/or SOAP APIs consumed by INCERT mobile and web applications.Create efficient, secure and scalable backend architectures aligned with INCERT’s technical guidelines.Application Maintenance & EvolutionMaintain, refactor and improve existing PHP applications and internal tools. Ensure compliance with best practices regarding security, performance, and code quality.Participate actively in application lifecycle: analysis, development, testing, deployment and monitoring.Database ManagementDesign and optimise SQL database schemas (MySQL, PostgreSQL or equivalent).Write efficient queries, ensure data integrity and manage migrations.Quality Assurance Write unit tests and contribute to automated test strategies.Participate in code reviews and ensure clean, documented and maintainable code.Collaboration & DocumentationCollaborate closely with developers, UX designers, product owners and project managers.Contribute to internal documentation, development standards and best practices.Participate in continuous improvement initiatives and propose technical enhancements.YOUR PROFILETechnical skills and educationAt least 3 to 5 years of professional experience in PHP development.Strong knowledge of PHP 8, OOP, MVC principles and modern frameworks (e.g., Symfony, Laravel, CodeIgniter…).Experience with API development, authentication mechanisms, (TOTP, OAuth2, OIDC) and secure data flows.Experience with API development, authentication mechanisms and secure data flows.Strong SQL knowledge (MySQL, PostgreSQL) and familiarity with ORM tools (Doctrine, Eloquent).Good understanding of front-end technologies (HTML/CSS/JS) to interact with UI teams.Knowledge of version control systems (Git) and CI",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Strong PHP experience"
-      ],
-      "match_cons": [
-        "Missing Symfony",
-        "Danish preferred"
-      ],
-      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4465045087",
@@ -7877,28 +8122,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4451223139",
-      "title": "Senior PHP Back End Engineer (m/f/d)",
-      "company": "Smoobu - The Vacation Rental Software",
-      "url": "https://de.linkedin.com/jobs/view/senior-php-back-end-engineer-m-f-d-at-smoobu-the-vacation-rental-software-4451223139",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-14",
-      "work_type": "remote",
-      "location": "Berlin, Germany",
-      "description": "Life at SmoobuAt Smoobu, we are building more than just software. We empower everyday people to become successful entrepreneurs by helping them manage their vacation rentals simply and efficiently. Our platform supports over 100,000 properties in 120+ countries, enabling hosts to grow their businesses confidently and efficiently.That kind of impact doesn’t come from playing it safe; it comes from people who take ownership, act purposefully, and work together to make things happen.How you will contribute to our successWork hand-in-hand with business stakeholders to identify requirements, plan milestones, and polish features by measuring their performanceDecompose the monolith, building a modern import/export pipeline to support hundreds of third-party integrationsMigrate the application environment from the private cloud to the AWS platformChoose adequate technical and business metrics to monitor features and manage the riskApply engineering best practices to the current team environment Solve technical design issuesYou will thrive in this role if youHave solid relevant experience in Backend engineeringAre familiar with AI-assisted software development, including agentic coding tools and workflowsAre proficient in our technical stackModern PHP & Symfony Relational and non-relational databases Docker and containerized environmentsHave a practical knowledge of:Decomposing monolithic architecturesClean CodingTest-Driven DevelopmentSOLID principlesHave experience with cloud platforms, preferably AWSHave excellent communication skills and the ability to work efficiently in a distributed teamAre fluent in EnglishNice To HaveExperience with layered architecturesExperience with CQRS patternsUnderstanding of Domain-Driven Design principlesOur ValuesSupport each other with candid feedback, encouragement, and trust — success is a team sportStay authentic by bringing our true selves to work and valuing each person’s unique contributionsBe reliable, follow through on commitments, and show up for each other every dayEmbrace experimentation, welcome change, and learn quickly from new ideasGet things done by solving problems with focus, action, and a bias for simplicityWhat you can expectFlexibility – We work remotely for up to 50% of the year, including up to 63 working days abroad.Time to Recharge – 27 vacation days, plus one extra day for each year of tenure (up to 32). Celebrate your 5th anniversary with five additional paid days off and a €500 HomeToGo booking credit.",
-      "match_score": 82,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Seniority fits"
-      ],
-      "match_cons": [
-        "Requires AWS",
-        "Danish preferred"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4439706381",
       "title": "PHP developer/full-stack",
       "company": "Digitalents Ukraine",
@@ -8048,28 +8271,6 @@
       "description_failed": true
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4448579494",
-      "title": "SENIOR PHP DEVELOPER",
-      "company": "Capturly",
-      "url": "https://hu.linkedin.com/jobs/view/senior-php-developer-at-capturly-4448579494",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-14",
-      "work_type": "remote",
-      "location": "Szeged, Csongrád, Hungary",
-      "description": "Capturly jobsSenior PHP developerWe are looking for experienced PHP developers to join our forces and work together on the future of Capturly. As a developer, your job will be to assist us in achieving our vision and build a platform that can help our customers with real business insights.You Will Have The Following ResponsibilitiesContributing to the success of our own fast-growing projectsDevelopment of new product functionality, technical analysis, effort estimationImplementation of new business requirementsWrite code that works and is easily read, tested and maintainedYou Are The One We Are Looking For IfYou have 3 years of experience with PHPYou are familiar with at least one PHP framework (Yii, Laravel, Symfony, etc.)You have experience with client-side coding: JavaScript, jQueryYou have good knowledge of MySQL/PostgreSQLYou have competitive knowledge of Linux operating systemYou can read professional documentation in EnglishYou can work independently and in a team as wellIt’s a Bonus, If You HaveExperience with agile developmentBasic knowledge of how tracking codes workUsed Git beforeFor All This We OfferCompetitive salary and benefits A long-term job opportunity Continuous possibility to improve your skills A young and dynamic team An innovative environment at a fast-growing company Free coffee Don't worry! We don't ask for anything which couldn't be learnt with the appropriate basics and the right will; therefore, we're looking for people who both want to learn and are willing to develop their professional skills.Our team will provide you with every opportunity to become better and better. If you consider yourself suitable for a job, don't hesitate to contact us!hello@capturly.com",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Seniority fits"
-      ],
-      "match_cons": [
-        "Missing PostgreSQL expertise",
-        "Danish preferred"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4461085096",
       "title": "PHP-ontwikkelaar",
       "company": "Elevation Group",
@@ -8185,29 +8386,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4435119276",
-      "title": "PHP Backend Developer",
-      "company": "adnomaly",
-      "url": "https://de.linkedin.com/jobs/view/php-backend-developer-at-adnomaly-4435119276",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-14",
-      "work_type": "remote",
-      "location": "Düsseldorf, North Rhine-Westphalia, Germany",
-      "easy_apply": true,
-      "description": "adnomaly ist ein B2B-SaaS-Unternehmen, das das Mediabudget seiner Kunden schützt – mit einer Lösung, die es so kein zweites Mal am Markt gibt. Das heißt für dich: keine ausgetretenen Pfade, sondern echte Pionierarbeit, eine steile Lernkurve und ein Produkt, an dem du wirklich etwas bewegst. Schon heute arbeiten einige der größten Mediaagenturen Deutschlands mit uns – und unsere Ambition ist klar: ein Key-Player im AdTech-Bereich zu werden.Ihre Aufgaben:Als Backend Entwickler bist Du für die Weiterentwicklung unserer adnomaly-Systeme verantwortlich und überlegst stets, wie wir das System noch besser machen können. Du bindest gemeinsam mit unserem Team weitere DSP-APIs (DV360, FB, TikTok etc.) an, um für unsere Kunden noch mehr Mehrwert zu generieren. Dabei bringst du Dich proaktiv mit Vorschlägen und Technologien in den Entwicklungsprozess mit ein, denn wir sind offen für Deinen Input! Das Ganze machst du am besten in agilen Methoden, und bist dadurch im kompletten Entwicklungszyklus eingebunden. Das klingt nach einer Aufgabe, die Dir Spaß macht? Dann bist du die perfekte Ergänzung für unser Tech Start-Up.Ihr Profil:Kenntnisse in PHP7/8+ (3+ years)Erfahrung mit Symfony 5/6, Git und dem Atlassian StackErfahrung mit Queueing-Systemen wie z.B. RabbitMQDesign Patterns und Clean Code sind Dir wichtigHands-On MentalitätCommitment und LeidenschaftBereitschaft, dich permanent weiterzuentwickelnWarum wir:adnomaly ist ein B2B SaaS Unternehmen und schützt das Mediabudget seiner Kunden! Dafür haben wir eine Innovative Lösung geschaffen, die es so kein zweites Mal auf dem Markt gibt. Eine steile Lernkurve und echte Pionierarbeit sind also garantiert. Du wirst Teil eines sich schnell entwickelnden Unternehmens, das bereits jetzt mit den größten Mediaagenturen Deutschlands zusammenarbeitet und die Ambition hat, ein Key-Player im AdTech-Bereich zu werden.Darüber hinaus bieten wir:Ein kompetitives GehaltStart-Up feeling mit guter Work-Life-BalanceArbeit ganz nah am Markt, mit neuesten TechnologienSpannende, abwechslungsreiche und anspruchsvolle Tätigkeit mit täglich neuen HerausforderungenFlache Hierarchien, schnelle Entscheidungswege, Wertschätzung für Deine ArbeitAgiles TeamKnow-How Aufbau, ReifegradentwicklungIndividuelle Lösungen für jeden Einzelnen (Homeoffice-Optionen)WellPassUnser Tech Stack:PHP 7.4, JavaScript, MySQL, Symfony 5, RabbitMQ, Docker, GitLab CI, Deployer, DataDog, GitÜber unsadnomaly technologies ist ein junges Tech-Startup mit Sitz in Düsseldorf und wur",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP 7.4 matches",
-        "Seniority matches"
-      ],
-      "match_cons": [
-        "Symfony 5 instead of Laravel",
-        "No PostgreSQL experience"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4448972775",
       "title": "Senior PHP Developer | AI-Driven Development",
       "company": "Haystack People",
@@ -8313,19 +8491,6 @@
       "location": "Bologna, Emilia-Romagna, Italy",
       "easy_apply": true,
       "description": "Siamo alla ricerca di un/una **Junior Full Stack Developer** da inserire nel nostro team di sviluppo, con almeno **2 anni di esperienza professionale** nella realizzazione e manutenzione di applicativi web.La figura lavorerà su progetti e piattaforme custom, collaborando con il team nella progettazione, sviluppo ed evoluzione di applicazioni web, con particolare focus sullo sviluppo backend in **PHP / Laravel**.Cerchiamo una persona con buone basi tecniche, curiosità e voglia di crescere, capace di lavorare sia su funzionalità esistenti sia sullo sviluppo di nuovi componenti e integrazioni.### Attività principaliLa risorsa si occuperà principalmente di:* sviluppo e manutenzione di applicazioni web full stack;* sviluppo backend utilizzando **PHP e Laravel**;* progettazione e sviluppo di **API REST**;* integrazione con servizi, API e sistemi esterni;* gestione e interrogazione di database relazionali, principalmente **MySQL / MariaDB**;* sviluppo e manutenzione di interfacce frontend;* analisi e risoluzione di bug e problematiche applicative;* collaborazione con gli altri sviluppatori nelle attività di analisi tecnica e sviluppo;* utilizzo di Git per versionamento e gestione del codice;* partecipazione alle attività di rilascio e manutenzione degli ambienti applicativi.### Requisiti* almeno **2 anni di esperienza** nello sviluppo di applicazioni web;* buona conoscenza di **PHP**;* esperienza concreta con il framework **Laravel**;* conoscenza dello sviluppo e utilizzo di **API REST**;* buona conoscenza di **HTML, CSS e JavaScript**;* esperienza con database relazionali e linguaggio **SQL**;* conoscenza di **Git** e dei principali workflow di versionamento del codice;* capacità di analizzare codice esistente e intervenire su progetti già avviati;* attitudine al problem solving e alla collaborazione all'interno di un team.### Competenze graditeCostituiscono un plus:* conoscenza di **React** e dello sviluppo frontend basato su componenti;* conoscenza di **TypeScript**;* esperienza, anche di base, con **Docker** e Docker Compose;* aver lavorato o avere familiarità con processi di **deploy e gestione degli ambienti di sviluppo, staging e produzione**;* conoscenza di sistemi Linux e dei principali strumenti da riga di comando;* esperienza con integrazioni verso servizi esterni, sistemi ERP/CRM o piattaforme di terze parti;* conoscenza dei principi di autenticazione, autorizzazione e sicurezza delle applicazioni web.Non è richiesta una conoscenza avanzata di tutte q"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4465384517",
-      "title": "Senior Full-Stack Engineer (Laravel / Vue.js)",
-      "company": "Relocity, Inc.",
-      "url": "https://www.linkedin.com/jobs/view/senior-full-stack-engineer-laravel-vue-js-at-relocity-inc-4465384517",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-14",
-      "work_type": "remote",
-      "location": "United States",
-      "easy_apply": true,
-      "description_failed": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4465361046",
@@ -8454,28 +8619,6 @@
       "description": "We're looking for a Senior Backend PHP (Laravel) Developer to own backend services, shape technical decisions, and help scale our platform for growing global demand. You'll also help us put AI to work — both inside our product and in how we build.Who Are WeIPXO is the leading full-cycle IPAM (IP Address Management) solution that empowers businesses of any size through IP monetization and leasing. Our mission is to work towards secure and sustainable Internet that creates equal opportunities for everyone. IPXO is a place where people are valued as the backbone of the company. Our goal is to build an open and free-to-explore team of professionals who thrive in their fields of expertise while building the future of the Internet.In This Position You WillDesign, build, and maintain backend services and APIs in PHP (Laravel)Use AI tools daily to accelerate real work — rebuilding legacy systems, fixing bugs, and shipping featuresBuild AI-powered product features that create real value for usersDrive architecture and workflow decisions; set the bar on performance, scalability, and securityCollaborate with product, design, and engineering to ship high-impact featuresTroubleshoot complex production issuesWe Expect That You Have6+ years in backend development, with deep PHP + Laravel expertiseProven, daily use of AI-assisted development tools (Cursor, Copilot, Claude) to write, refactor, and debug production code — with strong judgment on when to trust or override AI outputProven track record building scalable APIs and servicesStrong database skills (MySQL/PostgreSQL) and query optimizationSolid grasp of software architecture, design patterns, and testingComfortable with Git, CI/CD, and modern development pipelinesStrong communication in EnglishNice To HaveGoContainerization (Docker, Kubernetes)Cloud environmentsHigh-traffic systems.Why IPXO?Gross salary from 6000 €/month — open to discussing based on your skillsHybrid model: 2 days/week in Vilnius or KaunasAdditional vacation days, health & accident insuranceHigh-impact role with direct influence on business successWork alongside experienced engineers in an agile, innovation-driven teamCompany events — summer/winter celebrations, team buildings, conferences"
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4442623016",
-      "title": "PHP / Symfony Developer (m/w/d)",
-      "company": "Webmasterware.net GmbH",
-      "url": "https://de.linkedin.com/jobs/view/php-symfony-developer-m-w-d-at-webmasterware-net-gmbh-4442623016",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-13",
-      "work_type": "remote",
-      "location": "Trier Region",
-      "description": "Bitte lieber digitalWir sind ein IT-affines Unternehmen, daher bevorzugen wir Bewerbungen in digitaler Form. Richten Sie Ihre Bewerbungsunterlagen im PDF-Format daher bitte vorzugsweise per E-Mail an jobs(AT)webmasterware.net.Alternativ können Sie sich auch schriftlich bewerben. Verzichten Sie dabei jedoch bitte auf die Verwendung von Bewerbungsmappen, da wir schriftlich eingehende Unterlagen nach Abschluss des Auswahlprozesses nicht zurücksenden. Schriftliche Bewerbungen richten Sie bitte postalisch an die im Impressum angegebene Anschrift, z.Hd. Personalabteilung.Wir freuen uns auf Ihre Bewerbung.",
-      "match_score": 58,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No Symfony match",
-        "Danish preferred"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4463367525",
       "title": "Sviluppatore php",
       "company": "Thunder",
@@ -8537,18 +8680,6 @@
       "description": "No. of candidates required: 4Experience : 2-5 yearsEducation : BSC or Masters in Computer Science or related field or equivalent experienceSkills : Php , Codeignitor"
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4463981299",
-      "title": "Back-end PHP Developer",
-      "company": "PHH Group | Pigu Hobby Hall Group (Pigu.lt, 220.lv, Kaup24.ee, HobbyHall.fi)",
-      "url": "https://lt.linkedin.com/jobs/view/back-end-php-developer-at-phh-group-pigu-hobby-hall-group-pigu-lt-220-lv-kaup24-ee-hobbyhall-fi-4463981299",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-13",
-      "work_type": "remote",
-      "location": "Vilnius, Vilniaus, Lithuania",
-      "description": "PHH Group is a leading e-commerce platform with marketplace, e-shops, and physical stores in Lithuania, Latvia, Estonia, and Finland. The company's goal is to be the No.1 choice for buyers when shopping online and to be the best partner for online businesses.Responsibilities:Working on projects that are based on PHP;Develop, test, and maintain PHP-based web applications and APIs;Participate in code reviews to ensure code quality and adherence to coding standards;Troubleshoot and debug issues, providing timely resolutions;Stay updated on emerging technologies and best practices in web development;Work closely with other developers and stakeholders to deliver high-quality solutions on time;Contribute to architectural decisions and technical discussions;Rapid improvement of the e-commerce system and implementation of the latest programming technologies;Programming of new e-commerce system features;Maintenance and enhancement of existing systems.Requirements:You write modern PHP (7.4+) day to day and know the newer language features well;Strong back-end and system architecture skills, with the judgement to weigh trade-offs and justify design decisions;Solid understanding of relational database design, query optimization and indexing (MySQL);Working experience with message queues (RabbitMQ), caching (Redis) and search (ElasticSearch), or close equivalents;Experience with PHP frameworks such as CodeIgniter or Symfony;Practical experience using AI coding assistants (Cursor, Claude Code or similar) in day-to-day development, with sound judgement on reviewing and validating generated code;Experience writing and maintaining automated tests (PHPUnit or similar);Comfortable with Git, code review, and CI/CD pipelines.Nice to have:Experience in an Agile/Scrum team;API design experience (REST);Docker usage.We offer:Expand your knowledge in one of the fastest growing e-commerce company;The place for Your ideas to become alive;Real career opportunities;Inclusive and supportive culture;Perks: Health insurance after the probationary period, group discounts, international events;Motivational system.Salary:3400-4000 €/mon. grossWork place:Laisvės pr. 75, Vilnius"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4453568986",
       "title": "Drupal Developer",
       "company": "Alrek Business Solutions Inc",
@@ -8570,18 +8701,6 @@
         "Drupal not PHP framework",
         "Requires Danish fluency"
       ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4464365074",
-      "title": "Lead PHP Developer (m/w/d) 100.000€",
-      "company": "Computer Futures",
-      "url": "https://de.linkedin.com/jobs/view/lead-php-developer-m-w-d-100-000%E2%82%AC-at-computer-futures-4464365074",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-13",
-      "work_type": "remote",
-      "location": "Mainz, Rhineland-Palatinate, Germany",
-      "description": "Lead PHP Developer (m/w/d) 100.000€Bis zu 100.000 € p.a. | Frankfurt am Main | Unbefristete FestanstellungFür ein innovatives und wachstumsstarkes Unternehmen im digitalen Finanzumfeld suchen wir eine technikaffine Führungspersönlichkeit mit Hands-on-Mentalität. In dieser Schlüsselposition übernehmen Sie die fachliche Verantwortung für ein Entwicklerteam und treiben die Weiterentwicklung moderner Banking- und Payment-Lösungen aktiv voran. Dabei verbinden Sie strategische Weitsicht mit operativer Entwicklungsarbeit und gestalten die technologische Zukunft des Unternehmens maßgeblich mit.Ihre AufgabenDefinition, Einführung und Weiterentwicklung technischer Standards, Entwicklungsrichtlinien und skalierbarer Softwarearchitekturen.Optimierung und Modernisierung bestehender Entwicklungs-, Deployment- und Betriebsprozesse.Konzeption und Umsetzung neuer Features sowie kontinuierliche Weiterentwicklung bestehender Anwendungen.Verantwortung für die IT-Systemlandschaft Ihres Bereichs, einschließlich Anwendungsarchitektur, Infrastruktur und Systemverfügbarkeit.Enge Abstimmung technischer und organisatorischer Entscheidungen mit einem weiteren Team Lead, um eine einheitliche technologische und strategische Ausrichtung sicherzustellen.Fachliche und persönliche Weiterentwicklung eines Entwicklerteams von rund fünf Mitarbeitenden durch Coaching, Mentoring und regelmäßiges Feedback.Aktive Mitarbeit in der Softwareentwicklung mit einem operativen Anteil von etwa 80 % der Tätigkeit.Ihr ProfilMehrjährige Berufserfahrung in der Softwareentwicklung, idealerweise als Senior Developer, Lead Developer oder Software Architect.Erste Erfahrung in der fachlichen oder disziplinarischen Führung von Mitarbeitenden ist von Vorteil.Fundierte Kenntnisse in PHP 8 sowie praktische Erfahrung mit Symfony und/oder Laravel.Sicherer Umgang mit MySQL, Linux (idealerweise Debian), Docker und Git.Erfahrung mit Clean-Code-Prinzipien sowie agilen Entwicklungsmethoden wie Scrum oder Kanban.Kenntnisse in Ansible oder vergleichbaren Automatisierungslösungen sind wünschenswert.Ausgeprägte technische Affinität und die Motivation, weiterhin aktiv Software zu entwickeln.Sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift.Das AngebotAttraktives Jahresgehalt von bis zu 100.000 € brutto p.a. (All-in), abhängig von Qualifikation und Erfahrung.Unbefristete Festanstellung bei einem wirtschaftlich erfolgreichen und zukunftsorientierten Unternehmen.Hybrides Arbeitsmodell mit einem Homeoffice-Tag pro Woche."
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4430755220",
@@ -8773,18 +8892,6 @@
         "Requires AWS",
         "Danish preferred"
       ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4465073726",
-      "title": "Marketing Technology Web Developer (Drupal & Marketing Automation)",
-      "company": "Utimaco",
-      "url": "https://de.linkedin.com/jobs/view/marketing-technology-web-developer-drupal-marketing-automation-at-utimaco-4465073726",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-13",
-      "work_type": "remote",
-      "location": "Düsseldorf, North Rhine-Westphalia, Germany",
-      "description": "Utimaco is an international provider of IT security solutions and cybersecurity technologies with headquarters in Aachen (Germany) and Campbell (USA). For over 40 years, we have been developing innovative solutions for the protection of people, data and communications that meet the highest standards. We are the world's leading manufacturer of hardware security modules and compliance solutions in a wide range of industries such as automotive, banking, telecommunications and many more. With our global network of partners and customers, we contribute to making digital information and infrastructures secure worldwide. Become part of our team and help us make the digital world more secure - together we are shaping the future of IT security. Join Utimaco as a Digital Marketing Architect (m/f/d). Shape digital strategy. Work remotely or in Düsseldorf/Aachen. Thrive in a tech-driven, flexible environment.,Drupal and web developmentBuild, configure, and maintain responsive landing pages, campaign pages, forms, and reusable components in Drupal.Develop accessible, mobile-first web experiences aligned with brand, UX, SEO, and performance standards.Work with Drupal content types, views, blocks, themes, modules, permissions, and environments.Support website releases, quality assurance, documentation, and ongoing technical improvements.Marketing automation and integrationsBuild and maintain integrations between Drupal, marketing automation platforms, Salesforce, webinar and event tools, advertising platforms, analytics tools, and other marketing technologies.Configure and troubleshoot forms, campaign programs, lead capture, consent, progressive profiling, scoring, routing, notifications, and nurture workflows.Work with APIs, webhooks, middleware, and data mappings to ensure reliable movement of campaign and prospect data.Validate field mapping, source attribution, campaign membership, duplicate handling, consent status, and lead lifecycle behavior.Campaign enablement and optimizationTurn campaign briefs into live landing pages and connected digital experiences within agreed timelines.Support localized campaign execution across English, German, French, Spanish, Portuguese, Korean, and Japanese markets.Implement and validate analytics, conversion tracking, UTM parameters, pixels, events, and reporting requirements.Contribute to SEO implementation, including metadata, structured content, internal linking, technical hygiene, and search-friendly page experiences.,Required Qu"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4460709554",
@@ -10093,28 +10200,6 @@
       "description": "Wer wir sind: Wir entwickeln individuelle Enterprise Webanwendungen für unsere Kunden. Unsere Kunden kommen aus dem öffentlichen Sektor, internationalen Großkonzernen, als auch dem regionalen Mittelstand. Unser Ziel ist eine nachhaltige und langfristige Zusammenarbeit mit unseren Kunden. Das spiegelt sich auch in unseren Produkten wider.Wir haben noch weitere spannende Ziele und Herausforderungen auf unserer Agenda. Wir möchten weiter wachsen und unser hauseigenes CMS Micreado weiter voran bringen.Du entwickelst gerne Webanwendungen mit PHP? Sauberer und stabiler Code gehört für Dich zum guten Ton? Du entwickelst Dich gerne weiter und bist bereit kontinuierlich dazu zu lernen? Dann ergänze unser Team und arbeite an spannenden und nachhaltigen Projekten mit!Unser Technologie StackUnsere Anwendungen basieren auf PHP 8, MariaDB, nginx und ApacheZusätzlich integrieren wir andere Produkte und nutzen dazu die APIs der AnbieterWir stehen auf Clean Code, haben einen einheitlichen Codestyle den wir gemeinsam weiterentwickeln.Eine hohe Codequalität ist uns wichtig — wir entwickeln daher testgetriebenWir haben ein zentrales Continuous Delivery System, mit dem wir mehrfach täglich neue Software an unsere Kunden ausrollen. Mit einem Klick!Zu Deinen Aufgaben zählenKonzeption, sowie Neu- und Weiterentwicklung von spannenden Online-Portalen mit etablierten Tools (PHP 8, MySQL / MariaDB, Rest, Angular)Weiterentwicklung und Wartung der Gesamtarchitektur, bestehend aus Frontend, Backend, Datenbanken, Caches etc., sowie Evaluation von neuen TechnologienOptimierung und Skalierung des Systems in einer serviceorientierter ArchitekturWeiterentwicklung unseres automatisierten Releaseprozesses (Continuous Integration) und der Qualitätssicherung (Unit Testing)Mitwirkung bei der Gestaltung unserer Softwarearchitekturen und der Auswahl von TechnologienAktive Teilnahme an agilen ArbeitsprozessenWas Du mitbringstErfolgreich abgeschlossenes Studium der Informatik oder eine abgeschlossene informationstechnologische BerufsausbildungMind. 2 Jahre Berufserfahrung als Senior Entwickler (m/w/d)Fundierte Kenntnisse in PHP, MySQL, HTML, CSS und JavaScriptIdealerweise Erfahrung mit dem Symfony Framework, Angular oder Vue.jsQualitätsbewusstsein, eigenverantwortliches Arbeiten und Lösen von ProblemstellungenMit gängigen Entwicklungstools wie Xdebug, PHPUnit, Composer, Docker, git kennst du dich aus und auch für neue Tools bist Du jederzeit offenDu bist bereit dich kontinuierlich weiter zu bilden un"
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4217062408",
-      "title": "PHP Backend Entwickler (m/w/d)",
-      "company": "SC-Networks GmbH",
-      "url": "https://de.linkedin.com/jobs/view/php-backend-entwickler-m-w-d-at-sc-networks-gmbh-4217062408",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-11",
-      "work_type": "remote",
-      "location": "Starnberg, Bavaria, Germany",
-      "description": "Du hast Spaß und Erfahrung an Entwurf und Umsetzung objektorientierter webbasierter Software.Begriffe wie Clean Code, Pair Programming und Testdriven Development klingen für dich nach spannenden Entwicklungsmethodiken.Du hast Lust auf agile Prozesse, auf das Erlernen von neuen Technologien und auf ein aktives Mitgestalten an einer der führenden E-Marketing Lösungen im europäischen Markt zusammen mit einem super Team.Worauf wartest du noch?Bewirb dich bei uns - und werde schnell Teil der bereits seit 20 Jahre andauernden Erfolgsstory hinter Evalanche (www.evalanche.com).Deine AufgabenEntwurf, Umsetzung und Betreuung webbasierter Software.Dein ProfilFundierte Erfahrung mit PHP und (Postgre)SQL.Offen für den Einsatz von modernen Technologien und Trends.Belastbarer und umfassender Überblick über aktuelle Web-Entwicklung und zugehörige Technologien, sowie Anwendung von Design-Patterns und sicherheitsrelevanten Aspekten von Webanwendungen.Sehr gutes Deutsch in Wort und Schrift.Gute Englischkenntnisse.Kommunikations- und Teamfähigkeit.Das erwartet DichAnspruchsvolle und abwechslungsreiche Aufgaben der Softwareentwicklung.Flexible hybride Arbeitsplatz- und Arbeitszeitmöglichkeiten.Prozessorientierte, agile Arbeitsabläufe.Entwicklung unter Linux mit PHP.Im Allgemeinen freie Wahl Deiner Tools, die Du brauchst, um Deine Aufgaben zu erfüllen.Dein neues TeamDie SC-Networks GmbH ist Marketing Software as Service Provider und Hersteller von Evalanche, eine der modernsten, webbasierten E-Mail-Marketing-Automation-Lösungen auf dem europäischen Markt. SC-Networks ist der - Made in Germany - Spezialist für E-Mail-Marketing, Marketing Automation und Lead Management bei Agenturen und international agierenden Großunternehmen.Wir sind ein buntes, flexibles Team und suchen engagierte und motivierte Kollegen (m/w/d), die sich mit Fleiß und cleveren Ideen einbringen und proaktiv angehen, was zu erledigen ist. Dafür investieren wir gerne in hochwertige Weiterbildungen intern sowie extern, wobei es hier insbesondere auf Klasse statt Masse ankommt.IT-Standort mit CharmeIn Starnberg, vor den Toren Münchens, erwartet dich ein moderner und zukunftssicherer Arbeitsplatz. Hier vergeudest du keine Lebenszeit bei An- und Abreise aufgrund der super Verkehrsanbindung und antizyklischer Fahrwege.Unser Firmensitz bietet Dir eine attraktive Basis für Teamarbeit, Brainstorming, Kreativität und Innovation sowie Wissenstranfer. Und raucht dir mal der Kopf in einem besonders anspruchsvollen P",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Seniority fits"
-      ],
-      "match_cons": [
-        "German location",
-        "Danish preferred"
-      ]
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4457496598",
       "title": "IT Engineer/PHP Developer",
       "company": "DPG Media Nederland",
@@ -11046,28 +11131,6 @@
       "denmark": true,
       "location": "Denmark",
       "description_failed": true
-    },
-    {
-      "id": "IT-jobbank_h1689738",
-      "title": "Senior Developer",
-      "company": "The RiskPoint Group",
-      "url": "https://www.it-jobbank.dk/jobannonce/h1689738/senior-developer",
-      "source": "IT-jobbank",
-      "date": "2026-08-14",
-      "fetched_at": "2026-09-10",
-      "denmark": true,
-      "location": "Denmark",
-      "description_failed": true,
-      "match_score": 55,
-      "match_confidence": "low",
-      "match_pros": [
-        "Remote-friendly",
-        "PHP mentioned"
-      ],
-      "match_cons": [
-        "Requires AWS",
-        "Primary language not specified"
-      ]
     },
     {
       "id": "PHPDevCareers_php-developer-in-wordpress-stack-964606",
@@ -12160,19 +12223,6 @@
       "work_type": "onsite",
       "location": "Greater Manresa Metropolitan Area",
       "description": "En Cegid somos un referente europeo en soluciones de gestión AI empresarial en la nube para pequeñas y medianas empresas, así como para organizaciones en crecimiento. Ayudamos a nuestros clientes a simplificar y optimizar la gestión de áreas clave como Finanzas, Recursos Humanos, Fiscalidad y Gestión Empresarial mediante soluciones innovadoras, seguras y conectadas.En un entorno en constante evolución, ayudamos a nuestros clientes a convertir sus proyectos y ambiciones en realidad gracias a soluciones útiles e innovadoras.Dentro de nuestra división Mid-Market, contribuirás al desarrollo de soluciones que permiten a las empresas gestionar con mayor eficiencia sus procesos financieros, contables, fiscales y de recursos humanos. Nuestras soluciones ayudan a automatizar tareas, garantizar el cumplimiento normativo y ofrecer información fiable para una toma de decisiones más ágil y fundamentada.La inteligencia artificial desempeña un papel clave en la evolución de nuestras soluciones. Nos permite automatizar procesos, mejorar la productividad, transformar datos complejos en información útil y ofrecer una experiencia cada vez más inteligente a nuestros clientes.Puesto ubicado en nuestras oficina de Manresa. ¿Tus principales objetivos como Full Stack Developer (JavaScript/Laravel)?En Cegid Revo desarrollamos un ecosistema de aplicaciones para la gestión de negocios de restauración, comercio y servicios, con Cegid Revo XEF como una de nuestras soluciones principales.Buscamos un/a Full Stack Developer con una clara orientación frontend, apasionado/a por crear experiencias de usuario intuitivas y cuidadas, sin perder de vista la calidad técnica del backend.Tu misión será contribuir al desarrollo y mejora de nuestras apps, haciéndolas más robustas, más fáciles de validar y mejor preparadas para incorporar procesos de revisión automática, incluyendo el uso de herramientas basadas en IA.Como Full Stack Developer (JavaScript/Laravel) Tendrás QueDiseñar y desarrollar interfaces de usuario modernas y responsivas utilizando Vue 3, TypeScript, HTML5, CSS y Livewire.Colaborar en la definición y mejora continua de la experiencia de usuario, cuidando los detalles visuales, la usabilidad y el rendimiento de las aplicaciones.Construir componentes reutilizables y mantener un sistema de diseño consistente.Optimizar la accesibilidad, la experiencia móvil y el rendimiento del frontend.Desarrollar APIs REST y funcionalidades de negocio en Laravel.Trabajar con arquitecturas modulares,"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4458780259",
-      "title": "Développeur / Développeuse PHP Symfony - Rouen",
-      "company": "PROXIAD",
-      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-d%C3%A9veloppeuse-php-symfony-rouen-at-proxiad-4458780259",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-09",
-      "work_type": "remote",
-      "location": "Rouen, Normandy, France",
-      "easy_apply": true,
-      "description": "A propos de Proxiad Axe SeineProxiad Axe Seine est une Entreprise de Service Numérique composée d’une centaine de collaborateurs et collaboratrices et installée dans l’éco quartier Luciline, à Rouen.Vous participerez à la réussite des projets informatiques de nos clients, depuis notre Centre de services ou en intervenant dans leurs équipes (en Seine-Maritime & dans l'Eure).Depuis 20 ans, votre évolution fait la nôtre : chez Proxiad, nous nous faisons confiance et travaillons dans un cadre bienveillant. Votre progression et votre bien-être sont nos premiers objectifs.Si vous souhaitez embarquer pour une longue aventure dans une PME Normande en croissance, responsable et engagée, rejoignez-nous !Descriptif du postePour votre première mission avec nous, rejoignez l’équipe de l’un de nos clients rouennais et :Participez à la définition des spécifications fonctionnelles et techniquesConcevez, développez, et maintenez les applications web de notre client selon des spécifications techniques et fonctionnellesAssurez la mise en œuvre des fonctionnalités dans le respect des normes et directions techniquesAssurez le déploiement et le suivi des livrables en productionAssurez le partage de connaissance du projet (documentation, présentation, formation)Participez et menez des revues de code régulièresProposez des améliorations continues dans les pratiques des équipes projetsAccompagnez techniquement des profils débutantsAssurez une veille technique régulièrePersonne recherchéeIssu.e d'une formation d'Ingénieur.e ou équivalent, vous avez acquis les connaissances nécessaires à la conception et au développement d'applications web sur-mesure.Depuis minimum 2 ans, vous avez eu l'occasion de travailler au sein d'équipes projet avec une approche Agile ou Cycle en V, sous la direction d'un Chef de projet ou d'un Expert technique (F/H).Quelques compétences techniques requises :Maîtrise de la programmation orientée objet (PHP)Maîtrise de l'architecture MVCBonnes connaissances en SymfonyConnaissances en HTML / CSS / JavaScript et moteur de templating (Twig / Blade)Respect des normes de développement et des bonnes pratiques (normes PSR, principes SOLID, DRY, KISS, YAGNI)Maîtrise de Git et des pratiques associées (Code review via MR / PR, Gitflow, SemVer, Conventional Commits)Bonne connaissance en modélisation de base de donnéesBonne connaissance dans l'utilisation des SGBD (MySQL ou MariaDB ou PostgreSQL ou SQL Server) et d'un ORM (Doctrine ou Eloquent)Savoir déployer une applicati"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4443541793",
@@ -15278,74 +15328,6 @@
       "denmark": true,
       "location": "Denmark",
       "description_failed": true
-    },
-    {
-      "id": "IT-jobbank_h1690974",
-      "title": "Data Engineer",
-      "company": "Everllence",
-      "url": "https://www.it-jobbank.dk/jobannonce/h1690974/data-engineer",
-      "source": "IT-jobbank",
-      "date": "2026-08-20",
-      "fetched_at": "2026-09-01",
-      "denmark": true,
-      "location": "Denmark",
-      "description_failed": true
-    },
-    {
-      "id": "IT-jobbank_h1690851",
-      "title": "Application Security Specialist",
-      "company": "Paychex Europe",
-      "url": "https://www.it-jobbank.dk/jobannonce/h1690851/application-security-specialist",
-      "source": "IT-jobbank",
-      "date": "2026-08-19",
-      "fetched_at": "2026-09-01",
-      "denmark": true,
-      "location": "Denmark",
-      "description_failed": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4424764321",
-      "title": "Full-Stack PHP Developer",
-      "company": "Pioneering Evolution, LLC",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-php-developer-at-pioneering-evolution-llc-4424764321",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-01",
-      "match_score": 55,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP primary language",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "No description",
-        "Recruiter agency listing"
-      ],
-      "description": "POSITION DESCRIPTION:Pioneering Evolution is seeking a mid-to-senior level full-stack PHP developer to join our team. This role focuses on building and maintaining complex web applications using the Laravel framework and Vue.js. The ideal candidate combines strong PHP back-end skills with modern front-end development expertise and thrives in a collaborative, Agile environment. You will contribute to the design, development, and delivery of secure, scalable, and user-friendly applications that directly support our clients’ mission needs.Responsibilities: Deliver complete, working solutions that meet all functional and technical requirements described in assigned tickets. Write clean, maintainable, and well-structured code that adheres to project coding standards. Avoid unnecessary complexity by implementing solutions consistent with existing code patterns and architecture. Thoroughly test and validate solutions to ensure reliability, performance, and delivery of clean, production-ready code. Manage personal workload effectively to deliver timely solutions without sacrificing quality. Translate functional requirements into clear, actionable technical tasks and tickets, ensuring alignment with project scope and development standards. Collaborate with senior developers, QA, and business analysts to clarify requirements and confirm acceptance criteria are fully met. Participate in peer code reviews to ensure consistency, simplicity, and maintainability across the codebase. Contribute to the continuous improvement of development processes, coding standards, and technical documentation.REQUIRED EXPERIENCE: 5+ years of professional web application development with demonstrated ability to deliver complete, production-ready features on schedule. Strong PHP experience with Laravel or similar MVC frameworks, with emphasis on writing clean, testable, and reusable code. Strong JavaScript skills with Vue.js (preferred) or another modern framework, with focus on building maintainable components. Experience building and consuming RESTful APIs. Proficiency with MySQL, including designing normalized schemas and writing optimized queries. Solid understanding of Git workflows (branching, pull requests, code reviews) and ability to manage clean commits without debug/unnecessary code. Experience applying coding standards and design patterns to produce simple, maintainable solutions aligned with existing architecture. Demonstrated ability to manage time effectively and deliver qu",
-      "work_type": "remote",
-      "location": "Arlington, VA"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4454526460",
-      "title": "Developer Backend Laravel - M/H/NB",
-      "company": "Cegid",
-      "url": "https://es.linkedin.com/jobs/view/developer-backend-laravel-m-h-nb-at-cegid-4454526460",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-01",
-      "work_type": "onsite",
-      "location": "Greater Manresa Metropolitan Area",
-      "description": "En Cegid somos un referente europeo en soluciones de gestión AI empresarial en la nube para pequeñas y medianas empresas, así como para organizaciones en crecimiento. Ayudamos a nuestros clientes a simplificar y optimizar la gestión de áreas clave como Finanzas, Recursos Humanos, Fiscalidad y Gestión Empresarial mediante soluciones innovadoras, seguras y conectadas.En un entorno en constante evolución, ayudamos a nuestros clientes a convertir sus proyectos y ambiciones en realidad gracias a soluciones útiles e innovadoras.Dentro de nuestra división Mid-Market, contribuirás al desarrollo de soluciones que permiten a las empresas gestionar con mayor eficiencia sus procesos financieros, contables, fiscales y de recursos humanos. Nuestras soluciones ayudan a automatizar tareas, garantizar el cumplimiento normativo y ofrecer información fiable para una toma de decisiones más ágil y fundamentada.La inteligencia artificial desempeña un papel clave en la evolución de nuestras soluciones. Nos permite automatizar procesos, mejorar la productividad, transformar datos complejos en información útil y ofrecer una experiencia cada vez más inteligente a nuestros clientes.Puesto ubicado en nuestras oficina de Manresa. ¿Tus principales objetivos como Developer Backend Laravel? En Cegid Revo desarrollamos un ecosistema de aplicaciones para la gestión de negocios de restauración, comercio y servicios, con Cegid Revo XEF como una de nuestras soluciones principales.Buscamos un/a Developer Backend con una sólida base de backend para evolucionar nuestros productos, en un entorno SaaS con integraciones, datos y procesos asíncronos.Tu misión será contribuir al desarrollo y mejora de nuestras apps, haciéndolas más robustas, más fáciles de validar y mejor preparadas para incorporar procesos de revisión automática, incluyendo el uso de herramientas basadas en IA.Como Developer Backend Tendrás QueConstruir y mantener pantallas interactivas con Vue 3/TypeScript y Livewire.Trabajar con arquitecturas modulares, multi-tenant y procesos en cola.Desarrollar APIs REST, funcionalidades de negocio e integraciones con servicios externos.Crear migraciones, modelos, servicios, jobs y consultas eficientes.Desarrollar funcionalidades de analítica.Escribir pruebas automatizadas y mantener los estándares de calidad.Investigar incidencias de datos, rendimiento, integraciones y despliegues.Profil De Candidat Recherché2-4 años de experiencia en desarrollo con PHP y Laravel, trabajando con Laravel 12/13 y",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Seniority fits"
-      ],
-      "match_cons": [
-        "Missing AWS",
-        "Danish learning"
-      ]
     }
   ]
 }
