@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T16:12:14.437207+00:00",
+  "updated_at": "2026-09-15T19:08:56.084592+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3925",
@@ -90,6 +90,30 @@
       "description_failed": true
     },
     {
+      "id": "Jobindex_https://www.jobindex.dk/vis-job/r13995925",
+      "title": "Senior Softwareudvikler til dao, dao",
+      "company": "",
+      "url": "https://www.jobindex.dk/vis-job/r13995925",
+      "source": "Jobindex",
+      "date": "Fri, 11 Se",
+      "fetched_at": "2026-09-15",
+      "denmark": true,
+      "description": "Senior Softwareudvikler til dao Vejle Er du en erfaren PHP-/backendudvikler, der går op i kodekvalitet, robuste løsninger og godt softwarehåndværk?",
+      "location": "Denmark"
+    },
+    {
+      "id": "Jobindex_https://www.jobindex.dk/vis-job/r13995926",
+      "title": "Team Lead til softwareudvikling hos dao, dao",
+      "company": "",
+      "url": "https://www.jobindex.dk/vis-job/r13995926",
+      "source": "Jobindex",
+      "date": "Fri, 11 Se",
+      "fetched_at": "2026-09-15",
+      "denmark": true,
+      "description": "Team Lead til softwareudvikling hos dao Vejle Er du en erfaren PHP-udvikler, der vil kombinere teknisk ansvar med ledelse?",
+      "location": "Denmark"
+    },
+    {
       "id": "Larajobs_https://larajobs.com/job/3929",
       "title": "Software Engineer",
       "company": "",
@@ -117,6 +141,18 @@
       "title": "Seniorudvikler til Danløn",
       "company": "Paychex Europe",
       "url": "https://www.it-jobbank.dk/jobannonce/h1698518/seniorudvikler-til-danloen",
+      "source": "IT-jobbank",
+      "date": "2026-09-15",
+      "fetched_at": "2026-09-15",
+      "denmark": true,
+      "location": "Denmark",
+      "description_failed": true
+    },
+    {
+      "id": "IT-jobbank_h1698739",
+      "title": "Test Manager til Drift- og Støttesektionen ved Forsvarsministeriets Materiel- og Indkøbsstyrelse",
+      "company": "Forsvarsministeriets Materiel- og Indkøbsstyrelse",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1698739/test-manager-til-drift-og-stoettesektionen-ved-forsvarsministeriets-materiel-og-indkoebsstyrelse",
       "source": "IT-jobbank",
       "date": "2026-09-15",
       "fetched_at": "2026-09-15",
@@ -1499,7 +1535,7 @@
         "No EU timezone"
       ],
       "description": "Du möchtest die Zukunft eines erfolgreichen HR-Tech-Unternehmens mitgestalten?Dann bist Du bei uns richtig. Wir sind Pionier der digitalen Reisekostenabrechnung in der Cloud und zählen heute zu den führenden Anbietern von HR-Software in Deutschland. Seit über 25 Jahren digitalisieren wir die Personalprozesse in mittelständischen Unternehmen und verhelfen diesen so zu schlankeren HR-Strukturen. Das erreichen wir nur auf Basis unserer gelebten Werte: Miteinander, Tatendrang, Verantwortung, Authentizität, Wirksamkeit und Wertigkeit.Als modernes Unternehmen verbinden wir die Bodenständigkeit und Stabilität des klassischen Mittelstandes mit der Flexibilität und Kultur eines Start-ups. Wir zählen aktuell 200 Mitarbeitende und haben Büros an drei Standorten (Freiburg, Frankfurt und Berlin).Aufgrund unseres starken Wachstums suchen wir zum nächstmöglichen Zeitpunkt Verstärkung für unser API-Team in Freiburg.Deine AufgabenDu arbeitest an einem Produkt, welches täglich von mehreren tausend Kunden genutzt wird und bist Teil des EntwicklungsteamsDu treibst gemeinsam mit unserem API-Team die Weiterentwicklung unserer Schnittstellen voran und gestaltest unseren Transformationsprozess hin zu einer API-zentrischen Architektur aktiv mitDu entwickelst schwerpunktmäßig mit PHP/Laravel, Git, Redis und PostgreSQL sowie mit Docker und verschiedenen AWS-Diensten (z. B. ECS, EC2, SQS, RDS), bewegst Dich aber auch in unserem Smalltalk-StackDu setzt KI-gestützte Tools gezielt ein, um Entwicklungsprozesse zu beschleunigenDu arbeitest agil im Team in kurzen Entwicklungszyklen und bringst Deine Ideen aktiv in die Zusammenarbeit mit unserem Produktteam einDein ProfilDu hast bereits Berufserfahrung als Softwareentwickler:inDu verfügst über fundierte PHP-Kenntnisse und Erfahrung in der Umsetzung komplexer, skalierbarer Laravel-basierter ProjekteDu schätzt das Laravel-Ökosystem und kennst dich mit Paketen von z. B. Spatie ausDu hast Backend- und/oder API-Projekte erfolgreich umgesetzt und weißt, wie man auch komplexe Herausforderungen meistertDu legst Wert auf Clean Code, SOLID Principles und Design Patterns – für Code, der nicht nur funktioniert, sondern auch Best Practices entsprichtDu bist KI-affin und nutzt moderne KI-Tools verantwortungsvollDu hast sehr gute Deutschkenntnisse in Wort und SchriftDu arbeitest gerne im Team, kannst aber auch selbstständig Aufgaben bewältigenWir bieten DirEin etabliertes Unternehmen mit flachen Hierarchien und Start-up-MentalitätEine Unternehmenskultur, ",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Freiburg, Baden-Württemberg, Germany"
     },
     {
@@ -3356,7 +3392,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-09-15",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Ulm, Baden-Württemberg, Germany",
       "description": "Du liebst sauberen Code, durchdachte Backend-Architekturen und technische Herausforderungen?Du möchtest komplexe Systeme nicht nur verwalten, sondern aktiv weiterentwickeln und mit modernen Technologien zukunftsfähig machen?Dann werde Teil der Vivecti und entwickle gemeinsam mit uns die technologische Basis für nachhaltige digitale Lösungen im Gesundheitswesen – unterstützt durch moderne Cloud-Technologien und KI-gestützte Entwicklungswerkzeuge.Deine AufgabenDu entwickelst und optimierst leistungsfähige und skalierbare Backend-Systeme auf Basis von PHP und Symfony.Du analysierst bestehende Komponenten und entwickelst sie im Hinblick auf Qualität, Performance, Wartbarkeit und Skalierbarkeit kontinuierlich weiter.Du konzipierst und implementierst robuste RESTful APIs und dokumentierst diese im OpenAPI-Standard.Du arbeitest an der schrittweisen Modernisierung unserer Systemlandschaft und unterstützt bei der Migration von On-Premise-Lösungen in moderne Cloud-Architekturen.Du entwickelst sauberen, testbaren und wartbaren Code und bringst deine Erfahrung aktiv in technische Entscheidungen ein.Du nutzt Generative-AI-Tools gezielt für Code-Generierung, Refactoring, Testfall-Erstellung und Dokumentation.Du führst Code Reviews durch und unterstützt deine Kolleg:innen mit deinem technischen Know-how.Du analysierst Bugs, Performance-Probleme und Stabilitätsprobleme und entwickelst nachhaltige Lösungen.Du entwickelst und optimierst Unit- und Integrationstests und trägst damit aktiv zur Qualität unserer Software bei.Du arbeitest mit CI/CD-Pipelines und Container-Technologien und unterstützt die Weiterentwicklung unserer Deployment-Prozesse.Du entwickelst Lösungen für Event-Driven Architectures und arbeitest mit Message-Brokern wie RabbitMQ.Du optimierst unsere MySQL-Datenbanken hinsichtlich Performance, Wartbarkeit und Skalierbarkeit.Du bringst deine Ideen in technische Diskussionen ein und arbeitest eng mit anderen Entwickler:innen und Stakeholdern zusammen.Das wünschen wir uns von DirAbgeschlossenes Studium oder Ausbildung im Bereich Informatik, Wirtschaftsinformatik oder eine vergleichbare Qualifikation.Mehrjährige Berufserfahrung in der Entwicklung und Weiterentwicklung komplexer Backend-Systeme.Sehr gute Kenntnisse in PHP 8.x und Symfony 7.x+.Sehr gute Kenntnisse in der Entwicklung von RESTful APIs und OpenAPI.Fundierte Erfahrung mit Clean Code, objektorientierter Softwareentwicklung und gängigen Design Patterns.Erfahrung mit Unit- und Integrationstests, insbesonde"
     },
@@ -7629,7 +7665,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-09-15",
-      "work_type": "onsite",
+      "work_type": "hybrid",
       "location": "Greater Hamburg Area",
       "easy_apply": true,
       "description": "PHP Developer (m/w/d) | Festanstellung | Hamburg Standort: HamburgVertragsform: Unbefristete FestanstellungStart: ab sofortGehalt: bis zu 90.000 € p.a.Über unsMehrfach ausgezeichnet und europaweit bekannt – unser Mandant zählt zu den beliebtesten Arbeitgebern Hamburgs. Im Zentrum steht ein modernes, mitarbeiterorientiertes Arbeitsumfeld, das Innovation, Kreativität und Weiterentwicklung aktiv fördert.Deine AufgabenKonzeption und Umsetzung neuer FeaturesEnge Zusammenarbeit mit UX/UI-Design, Marketing und weiteren SchnittstellenArbeiten in kleinen, agilen Teams mit modernen Methoden und flachen HierarchienDein ProfilMehrjährige Erfahrung mit PHP 7 oder 8Kenntnisse in Symfony oder LaravelTeamplayer, selbstständiges ArbeitenSehr gute Englisch- und DeutschkenntnisseWas dich erwartetSehr gute VergütungFlexible ArbeitszeitenIndividuelle Weiterbildungs- und EntwicklungsmöglichkeitenModerne Büroausstattung und Verpflegung vor OrtGemeinsame Sportangebote, Teamevents & ein großartiges SommerfestInteresse geweckt?Dann sende uns noch heute deine Bewerbung – inklusive Lebenslauf, Gehaltsvorstellung und deinem frühestmöglichen Startdatum – per E-Mail an:Beheshta Faqiri📧 b.faqiri@zabelglobal.com📞 +49 170 6539186Ich freue mich darauf, dich kennenzulernen!"
@@ -8006,6 +8042,79 @@
       "location": "Santo Domingo, Distrito Nacional, Dominican Republic",
       "easy_apply": true,
       "description": "Telynet, líder en soluciones empresariales, gracias a nuestro software de gestión comercial para cualquier canal de venta (Preventa, autoventa, reparto, B2B...) focalizados en el sector de fuerza de venta. 🦾Desde Telynet nos gusta cuidar nuestros valores, los cuales nos han traído a llevar 34 años en el mercado y tener oficinas en España, Marruecos, Ghana, México, República Dominicana, teniendo en cuenta siempre una visión de crecimiento y expansión.👩‍💻Estamos buscando un PHP Developer por ampliación de nuestro equipo de Santo Domingo (Républica Dominicana) para realizar las siguientes funciones⚖️:Diseñar y desarrollar aplicaciones webGeneración de Script.Desarrollo de procesos internos.Proporcionar soporte técnico.Mantenimiento de proyectos existentes y nuevos.🥇 Los requisitos que nos gustaría que tuvieras son:Experiencia mínima de 2-3 años como Desarrollador PHP.Capacidades de configuración, despliegue y optimización de procesos.Experiencia con gestión de bases de datos (SQL Server).Familiarización con aplicaciones de alto rendimiento.Alta capacidad de aprendizaje.🤝Lo que ofrecemos:Estabilidad profesional.Contrato indefinidoBuen ambiente y trabajo en equipo.Teletrabajo un día a la semana.Desarrollo profesional.Participación en proyectos con alto valor añadido y en empresas líderes en su sector.Jornada completaSi te interesa el puesto y además eres una persona organizada, que sabes trabajar en equipo, proactiva, capaz de comprometerte con la empresa, estaremos encantados de que te unas a Telynet. ¡No dudes en apuntarte porque estamos deseando conocerte! 🍀👐🏻"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4338811345",
+      "title": "Développeur Symfony Senior - Agence Digitale Innovante - Marseille (H/F)",
+      "company": "Kicklox",
+      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-symfony-senior-agence-digitale-innovante-marseille-h-f-at-kicklox-4338811345",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "onsite",
+      "location": "Marseille, Provence-Alpes-Côte d'Azur, France",
+      "description_failed": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4430755220",
+      "title": "WordPress PHP Developer",
+      "company": "DigitalXNode",
+      "url": "https://www.linkedin.com/jobs/view/wordpress-php-developer-at-digitalxnode-4430755220",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Delhi, OH",
+      "description": "DigitalXnode, which is into IT Consulting, Digital Marketing, and Regulatory Compliance, is looking for software developers with very strong blends of WordPress, PHP and Laravel combination. Companies own multiple digital assets, and they are being mapped with each other. Company is looking for professionals who is extremely strong in problem solving and multi-taskingJob SummaryDigitalXnode is looking for experienced WordPress and PHP Developer to leverage functions to design, develop, deploy, monitor and enhance the web applications, The job requires extensive hands-on experience in correlating robust backend architecture and dynamic frontend interfaces. The existing Web-application has numerous customized plug-ins as well as WordPress plugins, build scalable applications, and create modern, interactive user interfaces using technologies like react.js. In order to be more specific, the following responsibilities and accountabilities must be adhered and must have experience to work standalone as well as in multi-geographically based team members with different languagesKey ResponsibilitiesDefinition and custom development of web applications using combination of WordPress themes, plugins, custom plug-ins, PHP or Laravel frameworkDevelopment of Frontend which includes Creation of responsive, pixel-perfect user interfaces using HTML5, CSS3, Sass/LESS, and vanilla JavaScript.Execution of Database & API Integration: efficient, effective architecture of MySQL database schemas which also include integration of third-party REST/ Graph QL APIs.Performance Monitoring Tool Integration & Optimization: Mapping of threads at different nodes to monitor performance and Optimize applications for maximum speed, scalability, and security, ensuring high Core Web Vitals scores.Integration and maintenance of defined standards of coding which include Content Schema, On-Page SEO, Content Hierarchy and othersContinuous Maintenance & Troubleshoot, debug, and upgrade existing plugins, themes, and legacy codebases to improve the speed of Web applicationsThe Wishlist includes Modern JavaScript Frameworks understanding to develop dynamic, component-based frontend features and headless WordPress solutions using React.js.Required Skills And QualificationsExtensive WordPress understanding of the WordPress core, hooks, filters, REST API, and plugin/theme lifecycle.Hands on experience with headless WordPress architectures (Jam stack) using Next.js or Frontity.Hands on experience in PHP, ob"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4465823421",
+      "title": "Senior WordPress Developer (Remote, Oklahoma City)",
+      "company": "Blacksmith Agency",
+      "url": "https://www.linkedin.com/jobs/view/senior-wordpress-developer-remote-oklahoma-city-at-blacksmith-agency-4465823421",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "United States",
+      "description": "Blacksmith Agency Engineering Full time Remote (USA, Canada, Latin America or South Africa)About The RoleBlacksmith Agency builds high-performance custom websites for clients across the US. As Senior WordPress Developer at Blacksmith, you lead custom WordPress work end to end. You are the face of development for your clients. You scope the build, understand the client's business objectives and tie the work back to them, drive efficiencies with AI, and lead builds that are fast, clean and custom. You still write and review real code.This is a senior, client-facing lead for a strong developer who can also talk to clients. Excellent English required.What You Will OwnScope client work against business objectives and set the build approach.Lead custom WordPress builds: themes, templates, plugins and blocks.Drive efficiency with AI across the development process.Be the development voice the client hears, and keep their sites healthy.What You BringStrong custom WordPress and PHP, plus modern HTML, CSS and JavaScript.The ability to scope work and tie it to a client's business goals.Real fluency using AI to drive development efficiency.Client-facing communication and excellent English.Experience leading or owning builds, not just closing tickets.How To ApplyApply in two minutes at the link. Your application is reviewed once you finish a short 6 minute Predictive Index assessment, so use the same email throughout."
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4446355250",
+      "title": "Sr. PHP Developer",
+      "company": "HealthStream",
+      "url": "https://www.linkedin.com/jobs/view/sr-php-developer-at-healthstream-4446355250",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Nashville, TN",
+      "description": "Company OverviewHealthStream is the leader in healthcare workforce solutions. We help organizations work better by helping their people work smarter.HealthStream provides the leading learning, clinical development, credentialing, and scheduling applications delivered on healthcare’s #1 platform. We streamline everyday tasks while improving performance, engagement, and safety – fostering a workplace where people flourish, and care thrives.Why Join UsAt HealthStream, you’ll have the opportunity to make a meaningful impact on the future of healthcare by collaborating with a team of talented professionals dedicated to innovation and excellence. We offer competitive compensation, comprehensive benefits, and a supportive work environment where creativity and collaboration thrive.Our shared vision is to enhance the quality of healthcare by empowering the people who deliver care – a commitment we have upheld for over 30 years through providing innovative solutions and driving constant growth. Join us in revolutionizing the healthcare industry and shaping the future of patient care. As a HealthStreamer, you will be at the forefront of healthcare technology innovation, making a recurring impact on the industry.We’re proud of our values-forward culture that offers our people:Mission-oriented workDiverse and inclusive cultureCompetitive Compensation & BonusesComprehensive Insurance PlansMental and Physical Health SupportWork-from-home flexibility Fitness Center ReimbursementsStreaming Good time off for volunteeringWellness workshopsBuddy Program for new HealthStreamersCollaborative work environment Career growth opportunitiesContinuous learning opportunitiesInspiring workspaces to collaborate and connect with other HealthStreamersFree employee parking at our Resource Centers in Nashville and San DiegoAt HealthStream, our thriving culture encourages collaboration and values contributions, allowing our team members to continuously solve big problems and grow. We offer flexibility and paid time off to support work-life integration for all employees, including a hybrid work environment and Streaming Good volunteer day. For team members in commutable distance, HealthStream has Resource Centers in Nashville, TN and San Diego, CA. Our resource centers provide an inspiring workspace to collaborate and recharge as well as company-sponsored onsite social events for development, connection, and celebration.We are committed to driving innovation in healthcare and ensuring that pa"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4466540241",
+      "title": "Drupal Developer",
+      "company": "TMV Global Inc",
+      "url": "https://www.linkedin.com/jobs/view/drupal-developer-at-tmv-global-inc-4466540241",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "remote",
+      "location": "Atlanta, GA",
+      "easy_apply": true,
+      "description": "Key responsibilities include:Designing and developing scalable enterprise applications using Java, Spring Boot, REST APIs, Microservices, and cloud-native architectures.Building and maintaining Drupal 9/10/11 applications, custom modules, themes, workflows, integrations, and reusable UI components.Developing responsive web applications and Single Page Applications using Angular, React, Vue, JavaScript, TypeScript, HTML5, and CSS3.Designing and implementing secure integrations between enterprise systems, Salesforce, Drupal, and external platforms.Developing Salesforce solutions using Lightning Web Components (LWC), Apex Classes, Apex Triggers, SOQL, and Flows.Building AI-powered solutions, including a personalized IBM Watson chatbot that delivers contextual responses based on authenticated user profiles and enterprise data.Implementing Generative AI solutions using AWS Bedrock and Knowledge Bases to automate Drupal content authoring, landing page generation, and knowledge-driven content creation.Integrating AI capabilities into Salesforce for lead scoring, customer insights, and product recommendation workflows.Leveraging Microsoft Copilot, GitHub Copilot, ChatGPT, AWS Bedrock, and Watson AI to improve development productivity, documentation, testing, and application modernization efforts.Supporting IBM Cloud and AWS environments, including infrastructure management, CI/CD pipelines, deployment automation, monitoring, scheduled jobs, storage management, and backup processes.Developing and supporting Adobe Experience Manager (AEM) components, IBM Carbon-based widgets, publisher management, cache invalidation, and content publishing workflows.Designing and optimizing Oracle SQL and PL/SQL database solutions, stored procedures, and performance enhancements.Participating in the complete SDLC, providing production support, mentoring team members, conducting code reviews, and driving engineering best practices."
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4466548925",
+      "title": "Desarrollador/a Laravel",
+      "company": "Altia",
+      "url": "https://es.linkedin.com/jobs/view/desarrollador-a-laravel-at-altia-4466548925",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-09-15",
+      "work_type": "onsite",
+      "location": "Madrid, Community of Madrid, Spain",
+      "description": "#SomosAltiaLlevamos más de 30 años creando soluciones digitales preparadas para el futuro, capaces de generar valor real y provocar cambios significativos.Somos un equipo de más de 4.000 grandes profesionales repartidos en más de 30 localizaciones de 10 países que, desde 1994, suman su energía y aplican su visión innovadora de la tecnología a proyectos realmente relevantes, para más de 1.000 organizaciones que son motores del cambio.Nos mueve un claro propósito: crecer haciendo crecer, y hacerlo, además, de forma sostenible y duradera. Tenemos claro que solo seremos importantes si juntos aportamos un impacto positivo y todos evolucionamos en el proceso.Con unos valores intactos, somos una de las primeras compañías independientes del sector. Altia cotiza, desde 2010, en el BME Growth, el mercado de las empresas en expansión.¿Qué buscamos?Buscamos un/a Desarrollador/a Laravel para incorporarse a nuestro equipo y trabajar en proyectos de importante cliente de administración pública.¿Qué ofrecemos?Puesto estable con perspectivas de crecimiento según tus intereses profesionales.Posibilidad de teletrabajo.Horario flexible.Plan de formación continua que te permitirá evolucionar en tu carrera profesional. Formarás parte de un equipo consolidado y con experiencia.Trabajarás en proyecto de gran impacto.Retribución flexible y competitiva.Cultura abierta.¡Si estás listo/a para asumir este emocionante desafío, queremos conocerte!Requisitos mínimosExperiencia de 3 a 5 años en Laravel.Formación mínima de Técnico/a superior en Desarrollo o similar.Conocimientos deseables:Experiencia en proyectos para AAPP.Testing: PHPUnit (backend), Jest (frontend) y Cypress (integración).Conocimientos en Vue (u otros frameworks frontend: Angular, React, etc.).Conocimientos de Linux y servidores.Manejo de Podman o Docker.Conocimientos de GraphQL.Conocimientos de GITLa presente oferta de empleo está redactada teniendo en cuenta la imparcialidad y no discriminación por razón de género, raza, ideología o cualquier otro motivo. Especialmente, se tiene en cuenta el respeto a la normativa vigente relativa a la igualdad de género entre mujeres y hombres (Real Decreto-ley 6/2019)."
     },
     {
       "id": "Larajobs_https://larajobs.com/job/3924",
@@ -8519,18 +8628,6 @@
       "location": "Vilnius, Vilniaus, Lithuania"
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4338811345",
-      "title": "Développeur Symfony Senior - Agence Digitale Innovante - Marseille (H/F)",
-      "company": "Kicklox",
-      "url": "https://fr.linkedin.com/jobs/view/d%C3%A9veloppeur-symfony-senior-agence-digitale-innovante-marseille-h-f-at-kicklox-4338811345",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-14",
-      "work_type": "onsite",
-      "location": "Marseille, Provence-Alpes-Côte d'Azur, France",
-      "description_failed": true
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4447326150",
       "title": "Senior Front-End Developer (Drupal)",
       "company": "Cheeky Monkey Media",
@@ -8823,18 +8920,6 @@
       ]
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4430755220",
-      "title": "WordPress PHP Developer",
-      "company": "DigitalXNode",
-      "url": "https://www.linkedin.com/jobs/view/wordpress-php-developer-at-digitalxnode-4430755220",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-13",
-      "work_type": "remote",
-      "location": "Delhi, OH",
-      "description": "DigitalXnode, which is into IT Consulting, Digital Marketing, and Regulatory Compliance, is looking for software developers with very strong blends of WordPress, PHP and Laravel combination. Companies own multiple digital assets, and they are being mapped with each other. Company is looking for professionals who is extremely strong in problem solving and multi-taskingJob SummaryDigitalXnode is looking for experienced WordPress and PHP Developer to leverage functions to design, develop, deploy, monitor and enhance the web applications, The job requires extensive hands-on experience in correlating robust backend architecture and dynamic frontend interfaces. The existing Web-application has numerous customized plug-ins as well as WordPress plugins, build scalable applications, and create modern, interactive user interfaces using technologies like react.js. In order to be more specific, the following responsibilities and accountabilities must be adhered and must have experience to work standalone as well as in multi-geographically based team members with different languagesKey ResponsibilitiesDefinition and custom development of web applications using combination of WordPress themes, plugins, custom plug-ins, PHP or Laravel frameworkDevelopment of Frontend which includes Creation of responsive, pixel-perfect user interfaces using HTML5, CSS3, Sass/LESS, and vanilla JavaScript.Execution of Database & API Integration: efficient, effective architecture of MySQL database schemas which also include integration of third-party REST/ Graph QL APIs.Performance Monitoring Tool Integration & Optimization: Mapping of threads at different nodes to monitor performance and Optimize applications for maximum speed, scalability, and security, ensuring high Core Web Vitals scores.Integration and maintenance of defined standards of coding which include Content Schema, On-Page SEO, Content Hierarchy and othersContinuous Maintenance & Troubleshoot, debug, and upgrade existing plugins, themes, and legacy codebases to improve the speed of Web applicationsThe Wishlist includes Modern JavaScript Frameworks understanding to develop dynamic, component-based frontend features and headless WordPress solutions using React.js.Required Skills And QualificationsExtensive WordPress understanding of the WordPress core, hooks, filters, REST API, and plugin/theme lifecycle.Hands on experience with headless WordPress architectures (Jam stack) using Next.js or Frontity.Hands on experience in PHP, ob"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4466487028",
       "title": "Fullstack Software Developer - PHP",
       "company": "Sundayy",
@@ -8881,18 +8966,6 @@
       "work_type": "remote",
       "location": "Île-de-France, France",
       "description": "Rejoindre Davidson, ce n’est pas seulement intégrer un groupe de 3000 consultants dans 6 pays et 2 continents, c’est intégrer LA société qui a été élue par ses salariés Great Place To Work France et Europe pendant 4 ans mais aussi une des plus grandes B Corp de France, nommée Best of the World dans la catégorie “collaborateurs” en 2022 ! (Les “B Corp” formant une communauté de sociétés qui ont décidé d’être non pas les meilleures du monde mais les meilleures POUR le monde).Parce que notre développement repose sur des principes forts :Un profond respect de l’ensemble de nos parties prenantes : consultant(e)s, clients et fournisseurs. Car si le travail “ne fait pas le bonheur”, il peut cependant “faire le malheur”. Nous nous engageons donc à écouter et agir avec honnêteté.Une égalité des chances dans le traitement de nos candidatures et dans la gestion de carrière de nos salarié(e)s. Nous croyons en un milieu de travail où équité F/H, inclusion et diversité sont la norme.Une empreinte environnementale minimale, et sociétale maximale. C’est pourquoi, au-delà des missions que vous réaliserez, vous pourrez également contribuer à des projets que Davidson soutient : missions de solidarité internationale (avec Planète Urgence), bénévolat auprès d’associations (chaque Davidsonien(ne) dispose de 3 jours par an pour intervenir à leurs côtés), accompagnement d’étudiant(e)s issus de milieux peu favorisés (avec Article 1), investissement dans des startups développant des solutions innovantes, actions collectives et individuelles pour la réduction de notre impact carbone…Un Management adhocratique basé sur la mise en œuvre des principes de “l’entreprise horizontale” et du “management tribal”. Sur ce dernier point une précision d’importance : le bien-être au travail est un luxe qu’il faut pouvoir s’offrir en étant une entreprise “solide”. Ceci induit pour les Davidsonien(ne)s d’allier prises d’initiative, engagement et professionnalisme. Car “sans travail, le talent n’est qu’une sale manie”. Et cela nous incite à chercher à recruter des personnes… meilleures que nous…Nous encourageons les candidatures de personnes en situation de handicap, et nous nous engageons à répondre au mieux à leurs besoins spécifiques.Mission / ProfilPassionné(e) Par Le Développement, Tu Justifies D’une Expérience Réussie Et Significative Dans Le Développement Drupal Et Tes Missions SerontAccompagnement des chefs de projet pour la validation des besoins fonctionnelsParticipation à la définition de"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4465823421",
-      "title": "Senior WordPress Developer (Remote, Oklahoma City)",
-      "company": "Blacksmith Agency",
-      "url": "https://www.linkedin.com/jobs/view/senior-wordpress-developer-remote-oklahoma-city-at-blacksmith-agency-4465823421",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-13",
-      "work_type": "remote",
-      "location": "United States",
-      "description": "Blacksmith Agency Engineering Full time Remote (USA, Canada, Latin America or South Africa)About The RoleBlacksmith Agency builds high-performance custom websites for clients across the US. As Senior WordPress Developer at Blacksmith, you lead custom WordPress work end to end. You are the face of development for your clients. You scope the build, understand the client's business objectives and tie the work back to them, drive efficiencies with AI, and lead builds that are fast, clean and custom. You still write and review real code.This is a senior, client-facing lead for a strong developer who can also talk to clients. Excellent English required.What You Will OwnScope client work against business objectives and set the build approach.Lead custom WordPress builds: themes, templates, plugins and blocks.Drive efficiency with AI across the development process.Be the development voice the client hears, and keep their sites healthy.What You BringStrong custom WordPress and PHP, plus modern HTML, CSS and JavaScript.The ability to scope work and tie it to a client's business goals.Real fluency using AI to drive development efficiency.Client-facing communication and excellent English.Experience leading or owning builds, not just closing tickets.How To ApplyApply in two minutes at the link. Your application is reviewed once you finish a short 6 minute Predictive Index assessment, so use the same email throughout."
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4462541926",
@@ -15227,107 +15300,6 @@
         "Requires AWS",
         "Symfony unfamiliar"
       ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4440971068",
-      "title": "Full-Stack Developer PHP/Symfony & React/React Native (all genders)",
-      "company": "Finanztip",
-      "url": "https://de.linkedin.com/jobs/view/full-stack-developer-php-symfony-react-react-native-all-genders-at-finanztip-4440971068",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-02",
-      "work_type": "hybrid",
-      "location": "Munich, Bavaria, Germany",
-      "description": "Werde Teil unserer Mission bei FinanztipDu setzt Software nicht nur um, sondern prägst Architektur, verantwortest technische Entscheidungen und gestaltest skalierbare Systeme. In dieser Rolle entwickelst Du komplexe Symfony-basierte Anwendungen end-to-end – mit einem klaren Fokus auf saubere Architekturen, Performance und nachhaltige Codequalität. Gleichzeitig bringst Du Dich bei Bedarf auch in React- und React-Native-Implementierungen ein und unterstützt die Weiterentwicklung unserer Web- und Mobile-Frontends.Dein technischer Anspruch, Dein Blick fürs große Ganze und Deine Erfahrung machen Dich zu einer zentralen Säule in der Weiterentwicklung unserer Plattformen.Das sind wirFinanztip ist kein gewöhnliches Unternehmen. Als Teil der gemeinnützigen Finanztip Stiftung verfolgen wir eine klare Mission: Finanzen einfach machen.Dabei sind wir nicht nur Deutschlands führender Geldratgeber, sondern auch ein Arbeitgeber, bei dem Sinn und gesellschaftliche Verantwortung auf Ambition und hohe Leistungsbereitschaft treffen. Über 100 engagierte Talente sind bereits Teil unseres Teams – und wir wachsen weiter.Weil gute Arbeit Wertschätzung verdient und spannende Aufgaben zwar wichtig, aber nicht alles sind, bieten wir starke Benefits wie Workation-Möglichkeiten, einen Zuschuss zum Mittagessen und einen zusätzlichen freien Tag für Dein Engagement in der finanziellen Bildung an Schulen. Obendrauf erwarten Dich ein wettbewerbsfähiges Gehalt sowie moderne Offices in München und Berlin mit exzellenter technischer Ausstattung und viel Raum für Zusammenarbeit.Das ist Deine RolleDu konzipierst und entwickelst Symfony-basierte Webanwendungen von der Idee bis zum Go-live und bringst dabei fundierte Erfahrung mit PHP, Symfony und skalierbaren Architekturen ein.Bei Bedarf übernimmst Du auch React- und React-Native-Implementierungen für unsere Web- und Mobile-Frontends und bringst grundlegende Frontend-Erfahrung sowie Interesse an mobilen Frontend-Themen mit.Sichere, performante und wartbare Software sowie Microservices entwickelst Du unter Anwendung von Best Practices, Clean-Code-Prinzipien, objektorientierter Programmierung und Design Patterns.Interne und externe APIs konzipierst, entwickelst und optimierst Du und sorgst mit Deiner Erfahrung für eine zuverlässige, skalierbare und sichere Kommunikation zwischen unseren Systemen und Partnern.Backoffice-Tools und kundennahe Anwendungen entwickelst Du kontinuierlich weiter und behältst dabei Benutzerfreundlichkeit, Performance und Si",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Strong Symfony match"
-      ],
-      "match_cons": [
-        "Missing Laravel",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4441352950",
-      "title": "Drupal Frontend Engineer, (Consultant, Engineering & Technical Services)",
-      "company": "Fearless",
-      "url": "https://www.linkedin.com/jobs/view/drupal-frontend-engineer-consultant-engineering-technical-services-at-fearless-4441352950",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-02",
-      "work_type": "remote",
-      "location": "Baltimore, MD",
-      "description": "Job RequirementsDrupal Frontend Engineer (Consultant, Engineering & Technical Services)At Fearless, the Consultant, Engineering & Technical Services collaborates with cross-functional Agile teams to architect, implement, and maintain modern, high-performing digital experiences for a federal health care platform serving approximately 11 million monthly users. Leveraging advanced Drupal frontend expertise—including component-based architecture and modular design system implementation—this role optimizes public access to critical health care services while bridging technical execution and user-centered delivery.As a subject-matter expert, the successful candidate works independently to establish and uphold team standards for quality, performance, and WCAG accessibility. This position requires candidates to obtain and maintain a federal Public Trust clearance and satisfy all CMS residency requirements.This Consultant collaborates with cross-functional teams to deliver high-quality, secure, and maintainable systems across all stages of the software and data lifecycle. This role is instrumental in delivering secure, efficient, and scalable solutions that directly impact the success of projects, teams, and organizational goals. This role will possess and/or develop the skills to be able to span the domains of software development, data engineering, infrastructure automation, information assurance, and AI/ML integration at a practical application level of proficiency . This Consultant role will work on projects that allow them to contribute across the entire technology stack—software, infrastructure, data, AI, and security—to ensure quality, speed, and innovation in delivery.Place Of Performance & Travel RequirementsWhile this role is primarily remote, candidates must meet CMS residency requirements.Mandatory technical assessment: As part of the recruitment workflow, engineering candidates are required to perform a CivicActions (Partner Lead) take-home exercise. This specialized evaluation supersedes Test Gorilla assessments.Your Responsibilities In This RoleApply a modular, component-based approach to extend and implement design systems within Drupal themes using tools like Storybook and Single Directory Components (SDC)Architect and write secure, performant, well-documented JavaScript code that adheres to established coding standardsImplement and uphold Web Content Accessibility Guidelines (WCAG) across all digital touchpointsDevelop and maintain PostCSS workflo",
-      "match_score": 55,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Primary language is not PHP",
-        "Requires AWS"
-      ]
-    },
-    {
-      "id": "Larajobs_https://larajobs.com/job/3913",
-      "title": "Product Engineer, Core & Connectivity (Laravel - Remote)",
-      "company": "",
-      "url": "https://larajobs.com/job/3913",
-      "source": "Larajobs",
-      "date": "Fri, 07 Au",
-      "fetched_at": "2026-09-01",
-      "work_type": "remote",
-      "description_failed": true,
-      "match_score": 65,
-      "match_confidence": "low",
-      "match_pros": [
-        "Laravel matches",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "IT-jobbank_h1685059",
-      "title": "IT/OT Workplace Solutions Specialist til TV 2",
-      "company": "TV2",
-      "url": "https://www.it-jobbank.dk/jobannonce/h1685059/it-ot-workplace-solutions-specialist-til-tv-2",
-      "source": "IT-jobbank",
-      "date": "2026-08-27",
-      "fetched_at": "2026-09-01",
-      "denmark": true,
-      "location": "Denmark",
-      "description_failed": true
-    },
-    {
-      "id": "IT-jobbank_h1692913",
-      "title": "IT Supporter til Servicedesk",
-      "company": "Vivant ApS",
-      "url": "https://www.it-jobbank.dk/jobannonce/h1692913/it-supporter-til-servicedesk",
-      "source": "IT-jobbank",
-      "date": "2026-08-27",
-      "fetched_at": "2026-09-01",
-      "denmark": true,
-      "location": "Denmark",
-      "description_failed": true
-    },
-    {
-      "id": "IT-jobbank_h1693014",
-      "title": "Teknologirådgiver inden for AI-området til Teknologiafdelingen",
-      "company": "Forsvarsministeriets Materiel- og Indkøbsstyrelse",
-      "url": "https://www.it-jobbank.dk/jobannonce/h1693014/teknologiraadgiver-inden-for-ai-omraadet-til-teknologiafdelingen",
-      "source": "IT-jobbank",
-      "date": "2026-08-27",
-      "fetched_at": "2026-09-01",
-      "denmark": true,
-      "location": "Denmark",
-      "description_failed": true
     }
   ]
 }
