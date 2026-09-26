@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T19:07:10.075309+00:00",
+  "updated_at": "2026-09-26T22:07:24.395254+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3936",
@@ -170,6 +170,18 @@
       "denmark": true,
       "description": "Team Lead til softwareudvikling hos dao Vejle, Vejle Er du en erfaren PHP-udvikler, der vil kombinere teknisk ansvar med ledelse?",
       "location": "Denmark"
+    },
+    {
+      "id": "Himalayas_https://himalayas.app/companies/powerprozesse/jobs/fullstack-developer-100-remote",
+      "title": "Fullstack-Developer (100% Remote)",
+      "company": "Powerprozesse",
+      "url": "https://himalayas.app/companies/powerprozesse/jobs/fullstack-developer-100-remote",
+      "source": "Himalayas",
+      "date": "2026-09-26",
+      "fetched_at": "2026-09-26",
+      "salary": "$1k–$3k",
+      "description": "We're looking for Junior and Senior Developers to join our fully remote team. Full-Stack-Developer Software-Developer Web-Developer Backend-Engineer Remote-Full-Stack-Developer Remote-Mid-Level-Full-Stack-Developer-(Laravel-React)",
+      "work_type": "remote"
     },
     {
       "id": "IT-jobbank_h1692519",
@@ -7328,7 +7340,7 @@
       ],
       "description": "Clear Junction has a new opportunity for a ).Clear Junction is a global payments company that is licensed and regulated by the FCA in the UK. We offer regulated end-to-end payment solutions, all of which are based on our proprietary in-house technology. Our company and infrastructure are specifically designed to meet the growing needs of global financial companies.Since our establishment in 2016, our company has consistently achieved double-digit growth on an annual basis. We currently have a team of over 120 fintech experts in the UK and mainland Europe. Clear Junction takes great pride in being ranked as the number one fastest-growing, founder-led, privately owned business in the UK on the FEBE Growth 100 list, as well as being listed on the FT 1000 as one of Europe's fastest-growing companies.We are currently looking for a highly skilled and experienced Fullstack PHP Developer to join our dynamic team in Gdansk (Poland).What You'll DoContribute to design and development of our payment platformsParticipate in unit and integration testingTroubleshoot, debug and upgrade softwareCollaborate with other engineers on the teamRequirementsMust have requirements:Good knowledge of PHP (proven experience 2+ years)Good knowledge of MySQLExperience of working with APIGit/githubFluent in Ukrainian or RussianOffice location - GdanskAlso would be great to see:Working experience with frameworks: YII, Laravel, CakePhp, etcKnowledge of Unix(OS), LinuxExperience with payment systemsGood command of EnglishWhen stating your salary expectation, please include in which currency, and whether net or gross.BenefitsFriendly team and collaborative cultureInteresting job with the opportunity of the career growthLearning and developmentCompetitive salary (depends on the interview results)Performance bonusPrivate health insurancePaid time off",
       "easy_apply": true,
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Gdańsk, Pomorskie, Poland"
     },
     {
@@ -14430,26 +14442,6 @@
       "match_cons": [
         "Primary language is NOT PHP",
         "Wrong primary stack"
-      ]
-    },
-    {
-      "id": "PHPDevCareers_senior-wordpress-developer-remote-contract-989144",
-      "title": "Senior Wordpress Developer (Remote, Contract)",
-      "company": "INFUSE",
-      "url": "https://phpdevelopercareers.com/jobs/senior-wordpress-developer-remote-contract-989144/",
-      "source": "PHPDevCareers",
-      "date": "",
-      "fetched_at": "2026-09-10",
-      "work_type": "remote",
-      "description_failed": true,
-      "match_score": 45,
-      "match_confidence": "low",
-      "match_pros": [
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Primary language is NOT PHP",
-        "Requires AWS"
       ]
     }
   ]
