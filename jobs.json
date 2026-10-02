@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T04:07:22.537746+00:00",
+  "updated_at": "2026-10-02T07:08:03.660539+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3936",
@@ -224,6 +224,42 @@
       "title": "Studentermedhjælpere til Consulting",
       "company": "Netcompany A/S",
       "url": "https://www.it-jobbank.dk/jobannonce/h1620434/studentermedhjaelpere-til-consulting",
+      "source": "IT-jobbank",
+      "date": "2026-10-02",
+      "fetched_at": "2026-10-02",
+      "denmark": true,
+      "location": "Denmark",
+      "description_failed": true
+    },
+    {
+      "id": "IT-jobbank_h1703645",
+      "title": "Leder til at sikre strategisk styring i Digitalisering & Drift",
+      "company": "Jyske Bank",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1703645/leder-til-at-sikre-strategisk-styring-i-digitalisering-drift",
+      "source": "IT-jobbank",
+      "date": "2026-10-02",
+      "fetched_at": "2026-10-02",
+      "denmark": true,
+      "location": "Denmark",
+      "description_failed": true
+    },
+    {
+      "id": "IT-jobbank_h1703627",
+      "title": "Studentermedhjælpere til kampen mod ulovlig anskaffelsesvirksomhed",
+      "company": "Politiets Efterretningstjeneste",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1703627/studentermedhjaelpere-til-kampen-mod-ulovlig-anskaffelsesvirksomhed",
+      "source": "IT-jobbank",
+      "date": "2026-10-02",
+      "fetched_at": "2026-10-02",
+      "denmark": true,
+      "location": "Denmark",
+      "description_failed": true
+    },
+    {
+      "id": "IT-jobbank_h1703621",
+      "title": "ISO Informationssikkerhedskonsulenter til Statens It",
+      "company": "Statens IT",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1703621/iso-informationssikkerhedskonsulenter-til-statens-it",
       "source": "IT-jobbank",
       "date": "2026-10-02",
       "fetched_at": "2026-10-02",
@@ -6888,6 +6924,146 @@
       "description": "Standort: Münchberg / RemoteEintritt: ab sofortArbeitszeit: VollzeitJoin the Team und komm zur GOLDNER Fashion Gruppe: Wir sind auf Expansionskurs und betreiben mehrere Fashion-Marken im europäischen Markt. Wir glauben fest daran, dass der Erfolg eines Unternehmens direkt von den Mitarbeitern abhängt, die es formen.Wir bauen unsere neue, zentrale Business Management Plattform – ein einziges, modernes System, das die Prozesse der gesamten Unternehmensgruppe vereint. Für die fachlichen Kernmodule suchen wir Dich als Backend-Entwickler:in mit einem Herz für sauberen Code und durchdachte Fachlogik.Worauf wartest Du noch? Bewirb Dich jetzt!Deine Aufgaben:Du entwickelst die fachlichen Kernmodule der Business Management Plattform mit PHP 8 und Laravel – von Aufträgen und Checkout über den Produktkatalog bis zu Bestand und Kundenverwaltung.Du entwirfst saubere, versionierte REST-APIs (OpenAPI-first), über die Frontend, Shop und Drittsysteme angebunden werden.Du baust eine ereignisgetriebene Architektur mit transaktionaler Outbox und Change-Data-Capture (PostgreSQL, Redpanda/Kafka).Du verankerst Mandantenfähigkeit und Datenschutz direkt im Code (Row-Level Security, DSGVO-konforme Datenflüsse).Du verantwortest die Datenmigration in die neue Plattform und sorgst für saubere, konsistente Daten.Du hältst die Qualität hoch: statische Analyse (PHPStan), automatisierte Tests (PHPUnit/Pest), Code Reviews und CI/CD.Du arbeitest aktiv mit unseren KI-gestützten Entwicklungs-Workflows – von spezifikationsgetriebenen Tickets bis zu Pull Requests mit menschlicher Abnahme.Du gestaltest Spezifikationen und Architekturentscheidungen mit – bei uns wird dokumentiert und im Team entschieden. Was Du mitbringst:Mehrjährige Erfahrung in der professionellen Softwareentwicklung mit PHP 8, davon substanziell mit Laravel.Sicheren Umgang mit relationalen Datenbanken, idealerweise PostgreSQL (Transaktionen, Indizes, Query-Optimierung).Erfahrung mit modular geschnittenen Codebasen und ein Gespür für saubere Domänenmodellierung (Domain-Driven Design).Praxis im Design und Betrieb von REST-APIs sowie Grundlagen zu OAuth2/OIDC.Eine test- und review-orientierte Arbeitsweise und disziplinierte Git-Praxis.Agent-Orchestrierung und Context-Engineering – Erfahrung oder ausgeprägtes Interesse daran, KI-Coding-Agenten gezielt zu steuern und mit dem passenden Kontext zu versorgen.Von Vorteil: ereignisgetriebene Architekturen (Kafka/Redpanda), Multi-Tenancy, Versandhandels-/E-Commerce-Domänenwissen sowie Erf"
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4466540241",
+      "title": "Drupal Developer",
+      "company": "TMV Global Inc",
+      "url": "https://www.linkedin.com/jobs/view/drupal-developer-at-tmv-global-inc-4466540241",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "Atlanta, GA",
+      "easy_apply": true,
+      "description": "Key responsibilities include:Designing and developing scalable enterprise applications using Java, Spring Boot, REST APIs, Microservices, and cloud-native architectures.Building and maintaining Drupal 9/10/11 applications, custom modules, themes, workflows, integrations, and reusable UI components.Developing responsive web applications and Single Page Applications using Angular, React, Vue, JavaScript, TypeScript, HTML5, and CSS3.Designing and implementing secure integrations between enterprise systems, Salesforce, Drupal, and external platforms.Developing Salesforce solutions using Lightning Web Components (LWC), Apex Classes, Apex Triggers, SOQL, and Flows.Building AI-powered solutions, including a personalized IBM Watson chatbot that delivers contextual responses based on authenticated user profiles and enterprise data.Implementing Generative AI solutions using AWS Bedrock and Knowledge Bases to automate Drupal content authoring, landing page generation, and knowledge-driven content creation.Integrating AI capabilities into Salesforce for lead scoring, customer insights, and product recommendation workflows.Leveraging Microsoft Copilot, GitHub Copilot, ChatGPT, AWS Bedrock, and Watson AI to improve development productivity, documentation, testing, and application modernization efforts.Supporting IBM Cloud and AWS environments, including infrastructure management, CI/CD pipelines, deployment automation, monitoring, scheduled jobs, storage management, and backup processes.Developing and supporting Adobe Experience Manager (AEM) components, IBM Carbon-based widgets, publisher management, cache invalidation, and content publishing workflows.Designing and optimizing Oracle SQL and PL/SQL database solutions, stored procedures, and performance enhancements.Participating in the complete SDLC, providing production support, mentoring team members, conducting code reviews, and driving engineering best practices."
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4466225463",
+      "title": "PHP Developer | Magento/Adobe Commerce - Remote Friendly",
+      "company": "Hays",
+      "url": "https://it.linkedin.com/jobs/view/php-developer-magento-adobe-commerce-remote-friendly-at-hays-4466225463",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "Rome, Latium, Italy",
+      "easy_apply": true,
+      "description": "La tua nuova aziendaPer un’azienda finale, operante nel settore Distribuzione, attualmente impegnata in un progetto di replatforming e di ampliamento del proprio reparto IT, Hays è alla ricerca di un PHP Developer con esperienza nello sviluppo backend e in progetti su misura per clienti enterprise e PMI.Il tuo nuovo ruoloInserita in un contesto dinamico e altamente tecnologico, la risorsa sarà coinvolta in progetti di sviluppo applicativo e piattaforme web interne custom–oriented, con responsabilità che spaziano dalla progettazione all’implementazione e manutenzione di soluzioni software basate su PHP, lavorando a stretto contatto con team di sviluppo, PM e stakeholder di progetto.Le principali attività includono:• Sviluppo e manutenzione di applicazioni backend in PHP, con particolare focus su Symfony;• Analisi dei requisiti funzionali e tecnici insieme al team di progetto;• Implementazione di nuove funzionalità e ottimizzazione delle soluzioni esistenti;• Collaborazione con il PM e il team di sviluppo nella definizione delle specifiche progettuali e delle best practice applicative.Di cosa hai bisogno per aver successo• Solida esperienza nello sviluppo PHP, preferibilmente con framework Symfony;• Gradita esperienza su Magento o Adobe Commerce;• Gradita la conoscenza di React;• Capacità di analisi e di problem solving in contesti progettuali strutturati;• Predisposizione al lavoro in team e buone capacità comunicative;• Orientamento al risultato e forte motivazione alla crescita professionale.Cosa avrai in cambioAvrai l’opportunità di entrare in un contesto stimolante e in continua evoluzione, lavorando su progetti tecnologicamente avanzati e sfidanti. Il percorso professionale prevede concrete possibilità di crescita e aggiornamento continuo.Retribuzione: 38.000 – 46.000€Sede di Lavoro: RomaL'azienda è disponibile a valutare una formula molto flessibile (si parte comunque da 3 giorni a settimana di sw) in termini di remote working a seconda della location di provenienza del candidato/a. Si richiede comunque la disponibilità di presenze mensilmente concordate, nella sede romana.Cosa devi fare oraSe sei interessato a questa opportunità, clicca su “Candidarsi ora” per inviare una copia aggiornata del tuo CV.Se questa opportunità non è in linea con le tue aspettative, ma sei alla ricerca di un nuovo lavoro, visita il nostro sito Internet per scoprirne di nuove."
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4435533034",
+      "title": "PHP Entwickler (w/m/x) Magento",
+      "company": "ECONSOR",
+      "url": "https://de.linkedin.com/jobs/view/php-entwickler-w-m-x-magento-at-econsor-4435533034",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "Heilbronn, Baden-Württemberg, Germany",
+      "description": "Deine Aufgaben:Du bist für die Entwicklung von Magento-Projekten zuständigDu erwirbst eine Magento-Zertifizierung oder Zertifizierungen im Magento-UmfeldDu optimierst bestehende Magento-LösungenDu unterstützt ein Team von Online-Marketing-Experten und kreativen WebdesignernKurzbeschreibungDu beherrschst PHP und fühlst Dich im Backend zu Hause? Du entwickelst performante Webanwendungen, Shops und individuelle Lösungen. Gemeinsam mit Design, UX und Projektmanagement bringst Du digitale Projekte erfolgreich live.Must-have:Du hast bereits einschlägige Erfahrung in der Entwicklung mit MagentoDu bringst Erfahrung in der objektorientierten Programmierung in PHP mitDu bist vertraut mit der Datenbankentwicklung auf Basis MySQLDu kennst dich mit HTML, CSS und JavaScript-Bibliotheken ausDu brennst leidenschaftlich für die neusten Technologien und Trends im WebDu arbeitest eigenverantwortlich und verantwortungsbewusst",
+      "match_score": 45,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Magento required",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4427165740",
+      "title": "Senior Laravel / Filament Developer (eCommerce Focus)",
+      "company": "CMS Max Inc.",
+      "url": "https://www.linkedin.com/jobs/view/senior-laravel-filament-developer-ecommerce-focus-at-cms-max-inc-4427165740",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "Max, MN",
+      "description": "Full TimeWork Hours: Monday-Friday 9am-5pmSalary: $80,000.00 - $120,000.00 / YearecommercelaravelfilamentlivewirepestCMS Max (Remote)Key ResponsibilitiesArchitect and build advanced Filament PHP admin panels, custom resources, and widgets.Develop Laravel 11 applications with clean, testable, and reusable code.Build interactive UI components using Livewire, Alpine.js, and Inertia.js.Implement complex eCommerce features — carts, checkout, payments, product variants, discounts, and fulfillment integrations.Write and maintain automated tests using Pest PHP to ensure code quality.Integrate with third-party APIs such as payment gateways, shipping systems, and CRMs.Optimize for performance, caching, and database efficiency.Contribute to architectural decisions for scalability and maintainability across multiple projects.Collaborate closely with designers, product managers, and other developers in agile sprints.Perform code reviews and enforce best practices within the Laravel ecosystem.Required Skills & Experience5+ years professional PHP experience, with 3+ years using LaravelStrong hands-on experience with Filament PHP — including custom resources, actions, and widgets.Proficiency in Laravel 11, Livewire v3, Alpine.js, and Inertia.js.Skilled in writing clean, expressive Pest PHP tests (unit + feature + browser).Solid understanding of Eloquent ORM, Queues, Events, Policies, and API Resources.Proven experience developing or maintaining eCommerce applications (product management, order systems, multi-vendor setups, or checkout flows).Experience with RESTful / GraphQL APIs, Stripe, Authorize.net, or Paya integrations.Comfortable with Git, Composer, npm, Vite, and CI/CD pipelines.Knowledge of SQL performance optimization and caching strategies (Redis, Horizon, etc.).Excellent communication skills and ability to work autonomously.Bonus SkillsExperience with SaaS or multi-tenant architecture.Familiarity with Vue 3 or React via Inertia.Contribution history to open-source Laravel or Filament packages.Understanding of eCommerce analytics, inventory management, and tax integrations.Experience deploying to Laravel Cloud.What We OfferCompetitive salary based on skill and impact.Remote flexibility and collaborative team culture.Cutting-edge projects using Laravel’s latest tools and modern front-end stacks.Professional development, conference access, and certification opportunities.Opportunity to contribute to large-scale, production-grade Laravel applications used by hundred",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Seniority fits"
+      ],
+      "match_cons": [
+        "Filament not primary",
+        "Danish learning"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4461022100",
+      "title": "Software Developer PHP - Atlanta, GA",
+      "company": "Cogent Communication",
+      "url": "https://www.linkedin.com/jobs/view/software-developer-php-atlanta-ga-at-cogent-communication-4461022100",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "Atlanta, GA",
+      "description": "CompanyCogent Communications is a global, Tier 1 facilities-based ISP, consistently ranked as one of the top five networks in the world and is publicly traded on the NASDAQ Stock Market under the ticker symbol CCOI. Cogent specializes in providing businesses with high speed Internet access and Ethernet transport services. Cogent facilities-based, all-optical IP network backbone provides IP services globally. Since its inception, Cogent has unleashed the benefits of IP technology, building one of the largest and highest capacity IP networks in the world. This network enables Cogent to offer large bandwidth connections at highly competitive prices. Cogent also offers superior customer support by virtue of its end-to-end control of service delivery and network monitoring. A competitive base salary and a full benefits package including; Health, Dental, Vision, Paid Time Off (PTO), Short- and Long-Term Disability, Life Insurance, Holidays, Parental Leave, 401(k) plan with employer match, stock options, and an Employee Assistance Program. Most benefits take effect within 30 days of employment, and some require a waiting period.Job SummaryThe Software Developer will assist in the design, development and maintenance of a several in-house business applications to support Corporate Sales, Operations and Finance as well as other departments. Under the guidance of the technical lead, the developer will work with application stakeholders to gather requirements, produce proofs-of-concept, obtain feedback, and complete the development, testing and implementation of the applications. This developer will also assist in maintaining some existing PHP and Java applicationsCompensation[Starting / Initial] Base Salary Pay Range: $80,000-$110,000/yr.Specific offers within the listed pay ranges are determined by a variety of factors such as experience, education, skills, certifications and business needs.ResponsibilitiesAnalyze technology/capability gaps, research, develop, and deploy software solutionsWork with project leads to define sprints and associated deliverablesCollaborate with other developers to design and optimize codeConduct integration, test, bug fixes, and other software maintenance activitiesPerforming requirements analysis and proof of concept or prototyping as needed for engineering and design of corporate applicationsSupporting applications in O&M status by providing enhancements and bug fixes as neededCoding, testing, and debugging new software or enhancements"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4466609567",
+      "title": "Full Stack Software Workflow Engineer (PHP)",
+      "company": "Quest Diagnostics",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-software-workflow-engineer-php-at-quest-diagnostics-4466609567",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "Marlborough, MA",
+      "description": "Job DescriptionPay Range: $107,000.00 - $137,000.00 / yearSalary offers are based on a wide range of factors including relevant skills, training, experience, education, and, where applicable, certifications obtained. Market and organizational factors are also considered. Successful candidates may be eligible to receive annual performance bonus compensation.Benefits InformationWe are proud to offer best-in-class benefits and programs to support employees and their families in living healthy, happy lives. Our pay and benefit plans have been designed to promote employee health in all respects – physical, financial, and developmental. Depending on whether it is a part-time or full-time position, some of the benefits offered may include: Day 1 Medical, supplemental health, dental & vision for FT employees who work 30+ hours Best-in-class well-being programs Annual, no-cost health assessment program Blueprint for Wellness® healthyMINDS mental health program Vacation and Health/Flex Time 6 Holidays plus 1 \"MyDay\" off FinFit financial coaching and services 401(k) pre-tax and/or Roth IRA with company match up to 5% after 12 months of service Employee stock purchase plan Life and disability insurance, plus buy-up option Flexible Spending Accounts Annual incentive plans Matching gifts program Education assistance through MyQuest for Education Career advancement opportunities and so much more!This professional will work in a hybrid capacity out of one of the following offices:Baltimore, MDSecaucus, NJMarlborough, MAOther locations nationwide are available.The Bioinformatics Engineer for Prism is a Full Stack Software Developer focused on advancing patient care through innovative software solutions. The successful candidate will implement, and maintain applications handling genetic data. Collaborating closely with the Data Science and Bioinformatics teams, the developer will work in an agile environment, contributing to the modernization of our systems while enhancing their own technical skills.ResponsibilitiesFeature Development:Implement and maintain software application.Ensure user requirements and performance standards are met.Cloud DeploymentDeploy and manage applications for scalability and reliability.Agile CollaborationParticipate in agile workflows, including sprint planning, daily stand-ups, and retrospectives.Collaborate with cross-functional teams to ensure seamless integration and delivery.Quality AssuranceWrite automated unit, integration, and end-to-end "
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4448395314",
+      "title": "Vacature PHP developer (hbo, Leiden, 32-40 uur)",
+      "company": "Secure Design Webdevelopment",
+      "url": "https://nl.linkedin.com/jobs/view/vacature-php-developer-hbo-leiden-32-40-uur-at-secure-design-webdevelopment-4448395314",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "Leiden, South Holland, Netherlands",
+      "description": "HomeVacaturesVacature PHP developer (hbo, Leiden, 32-40 uur)Vacature PHP developer (hbo, Leiden, 32-40 uur) Vaste baan Back-end developer HBO Junior/Medior Leiden, Nederland Direct beginnenSolliciteerLees meerJouw werkweekWat doet Secure Design?Dit vragen wij jouDit bieden wij jouInteresse gewekt?Praat en droom jij code, en heb jij ervaring met webontwikkeling? Dan zoeken wij jou! Wij hebben per direct plek in ons gezellige team in Leiden voor een enthousiaste webdeveloper. Dus werk jij graag aan uitdagende projecten, wil jij jezelf blijven ontwikkelen en ben jij niet bang om je collega’s uit te dagen voor een potje gamen? Solliciteer dan snel!Jezelf blijven ontwikkelenJouw werkweekJe begint jouw werkweek met een overleg met je directe collega’s over de planning voor de week. Hierin bespreek je welke werkzaamheden jij gaat oppakken. Zo ga je bijvoorbeeld aan de slag met het ontwikkelen van een API-koppeling, maatwerk Laravel of WordPress website of uitbreiding op een online applicatie van een klant. Daarnaast krijg je tijd en ruimte om jezelf te ontwikkelen.Vind jij het leuk om ook contact te hebben met klanten? Dat kan, maar hoeft niet! Wij geven jou daar graag de ruimte voor.OntwikkelenBrainstormenOnderhoudenOntspannenWat doet Secure Design?Wij ontwikkelen grote maatwerk websites, webshops en online applicaties voor nationale en internationale klanten. Bij het ontwikkelen van een website of applicatie begeleiden we de klant van de conceptfase tot en met de daadwerkelijke oplevering. Na oplevering verzorgen wij de doorontwikkeling en zorgen ervoor dat de oplossing netjes blijft draaien. Hierbij verzorgen wij de hosting en beveiliging.Naast front- en back-end developers hebben we ook specialisten in huis op het gebied van corporate branding en online marketing. Zo stellen we voor klanten een online marketingstrategie op welke we met ons team uitvoeren. Hierbij is social media marketing, online adverteren en het schrijven van (SEO) webteksten orde van de dag. Onze grafisch vormgever verzorgt hierbij de designs.Wist je dat Wij regelmatig poker spelenWist je dat Wij altijd gezamenlijk lunchenWist je dat Vrijdag onze snackdag isDit vragen wij van jouWij Zoeken Iemand DieEen hbo-opleiding heeft afgerond in de richting van software engineering of vergelijkbaar;1 jaar recente (stage)ervaring heeft met webontwikkeling in een professionele omgeving;Zich graag wil ontwikkelen;Zowel zelfstandig als in een team kan werken;Code praat en droomt.Daarnaast Zien We Graag D",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "PHP primary language"
+      ],
+      "match_cons": [
+        "Seniority mismatch",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4466121467",
+      "title": "Desarrollador/a Junior Drupal - 100% teletrabajo",
+      "company": "METRICA",
+      "url": "https://es.linkedin.com/jobs/view/desarrollador-a-junior-drupal-100%25-teletrabajo-at-metrica-4466121467",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "Madrid, Community of Madrid, Spain",
+      "description": "En Métrica, consultora tecnológica especializada en soluciones IT, buscamos incorporar un/a Desarrollador/a Junior Drupal para participar en un proyecto estable de desarrollo, mantenimiento y evolución de plataformas web y móviles.Buscamos una persona con interés por seguir desarrollándose en el ecosistema Drupal, con orientación a la calidad, capacidad de aprendizaje y motivación para colaborar con perfiles técnicos senior en la implementación de soluciones digitales robustas y accesibles.Funciones principalesParticipar en el desarrollo y mantenimiento evolutivo y correctivo de sitios web y aplicaciones móviles basados en Drupal.Colaborar en la implementación y adaptación de módulos, funcionalidades y componentes Drupal bajo la supervisión del perfil técnico senior.Gestionar dependencias y ejecutar tareas de desarrollo utilizando Composer y Drush.Apoyar en la gestión de configuraciones entre entornos mediante Configuration Management.Participar en migraciones de contenidos y datos utilizando Migrate API.Colaborar en la tematización y personalización de interfaces mediante Twig y YAML.Desarrollar y ejecutar pruebas con PHPUnit, siguiendo los estándares de calidad definidos por el equipo.Apoyar en tareas básicas de DevOps, integración y despliegue.Aplicar criterios de accesibilidad web durante el desarrollo de componentes e interfaces.Documentar las tareas realizadas y colaborar activamente con el equipo técnico.Requisitos:Requisitos imprescindiblesEntre 1 y 2 años de experiencia en desarrollo con Drupal.Conocimientos de desarrollo y mantenimiento de sitios web basados en Drupal.Experiencia o conocimientos prácticos de Composer, Drush y Configuration Management.Conocimientos de migraciones con Drupal Migrate API.Conocimientos de tematización con Twig y YAML.Conocimientos de testing con PHPUnit.Conocimientos básicos de prácticas DevOps y procesos de despliegue.Sensibilidad y conocimientos básicos sobre accesibilidad web.Capacidad de aprendizaje, atención al detalle, trabajo en equipo y comunicación efectiva.¿Qué ofrecemos?Contrato indefinido.Proyecto estable dentro de un entorno tecnológico especializado.Modalidad de trabajo 100 % remota, para profesionales ubicados en España.Acompañamiento técnico y aprendizaje junto a perfiles senior.Oportunidades de crecimiento profesional y desarrollo de conocimientos en Drupal y tecnologías asociadas.Entorno de trabajo colaborativo, orientado a la calidad y la mejora continua.Ubicación y modalidadPaís de contratación: E"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4458351859",
+      "title": "PHP Developer New York",
+      "company": "Z Studio Design",
+      "url": "https://www.linkedin.com/jobs/view/php-developer%0A%09%09new-york-at-z-studio-design-4458351859",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "New York, United States",
+      "description_failed": true
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/koniag-government-services/jobs/senior-wordpress-engineer",
       "title": "Senior WordPress Engineer",
       "company": "Koniag Government Services",
@@ -7537,19 +7713,6 @@
       "description": "Overview: WestWest Digital is hiring a Web/WordPress Developer to develop high quality assets for our clients and company. You’ll support the rest of the WWD client team and help distinguish clients in the digital space.ResponsibilitiesServe as the main point of contact for all web related development and support for our clientsServe as WWD’s in-house developer for WWD assetsDevelop and customize client sites from start to finishConfigure and customize content management systems according to needsCollaborate with designers to plan out website design and infrastructureWrite clean, well-engineered code, following best practicesQualifications4 years of professional experience as a developer.An eye for creative design, while maintaining congruence with client campaignsImpeccable attention to detail, metrics driven thinkingComfortability working remote with Gmail, Google Hangouts, and Google DriveCommitment and desire to playing a role in Democratic campaigns and organizations Some flexibility with work scheduleSalary/BenefitsCompetitive salary with flexible part-time or full-time arrangements"
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4466540241",
-      "title": "Drupal Developer",
-      "company": "TMV Global Inc",
-      "url": "https://www.linkedin.com/jobs/view/drupal-developer-at-tmv-global-inc-4466540241",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-01",
-      "work_type": "remote",
-      "location": "Atlanta, GA",
-      "easy_apply": true,
-      "description": "Key responsibilities include:Designing and developing scalable enterprise applications using Java, Spring Boot, REST APIs, Microservices, and cloud-native architectures.Building and maintaining Drupal 9/10/11 applications, custom modules, themes, workflows, integrations, and reusable UI components.Developing responsive web applications and Single Page Applications using Angular, React, Vue, JavaScript, TypeScript, HTML5, and CSS3.Designing and implementing secure integrations between enterprise systems, Salesforce, Drupal, and external platforms.Developing Salesforce solutions using Lightning Web Components (LWC), Apex Classes, Apex Triggers, SOQL, and Flows.Building AI-powered solutions, including a personalized IBM Watson chatbot that delivers contextual responses based on authenticated user profiles and enterprise data.Implementing Generative AI solutions using AWS Bedrock and Knowledge Bases to automate Drupal content authoring, landing page generation, and knowledge-driven content creation.Integrating AI capabilities into Salesforce for lead scoring, customer insights, and product recommendation workflows.Leveraging Microsoft Copilot, GitHub Copilot, ChatGPT, AWS Bedrock, and Watson AI to improve development productivity, documentation, testing, and application modernization efforts.Supporting IBM Cloud and AWS environments, including infrastructure management, CI/CD pipelines, deployment automation, monitoring, scheduled jobs, storage management, and backup processes.Developing and supporting Adobe Experience Manager (AEM) components, IBM Carbon-based widgets, publisher management, cache invalidation, and content publishing workflows.Designing and optimizing Oracle SQL and PL/SQL database solutions, stored procedures, and performance enhancements.Participating in the complete SDLC, providing production support, mentoring team members, conducting code reviews, and driving engineering best practices."
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4459917201",
       "title": "Développeur Magento 2",
       "company": "PERFORMANCE & INFLUENCE",
@@ -7580,41 +7743,6 @@
       ],
       "match_cons": [
         "Missing Docker/Azure DevOps experience",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4466225463",
-      "title": "PHP Developer | Magento/Adobe Commerce - Remote Friendly",
-      "company": "Hays",
-      "url": "https://it.linkedin.com/jobs/view/php-developer-magento-adobe-commerce-remote-friendly-at-hays-4466225463",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-01",
-      "work_type": "remote",
-      "location": "Rome, Latium, Italy",
-      "easy_apply": true,
-      "description": "La tua nuova aziendaPer un’azienda finale, operante nel settore Distribuzione, attualmente impegnata in un progetto di replatforming e di ampliamento del proprio reparto IT, Hays è alla ricerca di un PHP Developer con esperienza nello sviluppo backend e in progetti su misura per clienti enterprise e PMI.Il tuo nuovo ruoloInserita in un contesto dinamico e altamente tecnologico, la risorsa sarà coinvolta in progetti di sviluppo applicativo e piattaforme web interne custom–oriented, con responsabilità che spaziano dalla progettazione all’implementazione e manutenzione di soluzioni software basate su PHP, lavorando a stretto contatto con team di sviluppo, PM e stakeholder di progetto.Le principali attività includono:• Sviluppo e manutenzione di applicazioni backend in PHP, con particolare focus su Symfony;• Analisi dei requisiti funzionali e tecnici insieme al team di progetto;• Implementazione di nuove funzionalità e ottimizzazione delle soluzioni esistenti;• Collaborazione con il PM e il team di sviluppo nella definizione delle specifiche progettuali e delle best practice applicative.Di cosa hai bisogno per aver successo• Solida esperienza nello sviluppo PHP, preferibilmente con framework Symfony;• Gradita esperienza su Magento o Adobe Commerce;• Gradita la conoscenza di React;• Capacità di analisi e di problem solving in contesti progettuali strutturati;• Predisposizione al lavoro in team e buone capacità comunicative;• Orientamento al risultato e forte motivazione alla crescita professionale.Cosa avrai in cambioAvrai l’opportunità di entrare in un contesto stimolante e in continua evoluzione, lavorando su progetti tecnologicamente avanzati e sfidanti. Il percorso professionale prevede concrete possibilità di crescita e aggiornamento continuo.Retribuzione: 38.000 – 46.000€Sede di Lavoro: RomaL'azienda è disponibile a valutare una formula molto flessibile (si parte comunque da 3 giorni a settimana di sw) in termini di remote working a seconda della location di provenienza del candidato/a. Si richiede comunque la disponibilità di presenze mensilmente concordate, nella sede romana.Cosa devi fare oraSe sei interessato a questa opportunità, clicca su “Candidarsi ora” per inviare una copia aggiornata del tuo CV.Se questa opportunità non è in linea con le tue aspettative, ma sei alla ricerca di un nuovo lavoro, visita il nostro sito Internet per scoprirne di nuove."
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4435533034",
-      "title": "PHP Entwickler (w/m/x) Magento",
-      "company": "ECONSOR",
-      "url": "https://de.linkedin.com/jobs/view/php-entwickler-w-m-x-magento-at-econsor-4435533034",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-01",
-      "work_type": "remote",
-      "location": "Heilbronn, Baden-Württemberg, Germany",
-      "description": "Deine Aufgaben:Du bist für die Entwicklung von Magento-Projekten zuständigDu erwirbst eine Magento-Zertifizierung oder Zertifizierungen im Magento-UmfeldDu optimierst bestehende Magento-LösungenDu unterstützt ein Team von Online-Marketing-Experten und kreativen WebdesignernKurzbeschreibungDu beherrschst PHP und fühlst Dich im Backend zu Hause? Du entwickelst performante Webanwendungen, Shops und individuelle Lösungen. Gemeinsam mit Design, UX und Projektmanagement bringst Du digitale Projekte erfolgreich live.Must-have:Du hast bereits einschlägige Erfahrung in der Entwicklung mit MagentoDu bringst Erfahrung in der objektorientierten Programmierung in PHP mitDu bist vertraut mit der Datenbankentwicklung auf Basis MySQLDu kennst dich mit HTML, CSS und JavaScript-Bibliotheken ausDu brennst leidenschaftlich für die neusten Technologien und Trends im WebDu arbeitest eigenverantwortlich und verantwortungsbewusst",
-      "match_score": 45,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Magento required",
         "Danish preferred"
       ]
     },
@@ -7687,40 +7815,6 @@
       "description": "Precise Software Solutions Inc. is seeking a Full Stack Drupal Developer with hands-on experience in Drupal, Python, Linux, and Java to support and enhance a public-facing Drupal platform. The ideal candidate is comfortable working across the full stack — from front-end theming and content management in Drupal to back-end Python and Java development and Linux systems administration — and can troubleshoot issues confidently across all of these layers. Local candidates are preferred; remote candidates will also be considered.Key Responsibilities:• Perform full-stack development across the Drupal front end (theming, configuration, modules) and Python/Java back-end services.• Maintain and support a public-facing Drupal website, including content, configuration, and module updates.• Maintain and upgrade Drupal and establish standards and best practices for ongoing development.• Design, write, and maintain Python scripts and applications that run in the production Linux environment.• Support ETL processes, file transfer jobs, and JDBC-based database connectivity on Linux servers.• Monitor and troubleshoot Linux systems, including memory usage, background/batch jobs, and general system health.• Apply strong Linux and Python expertise to diagnose and resolve production issues quickly.• Use Java as needed to support integrations, utilities, and legacy components.• Collaborate with client technical experts and business users throughout the Software Development Life Cycle (SDLC).• Work within an Agile framework to deliver conceptual and technical solutions, updating designs and code based on client feedback.• Leverage AI-assisted development tools (e.g., GitHub Copilot, Claude, ChatGPT) to accelerate coding, debugging, and documentation.Requirements• Bachelor’s degree in computer science, Engineering, or a related field.• 5+ years of relevant software development experience.• 5+ years of experience developing applications on the Drupal platform.• 3+ years of experience with Python, Linux, SQL, and Java.• Full-stack development experience spanning front-end (Drupal) and back-end (Python/Java) technologies.• Demonstrated ability to troubleshoot Linux systems (memory usage, background jobs, file transfer, JDBC connectivity).• Must hold, or be able to obtain, a Public Trust clearance.ABOUT USPrecise Software Solutions, Inc. is a mission-focused technology services company delivering secure digital platforms, infrastructure, and operational IT services to government organ"
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4427165740",
-      "title": "Senior Laravel / Filament Developer (eCommerce Focus)",
-      "company": "CMS Max Inc.",
-      "url": "https://www.linkedin.com/jobs/view/senior-laravel-filament-developer-ecommerce-focus-at-cms-max-inc-4427165740",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-01",
-      "work_type": "remote",
-      "location": "Max, MN",
-      "description": "Full TimeWork Hours: Monday-Friday 9am-5pmSalary: $80,000.00 - $120,000.00 / YearecommercelaravelfilamentlivewirepestCMS Max (Remote)Key ResponsibilitiesArchitect and build advanced Filament PHP admin panels, custom resources, and widgets.Develop Laravel 11 applications with clean, testable, and reusable code.Build interactive UI components using Livewire, Alpine.js, and Inertia.js.Implement complex eCommerce features — carts, checkout, payments, product variants, discounts, and fulfillment integrations.Write and maintain automated tests using Pest PHP to ensure code quality.Integrate with third-party APIs such as payment gateways, shipping systems, and CRMs.Optimize for performance, caching, and database efficiency.Contribute to architectural decisions for scalability and maintainability across multiple projects.Collaborate closely with designers, product managers, and other developers in agile sprints.Perform code reviews and enforce best practices within the Laravel ecosystem.Required Skills & Experience5+ years professional PHP experience, with 3+ years using LaravelStrong hands-on experience with Filament PHP — including custom resources, actions, and widgets.Proficiency in Laravel 11, Livewire v3, Alpine.js, and Inertia.js.Skilled in writing clean, expressive Pest PHP tests (unit + feature + browser).Solid understanding of Eloquent ORM, Queues, Events, Policies, and API Resources.Proven experience developing or maintaining eCommerce applications (product management, order systems, multi-vendor setups, or checkout flows).Experience with RESTful / GraphQL APIs, Stripe, Authorize.net, or Paya integrations.Comfortable with Git, Composer, npm, Vite, and CI/CD pipelines.Knowledge of SQL performance optimization and caching strategies (Redis, Horizon, etc.).Excellent communication skills and ability to work autonomously.Bonus SkillsExperience with SaaS or multi-tenant architecture.Familiarity with Vue 3 or React via Inertia.Contribution history to open-source Laravel or Filament packages.Understanding of eCommerce analytics, inventory management, and tax integrations.Experience deploying to Laravel Cloud.What We OfferCompetitive salary based on skill and impact.Remote flexibility and collaborative team culture.Cutting-edge projects using Laravel’s latest tools and modern front-end stacks.Professional development, conference access, and certification opportunities.Opportunity to contribute to large-scale, production-grade Laravel applications used by hundred",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Seniority fits"
-      ],
-      "match_cons": [
-        "Filament not primary",
-        "Danish learning"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4461022100",
-      "title": "Software Developer PHP - Atlanta, GA",
-      "company": "Cogent Communication",
-      "url": "https://www.linkedin.com/jobs/view/software-developer-php-atlanta-ga-at-cogent-communication-4461022100",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-01",
-      "work_type": "remote",
-      "location": "Atlanta, GA",
-      "description": "CompanyCogent Communications is a global, Tier 1 facilities-based ISP, consistently ranked as one of the top five networks in the world and is publicly traded on the NASDAQ Stock Market under the ticker symbol CCOI. Cogent specializes in providing businesses with high speed Internet access and Ethernet transport services. Cogent facilities-based, all-optical IP network backbone provides IP services globally. Since its inception, Cogent has unleashed the benefits of IP technology, building one of the largest and highest capacity IP networks in the world. This network enables Cogent to offer large bandwidth connections at highly competitive prices. Cogent also offers superior customer support by virtue of its end-to-end control of service delivery and network monitoring. A competitive base salary and a full benefits package including; Health, Dental, Vision, Paid Time Off (PTO), Short- and Long-Term Disability, Life Insurance, Holidays, Parental Leave, 401(k) plan with employer match, stock options, and an Employee Assistance Program. Most benefits take effect within 30 days of employment, and some require a waiting period.Job SummaryThe Software Developer will assist in the design, development and maintenance of a several in-house business applications to support Corporate Sales, Operations and Finance as well as other departments. Under the guidance of the technical lead, the developer will work with application stakeholders to gather requirements, produce proofs-of-concept, obtain feedback, and complete the development, testing and implementation of the applications. This developer will also assist in maintaining some existing PHP and Java applicationsCompensation[Starting / Initial] Base Salary Pay Range: $80,000-$110,000/yr.Specific offers within the listed pay ranges are determined by a variety of factors such as experience, education, skills, certifications and business needs.ResponsibilitiesAnalyze technology/capability gaps, research, develop, and deploy software solutionsWork with project leads to define sprints and associated deliverablesCollaborate with other developers to design and optimize codeConduct integration, test, bug fixes, and other software maintenance activitiesPerforming requirements analysis and proof of concept or prototyping as needed for engineering and design of corporate applicationsSupporting applications in O&M status by providing enhancements and bug fixes as neededCoding, testing, and debugging new software or enhancements"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4469854572",
       "title": "Lead Developer PHP (Dutch required!)",
       "company": "PAQT People",
@@ -7754,18 +7848,6 @@
         "Requires AWS",
         "Danish preferred"
       ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4466609567",
-      "title": "Full Stack Software Workflow Engineer (PHP)",
-      "company": "Quest Diagnostics",
-      "url": "https://www.linkedin.com/jobs/view/full-stack-software-workflow-engineer-php-at-quest-diagnostics-4466609567",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-01",
-      "work_type": "remote",
-      "location": "Marlborough, MA",
-      "description": "Job DescriptionPay Range: $107,000.00 - $137,000.00 / yearSalary offers are based on a wide range of factors including relevant skills, training, experience, education, and, where applicable, certifications obtained. Market and organizational factors are also considered. Successful candidates may be eligible to receive annual performance bonus compensation.Benefits InformationWe are proud to offer best-in-class benefits and programs to support employees and their families in living healthy, happy lives. Our pay and benefit plans have been designed to promote employee health in all respects – physical, financial, and developmental. Depending on whether it is a part-time or full-time position, some of the benefits offered may include: Day 1 Medical, supplemental health, dental & vision for FT employees who work 30+ hours Best-in-class well-being programs Annual, no-cost health assessment program Blueprint for Wellness® healthyMINDS mental health program Vacation and Health/Flex Time 6 Holidays plus 1 \"MyDay\" off FinFit financial coaching and services 401(k) pre-tax and/or Roth IRA with company match up to 5% after 12 months of service Employee stock purchase plan Life and disability insurance, plus buy-up option Flexible Spending Accounts Annual incentive plans Matching gifts program Education assistance through MyQuest for Education Career advancement opportunities and so much more!This professional will work in a hybrid capacity out of one of the following offices:Baltimore, MDSecaucus, NJMarlborough, MAOther locations nationwide are available.The Bioinformatics Engineer for Prism is a Full Stack Software Developer focused on advancing patient care through innovative software solutions. The successful candidate will implement, and maintain applications handling genetic data. Collaborating closely with the Data Science and Bioinformatics teams, the developer will work in an agile environment, contributing to the modernization of our systems while enhancing their own technical skills.ResponsibilitiesFeature Development:Implement and maintain software application.Ensure user requirements and performance standards are met.Cloud DeploymentDeploy and manage applications for scalability and reliability.Agile CollaborationParticipate in agile workflows, including sprint planning, daily stand-ups, and retrospectives.Collaborate with cross-functional teams to ensure seamless integration and delivery.Quality AssuranceWrite automated unit, integration, and end-to-end "
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4398189730",
@@ -7892,28 +7974,6 @@
       "work_type": "remote",
       "location": "Suwanee, GA",
       "description": "Baltimore MDContract W2Assist in building and maintaining features for Magento 2-based eCommerce platforms.Write clean, maintainable PHP code and troubleshoot bugs and issuesCollaborate with senior developers and stakeholders on feature implementationWork with third-party APIs and extensions (e.g., payment gateways, CRM tools)Help optimize website performance and resolve user-facing issuesSupport version control (Git) and participate in deploymentsFollow best practices in security, performance, and testingThank youjason@Maayeeinc.com770 755 5837"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4448395314",
-      "title": "Vacature PHP developer (hbo, Leiden, 32-40 uur)",
-      "company": "Secure Design Webdevelopment",
-      "url": "https://nl.linkedin.com/jobs/view/vacature-php-developer-hbo-leiden-32-40-uur-at-secure-design-webdevelopment-4448395314",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-01",
-      "work_type": "remote",
-      "location": "Leiden, South Holland, Netherlands",
-      "description": "HomeVacaturesVacature PHP developer (hbo, Leiden, 32-40 uur)Vacature PHP developer (hbo, Leiden, 32-40 uur) Vaste baan Back-end developer HBO Junior/Medior Leiden, Nederland Direct beginnenSolliciteerLees meerJouw werkweekWat doet Secure Design?Dit vragen wij jouDit bieden wij jouInteresse gewekt?Praat en droom jij code, en heb jij ervaring met webontwikkeling? Dan zoeken wij jou! Wij hebben per direct plek in ons gezellige team in Leiden voor een enthousiaste webdeveloper. Dus werk jij graag aan uitdagende projecten, wil jij jezelf blijven ontwikkelen en ben jij niet bang om je collega’s uit te dagen voor een potje gamen? Solliciteer dan snel!Jezelf blijven ontwikkelenJouw werkweekJe begint jouw werkweek met een overleg met je directe collega’s over de planning voor de week. Hierin bespreek je welke werkzaamheden jij gaat oppakken. Zo ga je bijvoorbeeld aan de slag met het ontwikkelen van een API-koppeling, maatwerk Laravel of WordPress website of uitbreiding op een online applicatie van een klant. Daarnaast krijg je tijd en ruimte om jezelf te ontwikkelen.Vind jij het leuk om ook contact te hebben met klanten? Dat kan, maar hoeft niet! Wij geven jou daar graag de ruimte voor.OntwikkelenBrainstormenOnderhoudenOntspannenWat doet Secure Design?Wij ontwikkelen grote maatwerk websites, webshops en online applicaties voor nationale en internationale klanten. Bij het ontwikkelen van een website of applicatie begeleiden we de klant van de conceptfase tot en met de daadwerkelijke oplevering. Na oplevering verzorgen wij de doorontwikkeling en zorgen ervoor dat de oplossing netjes blijft draaien. Hierbij verzorgen wij de hosting en beveiliging.Naast front- en back-end developers hebben we ook specialisten in huis op het gebied van corporate branding en online marketing. Zo stellen we voor klanten een online marketingstrategie op welke we met ons team uitvoeren. Hierbij is social media marketing, online adverteren en het schrijven van (SEO) webteksten orde van de dag. Onze grafisch vormgever verzorgt hierbij de designs.Wist je dat Wij regelmatig poker spelenWist je dat Wij altijd gezamenlijk lunchenWist je dat Vrijdag onze snackdag isDit vragen wij van jouWij Zoeken Iemand DieEen hbo-opleiding heeft afgerond in de richting van software engineering of vergelijkbaar;1 jaar recente (stage)ervaring heeft met webontwikkeling in een professionele omgeving;Zich graag wil ontwikkelen;Zowel zelfstandig als in een team kan werken;Code praat en droomt.Daarnaast Zien We Graag D",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "PHP primary language"
-      ],
-      "match_cons": [
-        "Seniority mismatch",
-        "Danish preferred"
-      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4449244068",
@@ -8267,18 +8327,6 @@
       "description_failed": true
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4466121467",
-      "title": "Desarrollador/a Junior Drupal - 100% teletrabajo",
-      "company": "METRICA",
-      "url": "https://es.linkedin.com/jobs/view/desarrollador-a-junior-drupal-100%25-teletrabajo-at-metrica-4466121467",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-30",
-      "work_type": "remote",
-      "location": "Madrid, Community of Madrid, Spain",
-      "description": "En Métrica, consultora tecnológica especializada en soluciones IT, buscamos incorporar un/a Desarrollador/a Junior Drupal para participar en un proyecto estable de desarrollo, mantenimiento y evolución de plataformas web y móviles.Buscamos una persona con interés por seguir desarrollándose en el ecosistema Drupal, con orientación a la calidad, capacidad de aprendizaje y motivación para colaborar con perfiles técnicos senior en la implementación de soluciones digitales robustas y accesibles.Funciones principalesParticipar en el desarrollo y mantenimiento evolutivo y correctivo de sitios web y aplicaciones móviles basados en Drupal.Colaborar en la implementación y adaptación de módulos, funcionalidades y componentes Drupal bajo la supervisión del perfil técnico senior.Gestionar dependencias y ejecutar tareas de desarrollo utilizando Composer y Drush.Apoyar en la gestión de configuraciones entre entornos mediante Configuration Management.Participar en migraciones de contenidos y datos utilizando Migrate API.Colaborar en la tematización y personalización de interfaces mediante Twig y YAML.Desarrollar y ejecutar pruebas con PHPUnit, siguiendo los estándares de calidad definidos por el equipo.Apoyar en tareas básicas de DevOps, integración y despliegue.Aplicar criterios de accesibilidad web durante el desarrollo de componentes e interfaces.Documentar las tareas realizadas y colaborar activamente con el equipo técnico.Requisitos:Requisitos imprescindiblesEntre 1 y 2 años de experiencia en desarrollo con Drupal.Conocimientos de desarrollo y mantenimiento de sitios web basados en Drupal.Experiencia o conocimientos prácticos de Composer, Drush y Configuration Management.Conocimientos de migraciones con Drupal Migrate API.Conocimientos de tematización con Twig y YAML.Conocimientos de testing con PHPUnit.Conocimientos básicos de prácticas DevOps y procesos de despliegue.Sensibilidad y conocimientos básicos sobre accesibilidad web.Capacidad de aprendizaje, atención al detalle, trabajo en equipo y comunicación efectiva.¿Qué ofrecemos?Contrato indefinido.Proyecto estable dentro de un entorno tecnológico especializado.Modalidad de trabajo 100 % remota, para profesionales ubicados en España.Acompañamiento técnico y aprendizaje junto a perfiles senior.Oportunidades de crecimiento profesional y desarrollo de conocimientos en Drupal y tecnologías asociadas.Entorno de trabajo colaborativo, orientado a la calidad y la mejora continua.Ubicación y modalidadPaís de contratación: E"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4473236649",
       "title": "Senior Drupal Developer",
       "company": "Thinkia",
@@ -8409,18 +8457,6 @@
       "fetched_at": "2026-09-30",
       "work_type": "onsite",
       "location": "Frankfurt am Main, Hesse, Germany",
-      "description_failed": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4458351859",
-      "title": "PHP Developer New York",
-      "company": "Z Studio Design",
-      "url": "https://www.linkedin.com/jobs/view/php-developer%0A%09%09new-york-at-z-studio-design-4458351859",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-30",
-      "work_type": "remote",
-      "location": "New York, United States",
       "description_failed": true
     },
     {
@@ -13952,41 +13988,6 @@
       "location": "Irvine, CA",
       "easy_apply": true,
       "description": "Job SummaryWe are seeking an experienced WordPress Developer to lead the technical strategy and development for a portfolio of internal and business division websites.This role will oversee day-to-day feature development, maintain system security and stability, and architect custom WordPress solutions tailored to evolving business needs.The ideal candidate combines deep expertise in WordPress architecture with strong front-end design sensibilities.Required SkillsWordPress architecture and developmentGutenberg and custom block developmentReact-based custom theme and plugin developmentWordPress REST APIWordPress hooks and filtersPHPHTML5CSS3/SASSJavaScriptMySQLGit and Bitbucket version controlFigma-to-WordPress implementationUX and responsive web designSEO, accessibility, security, and web performance best practicesPreferred SkillsExperience with WP Engine hosting environmentExposure to modern JavaScript frameworks such as React or Vue.jsQualifications4+ years of professional web development experience with a proven track record as a WordPress Architect or Lead Developer.Expert-level knowledge of modern WordPress architecture and enterprise-grade WordPress development.Strong experience building custom themes, plugins, and block-based solutions.Experience managing code deployments, version control workflows, and troubleshooting complex WordPress environments.Ability to collaborate effectively with product managers, stakeholders, and third-party vendors.We are an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex (including pregnancy, sexual orientation, or gender identity), national origin, citizenship status, age, disability, genetic information, protected veteran status, or any other characteristic protected by applicable law.https://www.e-verify.gov/sites/default/files/everify/posters/IER_RighttoWorkPoster.pdf"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4460709554",
-      "title": "Lead Développeur Full Stack Drupal H/F",
-      "company": "LabSoft",
-      "url": "https://fr.linkedin.com/jobs/view/lead-d%C3%A9veloppeur-full-stack-drupal-h-f-at-labsoft-4460709554",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-13",
-      "work_type": "remote",
-      "location": "Labège, Occitanie, France",
-      "description": "Depuis plus de 20 ans, LabSoft accompagne les projets de transformation numérique de ses clients avec engagement, proximité et expertise.Présente à Toulouse, Paris, sur l'Arc Atlantique et en Tunisie, notre entreprise compte aujourd'hui plus de 200 collaborateurs.En 2025, LabSoft franchit une nouvelle étape avec l'intégration de Bigso, experte en solutions réseaux et sécurité. Ce rapprochement stratégique renforce notre position sur le marché de la cybersécurité, et nous permet de proposer une offre complète : pilotage de projets IT, développement logiciel, services managés et infrastructures sécurisées.Nos Domaines D'intervention Couvrent Les Secteurs Aéronautique, spatial, défense Mobilité, transport, collectivités Banque, assurance, finance Secteur publicMais LabSoft, c'est une ESN mais pas que...C'est Un laboratoire d'innovation, avec notre LabFactory, centre de services informatiques industrialisés et orientés performance Un pôle R&D, LabSearch, dédié aux nouvelles technologies Un acteur engagé sur le plan sociétal et environnemental : médaille Ecovadis Or, bilan carbone annuel, et des actions concrètes pour réduire notre impactNos valeurs ?Humain – Collectif – Service – Expertise – Créatif – LibreElles façonnent notre culture d'entreprise et nourrissent nos engagements au quotidien.Pourquoi nous rejoindre ?Parce Que Chez LabSoft, Nous Croyons En Une proximité managériale réelle L'épanouissement individuel et collectif Le développement des compétences via un plan de formation structuré et un accès à la plateforme Udemy Une vie d'entreprise dynamique et participative, portée par notre initiative \"LabSoft Building – Ensemble construisons demain\" :Afterworks mensuelsPrises de parole collaborativesMoments conviviaux pour créer du lienVous avez envie de vous investir dans des projets porteurs, au sein d'une structure agile et réactive ?LabSoft est fait pour vous.À vous de jouer !Le PosteAu sein du centre de services LabFactory, nous accompagnons nos clients dans la conception, le développement et l'évolution de sites web et d'applications métiers innovantes. Nous intervenons sur des projets variés pour des acteurs reconnus tels que WWF, Tisséo ou Ministère des Armées.Dans le cadre de notre croissance, nous recherchons un(e) Lead Développeur Full Stack Drupal capable de prendre un rôle moteur au sein d'une équipe de développement tout en participant activement à la réalisation des projets.Votre missionIntégré(e) à une équipe de 2 à 5 développeurs, vous sere"
-    },
-    {
-      "id": "Larajobs_https://larajobs.com/job/3922",
-      "title": "PHP Engineer",
-      "company": "",
-      "url": "https://larajobs.com/job/3922",
-      "source": "Larajobs",
-      "date": "Wed, 26 Au",
-      "fetched_at": "2026-09-12",
-      "work_type": "remote",
-      "description_failed": true
-    },
-    {
-      "id": "IT-jobbank_h1687921",
-      "title": "Projektleder",
-      "company": "KMD A/S",
-      "url": "https://www.it-jobbank.dk/jobannonce/h1687921/projektleder",
-      "source": "IT-jobbank",
-      "date": "2026-09-09",
-      "fetched_at": "2026-09-12",
-      "denmark": true,
-      "location": "Denmark",
-      "description_failed": true
     }
   ]
 }
