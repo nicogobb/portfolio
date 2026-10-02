@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T16:07:26.563077+00:00",
+  "updated_at": "2026-10-02T19:07:04.792026+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3936",
@@ -111,6 +111,18 @@
       "fetched_at": "2026-10-02",
       "work_type": "remote",
       "description_failed": true
+    },
+    {
+      "id": "Jobindex_https://www.jobindex.dk/vis-job/r14029355",
+      "title": "PHP-udvikler til open-source platforme, Operate Technology A/S",
+      "company": "",
+      "url": "https://www.jobindex.dk/vis-job/r14029355",
+      "source": "Jobindex",
+      "date": "Fri, 2 Oct",
+      "fetched_at": "2026-10-02",
+      "denmark": true,
+      "description": "PHP-udvikler til open-source platforme København N Vi er på udkig efter en ny kollega til at bidrage med udviklingen af vores webbaserede PHP-løsninger, alle med Drupal som fundament.",
+      "location": "Denmark"
     },
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/h1699799",
@@ -7489,6 +7501,74 @@
       "description": "À propos d’ELOSIDepuis 2005, nous pensons et concevons les projets digitaux de nos clients, de la conception à l’hébergement, en passant par la Data et l’intégration d’ERP, depuis notre Centre de Services ou en régie.Basés à Villeneuve-d’Ascq, près de Lille, nous réunissons aujourd’hui plus de 80 collaborateurs autour d’une culture fondée sur la proximité et la recherche de solutions concrètes.Nos valeurs ? Proximité humaine, Adaptabilité, Expertise utile et Engagement.Le poste et vos missionsDans le cadre du renforcement de notre Centre de Services, nous recherchons un Développeur PHP Confirmé / Senior capable d’intervenir sur différents projets et environnements clients.Nous recherchons avant tout un profil polyvalent et autonome, capable de s’adapter aux différentes stacks PHP rencontrées au sein de nos projets.Vous serez notamment amené(e) à :Concevoir et développer de nouvelles fonctionnalités ;Participer aux évolutions et à la maintenance des applications existantes ;Analyser les besoins et proposer des solutions techniques adaptées ;Garantir la qualité, la maintenabilité et la performance du code ;Réaliser les tests et participer aux revues de code ;Participer aux mises en production et au suivi des applications ;Travailler en collaboration avec les développeurs, Lead Developers, l'équipe infrastructure / ops et Chefs de projet ;Partager vos bonnes pratiques et accompagner les profils plus juniors.Environnement techniqueLe socle principal repose sur PHP, avec une maîtrise recherchée de plusieurs frameworks / CMS :LaravelSymfonyDrupalGit / CI-CDSQL / bases de données relationnelles👉 Une bonne maîtrise d’au moins 2 technologies parmi Laravel, Symfony et Drupal est particulièrement recherchée afin de pouvoir intervenir sur différents projets du Centre de Services.Votre profilVous justifiez d’une expérience confirmée en développement PHP ;Vous êtes autonome sur la conception et le développement d’applications ;Vous maîtrisez idéalement au moins 2 environnements parmi Laravel, Symfony et Drupal ;Vous êtes à l’aise avec la maintenance et l’évolution d’applications existantes comme avec de nouveaux développements ;Vous accordez de l’importance à la qualité du code et aux bonnes pratiques ;Vous appréciez travailler en équipe et partager votre expertise ;Curiosité, autonomie et adaptabilité seront particulièrement appréciées.Nous rejoindre, c’estRejoindre ELOSI, c’est intégrer une entreprise où chacun peut développer ses compétences au fil des projets, dans "
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4464151997",
+      "title": "Web Developer (Drupal)",
+      "company": "Hunter Industries",
+      "url": "https://www.linkedin.com/jobs/view/web-developer-drupal-at-hunter-industries-4464151997",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "United States",
+      "description": "Hunter Industries seeks a Web Developer to work on the development and theming of Hunter Industries websites and online applications. This position teams up with marketing, engineering, information services and product managers to design, build, and maintain user-centric websites, web applications, and online products.This role is performed remotely. Candidates must be willing and able to work PST core hours to allow for team collaboration. Essential FunctionsDevelops and maintains full stack Drupal websites, including custom module and theme development (PHP, Twig, JavaScript, CSS/SCSS), configuration management, and integration with third-party APIs and services, ensuring performance, security, and accessibility standards are met across front-end and back-end components in collaboration with the web development team. Maintains web content including large product catalog pages in multiple languages throughout Hunter’s family of websites. Troubleshoots bugs reported and test accuracy of the fix and implementation. Builds queries to MySQL databases to provide data essential to the user’s experience. Ownership of feature implementation. Converts comprehensive mockups or wireframes into fully functional webpages. Maintains and enhances web applications including Single Sign-On, Content Management Systems, Learning Management System, and in-house developed applications. Leverages AI-assisted development tools (e.g., GitHub Copilot, Claude Code, or similar coding agents) to accelerate development cycles, improve code quality, and reduce manual effort across the full stack. Creates site diagrams and may create project workflow diagrams and wireframes. Utilizes web analytics to suggest improvements to the Hunter websites. Assists in optimizing web site content and structure to enhance search engine optimization, ensuring privacy and cookie consent, and achieving accessibility standards. Protects the Hunter brand image, integrity, and consistency wherever it appears internally, publicly, and electronically, maintaining a defined set of graphic standards. Performs peer review of feature implementation, enhancements and bug fixes. Collaborates with Project Managers and Creatives and consult on maintainable solutions. Education/Training Required And PreferredBachelor’s degree in web design, graphic design, or a combination of education and relevant work experience. Experience Required And PreferredMinimum 3 years of experience in website development and design. What "
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4447783722",
+      "title": "Backend PHP Developer",
+      "company": "SPSP Health",
+      "url": "https://mt.linkedin.com/jobs/view/backend-php-developer-at-spsp-health-4447783722",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "Malta",
+      "description": "Job SummaryWe are seeking a PHP Developer with strong backend development skills to join our fast-paced, collaborative tech team. You will play a key role in building and maintaining scalable web applications that support our business operations and customer-facing platforms.This role involves developing robust PHP-based systems, integrating APIs, and ensuring optimal performance and security. You will work closely with the team to deliver high-quality solutions that meet both technical and business requirements.ResponsibilitiesBack-End Development: Build and maintain the e-commerce platform using PHP, ensuring performance and scalability.API Integration: Integrate third-party services such as payment gateways, shipping, and CRM systems.Database Management: Design and optimize MySQL databases for product listings, customer accounts, and order histories.E-Commerce Features: Implement shopping carts, checkout systems, and customer features like reviews and personalized recommendations.Security & Optimization: Ensure platform security, fix vulnerabilities, and optimize website speed and performance.Testing & Debugging: Conduct thorough testing, debugging, and troubleshooting to ensure platform stability.Cross-Functional Collaboration: Work closely with product, marketing, and design teams to ensure the platform meets business goals.RequirementsDevelopment based on PHP 8+Experience with modern PHP frameworks, such as Symfony or LaravelProficiency in front-end technologies such as HTML, CSS, and JavaScriptCreation of database models and SQL commandsExperience with version control (Git)Solution-oriented thinking and an independent, methodical way of workingFamiliarity with cloud services such as AWS, Google Cloud, or AzureStrong understanding of security best practices and data protectionAbility to collaborate effectively with cross-functional teamsFluent in EnglishJob ConditionsFull-time (40 hours per week)Working hours are from 08:00 – 17:00, 5 days per week (Monday to Friday)Office-basedCompetitive salary and benefitsA collaborative work environment",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Strong PHP experience"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4439706381",
+      "title": "PHP developer/full-stack",
+      "company": "Digitalents Ukraine",
+      "url": "https://sk.linkedin.com/jobs/view/php-developer-full-stack%C2%A0-at-digitalents-ukraine-4439706381",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "Bratislava, Bratislava, Slovakia",
+      "description": "Back to jobs listPHP developer/full-stackPlace of work: Bratislava, SlovakiaCompany: ui42 spol. s r.o. | e-commerce one-stop shopWage (gross): Minimum salary starts at 1.600 EUR/month based on relevant experience.Information About The PositionDo you like PHP? We are looking for a full-stack web developer who wants to join our development team!In ui42 we work on various projects, most often online shops in our CMS BUXUS. You will work on the development of new and maintenance of existing websites, applications and online shops.In This Position, You Will Be Responsible Forback-end/ full-stack PHP development in our own CMS Buxus built on Laravelthe work also includes interfacing our site with Google technologies (primarily GTM- Google tag manager), for example interfacing external services based on Javascript (CMP- consent management platform, Cookie bot…)interesting, often challenging projects with great potential for your further growthwe use continuous deployment, we do code reviewswe have internal testers, we write unit tests and selenium testswe apply modern technologies like PHP 7, Laravel 5-8, redis, SOLR, elasticsearch, beanstalkdyou can deal with all aspects of web development – not only development but also UX, e-commerce, analytics, adwords…This is an opportunity to join a great team, both professionally and humanly. What does the onboarding process look like?you will be assigned a mentor + on a new project also a senior colleague will always be available to youyou will go through our detailed induction week, including video training sessions prepared by our developers, so the learning curve will go up sharplywe will set up at least 2 HR meetings in the first three months to see how mutual expectations are being met and what you need help withYou can learn more about the team from the videos on our website.Requirements For The EmployeeRequired Technical and Professional Experience:PHP – AdvancedHTML – AdvancedMySQL – AdvancedJavaScript – AdvancedUNIX/Linux administration – BasicIn Addition, We Are Also Looking Forexperience with open-source PHP MVC frameworksknowledge of google technologiesindependence and initiative in solving problemshigh intellectual and learning capacityPreferred Education: University degree in Informatics or ProgrammingEmployee Perks, BenefitsAt ui42 we offer:professional, but friendly team, where you will easily fit in (you can learn more about us through the videos on our website)openness not only in communication but also ",
+      "match_score": 83,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Seniority fits"
+      ],
+      "match_cons": [
+        "No PostgreSQL",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4475002284",
+      "title": "Senior WordPress Developer (Remote, Houston)",
+      "company": "Blacksmith Agency",
+      "url": "https://www.linkedin.com/jobs/view/senior-wordpress-developer-remote-houston-at-blacksmith-agency-4475002284",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-02",
+      "work_type": "remote",
+      "location": "United States",
+      "description": "Blacksmith Agency Engineering Full time Remote (USA, Canada, Latin America or South Africa)About The RoleBlacksmith Agency builds high-performance custom websites for clients across the US. As Senior WordPress Developer at Blacksmith, you lead custom WordPress work end to end. You are the face of development for your clients. You scope the build, understand the client's business objectives and tie the work back to them, drive efficiencies with AI, and lead builds that are fast, clean and custom. You still write and review real code.This is a senior, client-facing lead for a strong developer who can also talk to clients. Excellent English required.What You Will OwnScope client work against business objectives and set the build approach.Lead custom WordPress builds: themes, templates, plugins and blocks.Drive efficiency with AI across the development process.Be the development voice the client hears, and keep their sites healthy.What You BringStrong custom WordPress and PHP, plus modern HTML, CSS and JavaScript.The ability to scope work and tie it to a client's business goals.Real fluency using AI to drive development efficiency.Client-facing communication and excellent English.Experience leading or owning builds, not just closing tickets.How To ApplyApply in two minutes at the link. Your application is reviewed once you finish a short 6 minute Predictive Index assessment, so use the same email throughout."
+    },
+    {
       "id": "Himalayas_https://himalayas.app/companies/koniag-government-services/jobs/senior-wordpress-engineer",
       "title": "Senior WordPress Engineer",
       "company": "Koniag Government Services",
@@ -8019,18 +8099,6 @@
       "location": "Job, Auvergne-Rhône-Alpes, France"
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4464151997",
-      "title": "Web Developer (Drupal)",
-      "company": "Hunter Industries",
-      "url": "https://www.linkedin.com/jobs/view/web-developer-drupal-at-hunter-industries-4464151997",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-01",
-      "work_type": "remote",
-      "location": "United States",
-      "description": "Hunter Industries seeks a Web Developer to work on the development and theming of Hunter Industries websites and online applications. This position teams up with marketing, engineering, information services and product managers to design, build, and maintain user-centric websites, web applications, and online products.This role is performed remotely. Candidates must be willing and able to work PST core hours to allow for team collaboration. Essential FunctionsDevelops and maintains full stack Drupal websites, including custom module and theme development (PHP, Twig, JavaScript, CSS/SCSS), configuration management, and integration with third-party APIs and services, ensuring performance, security, and accessibility standards are met across front-end and back-end components in collaboration with the web development team. Maintains web content including large product catalog pages in multiple languages throughout Hunter’s family of websites. Troubleshoots bugs reported and test accuracy of the fix and implementation. Builds queries to MySQL databases to provide data essential to the user’s experience. Ownership of feature implementation. Converts comprehensive mockups or wireframes into fully functional webpages. Maintains and enhances web applications including Single Sign-On, Content Management Systems, Learning Management System, and in-house developed applications. Leverages AI-assisted development tools (e.g., GitHub Copilot, Claude Code, or similar coding agents) to accelerate development cycles, improve code quality, and reduce manual effort across the full stack. Creates site diagrams and may create project workflow diagrams and wireframes. Utilizes web analytics to suggest improvements to the Hunter websites. Assists in optimizing web site content and structure to enhance search engine optimization, ensuring privacy and cookie consent, and achieving accessibility standards. Protects the Hunter brand image, integrity, and consistency wherever it appears internally, publicly, and electronically, maintaining a defined set of graphic standards. Performs peer review of feature implementation, enhancements and bug fixes. Collaborates with Project Managers and Creatives and consult on maintainable solutions. Education/Training Required And PreferredBachelor’s degree in web design, graphic design, or a combination of education and relevant work experience. Experience Required And PreferredMinimum 3 years of experience in website development and design. What "
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4472315493",
       "title": "Software engineer Laravel",
       "company": "Sander",
@@ -8159,28 +8227,6 @@
       "location": "Utrecht, Netherlands",
       "easy_apply": true,
       "description_failed": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4447783722",
-      "title": "Backend PHP Developer",
-      "company": "SPSP Health",
-      "url": "https://mt.linkedin.com/jobs/view/backend-php-developer-at-spsp-health-4447783722",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-01",
-      "work_type": "remote",
-      "location": "Malta",
-      "description": "Job SummaryWe are seeking a PHP Developer with strong backend development skills to join our fast-paced, collaborative tech team. You will play a key role in building and maintaining scalable web applications that support our business operations and customer-facing platforms.This role involves developing robust PHP-based systems, integrating APIs, and ensuring optimal performance and security. You will work closely with the team to deliver high-quality solutions that meet both technical and business requirements.ResponsibilitiesBack-End Development: Build and maintain the e-commerce platform using PHP, ensuring performance and scalability.API Integration: Integrate third-party services such as payment gateways, shipping, and CRM systems.Database Management: Design and optimize MySQL databases for product listings, customer accounts, and order histories.E-Commerce Features: Implement shopping carts, checkout systems, and customer features like reviews and personalized recommendations.Security & Optimization: Ensure platform security, fix vulnerabilities, and optimize website speed and performance.Testing & Debugging: Conduct thorough testing, debugging, and troubleshooting to ensure platform stability.Cross-Functional Collaboration: Work closely with product, marketing, and design teams to ensure the platform meets business goals.RequirementsDevelopment based on PHP 8+Experience with modern PHP frameworks, such as Symfony or LaravelProficiency in front-end technologies such as HTML, CSS, and JavaScriptCreation of database models and SQL commandsExperience with version control (Git)Solution-oriented thinking and an independent, methodical way of workingFamiliarity with cloud services such as AWS, Google Cloud, or AzureStrong understanding of security best practices and data protectionAbility to collaborate effectively with cross-functional teamsFluent in EnglishJob ConditionsFull-time (40 hours per week)Working hours are from 08:00 – 17:00, 5 days per week (Monday to Friday)Office-basedCompetitive salary and benefitsA collaborative work environment",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Strong PHP experience"
-      ],
-      "match_cons": [
-        "Requires AWS",
-        "Danish preferred"
-      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4470056301",
@@ -8533,28 +8579,6 @@
       "location": "Spain",
       "easy_apply": true,
       "description": "En Thinkia somos una consultora global AI-native, nacida para la Era de la Inteligencia. No somos una consultora tradicional que incorpora IA: nuestro ADN es IA-nativo desde los cimientos. Operamos como un AI Intelligence Engine integrado en el negocio de nuestros clientes, con una misión clara — convertir organizaciones en compañías AI-First.Combinamos tres disciplinas en cada proyecto: estrategia para definir el rumbo, diseño para crear experiencias humanas e intuitivas, e ingeniería para construir arquitecturas robustas, seguras y escalables. Lo que nos diferencia es la profundidad técnica real (agentes, modelos propios, MLOps — ingeniería profunda, no slides), la velocidad de prototipado (de idea a demo funcional en días, no meses) y la integración con la operación: no entregamos tecnología, entregamos resultados medibles.Desarrollamos soluciones y productos propios como Synapse (plataforma agéntica de IA empresarial), Pulse (desarrollo de software AI-native), RAGXplorer (motor propietario de RAG) y AI Contact Experience, entre otros, apoyados en nuestros frameworks The Mesh y AI Compass.Somos un equipo distribuido con presencia en Europa (sede central en España, además de Portugal, Francia, Hungría, República Checa y Países Bajos), América (Colombia, México y Chile) y Oriente Medio y Asia (Egipto, Kazajistán y China).Brains, bytes and bold ideas.Misión: ser la referencia técnica del pod en el Run de 15 sitios Drupal: upgrades de versión, activación de funcionalidades en nuevos países, regresiones por el upgrade de activeWhere y flujo de bugs. Después, tomar tickets de Build.Imprescindible:5+ años en Drupal, con Drupal 10 en producción y desarrollo de módulos a medida a nivel senior.Entity API, Plugin API, servicios e inyección de dependencias, hooks, Form API.Configuration management avanzado (CMI), idealmente con config splits para gestionar comportamiento por país o entorno. En Culligan es lo central: una sola base de código, 15 sitios y la configuración de cada país separada.Experiencia en Drupal Commerce o en e-commerce sobre Drupal: carrito, checkout, precios, pedidos recurrentes.Integraciones con APIs REST y GraphQL, y flujos de pasarelas de pago (webhooks, estados de pago).Pull requests con revisión obligatoria, phpcs / Drupal coding standards y tests unitarios (PHPUnit).Inglés profesional fluido (B2 alto / C1)Muy valorable:Pantheon (Terminus, Quicksilver, dev/test/live), ddev, Redis y Solr.Azure DevOps (boards, repos, pipelines).Upgrades de ve"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4439706381",
-      "title": "PHP developer/full-stack",
-      "company": "Digitalents Ukraine",
-      "url": "https://sk.linkedin.com/jobs/view/php-developer-full-stack%C2%A0-at-digitalents-ukraine-4439706381",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-30",
-      "work_type": "remote",
-      "location": "Bratislava, Bratislava, Slovakia",
-      "description": "Back to jobs listPHP developer/full-stackPlace of work: Bratislava, SlovakiaCompany: ui42 spol. s r.o. | e-commerce one-stop shopWage (gross): Minimum salary starts at 1.600 EUR/month based on relevant experience.Information About The PositionDo you like PHP? We are looking for a full-stack web developer who wants to join our development team!In ui42 we work on various projects, most often online shops in our CMS BUXUS. You will work on the development of new and maintenance of existing websites, applications and online shops.In This Position, You Will Be Responsible Forback-end/ full-stack PHP development in our own CMS Buxus built on Laravelthe work also includes interfacing our site with Google technologies (primarily GTM- Google tag manager), for example interfacing external services based on Javascript (CMP- consent management platform, Cookie bot…)interesting, often challenging projects with great potential for your further growthwe use continuous deployment, we do code reviewswe have internal testers, we write unit tests and selenium testswe apply modern technologies like PHP 7, Laravel 5-8, redis, SOLR, elasticsearch, beanstalkdyou can deal with all aspects of web development – not only development but also UX, e-commerce, analytics, adwords…This is an opportunity to join a great team, both professionally and humanly. What does the onboarding process look like?you will be assigned a mentor + on a new project also a senior colleague will always be available to youyou will go through our detailed induction week, including video training sessions prepared by our developers, so the learning curve will go up sharplywe will set up at least 2 HR meetings in the first three months to see how mutual expectations are being met and what you need help withYou can learn more about the team from the videos on our website.Requirements For The EmployeeRequired Technical and Professional Experience:PHP – AdvancedHTML – AdvancedMySQL – AdvancedJavaScript – AdvancedUNIX/Linux administration – BasicIn Addition, We Are Also Looking Forexperience with open-source PHP MVC frameworksknowledge of google technologiesindependence and initiative in solving problemshigh intellectual and learning capacityPreferred Education: University degree in Informatics or ProgrammingEmployee Perks, BenefitsAt ui42 we offer:professional, but friendly team, where you will easily fit in (you can learn more about us through the videos on our website)openness not only in communication but also ",
-      "match_score": 83,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Seniority fits"
-      ],
-      "match_cons": [
-        "No PostgreSQL",
-        "Danish preferred"
-      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4473513803",
@@ -13954,31 +13978,6 @@
       "work_type": "remote",
       "location": "Madrid, Community of Madrid, Spain",
       "description": "En AD4 Octógono buscamos un/a Desarrollador/a Senior Drupal para incorporarse a un equipo técnico especializado en el desarrollo y evolución de portales y soluciones basadas en Drupal.Buscamos un perfil con una sólida experiencia en Drupal y PHP, especialmente orientado al desarrollo backend, capaz de crear módulos personalizados, adaptar funcionalidades existentes e integrar Drupal con diferentes servicios mediante APIs y Webservices.La posición requiere autonomía técnica, capacidad de análisis y una clara orientación a la calidad y evolución del producto.Conocimiento claveDrupalConocimientos imprescindiblesExperiencia demostrable y aplicación en proyectos reales de las siguientes tecnologías y soluciones:Conocimiento del módulo Migrate.Conocimiento del módulo Webform, incluyendo personalizaciones mediante programación.Desarrollo de módulos Custom.Uso y creación de Hooks y Eventos.Creación y consumo de APIs REST, Webservices y APIs en Drupal.Conocimiento y manejo de Drush.Experiencia trabajando con Composer.Más de 5 años de experiencia sólida en desarrollo sobre Drupal, incluyendo conocimiento de Drupal 7 a Drupal 10.Más de 5 años de experiencia con PHP.Más de 3 años de experiencia con contenedores Docker, especialmente Lando / DDEV.Más de 3 años de experiencia con sistemas de control de versiones, especialmente Git, GitLab o Bitbucket.Conocimientos deseablesExperiencia con Drupal Headless y arquitecturas desacopladas.Conocimiento de theming en Drupal.Aplicación de buenas prácticas de desarrollo y codificación.Proactividad para proponer nuevas soluciones y mejoras técnicas.Responsabilidades y funcionesDesarrollo y evolución de soluciones basadas en Drupal.Creación de portales, módulos, plugins y contenidos en Drupal.Desarrollo Backend, principalmente con PHP.Creación de módulos personalizados cuando no exista una solución estándar o esta no se adapte a las necesidades del proyecto.Adaptación y extensión de módulos existentes.Desarrollo e integración de APIs REST y Webservices.Definición y configuración de entornos locales de desarrollo.Gestión de dependencias mediante Composer.Uso de Drush y herramientas de desarrollo asociadas al ecosistema Drupal.Trabajo con entornos basados en Docker / Lando / DDEV.Gestión del código mediante Git y plataformas de repositorios.Redacción de documentación técnica, manuales de usuario y documentación de operación.Participación en el análisis funcional y técnico de las necesidades del proyecto.Identificación de complejidade"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4354230385",
-      "title": "Software Engineer PHP/Node.js",
-      "company": "AutoXY S.p.A.",
-      "url": "https://it.linkedin.com/jobs/view/software-engineer-php-node-js-at-autoxy-s-p-a-4354230385",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-14",
-      "work_type": "remote",
-      "location": "Milan, Lombardy, Italy",
-      "easy_apply": true,
-      "description": "AutoXY è una realtà tecnologica, dinamica ed innovativa, leader nella lead generation nel settore automotive.La nostra mission? Diventare il punto di riferimento europeo per l'intermediazione digitale tra domanda e offerta automobilistica. Per farlo, sviluppiamo soluzioni all’avanguardia sulle nostre principali piattaforme: AutoXY, DriveK, Km77 e Formula Passion.Vuoi saperne di più? Dai un’occhiata ai nostri canali social:https://www.youtube.com/@DriveKItaliahttps://www.instagram.com/drivekitalia/https://www.tiktok.com/@drivekitaliaDove siamo:Abbiamo sedi a Milano, Lecce e Madrid.Adottiamo una modalità di lavoro ibrida, con presenza in ufficio richiesta solo per il 20% del tempo mensile.Chi cerchiamo:Siamo alla ricerca di uno Software Engineer motivato e appassionato da inserire con contratto a tempo indeterminato. Una persona appassionata, motivata e attenta alla qualità del codice: non solo orientata al risultato, ma al modo giusto per raggiungerlo.Farai parte di un team cross-funzionale, occupandoti della progettazione, sviluppo, manutenzione ed evoluzione dei nostri servizi backend.Cosa farai:Collaborerai con il team Product nella progettazione, sviluppo e test dei servizi backend.Gestirai e risolverai rapidamente eventuali problematiche tecniche.Creerai e monitorerai dashboard applicative.Parteciperai agli stand-up giornalieri e alle code review.Lavorerai a stretto contatto con i team Frontend e Product per garantire integrazione fluida e rilascio efficace delle nuove funzionalità.Contribuirai alla rotazione e al miglioramento della piattaforma di supporto interno.Requisiti indispensabili:Laurea in Informatica, Ingegneria Informatica o affini (o esperienza equivalente).Ottima conoscenza dei principi di sviluppo backend e dei pattern SOLID.Esperienza con Test Driven Development (TDD).Ottima padronanza di PHP.Conoscenza di SQL e NoSQL.Familiarità con GIT e progettazione di API RESTful.Ottima conoscenza dell’italiano e buona padronanza dell’inglese (riunioni e documentazione in inglese).Esperienza con Kubernetes, Symfony, Laravel, Wordpress, RabbitMQ o Kafka.Requisiti preferenziali:Esperienza con AWS o Google Cloud.Conoscenza di Node.js.Conoscenza di GitLab o Jenkins.Familiarità con Scrum.Tecnologie con cui lavorerai:Le tecnologie principali includono:Php, versioni 5.3, 7.3 e 8.1.Symfony, 1.4, 3.4 e 4.3.Wordpress.Node.js.Kubernetes, AWS.TDD: PHP Unit, Jest.Message Broker: RabbitMQ.Build: GitLab.Monitoring: Grafana, New Relic, Loki.Cosa offriamo:Contratto"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4463638683",
-      "title": "Full-Stack PHP Developer Job ID: JP055326",
-      "company": "ITproposal",
-      "url": "https://be.linkedin.com/jobs/view/full-stack-php-developer-job-id-jp055326-at-itproposal-4463638683",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-14",
-      "work_type": "onsite",
-      "location": "Brussels, Brussels Region, Belgium",
-      "description": "About the job Full-Stack PHP Developer Job ID: JP055326Full-Stack PHP Developer Role OverviewWe are looking for a Full-Stack PHP Developer to join a multidisciplinary team responsible for the development, maintenance, and evolution of an application used to manage evidence and case-related items.Key ResponsibilitiesAnalyse technical requirements and translate business needs into solutions.Develop and maintain new features using PHP and JavaScript.Perform corrective and evolutionary maintenance.Write and execute unit and integration tests.Participate in code reviews and continuous improvement of software quality.Investigate and resolve technical issues.Maintain technical documentation and deployment documentation.Participate in Agile ceremonies and project meetings.Follow security, architecture, development, and confidentiality standards.RequirementsStrong experience with PHP 7.4+, JavaScript, and AngularJS.Experience with CodeIgniter 3 and Smarty.Knowledge of InterSystems Caché / IRIS and SQL.Experience with object-oriented development and Agile (Scrum/Kanban).Good knowledge of development best practices.Experience with Git, GitLab/GitHub, Postman, Visual Studio Code, and DBeaver.Strong analytical and problem-solving skills.Ability to work effectively within a multidisciplinary team.Languages: Dutch, French, and English.AssignmentStart: ASAPDuration: Until 31 December 2026, with possible extensionWorkload: Full-time, 40 hours/weekLocation: BrusselsWorking arrangement: Hybrid, with at least 2 days/week on-site in agreement with the team"
     }
   ]
 }
