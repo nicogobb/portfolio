@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T19:08:32.074181+00:00",
+  "updated_at": "2026-10-06T22:08:28.377490+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3936",
@@ -19,6 +19,17 @@
       "url": "https://larajobs.com/job/3935",
       "source": "Larajobs",
       "date": "Tue, 15 Se",
+      "fetched_at": "2026-10-06",
+      "work_type": "remote",
+      "description_failed": true
+    },
+    {
+      "id": "Larajobs_https://larajobs.com/job/3940",
+      "title": "Senior Software Engineer",
+      "company": "",
+      "url": "https://larajobs.com/job/3940",
+      "source": "Larajobs",
+      "date": "Tue, 06 Oc",
       "fetched_at": "2026-10-06",
       "work_type": "remote",
       "description_failed": true
@@ -4234,7 +4245,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-10-06",
-      "work_type": "remote",
+      "work_type": "hybrid",
       "location": "Coblenz, Rhineland-Palatinate, Germany",
       "description_failed": true
     },
@@ -7393,7 +7404,8 @@
       "fetched_at": "2026-10-06",
       "work_type": "remote",
       "location": "Dallas, TX",
-      "description": "Required Skills/Experience:Expert level hands-on experience in JavaScript / TypeScript / React.Expert level hands-on experience in Node.js for backend development.Experience with REST/GraphQL APIs. React and Shopify Polaris for UI development. React.js and its core principlesHands‑on experience with PHP (7.x/8.x+) and WordPress, including custom theme and plugin development, performance optimization, and troubleshooting.Hands-on experience building shopping cart payment plugins or integrations is a plusExperience in Cloud native development in Azure, AWS or GCP is preferred.Experience in streaming technologies like Apache Kafka, Spark is preferred.Experience with RDBMS like PostgreSQL, and/or MS SQLExperience in NoSQL databases like Cassandra, MongoDB.Prior experience with data structure libraries (e.g., Immutable.js)Experience in Jenkins/Cloud bees, Apigee, Kubernetes, Rancher. Thorough understanding of a feature, the users impacted, the flows impacted and feature's purposeAdept with agile software development lifecycle and DevOps principlesAble to communicate processes and results with all parties involved in the product team, including engineers, product owner, scrum master, third party vendors and customers month.Need candidates with hands on experience on PHP, React, Laravel/Symphony experience!"
+      "description": "Required Skills/Experience:Expert level hands-on experience in JavaScript / TypeScript / React.Expert level hands-on experience in Node.js for backend development.Experience with REST/GraphQL APIs. React and Shopify Polaris for UI development. React.js and its core principlesHands‑on experience with PHP (7.x/8.x+) and WordPress, including custom theme and plugin development, performance optimization, and troubleshooting.Hands-on experience building shopping cart payment plugins or integrations is a plusExperience in Cloud native development in Azure, AWS or GCP is preferred.Experience in streaming technologies like Apache Kafka, Spark is preferred.Experience with RDBMS like PostgreSQL, and/or MS SQLExperience in NoSQL databases like Cassandra, MongoDB.Prior experience with data structure libraries (e.g., Immutable.js)Experience in Jenkins/Cloud bees, Apigee, Kubernetes, Rancher. Thorough understanding of a feature, the users impacted, the flows impacted and feature's purposeAdept with agile software development lifecycle and DevOps principlesAble to communicate processes and results with all parties involved in the product team, including engineers, product owner, scrum master, third party vendors and customers month.Need candidates with hands on experience on PHP, React, Laravel/Symphony experience!",
+      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4467384651",
@@ -7504,6 +7516,68 @@
       "location": "United States",
       "easy_apply": true,
       "description": "Magento DeveloperJob Title: Senior Full-Stack Engineer – Adobe Commerce Team: Design & Experience Experience: 5–8 Years Platform: Adobe Commerce / Magento 2.x RemoteRole OverviewWe are seeking a Senior Full-Stack Engineer focused on customer-facing digital experiences within a large-scale Adobe Commerce platform.This role is frontend-heavy, with strong backend and integration responsibilities. The engineer will build high-quality storefront experiences, connect frontend applications to Adobe Commerce and enterprise services, and improve performance, accessibility, personalization, and conversion.Key ResponsibilitiesDesign and build responsive Adobe Commerce storefront experiences.Improve:UsabilityPerformanceAccessibilityVisual consistencyCheckout conversionBuild frontend-to-backend connectivity using Adobe Commerce APIs, middleware, and third-party integrations.Work closely with UX/UI designers to convert wireframes and design systems into production-ready components.Optimize Core Web Vitals and page performance.Work with Redis, CDN, and search/indexing technologies.Build and maintain reusable component libraries/design systems.Define API contracts with backend engineering teams.Support frontend CI/CD and deployment processes.Participate in A/B testing and iterative experience optimization.Use analytics and customer feedback to improve digital experiences.Mentor developers and contribute to frontend architecture and engineering standards.Required Qualifications5–8 years of professional software engineering experience.Significant hands-on Adobe Commerce / Magento 2.x enterprise experience.Strong PHP development experience.Strong understanding of:Magento modulesPluginsDependency InjectionService ContractsExperience integrating Adobe Commerce using:RESTGraphQLSOAPRabbitMQWebhooksStrong MySQL/MariaDB experience and query optimization.Strong TDD experience with PHPUnit.Git, Composer, CI/CD, Docker.AWS, Azure, or Adobe Commerce Cloud experience.Experience with:RedisElasticsearch/OpenSearchFastly/CDNStrong React or Vue experience within Adobe Commerce.Experience with PWA Studio, Venia, headless or composable commerce.Strong CSS/LESS/Sass skills.Responsive and accessible WCAG-compliant development.Frontend testing using Jest, Cypress, MFTF, or equivalent.Experience with frontend build tools such as Webpack or Vite.Experience with performance tools such as Lighthouse, WebPageTest, New Relic, or Blackfire.Preferred QualificationsStorybook or other design-system/comp"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4463557874",
+      "title": "Technical Lead, Drupal",
+      "company": "ICF Next",
+      "url": "https://www.linkedin.com/jobs/view/technical-lead-drupal-at-icf-next-4463557874",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-06",
+      "work_type": "remote",
+      "location": "Washington, DC",
+      "description": "Description@ ICF Next, we are fearless in finding new ways to solve problems, relentless in making sure it pays off for our clients and committed to making a positive change in the world.Join our community of mission-driven creatives, communicators, strategists, and technologists to challenge the status quo.Support a high-impact digital presence by providing technical expertise and operational support across web and social media channels. This work will help ensure reliable, accessible, and engaging online experiences while advancing the client's ability to inform, connect, and engage with diverse audiences through innovative digital communications strategies.Location: On-site in Washington, DC up to 2 days per weekWhat You’ll DoKey ResponsibilitiesArchitect, develop, and maintain secure, high-performing Drupal websites that meet industry standards for accessibility, usability, security, and design excellence.Design, implement, and execute automated testing strategies to ensure the delivery of reliable, high-quality software solutions.Support the full application lifecycle, helping define deployment strategies and ensuring smooth, efficient releases to production environments.Mentor and collaborate with engineers across varying experience levels, fostering technical growth and promoting development best practices.Partner directly with clients, stakeholders, and cross-functional teams to establish priorities, manage expectations, and deliver successful project outcomes.Contribute to an Agile development environment, actively participating in planning, sprint execution, continuous improvement, and team collaboration.Troubleshoot and resolve technical challenges while identifying opportunities to enhance application performance, scalability, and user experience.Champion quality, innovation, and continuous learning to help drive project and team success.What You’ll BringBasic Qualifications7+ years building secure, accessible, responsive web applications5+ years building Drupal solutions, including module development, theming, migrations, writing automated tests, Drush and Composer3 years of leadership experienceAll work must be conducted within the U.S.Must be capable of receiving a Public Trust level clearance per the contract7 + years of the fundamental technologies of the web: HTTP, SSL, HTML, CSS, JavaScript, and JSONNice To HavePreferred Skills/QualificationsFamiliarity working in and with Cloud technologies like AWS and AcquiaFamiliarity with PHP framew"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4466540241",
+      "title": "Drupal Developer",
+      "company": "TMV Global Inc",
+      "url": "https://www.linkedin.com/jobs/view/drupal-developer-at-tmv-global-inc-4466540241",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-06",
+      "work_type": "remote",
+      "location": "Atlanta, GA",
+      "easy_apply": true,
+      "description": "Key responsibilities include:Designing and developing scalable enterprise applications using Java, Spring Boot, REST APIs, Microservices, and cloud-native architectures.Building and maintaining Drupal 9/10/11 applications, custom modules, themes, workflows, integrations, and reusable UI components.Developing responsive web applications and Single Page Applications using Angular, React, Vue, JavaScript, TypeScript, HTML5, and CSS3.Designing and implementing secure integrations between enterprise systems, Salesforce, Drupal, and external platforms.Developing Salesforce solutions using Lightning Web Components (LWC), Apex Classes, Apex Triggers, SOQL, and Flows.Building AI-powered solutions, including a personalized IBM Watson chatbot that delivers contextual responses based on authenticated user profiles and enterprise data.Implementing Generative AI solutions using AWS Bedrock and Knowledge Bases to automate Drupal content authoring, landing page generation, and knowledge-driven content creation.Integrating AI capabilities into Salesforce for lead scoring, customer insights, and product recommendation workflows.Leveraging Microsoft Copilot, GitHub Copilot, ChatGPT, AWS Bedrock, and Watson AI to improve development productivity, documentation, testing, and application modernization efforts.Supporting IBM Cloud and AWS environments, including infrastructure management, CI/CD pipelines, deployment automation, monitoring, scheduled jobs, storage management, and backup processes.Developing and supporting Adobe Experience Manager (AEM) components, IBM Carbon-based widgets, publisher management, cache invalidation, and content publishing workflows.Designing and optimizing Oracle SQL and PL/SQL database solutions, stored procedures, and performance enhancements.Participating in the complete SDLC, providing production support, mentoring team members, conducting code reviews, and driving engineering best practices."
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4476350825",
+      "title": "PHP Web Developer",
+      "company": "AgileGrid Solutions",
+      "url": "https://www.linkedin.com/jobs/view/php-web-developer-at-agilegrid-solutions-4476350825",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-06",
+      "work_type": "remote",
+      "location": "United States",
+      "description": "About The CompanyExcelon Solutions is a leading provider of innovative telecommunications software solutions, dedicated to enhancing operational efficiency and service quality for our clients worldwide. With over a decade of industry experience, we specialize in developing mission-critical platforms that support the complex needs of telecommunications providers. Our commitment to technological excellence, continuous innovation, and customer satisfaction has positioned us as a trusted partner in the telecommunications sector. We foster a collaborative and dynamic work environment where talented professionals can thrive and contribute to impactful projects that shape the future of telecommunications technology.About The RoleWe are seeking a skilled Software Developer to join our dynamic team at Excelon Solutions. In this role, you will be instrumental in designing, developing, testing, and maintaining features for our core telecommunications operations platform. You will work within a mature application environment, leveraging your expertise to improve system functionality, optimize performance, and ensure operational stability. The ideal candidate will have a strong background in backend development with PHP and Laravel, as well as frontend skills in Vue.js, TypeScript, and Tailwind CSS for building responsive user interfaces. Your responsibilities will include diagnosing complex application issues, collaborating with cross-functional teams, and contributing to continuous application modernization efforts. This position offers an exciting opportunity to work on mission-critical systems that impact the telecommunications industry significantly.QualificationsQualifications, skills, and all relevant experience needed for this role can be found in the full description below.Bachelor’s degree in Computer Science, Software Engineering, or a related field.Proven experience in backend development using PHP and Laravel framework.Strong proficiency in frontend technologies including Vue.js, TypeScript, and Tailwind CSS.Experience working with mature codebases, ideally around ten years old, and maintaining legacy systems.Excellent problem-solving skills with the ability to diagnose and resolve complex application and data issues.Familiarity with source control management tools such as GitLab, including merge requests, issue tracking, and release management.Knowledge of telecommunications operations and workflows to translate operational requirements into reliable soft"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4475115004",
+      "title": "Software Engineer (Laravel)",
+      "company": "Zonneplan",
+      "url": "https://nl.linkedin.com/jobs/view/software-engineer-laravel-at-zonneplan-4475115004",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-06",
+      "work_type": "onsite",
+      "location": "Zwolle, Overijssel, Netherlands",
+      "description": "Please note: Proficiency in the Dutch language is requiredOver deze rolAls Software Engineer (Laravel) bouw je niet zomaar webapplicaties. Je werkt aan het hart van ons slimme energienetwerk, bijvoorbeeld door een planningssysteem te ontwikkelen dat installaties automatisch aanstuurt. Jouw code maakt direct verschil: klanten schakelen sneller over op groene energie en interne processen lopen veel efficiënter. Je ziet meteen wat je werk oplevert, van een offertetool die de doorlooptijd halveert tot features die door honderden klanten per dag worden gebruikt.Je werkt in het team Business Operations, waar je direct samenwerkt met Sales, Installaties én Support. De tools die jij bouwt, worden dagelijks door 220 collega's gebruikt. Je zet de CI/CD-pipeline op met GitHub Actions, bewaakt performance met Grafana en lost problemen op met Sentry. Het tempo ligt hoog, de lijnen zijn kort en je krijgt de ruimte om zelf keuzes te maken. Samen werken jullie aan plan Zero, een Nederland zonder fossiele energie.Jouw impact bij ZonneplanJij ontwikkelt schaalbare Laravel-applicaties. Je bouwt nieuwe features die direct live gaan en impact maken op klanten en collega's. Van CRM-integraties tot planningssystemen: jouw code zorgt ervoor dat processen sneller en betrouwbaarder worden. Je werkt met moderne tools zoals Laravel, GitHub Actions, Grafana en Sentry om kwaliteit en stabiliteit te garanderen.Jij zorgt voor technische kwaliteit. Je schrijft leesbare, goed geteste code en voert code reviews uit voor teamleden. Je signaleert technische schuld en pakt dit proactief aan. Jouw werk voldoet aan de Definition of Done en draagt bij aan een stabiele codebase waar het team trots op is.Jij werkt samen met het hele bedrijf. Je zit direct aan tafel met Sales, Installaties en Support om te zorgen dat jouw tools écht gebruikt worden. Je vertaalt hun behoeften naar technische oplossingen en zorgt dat features aansluiten bij de praktijk. Jouw werk maakt het verschil voor 220 collega's en duizenden klanten.Jij verbetert continu. Je blijft op de hoogte van nieuwe technologieën en past deze toe waar relevant. Je deelt actief kennis met teamleden en draagt bij aan betere development processen. Als je een kans ziet om iets slimmer aan te pakken, neem je initiatief en til je het team naar een hoger niveau.Dit krijg je van onsEen salaris tussen €3.500 en €5.000 per maand, afhankelijk van je ervaring.25 vakantiedagen (met de mogelijkheid om er meer bij te kopen) en reiskostenvergoeding.Een per"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4476390366",
+      "title": "PHP-udvikler til fremtidens AI-drevne e-commerce-løsninger",
+      "company": "Bodylab",
+      "url": "https://dk.linkedin.com/jobs/view/php-udvikler-til-fremtidens-ai-drevne-e-commerce-l%C3%B8sninger-at-bodylab-4476390366",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-06",
+      "denmark": true,
+      "work_type": "onsite",
+      "location": "Copenhagen Municipality, Capital Region of Denmark, Denmark",
+      "description": "Vil du bygge interne systemer og automatiseringer, hvor AI bliver brugt til at løse konkrete forretningsproblemer – ikke som buzzword, men som en praktisk del af både udviklingsarbejdet og de løsninger, vi bygger?Vi har netop skiftet til Shopware som ny API-first e-commerce-platform. Det giver os et stærkere fundament for at automatisere arbejdsgange, koble systemer bedre sammen og bygge løsninger, der gør hverdagen lettere for både e-commerce, marketing, kundeservice og operations.Vi søger en praktisk orienteret softwareudvikler, der kan tage teknisk ejerskab for vores interne systemer, omsætte forretningsbehov til konkrete løsninger og samarbejde tæt med både kolleger og eksterne partnere om at få tingene sikkert i drift.Rollen handler om at forstå behov, formulere opgaver præcist, styre AI-værktøjerne, vurdere outputtet kritisk og få løsningerne til at fungere stabilt i praksis.Hos os er AI-assisteret udvikling ikke bare et supplement. Vi arbejder mod en moderne udviklingsform, hvor værktøjer som Claude Code bruges aktivt til at bygge, ændre, teste, dokumentere og forbedre kode – men hvor den faglige vurdering, struktur og ansvarlighed stadig ligger hos udvikleren.Får du kriller i fingrene, når du ser en manuel arbejdsgang, der burde være automatiseret? Tænker du, at AI kan bruges til at løse konkrete problemer hurtigere og smartere? Og sætter du en ære i, at det du bygger, rent faktisk bliver brugt i hverdagen? Så står der et ungt og kreativt team klar med åbne arme og håber, at du vil være med til at drive Bodylab-brandet fremad.Du bliver en del af et tværfagligt team, der arbejder tæt sammen på tværs af e-commerce, marketing, data, tech og drift. Vi har høje ambitioner og mange idéer, så det er vigtigt, at du både kan skabe struktur, prioritere og få løsninger helt i mål.Hvad er det så, du skal lave?Konkret er du med til at identificere, bygge og eksekvere AI-tiltag på tværs af organisationen. Derudover fungerer du som teknisk tovholder på vores Shopware-platform, som drives af et eksternt bureau.Vi ser for os, at:Du identificerer, bygger og eksekverer konkrete AI-tiltag i samarbejde med resten af organisationenDu specificerer opgaver til vores eksterne Shopware-bureau, tester leverancerne og sikrer en stabil udrulning til produktionDu integrerer AI/LLM-værktøjer med vores systemer (fx ERP, CRM, webshop, PIM), så data og indsigt bliver let tilgængeligt på tværs af organisationenDu bygger automatiseringer og digitale arbejdsgange, der løser konkrete p"
     },
     {
       "id": "Larajobs_https://larajobs.com/job/3930",
@@ -7779,18 +7853,6 @@
       "description": "At INDI, we're passionate about empowering individuals and businesses worldwide. Our cutting-edge recruiters connect leading companies with top talent, fostering a dynamic environment where innovation thrives. Join us in shaping the future of work.Overview of the roleThe WordPress Developer will be responsible for designing custom themes, plugins, and integrations to deliver high-quality web solutions. This role involves transforming WordPress from a blogging tool into a robust enterprise CMS, ensuring scalability and performance for complex business applications.Key responsibilities- Designing and developing custom WordPress themes and plugins from scratch using PHP.- Implementing and customizing WooCommerce to build scalable e-commerce solutions.- Creating rich, interactive content layouts utilizing the Gutenberg block editor.- Integrating WordPress with third-party APIs and enterprise systems to extend core functionality.- Optimizing website performance, security, and SEO best practices across all development stages.- Maintaining and troubleshooting existing WordPress installations to ensure maximum uptime and reliability.Requirements- WordPress Development: 4+ years of hands-on experience in WordPress Development or Web Engineering.- Themes and Plugins: Proven expertise developing custom solutions from scratch.- PHP and Gutenberg: Proficiency in PHP and building custom blocks with the Gutenberg editor.- E-commerce: Hands-on experience implementing solutions using WooCommerce.- Enterprise CMS: Deep understanding of extending WordPress for enterprise applications.- Language Proficiency: Advanced level of English.Benefits:- Flexibility: Choose where and how you work for enhanced creativity and innovation.- Tailored Compensation: Personalize your earnings to suit your financial goals.- Tech-Driven Tools: Access cutting-edge resources for seamless collaboration and productivity.- Autonomous Workflow: Take control of your schedule to achieve work-life balance.- Well-being: Enjoy generous leave policies for rest and rejuvenation.- Diversity & Inclusion: Thrive in a diverse and inclusive environment.- Collaboration: Engage with industry leaders for collective growth.- Development: Access mentorship and growth opportunities for continuous advancement.If you are interested in being part of a team composed of the best professionals and working 100% goal-oriented in an innovative environment, but with the structure and resources of a multinational market leader, d"
     },
     {
-      "id": "LinkedIn_urn:li:jobPosting:4463557874",
-      "title": "Technical Lead, Drupal",
-      "company": "ICF Next",
-      "url": "https://www.linkedin.com/jobs/view/technical-lead-drupal-at-icf-next-4463557874",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-05",
-      "work_type": "remote",
-      "location": "Washington, DC",
-      "description": "Description@ ICF Next, we are fearless in finding new ways to solve problems, relentless in making sure it pays off for our clients and committed to making a positive change in the world.Join our community of mission-driven creatives, communicators, strategists, and technologists to challenge the status quo.Support a high-impact digital presence by providing technical expertise and operational support across web and social media channels. This work will help ensure reliable, accessible, and engaging online experiences while advancing the client's ability to inform, connect, and engage with diverse audiences through innovative digital communications strategies.Location: On-site in Washington, DC up to 2 days per weekWhat You’ll DoKey ResponsibilitiesArchitect, develop, and maintain secure, high-performing Drupal websites that meet industry standards for accessibility, usability, security, and design excellence.Design, implement, and execute automated testing strategies to ensure the delivery of reliable, high-quality software solutions.Support the full application lifecycle, helping define deployment strategies and ensuring smooth, efficient releases to production environments.Mentor and collaborate with engineers across varying experience levels, fostering technical growth and promoting development best practices.Partner directly with clients, stakeholders, and cross-functional teams to establish priorities, manage expectations, and deliver successful project outcomes.Contribute to an Agile development environment, actively participating in planning, sprint execution, continuous improvement, and team collaboration.Troubleshoot and resolve technical challenges while identifying opportunities to enhance application performance, scalability, and user experience.Champion quality, innovation, and continuous learning to help drive project and team success.What You’ll BringBasic Qualifications7+ years building secure, accessible, responsive web applications5+ years building Drupal solutions, including module development, theming, migrations, writing automated tests, Drush and Composer3 years of leadership experienceAll work must be conducted within the U.S.Must be capable of receiving a Public Trust level clearance per the contract7 + years of the fundamental technologies of the web: HTTP, SSL, HTML, CSS, JavaScript, and JSONNice To HavePreferred Skills/QualificationsFamiliarity working in and with Cloud technologies like AWS and AcquiaFamiliarity with PHP framew"
-    },
-    {
       "id": "LinkedIn_urn:li:jobPosting:4472300507",
       "title": "Full-Stack Web Developer (WordPress / Laravel)",
       "company": "Skyleads Digital Growth Partners",
@@ -7871,19 +7933,6 @@
       "work_type": "onsite",
       "location": "Wrocław, Dolnośląskie, Poland",
       "description": "We are looking for an experienced WooCommerce Developer with strong BaseLinker expertise to join an e-commerce integration project for one of the largest logistics companies in Europe.In this role, you will focus on the development and maintenance of WooCommerce integrations, including connectivity with BaseLinker and external logistics services. Your tasks Developing and maintaining solutions and integrations based on WordPress and WooCommerceExtending and developing WooCommerce pluginsIntegrating WooCommerce with BaseLinker and external logistics servicesBuilding and maintaining integrations using REST APIs and webhooksManaging order, shipment, delivery method, and status synchronizationTroubleshooting and resolving integration and production issuesCreating custom WooCommerce functionality using hooks, actions, and filtersEnsuring compatibility with new versions of WordPress and WooCommerceImproving the performance, stability, and security of existing integrationsCollaborating with product, business, and other development teamsCreating and maintaining technical documentation for integrationsRequirementsMinimum 3 years of commercial experience with PHPStrong hands-on experience in WordPress and WooCommerce developmentExperience in developing or extending WooCommerce pluginsPractical experience with BaseLinker or Base.comVery good understanding of REST API integrations and webhooksKnowledge of WooCommerce order and checkout processesPrevious work with MySQL and working knowledge of JavaScript, HTML, and CSSExperience with GitAbility to independently troubleshoot integration-related issuesAdvanced level of English Nice to have Experience with e-commerce or logistics platformsFamiliarity with courier, shipping, or marketplace integrationsKnowledge of WooCommerce Blocks or Checkout BlocksExperience with WooCommerce HPOSUnderstanding of WordPress and WooCommerce coding standardsExperience with automated testing, e.g. PHPUnitFamiliarity with CI/CD and DockerJob no. JOB-ACMDCSii ensures that all hiring decisions are made solely on the basis of qualifications and competence. We are committed to equal and fair treatment of all, regardless of legally protected characteristics. At Sii, we promote a diverse and inclusive work environment, in full compliance with applicable anti-discrimination laws.Benefits For YouGreat Place to WorkSolid financial situationContracts with the biggest brandsCentre of internal trainingsMany experts you can learn fromOpen and accessible "
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4466540241",
-      "title": "Drupal Developer",
-      "company": "TMV Global Inc",
-      "url": "https://www.linkedin.com/jobs/view/drupal-developer-at-tmv-global-inc-4466540241",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-05",
-      "work_type": "remote",
-      "location": "Atlanta, GA",
-      "easy_apply": true,
-      "description": "Key responsibilities include:Designing and developing scalable enterprise applications using Java, Spring Boot, REST APIs, Microservices, and cloud-native architectures.Building and maintaining Drupal 9/10/11 applications, custom modules, themes, workflows, integrations, and reusable UI components.Developing responsive web applications and Single Page Applications using Angular, React, Vue, JavaScript, TypeScript, HTML5, and CSS3.Designing and implementing secure integrations between enterprise systems, Salesforce, Drupal, and external platforms.Developing Salesforce solutions using Lightning Web Components (LWC), Apex Classes, Apex Triggers, SOQL, and Flows.Building AI-powered solutions, including a personalized IBM Watson chatbot that delivers contextual responses based on authenticated user profiles and enterprise data.Implementing Generative AI solutions using AWS Bedrock and Knowledge Bases to automate Drupal content authoring, landing page generation, and knowledge-driven content creation.Integrating AI capabilities into Salesforce for lead scoring, customer insights, and product recommendation workflows.Leveraging Microsoft Copilot, GitHub Copilot, ChatGPT, AWS Bedrock, and Watson AI to improve development productivity, documentation, testing, and application modernization efforts.Supporting IBM Cloud and AWS environments, including infrastructure management, CI/CD pipelines, deployment automation, monitoring, scheduled jobs, storage management, and backup processes.Developing and supporting Adobe Experience Manager (AEM) components, IBM Carbon-based widgets, publisher management, cache invalidation, and content publishing workflows.Designing and optimizing Oracle SQL and PL/SQL database solutions, stored procedures, and performance enhancements.Participating in the complete SDLC, providing production support, mentoring team members, conducting code reviews, and driving engineering best practices."
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4295546823",
@@ -13853,71 +13902,6 @@
       "match_cons": [
         "Primary language not specified",
         "No EU timezone mention"
-      ]
-    },
-    {
-      "id": "PHPDevCareers_wordpress-developer-965945",
-      "title": "Wordpress Developer",
-      "company": "Arcot AI Solutions Private Limited",
-      "url": "https://phpdevelopercareers.com/jobs/wordpress-developer-965945/",
-      "source": "PHPDevCareers",
-      "date": "",
-      "fetched_at": "2026-09-16",
-      "work_type": "remote",
-      "description_failed": true,
-      "match_score": 45,
-      "match_confidence": "low",
-      "match_pros": [
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Primary language is NOT PHP",
-        "Requires AWS"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4463177529",
-      "title": "Laravel Software Engineer",
-      "company": "Gradient Financial Group",
-      "url": "https://www.linkedin.com/jobs/view/laravel-software-engineer-at-gradient-financial-group-4463177529",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-16",
-      "work_type": "remote",
-      "location": "Shoreview, MN",
-      "description_failed": true
-    },
-    {
-      "id": "PHPDevCareers_senior-full-stackbackend-engineer-php-react-1031275",
-      "title": "Senior Full Stack/Backend Engineer (PHP + React)",
-      "company": "AlfaDocs.com",
-      "url": "https://phpdevelopercareers.com/jobs/senior-full-stackbackend-engineer-php-react-1031275/",
-      "source": "PHPDevCareers",
-      "date": "",
-      "fetched_at": "2026-09-16",
-      "work_type": "remote",
-      "description_failed": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4444520414",
-      "title": "Fullstack Drupal developer",
-      "company": "Webfluence",
-      "url": "https://be.linkedin.com/jobs/view/fullstack-drupal-developer-at-webfluence-4444520414",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-16",
-      "work_type": "remote",
-      "location": "Kortrijk Metropolitan Area",
-      "description": "Wie je bentJe hebt minstens 2 jaar Drupal-ervaringGoede kennis van: HTML, JS, CSS/SCSSGoede kennis van PHPKennis van GitHet opzetten van een Drupal omgeving is voor jou geen onbekend terrein.Wat je doetJe bouwt websites, webshops en klantenportalen van A tot Z.Daarvoor schrijf je nette en duidelijke SCSS, JS en PHP, en zet je een overzichtelijke Drupal-structuur op.Nog geen Drupal wizard? Geen probleem! Wij begeleiden jou waar nodig.Wat je krijgtEen vast contract van onbepaalde duur. 4/5 of deeltijds is bespreekbaar.Werken op freelance-basis is ook mogelijk.Een mooie verloning, op basis van je ervaring. Plus extralegale voordelen (MacBook, maaltijdcheques, optioneel: bedrijfswagen) en bijkomende vakantiedagen.Een aangename, filevrije werkplek in Pittem.Glijdende werkuren, met mogelijkheid tot thuiswerk.Interne en externe opleidingen, volledig op maat van jouw groeitraject.Wie wij zijnWebfluence is een jong en ambitieus bedrijf, gevestigd in Pittem. Als digitale partner van organisaties, start-ups en KMO’s maken wij websites en online platformen in Drupal. Hou je van een no-nonsense bedrijfscultuur, wil je het verschil maken met jouw kwaliteiten én drink je alleen de allerbeste koffie? Dan zit je goed bij Webfluence. Iets voor jou?Let’s meet! Stuur een mailtje met jouw cv naar lothar@webfluence.be",
-      "match_score": 45,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Different framework (Drupal instead of PHP frameworks),",
-        "Danish preferred"
       ]
     }
   ]
