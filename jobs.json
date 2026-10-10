@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T01:07:35.127922+00:00",
+  "updated_at": "2026-10-10T04:06:59.584304+00:00",
   "jobs": [
     {
       "id": "Larajobs_https://larajobs.com/job/3936",
@@ -1426,7 +1426,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-10-10",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Lingen, Lower Saxony, Germany",
       "description": "Deine AufgabenDu realisierst eCommerce-Projekte auf Basis von Shopware oder OXID gemeinsam mit deinem TeamDu entwickelst Individualsoftware auf Basis des Symfony FrameworkDu bist für die Spezifikation und Entwicklung von eCommerce-Schnittstellen zuständigDein ProfilDu konntest bereits erste Berufserfahrung in der Softwareentwicklung sammelnEin abgeschlossenes Studium oder eine fachbezogene Ausbildung sind von VorteilDu bringst sehr gute Kenntnisse in PHP und MySQL mitErfahrungen im Umgang mit der Shopware- oder OXID-Architektur sind von VorteilUnsere BenefitsMobiles ArbeitenArbeite bis zu 4 Tage die Woche von wo immer du möchtest.Flexible ArbeitszeitenWir leben alles! Teilzeit, Vollzeit, Gleitzeit, VertrauensarbeitszeitFlexible UrlaubsplanungUnkompliziert und direkt, einfach Urlaub nehmen, wie du ihn brauchst.WeiterbildungDu willst dich weiterentwickeln? Finden wir top! Besuche die Kurse und Seminare, die dich brennend interessieren.Feel-Good-ArbeitsplatzHöhenverstellbare Schreibtische, Parkplätze für Rad & Auto, Sonnenterrasse, Entertainment-Room und mehrSporteventsFirmenteam und Sponsor beim Münster Marathon, Lauftreff nach Feierabend und vieles mehrEvents & SpaßGrillabende, Sommerfeste, Küchenfeten, Familientage, Betriebsausflüge, WeihnachtsfeiernFirmenfitnessAuch die Fitness kommt nicht zu kurz. Mit unserem Partner EGYM Wellpass bieten wir dir attraktive Zuschüsse.Umfassendes OnboardingWir werfen dich nicht ins kalte Wasser! Bei uns bekommst du ein Onboarding, welches seinen Namen verdient. Damit du entspannt in deinen neuen Arbeitsalltag findest.Bike-LeasingRadfahren ist gut für die Gesundheit und die Umwelt. Deswegen bringen wir dich aufs Rad. Wähle über JobRad einfach dein Wunschbike aus und erhalte von uns attraktive Zuschüsse.Corporate BenefitsMit unserem Partner Corporate Benefits profitierst Du von exklusiven Angeboten namhafter Marken - online und vor Ort.",
       "match_score": 85,
@@ -4512,7 +4512,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-10-10",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Berlin, Germany",
       "description_failed": true,
       "match_score": 45,
@@ -4578,7 +4578,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-10-10",
-      "work_type": "hybrid",
+      "work_type": "onsite",
       "location": "Hamburg, Hamburg, Germany",
       "description": "Company DescriptionABOUT YOU is one of Europe’s fastest growing e-commerce companies. Based in Hamburg and Berlin, we operate at the intersection of fashion and technology. Our mission is to rethink online shopping and make it personal and seamless. This takes more than good ideas. It takes people who take initiative and challenge the status quo. We believe in flat hierarchies, direct communication, and pragmatic decisions. No long approval chains. Just ownership, trust, and clear responsibility. We work hard, but we also believe in enjoying the ride together - over team lunches, afterwork drinks, company events, or a quick coffee in between meetings. If this sounds like you, ABOUT YOU could be the right place to bring in your perspective.Job DescriptionOur Purchasing Interface Team is the main system for the operational processes of our buying, procurement, private label & fotostudio business teams.Build high-traffic web applications with PHP (Laravel)Build internal & external RESTful API as well as Background Jobs (peak times: > 1 million jobs per hour)Engage in decisions like application architecture, together with the Lead Engineer, and explore new technologiesLead the technical conception of features that support a newly designed business process.Take full ownership of the features you build, from the initial code commit to ensuring they run smoothly in production. You'll be responsible for their health, performance, and long-term maintainability.Ship code with confidence multiple times a day using our CI/CD Pipeline (Gitlab) to our hosting platform (AWS Elastic Container Service)Monitor applications with industry-standard tools (Datadog, Sentry) through Dashboards & AlertingLearn from other developers in a highly skilled team and present your ideas in our regular Tech talksJoin a pragmatic agile team that values shipping quality code over the full SCRUM ceremonyQualificationsExcellent coding skills in PHP 8 (Laravel)Experience in designing and implementing E2E, integration & unit testsExpertise in designing, securing, and scaling RESTful APIsExperience working with AWS, Git, Valkey, or equivalentHand-on Experience with relational database design & performance optimization (i. e. MySQL 8)Passionate about writing well-structured, efficient, and maintainable code, actively keeping the quality of the code base in checkReady to work in an English-speaking environmentNice To HaveExperience with SQS, ECS FargateExperience with YII 1.1Additional InformationY"
     },
@@ -6656,6 +6656,78 @@
       "location": "Madrid, Community of Madrid, Spain"
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4463174270",
+      "title": "PHP Application Architect",
+      "company": "Dealer Tire",
+      "url": "https://www.linkedin.com/jobs/view/php-application-architect-at-dealer-tire-4463174270",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-10",
+      "work_type": "remote",
+      "location": "Cleveland, OH",
+      "description": "Who We AreWe’re Dealer Tire, a family-owned, international distributor of tires and parts established in 1918 in Cleveland, OH. We’re laser focused on helping the world’s largest and most trusted auto manufacturers grow their tire business—in fact, we’ve sold more than 60 million tires to date. We’re a thriving company, and we’re looking for driven individuals to join our team. That’s where you come in!Base Pay Range$132,500 - $149,500The Application Architect PHP, a fully remote position, will report directly to the Distinguished Engineer in the Dealer Tire CEG Technology group. They play a critical role in designing, integrating, and implementing components to meet the organization's needs, while collaborating with various teams to maintain the desired future-state code and systems. This role requires strong critical and analytical thinking — the ability to evaluate complex trade-offs, diagnose root causes, and make sound architectural decisions in a fast-moving environment.As Application Architect - Consumer Technology - PHP, your essential job responsibilities will include the following:Architect and Integrate ComponentsArchitect and integrate components to meet the needs of the organization, with a primary focus on PHP/Symfony-based systems.Collaborate with peers, engineering leadership, and subject matter experts to develop and maintain the organization's desired future-state code and systems.Apply critical and analytical thinking to evaluate architectural trade-offs and recommend scalable, maintainable solutions.Develop and Implement SolutionsDevelop and implement solutions both incrementally (near-term sprints) and strategically (long-term roadmap).Perform and facilitate requirements analysis, coordinate user acceptance testing, and manage competing resources and priorities through sprint planning.Integrate and build AI-powered features into products, leveraging LLM APIs (e.g., Claude/Anthropic) and emerging AI tooling to deliver intelligent user experiences.Champion the use of AI development tools (e.g., Claude, Google Gemini) to accelerate team velocity and code quality.Maintain System and Infrastructure AvailabilityIncorporate methods to maintain high system and infrastructure availability.Document and communicate the results of your efforts clearly across technical and non-technical stakeholders.RequirementsOther Duties as AssignedBachelor’s degree required in Computer Science, Software Engineering, or a related technical field, or equivalent p"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4463984099",
+      "title": "PHP Softwareentwickler (m/w/d)",
+      "company": "G&S IT Group GmbH",
+      "url": "https://de.linkedin.com/jobs/view/php-softwareentwickler-m-w-d-at-g-s-it-group-gmbh-4463984099",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-10",
+      "work_type": "remote",
+      "location": "Osnabrück, Lower Saxony, Germany",
+      "description_failed": true,
+      "easy_apply": true
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4474117902",
+      "title": "PHP-ontwikkelaar",
+      "company": "Beech",
+      "url": "https://nl.linkedin.com/jobs/view/php-ontwikkelaar-at-beech-4474117902",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-10",
+      "work_type": "remote",
+      "location": "Venlo, Limburg, Netherlands",
+      "easy_apply": true,
+      "description": "Medior TYPO3 Developer (PHP)Een live veilingklok, meertalige platforms voor internationale klanten en websites die nooit stilstaan. Word jij daar blij van? Dan zoeken we jou.Bij Beech bouwen we al 15 jaar TYPO3-platforms waar een standaard installatie niet volstaat.Waar je aan werktOnze klanten zijn internationaal en hun websites zijn allesbehalve standaard. Denk aan:Een veilingplatform met een live veilingklok. Real-time, foutloos en onder druk.Klanten die intensief werken met nieuwsbrieven en campagnes. Hun websites ontwikkelen daardoor voortdurend mee, dus geen project is na oplevering \"af\".Meertalige, internationale platforms met complexe structuren, veel content en koppelingen met bedrijfssystemen.In de praktijk betekent dat:custom extensies bouwen met Extbase en FluidTYPO3 koppelen aan externe systemen zoals CRM, ERP, PIM en mailingplatformsmeertalige en multisite-omgevingen inrichten en onderhoudenbestaande installaties upgraden en veilig houdencode reviews doen, en die van collega's krijgenrechtstreeks met klanten meedenken over de beste technische oplossingJe komt in een TYPO3-team van vier developers, onderdeel van een groter developmentteam met Laravel- en PHP-specialisten. In een klein team is jouw bijdrage direct zichtbaar. En wie wil, kan meekijken of meebouwen aan de applicaties in Laravel en Angular. We werken met TYPO3, Composer en Git.Waarom nuBeech zit in een nieuwe fase. Na 15 jaar bouwen we opnieuw aan hoe we werken en samenwerken. Een groot deel daarvan is de stap naar AI: [bijv. AI-assistenten in ons ontwikkelproces, AI-functionaliteit in de platforms die we voor klanten bouwen].We hebben daar nog niet alle antwoorden op, en dat is precies de kans. Kom je nu binnen, dan bepaal je mee hoe we AI inzetten, in plaats van in te stappen in iets wat al vastligt.Wat je meebrengt3+ jaar ervaring met PHP, waarvan een flink deel in TYPO3Je kent Extbase, Fluid en TypoScriptJe werkt zelfstandig en weet wanneer je een collega erbij paktJe spreekt goed Nederlands of Duits, en je redt je in het EngelsMooi meegenomen, geen must:Ervaring met meertalige of multisite TYPO3-omgevingen, AI-tools in je ontwikkelwerk, Docker, CI/CD, headless TYPO3 of frontend (SASS/JavaScript).Herken je jezelf in het grootste deel? Solliciteer gewoon. We kijken naar wat je kunt, niet naar je diploma.Wat we je bieden€3.350 – €4.500 bruto per maand. Waar je binnen die range start, hangt af van je ervaring.Pensioenregeling en reiskostenvergoedingEén dag per week thuiswerken, d"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4394609358",
+      "title": "Junior PHP Developer",
+      "company": "Smartbees",
+      "url": "https://pl.linkedin.com/jobs/view/junior-php-developer-at-smartbees-4394609358",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-10",
+      "match_score": 45,
+      "match_confidence": "low",
+      "match_pros": [
+        "PHP primary language"
+      ],
+      "match_cons": [
+        "Junior role",
+        "No EU timezone mention"
+      ],
+      "description": "Na Co Dzień Będziesz Się Zajmowaćtworzeniem projektów opartych o Drupala lub Magento;tworzeniem modułów do istniejących stron, sklepów i aplikacji;rozwojem i nadzorem nad istniejącymi stronami, sklepami i aplikacjami.Zanim Zaaplikujesz, Upewnij Się, Żeznasz PHP 7,znasz HTML i CSS,znasz zasady programowania obiektowego.Będzie Super, Jeśliznasz Drupala,znasz Magento,znasz Vue lub React,swobodnie komunikujesz się w języku angielskim.",
+      "work_type": "remote",
+      "location": "Opole, Opolskie, Poland"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4465206023",
+      "title": "PHP/WordPress Entwickler*in (m/w/d)",
+      "company": "bundesweit.digital GmbH",
+      "url": "https://de.linkedin.com/jobs/view/php-wordpress-entwickler-in-m-w-d-at-bundesweit-digital-gmbh-4465206023",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-10",
+      "work_type": "remote",
+      "location": "Hannover, Lower Saxony, Germany",
+      "description": "Wir suchen ab sofort Unterstützung im Team im Bereich PHP/WordPress Entwicklung.Das ist genau dein Thema und du bringst bereits Erfahrung mit? Dann freuen wir uns auf deine Bewerbung!AufgabenAktive Mitarbeit als auch Unterstützung bei folgenden Aufgaben:Entwicklung und Betrieb von Websites und Webanwendungen, von der Einrichtung bis zum laufenden Betrieb mit allem, was dazu gehörtBetreuung von Kundenprojekten: Neuentwicklungen, Umbauten, Wartung und SupportAnbindung externer Schnittstellen und APIsQualifikationMust-Have:Fundierte WordPress/PHP KenntnisseRoutine in der Teamarbeit mit Git und GitHubKenntnisse im Serverbetrieb: SSH, Logs, Domains, HostingErfahrung im Einsatz von KI-Werkzeugen wie Claude Code, verbunden mit einem kritischen Blick auf die ErgebnisseSehr gute Deutschkenntnisse (Verhandlungssicher) für die Kommunikation mit KundenEigeniniative und KommunikationsfähigkeitGood to Know:Laravel, Livewire, TailwindBenefitsFreiheit, Vertrauen und Verantwortung für die Aufgaben, für die wir dich einstellenFlexibilität bei Arbeitszeit und -ort, damit Karriere und persönliches Leben zusammenpassenWeiterbildungen — dauerhaft neue Fähigkeiten zu erwerben, ist wichtiger denn jeAnständiges Equipment: Gute Geräte sind bei uns ein Must-have, kein SonderfallWas dich erwartet:Ein kleines Team mit kurzen Entscheidungswegen und direktem Kontakt zu Kunden und Produkt. Wir arbeiten eigenverantwortlich und legen Wert auf Rückfragen zum richtigen Zeitpunkt sowie auf nachvollziehbare Ergebnisse.",
+      "easy_apply": true
+    },
+    {
       "id": "IT-jobbank_h1705209",
       "title": "Junior Linux-specialist til samfundskritisk it-infrastruktur",
       "company": "Politi",
@@ -7008,18 +7080,6 @@
       "work_type": "remote",
       "location": "Atlanta, GA",
       "description": "CompanyCogent Communications is a global, Tier 1 facilities-based ISP, consistently ranked as one of the top five networks in the world and is publicly traded on the NASDAQ Stock Market under the ticker symbol CCOI. Cogent specializes in providing businesses with high speed Internet access and Ethernet transport services. Cogent facilities-based, all-optical IP network backbone provides IP services globally. Since its inception, Cogent has unleashed the benefits of IP technology, building one of the largest and highest capacity IP networks in the world. This network enables Cogent to offer large bandwidth connections at highly competitive prices. Cogent also offers superior customer support by virtue of its end-to-end control of service delivery and network monitoring. A competitive base salary and a full benefits package including; Health, Dental, Vision, Paid Time Off (PTO), Short- and Long-Term Disability, Life Insurance, Holidays, Parental Leave, 401(k) plan with employer match, stock options, and an Employee Assistance Program. Most benefits take effect within 30 days of employment, and some require a waiting period.Job SummaryThe Software Developer will assist in the design, development and maintenance of a several in-house business applications to support Corporate Sales, Operations and Finance as well as other departments. Under the guidance of the technical lead, the developer will work with application stakeholders to gather requirements, produce proofs-of-concept, obtain feedback, and complete the development, testing and implementation of the applications. This developer will also assist in maintaining some existing PHP and Java applicationsCompensation[Starting / Initial] Base Salary Pay Range: $80,000-$110,000/yr.Specific offers within the listed pay ranges are determined by a variety of factors such as experience, education, skills, certifications and business needs.ResponsibilitiesAnalyze technology/capability gaps, research, develop, and deploy software solutionsWork with project leads to define sprints and associated deliverablesCollaborate with other developers to design and optimize codeConduct integration, test, bug fixes, and other software maintenance activitiesPerforming requirements analysis and proof of concept or prototyping as needed for engineering and design of corporate applicationsSupporting applications in O&M status by providing enhancements and bug fixes as neededCoding, testing, and debugging new software or enhancements"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4463174270",
-      "title": "PHP Application Architect",
-      "company": "Dealer Tire",
-      "url": "https://www.linkedin.com/jobs/view/php-application-architect-at-dealer-tire-4463174270",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-09",
-      "work_type": "remote",
-      "location": "Cleveland, OH",
-      "description": "Who We AreWe’re Dealer Tire, a family-owned, international distributor of tires and parts established in 1918 in Cleveland, OH. We’re laser focused on helping the world’s largest and most trusted auto manufacturers grow their tire business—in fact, we’ve sold more than 60 million tires to date. We’re a thriving company, and we’re looking for driven individuals to join our team. That’s where you come in!Base Pay Range$132,500 - $149,500The Application Architect PHP, a fully remote position, will report directly to the Distinguished Engineer in the Dealer Tire CEG Technology group. They play a critical role in designing, integrating, and implementing components to meet the organization's needs, while collaborating with various teams to maintain the desired future-state code and systems. This role requires strong critical and analytical thinking — the ability to evaluate complex trade-offs, diagnose root causes, and make sound architectural decisions in a fast-moving environment.As Application Architect - Consumer Technology - PHP, your essential job responsibilities will include the following:Architect and Integrate ComponentsArchitect and integrate components to meet the needs of the organization, with a primary focus on PHP/Symfony-based systems.Collaborate with peers, engineering leadership, and subject matter experts to develop and maintain the organization's desired future-state code and systems.Apply critical and analytical thinking to evaluate architectural trade-offs and recommend scalable, maintainable solutions.Develop and Implement SolutionsDevelop and implement solutions both incrementally (near-term sprints) and strategically (long-term roadmap).Perform and facilitate requirements analysis, coordinate user acceptance testing, and manage competing resources and priorities through sprint planning.Integrate and build AI-powered features into products, leveraging LLM APIs (e.g., Claude/Anthropic) and emerging AI tooling to deliver intelligent user experiences.Champion the use of AI development tools (e.g., Claude, Google Gemini) to accelerate team velocity and code quality.Maintain System and Infrastructure AvailabilityIncorporate methods to maintain high system and infrastructure availability.Document and communicate the results of your efforts clearly across technical and non-technical stakeholders.RequirementsOther Duties as AssignedBachelor’s degree required in Computer Science, Software Engineering, or a related technical field, or equivalent p"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4474865247",
@@ -7811,19 +7871,6 @@
       "work_type": "remote",
       "location": "Gdańsk, Pomorskie, Poland",
       "description": "Wynagrodzenie: 1000 - 1200 PLN/MD na B2BModel pracy: zdalna lub hybryda z Gdańska (1 dzień w tygodniu z biura)Dlaczego warto wybrać tę ofertę?Zapewniamy wyzwania, które pozwolą Ci rozwinąć swoje umiejętnościZapewniamy dużą samodzielność działaniaPracujemy zwinnie, w szerokim spektrum technologiiDbamy o to, aby stack technologiczny był możliwie jak najbardziej nowoczesny i jesteśmy otwarci na wdrażanie nowych rozwiązańProjektProjekt realizowany jest w obszarze IT E-Commerce i dotyczy rozwoju platform sprzedażowych (web i mobile) działających na ponad 40 rynkach. Zespół rozwija kluczowe obszary, takie jak płatności, zakupy, promocje i zwroty, dla platformy obsługującej nawet 60 tys. użytkowników jednocześnie.Prace obejmują rozwój aplikacji w PHP, optymalizację wydajności i bezpieczeństwa, analizę oraz usprawnianie istniejących rozwiązań. Projekt wymaga ścisłej współpracy zespołowej, dbałości o jakość oraz zgodność z architekturą systemu.Twoje ObowiązkiRozwijanie platformy sklepów internetowych największych marek odzieżowych w PolsceRozwijanie oprogramowań w technologii PHP, z użyciem: Symfony, ElasticSearch, PHPUnit, BlackFire, MySQL, Redis, RabbitMQ, Linux, Jenkins, Varnish, Akamai)Współpraca z innymi członkami zespołu (developerzy, testerzy, Product Owner, Scrum Master)Dbanie o optymalizację i bezpieczeństwo tworzonych aplikacji i rozwiązańBranie udziału w spotkaniach dotyczących wyboru i wdrażania technologii backendowychWymagane KompetencjeMinimum 5 lat doświadczenia jako PHP Developer, znajomość frameworków PHP, takich jak SymfonyUmiejętność tworzenia SOLIDnego koduZnajomość systemu kontroli wersji GitZnajomość systemów zarządzania bazami danych (np. MySQL, MongoDB)AI-powered skills: Doświadczenie w pracy z narzędziami AI przekładające się na mierzalne oszczędności czasu i wzrost jakościZrozumienie architektury OOP (programowania obiektowego) oraz wzorców projektowychUmiejętność tworzenia zoptymalizowanego kodu, analizowania i optymalizowania wydajności aplikacjiDoświadczenie w integracji z zewnętrznymi API oraz obsłudze web serwisówZnajomość zagadnień związanych z bezpieczeństwem aplikacji webowychPodejście do ciągłego uczenia się oraz bycie na bieżąco z najnowszymi trendami i technologiamiWysoka komunikatywność oraz otwartość na współpracęUmiejętność efektywnej pracy zespołowej i nastawienie na budowanie pozytywnych relacjiProaktywne podejście do wyzwań i rozwiązywania problemówOdpowiedzialność, rzetelność i dbałość o jakość wykonywanych zadańTechnolo"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4463984099",
-      "title": "PHP Softwareentwickler (m/w/d)",
-      "company": "G&S IT Group GmbH",
-      "url": "https://de.linkedin.com/jobs/view/php-softwareentwickler-m-w-d-at-g-s-it-group-gmbh-4463984099",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-08",
-      "work_type": "remote",
-      "location": "Osnabrück, Lower Saxony, Germany",
-      "description_failed": true,
-      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4413418312",
@@ -8661,19 +8708,6 @@
       "location": "Spain",
       "easy_apply": true,
       "description": "🚀 ¡Buscamos Desarrollador/a PHP Full Stack! | 100% REMOTO¿Eres desarrollador/a PHP y te gusta trabajar con autonomía, APIs y arquitecturas modernas? 💻🚀 ¡Queremos conocerte!Buscamos un/a Desarrollador/a PHP Full Stack con experiencia sólida para participar en el desarrollo y mantenimiento de aplicaciones web y APIs.🔎 ¿Qué buscamos?✅ Experiencia sólida y demostrable con PHP ✅ Experiencia con frameworks como Slim, Symfony, Laravel o similares ✅ Desarrollo y consumo de APIs REST y documentación con Swagger ✅ Experiencia con JWT y/o OAuth 2.0 ✅ Conocimientos de JavaScript y experiencia con Angular ✅ Manejo de Git: ramas, commits, merges y Pull Requests ✅ Experiencia con MySQL y bases de datos relacionales ✅ Buen manejo de Shell/Bash y entornos Linux ✅ Experiencia trabajando con Docker y entornos contenerizados ✅ Experiencia con metodologías ágiles y Jira⭐ Valoramos además:🔹 RabbitMQ, Kafka u otros sistemas de mensajería 🔹 Desarrollo de código seguro y resolución de vulnerabilidades 🔹 Conocimientos de CI/CD 🔹 Experiencia en Azure 🔹 Conocimientos de arquitecturas basadas en microservicios 🔹 Capacidad para trabajar con un alto grado de autonomía y responsabilidad🎁 ¿Qué ofrecemos?🏡 100% remoto — trabaja desde cualquier punto de España 📄 Contrato indefinido 🚀 Proyecto estable y de larga duración 💻 Trabajo con tecnologías actuales y proyectos técnicamente interesantes 📈 Oportunidades de crecimiento y desarrollo profesional 🤝 Entorno colaborativo donde se valora la autonomía, iniciativa y capacidad técnica💡 Si buscas un proyecto estable, remoto y donde puedas aportar realmente desde el punto de vista técnico, ¡esta puede ser tu oportunidad!📩 ¿Te interesa? Inscríbete a la oferta o envíame tu CV por mensaje privado. ¡Hablamos! 🚀#PHP #FullStack #PHPDeveloper #Angular #Symfony #Laravel #Slim #MySQL #Docker #Azure #SoftwareDevelopment #ITJobs #TechJobs #Hiring #RemoteJobstiene menú contextual"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4474117902",
-      "title": "PHP-ontwikkelaar",
-      "company": "Beech",
-      "url": "https://nl.linkedin.com/jobs/view/php-ontwikkelaar-at-beech-4474117902",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-06",
-      "work_type": "remote",
-      "location": "Venlo, Limburg, Netherlands",
-      "easy_apply": true,
-      "description": "Medior TYPO3 Developer (PHP)Een live veilingklok, meertalige platforms voor internationale klanten en websites die nooit stilstaan. Word jij daar blij van? Dan zoeken we jou.Bij Beech bouwen we al 15 jaar TYPO3-platforms waar een standaard installatie niet volstaat.Waar je aan werktOnze klanten zijn internationaal en hun websites zijn allesbehalve standaard. Denk aan:Een veilingplatform met een live veilingklok. Real-time, foutloos en onder druk.Klanten die intensief werken met nieuwsbrieven en campagnes. Hun websites ontwikkelen daardoor voortdurend mee, dus geen project is na oplevering \"af\".Meertalige, internationale platforms met complexe structuren, veel content en koppelingen met bedrijfssystemen.In de praktijk betekent dat:custom extensies bouwen met Extbase en FluidTYPO3 koppelen aan externe systemen zoals CRM, ERP, PIM en mailingplatformsmeertalige en multisite-omgevingen inrichten en onderhoudenbestaande installaties upgraden en veilig houdencode reviews doen, en die van collega's krijgenrechtstreeks met klanten meedenken over de beste technische oplossingJe komt in een TYPO3-team van vier developers, onderdeel van een groter developmentteam met Laravel- en PHP-specialisten. In een klein team is jouw bijdrage direct zichtbaar. En wie wil, kan meekijken of meebouwen aan de applicaties in Laravel en Angular. We werken met TYPO3, Composer en Git.Waarom nuBeech zit in een nieuwe fase. Na 15 jaar bouwen we opnieuw aan hoe we werken en samenwerken. Een groot deel daarvan is de stap naar AI: [bijv. AI-assistenten in ons ontwikkelproces, AI-functionaliteit in de platforms die we voor klanten bouwen].We hebben daar nog niet alle antwoorden op, en dat is precies de kans. Kom je nu binnen, dan bepaal je mee hoe we AI inzetten, in plaats van in te stappen in iets wat al vastligt.Wat je meebrengt3+ jaar ervaring met PHP, waarvan een flink deel in TYPO3Je kent Extbase, Fluid en TypoScriptJe werkt zelfstandig en weet wanneer je een collega erbij paktJe spreekt goed Nederlands of Duits, en je redt je in het EngelsMooi meegenomen, geen must:Ervaring met meertalige of multisite TYPO3-omgevingen, AI-tools in je ontwikkelwerk, Docker, CI/CD, headless TYPO3 of frontend (SASS/JavaScript).Herken je jezelf in het grootste deel? Solliciteer gewoon. We kijken naar wat je kunt, niet naar je diploma.Wat we je bieden€3.350 – €4.500 bruto per maand. Waar je binnen die range start, hangt af van je ervaring.Pensioenregeling en reiskostenvergoedingEén dag per week thuiswerken, d"
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4474721763",
@@ -11232,40 +11266,6 @@
         "Requires AWS",
         "Danish preferred"
       ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4394609358",
-      "title": "Junior PHP Developer",
-      "company": "Smartbees",
-      "url": "https://pl.linkedin.com/jobs/view/junior-php-developer-at-smartbees-4394609358",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-29",
-      "match_score": 45,
-      "match_confidence": "low",
-      "match_pros": [
-        "PHP primary language"
-      ],
-      "match_cons": [
-        "Junior role",
-        "No EU timezone mention"
-      ],
-      "description": "Na Co Dzień Będziesz Się Zajmowaćtworzeniem projektów opartych o Drupala lub Magento;tworzeniem modułów do istniejących stron, sklepów i aplikacji;rozwojem i nadzorem nad istniejącymi stronami, sklepami i aplikacjami.Zanim Zaaplikujesz, Upewnij Się, Żeznasz PHP 7,znasz HTML i CSS,znasz zasady programowania obiektowego.Będzie Super, Jeśliznasz Drupala,znasz Magento,znasz Vue lub React,swobodnie komunikujesz się w języku angielskim.",
-      "work_type": "remote",
-      "location": "Opole, Opolskie, Poland"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4465206023",
-      "title": "PHP/WordPress Entwickler*in (m/w/d)",
-      "company": "bundesweit.digital GmbH",
-      "url": "https://de.linkedin.com/jobs/view/php-wordpress-entwickler-in-m-w-d-at-bundesweit-digital-gmbh-4465206023",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-29",
-      "work_type": "remote",
-      "location": "Hannover, Lower Saxony, Germany",
-      "description": "Wir suchen ab sofort Unterstützung im Team im Bereich PHP/WordPress Entwicklung.Das ist genau dein Thema und du bringst bereits Erfahrung mit? Dann freuen wir uns auf deine Bewerbung!AufgabenAktive Mitarbeit als auch Unterstützung bei folgenden Aufgaben:Entwicklung und Betrieb von Websites und Webanwendungen, von der Einrichtung bis zum laufenden Betrieb mit allem, was dazu gehörtBetreuung von Kundenprojekten: Neuentwicklungen, Umbauten, Wartung und SupportAnbindung externer Schnittstellen und APIsQualifikationMust-Have:Fundierte WordPress/PHP KenntnisseRoutine in der Teamarbeit mit Git und GitHubKenntnisse im Serverbetrieb: SSH, Logs, Domains, HostingErfahrung im Einsatz von KI-Werkzeugen wie Claude Code, verbunden mit einem kritischen Blick auf die ErgebnisseSehr gute Deutschkenntnisse (Verhandlungssicher) für die Kommunikation mit KundenEigeniniative und KommunikationsfähigkeitGood to Know:Laravel, Livewire, TailwindBenefitsFreiheit, Vertrauen und Verantwortung für die Aufgaben, für die wir dich einstellenFlexibilität bei Arbeitszeit und -ort, damit Karriere und persönliches Leben zusammenpassenWeiterbildungen — dauerhaft neue Fähigkeiten zu erwerben, ist wichtiger denn jeAnständiges Equipment: Gute Geräte sind bei uns ein Must-have, kein SonderfallWas dich erwartet:Ein kleines Team mit kurzen Entscheidungswegen und direktem Kontakt zu Kunden und Produkt. Wir arbeiten eigenverantwortlich und legen Wert auf Rückfragen zum richtigen Zeitpunkt sowie auf nachvollziehbare Ergebnisse.",
-      "easy_apply": true
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4470842892",
