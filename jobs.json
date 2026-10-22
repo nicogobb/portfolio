@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T07:09:21.875713+00:00",
+  "updated_at": "2026-10-22T10:10:10.254221+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/r14057136",
@@ -6863,6 +6863,86 @@
       "description": "Developer PHP (Mid/Senior)Lokalizacja: Katowice (praca stacjonarna)Forma zatrudnienia: UoP / B2BWynagrodzenie: do 25 000 zł netto (B2B) / brutto (UoP)Dołącz do projektu w branży motoryzacyjnej!Rozpoczynamy rekrutację do nowego, ambitnego projektu rozwoju platformy B2C, która każdego miesiąca będzie obsługiwać nawet 5 milionów unikalnych użytkowników. Tworzymy zespół od podstaw i budujemy nowoczesną, skalowalną architekturę z realnym wpływem na doświadczenia milionów użytkowników.Kim jesteśmy?Nasz Partner integruje ofertę najlepszych polskich dealerów samochodowych. Oferuje klientom dostęp do ponad 10 000 samochodów różnych marek. Jego zespół liczy już ponad 300 ekspertów z branży finansowej i motoryzacyjnej – i wciąż się rozwija!Kogo szukamy?Doświadczonych programistów PHP (mid/senior), którzy chcą brać udział w budowie nowoczesnych rozwiązań technologicznych od podstaw.Wymagania:Min. 3 lata doświadczenia komercyjnegoBardzo dobra znajomość PHP 8.3+Doświadczenie z frameworkami: Laravel, Symfony lub Slim4Praktyczna znajomość architektury mikroserwisówTworzenie systemów o dużej skali (5 mln UU/mies.)Doświadczenie w e-commercePostgreSQL, MongoDB – projektowanie schematów, optymalizacja zapytańTworzenie i integracja REST/GraphQL APIDocker, Kubernetes (EKS)CI/CD, testy jednostkowe i integracyjneGit, code review, praca w środowisku AWSZnajomość języka angielskiego na poziomie min. B2 (technicznego)Co oferujemy?Pracę przy dużym i nowoczesnym projekcie z realnym wpływem na produktStabilne warunki zatrudnienia – umowa o pracę lub B2BAtrakcyjne wynagrodzenie – do 25 000 zł netto (B2B)Możliwość rozwoju w jednej z najszybciej rozwijających się firm w branży motoryzacyjnejPrzyjazną atmosferę w nowoczesnym biurze w KatowicachPracę w zespole pasjonatów technologii i motoryzacji"
     },
     {
+      "id": "LinkedIn_urn:li:jobPosting:4439924032",
+      "title": "Symfony-Entwickler:in (m/w/x) - ab sofort",
+      "company": "seitenblick interaktive medien gmbh",
+      "url": "https://www.linkedin.com/jobs/view/symfony-entwickler-in-m-w-x-ab-sofort-at-seitenblick-interaktive-medien-gmbh-4439924032",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-22",
+      "work_type": "remote",
+      "location": "Greater Fond du Lac Area",
+      "description": "Du hast Berufserfahrung in der PHP-Entwicklung und arbeitest gerne mit Symfony? Du willst flexibel und ortsunabhängig arbeiten? Dann bist du bei uns genau richtig!Dein Tech-StackPHP & SymfonyMariaDBClickHouseSolrDocker / PodmanWas dich erwartetAnspruchsvolle Webprojekte mit modernen TechnologienVollständig remote arbeiten – kein BürozwangFlexible Arbeitszeiten, flache Hierarchien, Teilzeit möglichDie Möglichkeit eigene Ideen einzubringen und interne Prozesse mitzugestaltenWas du mitbringen solltestMehrjährige Erfahrung in PHP & SymfonyGute SQL KenntnisseSicherer Umgang mit GitGrundkenntnisse im Umgang mit der Linux-ShellGrundkenntnisse in der Frontend-Entwicklung (HTML/CSS/JavaScript) von VorteilEigenständige, strukturierte ArbeitsweiseInteresse?Dann schick uns deine Bewerbung an jobs@seitenblick.de. Wir freuen uns auf dich!",
+      "match_score": 85,
+      "match_confidence": "high",
+      "match_pros": [
+        "PHP primary language",
+        "Symfony match"
+      ],
+      "match_cons": [
+        "MariaDB instead of PostgreSQL",
+        "ClickHouse not mentioned"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4433268804",
+      "title": "Drupal and Integrations Developer",
+      "company": "Smith College",
+      "url": "https://www.linkedin.com/jobs/view/drupal-and-integrations-developer-at-smith-college-4433268804",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-22",
+      "work_type": "remote",
+      "location": "Northampton, MA",
+      "description": "If you have any questions about the position or our application process, reach out to us at recruiting-u@smith.edu.DepartmentCommunications and MarketingJob DescriptionJob SummaryMaintain, manage and improve mission critical and/or complex enterprise applications and associated services and workflows. Support service requests and collaborate with stakeholders to deploy solutions using assigned application(s). Oversee troubleshooting from routine to highly complex issues and escalates to vendors. Maintain security within the application(s) and manage routine updates and patching, as well as coordinating more complex system upgrades. Contribute to the development of documentation and standards. Lead large size projects associated with service delivery or maintenance. Work closely with key stakeholders and supports continuous improvement, as well as providing input for strategic planning. May be called upon after hours and/or weekends to address urgent issues.Take appropriate actions to support a diverse workforce and participate in the College's efforts to create a respectful, inclusive, and welcoming work environment. Essential FunctionsTechnical Engineering & Core Development (40%): Develop and maintain custom Drupal 10+ modules using modern APIs and best practices. Design and implement secure API integrations with enterprise platforms (Salesforce, Slate, Workday). Maintain and modernize legacy PHP codebases to ensure long-term sustainability and compatibility with current architecture. Strategic Marketing Partnership (25%): Partner with the Marketing Director to leverage analytics tracking, GA4 events, and server-side tagging. Architect 'author-friendly' administrative interfaces (Paragraphs) to empower non-technical content managers. Monitor and optimize Core Web Vitals and site speed to support SEO and brand performance. Systems Maintenance & DevOps (25%): Manage hosting environments (e.g., Pantheon), including deployment pipelines (CI/CD), configuration management, regression testing, security and version updates. Act as primary technical troubleshooter for high-traffic institutional events. Documentation & Collaboration (10%): Document technical implementations and integration patterns to ensure team redundancy. Consult with the Marketing Director and Web Lead during planning phases to provide feasibility assessments for new digital initiatives. Perform other duties as assigned by management.Minimum Requirements:Bachelor's Degree, Field: Computer Scie",
+      "match_score": 55,
+      "match_confidence": "high",
+      "match_pros": [
+        "Laravel matches",
+        "Remote-friendly"
+      ],
+      "match_cons": [
+        "Requires AWS",
+        "Danish preferred"
+      ]
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4481323108",
+      "title": "PHP Developer",
+      "company": "Online Associates",
+      "url": "https://www.linkedin.com/jobs/view/php-developer-at-online-associates-4481323108",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-22",
+      "work_type": "remote",
+      "location": "Colorado, United States",
+      "description": "The RoleAccountabilitiesAs a PHP Developer, you'll be engineering solutions using SOLID principles, whilst following BDD and TDD practices.You'll be coding and refactoring projects for our clients, as well as our own internal framework.Location and Working HoursAs long as you are super-productive and can co-ordinate well with the rest of our team, you can work from wherever you like with pretty flexible hours.SalaryDepending on your experience, appraisals and length of service, your salary will be between Rs.35,000 - Rs.150,000 per month. You'll also enjoy 24 days of paid vacation each year. Vacation days are allocated at a rate of 2-4 days per month, which are accrued between months and can be traded at the year-end for extra pay.RequirementsMustFluent in written English.Proven web application development experienceExperience of using enterprise design patternsExperience in Symfony2 (or similar MVC framework).Experience in Doctrine2 (or similar ORM).Strong database design (we use MYSQL and MongoDb)Experience developing data driven APIsWell versed with git version controlTest Driven Development using PHPUnitAbility to communicate effectively with both technical and non-technical colleaguesAble to work effectively in a self-organising teamDesiredExperience with client-side JavaScript (including frameworks such as AngularJS)Experience working in an Agile/Scrum environmentExperience working in a Continuous Delivery environmentExperience using the Symfony/Zend ComponentsHow To ApplySend an email to \"jobs@onlineassociates.ae\"Tell us about yourselfTell us which of our values you appreciate the most.Wait for us to reply. We reply to everyone, even if it doesn't seem like a good fit.Please put \"Posting - PHP Developer\" in the subject line of your emailPosting will remain open until the end of day June 16, 2016"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4481199636",
+      "title": "Backend Developer PHP / Symfony | 50–65 K€",
+      "company": "Joppy",
+      "url": "https://es.linkedin.com/jobs/view/backend-developer-php-symfony-50%E2%80%9365-k%E2%82%AC-at-joppy-4481199636",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-22",
+      "work_type": "onsite",
+      "location": "Greater Madrid Metropolitan Area",
+      "description": "Colaboramos con el mayor comparador de precios online de Alemania, con 25 años de historia, más de 20 millones de clientes y sede en Madrid desde 2020. Es una empresa tecnológica en crecimiento constante, con un equipo de producto sólido donde se valora el trabajo bien hecho. Si buscas un sitio para desarrollarte rodeado de profesionales de alto nivel, esta puede ser tu próxima oportunidad.📍 Madrid · Híbrido (3 días a la semana en oficina) · Contrato indefinido · 50.000–65.000 € brutos/año según experiencia👀 Qué buscamos Un/a Backend Developer con experiencia sólida en programación orientada a objetos y foco en desarrollo de producto.Requisitos clave4+ años de experiencia con PHP y Symfony (o Laravel).Buenas prácticas de desarrollo: SOLID y testing.Experiencia con bases de datos relacionales SQL, preferiblemente MySQL.Mentalidad de mejora continua y experiencia con metodologías ágiles (Scrum, Kanban, Lean).Español fluido.ValorableJavaScript o TypeScript, y Vue 3.Nivel alto de inglés.Filosofía y prácticas DevOps.Monitorización y alertas: Prometheus, Grafana, VMAlert.Infraestructura con Terraform, AWS, Docker + Swarm, Puppet o Ansible.Redis y sistemas de mensajería como RabbitMQ.CI con herramientas como Bitbucket Pipelines.💻 Tu día a díaDesarrollar funcionalidades de producto en el back-end con PHP y Symfony.Apoyar el desarrollo front-end con TypeScript y Vue 3.Escalar productos aplicando buenas prácticas (SOLID, TDD, BDD) y arquitecturas escalables (DDD, Hexagonal).Contribuir activamente a la mejora de productos, procesos y prácticas del equipo.🎁 Qué te ofrecenContrato indefinido y proyecto a largo plazo.Un equipo unido, colaborativo y en constante crecimiento, con espacio para el deporte y las cañas post-trabajo 🍻.🤓 Formación continua: charlas tecnológicas, hackathons, meetups y apoyo a la formación interna y externa.🎉 Beneficios: retribución flexible (transporte, ticket restaurante, seguro médico, guardería) y 24 días de vacaciones."
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4482447590",
+      "title": "Senior PHP Developer (Ironwall)",
+      "company": "Surfshark",
+      "url": "https://pl.linkedin.com/jobs/view/senior-php-developer-ironwall-at-surfshark-4482447590",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-22",
+      "work_type": "onsite",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "description": "Join the Incogni engineering team to help us scale Ironwall, our specialized protection service safeguarding the online privacy and personal data of vulnerable individuals and public servants. We are looking for a Senior Backend Engineer who thinks in distributed systems, designs for resilience, and takes complete ownership of high-impact technical initiatives.Our mission is to build a scalable, secure, and resilient platform that supports rapid product growth. You will design core application services, eliminate architectural bottlenecks, and help evolve our tech stack across backend ecosystems.If you want to:Partner closely with product managers and stakeholders to analyze business requirements and translate them into clear, scalable technical solution proposals. Architect, build, and maintain high-traffic, business-critical backend services with a strong focus on reliability, low latency, and data security. Leverage modern AI developer tooling (e.g., coding assistants, LLM-driven refactoring, automated testing agents) to maximize delivery velocity and streamline technical workflows. Lead technical decision-making across service boundaries, domain modeling, data persistence, and deployment pipelines. Identify performance bottlenecks, optimize database queries, and design robust distributed workflows. Drive engineering excellence by conducting high-standard code reviews, establishing testing practices, and mentoring other engineers. Own initiatives end-to-end: from initial technical RFCs and system design to deployment, observability, and post-launch stability. And you can check off:Senior-level backend expertise: Extensive experience building, scaling, and maintaining production applications using PHP (modern 8.x) and familiarity or willingness to work with languages like Go or Node.js/TypeScript. System & API Design: Proven track record designing scalable RESTful APIs, clean domain models, and microservice/modular architectures. Data Management: Strong hands-on experience with relational databases (e.g., PostgreSQL, MySQL) including indexing, schema optimization, and caching strategies (e.g., Redis). Engineering Ownership: Demonstrated ability to drive projects from concept to deployment, making sound trade-offs between speed, scalability, and technical debt. Culture of Quality: Mastery of automated testing (unit, integration, end-to-end), CI/CD pipelines, and writing maintainable, well-documented code. Bonus points if you:Experience scaling platforms h"
+    },
+    {
       "id": "Larajobs_https://larajobs.com/job/3937",
       "title": "Full Stack Software Engineer (PHP/Laravel)- US Only",
       "company": "",
@@ -7014,28 +7094,6 @@
       "work_type": "onsite",
       "location": "Maldegem, Flemish Region, Belgium",
       "description": "Maatkasten Online groeit hard en heeft scherpe digitale ambities. Data, automatisering en slimme processen zijn bij ons geen bijzaak maar de motor van het bedrijf. Daarom zoeken we een Full Stack Developer (Laravel) met een extra troef: ervaring met WinterCMS. Jij helpt mee bouwen aan de digitale ruggengraat van dé snelstgroeiende maatkastenwebshop in België en Nederland.Wie zijn wij?MaatkastenOnline.be is een snelgroeiende webshop voor kasten op maat. Via de website ontwerp je eenvoudig je eigen maatkast in slechts enkele stappen. Je kiest de afmetingen, je favoriete indeling, kleuren en handgrepen. Klaar! Je maatkast wordt snel bij jou thuis geleverd als een doe-het-zelf pakket. Dankzij de eenvoudige montagehandleiding heb je je kast in een mum van tijd geïnstalleerd. Om onze website en processen te verbeteren zijn wij op zoek naar een gedreven en ervaren Full Stack Developer (Laravel).Jouw TakenAls full stack developer bouw je mee aan onze kernplatformen:Je ontwikkelt, onderhoudt en breidt ons custom ERP-systeem uit.Je werkt nauw samen met collega’s om automatiseringen en procesverbeteringen te identificeren en implementeren. Je denkt mee over functionele vereisten en technische oplossingen, met focus op performantie en schaalbaarheid. Je ondersteunt collega’s bij technische vragen of interne tooling. Je bouwt en onderhoudt onderdelen in WinterCMS.Je koppelt systemen via API’s en zorgt dat data netjes doorstroomt tussen website, ERP en externe tools.En ja: er liggen nog andere digitale projecten klaar die jij mee kan trekken.Je BentEen ware meester in PHP & Laravel.Ervaren in back-end development. Bonus: kennis van WinterCMS.Handig met SQL en Git(hub). Ervaring met Laravel Vue JS. Bonuspunten indien je overweg kan met HTML5, (S)CSS, JavaScript én TypeScriptIn je element in een klein team dat soepel schakelt, samenwerkt en kennis deelt.Leergierig en zin om nieuwe paden te bewandelen.Een API wizard die weet hoe je ze aanspreekt en/of opstelt.Wat Wij VerwachtenJe bent klaar om de volgende digitale dimensie te verkennen en te streven naar vernieuwing, verbetering en automatisering.Assertief en verantwoordelijkUitstekend in het bedenken (alleen of samen met collega's) van de ideale database structuur.Applicaties die niet alleen draaien maar ook schitteren in schaalbaarheid, stabiliteit en veiligheid.Bewaking van de kwaliteit door het omarmen van de juiste coding practices.Dit Kan Jij VerwachtenEen omgeving waar vernieuwing en automatisering niet alleen worde"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4439924032",
-      "title": "Symfony-Entwickler:in (m/w/x) - ab sofort",
-      "company": "seitenblick interaktive medien gmbh",
-      "url": "https://www.linkedin.com/jobs/view/symfony-entwickler-in-m-w-x-ab-sofort-at-seitenblick-interaktive-medien-gmbh-4439924032",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-21",
-      "work_type": "remote",
-      "location": "Greater Fond du Lac Area",
-      "description": "Du hast Berufserfahrung in der PHP-Entwicklung und arbeitest gerne mit Symfony? Du willst flexibel und ortsunabhängig arbeiten? Dann bist du bei uns genau richtig!Dein Tech-StackPHP & SymfonyMariaDBClickHouseSolrDocker / PodmanWas dich erwartetAnspruchsvolle Webprojekte mit modernen TechnologienVollständig remote arbeiten – kein BürozwangFlexible Arbeitszeiten, flache Hierarchien, Teilzeit möglichDie Möglichkeit eigene Ideen einzubringen und interne Prozesse mitzugestaltenWas du mitbringen solltestMehrjährige Erfahrung in PHP & SymfonyGute SQL KenntnisseSicherer Umgang mit GitGrundkenntnisse im Umgang mit der Linux-ShellGrundkenntnisse in der Frontend-Entwicklung (HTML/CSS/JavaScript) von VorteilEigenständige, strukturierte ArbeitsweiseInteresse?Dann schick uns deine Bewerbung an jobs@seitenblick.de. Wir freuen uns auf dich!",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Symfony match"
-      ],
-      "match_cons": [
-        "MariaDB instead of PostgreSQL",
-        "ClickHouse not mentioned"
-      ]
     },
     {
       "id": "LinkedIn_urn:li:jobPosting:4479519315",
@@ -7259,28 +7317,6 @@
       ],
       "match_cons": [
         "Missing PostgreSQL",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4433268804",
-      "title": "Drupal and Integrations Developer",
-      "company": "Smith College",
-      "url": "https://www.linkedin.com/jobs/view/drupal-and-integrations-developer-at-smith-college-4433268804",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-21",
-      "work_type": "remote",
-      "location": "Northampton, MA",
-      "description": "If you have any questions about the position or our application process, reach out to us at recruiting-u@smith.edu.DepartmentCommunications and MarketingJob DescriptionJob SummaryMaintain, manage and improve mission critical and/or complex enterprise applications and associated services and workflows. Support service requests and collaborate with stakeholders to deploy solutions using assigned application(s). Oversee troubleshooting from routine to highly complex issues and escalates to vendors. Maintain security within the application(s) and manage routine updates and patching, as well as coordinating more complex system upgrades. Contribute to the development of documentation and standards. Lead large size projects associated with service delivery or maintenance. Work closely with key stakeholders and supports continuous improvement, as well as providing input for strategic planning. May be called upon after hours and/or weekends to address urgent issues.Take appropriate actions to support a diverse workforce and participate in the College's efforts to create a respectful, inclusive, and welcoming work environment. Essential FunctionsTechnical Engineering & Core Development (40%): Develop and maintain custom Drupal 10+ modules using modern APIs and best practices. Design and implement secure API integrations with enterprise platforms (Salesforce, Slate, Workday). Maintain and modernize legacy PHP codebases to ensure long-term sustainability and compatibility with current architecture. Strategic Marketing Partnership (25%): Partner with the Marketing Director to leverage analytics tracking, GA4 events, and server-side tagging. Architect 'author-friendly' administrative interfaces (Paragraphs) to empower non-technical content managers. Monitor and optimize Core Web Vitals and site speed to support SEO and brand performance. Systems Maintenance & DevOps (25%): Manage hosting environments (e.g., Pantheon), including deployment pipelines (CI/CD), configuration management, regression testing, security and version updates. Act as primary technical troubleshooter for high-traffic institutional events. Documentation & Collaboration (10%): Document technical implementations and integration patterns to ensure team redundancy. Consult with the Marketing Director and Web Lead during planning phases to provide feasibility assessments for new digital initiatives. Perform other duties as assigned by management.Minimum Requirements:Bachelor's Degree, Field: Computer Scie",
-      "match_score": 55,
-      "match_confidence": "high",
-      "match_pros": [
-        "Laravel matches",
-        "Remote-friendly"
-      ],
-      "match_cons": [
-        "Requires AWS",
         "Danish preferred"
       ]
     },
@@ -13495,43 +13531,6 @@
       "work_type": "remote",
       "location": "Catania, Sicily, Italy",
       "description": "Chi siamo - Elevate (prima nota come Ennova Research)Siamo un’azienda che si occupa di software e tecnologia, progettando e sviluppando soluzioni digitali su misura per realtà complesse. Lavoriamo ogni giorno per aiutare i nostri clienti a trasformare il proprio business attraverso la tecnologia: digitalizziamo prodotti e servizi, miglioriamo l’esperienza dei clienti e potenziamo operazioni e asset aziendali, unendo visione strategica, capacità progettuale e una forte attitudine all’execution. Siamo ingegneri e creativi.Crediamo nel lavoro di squadra e nella condivisione, nel prendersi le proprie responsabilità e aiutare chi è in difficoltà per raggiungere un obiettivo più grande. Crediamo sia importante saper lavorare insieme, sperimentare, dire quello che si pensa e non avere paura di sbagliare.Ci piacciono le proposte concrete. Ci piace capire cosa non va e cosa possiamo farci, ci piacciono molto le persone che cercano i punti in comune, lavorano per unire e procedere verso l’obiettivo, sanno quando ascoltare e quando spingere all’azione. Ci piacciono i dati e i numeri, ci guidano gli obiettivi, e mettiamo al centro sempre il valore che riusciamo a generare, dentro e fuori l’azienda.Il ruoloStiamo cercando un Full Stack Developer con almeno 3 anni di esperienza pregressa nello sviluppo web, con una solida conoscenza di PHP per il back end, di framework/librerie front end moderni (es. Angular, React o Vue.js) e di Magento. Come Full Stack Developer presso Ennova Research avrai un ruolo chiave nello sviluppo, nella manutenzione e nell'ottimizzazione delle nostre applicazioni software.Sede di lavoro: Catania Attività PrevisteProgettare, sviluppare e mantenere applicazioni web scalabili basate su PHP.Collaborare con team cross-funzionali per definire e implementare soluzioni eleganti che soddisfino i requisiti aziendali.Gestire la logica lato server, i database e le API delle nostre applicazioni.Realizzare interfacce responsive e user-friendly, collaborando con UI/UX designer.Integrare soluzioni e-commerce in Magento.Scrivere codice pulito, ben documentato e manutenibile.Condurre test approfonditi, debugging e revisioni del codice per garantire una consegna del software di alta qualità.Requisiti PrincipaliLaurea triennale o magistrale in Informatica o Ingegneria.Esperienza comprovata come Full Stack Developer con competenze in PHP (Laravel, Symfony o altri framework).Buona conoscenza di uno tra Angular, React, Vue.js.Conoscenza di Magento.Forte comprensione"
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4461201969",
-      "title": "Wordpress Developer (German/Dutch Speaking)",
-      "company": "WP SEO AI",
-      "url": "https://nl.linkedin.com/jobs/view/wordpress-developer-german-dutch-speaking-at-wp-seo-ai-4461201969",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-30",
-      "work_type": "remote",
-      "location": "Amsterdam, North Holland, Netherlands",
-      "easy_apply": true,
-      "description": "Do you enjoy turning ideas into great websites, solving technical problems and experimenting with the latest development tools?At WP SEO AI, we’re looking for a WordPress Developer who combines strong technical skills with a sharp eye for design, curiosity for AI, and the ambition to help build something from the ground up.About WP SEO AIWP SEO AI is a B2B SaaS company providing AI-powered SEO content generation tools that help businesses grow their online presence through smarter content and search strategies.We have grown from €3M to €10M in recurring yearly revenue in 2025 and are targeting €50M within the next 24 months. We’re a bootstrapped, founder-led company, which means we don’t rely on external investors. This gives us the freedom to make fast, long-term decisions independently. Our team of 175+ people supports over 1700 clients across the Netherlands, Finland, Germany, Belgium, the UK and US while adding around 100 clients each month.Our technology combines advanced AI with deep human SEO expertise to help businesses increase organic traffic, improve search rankings and reach more customers online. We are now expanding beyond SEO into GEO (Generative Engine Optimization) and other areas of digital growth.As part of this expansion, we are building a new website maintenance and redesign service completely in-house. What started as a service delivered through external partners has already gained significant traction, with our international sales team landing new deals quickly.That means we’re growing the team quickly!Why join us?This is not a role where you’ll simply inherit an established system and follow a playbook. You’ll be one of the early members of a new team, giving you the opportunity to shape how we work, how we build websites and how we deliver value to clients.You will be the first person in this role for our Amsterdam HQ, working alongside a small, ambitious team that is currently three people and growing. Your ideas will have a direct impact on the development of the business, from the websites we build to the tools, processes and systems we use behind the scenes.We believe in ownership, experimentation and continuous improvement. If you see a better way of doing something, we want you to speak up and try it. If a new technology can help us work faster or build better products, we want you to explore it.You’ll also be joining an international environment where you’ll work with clients across different markets. Our German sales team i"
-    },
-    {
-      "id": "PHPDevCareers_senior-full-stack-laravel-developer-011-1370-1066178",
-      "title": "Senior Full Stack Laravel Developer - (011 - 1370)",
-      "company": "Hunt St",
-      "url": "https://phpdevelopercareers.com/jobs/senior-full-stack-laravel-developer-011-1370-1066178/",
-      "source": "PHPDevCareers",
-      "date": "",
-      "fetched_at": "2026-09-30",
-      "work_type": "remote",
-      "description_failed": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4473236649",
-      "title": "Senior Drupal Developer",
-      "company": "Thinkia",
-      "url": "https://es.linkedin.com/jobs/view/senior-drupal-developer-at-thinkia-4473236649",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-09-30",
-      "work_type": "remote",
-      "location": "Spain",
-      "easy_apply": true,
-      "description": "En Thinkia somos una consultora global AI-native, nacida para la Era de la Inteligencia. No somos una consultora tradicional que incorpora IA: nuestro ADN es IA-nativo desde los cimientos. Operamos como un AI Intelligence Engine integrado en el negocio de nuestros clientes, con una misión clara — convertir organizaciones en compañías AI-First.Combinamos tres disciplinas en cada proyecto: estrategia para definir el rumbo, diseño para crear experiencias humanas e intuitivas, e ingeniería para construir arquitecturas robustas, seguras y escalables. Lo que nos diferencia es la profundidad técnica real (agentes, modelos propios, MLOps — ingeniería profunda, no slides), la velocidad de prototipado (de idea a demo funcional en días, no meses) y la integración con la operación: no entregamos tecnología, entregamos resultados medibles.Desarrollamos soluciones y productos propios como Synapse (plataforma agéntica de IA empresarial), Pulse (desarrollo de software AI-native), RAGXplorer (motor propietario de RAG) y AI Contact Experience, entre otros, apoyados en nuestros frameworks The Mesh y AI Compass.Somos un equipo distribuido con presencia en Europa (sede central en España, además de Portugal, Francia, Hungría, República Checa y Países Bajos), América (Colombia, México y Chile) y Oriente Medio y Asia (Egipto, Kazajistán y China).Brains, bytes and bold ideas.Misión: ser la referencia técnica del pod en el Run de 15 sitios Drupal: upgrades de versión, activación de funcionalidades en nuevos países, regresiones por el upgrade de activeWhere y flujo de bugs. Después, tomar tickets de Build.Imprescindible:5+ años en Drupal, con Drupal 10 en producción y desarrollo de módulos a medida a nivel senior.Entity API, Plugin API, servicios e inyección de dependencias, hooks, Form API.Configuration management avanzado (CMI), idealmente con config splits para gestionar comportamiento por país o entorno. En Culligan es lo central: una sola base de código, 15 sitios y la configuración de cada país separada.Experiencia en Drupal Commerce o en e-commerce sobre Drupal: carrito, checkout, precios, pedidos recurrentes.Integraciones con APIs REST y GraphQL, y flujos de pasarelas de pago (webhooks, estados de pago).Pull requests con revisión obligatoria, phpcs / Drupal coding standards y tests unitarios (PHPUnit).Inglés profesional fluido (B2 alto / C1)Muy valorable:Pantheon (Terminus, Quicksilver, dev/test/live), ddev, Redis y Solr.Azure DevOps (boards, repos, pipelines).Upgrades de ve"
     }
   ]
 }
