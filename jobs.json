@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T11:09:16.380694+00:00",
+  "updated_at": "2026-10-28T14:09:19.487345+00:00",
   "jobs": [
     {
       "id": "Jobindex_https://www.jobindex.dk/vis-job/r14057136",
@@ -66,6 +66,30 @@
       "date": "Fri, 23 Oc",
       "fetched_at": "2026-10-28",
       "work_type": "remote",
+      "description_failed": true
+    },
+    {
+      "id": "IT-jobbank_h1711389",
+      "title": "Studentermedhjælper med fokus på web og kommunikation",
+      "company": "IT-Universitetet i København",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1711389/studentermedhjaelper-med-fokus-paa-web-og-kommunikation",
+      "source": "IT-jobbank",
+      "date": "2026-10-28",
+      "fetched_at": "2026-10-28",
+      "denmark": true,
+      "location": "Denmark",
+      "description_failed": true
+    },
+    {
+      "id": "IT-jobbank_h1711289",
+      "title": "DevOps Engineer (AI) til Forsvarets nye IT-platform",
+      "company": "Forsvarsministeriets Materiel- og Indkøbsstyrelse",
+      "url": "https://www.it-jobbank.dk/jobannonce/h1711289/devops-engineer-ai-til-forsvarets-nye-it-platform",
+      "source": "IT-jobbank",
+      "date": "2026-10-28",
+      "fetched_at": "2026-10-28",
+      "denmark": true,
+      "location": "Denmark",
       "description_failed": true
     },
     {
@@ -4250,7 +4274,7 @@
       "source": "LinkedIn",
       "date": "",
       "fetched_at": "2026-10-28",
-      "work_type": "remote",
+      "work_type": "onsite",
       "location": "Frankfurt am Main, Hesse, Germany",
       "easy_apply": true,
       "description": "Senior PHP/KI Backend Entwickler (m/w/d)Festanstellung | Unbefristet | Frankfurt am Main | Gehalt bis 75.000 € p. a.Mein Mandant ist ein innovatives Unternehmen im Bereich Online-Banking und entwickelt digitale Produkte, die den Finanzsektor nachhaltig verändern. Für den Standort Frankfurt am Main wird ein Senior PHP/KI Backend Entwickler (m/w/d) gesucht, der seine Erfahrung in moderne Backend-Architekturen einbringt und aktiv an der Weiterentwicklung zukunftsweisender Finanzlösungen mitwirkt.Ihre Aufgaben:Konzeption, Entwicklung und Weiterentwicklung leistungsfähiger Backend-Systeme für digitale FinanzprodukteMitgestaltung und Optimierung der Systemarchitektur sowie Entwicklung skalierbarer Schnittstellen (REST APIs)Analyse, Wartung und kontinuierliche Optimierung bestehender Anwendungen hinsichtlich Performance, Stabilität und SkalierbarkeitTechnische Verantwortung für komplexe Entwicklungsaufgaben und Unterstützung bei ArchitekturentscheidungenSicherstellung hoher Softwarequalität durch automatisierte Tests, Code Reviews und Best PracticesZusammenarbeit mit interdisziplinären Teams aus Produktmanagement, Frontend-Entwicklung und DevOpsMentoring und fachliche Unterstützung weniger erfahrener EntwicklerAnforderungen:Mindestens 5 Jahre Berufserfahrung in der Backend-Entwicklung mit PHPSehr gute Kenntnisse in PHP sowie umfangreiche Erfahrung mit modernen Frameworks wie Symfony oder LaravelFundierte Kenntnisse in der Entwicklung und Anbindung von REST APIsSicherer Umgang mit relationalen Datenbanken, Git, Docker und Linux-SystemenErfahrung mit Softwarearchitektur, Clean Code, Design Patterns und automatisierten TestsInteresse und Erfahrung an modernen Entwicklungswerkzeugen, wie Claude, Cursor oder Cordex und KI-gestützten TechnologienSelbstständige, strukturierte und lösungsorientierte ArbeitsweiseSehr gute Deutschkenntnisse sowie gute EnglischkenntnisseDas wird Ihnen geboten:Attraktives Gehaltspaket von bis zu 75.000 € jährlich, abhängig von Qualifikation und BerufserfahrungFlexibles Arbeitszeitmodell mit hybrider Arbeitsweise (3 Tage vor Ort pro Woche)Verantwortungsvolle Position mit großem GestaltungsspielraumIndividuelle Weiterbildungs- und EntwicklungsmöglichkeitenModerne Technologien und spannende Projekte im FinTech-UmfeldZentrale Lage mit hervorragender VerkehrsanbindungUmfangreiche Zusatzleistungen wie Jobticket, Verpflegung, Teamevents und weitere BenefitsMöglichkeit zum Fahrrad-Leasing mit finanzieller UnterstützungKontaktIch freue mich auf Ihre "
@@ -6895,6 +6919,18 @@
       "work_type": "remote",
       "location": "Germany",
       "description": "Senior Backend Developer PHP/Symfony – AI & E-Commerce (m/f/d)About The CompanyHygi.de GmbH & Co. KG is a leading German online retailer for medical products, hygiene supplies, and cleaning products. Since 2003, the company has continued to expand its offering and now serves more than 3.2 million customers with a range of over 140,000 products. Around 300 employees contribute their expertise and commitment to the company’s growth. Hygi.de combines a modern digital infrastructure with short decision-making paths, collaboration across teams, and a culture that encourages innovation, ownership, and practical ideas.About The RoleAs a Senior Backend Developer, you will help shape the technology behind a large-scale e-commerce shop. You will join a backend team of four developers and work closely with the Shop Team Lead, product owners, and colleagues across the business. This is a hands-on senior role with influence over architecture, technical standards, and the development of high-impact shop capabilities.You will also help define how AI can support software engineering and customer-facing commerce. You will apply AI coding tools thoughtfully, evaluate new use cases, and help turn promising ideas into reliable, maintainable solutions with measurable business value. The role offers the opportunity to connect sound engineering decisions with outcomes such as customer experience, conversion, and efficient operations.QualificationsAt least five years of backend development experience using modern PHP and Symfony.Strong understanding of software architecture, such as domain-driven design, modular monoliths, microservices, or event-driven systems.Excellent knowledge of MySQL, including performance optimization, caching, and queueing.Practical experience with AI coding assistants or coding agents, and the ability to assess generated code critically.A balanced approach to technical quality, maintainability, performance, and commercial value.Very good German and good English language skills.Experience with LLM APIs, RAG, embeddings, vector databases, agentic workflows, e-commerce platforms, or ERP, payment, and logistics integrations is an advantage.Mentoring experience or the ability to support other developers’ technical growth is welcome.ResponsibilitiesDevelop and evolve backend architecture using PHP 8.x and Symfony, making informed decisions about scalability, maintainability, and performance.Design and deliver complex e-commerce features across checkout, pricin"
+    },
+    {
+      "id": "LinkedIn_urn:li:jobPosting:4483869712",
+      "title": "Backend Software Engineer (PHP, Java)",
+      "company": "Wiraa",
+      "url": "https://www.linkedin.com/jobs/view/backend-software-engineer-php-java-at-wiraa-4483869712",
+      "source": "LinkedIn",
+      "date": "",
+      "fetched_at": "2026-10-28",
+      "work_type": "remote",
+      "location": "United States",
+      "description": "About The CompanyCommerce is dedicated to empowering businesses to innovate, grow, and thrive through an open, AI-driven commerce ecosystem. As the parent company of BigCommerce, Feedonomics, and Makeswift, Commerce connects the tools and systems that drive growth, enabling businesses to unlock the full potential of their data. By delivering seamless and personalized experiences across every channel and adapting swiftly to an ever-changing market, Commerce helps companies solve complex commerce challenges with confidence. Our mission is to help businesses build smarter, adapt faster, and grow on their own terms. We value responsible AI usage to unlock new possibilities, solve problems intentionally, and accelerate outcomes. Join a team of bold builders, sharp thinkers, and technical trailblazers shaping the future of commerce.About The RoleWe are seeking a Lead Software Engineer - Backend to define and drive the technical vision within our domain. This role involves designing and implementing scalable, high-availability solutions to complex and ambiguous problems. The successful candidate will own end-to-end technical project execution, participate in architectural discussions, and provide deep subject matter expertise across sophisticated areas. You will mentor team members, advocate for continuous improvement, and foster a culture of shared learning. This position requires active collaboration with partner teams to ensure cross-functional alignment and the ability to leverage automation to enhance CI/CD pipelines and infrastructure robustness. As a remote-first company, Commerce supports flexible work arrangements with optional collaborative workspaces in Austin, Atlanta, and London.Qualifications7+ years of programming experience in backend languagesStrong experience with PHP (Python, GoLang, Java, or similar languages are a plus)Extensive experience with MySQL or similar databases, including schema design, caching, and scalabilityStrong understanding of communication protocols such as TCP and gRPC, and distributed systemsAbility to perform time and memory complexity analysisExperience with caching technologies like Redis or MemcachedDevOps experience is highly preferredSolid understanding of Linux operating systemsExperience with modern CI/CD and containerization tools such as DockerExperience with cloud solutions, with a strong preference for Google Cloud Platform (GCP)Experience with full-stack observability frameworks and tools, preferably OpenTelem"
     },
     {
       "id": "Himalayas_https://himalayas.app/companies/optios/jobs/senior-php-backend-developer-3489899377",
@@ -13396,53 +13432,6 @@
       "denmark": true,
       "location": "Denmark",
       "description_failed": true
-    },
-    {
-      "id": "IT-jobbank_h1698928",
-      "title": "Digital Tech Lead",
-      "company": "Carl Ras A/S",
-      "url": "https://www.it-jobbank.dk/jobannonce/h1698928/digital-tech-lead",
-      "source": "IT-jobbank",
-      "date": "2026-09-16",
-      "fetched_at": "2026-10-04",
-      "denmark": true,
-      "location": "Denmark",
-      "description_failed": true
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4432279754",
-      "title": "Backend PHP Developer",
-      "company": "team.blue",
-      "url": "https://be.linkedin.com/jobs/view/backend-php-developer-at-team-blue-4432279754",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-04",
-      "work_type": "onsite",
-      "location": "Ghent, Flemish Region, Belgium",
-      "description": "Combell werft aan!Als marktleider op vlak van hostingdiensten voor bedrijven is Combell uitgegroeid tot de meest betrouwbare one-stop partner voor de hosting van zowat elke IT-infrastructuur, website of applicatie.team.blueCombell is onderdeel van de internationale groep team.blue, bestaande uit 4.000 medewerkers doorheen 22 landen, 60 brands (hosting & SaaS) en 3,5 miljoen klanten.Wat ga je doen?Je zet mee je schouders onder het optimaliseren van ons Europees cloud-en hostingplatform.Achter de schermen werken heel wat teams aan jouw diensten. Eén van die teams, ons Platforms-team bestaande uit 20-tal collega's (development, infrastructure & operations), zorgt voor onze platformen. Dit team staat in voor het beheer van de grootste cloud- en hostinginfrastructuur in België. Dit platform zal de komende jaren nog verder uitgerold worden binnen onze Europese team.blue groep en hier kan jij aan bijdragen.De bescherming door het Combell Shield of het gebruiksgemak van onze Managed WordPress: alle features waar jij van geniet op onze webhosting, komen uit de koker én de vingers van ons Platforms-team.Als PHP Developer werk je, op basis van een uitgebreide roadmap, mee aan het platform voor onze cloud- en hostinginfrastructuur.De focus ligt op backend PHP Development van nieuwe features.Je werkt mee aan onze microservices architectuur en staat mee in voor het bouwen en onderhouden van alle interne API’s. Dit vormt namelijk de focus van informatie-uitwisseling over de hele Europese cluster.Je zal veel verantwoordelijkheden kunnen opnemen en inspraak hebben. Dat wil zeggen dat je naast development ook betrokken zal worden bij de analyse, architectuur, ...De meeste zaken waar je mee in aanraking zal komen hebben een 1 op 1 relatie met de infrastructuur (Linux hosting setting). Niettemin bouwen we ook automatisaties voor Managed WordPress, WooCommerce, ...Je komt terecht in ons Platforms development team van een 5-tal collega’s en zal de ruimte krijgen om je visie uit te dragen, je mening te delen en inbreng te hebben.Met welke technologieën?PHP;Symfony;API’s (waaronder API-Platform & OpenAPI specificaties);MySQL, PostgreSQL & Elasticsearch;Kubernetes & Docker;Ansible (AWX), Git & Gitlab;Atlassian stack (Jira, Confluence, …);AI-assisted coding tools (Claude Code etc.);Je zal nauw in aanraking komen met de infrastructuur: Linux, operating systems, servers, storage, ...Je hoeft geen ervaring te hebben met alle bovenstaande technologieën zolang je leergierig bent en je g",
-      "match_score": 85,
-      "match_confidence": "high",
-      "match_pros": [
-        "PHP primary language",
-        "Seniority matches"
-      ],
-      "match_cons": [
-        "No Laravel experience",
-        "Danish preferred"
-      ]
-    },
-    {
-      "id": "LinkedIn_urn:li:jobPosting:4461126288",
-      "title": "PHP Developer (m/w/d)",
-      "company": "Optimus Search",
-      "url": "https://de.linkedin.com/jobs/view/php-developer-m-w-d-at-optimus-search-4461126288",
-      "source": "LinkedIn",
-      "date": "",
-      "fetched_at": "2026-10-04",
-      "work_type": "onsite",
-      "location": "Frankfurt, Hesse, Germany",
-      "easy_apply": true,
-      "description": "PHP Backend Developer (m/w/d), der an der Entwicklung und Weiterentwicklung moderner, digitaler Anwendungen mitwirken möchte.Standort: Frankfurt am MainAnstellung: Vollzeit | UnbefristetLevel: Junior bis ProfessionalDeine RolleDich erwartet eine technisch anspruchsvolle Systemlandschaft mit modernen Web-Technologien, kurzen Entwicklungszyklen und einem hohen Qualitätsanspruch. Gemeinsam mit einem agilen Entwicklungsteam arbeitest Du sowohl an neuen Funktionen als auch an der kontinuierlichen Verbesserung bestehender Anwendungen und Services.Die Position eignet sich sowohl für Entwickler mit erster praktischer Erfahrung als auch für Kandidaten, die bereits fundierte PHP-Kenntnisse mitbringen und sich technisch weiterentwickeln möchten.Deine Aufgaben:Entwicklung und Implementierung neuer Funktionen für digitale Anwendungen und PlattformenWeiterentwicklung bestehender PHP-basierter Backend-SystemeMitarbeit an der technischen Architektur und kontinuierliche Optimierung der bestehenden SystemlandschaftEntwicklung und Integration von REST-basierten Schnittstellen und ServicesArbeit mit relationalen Datenbanken sowie Caching- und Backend-KomponentenSicherstellung einer hohen Softwarequalität durch Code Reviews und automatisierte TestsAnalyse bestehender Komponenten und Identifikation technischer VerbesserungspotenzialeEnge Zusammenarbeit mit anderen Entwicklern und angrenzenden technischen TeamsDein ProfilPraktische Erfahrung in der Entwicklung mit PHPKenntnisse in einem etablierten PHP-Framework wie Symfony oder LaravelErfahrung im Umgang mit relationalen DatenbankenSicherer Umgang mit GitErste oder fundierte Kenntnisse mit Docker und LinuxVerständnis moderner Softwarearchitekturen und API-basierter Anwendungen von VorteilInteresse an modernen Entwicklungsansätzen und AI-gestützten Development ToolsSehr gute Kommunikationsfähigkeit auf Deutsch und EnglischTechnisches Umfeld:PHP | Symfony / Laravel | REST APIs | SQL | Git | Docker | Linux | Automated Testing | Service-orientierte ArchitekturenJe nach Projekt und Team kommen weitere moderne Technologien und AI-gestützte Entwicklungswerkzeuge zum Einsatz.Was Dich erwartetDu arbeitest in einem technologisch geprägten Unternehmen mit kurzen Entscheidungswegen und einem starken Fokus auf die Weiterentwicklung digitaler Produkte. Dabei erhältst Du früh Verantwortung und kannst eigene Ideen in die technische Weiterentwicklung einbringen.Neben einer langfristigen Perspektive erwarten Dich individuelle Weiterbildungsmögli"
     }
   ]
 }
